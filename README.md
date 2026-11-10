@@ -31,14 +31,39 @@ cd history-atlas
 adb install -r app\build\outputs\apk\debug\app-debug.apk
 ```
 
-产物：`history-atlas/app/build/outputs/apk/debug/app-debug.apk`（约 17.6 MB）
+产物：`history-atlas/app/build/outputs/apk/debug/app-debug.apk`（约 17.2 MB）
 
 环境要求：JDK 17、Android SDK（compileSdk 35）、Python 3.9+。
 
+### 构建 Release 包
+
+```powershell
+cd history-atlas
+.\gradlew.bat :app:assembleRelease
+```
+
+R8 混淆压缩后自动复制到 `dist/HistoryAtlas-v<版本号>.apk`（约 2.0 MB，
+比 debug 包小 8.5 倍，主要是剥掉了 material-icons-extended 中未使用的图标）。
+
+- 产物名由 `app/build.gradle.kts` 顶部的 `appVersion` 派生，不会与 APK 内的
+  `versionName` 漂移
+- 使用 **debug 密钥**签名：产物可直接安装，无需另配 keystore
+- `dist/` 与 `*.apk` 均在 `.gitignore` 中，产物不入库，通过 GitHub Release 分发
+- R8 依赖 `app/proguard-rules.pro` 保留 kotlinx.serialization 的序列化器，
+  否则数据无法反序列化（构建后请实际安装验证，不要只看编译通过）
+
+### 发布新版本
+
+1. 改 `app/build.gradle.kts` 顶部的 `appVersion` / `appVersionCode`
+2. 同步 `VERSION` 文件、`CHANGELOG.md`、`README.md` 的规模统计
+3. `.\gradlew.bat :app:assembleRelease`
+4. 提交并打标签：`git tag -a vX.Y.Z`
+5. `gh release create vX.Y.Z history-atlas/dist/HistoryAtlas-vX.Y.Z.apk`
+
 ### 直接安装
 
-到 [Releases](https://github.com/liaoguogang-hub/history-atlas/releases) 下载 `app-debug.apk`，
-支持 Android 7.0（API 24）及以上。当前为 debug 签名，仅供试用。
+到 [Releases](https://github.com/liaoguogang-hub/history-atlas/releases) 下载 `HistoryAtlas-v1.0.0.apk`，
+支持 Android 7.0（API 24）及以上。当前为 debug 密钥签名（R8 混淆的 release 构建），仅供自行分发。
 
 ### 版本管理
 

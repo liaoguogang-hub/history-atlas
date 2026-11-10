@@ -21,10 +21,15 @@ history-atlas/.idea/
 history-atlas/local.properties
 history-atlas/captures/
 history-atlas/.cxx/
+# dist/ 是按版本号命名的 release 产物，只用于分发，不入库
+history-atlas/dist/
 *.apk
 *.aab
 *.hprof
 *.iml
+*.jks
+*.keystore
+keystore.properties
 
 # ── 由 data/ 同步进 assets 的副本 ─────────────────────────────
 # 它们由 scripts/sync_data.ps1 从 data/china.json、data/world.json 复制而来，

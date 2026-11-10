@@ -5,6 +5,13 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
+// 版本号单一来源。只改这里，下面三处会同步派生，不会漂移：
+//   1. APK 内的 versionName（系统「应用信息」里显示的版本）
+//   2. dist 目录里的产物名（HistoryAtlas-v<version>.apk）
+//   3. 发布用的 GitHub Release 标签
+val appVersion = "1.0.0"
+val appVersionCode = 1
+
 android {
     namespace = "com.historyatlas.app"
     compileSdk = 35
@@ -13,8 +20,8 @@ android {
         applicationId = "com.historyatlas.app"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = appVersionCode
+        versionName = appVersion
     }
 
     buildTypes {
@@ -23,10 +30,15 @@ android {
         }
         release {
             isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            // 用 debug 密钥签名：产物可直接安装，无需另配 keystore。
+            // 这与本机其它 Android 项目（如 DshRemote）的做法一致。
+            // 注意：debug 签名不适合上架，仅供自行分发。
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
@@ -142,4 +154,27 @@ val syncData by tasks.registering(Copy::class) {
 /** 每次打包前自动同步一次数据，保证 APK 里始终是最新内容。 */
 tasks.matching { it.name == "preBuild" }.configureEach {
     dependsOn(syncData)
+}
+
+/**
+ * 把 release APK 按版本号命名复制到仓库根的 `dist/`。
+ *
+ * 产物名由 `appVersion` 派生，因此永远不会出现「文件名写 v1.0 但 APK 里是 0.9」的漂移。
+ * release 构建结束后自动执行，等价于：
+ *   .\gradlew.bat :app:distApk
+ */
+val distApk by tasks.registering(Copy::class) {
+    group = "distribution"
+    description = "把 release APK 复制到 dist/HistoryAtlas-v$appVersion.apk"
+    dependsOn("assembleRelease")
+    from(layout.buildDirectory.file("outputs/apk/release/app-release.apk"))
+    into(rootProject.file("dist"))
+    rename { "HistoryAtlas-v$appVersion.apk" }
+}
+
+afterEvaluate {
+    // AGP 的变体生命周期任务在配置阶段后期才创建，因此这里才挂钩子
+    tasks.named("assembleRelease").configure {
+        finalizedBy(distApk)
+    }
 }
