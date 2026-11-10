@@ -31,6 +31,19 @@ FORCE_MERGE = {
     "陈平": (None, -178),
     # 仆固怀恩（？—765）：一份卒年符号写反成 -781
     "仆固怀恩": (None, 765),
+    # 唐文宗李昂（809—840）：一份误作「李昴」，名字是错字，生卒一致
+    "李昂": (809, 840),
+    "李昴": (809, 840),
+    # 李怀光（729—785）：一份生年误作 700，卒年误作 786
+    "李怀光": (729, 785),
+    # 鱼朝恩（722—770）：一份生年缺失、卒年误作 784
+    "鱼朝恩": (722, 770),
+}
+
+# 同一人物的不同写法 → 规范名。合组时按规范名归并，
+# 避免「李昂 / 李昴」这类错字导致同名去重失效。
+NAME_ALIAS = {
+    "李昴": "李昂",
 }
 
 # 名字与内容不符的条目：id -> (正确姓名, 生年, 卒年)
@@ -115,8 +128,14 @@ def main():
         groups = collections.defaultdict(list)
         for f in figs:
             n = (f.get("name") or "").strip()
-            if n:
-                groups[n].append(f)
+            if not n:
+                continue
+            # 同一人物的错字写法归到规范名下，否则同名去重会失效
+            # （「李昴」与「李昂」是同一人，不归并就会留下两条）
+            canonical = NAME_ALIAS.get(n, n)
+            if canonical != n:
+                f["name"] = canonical
+            groups[canonical].append(f)
 
         rename = {}
         survivors = {}

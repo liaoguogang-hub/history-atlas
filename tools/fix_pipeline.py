@@ -65,9 +65,10 @@ def main():
         ("group_cross_civ.py", path) if scope == "world" else ("noop.py", path),
         # 人物按生卒年归位到正确的时期
         ("reassign_figures.py", path),
-        # 少数条目的 periodId 在原始分片里就错了，自动归位纠正不了
-        # （如汉高祖刘邦被标在战国），这里逐条按史实修正
-        ("fix_figure_period_misc.py", path),
+        # 少数条目的 periodId 与生卒年被写错，自动归位纠正不了
+        # （如奥斯曼一世被写成中世纪伊斯兰世界），这里逐条按史实修正
+        ("fix_world_figure_period.py", path) if scope == "world"
+        else ("fix_figure_period_misc.py", path),
         # 规范化 id（原始分片里存在带空格/大写的畸形 id）
         ("fix_malformed_ids.py", path),
         # 事件名中文化（必须早于详情生成，否则模板会引用英文名）
