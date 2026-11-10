@@ -220,7 +220,7 @@
   "gender": "unknown"
  },
  {
-  "id": "fig-lu-xun-2",
+  "id": "fig-luxun-writer",
   "name": "周树人",
   "alias": "鲁迅",
   "role": "文学家",
@@ -438,7 +438,7 @@
   "gender": "unknown"
  },
  {
-  "id": "fig-li-shimin-2",
+  "id": "fig-li-shimin-tang",
   "name": "李世民",
   "alias": "唐太宗",
   "role": "君主",
@@ -562,7 +562,7 @@
   "gender": "unknown"
  },
  {
-  "id": "fig-tang-ai-di-2",
+  "id": "fig-li-zhu",
   "name": "李柷",
   "alias": "唐哀帝",
   "role": "君主",
@@ -938,7 +938,7 @@
   "gender": "unknown"
  },
  {
-  "id": "fig-li-yan-hao",
+  "id": "fig-li-conghou",
   "name": "李从厚",
   "alias": "后唐闵帝",
   "role": "君主",

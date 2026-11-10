@@ -76,6 +76,15 @@ def main():
             overall_ok = False
             continue
 
+        # 合并之前先规范分片里含义不清的人物 id。
+        # 这一步直接改写分片文件，因此必须在 merge_shards 之前调用。
+        if scope == "china":
+            for script in ("normalize_figure_ids.py", "resolve_shard_refs.py"):
+                r = sh([sys.executable, os.path.join(TOOLS, script)])
+                for line in (r.stdout or "").splitlines():
+                    if line.strip():
+                        print("  " + line)
+
         cmd = [sys.executable, os.path.join(TOOLS, "merge_shards.py"),
                "--scope", scope, "--out", cfg["out"]] + shards
         r = sh(cmd)

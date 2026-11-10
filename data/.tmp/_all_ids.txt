@@ -1,0 +1,825 @@
+=== FIGURES (id | name) ===
+fig-peking-man | 北京人
+fig-yuanmou-man | 元谋人
+fig-lantian-man | 蓝田人
+fig-shandongdong-man | 山顶洞人
+fig-huangdi | 黄帝
+fig-yandi | 炎帝
+fig-chanmu | 蚩尤
+fig-yu | 禹
+fig-shennong | 神农
+fig-fuxi | 伏羲
+fig-nvwa | 女娲
+fig-qi | 夏启
+fig-taikang | 太康
+fig-houyi | 后羿
+fig-liu-kang | 少康
+fig-tang | 商汤
+fig-yiyin | 伊尹
+fig-taijia | 太甲
+fig-pangeng | 盘庚
+fig-wuding | 武丁
+fig-fu-yue | 傅说
+fig-furen | 妇好
+fig-jie | 纣
+fig-bi-gan | 比干
+fig-ji-zi | 箕子
+fig-wei-zi | 微子
+fig-zhoubang | 帝乙
+fig-zhouwu | 周武王
+fig-zhougong | 周公旦
+fig-zhouchengwang | 周成王
+fig-zhouliwang | 周厉王
+fig-zhouyouwang | 周幽王
+fig-zhouxuanwang | 周宣王
+fig-zhaomugong | 召穆公
+fig-shacao-gong | 召公
+fig-zhoukangwang | 周康王
+fig-zhouzhaowang | 周昭王
+fig-zhoumuwang | 周穆王
+fig-zhouwang | 周文王
+fig-jiangzhu | 姜子牙
+fig-baoxi | 褒姒
+fig-zhoupingwang | 周平王
+fig-zhouhuanggong | 周桓王
+fig-kongzi | 孔子
+fig-lao-tzu | 老子
+fig-mozi | 墨子
+fig-mencius | 孟子
+fig-xunzi | 荀子
+fig-zhuangzi | 庄子
+fig-han-feizi | 韩非子
+fig-sun-tzu | 孙子
+fig-guan-zhong | 管仲
+fig-qi-huanggong | 齐桓公
+fig-bao-shuya | 鲍叔牙
+fig-xiao-bai | 小白
+fig-jin-wengong | 晋文公
+fig-hu-yuan | 狐偃
+fig-zhao-cui | 赵衰
+fig-xian-zhen | 先轸
+fig-chu-chengwang | 楚成王
+fig-chu-zhuangwang | 楚庄王
+fig-qin-mugong | 秦穆公
+fig-bai-lixi | 百里奚
+fig-meng-ming-shi | 孟明视
+fig-yan-ying | 晏婴
+fig-zheng-zhuang-gong | 郑庄公
+fig-shang-yang | 商鞅
+fig-liqin | 李悝
+fig-zouji | 邹忌
+fig-qi-weiwang | 齐威王
+fig-tian-ji | 田忌
+fig-sun-bin | 孙膑
+fig-zhang-liang | 章邯
+fig-su-qin | 苏秦
+fig-pang-juan | 庞涓
+fig-bai-qi | 白起
+fig-qin-shi-huang | 秦始皇
+fig-li-si | 李斯
+fig-zhao-gao | 赵高
+fig-chen-sheng | 陈胜
+fig-wu-guang | 吴广
+fig-liu-bang | 汉高祖刘邦
+fig-xiang-yu | 西楚霸王
+fig-han-wudi | 汉武帝
+fig-dou-ing | 窦太后
+fig-liu-ying | 汉文帝
+fig-liu-qi | 汉景帝
+fig-zhang-qian | 张骞
+fig-li-guang | 李广利
+fig-sima-qian | 司马迁
+fig-sima-xiangru | 司马相如
+fig-liu-xuan | 刘玄
+fig-wang-feng | 王凤
+fig-wang-xiu | 王秀
+fig-liu-gong | 刘歆
+fig-liu-xiu | 汉光武帝
+fig-feng-yi | 冯异
+fig-du-shi | 杜诗
+fig-ban-gu | 班固
+fig-ban-zhao | 班昭
+fig-ma-xu | 马续
+fig-ban-chao | 班超
+fig-gan-ying | 甘英
+fig-ban-yong | 班勇
+fig-cai-lun | 蔡伦
+fig-han-heidi | 汉和帝
+fig-zhang-heng | 张衡
+fig-zhang-zhongjing | 张仲景
+fig-hua-tuo | 华佗
+fig-liu-yu | 刘禹锡
+fig-bai-juyi | 白居易
+fig-yuan-zhen | 元稹
+fig-wang-changling | 王昌龄
+fig-cao-shuang | 曹爽
+fig-cao-zhi | 曹植
+fig-sima-shi | 司马师
+fig-sima-zhao | 司马昭
+fig-liu-bei | 刘备
+fig-zhuge-liang | 诸葛亮
+fig-guan-yu | 关羽
+fig-zhang-fei | 张飞
+fig-zhao-yun | 赵云
+fig-liu-shan | 刘禅
+fig-sunquan | 孙权
+fig-zhou-yu | 周瑜
+fig-lv-meng | 吕蒙
+fig-lu-xun | 陆逊
+fig-taishi-ci | 太史慈
+fig-wang-jun | 王濬
+fig-liang-wudi | 梁武帝
+fig-taishao | 司马绍
+fig-xie-an | 谢安
+fig-xie-xuan | 谢玄
+fig-sima-rui | 司马睿
+fig-tao-yuanming | 陶渊明
+fig-wang-xizhi | 王羲之
+fig-zu-chongzhi | 祖冲之
+fig-xiaowen | 元宏
+fig-tuoba-gui | 拓跋珪
+fig-yuwen-tai | 宇文泰
+fig-dug-paruo | 独孤伽罗
+fig-li-shimin | 李世
+fig-li-shangyin | 李世勣
+fig-fang-xuanling | 房玄龄
+fig-du-ru-hui | 杜如晦
+fig-wei-gong | 魏征
+fig-wu-zetian | 武则天
+fig-dai-rene | 狄仁杰
+fig-xuanzang | 玄奘
+fig-jianzhen | 鉴真
+fig-li-bai | 李白
+fig-du-fu | 杜甫
+fig-an-lushan | 安禄山
+fig-shi-sim | 史思明
+fig-yang-guozhong | 杨国忠
+fig-xuanzong | 李隆基
+fig-yang-guifei | 杨玉环
+fig-liu-zongyuan | 刘宗元
+fig-han-yu | 韩愈
+fig-yan-zhenqing | 颜真卿
+fig-wu-daozi | 吴道子
+fig-zhu-wu-zhong | 朱务忠
+fig-guo-ziyi | 郭子仪
+fig-li-guangbi | 李光弼
+fig-li-de | 李德
+fig-li-heng | 李愬
+fig-wu-daozi-2 | 张旭
+fig-tian-xiang | 田祥
+fig-li-huaiguang | 李怀光
+fig-li-jiancheng | 李建成
+fig-wang-yanzheng | 王彦之
+fig-wu-yue | 钱镠
+fig-li-bian | 李昪
+fig-li-yu | 李煜
+fig-qian-hongchu | 钱弘俶
+fig-liu-zhiyuan | 刘知远
+fig-guo-wei | 郭威
+fig-stone-jingmao | 石敬瑭
+fig-chao-rong | 柴荣
+fig-li-chang-tang | 李昶
+fig-li-shimin-tang | 李世民
+fig-li-yuan-tang | 李渊
+fig-liu-yao-2 | 刘裕
+fig-liu-zongyuan-2 | 柳宗元
+fig-xuande-2 | 朱厚熜
+fig-wang-dun | 王敦
+fig-zhong-hui | 钟会
+fig-deng-ai | 邓艾
+fig-zhongyu | 钟繇
+fig-zhuge-zhan | 诸葛瞻
+fig-muqtai | 木华黎
+fig-kublai-khan | 忽必烈
+fig-helian-bobobo | 赫连勃勃
+fig-li-gui | 李珪
+fig-gongsun-yuan | 公孙渊
+fig-kang-senghui | 康僧会
+fig-zheng-he | 郑和
+fig-li-shizhen | 李时珍
+fig-wang-yangming | 王守仁
+fig-zhang-juzheng | 张居正
+fig-qi-jiguang | 戚继光
+fig-xu-xiake | 徐霞客
+fig-wu-sangui | 吴三桂
+fig-li-zicheng | 李自成
+fig-chongzhen | 朱由检
+fig-nurhaci | 努尔哈赤
+fig-huang-taiji | 皇太极
+fig-duo-er-dung | 多尔衮
+fig-kangxi | 玄烨
+fig-yongzheng | 胤禛
+fig-qianlong | 弘历
+fig-jiaqing | 永琰
+fig-daoguang | 绵宁
+fig-wei-yuan | 魏源
+fig-zeng-guofan | 曾国藩
+fig-zuo-zongtang | 左宗棠
+fig-zhang-zhidong | 张之洞
+fig-kang-youwei | 康有为
+fig-zhang-taiyan | 张太炎
+fig-yuan-shikai | 袁世凯
+fig-song-jiaoren | 宋教仁
+fig-huang-xing | 黄兴
+fig-dong-bi-wu | 董必武
+fig-liu-shaoqi | 刘少奇
+fig-liu-bocheng | 刘伯承
+fig-peng-dehuai | 彭德怀
+fig-zhang-xueliang | 张学良
+fig-li-zongren | 李宗仁
+fig-hu-shi | 胡适
+fig-zhou-enlai | 周恩来
+fig-lin-biao | 林彪
+fig-zhengde | 朱厚照
+fig-yu-qian | 朱祁镇
+fig-wei-xiu | 朱见濋
+fig-yan-dayou | 朱祐樘
+fig-wu-yi | 朱祐检
+fig-longqing | 朱载堃
+fig-wanli | 朱翊钧
+fig-taichang | 朱常洛
+fig-xizong | 朱由校
+fig-xu-guangqi | 徐光启
+fig-mao-yisheng | 茅以升
+fig-hou-debang | 侯德榜
+fig-li-keqiang | 李克强
+fig-li-gong | 李工
+fig-wang-yi | 王毅
+fig-yan-fulong | 颜福成
+fig-zi-shang | 子产
+fig-zi-gong | 子贡
+fig-wang-jian | 王翦
+fig-meng-tian | 蒙恬
+fig-wang-mang | 王莽
+fig-han-east-cao-pi | 曹丕
+fig-han-east-cao-rui | 曹叡
+fig-han-east-liu-liao | 刘辽
+fig-jiang-wei | 姜维
+fig-ma-su | 马谡
+fig-meng-huo | 孟获
+fig-zhang-yue | 张嶷
+fig-zhuge-shang | 诸葛尚
+fig-deng-rong | 邓荣
+fig-zhao-yan | 赵俨
+fig-zao-yi | 枣祗
+fig-wang-dao | 王导
+fig-zu-ti | 祖逖
+fig-nanbei-north-feng-taihou | 冯太后
+fig-wang-meng | 王猛
+fig-liu-kun | 刘琨
+fig-huan-wen | 桓温
+fig-faxian | 法显
+fig-huiyuan | 慧远
+fig-du-yu | 杜预
+fig-nanbei-south-hou-jing | 侯景
+fig-nanbei-south-chen-wubao | 陈霸先
+fig-sima-lun | 司马伦
+fig-sima-jiong | 司马冏
+fig-nanbei-north-gao-huan | 高欢
+fig-nanbei-north-character | 尔朱荣
+fig-liang-jin-liuyuan | 刘渊
+fig-fu-jian | 苻健
+fig-feng-jian | 冯弘
+fig-nanbei-north-li-yun | 李暠
+fig-nanbei-north-mu-rong | 慕容暐
+fig-zhu-xu | 竺道生
+fig-jin-west-wang-yan | 王衍
+fig-jin-west-sima-de | 司马德
+fig-jin-west-liu-yao | 刘瑶
+fig-jin-west-sima-jiong | 司马炽
+fig-jin-west-cao-huang | 曹奂
+fig-jin-west-han-emperor-mingdi | 曹髦
+fig-jin-west-zhang-jia | 张嘉
+fig-jin-west-liang-jin | 梁冀
+fig-han-east-li-ying | 李膺
+fig-gu-rong | 顾荣
+fig-wang-xianzhi-2 | 王献之
+fig-yu-jin | 虞溥
+fig-xiang-lun | 项纶
+fig-wang-yan | 王彧
+fig-fan-chong | 范充
+fig-dou-jing | 窦静
+fig-liu-mao | 刘茂
+fig-mou-dang | 牟长
+fig-kong-ju-dasha | 孔甲
+fig-han-west-shu-lu | 黥布
+fig-han-west-zhu-fu-jian | 朱买臣
+fig-han-west-lu-ji-ying | 陆贾
+fig-tang-late-wang-yi | 王凝之
+fig-sun-hao | 孙皓
+fig-he-jin | 何进
+fig-wang-jing | 王景
+fig-han-xin | 韩信
+fig-han-zhaodi | 刘弗陵
+fig-huo-guang | 霍光
+fig-su-wu | 苏武
+fig-zhou-bo | 周勃
+fig-lv-lu | 吕禄
+fig-wanyan-yongong | 完颜雍
+fig-jia-wei | 贾诩
+fig-tao-kan | 陶侃
+fig-sima-yi | 司马懿
+fig-lian-po | 廉颇
+fig-zhao-kuo | 赵括
+fig-qin-shao-gong | 秦孝公
+fig-zi-ying | 子婴
+fig-chen-ping | 陈平
+fig-dong-zhongshu | 董仲舒
+fig-sang-hongyang | 桑弘羊
+fig-chang-hui | 常惠
+fig-shu-sun-tong | 叔孙通
+fig-zhao-tuo | 赵佗
+fig-fan-pang | 范滂
+fig-zhang-jiao | 张角
+fig-huangfu-song | 皇甫嵩
+fig-ma-yuan | 马援
+fig-zhoujingwang | 周景王
+fig-xi-quan | 郤缺
+fig-sui-wendi | 杨坚
+fig-yang-guang | 杨广
+fig-sima-ying | 司马颖
+fig-sima-yue | 司马越
+fig-tuoba-tao | 拓跋焘
+fig-xiao-yan | 萧衍
+fig-qin-hui | 秦桧
+fig-shi-le | 石勒
+fig-shen-yue | 沈约
+fig-yang-su | 杨素
+fig-liu-xie | 刘勰
+fig-wang-wei | 王伟
+fig-wei-qing | 卫玠
+fig-xuande | 朱高煦
+fig-zhu-gao | 朱高炽
+fig-luxun-writer | 周树人
+fig-shen-kui | 沈括
+fig-shi-jingzhang | 史弥远
+fig-shi-tiesheng | 石天泽
+fig-liu-yan-2 | 刘晏
+fig-zhu-ci-2 | 朱泚
+fig-li-zhu | 李柷
+fig-wen-zong-2 | 李昂
+fig-yu-chao-en-2 | 鱼朝恩
+fig-li-conghou | 李从厚
+fig-suo-shi | 索额图
+fig-zhou-chang | 周昌
+fig-temujin | 帖木儿
+fig-yang-yan | 杨炎
+fig-luo-hongxin | 罗弘信
+fig-shang-rang | 尚让
+fig-wen-zong | 李昴
+fig-ge-shu-han | 葛洪
+fig-zhang-zhuo | 张鐸
+fig-xie-lan-2 | 谢岚
+fig-lu-su | 鲁肃
+fig-zhang-han | 张韩
+fig-han-west-wei-qing | 尉迟敬德
+fig-han-east-cao-cao | 曹操
+fig-han-east-fan-pang | 樊哙
+fig-han-east-han-xiandi | 刘协
+fig-han-east-mingdi | 刘庄
+fig-jin-west-liu-mao | 刘髦
+fig-nanbei-north-tuoba-tao | 拓跋什翼犍
+fig-nanbei-north-bao-ling | 鲍令晖
+fig-nanbei-north-zhou-wu | 周昉
+fig-nanbei-south-fan-yun | 范云
+fig-nanbei-south-fang-xuanling | 方玄龄
+fig-zhao-kuangyin | 赵匡胤
+fig-zhao-guangyi | 赵炅
+fig-zhao-heng | 赵恒
+fig-wang-anshi | 王安石
+fig-sima-guang | 司马光
+fig-bi-sheng | 毕昇
+fig-su-shi | 苏轼
+fig-li-qingzhao | 李清照
+fig-xin-qiji | 辛弃疾
+fig-yue-fei | 岳飞
+fig-zhao-gou | 赵构
+fig-han-shi-zhong | 韩世忠
+fig-lu-you | 陆游
+fig-zhu-xi | 朱熹
+fig-wen-zhou-dunyi | 周敦颐
+fig-cheng-hao | 程颢
+fig-yelu | 耶律阿保机
+fig-yelv-liangzhu | 耶律大石
+fig-yao-gun | 姚古
+fig-xiao-wan-gui | 萧太后
+fig-wanyan-aguda | 完颜阿骨打
+fig-wanyan-liang | 完颜亮
+fig-yuanyou | 完颜宗弼
+fig-li-yuanhao | 李元昊
+fig-lichongzong | 李乾顺
+fig-lirenzhong | 李仁孝
+fig-chengjisihan | 成吉思汗
+fig-wang-zhen | 王祯
+fig-guoshoujing | 郭守敬
+fig-zhang-zhongyu | 张仲宇
+fig-zhu-yuanzhang | 朱元璋
+fig-zhu-di | 朱棣
+fig-hai-ru | 海瑞
+fig-lin-zexu | 林则徐
+fig-li-hongzhang | 李鸿章
+fig-liang-qichao | 梁启超
+fig-sun-yat-sen | 孙中山
+fig-chen-duxiu | 陈独秀
+fig-mao-zedong | 毛泽东
+fig-deng-xiaoping | 邓小平
+fig-chen-yi | 陈云
+fig-zhu-rongji | 朱镕基
+fig-xi-jinping | 习近平
+fig-hu-jintao | 胡锦涛
+fig-wen-jiabao | 温家宝
+fig-zhan-tianyou | 詹天佑
+fig-qian-xuesen | 钱学森
+fig-pu-gu-huai-en | 仆固怀恩
+fig-yu-chao-en | 鱼朝恩
+fig-huang-chao | 黄巢
+fig-zhu-wen | 朱温
+fig-kou-jun | 寇准
+fig-chen-qun | 陈群
+fig-xun-yu | 荀彧
+fig-guo-jia | 郭嘉
+fig-sima-yan-jin | 司马衍
+fig-ogodei | 窝阔台
+fig-tu-tuo | 脱脱
+fig-tian-xiang-2 | 田祥
+fig-li-ai | 李艾
+fig-liwang-yan | 李存勖
+
+=== EVENTS (id | name | year) ===
+ev-pre-peking-man | 北京人用火与周口店聚落 | -500000
+ev-pre-yuanmou | 元谋人门齿化石发现 | -1700000
+ev-pre-shandongdong | 山顶洞人出现装饰与埋葬习俗 | -30000
+ev-pre-yangshao | 仰韶文化彩陶与农业定居 | -5000
+ev-pre-longshan | 龙山文化黑陶与城址出现 | -3000
+ev-pre-liangzhu | 良渚文化大型水利工程与玉礼器 | -3300
+ev-pre-hemudu | 河姆渡稻作与干栏建筑 | -7000
+ev-pre-hongshan | 红山文化玉龙与祭坛 | -5000
+ev-pre-yu | 大禹治水与九州传说 | -2100
+ev-pre-huangdi | 炎黄阪泉涿鹿之战与部落联盟 | -2600
+ev-xia-yu-dynasty | 禹建夏朝 | -2070
+ev-xia-cheng | 启与有扈氏战于甘 | -2050
+ev-xia-taikang | 太康失国与后羿代夏 | -2010
+ev-xia-zhongxing | 少康中兴复国 | -1900
+ev-xia-erlitou | 二里头遗址与夏代晚期都邑 | -1750
+ev-shang-tang-founding | 商汤灭夏建立商朝 | -1600
+ev-shang-yiyin | 伊尹辅政与以滋味说汤 | -1590
+ev-shang-taijia | 太甲放于桐宫与改过复位 | -1580
+ev-shang-zhengzhou-city | 郑州商城与偃师商代都邑 | -1550
+ev-shang-pan-geng-move | 盘庚迁殷 | -1300
+ev-shang-pan-geng | 盘庚改革殷制与中兴 | -1295
+ev-shang-jiagu | 甲骨占卜与甲骨文 | -1250
+ev-shang-wuding | 武丁中兴与傅说任相 | -1250
+ev-shang-furen | 妇好墓发掘与女将征伐 | -1200
+ev-shang-bronze | 商代青铜铸造达到鼎盛 | -1220
+ev-shang-doushang | 纣王拒谏与比干之死 | -1080
+ev-shang-fall | 牧野之战与商朝灭亡 | -1046
+ev-zhou-founding | 周武王灭商建立西周 | -1046
+ev-zhou-de-xing | 周文王积德行善与受命 | -1086
+ev-zhou-fengjian | 周初大封建与宗法制度 | -1040
+ev-zhou-chengwang | 成王受周公之政与成康之治 | -1042
+ev-zhou-zhougong | 周公制礼作乐与东征管蔡 | -1042
+ev-zhou-east-conquest | 周公东征与东方经营 | -1042
+ev-zhou-kao | 周康王分正西土与成康之治 | -1020
+ev-zhou-xuanwang | 周宣王即位与宣王中兴 | -827
+ev-zhou-xuanwang-zhongxing | 召穆公整军经武与民力之谏 | -827
+ev-zhou-liwang | 周厉王专利弭谤 | -877
+ev-zhou-guoren | 国人暴动与周召共和 | -841
+ev-zhou-fall | 秦王政灭六国完成统一 | -221
+ev-zhou-fenghuo | 烽火戏诸侯 | -771
+ev-zhou-pingwang | 周平王东迁洛邑 | -770
+ev-zhou-hezhong | 周郑交恶与繻葛之战 | -707
+ev-zhou-xugua | 繻葛之战与鱼丽之阵 | -707
+ev-zhou-keduan | 郑庄公克段于鄢 | -701
+ev-zhou-changpeng | 城濮之战 | -632
+ev-zhou-liujiu | 骊姬之乱与晋文公流亡 | -655
+ev-zhou-jiantu | 践土会盟与晋文公称霸 | -632
+ev-zhou-xiashan | 崤之战与秦晋崤之战 | -627
+ev-zhou-qihuang | 齐桓公称霸与管仲改革 | -685
+ev-zhou-guanzhong-reform | 管仲改革与官山海 | -685
+ev-zhou-kuiqiu | 葵丘之会 | -651
+ev-zhou-bailixi | 秦穆公五羊皮赎百里奚 | -659
+ev-zhou-qinmu | 秦穆公称霸西戎 | -659
+ev-zhou-fengyu | 秦取王官封殽 | -623
+ev-zhou-chuzhuang | 楚庄王问鼎与称霸 | -597
+ev-zhou-yan-ying | 晏婴相齐与出使诸侯 | -578
+ev-zhou-zichan | 子产行乡校与铸刑书 | -563
+ev-zhou-warring-states | 战国七雄并立与兼并加剧 | -475
+ev-zhou-bianfa | 战国变法运动 | -445
+ev-zhou-qin-shang-yang | 商鞅变法 | -356
+ev-zhou-changping | 长平之战 | -260
+ev-zhou-maling | 马陵之战 | -341
+ev-zhou-guiling | 桂陵之战与围魏救赵 | -354
+ev-zhou-baijia | 百家争鸣 | -550
+ev-zhou-baiqiao | 白圭与《商君书》论战 | -300
+ev-zhou-mencius | 孟子游说诸侯与性善论 | -320
+ev-zhou-xunzi | 荀子论性恶与制天命而用之 | -310
+ev-zhou-sun-tzu | 《孙子兵法》成书 | -544
+ev-zhou-zhang-liang | 张仪连横与六国分合 | -330
+ev-zhou-hezong | 苏秦合纵与六国相结 | -334
+ev-zhou-zouji | 邹忌讽齐王纳谏 | -356
+ev-zhou-liqin | 李悝变法与《法经》 | -424
+ev-qin-unify | 秦灭六国完成统一 | -221
+ev-qin-emperor-system | 秦始皇创皇帝制度与三公九卿 | -221
+ev-qin-county-system | 秦推行郡县制与编户齐民 | -221
+ev-qin-standardize | 秦统一文字度量衡与货币 | -221
+ev-qin-burn-books | 焚书坑儒 | -213
+ev-qin-great-wall | 秦修筑万里长城与驰道 | -214
+ev-qin-li-si | 李斯谏逐客与郡县之议 | -237
+ev-qin-liuxiang | 秦始皇封禅泰山与巡游天下 | -219
+ev-qin-chensheng | 陈胜吴广起义与张楚政权 | -209
+ev-qin-fall | 秦朝灭亡 | -207
+ev-han-founding | 刘邦建汉称帝与西汉建立 | -202
+ev-han-chu-han | 楚汉战争与垓下之围 | -206
+ev-han-bagua | 白登之围与和亲匈奴 | -200
+ev-han-wenjing | 文景之治与黄老之治 | -180
+ev-han-wudi | 汉武帝即位与崇儒政策 | -141
+ev-han-tui-en | 推恩令与左官律 | -127
+ev-han-salt-iron | 盐铁官营与算缗告缗 | -119
+ev-han-zhangqian | 张骞凿空西域 | -138
+ev-han-siluroad | 丝绸之路开通与西域都护府设立 | -60
+ev-han-yuefu | 乐府设立与汉赋兴盛 | -112
+ev-han-sima-qian | 司马迁著《史记》 | -104
+ev-han-lichun | 《史记·礼书》与汉代礼仪改制 | -120
+ev-han-wangmang | 王莽代汉建新朝 | 9
+ev-han-wangtian | 王田私属制与币制改革 | 10
+ev-han-green-forest | 绿林军起义与刘玄称帝 | -23
+ev-han-red-brow | 赤眉军起义与昆阳之战 | -18
+ev-han-wangmang-fall | 王莽被杀与新朝灭亡 | -23
+ev-han-donghan | 刘秀建东汉与定都洛阳 | 25
+ev-han-guangwu | 光武中兴与退功臣进文吏 | 25
+ev-han-lingqu | 灵渠开凿与岭南统一 | -214
+ev-han-cai-lun | 蔡伦改进造纸术 | 105
+ev-han-zhangheng | 张衡造地动仪与浑天仪 | 117
+ev-han-buddhism | 佛教传入中国与白马寺建立 | 67
+ev-han-party-frison | 党锢之祸与士人受挫 | 166
+ev-han-yellow-turban | 黄巾起义与汉朝名存实亡 | 184
+ev-han-fall | 曹操挟天子与汉朝灭亡 | 220
+ev-han-ban-gu | 班固著《汉书》 | 82
+ev-han-ban-chao | 班超经营西域三十余年 | 73
+ev-han-ban-zhao | 班昭续《汉书》与女学者 | 92
+ev-han-zhang-zhongjing | 张仲景著《伤寒杂病论》 | 200
+ev-han-hua-tuo | 华佗麻沸散与外科手术 | 145
+ev-han-liu-yu | 刘禹锡诗与白居易新乐府 | -842
+ev-han-lingqu-2 | 东汉水运与漕运体系完善 | 60
+ev-weijin-three-kingdoms | 三国鼎立局面形成 | 229
+ev-weijin-wei-founding | 曹丕称帝建魏与九品中正制 | 220
+ev-weijin-chu-han | 刘备称帝与蜀汉建国 | 221
+ev-weijin-san-gu-maolu | 刘备三顾茅庐与隆中对 | 207
+ev-weijin-red-cliffs | 赤壁之战 | 208
+ev-weijin-yiling | 夷陵之战与猇亭大捷 | 222
+ev-weijin-chibiao | 诸葛亮上《出师表》与第一次北伐 | 227
+ev-weijin-shibiao | 诸葛亮星散五丈原与鞠躬尽瘁 | 234
+ev-weijin-nanman | 诸葛亮南征平定南中 | 225
+ev-weijin-nanzhong | 南中设置与蜀汉后方经营 | 225
+ev-weijin-wu-fall | 晋灭吴与三国归晋 | 280
+ev-weijin-shu-fall | 邓艾偷渡阴平与蜀汉灭亡 | 263
+ev-weijin-yizhou-fall | 钟会成都叛乱与诸葛尚平叛 | 264
+ev-weijin-guan-dong | 曹操统一北方与屯田制 | 196
+ev-weijin-guan-dong-2 | 官渡之战 | 200
+ev-weijin-liaodong | 司马懿平辽东与高句丽之战 | 238
+ev-weijin-sima-power | 司马懿专政与高平陵之变 | 249
+ev-weijin-jin-unify | 司马炎代魏建立西晋 | 265
+ev-weijin-taikang | 太康之治与户口增长 | 280
+ev-weijin-eight-princes | 八王之乱 | 291
+ev-weijin-liu-yuan | 刘渊起兵建立汉赵 | 304
+ev-weijin-yongjia | 永嘉之乱与洛阳陷落 | 311
+ev-weijin-luoyang-fall | 长安失守与愍帝出降 | 316
+ev-weijin-dongjin | 司马睿建康立晋与南渡 | 317
+ev-weijin-nanqian | 衣冠南渡与江南开发 | 313
+ev-weijin-huaiyin | 祖逖北伐与中流击楫 | 313
+ev-weijin-taiping | 桓温北伐与灞桥之叹 | 354
+ev-weijin-liuyu | 陶渊明归隐与田园诗 | 405
+ev-weijin-north-south | 南北朝对峙格局确立 | 420
+ev-weijin-sixteen-kingdoms | 十六国政权更迭与民族融合 | 304
+ev-weijin-fu-jian | 王猛辅苻坚统一北方 | 370
+ev-weijin-northern-wei | 北魏建立与统一黄河流域 | 439
+ev-weijin-xiaowen-hanization | 孝文帝迁都洛阳与汉化改革 | 494
+ev-weijin-juntian | 北魏颁均田令 | 485
+ev-weijin-san-chang | 北魏创三长制与租调制 | 486
+ev-weijin-yungong | 北魏六镇起义与东魏西魏分立 | 524
+ev-weijin-houjing | 侯景之乱与江南破坏 | 548
+ev-weijin-liang-wudi | 梁武帝前期治理与佛教信仰 | 502
+ev-weijin-sui-unify | 隋文帝灭陈完成统一 | 589
+ev-weijin-daodejing | 《道德经》传于世 | -570
+ev-weijin-lunyu | 《论语》成书与儒家传承 | -479
+ev-suita-sui-founding | 杨坚代周建立隋朝 | 581
+ev-suita-kemu | 隋文帝创科举制 | 605
+ev-suita-kaihuang | 开皇之治与人口增长 | 590
+ev-suita-grand-canal | 隋炀帝开凿大运河 | 605
+ev-suita-luoyang | 营建东都洛阳 | 605
+ev-suita-gaoli | 隋炀帝三征高句丽 | 612
+ev-suita-yangdi-death | 隋炀帝遇弑与江都之变 | 618
+ev-suita-fall | 隋朝灭亡与唐国公府建立 | 617
+ev-tang-founding | 李渊建唐与定都长安 | 618
+ev-tang-xuanwumen | 玄武门之变 | 626
+ev-tang-zhenguan | 贞观之治 | 627
+ev-tang-kaifeng | 房玄龄杜如晦与贞观名相 | 626
+ev-tang-zhike | 《贞观政要》与贞观政论 | 636
+ev-tang-wuzetian | 武则天称帝与武周 | 690
+ev-tang-dijianjie | 狄仁杰与武周酷吏政治 | 675
+ev-tang-kaiyuan | 开元盛世与唐玄宗前期 | 713
+ev-tang-xuanzang | 玄奘西行取经与《大唐西域记》 | 629
+ev-tang-jianzhen | 鉴真东渡日本与唐文化东传 | 754
+ev-tang-chang-an | 长安成为世界性国际都会 | 626
+ev-tang-anlushan | 安史之乱 | 755
+ev-tang-luoyang-fall | 安禄山陷洛阳与玄宗西幸 | 756
+ev-tang-chang-an-fall | 潼关失守与玄宗奔蜀 | 756
+ev-tang-pugu | 仆固怀恩之乱与回纥出兵 | 761
+ev-tang-liu-yan | 刘晏改革漕运与两税法 前身 | 766
+ev-tang-jingde | 奉天之难与泾原兵变 | 783
+ev-tang-ganbu | 藩镇割据与唐廷权力下移 | 755
+ev-tang-nongfu | 两税法与唐代赋役改革 | 780
+ev-tang-huangchao | 王仙芝黄巢起义 | 874
+ev-tang-luoyang-sack | 黄巢焚洛阳与长安残破 | 880
+ev-tang-fall | 朱温迫唐哀帝禅位与唐朝灭亡 | 907
+ev-tang-poetry | 唐诗黄金时代与李杜白王 | 700
+ev-tang-lanting | 王羲之《兰亭集序》与书法 | 353
+ev-tang-zu-chongzhi | 祖冲之推算圆周率与造指南车 | 429
+ev-tang-fang-xuanling | 《文心雕龙》与文学批评体系 | 501
+ev-tang-yan-zhenqing | 颜真卿与书法诸体 | 709
+ev-tang-wu-daozi | 吴道子画圣与绘画高峰 | 680
+ev-tang-huigu | 李后主与词的诞生 | 961
+ev-tang-zhu-xi | 朱熹集理学之大成与《四书章句集注》 | 1189
+ev-qin-er-shi | 秦始皇二世而亡 | -207
+ev-han-dongzhongshu | 董仲舒与罢黜百家 | -134
+ev-han-xinnong | 王莽托古改制与新朝建立 | 8
+ev-han-chimei | 文景之治 | -180
+ev-han-huangjin | 黄巾起义 | 184
+ev-han-danggu | 党锢之祸与清议 | 166
+ev-sui-mo-chen | 隋末农民起义 | 611
+ev-sui-da-yunhe | 隋朝开凿大运河 | 605
+ev-wudai-yanyun | 燕云十六州割让与后晋建立 | 936
+ev-wudai-houtang | 后唐建立 | 923
+ev-wudai-han | 后汉建立 | 947
+ev-wudai-wu | 吴国建立 | 902
+ev-wudai-wuyue | 吴越建国 | 907
+ev-wudai-min | 闽国建立 | 909
+ev-wudai-chu | 楚国建立 | 907
+ev-wudai-nantang | 南唐建立 | 937
+ev-wudai-nanhan | 南汉建立 | 917
+ev-wudai-nanping | 荆南建国 | 924
+ev-wudai-shu | 前蜀建立 | 907
+ev-wudai-li-yu | 南唐后主李煜与亡国 | 975
+ev-wudai-song-founding | 北宋建立 | 960
+ev-song-cup-wine | 杯酒释兵权 | 961
+ev-song-kaixi | 宋夏庆历和议 | 1044
+ev-song-wanganshi | 王安石变法 | 1069
+ev-song-xining | 西夏建国 | 1038
+ev-song-yuanyou | 元祐更化 | 1086
+ev-song-nansong | 南宋建立 | 1127
+ev-song-yuefei | 岳飞抗金 | 1140
+ev-song-shaoxing-treaty | 绍兴和议 | 1141
+ev-song-yuangong | 元军攻宋与襄阳之战 | 1273
+ev-song-wen-tianxiang | 文天祥抗元 | 1275
+ev-song-jin-rise | 金朝崛起 | 1115
+ev-song-jin-shijin | 金室建国与制度汉化 | 1125
+ev-song-caizhou | 蔡州之战 | 1234
+ev-song-jin-fall | 金朝灭亡 | 1234
+ev-liao-shengzong | 辽圣宗与澶渊之盟 | 1004
+ev-liao-fall | 辽朝灭亡 | 1125
+ev-yuan-hailing | 金海陵南侵 | 1161
+ev-yuan-jasaga | 蒙古第一次西征 | 1219
+ev-yuan-ailiboge | 旭烈兀西征 | 1253
+ev-yuan-xiya | 西夏的兴衰 | 1227
+ev-yuan-xixia | 西夏与宋辽金的三角 | 1115
+ev-yuan-kublai | 忽必烈建元与统一 | 1271
+ev-jin-dongjin | 东晋建立与衣冠南渡 | 317
+ev-jin-taiping | 太康之治 | 280
+ev-jin-lanting | 兰亭集序与王羲之 | 353
+ev-jin-taoyuanming | 陶渊明与田园诗 | 405
+ev-tang-hezhong | 元和中兴 | 806
+ev-qin-chen-shihuang | 秦始皇东巡与泰山封禅 | -219
+ev-ming-wangyangming | 王阳明心学 | 1510
+ev-ming-hongwu | 洪武之治 | 1370
+ev-ming-zhenghe | 郑和下西洋 | 1405
+ev-ming-tumu | 土木堡之变 | 1449
+ev-ming-yu-qian | 于谦保卫北京 | 1449
+ev-ming-hongzhi | 弘治中兴 | 1488
+ev-ming-jiajing | 嘉靖朝与大礼议 | 1524
+ev-ming-qi-jiguang | 戚继光抗倭 | 1561
+ev-ming-longqing | 隆庆和议与开关 | 1567
+ev-ming-wanli | 万历朝与张居正改革 | 1573
+ev-ming-hai-ru | 海瑞整饬吏治 | 1566
+ev-ming-xu-xiake | 徐霞客游记 | 1613
+ev-ming-tianqi | 天启朝与阉党专权 | 1621
+ev-ming-chongzhen | 崇祯朝与明朝覆亡 | 1628
+ev-ming-liaodong | 辽东战事与明清易代 | 1619
+ev-ming-buzhou | 九边军事部署 | 1500
+ev-ming-lizicheng | 李成梁镇守辽东 | 1570
+ev-qing-nivchu | 努尔哈赤建立后金 | 1616
+ev-qing-qing-enter | 清军入关 | 1644
+ev-qing-tifa | 剃发易服 | 1645
+ev-qing-yaksa | 雅克萨之战 | 1685
+ev-qing-junji | 八旗与绿营 | 1650
+ev-qing-kangxi | 康乾盛世与康熙政绩 | 1722
+ev-qing-siku | 编纂《四库全书》 | 1773
+ev-qing-wenziyu | 文字狱 | 1750
+ev-qing-guangzhou-trade | 广州一口通商 | 1757
+ev-qing-bailianjiao | 白莲教起义 | 1796
+ev-qing-jiaqing | 嘉庆朝与和珅之诛 | 1799
+ev-qing-nanjing-treaty | 《南京条约》签订 | 1842
+ev-qing-jiawu | 甲午战争 | 1894
+ev-qing-new-policies | 清末新政 | 1901
+ev-modern-provisional | 南京临时政府成立 | 1912
+ev-modern-yuan-shikai | 袁世凯窃取革命果实 | 1912
+ev-modern-empire | 洪宪帝制 | 1915
+ev-modern-hugu | 护国运动 | 1915
+ev-modern-zhangxun | 张勋复辟 | 1917
+ev-modern-jiu-yi-ba | 九一八事变 | 1931
+ev-modern-pingxingguan | 平型关大捷 | 1937
+ev-modern-taierzhuang | 台儿庄战役 | 1938
+ev-modern-baihui | 百团大战 | 1940
+ev-modern-jiangkou | 武汉会战 | 1938
+ev-modern-chongqing-talk | 重庆谈判 | 1945
+ev-modern-civil-war | 解放战争 | 1946
+ev-modern-jinping | 锦州战役 | 1948
+ev-modern-liaoshen | 辽沈战役 | 1948
+ev-modern-huaihai | 淮海战役 | 1948
+ev-modern-pingjin | 平津战役 | 1948
+ev-modern-crossing | 渡江战役 | 1949
+ev-prc-land-reform | 土地制度改革 | 1950
+ev-prc-korean-war | 抗美援朝战争 | 1950
+ev-prc-socialist-transform | 社会主义改造完成 | 1956
+ev-prc-great-leap | 大跃进运动 | 1958
+ev-prc-dongfanghong | 东方红一号卫星发射 | 1970
+ev-prc-shenzhen | 深圳经济特区建设 | 1980
+ev-prc-henan-village | 农村改革与小岗村包产到户 | 1978
+ev-prc-southern-tour | 南方谈话 | 1992
+ev-prc-socialist-market | 社会主义市场经济体制确立 | 1992
+ev-liao-founding | 辽朝建立 | 916
+ev-wudai-houjin | 后晋建立 | 936
+ev-nanbei-nanbei-south | 南朝兴替 | 420
+ev-three-wei-ding | 曹魏定鼎 | 220
+ev-three-yiling | 夷陵之战 | 222
+ev-nanbei-xiaowen | 孝文帝改革 | 494
+ev-sixteen-kingdoms | 十六国时期 | 304
+ev-jin-yongjia | 永嘉之乱 | 311
+ev-three-gaopingling | 高平陵之变 | 249
+ev-han-chu-jiang | 楚汉相争 | -206
+ev-three-zhuge-liang | 诸葛亮北伐 | 227
+ev-sui-keju | 隋朝创立科举 | 605
+ev-wudai-10guo | 五代十国 | 907
+ev-song-jingkang | 靖康之变 | 1127
+ev-tang-gaozu | 唐朝建立 | 618
+ev-tang-kaixuan | 开元盛世 | 713
+ev-wudai-houzhou | 后周世宗改革 | 954
+ev-wudai-liang | 后梁建立 | 907
+ev-wudai-zhou | 后周建立 | 951
+ev-song-qinliang | 庆历新政 | 1043
+ev-song-liao-chanyuan | 澶渊之盟 | 1005
+ev-song-yashan | 崖山海战 | 1279
+ev-yuan-mongol-unify | 蒙古统一中国 | 1279
+ev-yuan-founding | 元朝建立 | 1271
+ev-yuan-xing-sheng | 行省制度确立 | 1271
+ev-yuan-dadu | 元大都建成 | 1272
+ev-yuan-miao | 元大都规划营建 | 1267
+ev-yuan-fall | 元朝灭亡 | 1368
+ev-ming-founding | 明朝建立 | 1368
+ev-ming-yongle | 永乐盛世 | 1403
+ev-ming-fall | 明朝灭亡 | 1644
+ev-qing-founding | 清朝建立 | 1636
+ev-qing-qianlong | 康乾盛世 | 1736
+ev-qing-opium-war | 鸦片战争 | 1840
+ev-qing-taiping | 太平天国运动 | 1851
+ev-qing-yangwu | 洋务运动 | 1861
+ev-qing-xinhai | 辛亥革命 | 1911
+ev-modern-republic | 中华民国建立 | 1912
+ev-modern-may-fourth | 五四运动 | 1919
+ev-modern-communist-party | 中国共产党成立 | 1921
+ev-modern-victory | 抗日战争胜利 | 1945
+ev-modern-liberation | 解放战争胜利 | 1949
+ev-prc-founding | 中华人民共和国成立 | 1949
+ev-prc-first-five-year | 一五计划 | 1953
+ev-prc-two-bombs | 两弹一星 | 1964
+ev-prc-reform | 改革开放 | 1978
+ev-prc-special-zones | 经济特区建立 | 1980
+ev-prc-hong-kong | 香港回归 | 1997
+ev-three-zhonghui | 钟会之乱 | 264
+ev-three-jinrongwu | 西晋灭吴 | 280
+ev-jin-feishui | 淝水之战 | 383
+ev-nanbei-zu-chongzhi | 祖冲之与圆周率 | 480
+ev-jin-yongle-2 | 永嘉之乱后东晋建立 | 317
+ev-nanbei-kaifeng | 北魏统一北方 | 439
+ev-sui-unify | 隋朝统一全国 | 589
+ev-tang-wuzhou | 武周建立 | 690
+ev-song-wanyan | 两宋更替 | 1127
+ev-song-jin | 金朝建立 | 1115
+ev-song-yuan | 元灭南宋 | 1279
+ev-qing-sanfan | 三藩之乱 | 1673
+ev-qing-taiwan | 统一台湾 | 1683
+ev-qing-wuwu | 十全武功 | 1757
+ev-qing-self-strengthen | 自强运动 | 1861
+ev-qing-hundred-days | 戊戌变法 | 1898
+ev-prc-wenchange | 文化大革命 | 1966
+ev-prc-reformopen | 农村改革与城市改革 | 1984
+ev-prc-macao | 澳门回归 | 1999
+ev-prc-wto | 加入世贸组织 | 2001
+ev-prc-olympic | 北京奥运会 | 2008
+ev-prc-new-era | 新时代开启 | 2012
+ev-prc-belt-road | 一带一路倡议提出 | 2013
+ev-prc-poverty | 脱贫攻坚 | 2021
+ev-prc-carbon | 碳达峰碳中和目标提出 | 2020
+ev-prc-beidou | 北斗卫星导航系统组网 | 2020
+ev-prc-tianwen | 天问一号火星探测 | 2020
+ev-prc-chang-e-five | 嫦娥五号月球采样返回 | 2020
+ev-prc-civilization | 文化自信与两个结合 | 2016

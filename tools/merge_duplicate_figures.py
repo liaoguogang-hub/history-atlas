@@ -34,9 +34,11 @@ FORCE_MERGE = {
 }
 
 # 名字与内容不符的条目：id -> (正确姓名, 生年, 卒年)
+# 注意：id 已在 normalize_figure_ids.py 中规范化为自解释形式，
+# 这里必须跟着改，否则修正规则会失效。
 NAME_FIX = {
     # 传记写「沙陀人，父李克用为唐末名将」，实为后唐明宗李嗣源
-    "fig-liwang-yan": ("李嗣源", 867, 933),
+    "fig-li-siyuan-tang": ("李嗣源", 867, 933),
 }
 
 LIST_FIELDS = ("relatedEvents", "relatedFigures", "tags", "achievements", "quotes")

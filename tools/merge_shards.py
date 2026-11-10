@@ -100,6 +100,12 @@ def classify(item):
     if ("birthYear" in item or "by" in item or "deathYear" in item
             or "dy" in item or "role" in item or "ro" in item):
         return "figures"
+    # 人物（补充分片）：只带 achievements / quotes / biography，
+    # 没有生卒年也没有 role。这类条目若按下面的规则会被误判为事件，
+    # 进而在数据里造出「id 与人物重复」的事件条目。
+    if "achievements" in item or "ac" in item or "quotes" in item \
+            or "q" in item or "biography" in item or "bio" in item:
+        return "figures"
     # 事件：必有发生年
     if "year" in item or "y" in item:
         return "events"
@@ -279,6 +285,82 @@ def _richness(rec):
     return (len(bio), len(summ), links)
 
 
+# 合并同 id 记录时，正文类字段取更长的一方，列表类字段取并集
+_TEXT_MERGE_FIELDS = ("name", "alias", "summary", "biography", "detail",
+                       "role", "gender", "lifeText", "location")
+_LIST_MERGE_FIELDS = ("achievements", "quotes", "tags",
+                      "relatedEvents", "relatedFigures")
+
+# 中文短句的「实质词」集合，用于判断两条成就/名言是否说的是一回事。
+# 去掉这些词之后剩下的字面重合度越高，两句越可能是重复表述。
+_STOP_CHARS = "的了和与及或在是为以于其之也并且等而被把从到对上下"
+
+
+def _merge_record(richer, thinner):
+    """把两条同 id 记录合并成一条。
+
+    **参数顺序至关重要**：`richer` 必须是正文更丰富的那条，
+    `thinner` 只用来补充它缺少的部分。传反会导致薄的那条反过来
+    覆盖厚的——这个 bug 曾让 524 字的新传记被 20 字的旧占位条目顶掉。
+
+    - 文本字段：richer 非空就保留 richer 的，否则取 thinner 的
+    - 列表字段：两边去重合并，richer 的条目排在前面
+    - 其余字段（如 birthYear）：richer 为 None 时才用 thinner 的兜底
+    """
+    merged = dict(richer)
+    for fld in _TEXT_MERGE_FIELDS:
+        if not (merged.get(fld) or "").strip() and (thinner.get(fld) or "").strip():
+            merged[fld] = thinner[fld]
+    for fld in _LIST_MERGE_FIELDS:
+        a = merged.get(fld) or []
+        b = thinner.get(fld) or []
+        if not isinstance(a, list):
+            a = [a]
+        if not isinstance(b, list):
+            b = [b]
+        # 纯引用字段（人物之间、事件之间的关联）取并集：
+        # 两边各有所长，少任何一边都会让关联网出现缺口。
+        if fld in ("relatedEvents", "relatedFigures"):
+            seen = set()
+            out = []
+            for v in list(a) + list(b):
+                key = v if isinstance(v, str) else repr(v)
+                if key in seen:
+                    continue
+                seen.add(key)
+                out.append(v)
+            merged[fld] = out
+            continue
+        # 内容型字段（achievements / quotes / tags）：
+        # 优先采用「有 biography 的那条」的版本。
+        # 扩充后的新传记已经把旧条目想表达的内容重写得更完整，
+        # 两份并存会出现「推行三省六部制」与「完善三省六部制与科举制」
+        # 这类同义重复，读起来啰嗦。
+        #
+        # 例外是**补丁分片**（只带 achievements 而没有 biography）：
+        # 它是专门为「此人缺成就列表」而写的，应当优先。
+        richer_has_bio = bool((richer.get("biography") or "").strip())
+        thinner_has_bio = bool((thinner.get("biography") or "").strip())
+        if richer_has_bio and not thinner_has_bio:
+            # thinner 是补丁：采用它的内容字段
+            if b:
+                merged[fld] = b
+        elif not richer_has_bio and thinner_has_bio:
+            # richer 是补丁：采用 thinner 的内容字段
+            if b:
+                merged[fld] = b
+        else:
+            # 两条都有 biography：richer 优先
+            if not a:
+                merged[fld] = b
+        continue
+    # 数值与年份类字段：richer 缺失时用 thinner 兜底
+    for fld in ("birthYear", "deathYear", "year", "yearEnd", "importance"):
+        if merged.get(fld) is None and thinner.get(fld) is not None:
+            merged[fld] = thinner[fld]
+    return merged
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--scope", required=True, choices=["china", "world"])
@@ -344,15 +426,24 @@ def main():
                     buckets[g].append(norm)
                     continue
 
-                # 同 id 重复：保留内容更丰富的那一条。
+                # 同 id 重复：正文取更丰富的，列表字段取并集。
                 # 早先的实现「先出现者胜」，导致后加的补充分片被静默丢弃，
                 # 补写的内容无法覆盖原始占位条目。
+                #
+                # 后来改成「整体择优替换」，又带来新问题：新记录往往只重写了
+                # biography 而没带 achievements/quotes，替换会把旧记录里
+                # 已有的成就与名言一并丢掉。因此这里按字段分别处理：
+                #   * 正文类（biography/summary/...）——取更长的一方
+                #   * 列表类（achievements/quotes/tags）——去重合并
                 dup += 1
                 old_i = index.get(rid)
                 if old_i is None:
                     continue
-                if _richness(norm) > _richness(buckets[g][old_i]):
-                    buckets[g][old_i] = norm
+                old = buckets[g][old_i]
+                if _richness(norm) > _richness(old):
+                    buckets[g][old_i] = _merge_record(norm, old)
+                else:
+                    buckets[g][old_i] = _merge_record(old, norm)
 
     out = {
         "version": 1,
