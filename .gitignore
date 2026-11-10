@@ -1,0 +1,44 @@
+# ── 工作区白名单 ──────────────────────────────────────────────
+# 本目录同时存放多个互不相关的项目，这里只纳入「历史图鉴」相关文件，
+# 其余一律忽略，避免把无关工程与巨型构建缓存带进仓库。
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/VERSION
+!/history-atlas/
+!/data/
+!/docs/
+!/tools/
+!/scripts/
+
+# ── Android 构建产物与本地配置 ────────────────────────────────
+history-atlas/build/
+history-atlas/app/build/
+history-atlas/.gradle/
+history-atlas/.idea/
+history-atlas/local.properties
+history-atlas/captures/
+history-atlas/.cxx/
+*.apk
+*.aab
+*.hprof
+*.iml
+
+# ── 由 data/ 同步进 assets 的副本 ─────────────────────────────
+# 它们由 scripts/sync_data.ps1 从 data/china.json、data/world.json 复制而来，
+# 提交会产生两份可能漂移的相同内容。
+history-atlas/app/src/main/assets/data/*.json
+
+# ── Python 与工具临时文件 ─────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+tools/ffmpeg.exe
+*.bak
+*.before_merge.json
+data/china_raw.json
+
+# 与本项目无关的一次性运维脚本
+tools/claude-desktop-removal/
