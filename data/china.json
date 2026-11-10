@@ -11214,7 +11214,8 @@
    "relatedEvents": [
     "ev-shang-taijia",
     "ev-shang-yiyin",
-    "ev-shang-pan-geng-move"
+    "ev-shang-pan-geng-move",
+    "ev-shang-wuding"
    ],
    "relatedFigures": [
     "fig-yiyin",
@@ -11261,7 +11262,8 @@
     "ev-shang-pan-geng-move",
     "ev-shang-pan-geng",
     "ev-shang-zhengzhou-city",
-    "ev-shang-jiagu"
+    "ev-shang-jiagu",
+    "ev-shang-wuding"
    ],
    "relatedFigures": [
     "fig-tang",
@@ -12023,7 +12025,8 @@
     "民命为命。"
    ],
    "relatedEvents": [
-    "ev-zhou-kao"
+    "ev-zhou-kao",
+    "ev-zhou-chengwang"
    ],
    "relatedFigures": [
     "fig-zhouchengwang",
@@ -12912,6 +12915,7 @@
    ],
    "relatedEvents": [
     "ev-zhou-qihuang",
+    "ev-zhou-guanzhong-reform",
     "ev-zhou-kuiqiu"
    ],
    "relatedFigures": [
@@ -13010,7 +13014,8 @@
    ],
    "relatedEvents": [
     "ev-zhou-changpeng",
-    "ev-zhou-liujiu"
+    "ev-zhou-liujiu",
+    "ev-zhou-jiantu"
    ],
    "relatedFigures": [
     "fig-jin-wengong",
@@ -13102,7 +13107,8 @@
     "匹夫逞志于君，而无讨，敢不自讨乎？"
    ],
    "relatedEvents": [
-    "ev-zhou-changpeng"
+    "ev-zhou-changpeng",
+    "ev-zhou-liujiu"
    ],
    "relatedFigures": [
     "fig-jin-wengong",
@@ -13150,7 +13156,9 @@
     "ev-zhou-changpeng",
     "ev-zhou-jiantu",
     "ev-zhou-chuzhuang",
-    "ev-zhou-keduan"
+    "ev-zhou-keduan",
+    "ev-zhou-hezhong",
+    "ev-zhou-xugua"
    ],
    "relatedFigures": [
     "fig-chu-zhuangwang",
@@ -13198,7 +13206,9 @@
    ],
    "relatedEvents": [
     "ev-zhou-chuzhuang",
-    "ev-zhou-jiantu"
+    "ev-zhou-jiantu",
+    "ev-zhou-hezhong",
+    "ev-zhou-xugua"
    ],
    "relatedFigures": [
     "fig-zi-shang",
@@ -14280,6 +14290,7 @@
     "ev-han-bagua",
     "ev-han-lichun",
     "ev-han-sima-qian",
+    "ev-han-wenjing",
     "ev-han-chimei"
    ],
    "relatedFigures": [
@@ -14579,7 +14590,8 @@
     "ev-han-zhangqian",
     "ev-han-yuefu",
     "ev-han-lichun",
-    "ev-han-ban-gu"
+    "ev-han-ban-gu",
+    "ev-han-dongzhongshu"
    ],
    "relatedFigures": [
     "fig-han-wudi",
@@ -14852,6 +14864,7 @@
     "ev-han-guangwu",
     "ev-han-lingqu-2",
     "ev-han-wangmang-fall",
+    "ev-han-wenjing",
     "ev-han-chimei"
    ],
    "relatedFigures": [
@@ -16561,7 +16574,9 @@
    "relatedEvents": [
     "ev-jin-taiping",
     "ev-weijin-taikang",
-    "ev-weijin-dongjin"
+    "ev-weijin-dongjin",
+    "ev-weijin-yongjia",
+    "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
     "fig-sima-rui",
@@ -16719,7 +16734,8 @@
     "ev-weijin-dongjin",
     "ev-weijin-nanqian",
     "ev-jin-yongle-2",
-    "ev-weijin-eight-princes"
+    "ev-weijin-eight-princes",
+    "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
     "fig-taishao",
@@ -17374,7 +17390,8 @@
     "诚能见可欲则思知足以自戒。"
    ],
    "relatedEvents": [
-    "ev-three-gaopingling"
+    "ev-three-gaopingling",
+    "ev-weijin-liaodong"
    ],
    "relatedFigures": [
     "fig-fang-xuanling",
@@ -17817,7 +17834,8 @@
     "ev-tang-luoyang-fall",
     "ev-tang-chang-an-fall",
     "ev-tang-ganbu",
-    "ev-tang-yan-zhenqing"
+    "ev-tang-yan-zhenqing",
+    "ev-tang-kaiyuan"
    ],
    "relatedFigures": [
     "fig-an-lushan",
@@ -17916,7 +17934,8 @@
    "relatedEvents": [
     "ev-tang-anlushan",
     "ev-tang-luoyang-fall",
-    "ev-tang-chang-an-fall"
+    "ev-tang-chang-an-fall",
+    "ev-tang-kaiyuan"
    ],
    "relatedFigures": [
     "fig-xuanzong",
@@ -18298,7 +18317,8 @@
    "relatedEvents": [
     "ev-tang-poetry",
     "ev-tang-jingde",
-    "ev-tang-nongfu"
+    "ev-tang-nongfu",
+    "ev-tang-ganbu"
    ],
    "relatedFigures": [
     "fig-zhu-ci-2",
@@ -18394,7 +18414,8 @@
    ],
    "relatedEvents": [
     "ev-tang-poetry",
-    "ev-tang-wu-daozi"
+    "ev-tang-wu-daozi",
+    "ev-tang-yan-zhenqing"
    ],
    "relatedFigures": [
     "fig-wu-daozi",
@@ -19228,7 +19249,9 @@
     "书法被唐太宗评为「如云鹤游天」，影响后世楷书发展数百年"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-han-founding"
+   ],
    "relatedFigures": [
     "fig-zhong-hui",
     "fig-xun-yu",
@@ -20295,7 +20318,8 @@
    "relatedEvents": [
     "ev-weijin-dongjin",
     "ev-weijin-nanqian",
-    "ev-jin-taiping"
+    "ev-jin-taiping",
+    "ev-jin-dongjin"
    ],
    "relatedFigures": [
     "fig-sima-rui",
@@ -20753,7 +20777,9 @@
     "大丈夫何不曳取佩刀，径相刺乎。",
     "每战必取敌将首级，何其快也。"
    ],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-weijin-liaodong"
+   ],
    "relatedFigures": [
     "fig-fang-xuanling",
     "fig-nanbei-south-fang-xuanling",
@@ -21351,7 +21377,8 @@
    "relatedEvents": [
     "ev-ming-wanli",
     "ev-ming-longqing",
-    "ev-ming-hongzhi"
+    "ev-ming-hongzhi",
+    "ev-ming-jiajing"
    ],
    "relatedFigures": [
     "fig-hai-ru",
@@ -21471,7 +21498,9 @@
     "冲冠一怒为红颜。"
    ],
    "relatedEvents": [
-    "ev-ming-fall"
+    "ev-ming-fall",
+    "ev-ming-chongzhen",
+    "ev-ming-liaodong"
    ],
    "relatedFigures": [
     "fig-li-zicheng",
@@ -21560,7 +21589,8 @@
    "relatedEvents": [
     "ev-ming-chongzhen",
     "ev-ming-fall",
-    "ev-ming-wanli"
+    "ev-ming-wanli",
+    "ev-ming-liaodong"
    ],
    "relatedFigures": [
     "fig-li-zicheng",
@@ -21693,7 +21723,8 @@
     "社稷方安，正宜宽大，勿以一人之故而失众人之心。"
    ],
    "relatedEvents": [
-    "ev-qing-founding"
+    "ev-qing-founding",
+    "ev-ming-chongzhen"
    ],
    "relatedFigures": [
     "fig-nurhaci",
@@ -21954,7 +21985,8 @@
    ],
    "relatedEvents": [
     "ev-qing-opium-war",
-    "ev-qing-nanjing-treaty"
+    "ev-qing-nanjing-treaty",
+    "ev-qing-taiping"
    ],
    "relatedFigures": [
     "fig-lin-zexu",
@@ -23260,6 +23292,7 @@
     "ev-prc-reform",
     "ev-prc-wto",
     "ev-prc-reformopen",
+    "ev-prc-founding",
     "ev-prc-poverty"
    ],
    "relatedFigures": [
@@ -24082,7 +24115,8 @@
    ],
    "relatedEvents": [
     "ev-han-fall",
-    "ev-weijin-red-cliffs"
+    "ev-weijin-red-cliffs",
+    "ev-han-donghan"
    ],
    "relatedFigures": [
     "fig-han-east-cao-cao",
@@ -24584,7 +24618,8 @@
     "ev-weijin-yongjia",
     "ev-jin-dongjin",
     "ev-jin-yongle-2",
-    "ev-jin-yongjia"
+    "ev-jin-yongjia",
+    "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
     "fig-sima-rui",
@@ -24637,7 +24672,11 @@
    "relatedEvents": [
     "ev-weijin-huaiyin",
     "ev-weijin-nanqian",
-    "ev-weijin-dongjin"
+    "ev-weijin-dongjin",
+    "ev-weijin-chibiao",
+    "ev-weijin-yongjia",
+    "ev-weijin-luoyang-fall",
+    "ev-jin-dongjin"
    ],
    "relatedFigures": [
     "fig-liu-kun",
@@ -24934,7 +24973,8 @@
     "朝廷有尊，僧众有贵，礼敬之道，作者所制，非我所敢闻。"
    ],
    "relatedEvents": [
-    "ev-jin-feishui"
+    "ev-jin-feishui",
+    "ev-jin-taoyuanming"
    ],
    "relatedFigures": [
     "fig-tao-yuanming",
@@ -25454,7 +25494,8 @@
     "ev-sixteen-kingdoms",
     "ev-weijin-northern-wei",
     "ev-weijin-sixteen-kingdoms",
-    "ev-jin-feishui"
+    "ev-jin-feishui",
+    "ev-weijin-liaodong"
    ],
    "relatedFigures": [
     "fig-tuoba-gui",
@@ -25698,7 +25739,8 @@
     "ev-jin-taiping",
     "ev-jin-yongjia",
     "ev-weijin-eight-princes",
-    "ev-weijin-luoyang-fall"
+    "ev-weijin-luoyang-fall",
+    "ev-weijin-yongjia"
    ],
    "relatedFigures": [
     "fig-sima-lun",
@@ -25748,7 +25790,8 @@
     "ev-jin-taiping",
     "ev-jin-yongjia",
     "ev-weijin-luoyang-fall",
-    "ev-weijin-eight-princes"
+    "ev-weijin-eight-princes",
+    "ev-weijin-yongjia"
    ],
    "relatedFigures": [
     "fig-sima-lun",
@@ -25844,7 +25887,8 @@
     "ev-three-wei-ding",
     "ev-jin-taiping",
     "ev-weijin-jin-unify",
-    "ev-jin-yongjia"
+    "ev-jin-yongjia",
+    "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
     "fig-sima-zhao",
@@ -25934,7 +25978,10 @@
    "quotes": [
     "既不能以礼自固，又不能以势自守。"
    ],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-han-party-frison",
+    "ev-han-danggu"
+   ],
    "relatedFigures": [
     "fig-jia-wei",
     "fig-sima-yue",
@@ -26069,7 +26116,9 @@
    "relatedEvents": [
     "ev-weijin-dongjin",
     "ev-jin-yongjia",
-    "ev-weijin-nanqian"
+    "ev-weijin-nanqian",
+    "ev-weijin-yongjia",
+    "ev-jin-dongjin"
    ],
    "relatedFigures": [
     "fig-sima-rui",
@@ -26299,7 +26348,8 @@
    "relatedEvents": [
     "ev-han-wangtian",
     "ev-han-wangmang",
-    "ev-han-red-brow"
+    "ev-han-red-brow",
+    "ev-han-xinnong"
    ],
    "relatedFigures": [
     "fig-wang-mang",
@@ -26647,7 +26697,8 @@
    ],
    "relatedEvents": [
     "ev-weijin-liuyu",
-    "ev-jin-taiping"
+    "ev-jin-taiping",
+    "ev-jin-lanting"
    ],
    "relatedFigures": [
     "fig-wang-xizhi",
@@ -26824,7 +26875,8 @@
     "朕既不德，宗庙不保，天命有归。"
    ],
    "relatedEvents": [
-    "ev-tang-jingde"
+    "ev-tang-jingde",
+    "ev-tang-ganbu"
    ],
    "relatedFigures": [
     "fig-guo-ziyi",
@@ -27075,7 +27127,8 @@
    "relatedEvents": [
     "ev-tang-huangchao",
     "ev-tang-luoyang-sack",
-    "ev-tang-fall"
+    "ev-tang-fall",
+    "ev-tang-ganbu"
    ],
    "relatedFigures": [
     "fig-zhu-wen",
@@ -27288,7 +27341,8 @@
     "守御西陲，志在奉国。"
    ],
    "relatedEvents": [
-    "ev-tang-fall"
+    "ev-tang-fall",
+    "ev-tang-ganbu"
    ],
    "relatedFigures": [
     "fig-zhu-wen",
@@ -28947,7 +29001,8 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-weijin-sui-unify"
+    "ev-weijin-sui-unify",
+    "ev-weijin-wei-founding"
    ],
    "relatedFigures": [
     "fig-yang-guang",
@@ -28992,7 +29047,8 @@
     "罄资财以奉上方，竭人力以供游乐。"
    ],
    "relatedEvents": [
-    "ev-weijin-sui-unify"
+    "ev-weijin-sui-unify",
+    "ev-weijin-liaodong"
    ],
    "relatedFigures": [
     "fig-sui-wendi",
@@ -29187,7 +29243,9 @@
     "与宣宗共启「仁宣之治」"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-ming-zhenghe"
+   ],
    "relatedFigures": [
     "fig-zhu-di"
    ],
@@ -29318,6 +29376,7 @@
    ],
    "relatedEvents": [
     "ev-tang-liu-yan",
+    "ev-tang-kaiyuan",
     "ev-tang-anlushan"
    ],
    "relatedFigures": [
@@ -29380,6 +29439,7 @@
    "relatedEvents": [
     "ev-tang-pugu",
     "ev-tang-jingde",
+    "ev-tang-kaiyuan",
     "ev-tang-anlushan"
    ],
    "relatedFigures": [
@@ -29564,7 +29624,8 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-weijin-red-cliffs"
+    "ev-weijin-red-cliffs",
+    "ev-weijin-san-gu-maolu"
    ],
    "relatedFigures": [
     "fig-sunquan",
@@ -29805,7 +29866,9 @@
     "必有一番寒彻骨，方知松柏后凋。"
    ],
    "relatedEvents": [
-    "ev-qing-yangwu"
+    "ev-qing-yangwu",
+    "ev-qing-jiawu",
+    "ev-qing-taiping"
    ],
    "relatedFigures": [
     "fig-zeng-guofan",

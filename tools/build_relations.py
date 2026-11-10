@@ -32,6 +32,50 @@ def name_ok(name):
     return isinstance(name, str) and len(name) >= 2 and re.search(r"[\u4e00-\u9fff]", name)
 
 
+# 事件名里的连接词与描述性字样，切词时去掉
+_EVENT_NOISE = (
+    "与和的及、与" "在" "的" "与" "和" "及" "等" "由" "从" "到" "于" "中"
+    "前" "后" "时期" "时代" "世纪" "王朝" "运动" "战争" "革命" "形成"
+    "建立" "兴起" "衰落" "崩溃" "覆灭" "瓦解" "整合" "重组" "转型"
+    "条件下" "环境" "条件下形成" "过程" "影响" "作用" "意义" "价值"
+    "之一" "及其" "及其对" "对" "为" "使" "并" "而" "则" "其" "之"
+    "第一" "第二" "第三" "大规模" "全面" "重要" "主要" "核心"
+    "早期" "中期" "晚期" "近代" "古代" "现代" "当代" "中古" "上古"
+)
+
+
+def event_keywords(event_name):
+    """从事件名里抽出可用于正文匹配的关键词。
+
+    事件名往往很长（「彼特拉克与欧洲人文主义的兴起」），
+    传记里不会逐字包含，但其中的名词性短语（「人文主义」）会��
+    所以这里按连接词切分，取长度足够的片段作为关键词。
+    """
+    if not isinstance(event_name, str) or len(event_name) < 4:
+        return ()
+    parts = re.split(r"[与和及的、，,（(）)「」]", event_name)
+    out = []
+    for p in parts:
+        p = p.strip()
+        if len(p) < 3 or not re.search(r"[\u4e00-\u9fff]", p):
+            continue
+        # 去掉尾部常见的描述性成分
+        changed = True
+        while changed:
+            changed = False
+            for noise in _EVENT_NOISE:
+                if p.endswith(noise) and len(p) - len(noise) >= 3:
+                    p = p[: -len(noise)]
+                    changed = True
+            # 「赤壁之」这类以「之」结尾的残片，剥掉后若仍够长就保留
+            if p.endswith("之") and len(p) > 3:
+                p = p[:-1]
+                changed = True
+        if len(p) >= 3 and re.search(r"[\u4e00-\u9fff]", p):
+            out.append(p)
+    return tuple(out)
+
+
 def same_period_group(periods_by_id, a, b):
     """两个时期是否属于同一条主线或父子关系（放宽到顶层祖先相同）。"""
     if a == b:
@@ -142,6 +186,11 @@ def main():
                     figs[other]["relatedFigures"].append(fid)
 
     # ---- 3. 人物传记提到事件名 → 挂上事件 ----
+    #
+    # 事件名普遍很长（「彼特拉克与欧洲人文主义的兴起」有十二字），
+    # 传记里几乎不会逐字包含，所以只按全名匹配基本匹配不到。
+    # 这里再加上「关键词匹配」：取事件名里较长的名词性片段
+    # （如「人文主义」「哥特式建筑」「活字印刷」），出现在传记里也算提及。
     for f in figs.values():
         bio = (f.get("biography") or "") + (f.get("summary") or "")
         if not bio:
@@ -153,7 +202,9 @@ def main():
             nm = e.get("name")
             if not name_ok(nm):
                 continue
-            if nm in bio and e["id"] not in f["relatedEvents"]:
+            if e["id"] in f["relatedEvents"]:
+                continue
+            if nm in bio or any(kw in bio for kw in event_keywords(nm)):
                 f["relatedEvents"].append(e["id"])
 
     # ---- 4. 截断到上限，并清理自引用/悬空引用 ----
