@@ -1,0 +1,411 @@
+{
+ "cn-tang-mid": [
+  "fig-an-lushan",
+  "fig-du-fu",
+  "fig-ge-shu-han",
+  "fig-guo-ziyi",
+  "fig-li-de",
+  "fig-li-guangbi",
+  "fig-li-heng",
+  "fig-li-huaiguang",
+  "fig-liu-yan",
+  "fig-liu-zongyuan",
+  "fig-pu-gu-huai-en",
+  "fig-shi-siming",
+  "fig-tian-xiang",
+  "fig-wu-daozi",
+  "fig-xuanzong",
+  "fig-yan-zhenqing",
+  "fig-yang-guifei",
+  "fig-yang-guozhong",
+  "fig-yu-chao-en",
+  "fig-zhu-ci",
+  "fig-zhu-wu-zhong"
+ ],
+ "cn-nanbei-north": [
+  "fig-bao-ling",
+  "fig-feng-taihou",
+  "fig-gao-huan",
+  "fig-li-yun",
+  "fig-mu-rong",
+  "fig-tuoba-tao",
+  "fig-yang-jian",
+  "fig-yuwen-tai",
+  "fig-zhou-wu",
+  "fig-尔朱荣"
+ ],
+ "cn-tang-early": [
+  "fig-cai-yong",
+  "fig-chang-sun-wu",
+  "fig-dijianjie",
+  "fig-du-ru-hui",
+  "fig-fang-xiu-ling",
+  "fig-jianzhen",
+  "fig-jie-xian",
+  "fig-li-longji",
+  "fig-song-jing",
+  "fig-wei-gong",
+  "fig-wei-shu",
+  "fig-wei-zheng",
+  "fig-wu-jing",
+  "fig-wu-zetian",
+  "fig-xuanzang",
+  "fig-yao-chong"
+ ],
+ "cn-han-east": [
+  "fig-cao-cao",
+  "fig-cao-pi",
+  "fig-chen-fan",
+  "fig-deng-rong",
+  "fig-fan-pang",
+  "fig-han-xiandi",
+  "fig-huangfu-song",
+  "fig-li-ying",
+  "fig-liu-liao",
+  "fig-ma-yuan",
+  "fig-mingdi",
+  "fig-sima-yi",
+  "fig-zhang-jiao"
+ ],
+ "cn-jin-west": [
+  "fig-cao-huang",
+  "fig-han-emperor-mingdi",
+  "fig-liu-mao",
+  "fig-liu-yao",
+  "fig-shi-le",
+  "fig-sima-de",
+  "fig-sima-jiong",
+  "fig-sima-lun",
+  "fig-sima-ying",
+  "fig-sima-yue",
+  "fig-wang-yan",
+  "fig-zhang-jia"
+ ],
+ "cn-three-wei": [
+  "fig-cao-rui",
+  "fig-cao-shuang",
+  "fig-cao-zhi",
+  "fig-chen-qun",
+  "fig-gongsun-yuan",
+  "fig-sima-shi",
+  "fig-xun-yu",
+  "fig-yu-jin",
+  "fig-yuan-sha",
+  "fig-zao-yi",
+  "fig-zhao-yan"
+ ],
+ "cn-han-west": [
+  "fig-chang-hui",
+  "fig-chen-ping",
+  "fig-dong-zhongshu",
+  "fig-kong-ju-dasha",
+  "fig-lu-ji-ying",
+  "fig-mou-dang",
+  "fig-sang-hongyang",
+  "fig-shu-lu",
+  "fig-shu-sun-tong",
+  "fig-wei-qing",
+  "fig-zhao-tuo",
+  "fig-zhu-fu-jian"
+ ],
+ "cn-wudai": [
+  "fig-chao-rong",
+  "fig-li-yan-hao",
+  "fig-liwang-yan"
+ ],
+ "cn-modern": [
+  "fig-chen-duxiu",
+  "fig-hu-shi",
+  "fig-li-dazhao",
+  "fig-mao-zedong",
+  "fig-sun-yat-sen"
+ ],
+ "cn-qing-mid": [
+  "fig-chen-hongshou",
+  "fig-hong-liangji",
+  "fig-ji-yun",
+  "fig-wei-yuanbai"
+ ],
+ "cn-nanbei-south": [
+  "fig-chen-wubao",
+  "fig-fan-yun",
+  "fig-fang-xuanling",
+  "fig-hou-jing",
+  "fig-liu-xie",
+  "fig-shen-yue",
+  "fig-sui-wendi",
+  "fig-wang-wei",
+  "fig-xiao-yan",
+  "fig-xiao-yan-liang",
+  "fig-yang-guang",
+  "fig-yang-su",
+  "fig-zu-chongzhi"
+ ],
+ "cn-prc": [
+  "fig-chen-yi",
+  "fig-deng-xiaoping",
+  "fig-hu-jintao",
+  "fig-xi-jinping",
+  "fig-zhou-enlai"
+ ],
+ "cn-song-south": [
+  "fig-cheng-hao",
+  "fig-lu-you",
+  "fig-qin-hui",
+  "fig-xin-qiji",
+  "fig-zhao-gou",
+  "fig-zhou-dunyi",
+  "fig-zhu-xi"
+ ],
+ "cn-ming-late": [
+  "fig-chongzhen",
+  "fig-li-zicheng",
+  "fig-tianqi",
+  "fig-wu-sangui",
+  "fig-xu-guangqi",
+  "fig-zhang-xianzhong"
+ ],
+ "cn-three-shu": [
+  "fig-deng-ai",
+  "fig-guan-yu",
+  "fig-jiang-wei",
+  "fig-liu-shan",
+  "fig-ma-su",
+  "fig-meng-huo",
+  "fig-zhang-fei",
+  "fig-zhang-yue",
+  "fig-zhao-yun",
+  "fig-zhong-hui",
+  "fig-zhuge-liang",
+  "fig-zhuge-shang",
+  "fig-zhuge-zhan"
+ ],
+ "cn-modern-republic": [
+  "fig-dong-bi-wu",
+  "fig-liang-qichao",
+  "fig-yuan-shikai"
+ ],
+ "cn-sui": [
+  "fig-dong-yao",
+  "fig-lao-shigao",
+  "fig-li-cheng",
+  "fig-li-mi",
+  "fig-li-yuan",
+  "fig-liu-xiao",
+  "fig-pei-ju",
+  "fig-yang-jian-sui",
+  "fig-yuwen-hua-ji",
+  "fig-yuwen-kai",
+  "fig-yuwen-shu"
+ ],
+ "cn-three-wu": [
+  "fig-du-yu",
+  "fig-kang-senghui",
+  "fig-lu-xun",
+  "fig-lv-meng",
+  "fig-sima-yan-jin",
+  "fig-sun-hao",
+  "fig-sunhao",
+  "fig-taishi-ci",
+  "fig-wang-jun"
+ ],
+ "cn-qing-early": [
+  "fig-duo-er-dung"
+ ],
+ "cn-wangmang": [
+  "fig-fan-chong",
+  "fig-wang-mang"
+ ],
+ "cn-jin-east": [
+  "fig-faxian",
+  "fig-gu-rong",
+  "fig-huan-wen",
+  "fig-huiyuan",
+  "fig-sima-rui",
+  "fig-tao-yuanming",
+  "fig-wang-dao",
+  "fig-wang-dun",
+  "fig-wang-xizhi",
+  "fig-xiang-lun",
+  "fig-zu-ti"
+ ],
+ "cn-sixteen-kingdoms": [
+  "fig-feng-jian",
+  "fig-fu-jian",
+  "fig-helian-bobobo",
+  "fig-liu-kun",
+  "fig-liu-yuan",
+  "fig-shile",
+  "fig-wang-meng",
+  "fig-xie-lan",
+  "fig-xie-xuan",
+  "fig-zhu-xu"
+ ],
+ "cn-wudai-north": [
+  "fig-guo-wei",
+  "fig-liu-zhiyuan",
+  "fig-stone-jingmao"
+ ],
+ "cn-ming-mid": [
+  "fig-hai-ru",
+  "fig-haodun",
+  "fig-wei-xiu",
+  "fig-yan-dayou",
+  "fig-zhang-juzheng"
+ ],
+ "cn-jin": [
+  "fig-hailing",
+  "fig-wanyan-aguda",
+  "fig-wanyan-liang",
+  "fig-wanyan-yungong",
+  "fig-yuanyou"
+ ],
+ "cn-prc-new-era": [
+  "fig-han-zheng",
+  "fig-li-gong",
+  "fig-li-keqiang",
+  "fig-wang-yi",
+  "fig-yan-fulong"
+ ],
+ "cn-tang-late": [
+  "fig-huang-chao",
+  "fig-li-keyong",
+  "fig-luo-hongxin",
+  "fig-shang-rang",
+  "fig-tang-ai-di",
+  "fig-wang-xianzhi",
+  "fig-wen-zong",
+  "fig-yang-yan",
+  "fig-zhang-zhuo",
+  "fig-zhu-wen",
+  "fig-zhu-yougui"
+ ],
+ "cn-qing": [
+  "fig-huang-taiji",
+  "fig-jiaqing",
+  "fig-kangxi",
+  "fig-nurhaci",
+  "fig-qianlong",
+  "fig-yongzheng"
+ ],
+ "cn-qing-late": [
+  "fig-kang-youwei",
+  "fig-li-hongzhang",
+  "fig-lin-zexu",
+  "fig-zeng-guofan",
+  "fig-zhang-zhidong",
+  "fig-zuo-zongtang"
+ ],
+ "cn-yuan": [
+  "fig-kublai",
+  "fig-temujin",
+  "fig-wang-zhen",
+  "fig-yue-fei",
+  "fig-zhang-zhongyu"
+ ],
+ "cn-tang": [
+  "fig-li-bai",
+  "fig-li-shangyin",
+  "fig-li-shimin"
+ ],
+ "cn-wudai-south": [
+  "fig-li-bian",
+  "fig-li-jiancheng",
+  "fig-li-yu",
+  "fig-qian-hongchu",
+  "fig-wang-yanzheng",
+  "fig-wu-yue"
+ ],
+ "cn-yuan-early": [
+  "fig-li-gui",
+  "fig-muqtai",
+  "fig-ogodei",
+  "fig-zhou-chang"
+ ],
+ "cn-ming": [
+  "fig-li-shizhen",
+  "fig-xu-xiake",
+  "fig-zheng-he",
+  "fig-zhu-di",
+  "fig-zhu-yuanzhang"
+ ],
+ "cn-modern-anti-japan": [
+  "fig-li-zongren",
+  "fig-peng-dehuai",
+  "fig-zhang-xueliang"
+ ],
+ "cn-warring-states": [
+  "fig-lian-po",
+  "fig-qin-shao-gong",
+  "fig-zhao-king",
+  "fig-zhao-kuo",
+  "fig-zhao-sulfou-gong"
+ ],
+ "cn-nanbei": [
+  "fig-liang-wudi",
+  "fig-tuoba-gui",
+  "fig-xiaowen"
+ ],
+ "cn-prc-early": [
+  "fig-lin-biao"
+ ],
+ "cn-three-kingdoms": [
+  "fig-liu-bei",
+  "fig-sunquan",
+  "fig-zhou-yu"
+ ],
+ "cn-modern-liberation": [
+  "fig-liu-bocheng",
+  "fig-liu-shaoqi"
+ ],
+ "cn-liang-jin": [
+  "fig-liuyuan"
+ ],
+ "cn-qin": [
+  "fig-meng-tian",
+  "fig-wang-jian",
+  "fig-zhang-han",
+  "fig-zi-ying"
+ ],
+ "cn-song-liao-jin": [
+  "fig-shi-jingzhang",
+  "fig-suo-shi",
+  "fig-wang-anshi",
+  "fig-zhao-guangyi",
+  "fig-zhao-heng",
+  "fig-zhao-kuangyin"
+ ],
+ "cn-yuan-late": [
+  "fig-shi-tiesheng",
+  "fig-tu-tuo"
+ ],
+ "cn-wei-jin-nanbei": [
+  "fig-sima-yan",
+  "fig-taishao",
+  "fig-xie-an"
+ ],
+ "cn-prc-reform": [
+  "fig-wen-jiabao",
+  "fig-zhu-rongji"
+ ],
+ "cn-spring-autumn": [
+  "fig-xi-quan"
+ ],
+ "cn-liao": [
+  "fig-xiao-wan-gui",
+  "fig-yao-gun",
+  "fig-yelv-abaji",
+  "fig-yelv-liangzhu"
+ ],
+ "cn-ming-early": [
+  "fig-xuande",
+  "fig-yu-qian",
+  "fig-zhengde",
+  "fig-zhu-gao"
+ ],
+ "cn-zhou-east": [
+  "fig-zhoujingwang",
+  "fig-zi-gong",
+  "fig-zi-shang"
+ ]
+}

@@ -1,0 +1,2441 @@
+[
+ {
+  "id": "cn-prehistory",
+  "name": "史前时代",
+  "alias": "石器时代",
+  "parentId": null,
+  "startYear": -3000000,
+  "endYear": -2070,
+  "startDateText": "公元前300万年",
+  "endDateText": "公元前2070年",
+  "colorKey": "stone",
+  "summary": "中国境内人类活动的远古阶段，从旧石器时代的早期猿人到晚于新石器时代的炎黄传说时代。约在公元前207万年前后，北京周口店猿人开始用火耕作；仰韶、龙山、良渚等文化先后在黄河与长江流域留下陶器和城址。这一时期奠定了中华文明的地理与物质基础，文字尚未诞生，但稻作、粟作、制陶、玉礼器与氏族聚落已相当发达，为夏商国家的形成准备了条件。",
+  "territory": "黄河中游、长江中下游、辽河流域及珠江流域的广袤区域",
+  "capital": "无常都，以氏族聚落中心为政治中心",
+  "population": "约数百万至千万人（估算）",
+  "culture": "打制与磨制石器并存；彩陶、黑陶、白陶技术；稻作与粟作农业；玉器礼制；图腾崇拜与祖先崇拜",
+  "keyFigures": [
+   "fig-huangdi",
+   "fig-yandi",
+   "fig-chanmu"
+  ],
+  "relatedEvents": [
+   "ev-pre-peking-man",
+   "ev-pre-yangshao",
+   "ev-pre-longshan",
+   "ev-pre-liangzhu",
+   "ev-pre-huangdi"
+  ],
+  "tags": [
+   "编年主干",
+   "远古",
+   "石器时代",
+   "文明起源"
+  ]
+ },
+ {
+  "id": "cn-xia-shang",
+  "name": "夏商",
+  "alias": "夏朝与商朝",
+  "parentId": null,
+  "startYear": -2070,
+  "endYear": -1046,
+  "startDateText": "公元前2070年",
+  "endDateText": "公元前1046年",
+  "colorKey": "cyan",
+  "summary": "中国信史时代的最早阶段。夏朝相传禹受舜禅让而建都阳城、阳翟，控制黄河中游诸部；商朝则崛起于豫北、冀南一带，以亳为都，前1300年盘庚迁殷后稳定经营，是目前有成熟文字（甲骨文）直接印证的最早王朝。商代甲骨、青铜器与原始历法显示其国家组织已相当发达，方国联盟与神权王权并存，为周代礼乐制度的建立准备了制度与文化基础。",
+  "territory": "以中原为核心，东至海滨，西及陇山，南至江汉",
+  "capital": "阳城、阳翟、亳、殷（安阳）",
+  "population": "约数百万至一千余万（估算）",
+  "culture": "甲骨文、青铜礼器、占卜神权、方国联盟、井田雏形",
+  "keyFigures": [
+   "fig-yu",
+   "fig-tang",
+   "fig-pangeng",
+   "fig-wuding",
+   "fig-furen"
+  ],
+  "relatedEvents": [
+   "ev-shang-tang-founding",
+   "ev-shang-pan-geng-move",
+   "ev-shang-jiagu",
+   "ev-shang-wuding",
+   "ev-shang-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "夏",
+   "商",
+   "甲骨文",
+   "青铜时代",
+   "信史"
+  ]
+ },
+ {
+  "id": "cn-zhou-west",
+  "name": "西周",
+  "alias": "镐京时期",
+  "parentId": null,
+  "startYear": -1046,
+  "endYear": -771,
+  "startDateText": "公元前1046年",
+  "endDateText": "公元前771年",
+  "colorKey": "zhou",
+  "summary": "周武王灭商建立西周，定都镐京，以宗法嫡长子继承与分封诸侯构成政治骨架，成王、周公相继完善礼乐制度与典章。册命、封建、宗法、井田与礼乐五事构成了早期中国的制度根基，「天命靡常」的德治观则为周人取代商提供了合法性论述。厉王专利弭谤，国人暴动，王室东迁，西周结束，其功过的教训成为后世儒家政治伦理的核心资源。",
+  "territory": "东至海岱，西到六狄，南达淮汉，北抵燕山",
+  "capital": "镐京（宗周）、丰京",
+  "population": "约数千万（估算）",
+  "culture": "金文与《尚书》《周礼》《礼记》，礼乐射御书数六艺，宗庙制度与明德慎罚",
+  "keyFigures": [
+   "fig-zhouwu",
+   "fig-zhougong",
+   "fig-zhouchengwang",
+   "fig-zhouliwang",
+   "fig-zhouyouwang",
+   "fig-zhouxuanwang"
+  ],
+  "relatedEvents": [
+   "ev-zhou-founding",
+   "ev-zhou-fengjian",
+   "ev-zhou-zhougong",
+   "ev-zhou-liwang",
+   "ev-zhou-guoren",
+   "ev-zhou-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "西周",
+   "分封",
+   "宗法",
+   "礼乐",
+   "井田"
+  ]
+ },
+ {
+  "id": "cn-zhou-east",
+  "name": "春秋战国",
+  "alias": "东周",
+  "parentId": null,
+  "startYear": -771,
+  "endYear": -222,
+  "startDateText": "公元前771年",
+  "endDateText": "公元前222年",
+  "colorKey": "zhou",
+  "summary": "周平王东迁洛邑之后的两百五十余年。王室衰微，诸侯争霸，礼乐征伐自诸侯出，井田瓦解，宗法松弛，社会剧变。春秋时期齐、晋、楚、秦、吴、越等大国相继称霸，长勺、城濮、泓水等战役奠定格局；战国时期七雄并立，变法运动风起云涌，孟子、荀子、墨子、老子、庄子、韩非子诸子争鸣，稷下学宫与邹鲁儒学兴盛，科学技术亦有长足进步，最终秦王政次第灭六国。",
+  "territory": "王畿缩小；诸侯国实际控制中原及江淮、巴蜀、辽东广大区域",
+  "capital": "洛邑（王都）",
+  "population": "约四千万至五千万（估算）",
+  "culture": "百家争鸣、私学兴起、变法与耕战、铸铁与牛耕、水利兴修、小说与辞赋萌芽",
+  "keyFigures": [
+   "fig-kongzi",
+   "fig-lao-tzu",
+   "fig-mozi",
+   "fig-mencius",
+   "fig-xunzi",
+   "fig-han-feizi"
+  ],
+  "relatedEvents": [
+   "ev-zhou-pingwang",
+   "ev-zhou-changpeng",
+   "ev-zhou-warring-states",
+   "ev-zhou-bianfa",
+   "ev-zhou-baijia",
+   "ev-zhou-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "春秋",
+   "战国",
+   "百家争鸣",
+   "变法"
+  ]
+ },
+ {
+  "id": "cn-qin",
+  "name": "秦",
+  "alias": "秦朝",
+  "parentId": null,
+  "startYear": -221,
+  "endYear": -207,
+  "startDateText": "公元前221年",
+  "endDateText": "公元前207年",
+  "colorKey": "blue",
+  "summary": "中国第一个统一的中央集权王朝，享国仅十五年却奠定了此后两千年的政治制度格局。秦王嬴政十年之间先后灭韩、赵、魏、楚、燕、齐，结束春秋战国五百余年的分裂，于公元前221年称皇帝并定都咸阳。秦以三公九卿与郡县制取代分封，废六国文字而统一为小篆，统一度量衡与车轨，颁行《秦律》，铸半两钱与圆形方孔钱通行全国。修筑长城连接燕、赵、秦旧塞，筑驰道直道通全国，北击匈奴，南取百越，设桂林、象郡、南海三郡。焚书坑儒、严刑峻法激起反抗，前209年陈胜吴广起义爆发，前207年秦亡，其速亡成为后世王朝吸取教训的核心案例。",
+  "territory": "东至东海与朝鲜半岛北部，西至临洮、羌中，南抵南海象郡，北至长城与河套",
+  "capital": "咸阳",
+  "population": "约二千万（估算）",
+  "culture": "秦篆与隶书；皇帝制度与三公九卿、郡县制；统一度量衡与货币；《秦律》与严刑；驰道与长城",
+  "keyFigures": [
+   "fig-qin-shi-huang",
+   "fig-li-si",
+   "fig-zhao-gao",
+   "fig-huang-jie",
+   "fig-zhang-liang"
+  ],
+  "relatedEvents": [
+   "ev-qin-unify",
+   "ev-qin-emperor-system",
+   "ev-qin-county-system",
+   "ev-qin-standardize",
+   "ev-qin-burn-books",
+   "ev-qin-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "秦",
+   "统一",
+   "中央集权",
+   "郡县制",
+   "始皇"
+  ]
+ },
+ {
+  "id": "cn-han",
+  "name": "汉",
+  "alias": "汉朝",
+  "parentId": null,
+  "startYear": -206,
+  "endYear": 220,
+  "startDateText": "公元前206年",
+  "endDateText": "公元220年",
+  "colorKey": "han",
+  "summary": "中国历史上最具凝聚力的统一王朝，历经西汉、新莽、东汉共四百余年。汉承秦制而损益，确立郡国并行、察举征辟与编户齐民制度，儒学取得独尊地位，成为此后两千年中国政治文化的正统意识形态。汉武帝开疆拓土经营西域，设西域都护，丝绸之路贯通欧亚；张骞凿空、司马迁著史、蔡伦造纸、张衡地动仪、 华佗良方均为世界史级贡献。中间经历王莽篡汉与赤眉黄巾之乱，最终在军阀混战中为曹魏所代。",
+  "territory": "西汉极盛东至朝鲜半岛北部，南抵南海诸郡，西越葱岭置西域都护府，北抵长城",
+  "capital": "长安、洛阳",
+  "population": "西汉极盛约六千万至七千万；东汉约五千万（估算）",
+  "culture": "独尊儒术、汉字定型为隶书、造纸与地动仪、简帛与石刻、丝绸之路、乐府诗与纪传体史书",
+  "keyFigures": [
+   "fig-liu-bang",
+   "fig-han-wudi",
+   "fig-zhang-qian",
+   "fig-sima-qian",
+   "fig-wang-mang",
+   "fig-cai-lun"
+  ],
+  "relatedEvents": [
+   "ev-han-founding",
+   "ev-han-wudi",
+   "ev-han-zhangqian",
+   "ev-han-siluroad",
+   "ev-han-wangmang",
+   "ev-han-yellow-turban",
+   "ev-han-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "汉",
+   "独尊儒术",
+   "丝绸之路",
+   "造纸术",
+   "统一多民族国家"
+  ]
+ },
+ {
+  "id": "cn-wei-jin-nanbei",
+  "name": "三国两晋南北朝",
+  "alias": "分裂与融合时期",
+  "parentId": null,
+  "startYear": 220,
+  "endYear": 589,
+  "startDateText": "公元220年",
+  "endDateText": "公元589年",
+  "colorKey": "green",
+  "summary": "中国历史上一段长期的分裂与民族大融合时期。三国鼎立后西晋短暂统一，随后八王之乱引发十六国与南北朝对峙三百六十年。在此期间，北方胡汉政权推行均田、三省制等制度并加速民族融合，南方则在江南开发、山林开发与佛教南传中成长，士族门阀政治达到顶峰。佛教广泛传播并走向本土化，石窟艺术与士人玄学、史学、文学各臻其盛。隋文帝589年灭陈，结束分裂。",
+  "territory": "北方十六国与北魏、东魏、西魏、北齐、北周交替；南方东晋、宋、齐、梁、陈相继",
+  "capital": "洛阳、长安、建康、邺、平城、大兴城",
+  "population": "约四千万至五千万（估算）",
+  "culture": "佛教本土化与云冈龙门石窟、玄学清谈、士族门阀、陶渊明与祖冲之、北魏孝文帝汉化",
+  "keyFigures": [
+   "fig-cao-cao",
+   "fig-liu-bei",
+   "fig-sunquan",
+   "fig-sima-yan",
+   "fig-taishao",
+   "fig-xie-an"
+  ],
+  "relatedEvents": [
+   "ev-weijin-red-cliffs",
+   "ev-weijin-eight-princes",
+   "ev-weijin-yongjia",
+   "ev-weijin-feishui",
+   "ev-weijin-northern-wei",
+   "ev-weijin-xiaowen-hanization",
+   "ev-weijin-sui-unify"
+  ],
+  "tags": [
+   "编年主干",
+   "三国",
+   "两晋",
+   "南北朝",
+   "民族融合",
+   "佛教",
+   "门阀"
+  ]
+ },
+ {
+  "id": "cn-sui-tang",
+  "name": "隋唐",
+  "alias": "隋朝与唐朝",
+  "parentId": null,
+  "startYear": 589,
+  "endYear": 907,
+  "startDateText": "公元589年",
+  "endDateText": "公元907年",
+  "colorKey": "sui-tang",
+  "summary": "中国古典文明的鼎盛时期。隋朝虽二世而亡，却以三省六部制、科举制、均田赋调制与开凿大运河奠定唐代及后世制度基础。唐承隋制而创新，贞观之治与开元盛世使国势极盛，疆域东达朝鲜半岛，西至咸海，北括蒙古高原，南抵安南；长安成为世界性都市，万国来朝。诗歌达到顶点，书法绘画臻于极盛，雕版印刷、火药、造纸、医学皆领先世界。安史之乱后由盛转衰，藩镇割据、宦官专权与农民起义相继，907年朱温篡唐。",
+  "territory": "极盛时东至朝鲜半岛，西抵咸海（一说里海以东），北逾大漠，南及安南",
+  "capital": "大兴（长安）、洛阳",
+  "population": "唐极盛约四千万至五千万人（户口逾九百万户）",
+  "culture": "三省六部与科举、诗歌黄金时代、玄奘西行与鉴真东渡、敦煌莫高窟、唐三彩、雕版印刷与火药",
+  "keyFigures": [
+   "fig-sui-wendi",
+   "fig-yang-guang",
+   "fig-li-shimin",
+   "fig-wu-zetian",
+   "fig-xuanzang",
+   "fig-du-fu"
+  ],
+  "relatedEvents": [
+   "ev-suita-sui-founding",
+   "ev-suita-kemu",
+   "ev-suita-grand-canal",
+   "ev-tang-zhenguan",
+   "ev-tang-kaiyuan",
+   "ev-tang-anlushan",
+   "ev-tang-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "隋唐",
+   "科举制",
+   "贞观之治",
+   "开元盛世",
+   "丝绸之路",
+   "诗国"
+  ]
+ },
+ {
+  "id": "cn-wudai",
+  "name": "五代十国",
+  "alias": "五代十国",
+  "parentId": null,
+  "startYear": 907,
+  "endYear": 960,
+  "startDateText": "公元907年",
+  "endDateText": "公元960年",
+  "colorKey": "yellow",
+  "summary": "唐亡后中原五次更迭与南方十国并立的分裂时期。后梁、后唐、后晋、后汉、后周相继统治中原，中原战乱频仍而契丹南侵压境；南方有吴、南唐、吴越、闽、楚、南汉、南平与前蜀后蜀等割据政权，相对安定，发育出江南经济与海上贸易。南唐李煜为词宗，北周世宗柴荣改革整顿，使中原渐强；960年赵匡胤陈桥兵变建宋，逐步削平诸国，979年北汉亡，五代十国结束。",
+  "territory": "中原五代递嬗；南方十国分据江淮、江南、蜀中与两广、荆湖",
+  "capital": "洛阳、开封、汴州、成都、金陵、杭州、福州、长沙、广州、江陵",
+  "population": "约数百万户（南北合计）",
+  "culture": "词与文人画兴起、李煜词、柴荣改革、雕版印刷普及、契丹与女真兴起、海上贸易繁荣",
+  "keyFigures": [
+   "fig-zhu-wen",
+   "fig-li-keyong",
+   "fig-li-yan-hao",
+   "fig-liwang-yan",
+   "fig-chao-rong",
+   "fig-li-yu"
+  ],
+  "relatedEvents": [
+   "ev-wudai-liang",
+   "ev-wudai-tang",
+   "ev-wudai-jin",
+   "ev-wudai-zhou",
+   "ev-wudai-song-founding"
+  ],
+  "tags": [
+   "编年主干",
+   "五代十国",
+   "契丹",
+   "后周世宗",
+   "李煜",
+   "分裂"
+  ]
+ },
+ {
+  "id": "cn-song-liao-jin",
+  "name": "宋辽金",
+  "alias": "宋辽金时期",
+  "parentId": null,
+  "startYear": 979,
+  "endYear": 1270,
+  "startDateText": "公元979年",
+  "endDateText": "公元1270年",
+  "colorKey": "yellow",
+  "summary": "宋辽金三足鼎立的三百二十年。北宋以文官治国、募兵强干，商品经济与城市生活空前繁荣，开封、临安百万人口，印刷业、火药、指南针、瓷器、造船皆领先世界；同时面临辽、西夏、金的外部压力与冗官冗费积弊。靖康之变北宋亡，南宋偏安临安。海上丝绸之路兴盛，日本、高丽、阿拉伯商旅往来频繁，泉州成为东方大港。1279年崖山海战后宋亡。",
+  "territory": "北宋：中原及秦岭以南；辽：燕云及漠北草原；金：中原北方大部；南宋：南方",
+  "capital": "开封（东京）、临安（杭州）、中都（辽）、中都（金）",
+  "population": "北宋极盛约一亿一千七百万户口（约四千万口）；南宋约一千万户",
+  "culture": "宋词与唐宋八大家、活字印刷、火药与指南针、瓷器与漆器、茶马贸易、理学兴起",
+  "keyFigures": [
+   "fig-zhao-kuangyin",
+   "fig-zhao-guangyi",
+   "fig-zhao-heng",
+   "fig-shi-jingzhang",
+   "fig-wang-anshi",
+   "fig-suo-shi"
+  ],
+  "relatedEvents": [
+   "ev-song-founding",
+   "ev-song-qinliang",
+   "ev-song-liao-chanyuan",
+   "ev-song-jingkang",
+   "ev-song-kaixi",
+   "ev-song-yashan"
+  ],
+  "tags": [
+   "编年主干",
+   "宋",
+   "辽",
+   "金",
+   "宋词",
+   "四大发明",
+   "靖康之变"
+  ]
+ },
+ {
+  "id": "cn-yuan",
+  "name": "元",
+  "alias": "元朝",
+  "parentId": null,
+  "startYear": 1271,
+  "endYear": 1368,
+  "startDateText": "公元1271年",
+  "endDateText": "公元1368年",
+  "colorKey": "yuan",
+  "summary": "蒙古族建立的横跨欧亚的统一王朝。忽必烈定国号元，建都大都，确立行省制度，首置行中书省于山东河北，奠定后世省制基础；四等人制与大量蒙古贵族荫袭使统治成本极高。忽必烈两次征日失败，海运漕粮改道开源，开发漠北上都，设宣政院辖吐蕃，澎湖巡检司领琉球。经济上纸币与海外贸易活跃，但后期权臣专政、财政败坏，1368年明军入大都，元亡。",
+  "territory": "东至日本海，西抵葱岭，西南至西藏，南及南海",
+  "capital": "大都（北京）、上都（开平）",
+  "population": "约千万级（户口约七百至一千余万）",
+  "culture": "行省制度、四等人制、元曲与关汉卿马致远、青花瓷与元青花、藏传佛教、活字印刷与回回炮",
+  "keyFigures": [
+   "fig-temujin",
+   "fig-kublai",
+   "fig-wang-zhen",
+   "fig-yue-fei",
+   "fig-li-guang",
+   "fig-zhang-zhongyu"
+  ],
+  "relatedEvents": [
+   "ev-yuan-mongol-unify",
+   "ev-yuan-founding",
+   "ev-yuan-xing-sheng",
+   "ev-yuan-dadu",
+   "ev-yuan-miao",
+   "ev-yuan-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "元",
+   "蒙古",
+   "行省制度",
+   "元曲",
+   "大都",
+   "欧亚交流"
+  ]
+ },
+ {
+  "id": "cn-ming",
+  "name": "明",
+  "alias": "明朝",
+  "parentId": null,
+  "startYear": 1368,
+  "endYear": 1644,
+  "startDateText": "公元1368年",
+  "endDateText": "公元1644年",
+  "colorKey": "pink",
+  "summary": "汉人重建的近三百年王朝。朱元璋以布衣取天下，废丞相设六部直辖，编《大明律》《大明会典》，设锦衣卫与东厂，颁黄册鱼鳞图册，重农抑商而海禁频行。永乐迁都北京，修紫禁城与长城，遣郑和七下西洋，设奴儿干与交趾布政使司。仁宣之治与成弘中兴延续稳定，正德嘉靖内有王守仁心学与《几何原本》译本，海外白银大量流入。张居正一条鞭法推行，1616年后后金崛起，1644年李自成入北京，崇祯自缢，明亡。",
+  "territory": "北抵长城与辽东，西至嘉峪关，西南至安南，南达南海诸岛，东临太平洋",
+  "capital": "应天（南京）、北京",
+  "population": "明盛时约一亿人口（洪武末户口约一千六百万户，末年约两千万户）",
+  "culture": "章回小说四大名著、徐霞客游记、李时珍本草纲目、宋应星天工开物、徐光启农政全书、昆曲与京剧前身、紫禁城与明长城",
+  "keyFigures": [
+   "fig-zhu-yuanzhang",
+   "fig-zhu-di",
+   "fig-zheng-he",
+   "fig-wang-zhen",
+   "fig-li-shizhen",
+   "fig-xu-xiake"
+  ],
+  "relatedEvents": [
+   "ev-ming-founding",
+   "ev-ming-yongle",
+   "ev-ming-sea",
+   "ev-ming-wangyangming",
+   "ev-ming-yitiaobian",
+   "ev-ming-fall"
+  ],
+  "tags": [
+   "编年主干",
+   "明",
+   "郑和下西洋",
+   "长城",
+   "紫禁城",
+   "阳明心学",
+   "白银"
+  ]
+ },
+ {
+  "id": "cn-qing",
+  "name": "清",
+  "alias": "清朝",
+  "parentId": null,
+  "startYear": 1644,
+  "endYear": 1912,
+  "startDateText": "公元1644年",
+  "endDateText": "公元1912年",
+  "colorKey": "qing",
+  "summary": "中国最后一个封建王朝二百六十八年。努尔哈赤建后金，皇太极改国号清并入关定鼎北京，康熙平三藩收台湾、雅克萨与噶尔丹，雍正推行摊丁入亩与军机处，乾隆十全武功并开《四库全书》，文字狱压抑思想。鸦片战争打开国门，太平天国运动席卷十八省，洋务运动、戊戌变法与清末新政相继尝试自救，辛亥革命终结帝制。制度上集权空前亦僵化，工业化与民族危机同步加深。",
+  "territory": "极盛时东至库页岛与外兴安岭，西至巴尔喀什湖北至外蒙古，西南至喜马拉雅，南至南海诸岛",
+  "capital": "北京",
+  "population": "康熙末约二亿；光绪末约四亿一千万",
+  "culture": "京旗文化、红楼梦与儒学官学、考据学与乾嘉学派、 京剧形成、中西科学与工艺交汇",
+  "keyFigures": [
+   "fig-nurhaci",
+   "fig-huang-taiji",
+   "fig-kangxi",
+   "fig-yongzheng",
+   "fig-qianlong",
+   "fig-jiaqing"
+  ],
+  "relatedEvents": [
+   "ev-qing-founding",
+   "ev-qing-kangxi",
+   "ev-qing-qianlong",
+   "ev-qing-opium-war",
+   "ev-qing-taiping",
+   "ev-qing-yangwu",
+   "ev-qing-xinhai"
+  ],
+  "tags": [
+   "编年主干",
+   "清",
+   "康乾盛世",
+   "洋务运动",
+   "太平天国",
+   "辛亥革命"
+  ]
+ },
+ {
+  "id": "cn-modern",
+  "name": "近代",
+  "alias": "民国与近代",
+  "parentId": null,
+  "startYear": 1912,
+  "endYear": 1949,
+  "startDateText": "公元1912年",
+  "endDateText": "公元1949年",
+  "colorKey": "gray",
+  "summary": "从中华民国建立到中华人民共和国成立的四十年。共和肇始却军阀混战，护国护法运动与南北之争不断；五四运动开启新文化运动，马克思主义广泛传播，中国共产党诞生并开辟农村包围城市道路；九一八事变后日本侵占东北，局部抗战与全面抗战相继，七七事变后全民族抗战爆发并于1945年胜利；内战复起，三年解放战争结束大陆解放。近代化与救亡图存构成这一时期的根本主题。",
+  "territory": "北京至南京政权中心；抗战期间沦陷区与根据地分立；1949年大陆基本解放",
+  "capital": "南京",
+  "population": "约四亿八千万（1949年估算）",
+  "culture": "新文化运动、白话文与新文学、电影与话剧、现代教育与科学、左翼文艺与抗战文艺",
+  "keyFigures": [
+   "fig-sun-yat-sen",
+   "fig-chen-duxiu",
+   "fig-li-dazhao",
+   "fig-lu-xun",
+   "fig-hu-shi",
+   "fig-mao-zedong"
+  ],
+  "relatedEvents": [
+   "ev-modern-republic",
+   "ev-modern-may-fourth",
+   "ev-modern-communist-party",
+   "ev-modern-japanese-aggression",
+   "ev-modern-victory",
+   "ev-modern-liberation"
+  ],
+  "tags": [
+   "编年主干",
+   "近代",
+   "民国",
+   "五四运动",
+   "抗日战争",
+   "解放战争"
+  ]
+ },
+ {
+  "id": "cn-prc",
+  "name": "中华人民共和国",
+  "alias": "新中国",
+  "parentId": null,
+  "startYear": 1949,
+  "endYear": 2026,
+  "startDateText": "公元1949年",
+  "endDateText": "至今",
+  "colorKey": "modern",
+  "summary": "自1949年10月1日中华人民共和国成立至今的国家。建国初期确立人民代表大会制度与协商制度，进行土地改革与三大改造，建立独立完整的工业体系与国防科技基础，1964年原子弹爆炸、1967年氢弹成功；改革开放后以经济建设为中心，设立经济特区与深圳等城市，提出一国两制、和平统一方针，2001年加入世界贸易组织，经济总量跃居世界前列。香港、澳门于1997、1999年回归，2008年北京举办奥运会，航天与深海、深潜、基建与高铁成就举世瞩目，中华民族伟大复兴进入新时代。",
+  "territory": "陆地面积约960万平方公里，陆地边界2.2万余公里，海岸线1.8万余公里，管辖海域约300万平方公里",
+  "capital": "北京",
+  "population": "约14亿",
+  "culture": "普通话推广与教育普及、两弹一星与航天工程、载人航天与探月、高铁与南水北调、非遗保护与文化自信、人类命运共同体理念",
+  "keyFigures": [
+   "fig-mao-zedong",
+   "fig-zhou-enlai",
+   "fig-deng-xiaoping",
+   "fig-chen-yi",
+   "fig-hu-jintao",
+   "fig-xi-jinping"
+  ],
+  "relatedEvents": [
+   "ev-prc-founding",
+   "ev-prc-first-five-year",
+   "ev-prc-two-bombs",
+   "ev-prc-reform",
+   "ev-prc-special-zones",
+   "ev-prc-wto",
+   "ev-prc-hong-kong"
+  ],
+  "tags": [
+   "编年主干",
+   "新中国",
+   "改革开放",
+   "两弹一星",
+   "一国两制",
+   "加入世贸",
+   "航天"
+  ]
+ },
+ {
+  "id": "cn-pre-paleolithic",
+  "name": "旧石器时代",
+  "alias": "猿人时期",
+  "parentId": "cn-prehistory",
+  "startYear": -3000000,
+  "endYear": -12000,
+  "startDateText": "公元前300万年",
+  "endDateText": "公元前12000年",
+  "colorKey": "stone",
+  "summary": "距今约两百万年至一万两千年的原始人群阶段。北京周口店猿人、元谋人、蓝田人、山顶洞人等先后在境内生活，能够直立行走、群居狩猎、采集野果，并学会了保存火种和制造简单石器。山顶洞人已掌握钻孔、磨制技术，会埋葬同伴并佩戴装饰品，萌生原始审美和宗教观念。此期尚未出现农业与村落，是理解中国人群演化与文化连续性的关键底层。",
+  "territory": "东亚内陆与华北地区，多为洞穴及河台遗址",
+  "capital": "无",
+  "population": "极稀少（估算）",
+  "culture": "打制石器、火的使用、洞穴居住、原始埋葬与装饰",
+  "keyFigures": [
+   "fig-peking-man",
+   "fig-yuanmou-man",
+   "fig-lantian-man",
+   "fig-shandongdong-man"
+  ],
+  "relatedEvents": [
+   "ev-pre-peking-man",
+   "ev-pre-yuanmou",
+   "ev-pre-shandongdong"
+  ],
+  "tags": [
+   "旧石器",
+   "猿人",
+   "用火"
+  ]
+ },
+ {
+  "id": "cn-pre-neolithic",
+  "name": "新石器时代",
+  "alias": "农业文明曙光",
+  "parentId": "cn-prehistory",
+  "startYear": -12000,
+  "endYear": -2070,
+  "startDateText": "公元前12000年",
+  "endDateText": "公元前2070年",
+  "colorKey": "stone",
+  "summary": "距今约一万两千年至公元前2070年的农业定居阶段。北方黄河流域形成以粟作和黍作为基础的仰韶、龙山文化，南方长江流域发展出稻作、烧干栏建筑的河姆渡与良渚文化，辽河流域有红山文化。城址、城墙、大型墓葬与礼器制度出现，社会分层加剧，神权与王权开始结合。传说时代的三皇五帝被后世塑造为这一阶段的文化代表，中国早期国家的雏形在中原与江淮呈现。",
+  "territory": "黄河、长江、辽河三大流域的核心农业区",
+  "capital": "氏族与部落联盟中心，非固定都城",
+  "population": "约数百万至千万人（估算）",
+  "culture": "农业定居、制陶、磨制石器、玉礼器、城址、祖先与图腾崇拜",
+  "keyFigures": [
+   "fig-huangdi",
+   "fig-yandi",
+   "fig-chanmu",
+   "fig-yu",
+   "fig-shennong",
+   "fig-fuxi"
+  ],
+  "relatedEvents": [
+   "ev-pre-yangshao",
+   "ev-pre-longshan",
+   "ev-pre-liangzhu",
+   "ev-pre-hemudu",
+   "ev-pre-hongshan",
+   "ev-pre-yu"
+  ],
+  "tags": [
+   "新石器",
+   "农业",
+   "文明起源",
+   "城址"
+  ]
+ },
+ {
+  "id": "cn-xia",
+  "name": "夏",
+  "alias": "夏朝、夏后氏",
+  "parentId": "cn-xia-shang",
+  "startYear": -2070,
+  "endYear": -1600,
+  "startDateText": "公元前2070年",
+  "endDateText": "公元前1600年",
+  "colorKey": "cyan",
+  "summary": "相传由禹建立的夏朝，是中国文献所载的第一个王朝。夏启承禹之位而家天下，废禅让而行世袭；太康失国、后羿代夏、少康中兴，构成夏代兴亡主线。都城几度迁移于阳城、阳斟、斟鄩等地，二里头遗址被发现，呈现出宫殿基址、青铜礼器与绿松石龙形器等早期国家气象。夏代氏族部落联盟向地域性国家的过渡，是中华政治文明的关键起点。",
+  "territory": "以河南西部、山西南部为中心的黄河中游",
+  "capital": "阳城、阳斟、斟鄩（洛阳偃师一带）",
+  "population": "约百万级（估算）",
+  "culture": "二里头文化：青铜礼器初兴、宫殿宗庙建筑、原始礼制、酿酒与绿松石工艺",
+  "keyFigures": [
+   "fig-yu",
+   "fig-qi",
+   "fig-taikang",
+   "fig-liu-kang"
+  ],
+  "relatedEvents": [
+   "ev-xia-yu-dynasty",
+   "ev-xia-cheng",
+   "ev-xia-taikang",
+   "ev-xia-zhongxing",
+   "ev-xia-erlitou"
+  ],
+  "tags": [
+   "夏朝",
+   "世袭制",
+   "二里头"
+  ]
+ },
+ {
+  "id": "cn-shang",
+  "name": "商",
+  "alias": "商朝、殷商",
+  "parentId": "cn-xia-shang",
+  "startYear": -1600,
+  "endYear": -1046,
+  "startDateText": "公元前1600年",
+  "endDateText": "公元前1046年",
+  "colorKey": "cyan",
+  "summary": "以商王盘庚迁殷为界分为早商与晚商（殷）。商汤灭夏建立商朝，都亳；前1300年盘庚迁都于殷，此后二百六十五年不再迁都，故又称殷商。商代留下大量甲骨文，是汉字最早的成熟形态；司母戊鼎、四羊方尊等重器显示青铜铸造的顶峰。商王武丁中兴，任用傅说为相，国势强盛；纣王暴虐，周武王伐之，商亡。商朝的祭祀系统、青铜铸造与文字体系共同构成了早期中国的礼制雏形，其王权与神权紧密结合的形态为周人反思并重构提供了直接素材。",
+  "territory": "东起海滨，西至太行，南抵江汉，北达燕山",
+  "capital": "亳、隞、邢、庇、奄、殷（安阳）",
+  "population": "约一千余万（估算）",
+  "culture": "甲骨占卜与甲骨文、青铜礼器铸造、原始数学与历法、方国邦联体制",
+  "keyFigures": [
+   "fig-tang",
+   "fig-pangeng",
+   "fig-wuding",
+   "fig-furen",
+   "fig-jie",
+   "fig-jiangzhu"
+  ],
+  "relatedEvents": [
+   "ev-shang-tang-founding",
+   "ev-shang-pan-geng-move",
+   "ev-shang-jiagu",
+   "ev-shang-wuding",
+   "ev-shang-bronze",
+   "ev-shang-fall"
+  ],
+  "tags": [
+   "商朝",
+   "甲骨文",
+   "青铜器",
+   "殷墟",
+   "神权"
+  ]
+ },
+ {
+  "id": "cn-shang-early",
+  "name": "早商",
+  "alias": "商前期",
+  "parentId": "cn-shang",
+  "startYear": -1600,
+  "endYear": -1300,
+  "startDateText": "公元前1600年",
+  "endDateText": "公元前1300年",
+  "colorKey": "cyan",
+  "summary": "商汤建国至盘庚迁殷之前的约三百年。成汤、伊尹、太甲、沃丁、盘庚诸王相继在位，商初都邑在亳一带屡有迁徙。伊尹辅政与太甲改过的故事塑造了后世「贤臣匡君」的典范。青铜礼器铸造体系在这一时期初步成型，二里岗、洹北商城等遗址展现了早期都城的规划。此期亦是「以臣代君」观念与商族扩张的奠基阶段。商初的族群整合与都邑迁徙过程，反映了早期国家在扩张与稳固之间的反复试错，也为随后武丁中兴积累了人口与资源基础。",
+  "territory": "以今河南、商丘一带为轴心的中原与冀南",
+  "capital": "亳、隞、邢",
+  "population": "约百万级（估算）",
+  "culture": "二里岗文化、郑州商城、偃师商城、青铜容器初盛",
+  "keyFigures": [
+   "fig-tang",
+   "fig-yiyin",
+   "fig-taijia",
+   "fig-pangeng"
+  ],
+  "relatedEvents": [
+   "ev-shang-tang-founding",
+   "ev-shang-yiyin",
+   "ev-shang-taijia",
+   "ev-shang-zhengzhou-city"
+  ],
+  "tags": [
+   "早商",
+   "亳",
+   "伊尹"
+  ]
+ },
+ {
+  "id": "cn-shang-late",
+  "name": "晚商",
+  "alias": "殷商",
+  "parentId": "cn-shang",
+  "startYear": -1300,
+  "endYear": -1046,
+  "startDateText": "公元前1300年",
+  "endDateText": "公元前1046年",
+  "colorKey": "cyan",
+  "summary": "盘庚迁殷以后的商代后期，二百六十五年都安邑（安阳）不迁。甲骨文成体系，妇好墓出土青铜礼器、宝石玉器四百余件，反映出商代宫廷社会的高度发达。武丁中兴，国力鼎盛，四方征伐频繁，武丁配偶妇好亦统兵征战。帝乙、帝辛两世对西周方国的封赐与征伐日益激烈，最终引发牧野之战，商王朝覆灭。殷墟丰富的甲骨、青铜与墓葬遗存，构成了解商代政治运作、社会分层与宗教观念的核心材料库，也是中国最早有文字直接印证的历史时期。",
+  "territory": "殷墟为中心的中原核心区，势力远及江汉与燕山",
+  "capital": "殷（安阳）",
+  "population": "约一千余万（估算）",
+  "culture": "甲骨文与卜辞体系、青铜礼器与乐器、原始历法与数字、祖先崇拜",
+  "keyFigures": [
+   "fig-pangeng",
+   "fig-wuding",
+   "fig-furen",
+   "fig-jie",
+   "fig-zhouwu",
+   "fig-zhoubang"
+  ],
+  "relatedEvents": [
+   "ev-shang-pan-geng-move",
+   "ev-shang-jiagu",
+   "ev-shang-wuding",
+   "ev-shang-furen",
+   "ev-shang-doushang",
+   "ev-shang-fall"
+  ],
+  "tags": [
+   "殷商",
+   "甲骨文",
+   "妇好",
+   "牧野之战"
+  ]
+ },
+ {
+  "id": "cn-spring-autumn",
+  "name": "春秋",
+  "alias": "春秋时期、诸侯争霸",
+  "parentId": "cn-zhou-east",
+  "startYear": -771,
+  "endYear": -476,
+  "startDateText": "公元前771年",
+  "endDateText": "公元前476年",
+  "colorKey": "zhou",
+  "summary": "东周前期的二百九十余年，郑、宋、齐、晋、楚、秦、吴、越等诸侯国相继崛起与称霸，礼乐秩序崩坏而中华文化反而在竞争与交流中扩散。齐桓公任管仲为相首霸，晋文公流亡复国三取威于城濮，秦穆公称霸西戎；楚庄王问鼎中原推行县制，孔子生于此时并整理六经。管仲、晏婴、子产、孔子等人物的思想与实践，奠定了后世政治伦理与士人文化的根基。",
+  "territory": "中原列国并立，北有燕戎，南有吴楚越，西有秦，西南有巴蜀",
+  "capital": "洛邑为名义王都，实际权力分散于各诸侯国都城",
+  "population": "约四千万至五千万（估算）",
+  "culture": "礼崩乐坏与文化扩散并存，孔子述六经，《春秋》编年，士阶层崛起",
+  "keyFigures": [
+   "fig-qi-huanggong",
+   "fig-guan-zhong",
+   "fig-jin-wengong",
+   "fig-qin-mugong",
+   "fig-chu-zhuangwang",
+   "fig-yan-ying"
+  ],
+  "relatedEvents": [
+   "ev-zhou-keduan",
+   "ev-zhou-changpeng",
+   "ev-zhou-liujiu",
+   "ev-zhou-qihuang",
+   "ev-zhou-chuzhuang",
+   "ev-zhou-zichan"
+  ],
+  "tags": [
+   "春秋",
+   "霸政",
+   "孔子",
+   "礼乐"
+  ]
+ },
+ {
+  "id": "cn-warring-states",
+  "name": "战国",
+  "alias": "战国七雄",
+  "parentId": "cn-zhou-east",
+  "startYear": -475,
+  "endYear": -222,
+  "startDateText": "公元前475年",
+  "endDateText": "公元前222年",
+  "colorKey": "zhou",
+  "summary": "七雄并立、剧烈兼并的两百年余。铁器牛耕推广，井田制瓦解，租税与庶民赋役制度确立，各国竞相变法：魏文侯用李悝变法，秦孝公行商鞅之策，齐威王用邹忌改革强齐。士阶层活跃，儒、墨、道、法、阴阳、纵横、兵、农诸家蜂起，孟荀论战稷下争鸣，长平之战后天下形势奠定。水利工程与都城建设规模空前，冶金、纺织、天文历法亦多有精进，为秦的统一奠定经济军事基础。",
+  "territory": "秦、楚、齐、燕、赵、魏、韩七雄分割天下，秦据关中与巴蜀",
+  "capital": "咸阳、大梁、邯郸、临淄、郢、蓟、新郑",
+  "population": "约四千万至五千万（估算）",
+  "culture": "铁器牛耕、水利兴修、变法运动、诸子百家、纵横捭阖、编钟与漆器高峰",
+  "keyFigures": [
+   "fig-shang-yang",
+   "fig-qin-xiaogong",
+   "fig-liqin",
+   "fig-zouji",
+   "fig-sun-tzu",
+   "fig-zhang-liang"
+  ],
+  "relatedEvents": [
+   "ev-zhou-warring-states",
+   "ev-zhou-bianfa",
+   "ev-zhou-qin-shang-yang",
+   "ev-zhou-changping",
+   "ev-zhou-maling",
+   "ev-zhou-baijia",
+   "ev-zhou-fall"
+  ],
+  "tags": [
+   "战国",
+   "变法",
+   "七雄",
+   "百家争鸣",
+   "铁器"
+  ]
+ },
+ {
+  "id": "cn-han-west",
+  "name": "西汉",
+  "alias": "前汉",
+  "parentId": "cn-han",
+  "startYear": -206,
+  "endYear": 9,
+  "startDateText": "公元前206年",
+  "endDateText": "公元9年",
+  "colorKey": "han",
+  "summary": "自刘邦称帝至王莽代汉的两百一十一年。文景之治积累国力，武帝时全面推行推恩令、算缗告缗、算赋改革与盐铁官营，疆域拓至极盛，儒学立五经博士，太学 student 达数千人。昭宣中兴后有盐铁会议与《汉书》成书。王莽以外戚代汉建新朝，托古改制激起绿林赤眉起义，西汉作为统一王朝的形态就此终结。西汉所确立的官制、选官与赋役制度，几乎被后世各朝沿用变形，其处理中央与地方关系的智慧至今仍有现实意义。",
+  "territory": "东至乐浪、玄菟，南至南海、象郡，西至葱岭，北抵长城而障塞",
+  "capital": "长安",
+  "population": "约六千万至七千万（估算）",
+  "culture": "黄老之治转向独尊儒术，隶书成熟，编年与纪传体史书，《说文解字》字头体系",
+  "keyFigures": [
+   "fig-liu-bang",
+   "fig-han-wudi",
+   "fig-liu-ying",
+   "fig-dou-ing",
+   "fig-zhang-qian",
+   "fig-sima-qian"
+  ],
+  "relatedEvents": [
+   "ev-han-founding",
+   "ev-han-wenjing",
+   "ev-han-wudi",
+   "ev-han-tui-en",
+   "ev-han-salt-iron",
+   "ev-han-zhangqian",
+   "ev-han-siluroad",
+   "ev-han-sima-qian"
+  ],
+  "tags": [
+   "西汉",
+   "文景之治",
+   "汉武帝",
+   "推恩令",
+   "丝绸之路"
+  ]
+ },
+ {
+  "id": "cn-wangmang",
+  "name": "新朝",
+  "alias": "王莽新朝",
+  "parentId": "cn-han",
+  "startYear": 9,
+  "endYear": 23,
+  "startDateText": "公元9年",
+  "endDateText": "公元23年",
+  "colorKey": "han",
+  "summary": "西汉末年外戚王莽代汉称帝建立的短祚王朝。王莽托古改制，推行王田私属制、五均六筦与频繁币制改革，触动豪强与农民双重利益，法令屡改而民不堪命，灾荒与疫疠并行，终于激起绿林、赤眉起义。公元23年绿林军攻入长安，王莽被杀，新朝覆亡，东汉政权于同年在洛阳重建。王莽的托古改制是中国历史上一次系统而失败的社会实验，其经验教训为后世改革者反复汲取。",
+  "territory": "沿用西汉疆域，实际控制力迅速瓦解",
+  "capital": "长安",
+  "population": "约五千余万至六千万（估算）",
+  "culture": "托古改制、复古礼制尝试、《周礼》理念实践、大量简牍出土于尼雅与尹湾",
+  "keyFigures": [
+   "fig-wang-mang",
+   "fig-liu-xuan",
+   "fig-wang-xiu"
+  ],
+  "relatedEvents": [
+   "ev-han-wangmang",
+   "ev-han-wangtian",
+   "ev-han-green-forest",
+   "ev-han-red-brow",
+   "ev-han-wangmang-fall"
+  ],
+  "tags": [
+   "新朝",
+   "王莽",
+   "托古改制",
+   "绿林赤眉"
+  ]
+ },
+ {
+  "id": "cn-han-east",
+  "name": "东汉",
+  "alias": "后汉",
+  "parentId": "cn-han",
+  "startYear": 25,
+  "endYear": 220,
+  "startDateText": "公元25年",
+  "endDateText": "公元220年",
+  "colorKey": "han",
+  "summary": "刘秀重建的王朝，都洛阳，因洛阳在长安以东而称东汉。光武中兴重建秩序，明章之世称治，班固班超父子经营西域，班昭续成《汉书》，蔡伦改进造纸术，张衡造地动仪与浑天仪，华佗张仲景推进医学，灵渠开凿沟通湘漓。外戚与宦官交替专权，引发党锢之祸；黄巾起义沉重打击统治，东汉名存实亡，公元220年曹丕逼汉献帝禅让而终。",
+  "territory": "西至葱岭，东抵乐浪，南至交趾，北至长城外",
+  "capital": "洛阳",
+  "population": "约五千万（估算）",
+  "culture": "谶纬盛行、佛教传入与白馬寺、蔡侯纸、浑天仪与地动仪、麻风技术改进",
+  "keyFigures": [
+   "fig-liu-xiu",
+   "fig-ban-gu",
+   "fig-ban-chao",
+   "fig-ban-zhao",
+   "fig-cai-lun",
+   "fig-zhang-heng"
+  ],
+  "relatedEvents": [
+   "ev-han-donghan",
+   "ev-han-guangwu",
+   "ev-han-cai-lun",
+   "ev-han-zhangheng",
+   "ev-han-buddhism",
+   "ev-han-party-frison",
+   "ev-han-yellow-turban",
+   "ev-han-fall"
+  ],
+  "tags": [
+   "东汉",
+   "光武中兴",
+   "党锢之祸",
+   "黄巾起义",
+   "佛教传入"
+  ]
+ },
+ {
+  "id": "cn-three-kingdoms",
+  "name": "三国",
+  "alias": "魏蜀吴",
+  "parentId": "cn-wei-jin-nanbei",
+  "startYear": 220,
+  "endYear": 280,
+  "startDateText": "公元220年",
+  "endDateText": "公元280年",
+  "colorKey": "green",
+  "summary": "魏、蜀、吴三分天下的六十年。曹丕代汉建魏，都洛阳，国力最强；刘备据蜀汉，以诸葛亮北伐五次而未竟；孙权称帝建吴，都建康，开发江南、开发海东。三国鼎立虽战乱频仍，却成就了诗歌、书画与哲学的高峰：曹魏建安风骨初成，蜀汉延续儒学正统，东吴释道盛行。公元263年蜀灭，265年司马炎代魏建晋，280年灭吴完成统一。",
+  "territory": "魏据中原与河北，蜀汉据益州与汉中，东吴据江东与荆州",
+  "capital": "洛阳、成都、建康",
+  "population": "约一千余万（户数约百万余户）",
+  "culture": "建安文学、蜀学、江南开发、《出师表》《洛神赋》，佛教吴地初兴",
+  "keyFigures": [
+   "fig-cao-cao",
+   "fig-cao-pi",
+   "fig-sima-yan",
+   "fig-liu-bei",
+   "fig-zhuge-liang",
+   "fig-guan-yu"
+  ],
+  "relatedEvents": [
+   "ev-weijin-three-kingdoms",
+   "ev-weijin-red-cliffs",
+   "ev-weijin-yiling",
+   "ev-weijin-chu-han",
+   "ev-weijin-shu-fall",
+   "ev-weijin-wu-fall"
+  ],
+  "tags": [
+   "三国",
+   "曹魏",
+   "蜀汉",
+   "孙吴",
+   "赤壁"
+  ]
+ },
+ {
+  "id": "cn-three-shu",
+  "name": "蜀汉",
+  "alias": "蜀",
+  "parentId": "cn-three-kingdoms",
+  "startYear": 221,
+  "endYear": 263,
+  "startDateText": "公元221年",
+  "endDateText": "公元263年",
+  "colorKey": "green",
+  "summary": "刘备据益州建立的汉室宗亲政权。刘备三顾茅庐得诸葛亮，联吴抗曹称帝于成都，国号汉，史称蜀汉。以诸葛亮为相，励精图治，南征平定南中，东和孙吴，北伐五次；后出师表、星散五丈原成为千古忠臣典范。关羽水淹七军威震华夏，而大意失荆州成为千古转折。蜀汉历经先主、武侯、蒋琬费祎诸相，公元263年邓艾偷渡阴平，刘禅降魏。",
+  "territory": "益州、荆州部分、汉中与南中",
+  "capital": "成都",
+  "population": "约九十万户",
+  "culture": "《出师表》《隆中对》《陈情表》，诸葛亮治蜀以法为本，益州开发与南中治理",
+  "keyFigures": [
+   "fig-liu-bei",
+   "fig-zhuge-liang",
+   "fig-guan-yu",
+   "fig-zhang-fei",
+   "fig-zhao-yun",
+   "fig-jiang-wei"
+  ],
+  "relatedEvents": [
+   "ev-weijin-chu-han",
+   "ev-weijin-san-gu-maolu",
+   "ev-weijin-nanman",
+   "ev-weijin-shibiao",
+   "ev-weijin-yizhou-fall",
+   "ev-weijin-shu-fall"
+  ],
+  "tags": [
+   "蜀汉",
+   "诸葛亮",
+   "隆中对",
+   "北伐",
+   "七擒孟获"
+  ]
+ },
+ {
+  "id": "cn-three-wei",
+  "name": "曹魏",
+  "alias": "魏",
+  "parentId": "cn-three-kingdoms",
+  "startYear": 220,
+  "endYear": 265,
+  "startDateText": "公元220年",
+  "endDateText": "公元265年",
+  "colorKey": "green",
+  "summary": "曹丕受汉禅建魏的都洛阳政权，占据中原与河北，实行屯田制与世兵制以恢复经济，曹丕称帝、曹睿、明帝三代经营，官渡之战后确立对北方的统治。公元235年司马懿平辽东公孙渊，此后逐步掌控魏国大权，形成曹马对峙。曹魏奖励耕战、九品中正制萌芽，中原文化承汉代余绪，太学与玄学并盛。265年司马炎代魏建西晋，魏亡。三国的分裂并未阻断文化交流，士人迁徙带动了典籍、医学与工艺的跨区域传播，客观上为再次统一准备了条件。",
+  "territory": "中原、河北、关中部分地区",
+  "capital": "洛阳",
+  "population": "约一百余万户",
+  "culture": "屯田制、玄学与清谈、建安文学、《典论》《出师表》并行、佛教与方术流行",
+  "keyFigures": [
+   "fig-cao-pi",
+   "fig-cao-rui",
+   "fig-sima-yi",
+   "fig-cao-zhi",
+   "fig-cao-huang"
+  ],
+  "relatedEvents": [
+   "ev-weijin-wei-founding",
+   "ev-weijin-guan-dong",
+   "ev-weijin-guan-dong-2",
+   "ev-weijin-sima-power",
+   "ev-weijin-jin-unify"
+  ],
+  "tags": [
+   "曹魏",
+   "屯田制",
+   "司马懿",
+   "玄学"
+  ]
+ },
+ {
+  "id": "cn-three-wu",
+  "name": "孙吴",
+  "alias": "吴",
+  "parentId": "cn-three-kingdoms",
+  "startYear": 222,
+  "endYear": 280,
+  "startDateText": "公元222年",
+  "endDateText": "公元280年",
+  "colorKey": "green",
+  "summary": "孙权及其继承者统治江东的政权，以建业为都。境内山越与江南诸族逐步开发，稻作与丝织兴盛，海外贸易发达，孙权遣卫温浮海至夷洲、吕广使大秦，是为早期的海外探索。吴对蜀魏长期维持均势，夷陵之战后魏不能南下，孙权称帝建吴并于229年称王。黄武元年大败刘备，魏蜀吴再成鼎立。280年晋军渡江，孙皓降吴，三国归晋。",
+  "territory": "长江以南、江淮之间与部分江北、荆州",
+  "capital": "建业（今南京）",
+  "population": "约二十余万户（另有山越徒附）",
+  "culture": "江南开发、水军与航海、佛教建初寺与康僧会、陶制明器与青瓷、山林经济",
+  "keyFigures": [
+   "fig-sunquan",
+   "fig-lv-meng",
+   "fig-zhou-yu",
+   "fig-taishi-ci",
+   "fig-sunhao",
+   "fig-kang-senghui"
+  ],
+  "relatedEvents": [
+   "ev-weijin-three-kingdoms",
+   "ev-weijin-yiling",
+   "ev-weijin-nanyue",
+   "ev-weijin-wu-fall"
+  ],
+  "tags": [
+   "孙吴",
+   "江南开发",
+   "航海",
+   "赤壁",
+   "孙权"
+  ]
+ },
+ {
+  "id": "cn-liang-jin",
+  "name": "两晋",
+  "alias": "晋朝",
+  "parentId": "cn-wei-jin-nanbei",
+  "startYear": 265,
+  "endYear": 420,
+  "startDateText": "公元265年",
+  "endDateText": "公元420年",
+  "colorKey": "green",
+  "summary": "司马炎代魏建晋的都洛阳王朝，分西晋与东晋。西晋短暂统一，颁占田制与户调式，占田制失败与八王之乱耗尽国力，匈奴刘渊起兵而永嘉之乱致洛阳陷落，西晋亡；士族南渡建康立东晋，偏安江南。北人南迁与胡汉杂居，江南开发加速，玄学清谈与佛教并盛，书法王羲之、史学干宝、文学陶渊明辈出。420年刘裕代晋，宋立。两晋是门阀士族政治走向极致的时期，其玄学清谈与文学创作在中古史上占据独特地位，胡汉融合也在这一时期加速。",
+  "territory": "西晋一度统一；东晋据江淮以南",
+  "capital": "洛阳、建康",
+  "population": "西晋约一百六十万户；东晋南迁后南方户口增长",
+  "culture": "占田制、门阀士族、玄学清谈、书法与田园诗、石窟与佛寺、王羲之兰亭序",
+  "keyFigures": [
+   "fig-sima-yan",
+   "fig-sima-yan-jin",
+   "fig-liuyuan",
+   "fig-xie-an",
+   "fig-tao-yuanming",
+   "fig-wang-xizhi"
+  ],
+  "relatedEvents": [
+   "ev-weijin-jin-unify",
+   "ev-weijin-taikang",
+   "ev-weijin-eight-princes",
+   "ev-weijin-yongjia",
+   "ev-weijin-dongjin",
+   "ev-weijin-nanqian",
+   "ev-weijin-taiping"
+  ],
+  "tags": [
+   "西晋",
+   "东晋",
+   "八王之乱",
+   "永嘉之乱",
+   "士族门阀",
+   "玄学"
+  ]
+ },
+ {
+  "id": "cn-jin-west",
+  "name": "西晋",
+  "alias": "晋武帝时期",
+  "parentId": "cn-liang-jin",
+  "startYear": 265,
+  "endYear": 316,
+  "startDateText": "公元265年",
+  "endDateText": "公元316年",
+  "colorKey": "green",
+  "summary": "司马炎代魏建立的统一王朝。太康之治短暂繁荣，颁占田制、户调式以复民力，但占田并未真正实行，士族荫客占田荫户严重。八王之乱历时十六年，禁军与州郡精兵尽耗，内迁诸族趁机起兵。永嘉元年刘渊称汉王，五年洛阳陷落，愍帝出降，晋室南渡，西晋亡。晋室东迁建康，是为东晋。西晋的乱亡使中原士族大规模南迁，直接催生了江南经济文化的跃升，也把中国历史推入南北对峙的长周期。",
+  "territory": "初期统一中原及江南，末期仅余关中、淮南残部",
+  "capital": "洛阳",
+  "population": "约一百六十万户（鼎盛期估算）",
+  "culture": "占田制与户调式、石崇王恺斗富、《三国志》《晋书》编修、佛教白马寺影响扩散",
+  "keyFigures": [
+   "fig-sima-yan-jin",
+   "fig-liuyuan",
+   "fig-sima-lun",
+   "fig-sima-de",
+   "fig-zhang-jia"
+  ],
+  "relatedEvents": [
+   "ev-weijin-jin-unify",
+   "ev-weijin-taikang",
+   "ev-weijin-eight-princes",
+   "ev-weijin-liu-yuan",
+   "ev-weijin-yongjia",
+   "ev-weijin-luoyang-fall"
+  ],
+  "tags": [
+   "西晋",
+   "八王之乱",
+   "永嘉之乱",
+   "占田制"
+  ]
+ },
+ {
+  "id": "cn-jin-east",
+  "name": "东晋",
+  "alias": "建康时期",
+  "parentId": "cn-liang-jin",
+  "startYear": 317,
+  "endYear": 420,
+  "startDateText": "公元317年",
+  "endDateText": "公元420年",
+  "colorKey": "green",
+  "summary": "琅琊王司马睿在北方士族南渡支持下于建康建立的偏安王朝，都建康即今南京。北人南迁带来劳动力与技术，江南从蛮荒之地变为富庶之区，稻作、丝织、陶瓷与矿业兴盛，士族门阀政治达于顶点，王导谢安居中调度，北府兵与淝水之战挽回了中原。佛教在江南鼎盛，庐山、剡山诸寺与法显、慧远成为南朝文化标志。420年刘裕受禅，宋代晋。",
+  "territory": "江淮以南、荆扬益宁四州为主",
+  "capital": "建康",
+  "population": "约百万户（南迁后南方户口大幅增长）",
+  "culture": "王谢家族、玄学清谈与佛教并行、陶渊明田园诗、王羲之书法、六朝志怪小说",
+  "keyFigures": [
+   "fig-sima-rui",
+   "fig-wang-dao",
+   "fig-xie-an",
+   "fig-faxian",
+   "fig-huiyuan",
+   "fig-tao-yuanming"
+  ],
+  "relatedEvents": [
+   "ev-weijin-dongjin",
+   "ev-weijin-nanqian",
+   "ev-weijin-huaiyin",
+   "ev-weijin-feishui",
+   "ev-weijin-taiping",
+   "ev-weijin-liuyu"
+  ],
+  "tags": [
+   "东晋",
+   "建康",
+   "淝水之战",
+   "南迁",
+   "门阀",
+   "魏晋风度"
+  ]
+ },
+ {
+  "id": "cn-sixteen-kingdoms",
+  "name": "十六国",
+  "alias": "五胡十六国",
+  "parentId": "cn-wei-jin-nanbei",
+  "startYear": 304,
+  "endYear": 439,
+  "startDateText": "公元304年",
+  "endDateText": "公元439年",
+  "colorKey": "green",
+  "summary": "西晋末至北魏统一前的北方割据时期，十六国政权更迭频繁：汉赵、前后赵、前后燕、前后秦、后凉、西凉、南凉、北凉、西夏、成汉、胡夏等先后并立。各政权多为胡族或胡汉混血建立，普遍推行民族融合政策，胡汉观念渐消，出现「胡汉殊族，一视同仁」的融合趋势。前秦苻坚在王猛辅佐下统一北方，统一前夕淝水之战惨败，各国复起，北魏乘机崛起。",
+  "territory": "黄河流域与河西走廊、辽东河套等北方广大区域",
+  "capital": "平阳、邺、长安、姑臧、龙城、统万城等",
+  "population": "约数百万至千万级（战乱频繁，波动极大）",
+  "culture": "胡汉融合、乐府民歌与胡旋舞、佛教石窟麦积山与云冈、徙民与屯田、十六国志",
+  "keyFigures": [
+   "fig-liu-yuan",
+   "fig-shile",
+   "fig-fu-jian",
+   "fig-wang-meng",
+   "fig-mu-rong",
+   "fig-helian-bobobo"
+  ],
+  "relatedEvents": [
+   "ev-weijin-sixteen-kingdoms",
+   "ev-weijin-liu-yuan",
+   "ev-weijin-fu-jian",
+   "ev-weijin-feishui",
+   "ev-weijin-northern-wei"
+  ],
+  "tags": [
+   "十六国",
+   "五胡",
+   "民族融合",
+   "前秦",
+   "淝水之战"
+  ]
+ },
+ {
+  "id": "cn-nanbei",
+  "name": "南北朝",
+  "alias": "南北对峙",
+  "parentId": "cn-wei-jin-nanbei",
+  "startYear": 386,
+  "endYear": 589,
+  "startDateText": "公元386年",
+  "endDateText": "公元589年",
+  "colorKey": "green",
+  "summary": "南北政权对峙的近一百七十年。南方经历宋齐梁陈四朝，江南经济持续开发但门阀政治与宫廷倾轧激烈，侯景之乱几使南朝倾覆；北朝则经北魏、东魏、西魏、北齐、北周，孝文帝汉化改革推行均田制与三长制，为隋唐统一准备了制度与人口基础。佛教在南北双方广泛流传，云冈、龙门、莫高窟等石窟艺术达于极盛；北魏孝文帝迁都洛阳，隋文帝589年南下灭陈，结束分裂。",
+  "territory": "南方以建康为中心；北方以平城、洛阳、长安、邺、长安为都",
+  "capital": "建康、平城、洛阳、邺、长安",
+  "population": "约两千余万（南北合计估算）",
+  "culture": "石窟艺术高峰、儒释道并立、祖冲之圆周率、《文心雕龙》《昭明文选》、云冈与龙门",
+  "keyFigures": [
+   "fig-xiaowen",
+   "fig-tuoba-tao",
+   "fig-zu-chongzhi",
+   "fig-hou-jing",
+   "fig-liang-wudi",
+   "fig-fang-xuanling"
+  ],
+  "relatedEvents": [
+   "ev-weijin-north-south",
+   "ev-weijin-northern-wei",
+   "ev-weijin-xiaowen-hanization",
+   "ev-weijin-juntian",
+   "ev-weijin-houjing",
+   "ev-weijin-sui-unify"
+  ],
+  "tags": [
+   "南北朝",
+   "北魏",
+   "孝文帝汉化",
+   "石窟",
+   "均田制",
+   "祖冲之"
+  ]
+ },
+ {
+  "id": "cn-nanbei-north",
+  "name": "北朝",
+  "alias": "北魏及东晋北朝",
+  "parentId": "cn-nanbei",
+  "startYear": 386,
+  "endYear": 581,
+  "startDateText": "公元386年",
+  "endDateText": "公元581年",
+  "colorKey": "green",
+  "summary": "拓跋鲜卑建立的北方政权，结束了十六国百余年分裂。拓跋珪定都平城，拓跋焘统一黄河流域，太武帝灭佛；孝文帝拓跋宏迁都洛阳，推行改汉姓、禁胡服胡语、尊崇儒门等汉化措施，并以三长制与均田制重编户口，使鲜卑政权深度融入中原制度。东魏北齐、西魏北周对峙，杨坚代周建隋，为统一奠基。北朝系列的制度创制与民族融合实践，最终凝聚为隋唐盛世的基础，其经验教训被唐太宗君臣反复研读。",
+  "territory": "由代北扩展至黄河流域全境，兼有河西与辽东",
+  "capital": "平城、洛阳、邺、长安",
+  "population": "约千万级（户口在孝文帝改革后显著回升）",
+  "culture": "孝文帝汉化、均田制与三长制、云冈与龙门石窟、佛道二教并立、鲜卑汉化融合",
+  "keyFigures": [
+   "fig-tuoba-gui",
+   "fig-tuoba-tao",
+   "fig-xiaowen",
+   "fig-yang-jian",
+   "fig-zhou-wu",
+   "fig-liang-wudi"
+  ],
+  "relatedEvents": [
+   "ev-weijin-northern-wei",
+   "ev-weijin-xiaowen-hanization",
+   "ev-weijin-juntian",
+   "ev-weijin-san-chang",
+   "ev-weijin-yungong"
+  ],
+  "tags": [
+   "北魏",
+   "孝文帝",
+   "均田制",
+   "三长制",
+   "汉化"
+  ]
+ },
+ {
+  "id": "cn-nanbei-south",
+  "name": "南朝",
+  "alias": "宋齐梁陈",
+  "parentId": "cn-nanbei",
+  "startYear": 420,
+  "endYear": 589,
+  "startDateText": "公元420年",
+  "endDateText": "公元589年",
+  "colorKey": "green",
+  "summary": "宋、齐、梁、陈四个朝代相继统治江南的四百年。都建康，皇族与高门士族交替执政，禅让频繁、宫廷残杀不断。江南经济因北人南迁而进一步开发，士人文化极盛，产生《文心雕龙》《昭明文选》等名篇，佛教丛林遍布山川；侯景之乱几乎摧毁南朝，隋军南下时陈朝已不堪一击。589年陈亡，南北分裂结束。南朝的江南开发与佛教南传，奠定了唐宋经济重心南移的格局，其文化成就亦在南朝后期的战乱中大量散佚。",
+  "territory": "长江以南及江淮地区",
+  "capital": "建康",
+  "population": "约二千余万",
+  "culture": "门阀政治与玄学余绪、佛教丛林化、江南开发、《文心雕龙》、志怪小说、绘画谢赫六法",
+  "keyFigures": [
+   "fig-liu-yu",
+   "fig-xiao-yan",
+   "fig-liang-wudi",
+   "fig-xiao-yan-liang",
+   "fig-hou-jing",
+   "fig-chen-wubao"
+  ],
+  "relatedEvents": [
+   "ev-weijin-north-south",
+   "ev-weijin-liang-wudi",
+   "ev-weijin-houjing",
+   "ev-weijin-sui-unify"
+  ],
+  "tags": [
+   "南朝",
+   "建康",
+   "侯景之乱",
+   "门阀",
+   "佛教南传"
+  ]
+ },
+ {
+  "id": "cn-sui",
+  "name": "隋",
+  "alias": "隋朝",
+  "parentId": "cn-sui-tang",
+  "startYear": 589,
+  "endYear": 618,
+  "startDateText": "公元589年",
+  "endDateText": "公元618年",
+  "colorKey": "sui-tang",
+  "summary": "杨坚建立的统一王朝，虽仅三十八年却制度贡献极大。废九品中正、创科举，开皇之治户口增加、府库充盈；颁均田令与开皇律，确立三省六部之制；开凿大运河贯通南北交通，兴建东都洛阳与长安城；三次征伐高句丽耗尽国力，611年后天下民变蜂起，618年杨广遇弑于江都，隋亡。制度遗产全部为唐所继承。隋朝的制度设计与工程实践虽未及享国，却几乎被唐全面继承并改造，其立国短暂而影响深远。",
+  "territory": "东至辽东、南至安南，西逾河西",
+  "capital": "大兴（长安）、洛阳",
+  "population": "约四十六万户（开皇年间鼎盛约四百六十余万户）",
+  "culture": "科举制、三省六部、开皇律、大运河、佛教鼎盛与释慧远",
+  "keyFigures": [
+   "fig-sui-wendi",
+   "fig-yang-guang",
+   "fig-yang-jian-sui",
+   "fig-liu-xiao",
+   "fig-pei-ju",
+   "fig-dong-yao"
+  ],
+  "relatedEvents": [
+   "ev-suita-sui-founding",
+   "ev-suita-kemu",
+   "ev-suita-kaihuang",
+   "ev-suita-grand-canal",
+   "ev-suita-luoyang",
+   "ev-suita-gaoli",
+   "ev-suita-fall"
+  ],
+  "tags": [
+   "隋",
+   "科举制",
+   "大运河",
+   "三省六部",
+   "开皇之治"
+  ]
+ },
+ {
+  "id": "cn-tang",
+  "name": "唐",
+  "alias": "唐朝",
+  "parentId": "cn-sui-tang",
+  "startYear": 618,
+  "endYear": 907,
+  "startDateText": "公元618年",
+  "endDateText": "公元907年",
+  "colorKey": "sui-tang",
+  "summary": "李渊李李世民建立的王朝，近三百年国祚。前期贞观之治与开元盛世并称极盛，制度完备、疆域辽阔、气象开阔，中外文化交流频繁，玄奘西行取经、鉴真东渡日本、诗歌书法绘画登峰造极。中期安史之乱造成转折，藩镇割据、宦官专权、朋党之争接踵而至，晚唐民生凋敝、王仙芝黄巢起义蜂起，907年朱温迫哀帝禅位于后梁，唐亡。唐朝的制度创造、文化辐射与国际交往，使其成为东亚文化圈的核心来源，其兴衰经验至今仍被广泛研讨。",
+  "territory": "东至朝鲜半岛北部，西至咸海，北逾大漠至贝加尔湖以东，南及安南",
+  "capital": "长安（京兆府）、洛阳（东都）",
+  "population": "约九百五十万户，四千余万至五千万人",
+  "culture": "科举取士与进士诗赋、长安九市与胡商、敦煌莫高窟、唐三彩与铜镜、雕版印刷与火药、禅宗兴盛",
+  "keyFigures": [
+   "fig-li-yuan",
+   "fig-li-shimin",
+   "fig-wu-zetian",
+   "fig-du-fu",
+   "fig-li-bai",
+   "fig-xuanzang"
+  ],
+  "relatedEvents": [
+   "ev-tang-founding",
+   "ev-tang-xuanwumen",
+   "ev-tang-zhenguan",
+   "ev-tang-kaiyuan",
+   "ev-tang-xuanzang",
+   "ev-tang-anlushan",
+   "ev-tang-huangchao",
+   "ev-tang-fall"
+  ],
+  "tags": [
+   "唐",
+   "贞观之治",
+   "开元盛世",
+   "安史之乱",
+   "诗国",
+   "长安"
+  ]
+ },
+ {
+  "id": "cn-tang-early",
+  "name": "唐前期",
+  "alias": "贞观开元",
+  "parentId": "cn-tang",
+  "startYear": 618,
+  "endYear": 755,
+  "startDateText": "公元618年",
+  "endDateText": "公元755年",
+  "colorKey": "sui-tang",
+  "summary": "从唐高祖到唐玄宗天宝前的近一百四十年。唐初确立三省六部与科举，完善府兵与均租庸调，太宗纳魏征之谏创贞观之治；武则天称帝并开殿试、武举，酷吏政治与科举扩展并行；唐玄宗前期开元盛世，长安人口百万、胡商云集。制度、经济与文化三面俱盛，为安史之乱前的极盛期。唐前期的制度与气象确立了此后千余年中国政治文化的基调，其对外交流的广度在古代世界前所未见。",
+  "territory": "疆域达到极盛，东并朝鲜，西至咸海",
+  "capital": "长安",
+  "population": "约八百五十万户",
+  "culture": "贞观政要、进士科与行卷、玄奘西行、鉴真东渡、吴道子画圣、张旭怀素狂草、雕版印刷",
+  "keyFigures": [
+   "fig-li-yuan",
+   "fig-li-shimin",
+   "fig-wei-zheng",
+   "fig-wu-zetian",
+   "fig-li-longji",
+   "fig-xuanzang"
+  ],
+  "relatedEvents": [
+   "ev-tang-founding",
+   "ev-tang-xuanwumen",
+   "ev-tang-zhenguan",
+   "ev-tang-wuzetian",
+   "ev-tang-kaiyuan",
+   "ev-tang-xuanzang",
+   "ev-tang-jianzhen",
+   "ev-tang-chang-an"
+  ],
+  "tags": [
+   "唐前期",
+   "贞观之治",
+   "开元盛世",
+   "武则天",
+   "玄奘"
+  ]
+ },
+ {
+  "id": "cn-tang-mid",
+  "name": "唐中期",
+  "alias": "安史之乱至中兴",
+  "parentId": "cn-tang",
+  "startYear": 755,
+  "endYear": 827,
+  "startDateText": "公元755年",
+  "endDateText": "公元827年",
+  "colorKey": "sui-tang",
+  "summary": "安史之乱前后至唐文宗时期。755年安禄山、史思明以十五万叛军南下，两京沦陷，户口由九百万户锐减至二百万户以下，中原残破，藩镇割据之势不可逆。唐室倚重宦官监军与神策军，中央权威下降。乱后吐蕃一度攻入长安，刘晏改革漕运以复财政，盐铁专卖与两税法使岁入转丰。然朝堂党争、宦官专权与藩镇割据同时加深，中兴局面难以持久。",
+  "territory": "疆域内缩，吐蕃据河西陇右，藩镇势力遍及河北",
+  "capital": "长安",
+  "population": "约二百万户至四百万户（战乱后锐减）",
+  "culture": "杜诗与唐诗三杰、颜真卿书法、吴道子与李思训画风、敦煌绢画、藩镇割据下的经济地方化",
+  "keyFigures": [
+   "fig-an-lushan",
+   "fig-shi-siming",
+   "fig-guo-ziyi",
+   "fig-li-guangbi",
+   "fig-du-fu",
+   "fig-yan-zhenqing"
+  ],
+  "relatedEvents": [
+   "ev-tang-anlushan",
+   "ev-tang-luoyang-fall",
+   "ev-tang-chang-an-fall",
+   "ev-tang-pugu",
+   "ev-tang-liu-yan",
+   "ev-tang-jingde",
+   "ev-tang-ganbu"
+  ],
+  "tags": [
+   "唐中期",
+   "安史之乱",
+   "藩镇",
+   "两税法",
+   "颜真卿"
+  ]
+ },
+ {
+  "id": "cn-tang-late",
+  "name": "唐后期",
+  "alias": "晚唐",
+  "parentId": "cn-tang",
+  "startYear": 827,
+  "endYear": 907,
+  "startDateText": "公元827年",
+  "endDateText": "公元907年",
+  "colorKey": "sui-tang",
+  "summary": "唐武宗至哀帝的八十年。藩镇离心日益，河朔三镇长期割据，中央财政倚重盐铁与两税，中央军队主力神策军掌握在宦官手中。文宗一度有意削藩而受制于「监军之祸」，此后朝政愈发败坏。农民起义接连爆发，王仙芝、黄巢起义一度攻入长安，社会经济残破，官僚集团与藩镇的互相倾轧耗尽国力。907年朱温迫哀帝禅让，唐亡，中国进入五代十国。",
+  "territory": "仅控制关中与部分江南，河北藩镇实质独立",
+  "capital": "长安",
+  "population": "约二百五十万户",
+  "culture": "懿宗好佛与法门寺地宫、雕版印刷与佛经、晚唐诗风与词体萌芽、农民起义与流民迁徙",
+  "keyFigures": [
+   "fig-wen-zong",
+   "fig-li-keyong",
+   "fig-wang-xianzhi",
+   "fig-huang-chao",
+   "fig-zhu-wen",
+   "fig-luo-hongxin"
+  ],
+  "relatedEvents": [
+   "ev-tang-nongfu",
+   "ev-tang-hezhong",
+   "ev-tang-huangchao",
+   "ev-tang-luoyang-sack",
+   "ev-tang-fall"
+  ],
+  "tags": [
+   "晚唐",
+   "藩镇割据",
+   "宦官专权",
+   "黄巢起义",
+   "朱温"
+  ]
+ },
+ {
+  "id": "cn-wudai-north",
+  "name": "五代",
+  "alias": "五代中原",
+  "parentId": "cn-wudai",
+  "startYear": 907,
+  "endYear": 960,
+  "startDateText": "公元907年",
+  "endDateText": "公元960年",
+  "colorKey": "yellow",
+  "summary": "中原地区五十三年内五次政权更迭。后梁朱温代唐建都汴州，暴虐失人心；后唐李存勖灭梁，却因宠伶斫丧、伶人政治而亡；后晋石敬瑭引契丹入中原，认父称儿，割让燕云十六州，留下百年积患；后汉刘知远与后周郭威柴荣相继短祚。后周世宗柴荣励精图治，废佛、整军、均定田赋，三征南唐，为宋统一奠定基础。五代中政治的持续动荡与契丹势力的南压，共同促成了中原的重新整合，其教训直接塑造了宋初的立国方略。",
+  "territory": "中原及河北大部，燕云十六州陷于契丹",
+  "capital": "汴州（开封）、洛阳",
+  "population": "约百万户（战乱中锐减又恢复）",
+  "culture": "后唐宫廷乐舞与《阳春》《白雪》、契丹文化南下影响、佛教废弛、雕版印刷发展",
+  "keyFigures": [
+   "fig-zhu-wen",
+   "fig-li-keyong",
+   "fig-stone-jingmao",
+   "fig-liu-zhiyuan",
+   "fig-guo-wei",
+   "fig-chao-rong"
+  ],
+  "relatedEvents": [
+   "ev-wudai-liang",
+   "ev-wudai-tang",
+   "ev-wudai-jin",
+   "ev-wudai-yanyun",
+   "ev-wudai-han",
+   "ev-wudai-zhou",
+   "ev-wudai-shizong"
+  ],
+  "tags": [
+   "五代",
+   "燕云十六州",
+   "契丹南下",
+   "周世宗改革"
+  ]
+ },
+ {
+  "id": "cn-wudai-south",
+  "name": "十国",
+  "alias": "南方割据",
+  "parentId": null,
+  "startYear": 960,
+  "endYear": 979,
+  "startDateText": "公元960年",
+  "endDateText": "公元979年",
+  "colorKey": "yellow",
+  "summary": "南方及蜀地并立的十余个割据政权：吴吴越、闽、楚、南汉、南平、前后蜀、南唐与北汉。相对安定使南方经济与文教显著发展，江南成为财赋重地，海上贸易兴盛，泉州、广州成为大港。南唐以南京为都，国力最强且文治最盛，李煜为一代词宗；后蜀花蕊夫人与蜀中词风亦著。北汉倚契丹抗宋，979年宋太宗灭之，十国终结。南方诸政权在相对安定中孕育了繁荣的商品经济与精巧的文人艺术，其文化成果在宋元时期得到进一步发展。",
+  "territory": "江淮、江南、两广、荆湖、蜀中与河东",
+  "capital": "金陵、杭州、福州、长沙、广州、江陵、成都、太原",
+  "population": "约百万户（南方各政权合计）",
+  "culture": "李煜词、韦庄词、南方禅宗与海上贸易、罗盘与造船、青瓷与秘色瓷、雕版印刷中心",
+  "keyFigures": [
+   "fig-li-yu",
+   "fig-li-bian",
+   "fig-wu-yue",
+   "fig-qian-hongchu",
+   "fig-wang-yanzheng",
+   "fig-li-jiancheng"
+  ],
+  "relatedEvents": [
+   "ev-wudai-wu",
+   "ev-wudai-wuyue",
+   "ev-wudai-min",
+   "ev-wudai-chu",
+   "ev-wudai-nantang",
+   "ev-wudai-nanhan",
+   "ev-wudai-nanping",
+   "ev-wudai-shu"
+  ],
+  "tags": [
+   "编年主干",
+   "十国",
+   "南唐",
+   "李煜",
+   "海上贸易",
+   "江南开发"
+  ]
+ },
+ {
+  "id": "cn-song-north",
+  "name": "北宋",
+  "alias": "北宋",
+  "parentId": "cn-song-liao-jin",
+  "startYear": 979,
+  "endYear": 1127,
+  "startDateText": "公元979年",
+  "endDateText": "公元1127年",
+  "colorKey": "yellow",
+  "summary": "赵匡胤建立的北方王朝，都开封，推行杯酒释兵权与重文抑武，收精兵、削实权、制钱谷。渲渊之盟后与辽约为兄弟之国，但岁币成为财政重负；庆历新政、王安石变法先后试图整顿积弊而引发党争；熙宁开边与元祐更化的反复削弱国势。海上贸易与城市经济极盛，市井生活与市民文学兴起。1127年靖康之变，开封沦陷，北宋亡。北宋的文官政治与市民文化开创了中国城市史的新阶段，其制度得失同样是研究传统官僚制的重要样本。",
+  "territory": "中原及秦岭以南，河北南部一度归宋，后半与金分界",
+  "capital": "东京开封府",
+  "population": "约一亿一千七百万户（户籍数字，估算人口逾四千万）",
+  "culture": "宋词兴盛、毕昇活字印刷、火药武器、指南针用于航海、瓷器生产、程朱理学",
+  "keyFigures": [
+   "fig-zhao-kuangyin",
+   "fig-zhao-guangyi",
+   "fig-zhao-heng",
+   "fig-shi-jingzhang",
+   "fig-wang-anshi",
+   "fig-suo-shi"
+  ],
+  "relatedEvents": [
+   "ev-song-founding",
+   "ev-song-cup-wine",
+   "ev-song-qinliang",
+   "ev-song-qingliang",
+   "ev-song-wanganshi",
+   "ev-song-xining",
+   "ev-song-yuanyou",
+   "ev-song-jingkang"
+  ],
+  "tags": [
+   "北宋",
+   "重文抑武",
+   "王安石变法",
+   "青瓷",
+   "开封"
+  ]
+ },
+ {
+  "id": "cn-song-south",
+  "name": "南宋",
+  "alias": "临安时期",
+  "parentId": "cn-song-liao-jin",
+  "startYear": 1127,
+  "endYear": 1270,
+  "startDateText": "公元1127年",
+  "endDateText": "公元1270年",
+  "colorKey": "yellow",
+  "summary": "赵构南渡建立的偏安王朝，都临安。以秦桧等主和派压制主战，收张俊岳飞韩世忠等抗金名将，绍兴和议割地赔款称臣。经济重心南移完成，纺织、制瓷、造船、茶叶与海贸空前兴盛，泉州、明州、广州成为大港，纸币交子流通，城市生活繁华。理学集大成，陆游辛弃疾辛派词雄放，文天祥宁死不屈，1279年崖山之战宋亡。南宋的海上贸易、理学建构与词体创作，把中国文化推向新的高度，其经济重心南移的意义尤为深远。",
+  "territory": "淮水以南及东南、西南广大区域",
+  "capital": "临安（杭州）",
+  "population": "约一千万户",
+  "culture": "南宋词与豪放派、海上丝绸之路高峰、泉州港、瓷器与漆器外销、朱熹理学集大成",
+  "keyFigures": [
+   "fig-zhao-gou",
+   "fig-yue-fei",
+   "fig-qin-hui",
+   "fig-zhu-xi",
+   "fig-lu-you",
+   "fig-xin-qiji"
+  ],
+  "relatedEvents": [
+   "ev-song-nansong",
+   "ev-song-yuefei",
+   "ev-song-shaoxing-treaty",
+   "ev-song-yuangong",
+   "ev-song-yashan",
+   "ev-song-wen-tianxiang"
+  ],
+  "tags": [
+   "南宋",
+   "临安",
+   "岳飞",
+   "朱熹",
+   "海上丝路",
+   "崖山"
+  ]
+ },
+ {
+  "id": "cn-liao",
+  "name": "辽",
+  "alias": "契丹国",
+  "parentId": "cn-song-liao-jin",
+  "startYear": 979,
+  "endYear": 1125,
+  "startDateText": "公元979年",
+  "endDateText": "公元1125年",
+  "colorKey": "yellow",
+  "summary": "契丹族建立的政权，耶律阿保机称帝建契丹国，后改国号大辽。都上京临潢府，后迁中都南京幽州，以南北面官制分治汉人与契丹事务，革俗为治。渲渊之盟与宋约为兄弟，换取百岁 peace 银绢；此后与西夏、女真反复征战。海上贸易活跃，契丹丹书与草原文化与汉地融合。1125年天祚帝被金俘，辽亡。辽朝在草原与农耕之间建立的二元统治结构，是理解唐宋之际北方政治格局的重要环节，其制度经验亦为金与元所吸收。",
+  "territory": "东尽日本海，西至中亚，南与北宋接壤，北达北海",
+  "capital": "上京临潢府、中都南京（幽州）",
+  "population": "约百万级（契丹汉人合计）",
+  "culture": "南北面官、契丹大字与丹书、草原毡帐与契丹巫教、佛教流行、榷场贸易",
+  "keyFigures": [
+   "fig-yelv-abaji",
+   "fig-yelv-liangzhu",
+   "fig-yao-gun",
+   "fig-xiao-wan-gui"
+  ],
+  "relatedEvents": [
+   "ev-liao-founding",
+   "ev-liao-shengzong",
+   "ev-song-liao-chanyuan",
+   "ev-liao-fall"
+  ],
+  "tags": [
+   "辽",
+   "契丹",
+   "南北面官",
+   "渲渊之盟",
+   "草原"
+  ]
+ },
+ {
+  "id": "cn-jin",
+  "name": "金",
+  "alias": "女真金",
+  "parentId": "cn-song-liao-jin",
+  "startYear": 979,
+  "endYear": 1234,
+  "startDateText": "公元979年",
+  "endDateText": "公元1234年",
+  "colorKey": "yellow",
+  "summary": "女真完颜部建立的政权，完颜阿骨打举兵灭辽，靖康二年破汴京俘徽钦二帝，北宋亡。金初都上京会宁，贞元年间迁都燕京，与中原农耕区融合后改行汉法与三省制，以屯田军户屯田，猛安谋克制削弱后以汉地州县代之。金与南宋对峙百五十年，屡战屡败，1234年蔡州一战为蒙古与南宋所灭。金朝是女真族建立并主动融入中原文明的重要政权，其统治策略与覆亡教训，为后来的蒙古统一提供了直接经验。",
+  "territory": "一度拥有中原与辽地，北至大漠，南至淮水",
+  "capital": "上京会宁府、中都燕京",
+  "population": "约千万级",
+  "culture": "女真完颜氏、猛安谋克制、契丹与女真文、金代文学与白朴元好问、《金史》",
+  "keyFigures": [
+   "fig-wanyan-aguda",
+   "fig-wanyan-liang",
+   "fig-hailing",
+   "fig-yuanyou",
+   "fig-wanyan-yungong",
+   "fig-zhao-yan"
+  ],
+  "relatedEvents": [
+   "ev-song-jin-rise",
+   "ev-song-jingkang",
+   "ev-song-jin-shijin",
+   "ev-song-caizhou",
+   "ev-song-jin-fall"
+  ],
+  "tags": [
+   "金",
+   "女真",
+   "靖康之变",
+   "猛安谋克",
+   "灭辽"
+  ]
+ },
+ {
+  "id": "cn-yuan-early",
+  "name": "元前期",
+  "alias": "蒙古帝国与元初",
+  "parentId": "cn-yuan",
+  "startYear": 1271,
+  "endYear": 1271,
+  "startDateText": "公元1271年",
+  "endDateText": "公元1271年",
+  "colorKey": "yuan",
+  "summary": "成吉思汗建国至忽必烈定国号元的阶段。1206年成吉思汗统一蒙古诸部，被尊为成吉思汗，颁《大扎撒》行军条律，组建怯薛军与千户制，蒙古铁骑横扫欧亚：1219年西征花剌子模，1227年灭西夏，1232年三路南下攻金，灭金之战持续多年，设燕京等行台。忽必烈与阿里不哥争位四年，1260年即汗位于开平，1271年建国号元。",
+  "territory": "横跨欧亚大陆的蒙古帝国",
+  "capital": "哈拉和林、燕京（中都）、开平",
+  "population": "以游牧部众为主",
+  "culture": "千户制与怯薛、札撒、蒙古文与畏兀儿字、《蒙古秘史》、马可波罗来华、伊儿汗与钦察汗国交流",
+  "keyFigures": [
+   "fig-temujin",
+   "fig-muqtai",
+   "fig-ogodei",
+   "fig-kublai",
+   "fig-li-gui",
+   "fig-zhou-chang"
+  ],
+  "relatedEvents": [
+   "ev-yuan-mongol-unify",
+   "ev-yuan-jasaga",
+   "ev-yuan-xiya",
+   "ev-yuan-xixia",
+   "ev-yuan-ailiboge",
+   "ev-yuan-kublai"
+  ],
+  "tags": [
+   "蒙古帝国",
+   "成吉思汗",
+   "西征",
+   "千户制",
+   "札撒"
+  ]
+ },
+ {
+  "id": "cn-yuan-late",
+  "name": "元后期",
+  "alias": "元朝中后期",
+  "parentId": "cn-yuan",
+  "startYear": 1271,
+  "endYear": 1368,
+  "startDateText": "公元1271年",
+  "endDateText": "公元1368年",
+  "colorKey": "yuan",
+  "summary": "忽必烈定元号至明军入大都的近百年。忽必烈以汉法治汉地，行省制与四等人制并行，澎湖巡检司领琉球、宣政院辖吐蕃，设四门提举与市场舶司管理海贸，编《至正条格》。至元三十一年后皇权衰微，武宗时期设元仁宗。中央财政依赖岁赋与斡脱钱，纸钞滥发；脱脱三度拜相而治绩不彰。至正年间红巾军起义席卷全国，1368年徐达入大都，元亡。",
+  "territory": "北逾大漠，西至西域，西南至西藏，东南临海",
+  "capital": "大都",
+  "population": "约五百万户",
+  "culture": "元曲杂剧散曲兴盛、黄道婆棉纺术、《马可波罗游记》、景教与藏传佛教并立、元青花与釉里红",
+  "keyFigures": [
+   "fig-kublai",
+   "fig-wang-zhen",
+   "fig-hailing",
+   "fig-tu-tuo",
+   "fig-shi-tiesheng",
+   "fig-zhu-yuanzhang"
+  ],
+  "relatedEvents": [
+   "ev-yuan-founding",
+   "ev-yuan-xing-sheng",
+   "ev-yuan-dadu",
+   "ev-yuan-hailing",
+   "ev-yuan-miao",
+   "ev-yuan-fall"
+  ],
+  "tags": [
+   "元后期",
+   "行省制",
+   "四等人制",
+   "黄道婆",
+   "脱脱",
+   "红巾军"
+  ]
+ },
+ {
+  "id": "cn-ming-early",
+  "name": "明前期",
+  "alias": "洪武至正德",
+  "parentId": "cn-ming",
+  "startYear": 1368,
+  "endYear": 1521,
+  "startDateText": "公元1368年",
+  "endDateText": "公元1521年",
+  "colorKey": "pink",
+  "summary": "朱元璋、朱棣至正德三朝。洪武年间整顿户籍田赋、编黄册鱼鳞图册，设卫所与锦衣卫、废行省置承宣布政使司，制度严整而民生凋敝。朱棣迁都北京、筑紫禁城、亲征漠北、遣郑和下西洋，设内阁与厂卫并用。仁宣之治休养生息，土木堡之变英宗被俘，于谦保卫北京。弘治、正德时期江南商品经济活跃，王阳明心学发轫。明前期的国家能力重建与对外开拓，塑造了此后数百年东亚秩序的基本框架，其制度得失至今仍有研究价值。",
+  "territory": "北部以长城与九边为界，设奴儿干都司于黑龙江",
+  "capital": "应天（南京）、北京",
+  "population": "约一千六百万户（洪武末）",
+  "culture": "宝船与航海图、百科全书式《永乐大典》、紫禁城与太和殿、于谦《石灰吟》、心学萌芽",
+  "keyFigures": [
+   "fig-zhu-yuanzhang",
+   "fig-zhu-di",
+   "fig-zhu-gao",
+   "fig-xuande",
+   "fig-yu-qian",
+   "fig-zhengde"
+  ],
+  "relatedEvents": [
+   "ev-ming-founding",
+   "ev-ming-hongwu",
+   "ev-ming-yongle",
+   "ev-ming-zhenghe",
+   "ev-ming-tumu",
+   "ev-ming-yu-qian",
+   "ev-ming-hongzhi",
+   "ev-ming-sea"
+  ],
+  "tags": [
+   "明前期",
+   "洪武之治",
+   "郑和",
+   "永乐大典",
+   "于谦",
+   "心学"
+  ]
+ },
+ {
+  "id": "cn-ming-mid",
+  "name": "明中期",
+  "alias": "嘉靖隆庆万历",
+  "parentId": "cn-ming",
+  "startYear": 1521,
+  "endYear": 1620,
+  "startDateText": "公元1521年",
+  "endDateText": "公元1620年",
+  "colorKey": "pink",
+  "summary": "正德、嘉靖、隆庆、万历四朝。皇权与宦官专权复炽，廷杖与宫变频仍；嘉靖崇奉道教、严嵩父子把持朝政，俺答汗叩关而戚继光与俞大猷整饬九边；隆庆开关互市；万历张居正行一条鞭法、考成法，白银大量自美洲与日本流入，一枚钱 taxes 折银。海上白银流入刺激东南商品经济，长崎与马尼拉贸易兴盛，但万历怠政与党争使吏治败坏。",
+  "territory": "长城九边与辽东、东南沿海与西南土司地区",
+  "capital": "北京",
+  "population": "约一千七百万户",
+  "culture": "《几何原本》前六卷译本、徐霞客游记、汤显祖临川四梦、江南商品经济与白银货币化、戚继光练兵",
+  "keyFigures": [
+   "fig-wei-xiu",
+   "fig-yan-dayou",
+   "fig-haodun",
+   "fig-zhang-juzheng",
+   "fig-hai-ru",
+   "fig-xu-xiake"
+  ],
+  "relatedEvents": [
+   "ev-ming-jiajing",
+   "ev-ming-qi-jiguang",
+   "ev-ming-longqing",
+   "ev-ming-wanli",
+   "ev-ming-yitiaobian",
+   "ev-ming-hai-ru",
+   "ev-ming-xu-xiake"
+  ],
+  "tags": [
+   "明中期",
+   "戚继光",
+   "张居正",
+   "一条鞭法",
+   "白银",
+   "徐霞客"
+  ]
+ },
+ {
+  "id": "cn-ming-late",
+  "name": "明后期",
+  "alias": "晚明",
+  "parentId": "cn-ming",
+  "startYear": 1620,
+  "endYear": 1644,
+  "startDateText": "公元1620年",
+  "endDateText": "公元1644年",
+  "colorKey": "pink",
+  "summary": "泰昌、天启、崇祯三朝，仅二十四年而明亡。辽东与西南播州之役耗尽国力，努尔哈赤统一女真、后金攻陷辽沈与锦州，皇太极改族名满洲并绕道入关劫掠山东；关宁防线在祖大寿与吴三桂手中崩溃。农民起义因小冰期灾荒与赋役激增而爆发，李自成、张献忠转战西北，1644年正月攻入北京，崇祯帝自缢煤山。明朝近三百年历史终结，北方转入清与农民军争夺天下的格局。",
+  "territory": "东北收缩至山海关一线，西南土司部分改土归流",
+  "capital": "北京",
+  "population": "约两千万户（崇祯年间估算，实际锐减）",
+  "culture": "天启崇祯的戏曲与小说高峰、徐光启农政全书与甘薯引种、传教士西学东渐、实录与起居注",
+  "keyFigures": [
+   "fig-tianqi",
+   "fig-chongzhen",
+   "fig-wu-sangui",
+   "fig-li-zicheng",
+   "fig-zhang-xianzhong",
+   "fig-xu-guangqi"
+  ],
+  "relatedEvents": [
+   "ev-ming-tianqi",
+   "ev-ming-chongzhen",
+   "ev-ming-liaodong",
+   "ev-ming-buzhou",
+   "ev-ming-lizicheng",
+   "ev-ming-fall"
+  ],
+  "tags": [
+   "晚明",
+   "后金",
+   "李自成",
+   "崇祯",
+   "小冰期",
+   "煤山"
+  ]
+ },
+ {
+  "id": "cn-qing-early",
+  "name": "清前期",
+  "alias": "顺治至雍正",
+  "parentId": "cn-qing",
+  "startYear": 1644,
+  "endYear": 1735,
+  "startDateText": "公元1644年",
+  "endDateText": "公元1735年",
+  "colorKey": "qing",
+  "summary": "入关至雍正年间的九十年。顺治帝年幼由多尔衮摄政，清军入关定鼎，剃发易服与圈地引发反抗；康熙帝擒鳌拜、平三藩、收台湾、雅克萨与尼布楚议约、平定三藩与准噶尔，册封班禅与五世达赖，确立西藏归属；雍正设军机处、摊丁入亩与耗羡归公，创立火器营与驻防制度，国库充盈。清前期完成了疆域的最终定型与统治体系的成熟，其奠定的疆域范围至今仍是现代中国疆域论述的基础。",
+  "territory": "东北至库页岛，西至乌拉尔河以北，西南至喜马拉雅，东南至台湾",
+  "capital": "北京",
+  "population": "约一亿五千万至二亿",
+  "culture": "剃发易服与圈地、军机处与密折、满汉分治与理藩院、康熙字典与《古今图书集成》、扬州十日记与文字狱初现",
+  "keyFigures": [
+   "fig-nurhaci",
+   "fig-huang-taiji",
+   "fig-duo-er-dung",
+   "fig-kangxi",
+   "fig-yongzheng",
+   "fig-wu-sangui"
+  ],
+  "relatedEvents": [
+   "ev-qing-founding",
+   "ev-qing-qing-enter",
+   "ev-qing-tifa",
+   "ev-qing-sanfan",
+   "ev-qing-taiwan",
+   "ev-qing-yaksa",
+   "ev-qing-nivchu",
+   "ev-qing-junji"
+  ],
+  "tags": [
+   "清前期",
+   "康熙",
+   "雍正",
+   "三藩之乱",
+   "军机处",
+   "尼布楚条约"
+  ]
+ },
+ {
+  "id": "cn-qing-mid",
+  "name": "清中期",
+  "alias": "乾隆至嘉庆",
+  "parentId": "cn-qing",
+  "startYear": 1735,
+  "endYear": 1820,
+  "startDateText": "公元1735年",
+  "endDateText": "公元1820年",
+  "colorKey": "qing",
+  "summary": "乾隆、嘉庆两朝约九十年，史称康乾盛世之顶点。乾隆十全武功平定准噶尔与大小和卓、征缅甸与安南、两次征廓尔喀，台湾设府并经营西藏；开《四库全书》《古今图书集成》，但文字狱与删改史书压抑思想；白莲教起义暴露盛世下的社会矛盾。人口突破三亿，耕地增长停滞，人均耕地降至危险水平。嘉庆朝财政困窘、吏治败坏，白莲教起义、天地会兴起，为鸦片战争前的社会危机埋下伏笔。",
+  "territory": "空前辽阔，西北至巴尔喀什湖与葱岭，西南至喜马拉雅，东至库页岛",
+  "capital": "北京",
+  "population": "约三亿至四亿",
+  "culture": "《四库全书》与乾嘉考据、红楼梦与京旗文化、京剧形成、督抚与学政、闭关与广州一口通商",
+  "keyFigures": [
+   "fig-qianlong",
+   "fig-jiaqing",
+   "fig-chen-hongshou",
+   "fig-ji-yun",
+   "fig-wei-yuanbai",
+   "fig-hong-liangji"
+  ],
+  "relatedEvents": [
+   "ev-qing-qianlong",
+   "ev-qing-siku",
+   "ev-qing-wenziyu",
+   "ev-qing-bailianjiao",
+   "ev-qing-jiaqing",
+   "ev-qing-guangzhou-trade"
+  ],
+  "tags": [
+   "清中期",
+   "乾隆",
+   "四库全书",
+   "文字狱",
+   "白莲教",
+   "康乾盛世"
+  ]
+ },
+ {
+  "id": "cn-qing-late",
+  "name": "清后期",
+  "alias": "晚清",
+  "parentId": "cn-qing",
+  "startYear": 1820,
+  "endYear": 1912,
+  "startDateText": "公元1820年",
+  "endDateText": "公元1912年",
+  "colorKey": "qing",
+  "summary": "道光、咸丰、同治、光绪、宣统五朝九十二年，是中国由独立封建王朝转向半殖民地半封建社会的九十二年。鸦片战争与南京条约开国门，太平天国运动席卷全国，洋务运动办起近代工业，甲午战争败于日本，戊戌变法百日而废，庚子之乱后清末新政与预备立宪推行，辛亥革命终于终止帝制。内忧外患交至，民族危机空前深重。晚清的危机与改革集中了近代中国几乎全部制度试验，其成败得失深刻影响了此后的政治选择。",
+  "territory": "逐步丧失领土主权：香港、澳门、台湾、澎湖、东北与西北大片失地",
+  "capital": "北京",
+  "population": "约四亿一千万（光绪末）",
+  "culture": "翻译西学与京师同文馆、报刊与《申报》、新式学堂与留学生、废科举与新式军制、白话小说与京剧改良",
+  "keyFigures": [
+   "fig-lin-zexu",
+   "fig-zeng-guofan",
+   "fig-li-hongzhang",
+   "fig-zuo-zongtang",
+   "fig-zhang-zhidong",
+   "fig-kang-youwei"
+  ],
+  "relatedEvents": [
+   "ev-qing-opium-war",
+   "ev-qing-nanjing-treaty",
+   "ev-qing-taiping",
+   "ev-qing-yangwu",
+   "ev-qing-jiawu",
+   "ev-qing-wuxu",
+   "ev-qing-new-policies",
+   "ev-qing-xinhai"
+  ],
+  "tags": [
+   "晚清",
+   "鸦片战争",
+   "洋务运动",
+   "甲午战争",
+   "戊戌变法",
+   "辛亥革命"
+  ]
+ },
+ {
+  "id": "cn-modern-republic",
+  "name": "民国初年",
+  "alias": "北洋政府时期",
+  "parentId": "cn-modern",
+  "startYear": 1912,
+  "endYear": 1927,
+  "startDateText": "公元1912年",
+  "endDateText": "公元1927年",
+  "colorKey": "gray",
+  "summary": "中华民国成立至国民政府定都南京的十六年。孙中山就任临时大总统、颁布《中华民国临时约法》，随后政权落入袁世凯之手；袁称帝、张勋复辟、护国护法相继失败；军阀割据混战，南北对峙。十月革命后马克思主义传播，新文化运动、五四运动兴起，中国共产党于1921年成立；国共合作与北伐战争展开，蒋介石制造412事变，标志第一次国共合作破裂。",
+  "territory": "北洋政府号令各省但政令不出京畿；南方国民政府与广州国民政府先后建立",
+  "capital": "北京、南京",
+  "population": "约四亿七千万",
+  "culture": "白话文运动、新青年与五四、马克思主义传入、留日学生与新式学堂、清末预备立宪的余绪",
+  "keyFigures": [
+   "fig-sun-yat-sen",
+   "fig-yuan-shikai",
+   "fig-liang-qichao",
+   "fig-dong-bi-wu",
+   "fig-chen-duxiu",
+   "fig-li-dazhao"
+  ],
+  "relatedEvents": [
+   "ev-modern-republic",
+   "ev-modern-provisional",
+   "ev-modern-yuan-shikai",
+   "ev-modern-empire",
+   "ev-modern-zhangxun",
+   "ev-modern-hugu",
+   "ev-modern-may-fourth",
+   "ev-modern-communist-party"
+  ],
+  "tags": [
+   "民国初年",
+   "北洋政府",
+   "袁世凯",
+   "护国运动",
+   "五四运动"
+  ]
+ },
+ {
+  "id": "cn-modern-anti-japan",
+  "name": "抗日战争",
+  "alias": "抗日战争时期",
+  "parentId": "cn-modern",
+  "startYear": 1931,
+  "endYear": 1945,
+  "startDateText": "公元1931年",
+  "endDateText": "公元1945年",
+  "colorKey": "gray",
+  "summary": "自九一八事变至抗日战争胜利的十四年。1931年日本侵占东北，局部抗战兴起；1937年七七事变后全面抗战爆发，国共第二次合作建立为时十二年的抗日民族统一战线形成，平型关、台儿庄、百团大战等役相继，抗战进入相持与反攻阶段。1941年太平洋战争爆发后中国战场成为世界反法西斯战争东方主战场；1945年日本宣布投降，抗战胜利，台湾回归。",
+  "territory": "东北沦陷区与华北华中沦陷区；陕甘宁、晋察冀、晋冀鲁豫、山东等抗日根据地",
+  "capital": "重庆",
+  "population": "约四亿八千万（战时人口损失逾三千万）",
+  "culture": "延安文艺与抗战戏剧、救亡歌曲与《义勇军进行曲》、中国远征军与驼峰航线、飞机制造与兵工体系、细菌战与慰安妇问题",
+  "keyFigures": [
+   "fig-mao-zedong",
+   "fig-zhou-enlai",
+   "fig-zhang-xueliang",
+   "fig-li-zongren",
+   "fig-peng-dehuai",
+   "fig-zuo-zongtang"
+  ],
+  "relatedEvents": [
+   "ev-modern-japanese-aggression",
+   "ev-modern-jiu-yi-ba",
+   "ev-modern-jiu-ba",
+   "ev-modern-pingxingguan",
+   "ev-modern-taierzhuang",
+   "ev-modern-baihui",
+   "ev-modern-jiangkou",
+   "ev-modern-victory"
+  ],
+  "tags": [
+   "抗日战争",
+   "九一八",
+   "七七事变",
+   "国共合作",
+   "持久战"
+  ]
+ },
+ {
+  "id": "cn-modern-liberation",
+  "name": "解放战争",
+  "alias": "人民解放战争",
+  "parentId": "cn-modern",
+  "startYear": 1945,
+  "endYear": 1949,
+  "startDateText": "公元1945年",
+  "endDateText": "公元1949年",
+  "colorKey": "gray",
+  "summary": "抗战胜利后国共内战重新开始、全面化的四年。经过重庆谈判与政协会议，1946年全面内战爆发，国民党在军事与经济上陷入困境；1947年人民解放军转入战略进攻，刘邓大军挺进大别山揭开战略决战序幕；辽沈、淮海、平津三大战役奠定全国胜利格局，百万雄师渡长江占领南京；1949年北平和平解放，10月1日中华人民共和国成立。",
+  "territory": "由东北、华北、华中解放区逐步扩展至全国大陆",
+  "capital": "延安（前期）、北京（1949年后）",
+  "population": "约五亿四千万",
+  "culture": "土地改革与《中国土地法大纲》、根据地大生产运动、解放区新文艺、接管城市与工矿恢复",
+  "keyFigures": [
+   "fig-mao-zedong",
+   "fig-zhou-enlai",
+   "fig-liu-bocheng",
+   "fig-deng-xiaoping",
+   "fig-chen-yi",
+   "fig-liu-shaoqi"
+  ],
+  "relatedEvents": [
+   "ev-modern-chongqing-talk",
+   "ev-modern-civil-war",
+   "ev-modern-jinping",
+   "ev-modern-liaoshen",
+   "ev-modern-huaihai",
+   "ev-modern-pingjin",
+   "ev-modern-crossing",
+   "ev-modern-liberation"
+  ],
+  "tags": [
+   "解放战争",
+   "三大战役",
+   "渡江战役",
+   "土地改革"
+  ]
+ },
+ {
+  "id": "cn-prc-early",
+  "name": "社会主义革命与建设时期",
+  "alias": "1949—1978",
+  "parentId": "cn-prc",
+  "startYear": 1949,
+  "endYear": 1978,
+  "startDateText": "公元1949年",
+  "endDateText": "公元1978年",
+  "colorKey": "modern",
+  "summary": "新中国成立到改革开放前的三十年。1950至1952年土地改革与国民经济恢复；1953年起实施一五计划与三大改造，1956年社会主义改造基本完成，进入社会主义初级阶段。1958年大跃进与人民公社化、1959至1961年三年困难时期曲折严重；1962年后调整国民经济，1964年原子弹与1967年氢弹爆炸成功，1970年东方红一号上天、1973年袁隆平培育籼型杂交水稻；1976年周恩来、毛泽东、朱德相继逝世，唐山地震酿巨灾，粉碎四人帮后进入历史转折期。",
+  "territory": "1949年底大陆基本统一，1950年代进行抗美援朝战争并取得胜利",
+  "capital": "北京",
+  "population": "1949年约5.4亿，1978年约9.9亿",
+  "culture": "两弹一星与国防科技、大跃进时期的宣传画、样板戏与革命题材文艺、杂交水稻、援建亚非拉",
+  "keyFigures": [
+   "fig-mao-zedong",
+   "fig-zhou-enlai",
+   "fig-liu-shaoqi",
+   "fig-chen-yi",
+   "fig-deng-xiaoping",
+   "fig-lin-biao"
+  ],
+  "relatedEvents": [
+   "ev-prc-founding",
+   "ev-prc-land-reform",
+   "ev-prc-korean-war",
+   "ev-prc-first-five-year",
+   "ev-prc-socialist-transform",
+   "ev-prc-great-leap",
+   "ev-prc-two-bombs",
+   "ev-prc-dongfanghong"
+  ],
+  "tags": [
+   "新中国早期",
+   "一五计划",
+   "大跃进",
+   "两弹一星",
+   "抗美援朝"
+  ]
+ },
+ {
+  "id": "cn-prc-reform",
+  "name": "改革开放新时期",
+  "alias": "1978—2012",
+  "parentId": "cn-prc",
+  "startYear": 1978,
+  "endYear": 2012,
+  "startDateText": "公元1978年",
+  "endDateText": "公元2012年",
+  "colorKey": "modern",
+  "summary": "从十一届三中全会到十八大前的三十余年。党的工作重心转向经济建设，改革开放由农村到城市、由经济体制到政治体制与社会体制逐步展开：家庭联产承包责任制解放农村生产力，深圳等经济特区提供试验窗口，南方谈话推动思想解放，社会主义市场经济体制目标确立，加入世界贸易组织融入全球经济。香港、澳门回归，一国两制从构想变为现实。载人航天、探月工程、青藏铁路与大型客机交出答卷，北京奥运向世界展示中国形象。",
+  "territory": "对外开放由沿海到沿江沿边到内地，形成全方位多层次宽领域的开放格局",
+  "capital": "北京",
+  "population": "1978年约9.9亿，2012年约13.5亿",
+  "culture": "深圳速度与市场经济启蒙、人文精神大讨论、对外文化交流、网络与信息技术普及、奥运国家形象",
+  "keyFigures": [
+   "fig-deng-xiaoping",
+   "fig-chen-yi",
+   "fig-liu-shaoqi",
+   "fig-hu-jintao",
+   "fig-wen-jiabao",
+   "fig-zhu-rongji"
+  ],
+  "relatedEvents": [
+   "ev-prc-reform",
+   "ev-prc-henan-village",
+   "ev-prc-special-zones",
+   "ev-prc-southern-tour",
+   "ev-prc-socialist-market",
+   "ev-prc-shenzhen",
+   "ev-prc-hong-kong",
+   "ev-prc-macao"
+  ],
+  "tags": [
+   "改革开放",
+   "深圳",
+   "南方谈话",
+   "一国两制",
+   "加入世贸",
+   "奥运"
+  ]
+ },
+ {
+  "id": "cn-prc-new-era",
+  "name": "新时代",
+  "alias": "中国特色社会主义新时代",
+  "parentId": "cn-prc",
+  "startYear": 2012,
+  "endYear": 2026,
+  "startDateText": "公元2012年",
+  "endDateText": "至今",
+  "colorKey": "modern",
+  "summary": "党的十八大以来中国特色社会主义进入新时代。全面深化改革推进国家治理体系与治理能力现代化，脱贫攻坚战取得全面胜利并实现现行标准下农村贫困人口全部脱贫，乡村振兴战略与城乡融合发展并行；粤港澳大湾区、长三角一体化与海南自由贸易港建设推进，一带一路倡议提出并成为重要国际公共产品；碳达峰碳中和目标提出，生态文明建设推进。载人航天工程接续推进，北斗组网、探月取样、天问探火、嫦娥五号带回月球样品，科技自立自强能力显著增强；反腐斗争深入，反腐永远在路上。",
+  "territory": "海陆兼备、内外联动，管辖海域与蓝色国土意识增强",
+  "capital": "北京",
+  "population": "约14.1亿",
+  "culture": "中华优秀传统文化创造性转化与创新性发展、非遗与文博热、短视频与新文学生态、碳中和话语体系、人类命运共同体",
+  "keyFigures": [
+   "fig-xi-jinping",
+   "fig-li-keqiang",
+   "fig-han-zheng",
+   "fig-wang-yi",
+   "fig-yan-fulong",
+   "fig-li-gong"
+  ],
+  "relatedEvents": [
+   "ev-prc-new-era",
+   "ev-prc-belt-road",
+   "ev-prc-poverty",
+   "ev-prc-carbon",
+   "ev-prc-beidou",
+   "ev-prc-tianwen",
+   "ev-prc-chang-e-five",
+   "ev-prc-civilization"
+  ],
+  "tags": [
+   "新时代",
+   "一带一路",
+   "脱贫攻坚",
+   "碳中和",
+   "航天",
+   "人类命运共同体"
+  ]
+ }
+]

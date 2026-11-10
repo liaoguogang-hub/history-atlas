@@ -1,0 +1,777 @@
+{
+ "fig-an-lushan": [
+  "ev-tang-anlushan",
+  "ev-tang-luoyang-fall",
+  "ev-tang-ganbu"
+ ],
+ "fig-du-fu": [
+  "ev-tang-liu-yan",
+  "ev-tang-poetry"
+ ],
+ "fig-ge-shu-han": [
+  "ev-tang-chang-an-fall"
+ ],
+ "fig-guo-ziyi": [
+  "ev-tang-anlushan",
+  "ev-tang-pugu",
+  "ev-tang-ganbu"
+ ],
+ "fig-li-de": [
+  "ev-tang-jingde",
+  "ev-tang-nongfu"
+ ],
+ "fig-li-guangbi": [
+  "ev-tang-anlushan",
+  "ev-tang-pugu"
+ ],
+ "fig-li-heng": [
+  "ev-tang-luoyang-fall",
+  "ev-tang-chang-an-fall"
+ ],
+ "fig-li-huaiguang": [
+  "ev-tang-jingde"
+ ],
+ "fig-liu-yan": [
+  "ev-tang-liu-yan"
+ ],
+ "fig-liu-zongyuan": [
+  "ev-tang-jingde"
+ ],
+ "fig-pu-gu-huai-en": [
+  "ev-tang-pugu"
+ ],
+ "fig-shi-siming": [
+  "ev-tang-anlushan"
+ ],
+ "fig-tian-xiang": [
+  "ev-tang-ganbu"
+ ],
+ "fig-wu-daozi": [
+  "ev-tang-yan-zhenqing",
+  "ev-tang-wu-daozi"
+ ],
+ "fig-xuanzong": [
+  "ev-tang-anlushan",
+  "ev-tang-luoyang-fall",
+  "ev-tang-chang-an-fall"
+ ],
+ "fig-yan-zhenqing": [
+  "ev-tang-yan-zhenqing",
+  "ev-tang-wu-daozi"
+ ],
+ "fig-yang-guifei": [
+  "ev-tang-luoyang-fall"
+ ],
+ "fig-yang-guozhong": [
+  "ev-tang-anlushan",
+  "ev-tang-luoyang-fall",
+  "ev-tang-chang-an-fall"
+ ],
+ "fig-yu-chao-en": [
+  "ev-tang-pugu"
+ ],
+ "fig-zhu-ci": [
+  "ev-tang-jingde"
+ ],
+ "fig-zhu-wu-zhong": [
+  "ev-tang-ganbu"
+ ],
+ "fig-bao-ling": [
+  "ev-weijin-yungong"
+ ],
+ "fig-feng-taihou": [
+  "ev-weijin-xiaowen-hanization"
+ ],
+ "fig-gao-huan": [
+  "ev-weijin-yungong"
+ ],
+ "fig-li-yun": [
+  "ev-weijin-xiaowen-hanization",
+  "ev-weijin-juntian",
+  "ev-weijin-san-chang"
+ ],
+ "fig-mu-rong": [
+  "ev-weijin-northern-wei"
+ ],
+ "fig-tuoba-tao": [
+  "ev-weijin-northern-wei"
+ ],
+ "fig-yang-jian": [],
+ "fig-yuwen-tai": [
+  "ev-weijin-yungong"
+ ],
+ "fig-zhou-wu": [],
+ "fig-尔朱荣": [
+  "ev-weijin-yungong"
+ ],
+ "fig-cai-yong": [
+  "ev-tang-wuzetian"
+ ],
+ "fig-chang-sun-wu": [
+  "ev-tang-xuanwumen"
+ ],
+ "fig-dijianjie": [
+  "ev-tang-wuzetian",
+  "ev-tang-dijianjie"
+ ],
+ "fig-du-ru-hui": [
+  "ev-tang-zhenguan",
+  "ev-tang-kaifeng"
+ ],
+ "fig-fang-xiu-ling": [
+  "ev-tang-zhenguan",
+  "ev-tang-kaifeng"
+ ],
+ "fig-jianzhen": [
+  "ev-tang-jianzhen"
+ ],
+ "fig-jie-xian": [
+  "ev-tang-xuanzang"
+ ],
+ "fig-li-longji": [
+  "ev-tang-kaiyuan"
+ ],
+ "fig-song-jing": [
+  "ev-tang-kaiyuan"
+ ],
+ "fig-wei-gong": [
+  "ev-tang-xuanwumen"
+ ],
+ "fig-wei-shu": [
+  "ev-tang-kaiyuan"
+ ],
+ "fig-wei-zheng": [
+  "ev-tang-zhenguan"
+ ],
+ "fig-wu-jing": [
+  "ev-tang-zhike"
+ ],
+ "fig-wu-zetian": [
+  "ev-tang-wuzetian",
+  "ev-tang-dijianjie",
+  "ev-tang-chang-an"
+ ],
+ "fig-xuanzang": [
+  "ev-tang-xuanzang"
+ ],
+ "fig-yao-chong": [
+  "ev-tang-kaiyuan",
+  "ev-tang-chang-an"
+ ],
+ "fig-cao-cao": [
+  "ev-han-fall",
+  "ev-han-hua-tuo",
+  "ev-weijin-red-cliffs",
+  "ev-weijin-guan-dong",
+  "ev-weijin-guan-dong-2"
+ ],
+ "fig-cao-pi": [
+  "ev-han-fall",
+  "ev-weijin-three-kingdoms",
+  "ev-weijin-wei-founding"
+ ],
+ "fig-chen-fan": [
+  "ev-han-party-frison"
+ ],
+ "fig-deng-rong": [
+  "ev-han-lingqu-2"
+ ],
+ "fig-fan-pang": [
+  "ev-han-party-frison"
+ ],
+ "fig-han-xiandi": [
+  "ev-han-fall"
+ ],
+ "fig-huangfu-song": [
+  "ev-han-yellow-turban"
+ ],
+ "fig-li-ying": [
+  "ev-han-party-frison"
+ ],
+ "fig-liu-liao": [
+  "ev-han-party-frison"
+ ],
+ "fig-ma-yuan": [
+  "ev-han-lingqu-2"
+ ],
+ "fig-mingdi": [
+  "ev-han-buddhism"
+ ],
+ "fig-sima-yi": [
+  "ev-han-fall",
+  "ev-weijin-shibiao",
+  "ev-weijin-liaodong",
+  "ev-weijin-sima-power"
+ ],
+ "fig-zhang-jiao": [
+  "ev-han-yellow-turban"
+ ],
+ "fig-cao-huang": [
+  "ev-weijin-jin-unify"
+ ],
+ "fig-han-emperor-mingdi": [
+  "ev-weijin-luoyang-fall"
+ ],
+ "fig-liu-mao": [
+  "ev-weijin-eight-princes",
+  "ev-weijin-yongjia",
+  "ev-suita-fall"
+ ],
+ "fig-liu-yao": [
+  "ev-weijin-yongjia",
+  "ev-weijin-luoyang-fall"
+ ],
+ "fig-shi-le": [
+  "ev-weijin-yongjia"
+ ],
+ "fig-sima-de": [],
+ "fig-sima-jiong": [
+  "ev-weijin-eight-princes"
+ ],
+ "fig-sima-lun": [
+  "ev-weijin-eight-princes",
+  "ev-weijin-liu-yuan"
+ ],
+ "fig-sima-ying": [
+  "ev-weijin-eight-princes"
+ ],
+ "fig-sima-yue": [
+  "ev-weijin-eight-princes"
+ ],
+ "fig-wang-yan": [
+  "ev-weijin-yongjia"
+ ],
+ "fig-zhang-jia": [],
+ "fig-cao-rui": [
+  "ev-weijin-wei-founding"
+ ],
+ "fig-cao-shuang": [
+  "ev-weijin-sima-power"
+ ],
+ "fig-cao-zhi": [],
+ "fig-chen-qun": [
+  "ev-weijin-wei-founding"
+ ],
+ "fig-gongsun-yuan": [
+  "ev-weijin-liaodong"
+ ],
+ "fig-sima-shi": [
+  "ev-weijin-sima-power"
+ ],
+ "fig-xun-yu": [
+  "ev-weijin-guan-dong-2"
+ ],
+ "fig-yu-jin": [
+  "ev-weijin-guan-dong-2"
+ ],
+ "fig-yuan-sha": [
+  "ev-weijin-guan-dong-2"
+ ],
+ "fig-zao-yi": [
+  "ev-weijin-guan-dong"
+ ],
+ "fig-zhao-yan": [
+  "ev-weijin-guan-dong"
+ ],
+ "fig-chang-hui": [
+  "ev-han-zhangqian"
+ ],
+ "fig-chen-ping": [
+  "ev-han-bagua",
+  "ev-han-wenjing"
+ ],
+ "fig-dong-zhongshu": [
+  "ev-han-wudi"
+ ],
+ "fig-kong-ju-dasha": [
+  "ev-han-salt-iron"
+ ],
+ "fig-lu-ji-ying": [
+  "ev-han-chu-han"
+ ],
+ "fig-mou-dang": [
+  "ev-han-bagua"
+ ],
+ "fig-sang-hongyang": [
+  "ev-han-salt-iron"
+ ],
+ "fig-shu-lu": [
+  "ev-han-lingqu"
+ ],
+ "fig-shu-sun-tong": [
+  "ev-han-lichun"
+ ],
+ "fig-wei-qing": [
+  "ev-han-wudi"
+ ],
+ "fig-zhao-tuo": [
+  "ev-han-lingqu"
+ ],
+ "fig-zhu-fu-jian": [
+  "ev-han-wudi",
+  "ev-han-tui-en"
+ ],
+ "fig-chao-rong": [],
+ "fig-li-yan-hao": [],
+ "fig-liwang-yan": [],
+ "fig-chen-duxiu": [],
+ "fig-hu-shi": [],
+ "fig-li-dazhao": [],
+ "fig-mao-zedong": [],
+ "fig-sun-yat-sen": [],
+ "fig-chen-hongshou": [],
+ "fig-hong-liangji": [],
+ "fig-ji-yun": [],
+ "fig-wei-yuanbai": [],
+ "fig-chen-wubao": [
+  "ev-weijin-houjing",
+  "ev-weijin-sui-unify"
+ ],
+ "fig-fan-yun": [
+  "ev-weijin-liang-wudi"
+ ],
+ "fig-fang-xuanling": [
+  "ev-tang-fang-xuanling"
+ ],
+ "fig-hou-jing": [
+  "ev-weijin-houjing"
+ ],
+ "fig-liu-xie": [
+  "ev-tang-fang-xuanling"
+ ],
+ "fig-shen-yue": [
+  "ev-weijin-liang-wudi",
+  "ev-tang-fang-xuanling"
+ ],
+ "fig-sui-wendi": [
+  "ev-weijin-sui-unify",
+  "ev-suita-sui-founding",
+  "ev-suita-kemu",
+  "ev-suita-kaihuang",
+  "ev-suita-grand-canal"
+ ],
+ "fig-wang-wei": [
+  "ev-weijin-houjing",
+  "ev-tang-poetry"
+ ],
+ "fig-xiao-yan": [],
+ "fig-xiao-yan-liang": [],
+ "fig-yang-guang": [
+  "ev-weijin-sui-unify",
+  "ev-suita-kemu",
+  "ev-suita-grand-canal",
+  "ev-suita-luoyang",
+  "ev-suita-gaoli",
+  "ev-suita-yangdi-death"
+ ],
+ "fig-yang-su": [
+  "ev-weijin-sui-unify"
+ ],
+ "fig-zu-chongzhi": [
+  "ev-tang-zu-chongzhi"
+ ],
+ "fig-chen-yi": [],
+ "fig-deng-xiaoping": [],
+ "fig-hu-jintao": [],
+ "fig-xi-jinping": [],
+ "fig-zhou-enlai": [],
+ "fig-cheng-hao": [
+  "ev-tang-zhu-xi"
+ ],
+ "fig-lu-you": [],
+ "fig-qin-hui": [],
+ "fig-xin-qiji": [],
+ "fig-zhao-gou": [],
+ "fig-zhou-dunyi": [
+  "ev-tang-zhu-xi"
+ ],
+ "fig-zhu-xi": [
+  "ev-tang-zhu-xi"
+ ],
+ "fig-chongzhen": [],
+ "fig-li-zicheng": [],
+ "fig-tianqi": [],
+ "fig-wu-sangui": [],
+ "fig-xu-guangqi": [],
+ "fig-zhang-xianzhong": [],
+ "fig-deng-ai": [
+  "ev-weijin-shu-fall"
+ ],
+ "fig-guan-yu": [
+  "ev-weijin-chu-han",
+  "ev-weijin-san-gu-maolu"
+ ],
+ "fig-jiang-wei": [
+  "ev-weijin-chibiao",
+  "ev-weijin-shu-fall",
+  "ev-weijin-yizhou-fall"
+ ],
+ "fig-liu-shan": [
+  "ev-weijin-chibiao",
+  "ev-weijin-shu-fall",
+  "ev-weijin-yizhou-fall"
+ ],
+ "fig-ma-su": [
+  "ev-weijin-chibiao"
+ ],
+ "fig-meng-huo": [
+  "ev-weijin-nanman",
+  "ev-weijin-nanzhong"
+ ],
+ "fig-zhang-fei": [
+  "ev-weijin-chu-han",
+  "ev-weijin-san-gu-maolu",
+  "ev-weijin-yiling"
+ ],
+ "fig-zhang-yue": [
+  "ev-weijin-nanman"
+ ],
+ "fig-zhao-yun": [],
+ "fig-zhong-hui": [
+  "ev-weijin-yizhou-fall"
+ ],
+ "fig-zhuge-liang": [
+  "ev-weijin-chu-han",
+  "ev-weijin-san-gu-maolu",
+  "ev-weijin-red-cliffs",
+  "ev-weijin-chibiao",
+  "ev-weijin-shibiao",
+  "ev-weijin-nanman",
+  "ev-weijin-nanzhong"
+ ],
+ "fig-zhuge-shang": [
+  "ev-weijin-yizhou-fall"
+ ],
+ "fig-zhuge-zhan": [
+  "ev-weijin-shu-fall"
+ ],
+ "fig-dong-bi-wu": [],
+ "fig-liang-qichao": [],
+ "fig-yuan-shikai": [],
+ "fig-dong-yao": [],
+ "fig-lao-shigao": [
+  "ev-suita-gaoli"
+ ],
+ "fig-li-cheng": [
+  "ev-suita-fall",
+  "ev-tang-xuanwumen"
+ ],
+ "fig-li-mi": [
+  "ev-suita-yangdi-death"
+ ],
+ "fig-li-yuan": [
+  "ev-suita-fall",
+  "ev-tang-founding",
+  "ev-tang-xuanwumen"
+ ],
+ "fig-liu-xiao": [
+  "ev-suita-sui-founding",
+  "ev-suita-kemu"
+ ],
+ "fig-pei-ju": [],
+ "fig-yang-jian-sui": [
+  "ev-suita-sui-founding"
+ ],
+ "fig-yuwen-hua-ji": [
+  "ev-suita-yangdi-death"
+ ],
+ "fig-yuwen-kai": [
+  "ev-suita-luoyang"
+ ],
+ "fig-yuwen-shu": [
+  "ev-suita-gaoli"
+ ],
+ "fig-du-yu": [
+  "ev-weijin-wu-fall"
+ ],
+ "fig-kang-senghui": [],
+ "fig-lu-xun": [
+  "ev-weijin-yiling"
+ ],
+ "fig-lv-meng": [
+  "ev-weijin-yiling"
+ ],
+ "fig-sima-yan-jin": [
+  "ev-weijin-wu-fall",
+  "ev-weijin-jin-unify",
+  "ev-weijin-taikang"
+ ],
+ "fig-sun-hao": [
+  "ev-weijin-wu-fall"
+ ],
+ "fig-sunhao": [],
+ "fig-taishi-ci": [],
+ "fig-wang-jun": [
+  "ev-weijin-wu-fall"
+ ],
+ "fig-duo-er-dung": [],
+ "fig-fan-chong": [
+  "ev-han-red-brow"
+ ],
+ "fig-wang-mang": [
+  "ev-han-wangmang",
+  "ev-han-wangtian",
+  "ev-han-green-forest",
+  "ev-han-red-brow",
+  "ev-han-wangmang-fall"
+ ],
+ "fig-faxian": [],
+ "fig-gu-rong": [
+  "ev-weijin-dongjin"
+ ],
+ "fig-huan-wen": [
+  "ev-weijin-taiping"
+ ],
+ "fig-huiyuan": [],
+ "fig-sima-rui": [
+  "ev-weijin-dongjin",
+  "ev-weijin-nanqian"
+ ],
+ "fig-tao-yuanming": [
+  "ev-weijin-liuyu"
+ ],
+ "fig-wang-dao": [
+  "ev-weijin-dongjin",
+  "ev-weijin-nanqian"
+ ],
+ "fig-wang-dun": [
+  "ev-weijin-dongjin"
+ ],
+ "fig-wang-xizhi": [
+  "ev-tang-lanting"
+ ],
+ "fig-xiang-lun": [
+  "ev-weijin-taiping"
+ ],
+ "fig-zu-ti": [
+  "ev-weijin-huaiyin"
+ ],
+ "fig-feng-jian": [
+  "ev-weijin-feishui"
+ ],
+ "fig-fu-jian": [
+  "ev-weijin-feishui",
+  "ev-weijin-sixteen-kingdoms",
+  "ev-weijin-fu-jian"
+ ],
+ "fig-helian-bobobo": [],
+ "fig-liu-kun": [
+  "ev-weijin-liu-yuan"
+ ],
+ "fig-liu-yuan": [
+  "ev-weijin-liu-yuan",
+  "ev-weijin-sixteen-kingdoms"
+ ],
+ "fig-shile": [
+  "ev-weijin-sixteen-kingdoms"
+ ],
+ "fig-wang-meng": [
+  "ev-weijin-sixteen-kingdoms",
+  "ev-weijin-fu-jian"
+ ],
+ "fig-xie-lan": [
+  "ev-weijin-feishui"
+ ],
+ "fig-xie-xuan": [
+  "ev-weijin-feishui"
+ ],
+ "fig-zhu-xu": [
+  "ev-weijin-feishui"
+ ],
+ "fig-guo-wei": [],
+ "fig-liu-zhiyuan": [],
+ "fig-stone-jingmao": [],
+ "fig-hai-ru": [],
+ "fig-haodun": [],
+ "fig-wei-xiu": [],
+ "fig-yan-dayou": [],
+ "fig-zhang-juzheng": [],
+ "fig-hailing": [],
+ "fig-wanyan-aguda": [],
+ "fig-wanyan-liang": [],
+ "fig-wanyan-yungong": [],
+ "fig-yuanyou": [],
+ "fig-han-zheng": [],
+ "fig-li-gong": [],
+ "fig-li-keqiang": [],
+ "fig-wang-yi": [],
+ "fig-yan-fulong": [],
+ "fig-huang-chao": [
+  "ev-tang-huangchao",
+  "ev-tang-luoyang-sack"
+ ],
+ "fig-li-keyong": [
+  "ev-tang-huangchao",
+  "ev-tang-luoyang-sack"
+ ],
+ "fig-luo-hongxin": [],
+ "fig-shang-rang": [
+  "ev-tang-luoyang-sack"
+ ],
+ "fig-tang-ai-di": [
+  "ev-tang-fall"
+ ],
+ "fig-wang-xianzhi": [
+  "ev-tang-huangchao"
+ ],
+ "fig-wen-zong": [],
+ "fig-yang-yan": [
+  "ev-tang-nongfu"
+ ],
+ "fig-zhang-zhuo": [
+  "ev-tang-huangchao"
+ ],
+ "fig-zhu-wen": [
+  "ev-tang-fall"
+ ],
+ "fig-zhu-yougui": [
+  "ev-tang-fall"
+ ],
+ "fig-huang-taiji": [],
+ "fig-jiaqing": [],
+ "fig-kangxi": [],
+ "fig-nurhaci": [],
+ "fig-qianlong": [],
+ "fig-yongzheng": [],
+ "fig-kang-youwei": [],
+ "fig-li-hongzhang": [],
+ "fig-lin-zexu": [],
+ "fig-zeng-guofan": [],
+ "fig-zhang-zhidong": [],
+ "fig-zuo-zongtang": [],
+ "fig-kublai": [],
+ "fig-temujin": [],
+ "fig-wang-zhen": [],
+ "fig-yue-fei": [],
+ "fig-zhang-zhongyu": [],
+ "fig-li-bai": [
+  "ev-tang-poetry"
+ ],
+ "fig-li-shangyin": [
+  "ev-tang-poetry"
+ ],
+ "fig-li-shimin": [
+  "ev-tang-founding",
+  "ev-tang-xuanwumen",
+  "ev-tang-zhenguan",
+  "ev-tang-kaifeng",
+  "ev-tang-zhike",
+  "ev-tang-xuanzang",
+  "ev-tang-chang-an"
+ ],
+ "fig-li-bian": [
+  "ev-tang-huigu"
+ ],
+ "fig-li-jiancheng": [],
+ "fig-li-yu": [
+  "ev-tang-huigu"
+ ],
+ "fig-qian-hongchu": [],
+ "fig-wang-yanzheng": [],
+ "fig-wu-yue": [],
+ "fig-li-gui": [],
+ "fig-muqtai": [],
+ "fig-ogodei": [],
+ "fig-zhou-chang": [],
+ "fig-li-shizhen": [],
+ "fig-xu-xiake": [],
+ "fig-zheng-he": [],
+ "fig-zhu-di": [],
+ "fig-zhu-yuanzhang": [],
+ "fig-li-zongren": [],
+ "fig-peng-dehuai": [],
+ "fig-zhang-xueliang": [],
+ "fig-lian-po": [
+  "ev-zhou-changping"
+ ],
+ "fig-qin-shao-gong": [
+  "ev-zhou-zhang-liang"
+ ],
+ "fig-zhao-king": [
+  "ev-zhou-changping"
+ ],
+ "fig-zhao-kuo": [
+  "ev-zhou-changping"
+ ],
+ "fig-zhao-sulfou-gong": [
+  "ev-zhou-hezong"
+ ],
+ "fig-liang-wudi": [
+  "ev-weijin-north-south",
+  "ev-weijin-houjing",
+  "ev-weijin-liang-wudi"
+ ],
+ "fig-tuoba-gui": [
+  "ev-weijin-north-south",
+  "ev-weijin-northern-wei"
+ ],
+ "fig-xiaowen": [
+  "ev-weijin-north-south",
+  "ev-weijin-xiaowen-hanization",
+  "ev-weijin-juntian",
+  "ev-weijin-san-chang"
+ ],
+ "fig-lin-biao": [],
+ "fig-liu-bei": [
+  "ev-weijin-three-kingdoms",
+  "ev-weijin-chu-han",
+  "ev-weijin-san-gu-maolu",
+  "ev-weijin-red-cliffs",
+  "ev-weijin-yiling"
+ ],
+ "fig-sunquan": [
+  "ev-weijin-three-kingdoms",
+  "ev-weijin-red-cliffs"
+ ],
+ "fig-zhou-yu": [
+  "ev-weijin-red-cliffs"
+ ],
+ "fig-liu-bocheng": [],
+ "fig-liu-shaoqi": [],
+ "fig-liuyuan": [],
+ "fig-meng-tian": [
+  "ev-qin-great-wall"
+ ],
+ "fig-wang-jian": [
+  "ev-qin-unify"
+ ],
+ "fig-zhang-han": [
+  "ev-qin-chensheng"
+ ],
+ "fig-zi-ying": [
+  "ev-qin-fall"
+ ],
+ "fig-shi-jingzhang": [],
+ "fig-suo-shi": [],
+ "fig-wang-anshi": [],
+ "fig-zhao-guangyi": [],
+ "fig-zhao-heng": [],
+ "fig-zhao-kuangyin": [],
+ "fig-shi-tiesheng": [],
+ "fig-tu-tuo": [],
+ "fig-sima-yan": [],
+ "fig-taishao": [],
+ "fig-xie-an": [],
+ "fig-wen-jiabao": [],
+ "fig-zhu-rongji": [],
+ "fig-xi-quan": [
+  "ev-zhou-liujiu"
+ ],
+ "fig-xiao-wan-gui": [],
+ "fig-yao-gun": [],
+ "fig-yelv-abaji": [],
+ "fig-yelv-liangzhu": [],
+ "fig-xuande": [],
+ "fig-yu-qian": [],
+ "fig-zhengde": [],
+ "fig-zhu-gao": [],
+ "fig-zhoujingwang": [
+  "ev-zhou-pingwang"
+ ],
+ "fig-zi-gong": [
+  "ev-weijin-lunyu"
+ ],
+ "fig-zi-shang": [
+  "ev-weijin-lunyu"
+ ]
+}

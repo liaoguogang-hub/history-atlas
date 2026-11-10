@@ -1,0 +1,4 @@
+﻿cn-nanbei-north -> ['fig-bao-ling', 'fig-feng-taihou', 'fig-gao-huan', 'fig-li-yun', 'fig-mu-rong', 'fig-tuoba-tao', 'fig-yang-jian', 'fig-yuwen-tai', 'fig-zhou-wu', 'fig-尔朱荣']
+cn-nanbei-south -> ['fig-chen-wubao', 'fig-fan-yun', 'fig-fang-xuanling', 'fig-hou-jing', 'fig-liu-xie', 'fig-shen-yue', 'fig-sui-wendi', 'fig-wang-wei', 'fig-xiao-yan', 'fig-xiao-yan-liang', 'fig-yang-guang', 'fig-yang-su', 'fig-zu-chongzhi']
+cn-jin-west -> ['fig-cao-huang', 'fig-han-emperor-mingdi', 'fig-liu-mao', 'fig-liu-yao', 'fig-shi-le', 'fig-sima-de', 'fig-sima-jiong', 'fig-sima-lun', 'fig-sima-ying', 'fig-sima-yue', 'fig-wang-yan', 'fig-zhang-jia']
+cn-liang-jin -> ['fig-liuyuan']

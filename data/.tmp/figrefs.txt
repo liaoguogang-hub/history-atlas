@@ -1,0 +1,64 @@
+﻿TOTAL distinct figure refs: 294
+
+cn-prehistory          fig-huangdi fig-yandi fig-chanmu
+cn-xia-shang           fig-yu fig-tang fig-pangeng fig-wuding fig-furen
+cn-zhou-west           fig-zhouwu fig-zhougong fig-zhouchengwang fig-zhouliwang fig-zhouyouwang fig-zhouliwang fig-zhouxuanwang
+cn-zhou-east           fig-kongzi fig-lao-tzu fig-mozi fig-mencius fig-xunzi fig-han-feizi fig-zhuangzi fig-guan-zhong fig-bai-qi
+cn-qin                 fig-qin-shi-huang fig-li-si fig-zhao-gao fig-huang-jie fig-zhang-liang
+cn-han                 fig-liu-bang fig-han-wudi fig-zhang-qian fig-sima-qian fig-wang-mang fig-cai-lun fig-zhang-heng fig-cao-cao
+cn-wei-jin-nanbei      fig-cao-cao fig-liu-bei fig-sunquan fig-sima-yan fig-taishao fig-xie-an fig-tao-yuanming fig-zu-chongzhi fig-xiaowen
+cn-sui-tang            fig-sui-wendi fig-yang-guang fig-li-shimin fig-wu-zetian fig-xuanzang fig-du-fu fig-li-bai fig-yan-zhenqing
+cn-wudai               fig-zhu-wen fig-li-keyong fig-li-yan-hao fig-liwang-yan fig-chao-rong fig-li-yu fig-li-jiancheng fig-zhao-kuangyin
+cn-song-liao-jin       fig-zhao-kuangyin fig-zhao-guangyi fig-zhao-heng fig-shi-jingzhang fig-wang-anshi fig-suo-shi fig-zhou-bangyan fig-lu-you fig-li-qingzhao
+cn-yuan                fig-temujin fig-kublai fig-wang-zhen fig-yue-fei fig-li-guang fig-zhang-zhongyu fig-guan-hanquan
+cn-ming                fig-zhu-yuanzhang fig-zhu-di fig-zheng-he fig-wang-zhen fig-li-shizhen fig-xu-xiake fig-zhang-juzheng fig-sea-liu
+cn-qing                fig-nurhaci fig-huang-taiji fig-kangxi fig-yongzheng fig-qianlong fig-jiaqing fig-lin-zexu fig-zeng-guofan fig-zhang-zhidong
+cn-modern              fig-sun-yat-sen fig-chen-duxiu fig-li-dazhao fig-lu-xun fig-hu-shi fig-mao-zedong fig-zhou-enlai fig-zhang-xueliang
+cn-prc                 fig-mao-zedong fig-zhou-enlai fig-deng-xiaoping fig-chen-yi fig-hu-jintao fig-xi-jinping fig-qian-xuesen fig-yuan-longping fig-tu-youyou fig-li-gong fig-deng-jiaxian
+cn-pre-paleolithic     fig-peking-man fig-yuanmou-man fig-lantian-man fig-shandongdong-man
+cn-pre-neolithic       fig-huangdi fig-yandi fig-chanmu fig-yu fig-shennong fig-fuxi
+cn-xia                 fig-yu fig-qi fig-taikang fig-liu-kang
+cn-shang               fig-tang fig-pangeng fig-wuding fig-furen fig-jie fig-jiangzhu fig-zhouwu
+cn-shang-early         fig-tang fig-yiyin fig-taijia fig-pangeng
+cn-shang-late          fig-pangeng fig-wuding fig-furen fig-jie fig-zhouwu fig-zhoubang
+cn-spring-autumn       fig-qi-huanggong fig-guan-zhong fig-jin-wengong fig-qin-mugong fig-chu-zhuangwang fig-yan-ying fig-kongzi fig-zi-chan
+cn-warring-states      fig-shang-yang fig-qin-xiaogong fig-liqin fig-zouji fig-sun-tzu fig-zhang-liang fig-su-qin fig-pang-juan
+cn-han-west            fig-liu-bang fig-han-wudi fig-liu-ying fig-dou-ing fig-zhang-qian fig-sima-qian fig-han-xuan-di fig-wang-mang
+cn-han-new             fig-wang-mang fig-liu-xuan fig-wang-xiu
+cn-han-east            fig-liu-xiu fig-ban-gu fig-ban-chao fig-ban-zhao fig-cai-lun fig-zhang-heng fig-zhang-zhongjing fig-hua-tuo fig-liu-yu
+cn-three-kingdoms      fig-cao-cao fig-cao-pi fig-sima-yan fig-liu-bei fig-zhuge-liang fig-guan-yu fig-sunquan fig-lv-meng
+cn-three-shu           fig-liu-bei fig-zhuge-liang fig-guan-yu fig-zhang-fei fig-zhao-yun fig-jiang-wei fig-liu-shan
+cn-three-wei           fig-cao-pi fig-cao-rui fig-sima-yi fig-cao-zhi fig-cao-huang
+cn-three-wu            fig-sunquan fig-lv-meng fig-zhou-yu fig-taishi-ci fig-sunhao fig-kang-senghui
+cn-liang-jin           fig-sima-yan fig-sima-yan-jin fig-liuyuan fig-xie-an fig-tao-yuanming fig-wang-xizhi fig-lu-jun fig-fang-wan
+cn-jin-west            fig-sima-yan-jin fig-liuyuan fig-sima-lun fig-sima-de fig-zhang-jia
+cn-jin-east            fig-sima-rui fig-wang-dao fig-xie-an fig-faxian fig-huiyuan fig-tao-yuanming fig-wang-xizhi fig-liu-yu
+cn-sixteen-kingdoms    fig-liu-yuan fig-shile fig-fu-jian fig-wang-meng fig-mu-rong fig-helian-bobobo fig-tuo-ba-tai
+cn-nanbei              fig-xiaowen fig-tuoba-tao fig-zu-chongzhi fig-hou-jing fig-liang-wudi fig-fang-xuanling fig-yan-zhenqing
+cn-nanbei-north        fig-tuoba-gui fig-tuoba-tao fig-xiaowen fig-yang-jian fig-zhou-wu fig-liang-wudi
+cn-nanbei-south        fig-liu-yu fig-xiao-yan fig-liang-wudi fig-xiao-yan-liang fig-hou-jing fig-chen-wubao fig-zhen-jiang
+cn-sui                 fig-sui-wendi fig-yang-guang fig-yang-jian-sui fig-liu-xiao fig-pei-ju fig-dong-yao
+cn-tang                fig-li-yuan fig-li-shimin fig-wu-zetian fig-du-fu fig-li-bai fig-xuanzang fig-jingzong fig-zhang-jiuling fig-nuwa
+cn-tang-early          fig-li-yuan fig-li-shimin fig-wei-zheng fig-wu-zetian fig-li-longji fig-xuanzang fig-jianzhen fig-wu-daozi
+cn-tang-mid            fig-an-lushan fig-shi-siming fig-guo-ziyi fig-li-guangbi fig-du-fu fig-yan-zhenqing fig-liu-yan fig-wen-zong
+cn-tang-late           fig-wen-zong fig-li-keyong fig-wang-xianzhi fig-huang-chao fig-zhu-wen fig-luo-hongxin
+cn-wudai-north         fig-zhu-wen fig-li-keyong fig-stone-jingmao fig-liu-zhiyuan fig-guo-wei fig-chao-rong
+cn-wudai-south         fig-li-yu fig-li-bian fig-wu-yue fig-qian-hongchu fig-wang-yanzheng fig-li-jiancheng
+cn-song-north          fig-zhao-kuangyin fig-zhao-guangyi fig-zhao-heng fig-shi-jingzhang fig-wang-anshi fig-suo-shi fig-shen-kuo fig-li-qingzhao
+cn-song-south          fig-zhao-gou fig-yue-fei fig-qin-hui fig-zhu-xi fig-lu-you fig-xin-qiji fig-wen-tianxiang fig-yang-wannian
+cn-liao                fig-yelv-abaji fig-yelv-liangzhu fig-yao-gun fig-xiao-wan-gui fig-xiao-wan-gui
+cn-jin                 fig-wanyan-aguda fig-wanyan-liang fig-hailing fig-yuanyou fig-wanyan-yungong fig-zhao-yan
+cn-yuan-early          fig-temujin fig-muqtai fig-ogodei fig-kublai fig-li-gui fig-zhou-chang
+cn-yuan-late           fig-kublai fig-wang-zhen fig-hailing fig-tu-tuo fig-shi-tiesheng fig-zhu-yuanzhang fig-han-shanlin
+cn-ming-early          fig-zhu-yuanzhang fig-zhu-di fig-zhu-gao fig-xuande fig-yu-qian fig-zhengde fig-wang-yangming fig-zheng-he
+cn-ming-mid            fig-wei-xiu fig-yan-dayou fig-haodun fig-zhang-juzheng fig-hai-ru fig-xu-xiake fig-li-shi-zhen fig-tang-xianzu
+cn-ming-late           fig-tianqi fig-chongzhen fig-wu-sangui fig-li-zicheng fig-zhang-xianzhong fig-xu-guangqi fig-nurhaci
+cn-qing-early          fig-nurhaci fig-huang-taiji fig-duo-er-dung fig-kangxi fig-yongzheng fig-wu-sangui fig-zheng-chenggong fig-gaozong
+cn-qing-mid            fig-qianlong fig-jiaqing fig-chen-hongshou fig-ji-yun fig-wei-yuanbai fig-hong-liangji
+cn-qing-late           fig-lin-zexu fig-zeng-guofan fig-li-hongzhang fig-zuo-zongtang fig-zhang-zhidong fig-kang-youwei fig-liang-qichao fig-sun-yat-sen
+cn-modern-republic     fig-sun-yat-sen fig-yuan-shikai fig-liang-qichao fig-dong-bi-wu fig-chen-duxiu fig-li-dazhao fig-cai-yuanpei fig-liang-shuming
+cn-modern-anti-japan   fig-mao-zedong fig-zhou-enlai fig-zhang-xueliang fig-li-zongren fig-peng-dehuai fig-zuo-zongtang fig-zhang-zhiyi fig-yang-jingyu
+cn-modern-liberation   fig-mao-zedong fig-zhou-enlai fig-liu-bocheng fig-deng-xiaoping fig-chen-yi fig-liu-shaoqi fig-zhu-de
+cn-prc-early           fig-mao-zedong fig-zhou-enlai fig-liu-shaoqi fig-chen-yi fig-deng-xiaoping fig-lin-biao fig-zhou-gong fig-peng-dehuai fig-yuan-longping fig-hou-debang
+cn-prc-reform          fig-deng-xiaoping fig-chen-yi fig-liu-shaoqi fig-hu-jintao fig-wen-jiabao fig-zhu-rongji fig-yuan-longping fig-deng-jiaxian
+cn-prc-new-era         fig-xi-jinping fig-li-keqiang fig-han-zheng fig-wang-yi fig-yan-fulong fig-li-gong fig-tu-youyou fig-zhang-ying

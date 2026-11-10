@@ -1,0 +1,75 @@
+﻿p4 count 69
+=== p4 mapping ===
+fig-qin-zi-ying -> fig-zi-ying exists_need= True exists_map= True p= cn-qin
+fig-wang-jian -> None exists_need= - exists_map= - p= cn-qin
+fig-meng-tian -> None exists_need= - exists_map= - p= cn-qin
+fig-zhang-han -> None exists_need= - exists_map= - p= cn-qin
+fig-han-west-chen-ping -> fig-chen-ping exists_need= True exists_map= True p= cn-han-west
+fig-han-west-dong-zhongshu -> fig-dong-zhongshu exists_need= True exists_map= True p= cn-han-west
+fig-han-west-shu-sun-tong -> fig-shu-sun-tong exists_need= True exists_map= True p= cn-han-west
+fig-han-west-shu-lu -> fig-shu-lu exists_need= True exists_map= True p= cn-han-west
+fig-han-west-chang-hui -> fig-chang-hui exists_need= True exists_map= True p= cn-han-west
+fig-han-west-zhao-tuo -> fig-zhao-tuo exists_need= True exists_map= True p= cn-han-west
+fig-han-west-zhu-fu-jian -> fig-zhu-fu-jian exists_need= True exists_map= True p= cn-han-west
+fig-han-west-mou-dang -> fig-mou-dang exists_need= True exists_map= True p= cn-han-west
+fig-han-west-sang-hongyang -> fig-sang-hongyang exists_need= True exists_map= True p= cn-han-west
+fig-han-west-kong-ju-dasha -> fig-kong-ju-dasha exists_need= True exists_map= True p= cn-han-west
+fig-han-west-lu-ji-ying -> fig-lu-ji-ying exists_need= True exists_map= True p= cn-han-west
+fig-han-west-wei-qing -> fig-wei-qing exists_need= True exists_map= True p= cn-han-west
+fig-han-east-cao-cao -> fig-cao-cao exists_need= True exists_map= True p= cn-han-east
+fig-han-east-cao-pi -> fig-cao-pi exists_need= True exists_map= True p= cn-han-east
+fig-han-east-cao-rui -> fig-cao-rui exists_need= True exists_map= True p= cn-han-east
+fig-han-east-sima-yi -> fig-sima-yi exists_need= True exists_map= False p= cn-han-east
+fig-han-east-deng-rong -> fig-deng-rong exists_need= True exists_map= False p= cn-han-east
+fig-han-east-fan-pang -> fig-fan-pang exists_need= True exists_map= False p= cn-han-east
+fig-han-east-han-xiandi -> fig-han-xiandi exists_need= True exists_map= True p= cn-han-east
+fig-han-east-huangfu-song -> fig-huangfu-song exists_need= True exists_map= False p= cn-han-east
+fig-han-east-li-ying -> fig-li-ying exists_need= True exists_map= True p= cn-han-east
+fig-han-east-liu-liao -> fig-liu-liao exists_need= True exists_map= False p= cn-han-east
+fig-han-east-ma-yuan -> fig-ma-yuan exists_need= True exists_map= False p= cn-han-east
+fig-han-east-mingdi -> fig-mingdi exists_need= True exists_map= True p= cn-han-east
+fig-han-east-zhang-jiao -> fig-zhang-jiao exists_need= True exists_map= False p= cn-han-east
+fig-jin-west-cao-huang -> fig-cao-huang exists_need= True exists_map= True p= cn-jin-west
+fig-jin-west-han-emperor-mingdi -> fig-han-emperor-mingdi exists_need= True exists_map= True p= cn-jin-west
+fig-jin-west-liu-mao -> fig-liu-mao exists_need= True exists_map= True p= cn-jin-west
+fig-jin-west-liu-yao -> fig-liu-yao exists_need= True exists_map= True p= cn-jin-west
+fig-jin-west-shi-le -> fig-shi-le exists_need= True exists_map= True p= cn-jin-west
+fig-jin-west-sima-de -> fig-sima-de exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-sima-jiong -> fig-sima-jiong exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-sima-lun -> fig-sima-lun exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-sima-ying -> fig-sima-ying exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-sima-yue -> fig-sima-yue exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-wang-yan -> fig-wang-yan exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-zhang-jia -> fig-zhang-jia exists_need= True exists_map= False p= cn-jin-west
+fig-jin-west-liang-jin -> fig-liang-jin exists_need= False exists_map= False p= cn-jin-west
+fig-liang-jin-liuyuan -> fig-liuyuan exists_need= True exists_map= True p= cn-liang-jin
+fig-nanbei-north-tuoba-gui -> fig-tuoba-gui exists_need= True exists_map= True p= cn-nanbei-north
+fig-nanbei-north-tuoba-tao -> fig-tuoba-tao exists_need= True exists_map= False p= cn-nanbei-north
+fig-nanbei-north-yuwen-tai -> fig-yuwen-tai exists_need= True exists_map= True p= cn-nanbei-north
+fig-nanbei-north-liang-wudi -> fig-liang-wudi exists_need= True exists_map= True p= cn-nanbei-north
+fig-nanbei-north-feng-taihou -> fig-feng-taihou exists_need= True exists_map= True p= cn-nanbei-north
+fig-nanbei-north-gao-huan -> fig-gao-huan exists_need= True exists_map= True p= cn-nanbei-north
+fig-nanbei-north-yang-jian -> fig-yang-jian exists_need= True exists_map= False p= cn-nanbei-north
+fig-nanbei-north-bao-ling -> fig-bao-ling exists_need= True exists_map= False p= cn-nanbei-north
+fig-nanbei-north-mu-rong -> fig-mu-rong exists_need= True exists_map= False p= cn-nanbei-north
+fig-nanbei-north-li-yun -> fig-li-yun exists_need= True exists_map= False p= cn-nanbei-north
+fig-nanbei-north-zhou-wu -> fig-zhou-wu exists_need= True exists_map= False p= cn-nanbei-north
+fig-nanbei-north-fig-尔朱荣 -> fig-fig-尔朱荣 exists_need= False exists_map= False p= cn-nanbei-north
+fig-nanbei-south-hou-jing -> fig-hou-jing exists_need= True exists_map= True p= cn-nanbei-south
+fig-nanbei-south-chen-wubao -> fig-chen-wubao exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-fan-yun -> fig-fan-yun exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-fang-xuanling -> fig-fang-xuanling exists_need= True exists_map= True p= cn-nanbei-south
+fig-nanbei-south-liu-xie -> fig-liu-xie exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-shen-yue -> fig-shen-yue exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-sui-wendi -> fig-sui-wendi exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-wang-wei -> fig-wang-wei exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-xiao-yan -> fig-xiao-yan exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-xiao-yan-liang -> fig-xiao-yan-liang exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-yang-guang -> fig-yang-guang exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-yang-su -> fig-yang-su exists_need= True exists_map= False p= cn-nanbei-south
+fig-nanbei-south-zu-chongzhi -> fig-zu-chongzhi exists_need= True exists_map= True p= cn-nanbei-south
+fig-nanbei-south-liang-wudi -> fig-liang-wudi exists_need= True exists_map= True p= cn-nanbei-south
+=== dup targets ===
+fig-liang-wudi ['fig-nanbei-north-liang-wudi', 'fig-nanbei-south-liang-wudi']
+=== event ids === 195
+legal: ['ev-han-bagua', 'ev-han-ban-chao', 'ev-han-ban-gu', 'ev-han-ban-zhao', 'ev-han-buddhism', 'ev-han-cai-lun', 'ev-han-chu-han', 'ev-han-donghan', 'ev-han-fall', 'ev-han-founding', 'ev-han-green-forest', 'ev-han-guangwu', 'ev-han-hua-tuo', 'ev-han-lichun', 'ev-han-lingqu', 'ev-han-lingqu-2', 'ev-han-liu-yu', 'ev-han-party-frison', 'ev-han-red-brow', 'ev-han-salt-iron', 'ev-han-siluroad', 'ev-han-sima-qian', 'ev-han-tui-en', 'ev-han-wangmang', 'ev-han-wangmang-fall', 'ev-han-wangtian', 'ev-han-wenjing', 'ev-han-wudi', 'ev-han-yellow-turban', 'ev-han-yuefu', 'ev-han-zhang-zhongjing', 'ev-han-zhangheng', 'ev-han-zhangqian', 'ev-pre-hemudu', 'ev-pre-hongshan', 'ev-pre-huangdi', 'ev-pre-liangzhu', 'ev-pre-longshan', 'ev-pre-peking-man', 'ev-pre-shandongdong', 'ev-pre-yangshao', 'ev-pre-yu', 'ev-pre-yuanmou', 'ev-qin-burn-books', 'ev-qin-chensheng', 'ev-qin-county-system', 'ev-qin-emperor-system', 'ev-qin-fall', 'ev-qin-great-wall', 'ev-qin-li-si', 'ev-qin-liuxiang', 'ev-qin-standardize', 'ev-qin-unify', 'ev-shang-bronze', 'ev-shang-doushang', 'ev-shang-fall', 'ev-shang-furen', 'ev-shang-jiagu', 'ev-shang-pan-geng', 'ev-shang-pan-geng-move', 'ev-shang-taijia', 'ev-shang-tang-founding', 'ev-shang-wuding', 'ev-shang-yiyin', 'ev-shang-zhengzhou-city', 'ev-suita-fall', 'ev-suita-gaoli', 'ev-suita-grand-canal', 'ev-suita-kaihuang', 'ev-suita-kemu', 'ev-suita-luoyang', 'ev-suita-sui-founding', 'ev-suita-yangdi-death', 'ev-tang-anlushan', 'ev-tang-chang-an', 'ev-tang-chang-an-fall', 'ev-tang-dijianjie', 'ev-tang-fall', 'ev-tang-fang-xuanling', 'ev-tang-founding', 'ev-tang-ganbu', 'ev-tang-huangchao', 'ev-tang-huigu', 'ev-tang-jianzhen', 'ev-tang-jingde', 'ev-tang-kaifeng', 'ev-tang-kaiyuan', 'ev-tang-lanting', 'ev-tang-liu-yan', 'ev-tang-luoyang-fall', 'ev-tang-luoyang-sack', 'ev-tang-nongfu', 'ev-tang-poetry', 'ev-tang-pugu', 'ev-tang-wu-daozi', 'ev-tang-wuzetian', 'ev-tang-xuanwumen', 'ev-tang-xuanzang', 'ev-tang-yan-zhenqing', 'ev-tang-zhenguan', 'ev-tang-zhike', 'ev-tang-zhu-xi', 'ev-tang-zu-chongzhi', 'ev-weijin-chibiao', 'ev-weijin-chu-han', 'ev-weijin-daodejing', 'ev-weijin-dongjin', 'ev-weijin-eight-princes', 'ev-weijin-feishui', 'ev-weijin-fu-jian', 'ev-weijin-guan-dong', 'ev-weijin-guan-dong-2', 'ev-weijin-houjing', 'ev-weijin-huaiyin', 'ev-weijin-jin-unify', 'ev-weijin-juntian', 'ev-weijin-liang-wudi', 'ev-weijin-liaodong', 'ev-weijin-liu-yuan', 'ev-weijin-liuyu', 'ev-weijin-lunyu', 'ev-weijin-luoyang-fall', 'ev-weijin-nanman', 'ev-weijin-nanqian', 'ev-weijin-nanzhong', 'ev-weijin-north-south', 'ev-weijin-northern-wei', 'ev-weijin-red-cliffs', 'ev-weijin-san-chang', 'ev-weijin-san-gu-maolu', 'ev-weijin-shibiao', 'ev-weijin-shu-fall', 'ev-weijin-sima-power', 'ev-weijin-sixteen-kingdoms', 'ev-weijin-sui-unify', 'ev-weijin-taikang', 'ev-weijin-taiping', 'ev-weijin-three-kingdoms', 'ev-weijin-wei-founding', 'ev-weijin-wu-fall', 'ev-weijin-xiaowen-hanization', 'ev-weijin-yiling', 'ev-weijin-yizhou-fall', 'ev-weijin-yongjia', 'ev-weijin-yungong', 'ev-xia-cheng', 'ev-xia-erlitou', 'ev-xia-taikang', 'ev-xia-yu-dynasty', 'ev-xia-zhongxing', 'ev-zhou-baijia', 'ev-zhou-bailixi', 'ev-zhou-baiqiao', 'ev-zhou-bianfa', 'ev-zhou-changpeng', 'ev-zhou-changping', 'ev-zhou-chengwang', 'ev-zhou-chuzhuang', 'ev-zhou-de-xing', 'ev-zhou-east-conquest', 'ev-zhou-fall', 'ev-zhou-fenghuo', 'ev-zhou-fengjian', 'ev-zhou-fengyu', 'ev-zhou-founding', 'ev-zhou-guanzhong-reform', 'ev-zhou-guiling', 'ev-zhou-guoren', 'ev-zhou-hezhong', 'ev-zhou-hezong', 'ev-zhou-jiantu', 'ev-zhou-kao', 'ev-zhou-keduan', 'ev-zhou-kuiqiu', 'ev-zhou-liqin', 'ev-zhou-liujiu', 'ev-zhou-liwang', 'ev-zhou-maling', 'ev-zhou-mencius', 'ev-zhou-pingwang', 'ev-zhou-qihuang', 'ev-zhou-qin-shang-yang', 'ev-zhou-qinmu', 'ev-zhou-sun-tzu', 'ev-zhou-warring-states', 'ev-zhou-xiashan', 'ev-zhou-xuanwang', 'ev-zhou-xuanwang-zhongxing', 'ev-zhou-xugua', 'ev-zhou-xunzi', 'ev-zhou-yan-ying', 'ev-zhou-zhang-liang', 'ev-zhou-zhougong', 'ev-zhou-zichan', 'ev-zhou-zouji']

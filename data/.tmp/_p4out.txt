@@ -1,0 +1,104 @@
+﻿<class 'list'> 69
+{
+ "id": "fig-qin-zi-ying",
+ "n": "子婴",
+ "al": "秦二世",
+ "p": "cn-qin",
+ "by": -245,
+ "dy": -206,
+ "lt": "约公元前245年－公元前206年",
+ "ro": "秦二世",
+ "g": "male",
+ "s": "秦二世胡亥继位后，秦朝在赵高、李斯把持下迅速走向崩溃。",
+ "bio": "子婴是秦二世胡亥之子，为嬴政之孙。前210年秦始皇巡游途中病逝，赵高与李斯矫诏赐死扶苏与蒙恬，拥立胡亥即位，是为秦二世。赵高掌权后，进一步清除蒙氏集团，又以李斯为相，与李斯合谋赐死扶苏。子婴即位后，赵高与李斯矫诏立子婴为王，五年后子婴在咸阳斋宫被杀，秦朝灭亡。子婴是秦朝最后一位君主，在位仅四十余日。",
+ "ac": [
+  "继位为秦二世",
+  "在咸阳斋宫被赵高杀害",
+  "标志秦朝灭亡"
+ ],
+ "q": [
+  "吾奉令立王，王不宜有国。"
+ ],
+ "re": [
+  "ev-qin-er-shi",
+  "ev-qin-chen-shihuang"
+ ],
+ "rf": [
+  "fig-qin-shi-huang",
+  "fig-zhao-gao"
+ ],
+ "t": [
+  "秦",
+  "二世"
+ ]
+}
+IDS:
+fig-qin-zi-ying | 子婴 | cn-qin
+fig-wang-jian | 王翦 | cn-qin
+fig-meng-tian | 蒙恬 | cn-qin
+fig-zhang-han | 张韩 | cn-qin
+fig-han-west-chen-ping | 陈平 | cn-han-west
+fig-han-west-dong-zhongshu | 董仲舒 | cn-han-west
+fig-han-west-shu-sun-tong | 叔孙通 | cn-han-west
+fig-han-west-shu-lu | 黥布 | cn-han-west
+fig-han-west-chang-hui | 常惠 | cn-han-west
+fig-han-west-zhao-tuo | 赵佗 | cn-han-west
+fig-han-west-zhu-fu-jian | 朱买臣 | cn-han-west
+fig-han-west-mou-dang | 牟长 | cn-han-west
+fig-han-west-sang-hongyang | 桑弘羊 | cn-han-west
+fig-han-west-kong-ju-dasha | 孔甲 | cn-han-west
+fig-han-west-lu-ji-ying | 陆贾 | cn-han-west
+fig-han-west-wei-qing | 尉迟敬德 | cn-han-west
+fig-han-east-cao-cao | 曹操 | cn-han-east
+fig-han-east-cao-pi | 曹丕 | cn-han-east
+fig-han-east-cao-rui | 曹叡 | cn-han-east
+fig-han-east-sima-yi | 司马懿 | cn-han-east
+fig-han-east-deng-rong | 邓荣 | cn-han-east
+fig-han-east-fan-pang | 樊哙 | cn-han-east
+fig-han-east-han-xiandi | 刘协 | cn-han-east
+fig-han-east-huangfu-song | 皇甫嵩 | cn-han-east
+fig-han-east-li-ying | 李膺 | cn-han-east
+fig-han-east-liu-liao | 刘辽 | cn-han-east
+fig-han-east-ma-yuan | 马援 | cn-han-east
+fig-han-east-mingdi | 刘庄 | cn-han-east
+fig-han-east-zhang-jiao | 张角 | cn-han-east
+fig-jin-west-cao-huang | 曹奂 | cn-jin-west
+fig-jin-west-han-emperor-mingdi | 曹髦 | cn-jin-west
+fig-jin-west-liu-mao | 刘髦 | cn-jin-west
+fig-jin-west-liu-yao | 刘瑶 | cn-jin-west
+fig-jin-west-shi-le | 石勒 | cn-jin-west
+fig-jin-west-sima-de | 司马德 | cn-jin-west
+fig-jin-west-sima-jiong | 司马炽 | cn-jin-west
+fig-jin-west-sima-lun | 司马伦 | cn-jin-west
+fig-jin-west-sima-ying | 司马颖 | cn-jin-west
+fig-jin-west-sima-yue | 司马越 | cn-jin-west
+fig-jin-west-wang-yan | 王衍 | cn-jin-west
+fig-jin-west-zhang-jia | 张嘉 | cn-jin-west
+fig-jin-west-liang-jin | 梁冀 | cn-jin-west
+fig-liang-jin-liuyuan | 刘渊 | cn-liang-jin
+fig-nanbei-north-tuoba-gui | 拓跋珪 | cn-nanbei-north
+fig-nanbei-north-tuoba-tao | 拓跋什翼犍 | cn-nanbei-north
+fig-nanbei-north-yuwen-tai | 宇文泰 | cn-nanbei-north
+fig-nanbei-north-liang-wudi | 萧衍 | cn-nanbei-north
+fig-nanbei-north-feng-taihou | 冯太后 | cn-nanbei-north
+fig-nanbei-north-gao-huan | 高欢 | cn-nanbei-north
+fig-nanbei-north-yang-jian | 杨坚 | cn-nanbei-north
+fig-nanbei-north-bao-ling | 鲍令晖 | cn-nanbei-north
+fig-nanbei-north-mu-rong | 慕容暐 | cn-nanbei-north
+fig-nanbei-north-li-yun | 李暠 | cn-nanbei-north
+fig-nanbei-north-zhou-wu | 周昉 | cn-nanbei-north
+fig-nanbei-north-fig-尔朱荣 | 尔朱荣 | cn-nanbei-north
+fig-nanbei-south-hou-jing | 侯景 | cn-nanbei-south
+fig-nanbei-south-chen-wubao | 陈霸先 | cn-nanbei-south
+fig-nanbei-south-fan-yun | 范云 | cn-nanbei-south
+fig-nanbei-south-fang-xuanling | 方玄龄 | cn-nanbei-south
+fig-nanbei-south-liu-xie | 刘勰 | cn-nanbei-south
+fig-nanbei-south-shen-yue | 沈约 | cn-nanbei-south
+fig-nanbei-south-sui-wendi | 萧衍 | cn-nanbei-south
+fig-nanbei-south-wang-wei | 王伟 | cn-nanbei-south
+fig-nanbei-south-xiao-yan | 萧衍 | cn-nanbei-south
+fig-nanbei-south-xiao-yan-liang | 萧衍 | cn-nanbei-south
+fig-nanbei-south-yang-guang | 杨广 | cn-nanbei-south
+fig-nanbei-south-yang-su | 杨素 | cn-nanbei-south
+fig-nanbei-south-zu-chongzhi | 祖冲之 | cn-nanbei-south
+fig-nanbei-south-liang-wudi | 萧衍 | cn-nanbei-south

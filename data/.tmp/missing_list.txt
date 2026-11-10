@@ -1,0 +1,353 @@
+﻿total referenced: 423
+already written: 74
+MISSING: 349
+
+fig-an-lushan                      x5   P:cn-tang-mid ev-tang-anlushan ev-tang-ganbu ev-tang-luoyang-fall
+fig-bai-juyi                       x2   ev-han-liu-yu ev-tang-poetry
+fig-ban-chao                       x5   P:cn-han-east ev-han-ban-chao ev-han-ban-gu ev-han-siluroad
+fig-ban-gu                         x7   P:cn-han-east ev-han-ban-chao ev-han-ban-gu ev-han-ban-zhao ev-han-buddhism ev-han-siluroad
+fig-ban-yong                       x1   ev-han-siluroad
+fig-ban-zhao                       x4   P:cn-han-east ev-han-ban-gu ev-han-ban-zhao
+fig-bao-ling                       x1   ev-weijin-yungong
+fig-cai-lun                        x5   P:cn-han P:cn-han-east ev-han-cai-lun
+fig-cai-yong                       x1   ev-tang-wuzetian
+fig-cao-cao                        x9   P:cn-three-kingdoms P:cn-wei-jin-nanbei ev-han-fall ev-han-hua-tuo ev-weijin-guan-dong ev-weijin-guan-dong-2 e
+fig-cao-huang                      x3   P:cn-three-wei ev-weijin-jin-unify
+fig-cao-pi                         x7   P:cn-three-kingdoms P:cn-three-wei ev-han-fall ev-weijin-three-kingdoms ev-weijin-wei-founding
+fig-cao-rui                        x3   P:cn-three-wei ev-weijin-wei-founding
+fig-cao-shuang                     x1   ev-weijin-sima-power
+fig-cao-zhi                        x2   P:cn-three-wei
+fig-chang-hui                      x1   ev-han-zhangqian
+fig-chang-sun-wu                   x1   ev-tang-xuanwumen
+fig-chao-rong                      x4   P:cn-wudai P:cn-wudai-north
+fig-chen-duxiu                     x4   P:cn-modern P:cn-modern-republic
+fig-chen-fan                       x1   ev-han-party-frison
+fig-chen-hongshou                  x2   P:cn-qing-mid
+fig-chen-ping                      x2   ev-han-bagua ev-han-wenjing
+fig-chen-qun                       x1   ev-weijin-wei-founding
+fig-chen-sheng                     x1   ev-qin-chensheng
+fig-chen-wubao                     x4   P:cn-nanbei-south ev-weijin-houjing ev-weijin-sui-unify
+fig-chen-yi                        x8   P:cn-modern-liberation P:cn-prc P:cn-prc-early P:cn-prc-reform
+fig-cheng-hao                      x1   ev-tang-zhu-xi
+fig-chongzhen                      x2   P:cn-ming-late
+fig-deng-ai                        x1   ev-weijin-shu-fall
+fig-deng-rong                      x1   ev-han-lingqu-2
+fig-deng-xiaoping                  x8   P:cn-modern-liberation P:cn-prc P:cn-prc-early P:cn-prc-reform
+fig-dijianjie                      x2   ev-tang-dijianjie ev-tang-wuzetian
+fig-dong-bi-wu                     x2   P:cn-modern-republic
+fig-dong-yao                       x2   P:cn-sui
+fig-dong-zhongshu                  x1   ev-han-wudi
+fig-dou-ing                        x3   P:cn-han-west ev-han-wenjing
+fig-du-fu                          x8   P:cn-sui-tang P:cn-tang P:cn-tang-mid ev-tang-liu-yan ev-tang-poetry
+fig-du-ru-hui                      x2   ev-tang-kaifeng ev-tang-zhenguan
+fig-du-shi                         x1   ev-han-guangwu
+fig-du-yu                          x1   ev-weijin-wu-fall
+fig-duo-er-dung                    x2   P:cn-qing-early
+fig-fan-chong                      x1   ev-han-red-brow
+fig-fan-pang                       x1   ev-han-party-frison
+fig-fan-yun                        x1   ev-weijin-liang-wudi
+fig-fang-xiu-ling                  x2   ev-tang-kaifeng ev-tang-zhenguan
+fig-fang-xuanling                  x3   P:cn-nanbei ev-tang-fang-xuanling
+fig-faxian                         x2   P:cn-jin-east
+fig-feng-jian                      x1   ev-weijin-feishui
+fig-feng-taihou                    x1   ev-weijin-xiaowen-hanization
+fig-feng-yi                        x2   ev-han-donghan ev-han-guangwu
+fig-fu-jian                        x5   P:cn-sixteen-kingdoms ev-weijin-feishui ev-weijin-fu-jian ev-weijin-sixteen-kingdoms
+fig-gan-ying                       x1   ev-han-ban-chao
+fig-gao-huan                       x1   ev-weijin-yungong
+fig-ge-shu-han                     x1   ev-tang-chang-an-fall
+fig-gongsun-yuan                   x1   ev-weijin-liaodong
+fig-gu-rong                        x1   ev-weijin-dongjin
+fig-guan-yu                        x6   P:cn-three-kingdoms P:cn-three-shu ev-weijin-chu-han ev-weijin-san-gu-maolu
+fig-guo-wei                        x2   P:cn-wudai-north
+fig-guo-ziyi                       x5   P:cn-tang-mid ev-tang-anlushan ev-tang-ganbu ev-tang-pugu
+fig-hai-ru                         x2   P:cn-ming-mid
+fig-hailing                        x4   P:cn-jin P:cn-yuan-late
+fig-han-emperor-mingdi             x1   ev-weijin-luoyang-fall
+fig-han-gao-zu                     x1   ev-han-founding
+fig-han-heidi                      x1   ev-han-cai-lun
+fig-han-wudi                       x10  P:cn-han P:cn-han-west ev-han-lichun ev-han-salt-iron ev-han-tui-en ev-han-wudi ev-han-yuefu ev-han-zhangqian
+fig-han-xiandi                     x1   ev-han-fall
+fig-han-xin-ping                   x2   ev-han-chu-han ev-han-founding
+fig-han-zheng                      x2   P:cn-prc-new-era
+fig-haodun                         x2   P:cn-ming-mid
+fig-helian-bobobo                  x2   P:cn-sixteen-kingdoms
+fig-hong-liangji                   x2   P:cn-qing-mid
+fig-hou-jing                       x5   P:cn-nanbei P:cn-nanbei-south ev-weijin-houjing
+fig-hu-jintao                      x4   P:cn-prc P:cn-prc-reform
+fig-hu-shi                         x2   P:cn-modern
+fig-hua-tuo                        x2   ev-han-hua-tuo ev-han-zhang-zhongjing
+fig-huan-wen                       x1   ev-weijin-taiping
+fig-huang-chao                     x4   P:cn-tang-late ev-tang-huangchao ev-tang-luoyang-sack
+fig-huang-jie                      x2   P:cn-qin
+fig-huang-taiji                    x4   P:cn-qing P:cn-qing-early
+fig-huangfu-song                   x1   ev-han-yellow-turban
+fig-huiyuan                        x2   P:cn-jin-east
+fig-ji-yun                         x2   P:cn-qing-mid
+fig-jiang-wei                      x5   P:cn-three-shu ev-weijin-chibiao ev-weijin-shu-fall ev-weijin-yizhou-fall
+fig-jianzhen                       x1   ev-tang-jianzhen
+fig-jiaqing                        x4   P:cn-qing P:cn-qing-mid
+fig-jie-xian                       x1   ev-tang-xuanzang
+fig-kang-senghui                   x2   P:cn-three-wu
+fig-kang-youwei                    x2   P:cn-qing-late
+fig-kangxi                         x4   P:cn-qing P:cn-qing-early
+fig-kong-ju-dasha                  x1   ev-han-salt-iron
+fig-kublai                         x6   P:cn-yuan P:cn-yuan-early P:cn-yuan-late
+fig-lao-shigao                     x1   ev-suita-gaoli
+fig-li-bai                         x3   P:cn-tang ev-tang-poetry
+fig-li-bian                        x3   P:cn-wudai-south ev-tang-huigu
+fig-li-cheng                       x2   ev-suita-fall ev-tang-xuanwumen
+fig-li-dazhao                      x4   P:cn-modern P:cn-modern-republic
+fig-li-de                          x2   ev-tang-jingde ev-tang-nongfu
+fig-li-gong                        x2   P:cn-prc-new-era
+fig-li-guang                       x3   P:cn-yuan ev-han-zhangqian
+fig-li-guangbi                     x4   P:cn-tang-mid ev-tang-anlushan ev-tang-pugu
+fig-li-gui                         x2   P:cn-yuan-early
+fig-li-heng                        x2   ev-tang-chang-an-fall ev-tang-luoyang-fall
+fig-li-hongzhang                   x2   P:cn-qing-late
+fig-li-huaiguang                   x1   ev-tang-jingde
+fig-li-jiancheng                   x2   P:cn-wudai-south
+fig-li-keqiang                     x2   P:cn-prc-new-era
+fig-li-keyong                      x8   P:cn-tang-late P:cn-wudai P:cn-wudai-north ev-tang-huangchao ev-tang-luoyang-sack
+fig-li-longji                      x3   P:cn-tang-early ev-tang-kaiyuan
+fig-li-mi                          x1   ev-suita-yangdi-death
+fig-li-shangyin                    x1   ev-tang-poetry
+fig-li-shimin                      x13  P:cn-sui-tang P:cn-tang P:cn-tang-early ev-tang-chang-an ev-tang-founding ev-tang-kaifeng ev-tang-xuanwumen ev
+fig-li-shizhen                     x2   P:cn-ming
+fig-li-si                          x8   P:cn-qin ev-qin-burn-books ev-qin-county-system ev-qin-emperor-system ev-qin-great-wall ev-qin-li-si ev-qin-st
+fig-li-yan-hao                     x2   P:cn-wudai
+fig-li-ying                        x1   ev-han-party-frison
+fig-li-yu                          x5   P:cn-wudai P:cn-wudai-south ev-tang-huigu
+fig-li-yuan                        x7   P:cn-tang P:cn-tang-early ev-suita-fall ev-tang-founding ev-tang-xuanwumen
+fig-li-yun                         x3   ev-weijin-juntian ev-weijin-san-chang ev-weijin-xiaowen-hanization
+fig-li-zicheng                     x2   P:cn-ming-late
+fig-li-zongren                     x2   P:cn-modern-anti-japan
+fig-lian-po                        x1   ev-zhou-changping
+fig-liang-qichao                   x2   P:cn-modern-republic
+fig-liang-wudi                     x9   P:cn-nanbei P:cn-nanbei-north P:cn-nanbei-south ev-weijin-houjing ev-weijin-liang-wudi ev-weijin-north-south
+fig-lin-biao                       x2   P:cn-prc-early
+fig-lin-zexu                       x2   P:cn-qing-late
+fig-liu-bang                       x8   P:cn-han P:cn-han-west ev-han-bagua ev-han-chu-han ev-han-founding ev-qin-fall
+fig-liu-bei                        x11  P:cn-three-kingdoms P:cn-three-shu P:cn-wei-jin-nanbei ev-weijin-chu-han ev-weijin-red-cliffs ev-weijin-san-gu
+fig-liu-bocheng                    x2   P:cn-modern-liberation
+fig-liu-gong                       x1   ev-han-wangmang
+fig-liu-kun                        x1   ev-weijin-liu-yuan
+fig-liu-liao                       x1   ev-han-party-frison
+fig-liu-mao                        x3   ev-suita-fall ev-weijin-eight-princes ev-weijin-yongjia
+fig-liu-qi                         x1   ev-han-wenjing
+fig-liu-shan                       x3   ev-weijin-chibiao ev-weijin-shu-fall ev-weijin-yizhou-fall
+fig-liu-shaoqi                     x6   P:cn-modern-liberation P:cn-prc-early P:cn-prc-reform
+fig-liu-xiao                       x4   P:cn-sui ev-suita-kemu ev-suita-sui-founding
+fig-liu-xie                        x1   ev-tang-fang-xuanling
+fig-liu-xiu                        x6   P:cn-han-east ev-han-donghan ev-han-guangwu ev-han-lingqu-2 ev-han-red-brow
+fig-liu-xuan                       x5   P:cn-wangmang ev-han-green-forest ev-han-wangmang ev-han-wangmang-fall
+fig-liu-yan                        x1   ev-tang-liu-yan
+fig-liu-yao                        x2   ev-weijin-luoyang-fall ev-weijin-yongjia
+fig-liu-ying                       x7   P:cn-han-west ev-han-bagua ev-han-donghan ev-han-tui-en ev-han-wenjing ev-han-yellow-turban
+fig-liu-yu                         x4   P:cn-nanbei-south ev-han-liu-yu ev-weijin-north-south
+fig-liu-yuan                       x4   P:cn-sixteen-kingdoms ev-weijin-liu-yuan ev-weijin-sixteen-kingdoms
+fig-liu-zhiyuan                    x2   P:cn-wudai-north
+fig-liu-zongyuan                   x1   ev-tang-jingde
+fig-liuyuan                        x4   P:cn-jin-west P:cn-liang-jin
+fig-liwang-yan                     x2   P:cn-wudai
+fig-lu-ji-ying                     x1   ev-han-chu-han
+fig-lu-xun                         x3   P:cn-modern ev-weijin-yiling
+fig-lu-you                         x2   P:cn-song-south
+fig-luo-hongxin                    x2   P:cn-tang-late
+fig-lv-meng                        x3   P:cn-three-wu ev-weijin-yiling
+fig-ma-su                          x1   ev-weijin-chibiao
+fig-ma-xu                          x1   ev-han-ban-zhao
+fig-ma-yuan                        x1   ev-han-lingqu-2
+fig-mao-zedong                     x10  P:cn-modern P:cn-modern-anti-japan P:cn-modern-liberation P:cn-prc P:cn-prc-early
+fig-meng-huo                       x2   ev-weijin-nanman ev-weijin-nanzhong
+fig-meng-tian                      x1   ev-qin-great-wall
+fig-mingdi                         x1   ev-han-buddhism
+fig-mou-dang                       x1   ev-han-bagua
+fig-mu-rong                        x3   P:cn-sixteen-kingdoms ev-weijin-northern-wei
+fig-muqtai                         x2   P:cn-yuan-early
+fig-nurhaci                        x4   P:cn-qing P:cn-qing-early
+fig-ogodei                         x2   P:cn-yuan-early
+fig-pei-ju                         x2   P:cn-sui
+fig-peng-dehuai                    x2   P:cn-modern-anti-japan
+fig-pu-gu-huai-en                  x1   ev-tang-pugu
+fig-qian-hongchu                   x2   P:cn-wudai-south
+fig-qianlong                       x4   P:cn-qing P:cn-qing-mid
+fig-qin-hui                        x2   P:cn-song-south
+fig-qin-shao-gong                  x1   ev-zhou-zhang-liang
+fig-qin-shi-huang                  x13  P:cn-qin ev-han-lingqu ev-qin-burn-books ev-qin-county-system ev-qin-emperor-system ev-qin-fall ev-qin-great-w
+fig-sang-hongyang                  x1   ev-han-salt-iron
+fig-shang-rang                     x1   ev-tang-luoyang-sack
+fig-shen-yue                       x2   ev-tang-fang-xuanling ev-weijin-liang-wudi
+fig-shi-jingzhang                  x4   P:cn-song-liao-jin P:cn-song-north
+fig-shi-le                         x1   ev-weijin-yongjia
+fig-shi-siming                     x3   P:cn-tang-mid ev-tang-anlushan
+fig-shi-tiesheng                   x2   P:cn-yuan-late
+fig-shile                          x3   P:cn-sixteen-kingdoms ev-weijin-sixteen-kingdoms
+fig-shu-lu                         x1   ev-han-lingqu
+fig-shu-sun-tong                   x1   ev-han-lichun
+fig-sima-de                        x2   P:cn-jin-west
+fig-sima-jiong                     x1   ev-weijin-eight-princes
+fig-sima-lun                       x4   P:cn-jin-west ev-weijin-eight-princes ev-weijin-liu-yuan
+fig-sima-qian                      x7   P:cn-han P:cn-han-west ev-han-lichun ev-han-sima-qian ev-han-yuefu
+fig-sima-rui                       x4   P:cn-jin-east ev-weijin-dongjin ev-weijin-nanqian
+fig-sima-shi                       x1   ev-weijin-sima-power
+fig-sima-xiangru                   x1   ev-han-yuefu
+fig-sima-yan                       x6   P:cn-liang-jin P:cn-three-kingdoms P:cn-wei-jin-nanbei
+fig-sima-yan-jin                   x7   P:cn-jin-west P:cn-liang-jin ev-weijin-jin-unify ev-weijin-taikang ev-weijin-wu-fall
+fig-sima-yi                        x6   P:cn-three-wei ev-han-fall ev-weijin-liaodong ev-weijin-shibiao ev-weijin-sima-power
+fig-sima-ying                      x1   ev-weijin-eight-princes
+fig-sima-yue                       x1   ev-weijin-eight-princes
+fig-song-jing                      x1   ev-tang-kaiyuan
+fig-stone-jingmao                  x2   P:cn-wudai-north
+fig-sui-wendi                      x9   P:cn-sui P:cn-sui-tang ev-suita-grand-canal ev-suita-kaihuang ev-suita-kemu ev-suita-sui-founding ev-weijin-su
+fig-sun-hao                        x1   ev-weijin-wu-fall
+fig-sun-yat-sen                    x4   P:cn-modern P:cn-modern-republic
+fig-sunhao                         x2   P:cn-three-wu
+fig-sunquan                        x6   P:cn-three-wu P:cn-wei-jin-nanbei ev-weijin-red-cliffs ev-weijin-three-kingdoms
+fig-suo-shi                        x4   P:cn-song-liao-jin P:cn-song-north
+fig-taishao                        x2   P:cn-wei-jin-nanbei
+fig-taishi-ci                      x2   P:cn-three-wu
+fig-tang-ai-di                     x1   ev-tang-fall
+fig-tao-yuanming                   x5   P:cn-jin-east P:cn-liang-jin ev-weijin-liuyu
+fig-temujin                        x4   P:cn-yuan P:cn-yuan-early
+fig-tian-xiang                     x1   ev-tang-ganbu
+fig-tianqi                         x2   P:cn-ming-late
+fig-tu-tuo                         x2   P:cn-yuan-late
+fig-tuoba-gui                      x4   P:cn-nanbei-north ev-weijin-north-south ev-weijin-northern-wei
+fig-tuoba-tao                      x5   P:cn-nanbei P:cn-nanbei-north ev-weijin-northern-wei
+fig-wang-anshi                     x4   P:cn-song-liao-jin P:cn-song-north
+fig-wang-changling                 x1   ev-tang-poetry
+fig-wang-dao                       x4   P:cn-jin-east ev-weijin-dongjin ev-weijin-nanqian
+fig-wang-dun                       x1   ev-weijin-dongjin
+fig-wang-feng                      x1   ev-han-green-forest
+fig-wang-jian                      x2   ev-qin-unify ev-zhou-fall
+fig-wang-jun                       x1   ev-weijin-wu-fall
+fig-wang-mang                      x9   P:cn-han P:cn-wangmang ev-han-green-forest ev-han-red-brow ev-han-wangmang ev-han-wangmang-fall ev-han-wangtia
+fig-wang-meng                      x4   P:cn-sixteen-kingdoms ev-weijin-fu-jian ev-weijin-sixteen-kingdoms
+fig-wang-wei                       x2   ev-tang-poetry ev-weijin-houjing
+fig-wang-xianzhi                   x3   P:cn-tang-late ev-tang-huangchao
+fig-wang-xiu                       x3   P:cn-wangmang ev-han-wangtian
+fig-wang-xizhi                     x3   P:cn-liang-jin ev-tang-lanting
+fig-wang-yan                       x1   ev-weijin-yongjia
+fig-wang-yanzheng                  x2   P:cn-wudai-south
+fig-wang-yi                        x2   P:cn-prc-new-era
+fig-wang-zhen                      x6   P:cn-ming P:cn-yuan P:cn-yuan-late
+fig-wanyan-aguda                   x2   P:cn-jin
+fig-wanyan-liang                   x2   P:cn-jin
+fig-wanyan-yungong                 x2   P:cn-jin
+fig-wei-gong                       x1   ev-tang-xuanwumen
+fig-wei-qing                       x1   ev-han-wudi
+fig-wei-shu                        x1   ev-tang-kaiyuan
+fig-wei-xiu                        x2   P:cn-ming-mid
+fig-wei-yuanbai                    x2   P:cn-qing-mid
+fig-wei-zheng                      x3   P:cn-tang-early ev-tang-zhenguan
+fig-wen-jiabao                     x2   P:cn-prc-reform
+fig-wen-zong                       x2   P:cn-tang-late
+fig-wu-daozi                       x2   ev-tang-wu-daozi ev-tang-yan-zhenqing
+fig-wu-guang                       x1   ev-qin-chensheng
+fig-wu-jing                        x1   ev-tang-zhike
+fig-wu-sangui                      x4   P:cn-ming-late P:cn-qing-early
+fig-wu-yue                         x2   P:cn-wudai-south
+fig-wu-zetian                      x9   P:cn-sui-tang P:cn-tang P:cn-tang-early ev-tang-chang-an ev-tang-dijianjie ev-tang-wuzetian
+fig-xi-jinping                     x4   P:cn-prc P:cn-prc-new-era
+fig-xi-quan                        x1   ev-zhou-liujiu
+fig-xiang-lun                      x1   ev-weijin-taiping
+fig-xiang-yu                       x3   ev-han-chu-han ev-han-founding ev-qin-fall
+fig-xiao-wan-gui                   x2   P:cn-liao
+fig-xiao-yan                       x2   P:cn-nanbei-south
+fig-xiao-yan-liang                 x2   P:cn-nanbei-south
+fig-xiaowen                        x8   P:cn-nanbei P:cn-nanbei-north ev-weijin-juntian ev-weijin-north-south ev-weijin-san-chang ev-weijin-xiaowen-ha
+fig-xie-an                         x6   P:cn-jin-east P:cn-liang-jin P:cn-wei-jin-nanbei
+fig-xie-lan                        x1   ev-weijin-feishui
+fig-xie-xuan                       x1   ev-weijin-feishui
+fig-xin-qiji                       x2   P:cn-song-south
+fig-xu-guangqi                     x2   P:cn-ming-late
+fig-xu-xiake                       x4   P:cn-ming P:cn-ming-mid
+fig-xuande                         x2   P:cn-ming-early
+fig-xuanzang                       x7   P:cn-sui-tang P:cn-tang P:cn-tang-early ev-tang-xuanzang
+fig-xuanzong                       x3   ev-tang-anlushan ev-tang-chang-an-fall ev-tang-luoyang-fall
+fig-xun-yu                         x1   ev-weijin-guan-dong-2
+fig-yan-dayou                      x2   P:cn-ming-mid
+fig-yan-fulong                     x2   P:cn-prc-new-era
+fig-yan-zhenqing                   x4   P:cn-tang-mid ev-tang-wu-daozi ev-tang-yan-zhenqing
+fig-yang-guang                     x10  P:cn-sui P:cn-sui-tang ev-suita-gaoli ev-suita-grand-canal ev-suita-kemu ev-suita-luoyang ev-suita-yangdi-deat
+fig-yang-guifei                    x1   ev-tang-luoyang-fall
+fig-yang-guozhong                  x3   ev-tang-anlushan ev-tang-chang-an-fall ev-tang-luoyang-fall
+fig-yang-jian                      x2   P:cn-nanbei-north
+fig-yang-jian-sui                  x3   P:cn-sui ev-suita-sui-founding
+fig-yang-su                        x1   ev-weijin-sui-unify
+fig-yang-yan                       x1   ev-tang-nongfu
+fig-yao-chong                      x2   ev-tang-chang-an ev-tang-kaiyuan
+fig-yao-gun                        x2   P:cn-liao
+fig-yelv-abaji                     x2   P:cn-liao
+fig-yelv-liangzhu                  x2   P:cn-liao
+fig-yongzheng                      x4   P:cn-qing P:cn-qing-early
+fig-yu-chao-en                     x1   ev-tang-pugu
+fig-yu-jin                         x1   ev-weijin-guan-dong-2
+fig-yu-qian                        x2   P:cn-ming-early
+fig-yuan-sha                       x1   ev-weijin-guan-dong-2
+fig-yuan-shikai                    x2   P:cn-modern-republic
+fig-yuan-zhen                      x2   ev-han-liu-yu ev-tang-jianzhen
+fig-yuanyou                        x2   P:cn-jin
+fig-yue-fei                        x4   P:cn-song-south P:cn-yuan
+fig-yuwen-hua-ji                   x1   ev-suita-yangdi-death
+fig-yuwen-kai                      x1   ev-suita-luoyang
+fig-yuwen-shu                      x1   ev-suita-gaoli
+fig-yuwen-tai                      x1   ev-weijin-yungong
+fig-zao-yi                         x1   ev-weijin-guan-dong
+fig-zeng-guofan                    x2   P:cn-qing-late
+fig-zhang-fei                      x5   P:cn-three-shu ev-weijin-chu-han ev-weijin-san-gu-maolu ev-weijin-yiling
+fig-zhang-han                      x1   ev-qin-chensheng
+fig-zhang-heng                     x4   P:cn-han-east ev-han-buddhism ev-han-zhangheng
+fig-zhang-jia                      x2   P:cn-jin-west
+fig-zhang-jiao                     x1   ev-han-yellow-turban
+fig-zhang-juzheng                  x2   P:cn-ming-mid
+fig-zhang-qian                     x6   P:cn-han P:cn-han-west ev-han-siluroad ev-han-zhangqian
+fig-zhang-xianzhong                x2   P:cn-ming-late
+fig-zhang-xueliang                 x2   P:cn-modern-anti-japan
+fig-zhang-yue                      x1   ev-weijin-nanman
+fig-zhang-zhidong                  x2   P:cn-qing-late
+fig-zhang-zhongjing                x1   ev-han-zhang-zhongjing
+fig-zhang-zhongyu                  x2   P:cn-yuan
+fig-zhang-zhuo                     x1   ev-tang-huangchao
+fig-zhao-gao                       x6   P:cn-qin ev-qin-county-system ev-qin-emperor-system ev-qin-liuxiang ev-qin-standardize
+fig-zhao-gou                       x2   P:cn-song-south
+fig-zhao-guangyi                   x4   P:cn-song-liao-jin P:cn-song-north
+fig-zhao-heng                      x4   P:cn-song-liao-jin P:cn-song-north
+fig-zhao-king                      x1   ev-zhou-changping
+fig-zhao-kuangyin                  x4   P:cn-song-liao-jin P:cn-song-north
+fig-zhao-kuo                       x1   ev-zhou-changping
+fig-zhao-sulfou-gong               x1   ev-zhou-hezong
+fig-zhao-tuo                       x1   ev-han-lingqu
+fig-zhao-yan                       x3   P:cn-jin ev-weijin-guan-dong
+fig-zhao-yun                       x2   P:cn-three-shu
+fig-zheng-he                       x2   P:cn-ming
+fig-zhengde                        x2   P:cn-ming-early
+fig-zhong-hui                      x1   ev-weijin-yizhou-fall
+fig-zhou-chang                     x2   P:cn-yuan-early
+fig-zhou-dunyi                     x1   ev-tang-zhu-xi
+fig-zhou-enlai                     x8   P:cn-modern-anti-japan P:cn-modern-liberation P:cn-prc P:cn-prc-early
+fig-zhou-wu                        x2   P:cn-nanbei-north
+fig-zhou-yu                        x3   P:cn-three-wu ev-weijin-red-cliffs
+fig-zhoujingwang                   x1   ev-zhou-pingwang
+fig-zhu-ci                         x1   ev-tang-jingde
+fig-zhu-di                         x4   P:cn-ming P:cn-ming-early
+fig-zhu-fu-jian                    x2   ev-han-tui-en ev-han-wudi
+fig-zhu-gao                        x2   P:cn-ming-early
+fig-zhu-rongji                     x2   P:cn-prc-reform
+fig-zhu-wen                        x7   P:cn-tang-late P:cn-wudai P:cn-wudai-north ev-tang-fall
+fig-zhu-wu-zhong                   x1   ev-tang-ganbu
+fig-zhu-xi                         x3   P:cn-song-south ev-tang-zhu-xi
+fig-zhu-xu                         x1   ev-weijin-feishui
+fig-zhu-yougui                     x1   ev-tang-fall
+fig-zhu-yuanzhang                  x6   P:cn-ming P:cn-ming-early P:cn-yuan-late
+fig-zhuge-liang                    x11  P:cn-three-kingdoms P:cn-three-shu ev-weijin-chibiao ev-weijin-chu-han ev-weijin-nanman ev-weijin-nanzhong ev-
+fig-zhuge-shang                    x1   ev-weijin-yizhou-fall
+fig-zhuge-zhan                     x1   ev-weijin-shu-fall
+fig-zi-gong                        x1   ev-weijin-lunyu
+fig-zi-shang                       x1   ev-weijin-lunyu
+fig-zi-ying                        x1   ev-qin-fall
+fig-zu-chongzhi                    x3   P:cn-nanbei ev-tang-zu-chongzhi
+fig-zu-ti                          x1   ev-weijin-huaiyin
+fig-zuo-zongtang                   x4   P:cn-modern-anti-japan P:cn-qing-late
+fig-尔朱荣                            x1   ev-weijin-yungong

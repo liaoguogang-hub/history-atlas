@@ -1,0 +1,82 @@
+﻿=== china.json ===
+  periods=62  events=195  figures=385
+  [WARN] event 'ev-pre-shandongdong' yearEnd -10000 ����ʱ�� 'cn-pre-paleolithic' ������
+  [WARN] event 'ev-pre-longshan' yearEnd -1900 ����ʱ�� 'cn-pre-neolithic' ������
+  [WARN] event 'ev-xia-erlitou' yearEnd -1530 ����ʱ�� 'cn-xia' ������
+  [WARN] event 'ev-zhou-de-xing' ��� -1086 ����ʱ�� 'cn-zhou-west' ����[-1046,-771]��
+  [WARN] event 'ev-zhou-bianfa' yearEnd -221 ����ʱ�� 'cn-warring-states' ������
+  [WARN] event 'ev-zhou-baijia' ��� -550 ����ʱ�� 'cn-warring-states' ����[-475,-222]��
+  [WARN] event 'ev-zhou-baijia' yearEnd -221 ����ʱ�� 'cn-warring-states' ������
+  [WARN] event 'ev-zhou-baiqiao' yearEnd -221 ����ʱ�� 'cn-warring-states' ������
+  [WARN] event 'ev-zhou-sun-tzu' ��� -544 ����ʱ�� 'cn-warring-states' ����[-475,-222]��
+  [WARN] event 'ev-zhou-sun-tzu' yearEnd -496 ����ʱ�� 'cn-warring-states' ������
+  [WARN] event 'ev-qin-li-si' ��� -237 ����ʱ�� 'cn-qin' ����[-221,-207]��
+  [WARN] event 'ev-han-wangtian' yearEnd -23 ����ʱ�� 'cn-wangmang' ������
+  [WARN] event 'ev-han-green-forest' ��� -23 ����ʱ�� 'cn-wangmang' ����[9,23]��
+  [WARN] event 'ev-han-red-brow' ��� -18 ����ʱ�� 'cn-wangmang' ����[9,23]��
+  [WARN] event 'ev-han-wangmang-fall' ��� -23 ����ʱ�� 'cn-wangmang' ����[9,23]��
+  [WARN] event 'ev-han-lingqu' ��� -214 ����ʱ�� 'cn-han-west' ����[-206,9]��
+  [WARN] event 'ev-han-liu-yu' ��� -772 ����ʱ�� 'cn-han-east' ����[25,220]��
+  [WARN] event 'ev-han-liu-yu' yearEnd -842 ����ʱ�� 'cn-han-east' ������
+  [WARN] event 'ev-weijin-san-gu-maolu' ��� 207 ����ʱ�� 'cn-three-shu' ����[221,263]��
+  [WARN] event 'ev-weijin-red-cliffs' ��� 208 ����ʱ�� 'cn-three-kingdoms' ����[220,280]��
+  [WARN] event 'ev-weijin-yizhou-fall' ��� 264 ����ʱ�� 'cn-three-shu' ����[221,263]��
+  [WARN] event 'ev-weijin-guan-dong' ��� 196 ����ʱ�� 'cn-three-wei' ����[220,265]��
+  [WARN] event 'ev-weijin-guan-dong-2' ��� 200 ����ʱ�� 'cn-three-wei' ����[220,265]��
+  [WARN] event 'ev-weijin-nanqian' ��� 313 ����ʱ�� 'cn-jin-east' ����[317,420]��
+  [WARN] event 'ev-weijin-huaiyin' ��� 313 ����ʱ�� 'cn-jin-east' ����[317,420]��
+  [WARN] event 'ev-weijin-liuyu' yearEnd 427 ����ʱ�� 'cn-jin-east' ������
+  [WARN] event 'ev-suita-sui-founding' ��� 581 ����ʱ�� 'cn-sui' ����[589,618]��
+  [WARN] event 'ev-suita-kaihuang' ��� 581 ����ʱ�� 'cn-sui' ����[589,618]��
+  [WARN] event 'ev-tang-dijianjie' yearEnd -705 ����ʱ�� 'cn-tang-early' ������
+  [WARN] event 'ev-tang-chang-an' yearEnd 907 ����ʱ�� 'cn-tang-early' ������
+  [WARN] event 'ev-tang-ganbu' yearEnd 907 ����ʱ�� 'cn-tang-mid' ������
+  [WARN] event 'ev-tang-nongfu' ��� 780 ����ʱ�� 'cn-tang-late' ����[827,907]��
+  [WARN] event 'ev-tang-nongfu' yearEnd 805 ����ʱ�� 'cn-tang-late' ������
+  [WARN] event 'ev-tang-yan-zhenqing' ��� 709 ����ʱ�� 'cn-tang-mid' ����[755,827]��
+  [WARN] event 'ev-tang-wu-daozi' yearEnd 759 ����ʱ�� 'cn-tang-early' ������
+  [ERROR] period 'cn-han' keyFigures ���ò����ڵ����� 'fig-wang-mang'
+  [ERROR] period 'cn-wudai' relatedEvents ���ò����ڵ��¼� 'ev-wudai-liang'
+  [ERROR] period 'cn-wudai' relatedEvents ���ò����ڵ��¼� 'ev-wudai-tang'
+  [ERROR] period 'cn-wudai' relatedEvents ���ò����ڵ��¼� 'ev-wudai-jin'
+  [ERROR] period 'cn-wudai' relatedEvents ���ò����ڵ��¼� 'ev-wudai-zhou'
+  [ERROR] period 'cn-wudai' relatedEvents ���ò����ڵ��¼� 'ev-wudai-song-founding'
+  [ERROR] period 'cn-song-liao-jin' keyFigures ���ò����ڵ����� 'fig-zhao-kuangyin'
+  [ERROR] period 'cn-song-liao-jin' keyFigures ���ò����ڵ����� 'fig-zhao-guangyi'
+  [ERROR] period 'cn-song-liao-jin' keyFigures ���ò����ڵ����� 'fig-zhao-heng'
+  [ERROR] period 'cn-song-liao-jin' keyFigures ���ò����ڵ����� 'fig-shi-jingzhang'
+  [ERROR] period 'cn-song-liao-jin' keyFigures ���ò����ڵ����� 'fig-wang-anshi'
+  [ERROR] period 'cn-song-liao-jin' keyFigures ���ò����ڵ����� 'fig-suo-shi'
+  [ERROR] period 'cn-song-liao-jin' relatedEvents ���ò����ڵ��¼� 'ev-song-founding'
+  [ERROR] period 'cn-song-liao-jin' relatedEvents ���ò����ڵ��¼� 'ev-song-qinliang'
+  [ERROR] period 'cn-song-liao-jin' relatedEvents ���ò����ڵ��¼� 'ev-song-liao-chanyuan'
+  [ERROR] period 'cn-song-liao-jin' relatedEvents ���ò����ڵ��¼� 'ev-song-jingkang'
+  [ERROR] period 'cn-song-liao-jin' relatedEvents ���ò����ڵ��¼� 'ev-song-kaixi'
+  [ERROR] period 'cn-song-liao-jin' relatedEvents ���ò����ڵ��¼� 'ev-song-yashan'
+  [ERROR] period 'cn-yuan' keyFigures ���ò����ڵ����� 'fig-temujin'
+  [ERROR] period 'cn-yuan' keyFigures ���ò����ڵ����� 'fig-kublai'
+  [ERROR] period 'cn-yuan' keyFigures ���ò����ڵ����� 'fig-wang-zhen'
+  [ERROR] period 'cn-yuan' keyFigures ���ò����ڵ����� 'fig-yue-fei'
+  [ERROR] period 'cn-yuan' keyFigures ���ò����ڵ����� 'fig-zhang-zhongyu'
+  [ERROR] period 'cn-yuan' relatedEvents ���ò����ڵ��¼� 'ev-yuan-mongol-unify'
+  [ERROR] period 'cn-yuan' relatedEvents ���ò����ڵ��¼� 'ev-yuan-founding'
+  [ERROR] period 'cn-yuan' relatedEvents ���ò����ڵ��¼� 'ev-yuan-xing-sheng'
+  [ERROR] period 'cn-yuan' relatedEvents ���ò����ڵ��¼� 'ev-yuan-dadu'
+  [ERROR] period 'cn-yuan' relatedEvents ���ò����ڵ��¼� 'ev-yuan-miao'
+  [ERROR] period 'cn-yuan' relatedEvents ���ò����ڵ��¼� 'ev-yuan-fall'
+  [ERROR] period 'cn-ming' keyFigures ���ò����ڵ����� 'fig-zhu-yuanzhang'
+  [ERROR] period 'cn-ming' keyFigures ���ò����ڵ����� 'fig-zhu-di'
+  [ERROR] period 'cn-ming' keyFigures ���ò����ڵ����� 'fig-zheng-he'
+  [ERROR] period 'cn-ming' keyFigures ���ò����ڵ����� 'fig-wang-zhen'
+  [ERROR] period 'cn-ming' keyFigures ���ò����ڵ����� 'fig-li-shizhen'
+  [ERROR] period 'cn-ming' keyFigures ���ò����ڵ����� 'fig-xu-xiake'
+  [ERROR] period 'cn-ming' relatedEvents ���ò����ڵ��¼� 'ev-ming-founding'
+  [ERROR] period 'cn-ming' relatedEvents ���ò����ڵ��¼� 'ev-ming-yongle'
+  [ERROR] period 'cn-ming' relatedEvents ���ò����ڵ��¼� 'ev-ming-sea'
+  [ERROR] period 'cn-ming' relatedEvents ���ò����ڵ��¼� 'ev-ming-wangyangming'
+  [ERROR] period 'cn-ming' relatedEvents ���ò����ڵ��¼� 'ev-ming-yitiaobian'
+  ... ���� 706 ������
+  -> ���� 746 / ���� 35
+
+����: ���� 746, ���� 35
+����: δͨ��

@@ -1,0 +1,8 @@
+﻿data/.tmp\figdata_03.json | fig-zhao-gao | None | p= cn-qin | al= None
+data/.tmp\figdata_core_tang.json | fig-liang-wudi | 梁武帝 | p= cn-nanbei-south | al= 叔达
+data/.tmp\figdata_core_tang.json | fig-fang-xuanling | 房玄龄 | p= cn-tang | al= 
+data/.tmp\figdata_fill1.json | fig-kong-ju-dasha | 孔甲 | p= cn-han-west | al= 
+data/.tmp\figdata_fill1.json | fig-wei-qing | 卫青 | p= cn-han-west | al= 
+data/.tmp\figdata_fill2.json | fig-liu-mao | 刘毅 | p= cn-jin-west | al= 
+data/.tmp\figdata_fill2.json | fig-fang-xuanling | 房玄龄 | p= cn-nanbei-south | al= 玄龄
+data/.tmp\figdata_fill2.json | fig-liang-wudi | 萧衍 | p= cn-nanbei | al= 叔达、梁武帝

@@ -1,0 +1,23 @@
+﻿22 figures with artifacts
+fig-liu-bei | ����ܲ�ս��� deprecated���˺�����������
+fig-zhuge-liang | ����Ϊ�ָ����� northern �˱�����������
+fig-jiang-wei | �𵮣���ͼ���� interrupting κ����й�ܶ��� || ��ɱ�S�������� battles����������������
+fig-zhang-yue | ƽ�������ң��Զ�ERRANT�������ƣ������ || ��׺�У�׷���� Saying ���硹��������
+fig-deng-ai | ��������д������FIGURE�����־�������� || ����Ϊ��ʿ���� subsequently ��������������
+fig-zhuge-shang | ������飬���� established �ָ���Ȩ����δ || ������֮�壬��keshi��������
+fig-chen-qun | Ի������������֮kindred���β������ԣ��� || �����ԡ���)}-forms����������ا��λ
+fig-gongsun-yuan | ��Ӫ��Ԩ������ hindersս��ܲʹ������� || ��ƽ��Ԩ����Ϊ Fresh��֣�˵����κ�� || �ߣ����Ӱ˳ߣ� disparity��Ҳ��
+fig-yu-jin | ���ѣ��ܲ����� defeat��Ȩ�������Ž��� || �裬گ��Ի����_flagship������������֪��
+fig-cao-huang | �������ã��� Luis Luis ��o || �� Luis Luis ��oris �� || s Luis ��oris ��ԣ?֮����ʵ
+fig-han-emperor-mingdi | ƾƽ������֮����Masquerade֮�߻�ó�Ұ����
+fig-liu-mao | ����������󡢄�runs�����׵Ƚ��Ժ���
+fig-liu-yao | ����֮��������.Callback��
+fig-sima-de | ���ϣ�˾�������doesn't. �̺�����
+fig-sima-jiong | �����ʿ���� stealsλ�����й鸽�ɶ� || ��������Խ���� fled��
+fig-sima-ying | �����۳ɰܣ��� loss �ӱ����ڽԺ�֮
+fig-sima-yue | ���Ͼ��������� park ֮�ۣ��ױ�ɱ��
+fig-liuyuan | ��������̫���� Hemidt ���á���Ԩ��ʱ || Ȱ��Ԩ�ȱ����ϵ�delay����ȫ�Ż��ڡ��� || ����ʯ���������revolution �ƺ���������ʯ
+fig-li-yun | һ���Ļ�ɥ֮��abolish�ʱ����ס����ƺ�
+fig-yang-jian | ��ר�á�֮�ﱻ accusation ��Ϊ����������
+fig-������ | �ܣ�Ϊ���ݴ�ʷ��Faradayն���׼����ڴ�ͬ
+fig-liu-xie | ������ƶ��������died���ݴ���Ĺ��ɽ�|

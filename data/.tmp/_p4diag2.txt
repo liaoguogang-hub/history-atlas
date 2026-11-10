@@ -1,0 +1,55 @@
+﻿DANGLING EVENT IDS in p4 (unique): 24
+   ev-nanbei-nanbei-south 16
+   ev-jin-taikang 9
+   ev-sixteen-kingdoms 9
+   ev-jin-yongjia 8
+   ev-han-chu-jiang 6
+   ev-three-wei-ding 6
+   ev-nanbei-xiaowen 5
+   ev-han-chimei 3
+   ev-han-dongzhongshu 2
+   ev-three-yiling 2
+   ev-three-gaopingling 2
+   ev-han-huangjin 2
+   ev-han-danggu 2
+   ev-sui-keju 2
+   ev-tang-kaixuan 2
+   ev-qin-er-shi 1
+   ev-qin-chen-shihuang 1
+   ev-han-xinnong 1
+   ev-three-zhuge-liang 1
+   ev-three-zhonghui 1
+   ev-sui-mo-chen 1
+   ev-sui-da-yunhe 1
+   ev-sui-yanggong 1
+   ev-nanbei-zu-chongzhi 1
+
+DANGLING FIGURE IDS in p4 (unique): 28
+   fig-sima-zhao 3
+   fig-lv-lu 2
+   fig-zhou-bo 1
+   fig-dou-jing 1
+   fig-lu-jia 1
+   fig-han-xin 1
+   fig-su-wu 1
+   fig-han-zhaodi 1
+   fig-zhao-xing 1
+   fig-huo-guang 1
+   fig-wang-jing 1
+   fig-he-jin 1
+   fig-jia-wei 1
+   fig-liu-zi 1
+   fig-liang-nu 1
+   fig-su-chuo 1
+   fig-li-chong 1
+   fig-dug-paruo 1
+   fig-bao-zhao 1
+   fig-mu-rong-2 1
+   fig-juqu-meng-xun 1
+   fig-zhang-xuan 1
+   fig-chen-baxian 1
+   fig-wang-sengbian 1
+   fig-fang-xuanling-2 1
+   fig-li- Yuan 1
+   fig-li-chun 1
+   fig-nanbei-nanbei-south 1
