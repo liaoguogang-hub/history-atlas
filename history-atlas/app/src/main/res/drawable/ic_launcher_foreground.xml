@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    自适应图标前景：青玉底 + 白色「史」字造型。
+    前景内容被限制在中间 66dp 的安全区内（108dp 画布的中心 72dp 区域）。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 「史」字的横向笔画 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,40 L72,40 L72,46 L36,46 Z" />
+
+    <!-- 「口」形主体（史字中部的框） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,47 L68,47 L68,62 L40,62 Z
+                          M44,51 L64,51 L64,58 L44,58 Z" />
+
+    <!-- 「史」字下方交叉的撇捺 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,60 L59,60 L56,66 L46,73 L43,69 L50,64 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,64 L58,68 L66,73 L63,76 L54,70 Z" />
+
+    <!-- 顶部短竖（史字的中竖起笔） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,33 L56,33 L56,42 L52,42 Z" />
+</vector>

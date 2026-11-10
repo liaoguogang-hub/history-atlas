@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    API 24–25 的启动图标回退版本（自适应图标 mipmap-anydpi-v26 从 API 26 起才生效）。
+    同样是青玉底 + 白色「史」字，但铺满整个图标，不做圆形遮罩。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 背景 -->
+    <path
+        android:fillColor="#3E6B6B"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- 顶部短竖 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,26 L56,26 L56,38 L52,38 Z" />
+
+    <!-- 横向笔画 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,38 L76,38 L76,45 L32,45 Z" />
+
+    <!-- 口字框 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,46 L71,46 L71,63 L37,63 Z
+                          M42,51 L66,51 L66,58 L42,58 Z" />
+
+    <!-- 撇 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,61 L59,61 L55,68 L43,77 L39,72 L49,66 Z" />
+
+    <!-- 捺 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,65 L59,70 L69,76 L65,80 L54,72 Z" />
+</vector>
