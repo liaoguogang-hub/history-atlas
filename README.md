@@ -8,14 +8,22 @@
 
 ## 快速开始
 
+### 从克隆构建
+
+仓库不包含构建产物与同步后的 assets，克隆后按下面四步即可跑起来：
+
 ```powershell
+git clone https://github.com/liaoguogang-hub/history-atlas.git
+cd history-atlas
+
 # 1. 一条命令完成：分片合并 → 数据修复 → 校验（目标 ERROR = 0）
 python tools\build_data.py
 
 # 2. 同步进 assets
 powershell -ExecutionPolicy Bypass -File scripts\sync_data.ps1
 
-# 3. 构建 APK
+# 3. 构建 APK（local.properties 由 Gradle 按本机 Android SDK 自动生成，
+#    若未生成，手动写入 sdk.dir=你的 Android SDK 路径）
 cd history-atlas
 .\gradlew.bat :app:assembleDebug
 
@@ -23,7 +31,20 @@ cd history-atlas
 adb install -r app\build\outputs\apk\debug\app-debug.apk
 ```
 
-产物：`history-atlas/app/build/outputs/apk/debug/app-debug.apk`（约 17.8 MB）
+产物：`history-atlas/app/build/outputs/apk/debug/app-debug.apk`（约 17.6 MB）
+
+环境要求：JDK 17、Android SDK（compileSdk 35）、Python 3.9+。
+
+### 直接安装
+
+到 [Releases](https://github.com/liaoguogang-hub/history-atlas/releases) 下载 `app-debug.apk`，
+支持 Android 7.0（API 24）及以上。当前为 debug 签名，仅供试用。
+
+### 版本管理
+
+- 版本号：`VERSION` 文件与 `app/build.gradle.kts` 的 `versionName` 保持一致
+- 变更记录：见 [CHANGELOG.md](CHANGELOG.md)，遵循语义化版本
+- 发布：`git tag -a vX.Y.Z` 后 `gh release create`，APK 作为 Release 资产（不入库）
 
 ### 当前内容规模
 
