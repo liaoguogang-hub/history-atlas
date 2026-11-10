@@ -24,6 +24,7 @@ MAX_COFIG = 12        # 每人最多保留的相关人物
 MAX_EVENTS = 20       # 每人最多保留的相关事件
 MAX_EV_FIGS = 12      # 每个事件最多保留的涉及人物
 YEAR_WINDOW = 150     # 跨主线关联时允许的年代差
+YEAR_GUARD = 400     # 事件与人物之间允许的最大年代差
 
 
 def name_ok(name):
@@ -87,24 +88,42 @@ def main():
                     added_pair += 1
 
     # ---- 2. 正文互相提及 ----
-    # 预先按顶层祖先分桶，只在同一主线内匹配
+    # 人物按顶层祖先分桶，但匹配时**不限定在同一主线内**：
+    # 早期版本只在同一顶层时期内找人，导致世界史里跨文明的事件
+    # （如「丝绸之路上的希腊化影响」）匹配不到提及的人物，
+    # 事件往往一个涉及人物都没有。跨主线匹配由后面的
+    # 「同主线或年代相近」守卫负责过滤掉不合理的组合。
     fig_by_top = {}
     for f in figs.values():
         t = top_ancestor(pmap, f.get("periodId"))
         fig_by_top.setdefault(t, []).append(f)
+
+    all_figs = list(figs.values())
 
     for e in evs.values():
         text = (e.get("summary") or "") + (e.get("detail") or "")
         if not text:
             continue
         top = top_ancestor(pmap, e.get("periodId"))
-        pool = fig_by_top.get(top, [])
+        # 先看同一主线内的人，不够再放宽到全部人物
+        pool = list(fig_by_top.get(top, []))
+        if len(pool) < MAX_EV_FIGS:
+            pool += [f for f in all_figs if f not in pool]
         hit = []
         existing = set(e.get("figures") or [])
+        ev_year = e.get("year")
         for f in pool:
             nm = f.get("name")
             if not name_ok(nm) or f["id"] in existing:
                 continue
+            # 年代守卫：人物与事件的年代不能相差太远。
+            # 放宽到跨主线匹配后，若不加这道限制，
+            # 三国事件会因为提到「水」这类字面而挂上先秦人物。
+            if isinstance(ev_year, int):
+                fy = f.get("deathYear") if isinstance(f.get("deathYear"), int) \
+                    else f.get("birthYear")
+                if isinstance(fy, int) and abs(ev_year - fy) > YEAR_GUARD:
+                    continue
             if nm in text:
                 hit.append(f["id"])
         for fid in hit:
