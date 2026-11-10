@@ -71,6 +71,7 @@ fun FiguresScreen(
 
     var roleFilter by remember(scope) { mutableStateOf("") }
     var periodFilter by remember(scope) { mutableStateOf("") }
+    var subPeriodFilter by remember(scope) { mutableStateOf("") }
     var query by remember(scope) { mutableStateOf("") }
     var showSearch by remember(scope) { mutableStateOf(false) }
 
@@ -98,11 +99,15 @@ fun FiguresScreen(
         periods.associate { it.id to collect(it.id, mutableSetOf()) }
     }
 
-    val filtered = remember(allFigures, roleFilter, periodFilter, subtree, query) {
+    val filtered = remember(allFigures, roleFilter, periodFilter, subPeriodFilter,
+                            subtree, query) {
         allFigures.filter { f ->
             (roleFilter.isEmpty() || f.role == roleFilter) &&
                 (periodFilter.isEmpty() ||
                     (subtree[periodFilter]?.contains(f.periodId) == true)) &&
+                // 选了子时期时，只保留挂在该子时期或其子树上的人物
+                (subPeriodFilter.isEmpty() ||
+                    (subtree[subPeriodFilter]?.contains(f.periodId) == true)) &&
                 (query.isBlank() ||
                     f.name.contains(query, ignoreCase = true) ||
                     f.alias.contains(query, ignoreCase = true) ||
@@ -113,12 +118,27 @@ fun FiguresScreen(
     }
 
     // 按时期分组
+    //
+    // 组内排序不用纯拼音：一组动辄五十多人，纯拼音下孙权、诸葛亮、曹操
+    // 这些核心人物会埋在中后段，翻找成本很高。改用「关联数量 + 传记长度」
+    // 作为权重，让分量重的人物排在前面，同权重时再按姓名拼音兜底。
     val grouped = remember(filtered, periods) {
+        fun weight(f: Figure): Int {
+            val links = f.relatedFigures.size + f.relatedEvents.size
+            val bio = f.biography.length
+            val quote = f.quotes.size
+            return links * 100 + bio / 10 + quote * 5
+        }
         filtered.groupBy { it.periodId }
             .mapNotNull { (pid, list) ->
                 periods.firstOrNull { it.id == pid }?.let { it to list }
             }
             .sortedBy { it.first.startYear }
+            .map { (period, list) ->
+                period to list.sortedWith(
+                    compareByDescending<Figure> { weight(it) }.thenBy { it.name }
+                )
+            }
     }
 
     Scaffold(
@@ -172,27 +192,64 @@ fun FiguresScreen(
                 )
             }
 
-            // ---- 筛选条 ----
+            // ---- 时期筛选 ----
+            // 两级：先选顶层时代（如「汉」），再选其下的子时期（如「东汉」）。
+            // 只有一个「汉」时，五十多位东汉人物挤在一个分组里，
+            // 想找孙权、诸葛亮这类人物要翻很久——加上子时期筛选才好定位。
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .horizontalScroll(rememberScrollState())
-                    .padding(horizontal = 14.dp, vertical = 8.dp),
+                    .padding(horizontal = 14.dp, vertical = 4.dp),
                 horizontalArrangement = Arrangement.spacedBy(6.dp),
             ) {
                 FilterChip(
                     text = "全部时期",
                     selected = periodFilter.isEmpty(),
-                    onClick = { periodFilter = "" },
+                    onClick = { periodFilter = ""; subPeriodFilter = "" },
                 )
                 topPeriods.take(14).forEach { p ->
                     FilterChip(
                         text = p.name,
                         selected = periodFilter == p.id,
-                        onClick = { periodFilter = if (periodFilter == p.id) "" else p.id },
+                        onClick = {
+                            // 再次点击已选中的顶层时期 → 取消筛选
+                            periodFilter = if (periodFilter == p.id) "" else p.id
+                            subPeriodFilter = ""
+                        },
                     )
                 }
             }
+
+            // ---- 子时期筛选：仅在顶层时代已选中且它有子时期时出现 ----
+            if (periodFilter.isNotEmpty()) {
+                val children = remember(periods, periodFilter) {
+                    periods.filter { it.parentId == periodFilter }
+                        .sortedBy { it.startYear }
+                }
+                if (children.isNotEmpty()) {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .horizontalScroll(rememberScrollState())
+                            .padding(horizontal = 14.dp, vertical = 2.dp),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    ) {
+                        children.forEach { c ->
+                            FilterChip(
+                                text = c.name,
+                                selected = subPeriodFilter == c.id,
+                                onClick = {
+                                    subPeriodFilter =
+                                        if (subPeriodFilter == c.id) "" else c.id
+                                },
+                            )
+                        }
+                    }
+                }
+            }
+
+            // ---- 身份筛选 ----
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
