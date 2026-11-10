@@ -9,8 +9,11 @@ plugins {
 //   1. APK 内的 versionName（系统「应用信息」里显示的版本）
 //   2. dist 目录里的产物名（HistoryAtlas-v<version>.apk）
 //   3. 发布用的 GitHub Release 标签
-val appVersion = "1.0.0"
-val appVersionCode = 1
+//
+// versionCode 必须每次发布递增，否则 Android 不会把新包识别为升级，
+// 已安装旧版的用户收不到更新提示。
+val appVersion = "1.1.0"
+val appVersionCode = 2
 
 android {
     namespace = "com.historyatlas.app"

@@ -62,14 +62,30 @@ R8 混淆压缩后自动复制到 `dist/HistoryAtlas-v<版本号>.apk`（约 2.0
 
 ### 直接安装
 
-到 [Releases](https://github.com/liaoguogang-hub/history-atlas/releases) 下载 `HistoryAtlas-v1.0.0.apk`，
+到 [Releases](https://github.com/liaoguogang-hub/history-atlas/releases) 下载 `HistoryAtlas-v1.1.0.apk`，
 支持 Android 7.0（API 24）及以上。当前为 debug 密钥签名（R8 混淆的 release 构建），仅供自行分发。
 
 ### 版本管理
 
-- 版本号：`VERSION` 文件与 `app/build.gradle.kts` 的 `versionName` 保持一致
-- 变更记录：见 [CHANGELOG.md](CHANGELOG.md)，遵循语义化版本
-- 发布：`git tag -a vX.Y.Z` 后 `gh release create`，APK 作为 Release 资产（不入库）
+- **单一来源**：版本号只写在 `app/build.gradle.kts` 顶部的 `appVersion` 与 `appVersionCode`，
+  `VERSION` 文件、dist 产物名与 Release 标签都由它派生
+- **versionCode 必须递增**：否则 Android 不会把新包识别为升级，已安装旧版的用户收不到更新
+- **发布三步**：改版本号 → 构建 → 打 tag 并发 Release
+- **不覆盖已发布资产**：Release 一旦发布就不再改动其 APK，内容变更一律走新版本号
+- 变更记录见 [CHANGELOG.md](CHANGELOG.md)，遵循语义化版本
+
+无 shell 环境时的发布流程：
+
+```powershell
+# 1. 改 app/build.gradle.kts 的 appVersion / appVersionCode，同步 VERSION 文件
+# 2. 构建
+cd history-atlas
+.\gradlew.bat :app:assembleRelease      # 自动输出到 dist/HistoryAtlas-v<版本>.apk
+# 3. 打 tag 并发 Release
+cd ..
+git tag -a v1.1.0 -m "v1.1.0 ..."
+gh release create v1.1.0 "history-atlas/dist/HistoryAtlas-v1.1.0.apk" --title "..." --notes-file ...
+```
 
 ### 当前内容规模
 
