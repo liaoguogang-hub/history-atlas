@@ -1,0 +1,3595 @@
+{
+  "version": 1,
+  "scope": "physics",
+  "periods": [
+    {
+      "id": "phy-classical",
+      "name": "古典力学时代",
+      "alias": "古典物理与自然哲学",
+      "parentId": null,
+      "startYear": -350,
+      "endYear": 1900,
+      "startDateText": "公元前350年",
+      "endDateText": "公元1900年",
+      "colorKey": "phy-classical",
+      "summary": "从亚里士多德的自然哲学到麦克斯韦的电磁理论，物理学经历了长达两千余年的奠基期。这一时期的核心任务是用少量普适原理解释天上与地上的统一规律：亚里士多德提出运动与质料四元素说，开普勒从第谷的观测数据中提炼出行星运动三定律，伽利略以斜面实验建立力学实验范式，牛顿则在《自然哲学的数学原理》中把天上运动与地面落体统一在万有引力定律之下。与此同时，静电学、几何光学、大气压力与真空研究、热学与电磁学相继取得突破，把「自然哲学」逐步推向一门以定量测量和数学表达为基础的现代科学。到十九世纪末，物理学已建立起一套完备的经典体系：力学、电学、磁学、光学、热学各有定量定律，并以万有引力与电磁场为两大支柱统一了天上与地下的物理世界。",
+      "territory": "地面力学、天体力学、静电学、几何光学、热学、气象与流体",
+      "capital": "意大利、英格兰、法国、德国、荷兰等欧洲学术中心",
+      "population": "研究者由十余人增至数百人，参与相关学科二十余个",
+      "culture": "几何化与数学化的自然哲学；实验与数学证明并重；普适定律与单一机制；场概念的引入",
+      "keyFigures": [
+        "fig-phy-aristotle",
+        "fig-phy-galileo",
+        "fig-phy-kepler",
+        "fig-phy-newton",
+        "fig-phy-faraday",
+        "fig-phy-maxwell",
+        "fig-phy-hertz"
+      ],
+      "relatedEvents": [
+        "ev-phy-aristotle-mechanics",
+        "ev-phy-galileo-falling",
+        "ev-phy-kepler-laws",
+        "ev-phy-newton-principia",
+        "ev-phy-coulomb-law",
+        "ev-phy-faraday-induction",
+        "ev-phy-maxwell-equations",
+        "ev-phy-hertz-radio"
+      ],
+      "tags": [
+        "编年主干",
+        "奠基期",
+        "力学",
+        "实验方法",
+        "经典物理"
+      ]
+    },
+    {
+      "id": "phy-thermal-stat",
+      "name": "热学与统计物理",
+      "alias": "热力学、分子运动论与统计力学",
+      "parentId": null,
+      "startYear": 1780,
+      "endYear": 2026,
+      "startDateText": "公元1780年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-thermo",
+      "summary": "工业革命的引擎之一，也是从宏观现象走向微观机制的关键阶段。十八世纪末以来，瓦特改良蒸汽机推动工业扩张，人们迫切需要理解热与功的转换。傅里叶建立热传导方程，卡诺提出理想循环与热效率上限，焦耳与亥姆霍兹确立能量守恒，开尔文与克劳修斯建立热力学第二定律并引入熵的概念。麦克斯韦、玻尔兹曼与吉布斯把热力学推向统计物理：分子运动论解释了扩散、布朗运动与气体定律，玻色—爱因斯坦与费米统计揭示了量子统计的分岔。统计力学从此成为连接宏观热力学与微观原子物理的桥梁，并在二十世纪继续发展出相变理论、涨落理论、非平衡态热力学与信息热力学等分支，成为理解物质世界最普遍的规律性现象的工具。",
+      "territory": "热力学、分子运动论、统计力学、输运现象、相变、非平衡态",
+      "capital": "德国柏林与慕尼黑、瑞士苏黎世、荷兰莱顿、英国曼彻斯特、美国纽黑文",
+      "population": "研究者数千人，热力学与统计物理成为独立的理论学科",
+      "culture": "能量守恒与熵增；微观状态统计描述；相变与临界现象；涨落与耗散",
+      "keyFigures": [
+        "fig-phy-fourier",
+        "fig-phy-carnot",
+        "fig-phy-joule",
+        "fig-phy-clausius",
+        "fig-phy-maxwell",
+        "fig-phy-boltzmann",
+        "fig-phy-gibbs",
+        "fig-phy-planck"
+      ],
+      "relatedEvents": [
+        "ev-phy-carnot-cycle",
+        "ev-phy-joule-energy",
+        "ev-phy-clausius-entropy",
+        "ev-phy-maxwell-kinetic",
+        "ev-phy-boltzmann-entropy",
+        "ev-phy-gibbs-phase-rule",
+        "ev-phy-brownian-movement",
+        "ev-phy-bcs-theory"
+      ],
+      "tags": [
+        "编年主干",
+        "热学",
+        "统计物理",
+        "工业革命",
+        "熵"
+      ]
+    },
+    {
+      "id": "phy-electromag",
+      "name": "电磁学时代",
+      "alias": "电磁学与电动力学",
+      "parentId": null,
+      "startYear": 1780,
+      "endYear": 2026,
+      "startDateText": "公元1780年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-classical",
+      "summary": "电与磁从哲学猜测变成可测量的定量学科，并最终统一为场论。库仑以扭秤给出点电荷的平方反比定律，伽伐尼的动物电与伏特电池使电流成为可控现象，奥斯特与法拉第发现电流的磁效应与电磁感应，安培与韦伯把电动力学的定量框架推进一步。1864年麦克斯韦写出场方程，把电、磁、光统一为电磁波，赫兹在实验室中直接产生并接收了无线电波，验证了这一预言。此后电报、电话、电灯、电动机、变压器与电网相继出现，电磁学成为第二次工业革命的核心技术基础，也是现代物理学的第一个成功统一理论。二十世纪以后，电磁学进一步与相对论和量子论结合，成为理解原子、分子与凝聚态系统的基本语言。",
+      "territory": "静电学、电流与电路、磁学、电磁感应、电磁波、光学与原子电动力学",
+      "capital": "英国伦敦、法国巴黎、德国柏林、美国新泽西与贝尔实验室",
+      "population": "研究者逾万人，电磁学直接催生电力工业、通信工业与半导体工业",
+      "culture": "场概念的引入；电与磁的对称统一；波动的电磁本质；能量在场中的流动",
+      "keyFigures": [
+        "fig-phy-faraday",
+        "fig-phy-maxwell",
+        "fig-phy-hertz",
+        "fig-phy-dirac"
+      ],
+      "relatedEvents": [
+        "ev-phy-coulomb-law",
+        "ev-phy-volta-battery",
+        "ev-phy-ampere-law",
+        "ev-phy-faraday-induction",
+        "ev-phy-maxwell-equations",
+        "ev-phy-hertz-radio",
+        "ev-phy-dirac-equation"
+      ],
+      "tags": [
+        "编年主干",
+        "电磁学",
+        "第二次工业革命",
+        "统一理论",
+        "场"
+      ]
+    },
+    {
+      "id": "phy-relativity",
+      "name": "相对论时代",
+      "alias": "狭义与广义相对论",
+      "parentId": null,
+      "startYear": 1900,
+      "endYear": 2026,
+      "startDateText": "公元1900年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-relativity",
+      "summary": "相对论彻底改变了人类关于空间、时间与引力的直觉。1905年爱因斯坦的「奇迹年」论文依次处理了光电效应、布朗运动、狭义相对论与质能关系，把光速不变性与相对性原理升格为基本假设，得到时间膨胀与长度收缩。1915年他完成广义相对论，用等效原理与弯曲时空统一描述引力，并预言水星近日点进动、光线偏折与引力红移。爱丁顿1919年日食观测验证光线偏折，使广义相对论迅速获得认可。此后的彭罗斯与霍金把广义相对论推进到黑洞、奇点与宇宙学，霍金1974年提出的霍金辐射把量子效应与引力结合，为黑洞物理提供了可检验的理论预言，2015年LIGO直接探测到引力波，更把广义相对论从理论预言变为日常的观测事实。",
+      "territory": "时空几何、相对论性力学、引力理论、黑洞与宇宙学、引力波",
+      "capital": "德国柏林与苏黎世、瑞士伯尔尼与日内瓦、英国剑桥、美国普林斯顿",
+      "population": "研究者数千人，相对论成为理论物理学的核心语言",
+      "culture": "相对性原理与光速不变；等效原理；弯曲时空中的自由落体；黑洞、奇点与霍金辐射",
+      "keyFigures": [
+        "fig-phy-einstein",
+        "fig-phy-hawking",
+        "fig-phy-schrodinger",
+        "fig-phy-penrose",
+        "fig-phy-penrose2"
+      ],
+      "relatedEvents": [
+        "ev-phy-einstein-1905",
+        "ev-phy-special-relativity",
+        "ev-phy-general-relativity",
+        "ev-phy-eddington-eclipse",
+        "ev-phy-gravitational-waves",
+        "ev-phy-hawking-radiation"
+      ],
+      "tags": [
+        "编年主干",
+        "相对论",
+        "时空观",
+        "引力波",
+        "宇宙学"
+      ]
+    },
+    {
+      "id": "phy-quantum",
+      "name": "量子力学时代",
+      "alias": "量子论、量子力学与量子场论",
+      "parentId": null,
+      "startYear": 1900,
+      "endYear": 2026,
+      "startDateText": "公元1900年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-quantum",
+      "summary": "量子力学是二十世纪物理学最深刻的一次范式变革。1900年普朗克为解释黑体辐射提出能量量子假设，1905年爱因斯坦以光量子解释光电效应，1913年玻尔提出原子定态模型与对应原理。1924年德布罗意提出物质波，1925年海森堡建立矩阵力学，1926年薛定谔写出波动方程，同年玻恩提出概率解释，1927年海森堡提出不确定性原理与狄拉克提出相对论性电子方程。1928年狄拉克提出正电子预言，1932年查德威克发现中子。1948年后量子电动力学的重整化使电磁相互作用的计算达到极高精度；1960年代后弱电统一、规范场论与标准模型成型，量子力学最终与相对论结合，并催生了量子信息、量子计算与量子模拟等新兴方向。",
+      "territory": "量子论、原子物理、分子物理、量子场论、标准模型、量子信息",
+      "capital": "德国哥廷根与慕尼黑、瑞士苏黎世与伯尔尼、英国剑桥、美国普林斯顿与加州理工",
+      "population": "研究者数万人，量子力学成为物理学的通用语言",
+      "culture": "能量量子化；波粒二象性；概率解释；不确定性原理；场论与规范不变性",
+      "keyFigures": [
+        "fig-phy-planck",
+        "fig-phy-einstein",
+        "fig-phy-bohr",
+        "fig-phy-debroglie",
+        "fig-phy-heisenberg",
+        "fig-phy-schrodinger",
+        "fig-phy-dirac",
+        "fig-phy-chadwick",
+        "fig-phy-feynman"
+      ],
+      "relatedEvents": [
+        "ev-phy-planck-quantum",
+        "ev-phy-einstein-photoelectric",
+        "ev-phy-bohr-atom",
+        "ev-phy-heisenberg-matrix",
+        "ev-phy-schrodinger-equation",
+        "ev-phy-uncertainty-principle",
+        "ev-phy-dirac-equation",
+        "ev-phy-chadwick-neutron",
+        "ev-phy-positron-discovery",
+        "ev-phy-pauli-exclusion"
+      ],
+      "tags": [
+        "编年主干",
+        "量子力学",
+        "范式变革",
+        "原子与粒子",
+        "量子信息"
+      ]
+    },
+    {
+      "id": "phy-nuclear-particle",
+      "name": "核物理与粒子物理",
+      "alias": "原子核、粒子与探测器",
+      "parentId": null,
+      "startYear": 1895,
+      "endYear": 2026,
+      "startDateText": "公元1895年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-particle",
+      "summary": "从伦琴发现X射线起，物理学一路深入到原子核与基本粒子。1896年贝克勒尔发现天然放射性，1898年居里夫妇发现钋与镭，1938年哈恩与施特拉斯曼发现铀裂变，1939年迈特纳与弗里施给出核裂变解释。1932年查德威克发现中子，1936年安德森发现正电子。1950年代起大型加速器相继建成，1964年盖尔-曼提出夸克模型，1983年发现W与Z粒子，2012年发现希格斯玻色子。探测器技术同步演进，从云室到气泡室、多丝正比室到大型强子对撞机，使人类得以在越来越小的尺度上观察世界，并把粒子物理推入国际大科学协作的阶段。",
+      "territory": "原子核结构、核反应、放射性、粒子对撞机、粒子探测器、中微子",
+      "capital": "英国剑桥、瑞士日内瓦 CERN、美国费米实验室与布鲁克海文",
+      "population": "研究者数万人，粒子物理成为国际大科学协作的典范",
+      "culture": "核裂变与核聚变；守恒律与对称性；标准模型三组分；夸克与胶子；中微子振荡",
+      "keyFigures": [
+        "fig-phy-roentgen",
+        "fig-phy-becquerel",
+        "fig-phy-curie-marie",
+        "fig-phy-curie-pierre",
+        "fig-phy-hahn",
+        "fig-phy-meitner",
+        "fig-phy-fermi",
+        "fig-phy-chadwick",
+        "fig-phy-higgs"
+      ],
+      "relatedEvents": [
+        "ev-phy-xray-discovery",
+        "ev-phy-radioactivity-discovery",
+        "ev-phy-radium-discovery",
+        "ev-phy-neutron-discovery",
+        "ev-phy-fission-discovery",
+        "ev-phy-higgs-boson",
+        "ev-phy-quark-model",
+        "ev-phy-lhc-start",
+        "ev-phy-positron-discovery"
+      ],
+      "tags": [
+        "编年主干",
+        "核物理",
+        "粒子物理",
+        "大科学",
+        "探测器"
+      ]
+    },
+    {
+      "id": "phy-condensed",
+      "name": "固体与凝聚态",
+      "alias": "固体物理与凝聚态物理",
+      "parentId": null,
+      "startYear": 1600,
+      "endYear": 2026,
+      "startDateText": "公元1600年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-condensed",
+      "summary": "凝聚态物理研究大量原子、分子与电子的集体行为，是当代物理学中最活跃、也最贴近技术的分支。其源头可追溯到惠更斯的光波动说、杨氏的干涉实验与菲涅耳的衍射理论。二十世纪，费曼、朗道与布洛赫等人分别发展了路径积分、量子液体与能带理论；1930年代金属电子论建立，1939年超导体的发现、1950年BCS理论解释了常规超导；1962年约瑟夫森效应、1980年代高温超导与1988年铜氧化物陶瓷超导的发现，把超导研究推向新的高度；1956年富勒烯、1985年碳纳米管与2004年石墨烯相继问世，液晶显示、半导体器件与自旋电子学则把凝聚态物理推向产业核心。",
+      "territory": "晶体学、能带理论、超导、磁性、液晶与纳米材料、半导体器件",
+      "capital": "瑞士苏黎世与日内瓦、美国伊利诺伊与加州、德国哥廷根、日本东京",
+      "population": "研究者上万人，凝聚态物理覆盖材料、半导体与信息器件产业",
+      "culture": "集体现象与准粒子；能带与费米面；序参量与相变；对称性破缺；拓扑相",
+      "keyFigures": [
+        "fig-phy-feynman",
+        "fig-phy-bloch",
+        "fig-phy-bardeen",
+        "fig-phy-onnes",
+        "fig-phy-gibbs-josephson"
+      ],
+      "relatedEvents": [
+        "ev-phy-huygens-wave",
+        "ev-phy-young-interference",
+        "ev-phy-xray-diffraction-crystal",
+        "ev-phy-superconductivity-discovery",
+        "ev-phy-bcs-theory",
+        "ev-phy-high-tc-superconductor",
+        "ev-phy-graphene-discovery",
+        "ev-phy-liquid-crystal-display"
+      ],
+      "tags": [
+        "编年主干",
+        "凝聚态",
+        "超导",
+        "材料科学",
+        "半导体"
+      ]
+    },
+    {
+      "id": "phy-cosmology",
+      "name": "宇宙学与统一理论",
+      "alias": "宇宙学、标准模型与弦论",
+      "parentId": null,
+      "startYear": 1900,
+      "endYear": 2026,
+      "startDateText": "公元1900年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-astro",
+      "summary": "当研究对象从原子核扩展到整个宇宙，物理学需要一套全新的语言。1917年爱因斯坦用宇宙学常数修补其场方程，1929年哈勃发现星系退行并确立膨胀宇宙图景。1948年伽莫夫等人提出大爆炸模型，1964年彭奇斯与威尔逊发现宇宙微波背景辐射，1998年超新星观测发现暗能量，2015年LIGO首次直接探测到引力波，标志着多信使宇宙学的开启。另一方面，1968年魏坚提出弦模型，1984年第一次超弦革命把四种基本相互作用置于同一框架，1998年发现M理论对偶性。从夸克模型到标准模型，再到对偶性与弦理论，寻找万物统一理论的努力贯穿了整个二十世纪下半叶并延续至今。",
+      "territory": "宇宙学、粒子物理标准模型、基本相互作用统一、暗物质与暗能量、弦论",
+      "capital": "美国普林斯顿与加州、法国巴黎、瑞士 CERN 与日内瓦、英国剑桥",
+      "population": "研究者数千人，宇宙学与弦理论属前沿理论物理",
+      "culture": "膨胀宇宙与大爆炸；微波背景与暴胀；标准模型；弦论与对偶性；多信使观测",
+      "keyFigures": [
+        "fig-phy-hubble",
+        "fig-phy-gamo",
+        "fig-phy-penrose",
+        "fig-phy-penrose2",
+        "fig-phy-hawking",
+        "fig-phy-wilson",
+        "fig-phy-greene",
+        "fig-phy-weinberg",
+        "fig-phy-pawlowski"
+      ],
+      "relatedEvents": [
+        "ev-phy-hubble-expansion",
+        "ev-phy-big-bang",
+        "ev-phy-cmb-discovery",
+        "ev-phy-dark-energy",
+        "ev-phy-gravitational-waves",
+        "ev-phy-standard-model",
+        "ev-phy-string-theory"
+      ],
+      "tags": [
+        "编年主干",
+        "宇宙学",
+        "弦理论",
+        "统一理论",
+        "暗能量"
+      ]
+    },
+    {
+      "id": "phy-ancient-mech",
+      "name": "古代力学与自然哲学",
+      "alias": "亚里士多德—阿基米德传统",
+      "parentId": "phy-classical",
+      "startYear": -350,
+      "endYear": 1543,
+      "startDateText": "公元前350年",
+      "endDateText": "公元1543年",
+      "colorKey": "phy-classical",
+      "summary": "古典力学时代的第一阶段，人类第一次尝试用统一的原则解释世界。亚里士多德以质料与形式、潜能与现实的区分建立自然哲学体系，提出四元素说与力的概念，其运动学说虽在细节上多有失误，却提出了「自然必须被系统理解」这一方法论命题。阿基米德则把静力学建立在数学证明之上，浮力定律与杠杆原理至今仍是流体力学与机械工程的出发点，他用穷举法求得圆周率，也是把数学用作自然哲学工具的最早范例。此后中世纪的学者在欧洲大学中继续研读与注释这些著作，大学成为当时保存并传递古典知识的主要机构，这一学术传统最终在哥白尼与开普勒的著作中重新爆发。",
+      "territory": "亚里士多德自然哲学、静力学、杠杆与浮力、天体圆周运动论",
+      "capital": "古希腊雅典与叙拉古、亚历山大图书馆、欧洲中世纪大学",
+      "population": "研究者数十人，主要为哲学家、几何学家与工程师",
+      "culture": "质料与形式；潜能与现实；力是改变运动状态的原因；数学证明优先于实验",
+      "keyFigures": [
+        "fig-phy-aristotle"
+      ],
+      "relatedEvents": [
+        "ev-phy-aristotle-mechanics",
+        "ev-phy-archimedes-mechanics"
+      ],
+      "tags": [
+        "古典力学",
+        "自然哲学",
+        "静力学",
+        "中世纪传承"
+      ]
+    },
+    {
+      "id": "phy-early-modern-mech",
+      "name": "实验力学的确立",
+      "alias": "伽利略—牛顿革命",
+      "parentId": "phy-classical",
+      "startYear": 1543,
+      "endYear": 1800,
+      "startDateText": "公元1543年",
+      "endDateText": "公元1800年",
+      "colorKey": "phy-classical",
+      "summary": "哥白尼的日心说开启宇宙观的革命，第谷·布拉赫在布拉格积累的高精度观测数据为开普勒提炼出行星运动三定律提供了基础，伽利略则以斜面实验与望远镜观测把实验方法引入力学与天文学。牛顿在1687年的《自然哲学的数学原理》中综合全部成果，提出运动三定律与万有引力定律，把天上运动与地面落体统一在同一套数学框架之下。同一时期，笛卡尔坐标系与解析几何的发展使运动学可以被代数处理，莱布尼茨的微积分与牛顿的流数法为描述连续变化提供了工具，物理学从此成为一门既能实验验证又能数学推演的精密科学。",
+      "territory": "日心说、行星运动、天体力学、自由落体与斜面实验、微积分与解析几何",
+      "capital": "意大利佛罗伦萨与比萨、德国普拉滕与哥廷根、英格兰剑桥与伦敦",
+      "population": "研究者约数十人，形成了伽利略—牛顿学术传统",
+      "culture": "实验与数学证明的结合；普适定律；绝对时空的雏形；微分方程方法",
+      "keyFigures": [
+        "fig-phy-galileo",
+        "fig-phy-kepler",
+        "fig-phy-newton",
+        "fig-phy-cavendish"
+      ],
+      "relatedEvents": [
+        "ev-phy-galileo-falling",
+        "ev-phy-kepler-laws",
+        "ev-phy-newton-principia",
+        "ev-phy-boyle-air-pump",
+        "ev-phy-cavendish-torsion"
+      ],
+      "tags": [
+        "实验方法",
+        "万有引力",
+        "科学革命",
+        "数学物理"
+      ]
+    },
+    {
+      "id": "phy-heat-theory",
+      "name": "热力学的建立",
+      "alias": "卡诺—克劳修斯热力学",
+      "parentId": "phy-thermal-stat",
+      "startYear": 1780,
+      "endYear": 1900,
+      "startDateText": "公元1780年",
+      "endDateText": "公元1900年",
+      "colorKey": "phy-thermo",
+      "summary": "蒸汽机的改良与工业扩张提出了一个紧迫的实践问题：热的本性是什么，热机效率的极限在哪里。傅里叶的热传导理论提供了定量工具，卡诺通过可逆循环证明热机效率只取决于两个热源的温度，焦耳以多种实验测得机械功与热的数值当量，亥姆霍兹据此提出能量守恒的普遍表述，克劳修斯与开尔文分别表述了热力学第二定律，克劳修斯由此引入熵并指出不可逆过程使熵增加。到十九世纪末，热力学第二定律与统计观点的结合，为二十世纪的统计力学与热力学演化奠定了完整基础。",
+      "territory": "热传导、卡诺循环、热功当量、能量守恒、熵与不可逆过程",
+      "capital": "法国巴黎、德国柏林、瑞士苏黎世、荷兰莱顿",
+      "population": "研究者约百余人，热力学成为工程与理论共同关注的中心",
+      "culture": "能量守恒；熵增原理；不可逆性；过程的方向性",
+      "keyFigures": [
+        "fig-phy-fourier",
+        "fig-phy-carnot",
+        "fig-phy-joule",
+        "fig-phy-clausius"
+      ],
+      "relatedEvents": [
+        "ev-phy-fourier-heat",
+        "ev-phy-carnot-cycle",
+        "ev-phy-joule-energy",
+        "ev-phy-clausius-entropy"
+      ],
+      "tags": [
+        "热力学",
+        "熵",
+        "能量守恒",
+        "工业革命"
+      ]
+    },
+    {
+      "id": "phy-stat-mech",
+      "name": "统计力学的形成",
+      "alias": "分子运动论与系综方法",
+      "parentId": "phy-thermal-stat",
+      "startYear": 1859,
+      "endYear": 2026,
+      "startDateText": "公元1859年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-condensed",
+      "summary": "统计力学是热力学与微观物理之间的桥梁，也是二十世纪物理学最具普适性的框架之一。麦克斯韦从概率方法导出分子速率分布律，玻尔兹曼把熵解释为宏观态对应的微观状态数之对数，吉布斯建立系综与配分函数方法并导出相律， Langevin 与爱因斯坦发展了布朗运动的定量理论，Fermi 与 Dirac 发展费米统计，玻色与爱因斯坦发展玻色统计，Pauli 的不相容原理成为构建原子统计模型的关键。二十世纪，Gibbs 系综与涨落理论被推广到相变、临界现象、非平衡态与生命系统，Landau 理论则把序参量与对称性破缺引入相变分类。",
+      "territory": "分子运动论、系综与配分函数、量子统计、涨落与耗散、相变理论",
+      "capital": "德国柏林与慕尼黑、奥地利维也纳、美国纽黑文、瑞士苏黎世",
+      "population": "研究者逾千人，统计力学成为物理学的通用理论框架",
+      "culture": "系综平均；配分函数；S = k ln W；序参量与对称性破缺；涨落—耗散关系",
+      "keyFigures": [
+        "fig-phy-maxwell",
+        "fig-phy-boltzmann",
+        "fig-phy-gibbs",
+        "fig-phy-pauli",
+        "fig-phy-einstein"
+      ],
+      "relatedEvents": [
+        "ev-phy-maxwell-kinetic",
+        "ev-phy-boltzmann-entropy",
+        "ev-phy-gibbs-phase-rule",
+        "ev-phy-brownian-movement",
+        "ev-phy-pauli-exclusion"
+      ],
+      "tags": [
+        "统计力学",
+        "系综",
+        "涨落",
+        "相变"
+      ]
+    },
+    {
+      "id": "phy-electrodynamics",
+      "name": "电动力学与场论",
+      "alias": "法拉第—麦克斯韦传统",
+      "parentId": "phy-electromag",
+      "startYear": 1780,
+      "endYear": 1900,
+      "startDateText": "公元1780年",
+      "endDateText": "公元1900年",
+      "colorKey": "phy-classical",
+      "summary": "静电学时代确立了电荷与磁极的定量相互作用法则，伽伐尼与伏打把电变成可以制造与控制的能量，奥斯特、安培与法拉第揭示了电流的磁效应、磁场的力线结构与电磁感应现象，韦伯把速度因素引入电磁作用，安培由此开创了电动力学。1864年麦克斯韦把这一切形式化为场方程组，引入位移电流，预言电磁波的存在并指出光即电磁波，赫兹的实验验证使麦克斯韦理论成为十九世纪最成功的统一理论，也直接催生了无线电报、电动机与电网等第二次工业革命的核心技术。",
+      "territory": "静电学与电流、磁学、电磁感应、电磁波与光、电动力学",
+      "capital": "法国巴黎、英国伦敦、德国柏林、意大利帕尔马",
+      "population": "研究者约数百人，电磁学快速走向产业化",
+      "culture": "场的概念；电与磁的对称统一；位移电流；电磁波与光的统一；能量在场中流动",
+      "keyFigures": [
+        "fig-phy-faraday",
+        "fig-phy-maxwell",
+        "fig-phy-hertz"
+      ],
+      "relatedEvents": [
+        "ev-phy-coulomb-law",
+        "ev-phy-volta-battery",
+        "ev-phy-ampere-law",
+        "ev-phy-faraday-induction",
+        "ev-phy-maxwell-equations",
+        "ev-phy-hertz-radio"
+      ],
+      "tags": [
+        "电磁学",
+        "场论",
+        "统一理论",
+        "第二次工业革命"
+      ]
+    },
+    {
+      "id": "phy-nuclear-era",
+      "name": "原子核的探索",
+      "alias": "放射性与核反应",
+      "parentId": "phy-nuclear-particle",
+      "startYear": 1895,
+      "endYear": 1950,
+      "startDateText": "公元1895年",
+      "endDateText": "公元1950年",
+      "colorKey": "phy-particle",
+      "summary": "X 射线与放射性的发现打开了原子核内部的世界，并把化学与物理学重新连接起来。贝克勒尔发现天然放射性，居里夫妇从沥青铀矿中分离出钋与镭，并用放射性强度测定镭的原子量，开创了放射化学。卢瑟福的核式原子模型与人工核嬗变，查德威克的中子发现使核的构成问题得到解决，安德森的正电子发现则把反物质带入物理学。1938年哈恩与施特拉斯曼发现铀裂变，迈特纳与弗里施给出解释，费米随后建成第一个可控核反应堆，核能与核武器的双重后果深刻改变了二十世纪的历史。",
+      "territory": "X 射线、放射性、原子核模型、核反应、裂变与链式反应",
+      "capital": "德国柏林与慕尼黑、法国巴黎、英国剑桥、意大利罗马",
+      "population": "研究者约数百人，核物理从化学与物理的交界处独立出来",
+      "culture": "放射性与核衰变；核式原子模型；核结合能与质量亏损；链式反应",
+      "keyFigures": [
+        "fig-phy-roentgen",
+        "fig-phy-becquerel",
+        "fig-phy-curie-marie",
+        "fig-phy-curie-pierre",
+        "fig-phy-chadwick",
+        "fig-phy-hahn",
+        "fig-phy-meitner",
+        "fig-phy-fermi"
+      ],
+      "relatedEvents": [
+        "ev-phy-xray-discovery",
+        "ev-phy-radioactivity-discovery",
+        "ev-phy-radium-discovery",
+        "ev-phy-neutron-discovery",
+        "ev-phy-fission-discovery",
+        "ev-phy-positron-discovery"
+      ],
+      "tags": [
+        "原子核",
+        "放射性",
+        "裂变",
+        "放射化学"
+      ]
+    },
+    {
+      "id": "phy-particle-era",
+      "name": "标准模型与粒子物理",
+      "alias": "夸克、规范场论与对撞机",
+      "parentId": "phy-nuclear-particle",
+      "startYear": 1950,
+      "endYear": 2026,
+      "startDateText": "公元1950年",
+      "endDateText": "\u0001",
+      "colorKey": "phy-astro",
+      "summary": "粒子物理在二战后成为物理学的引领方向。费米、狄拉克与费曼等人发展了量子场论的方法，朝永振一郎、施温格与萨拉姆完成量子电动力学的重整化，Glashow、Weinberg 与 Salam 提出电弱统一规范理论并由 't Hooft 与 Veltman 证明其可重整化，盖尔-曼提出夸克模型与强子 SU(3) 结构。1964年希格斯提出质量起源机制，1967年后中性流被发现，1974年 't Hooft 提出规范场理论的重整化方案，1983年W与Z粒子被发现，1995年顶夸克被发现，2012年希格斯玻色子在大强子对撞机上被观测到，标准模型最后一块拼图落地。大科学协作的组织模式也在这几十年中成熟。",
+      "territory": "量子场论、规范场论、标准模型、强子结构、对撞机与探测器",
+      "capital": "瑞士日内瓦 CERN、美国费米实验室与布鲁克海文、日本东京",
+      "population": "研究者数万人，粒子物理是大科学协作的典范",
+      "culture": "规范不变性与对称性破缺；希格斯机制；重整化；夸克与胶子；标准模型三组分",
+      "keyFigures": [
+        "fig-phy-higgs",
+        "fig-phy-weinberg",
+        "fig-phy-dirac",
+        "fig-phy-feynman"
+      ],
+      "relatedEvents": [
+        "ev-phy-quark-model",
+        "ev-phy-standard-model",
+        "ev-phy-higgs-boson",
+        "ev-phy-lhc-start"
+      ],
+      "tags": [
+        "标准模型",
+        "夸克",
+        "对撞机",
+        "规范场论"
+      ]
+    },
+    {
+      "id": "phy-condensed-modern",
+      "name": "凝聚态与现代材料",
+      "alias": "超导、半导体与纳米材料",
+      "parentId": "phy-condensed",
+      "startYear": 1900,
+      "endYear": 2026,
+      "startDateText": "公元1900年",
+      "endDateText": "公元2026年",
+      "colorKey": "phy-astro",
+      "summary": "二十世纪的凝聚态物理把量子力学用于固体、液体与复杂体系，并产生了半导体、超导、磁性材料与纳米材料等改变世界的技术。Bloch 的能带理论解释了金属、半导体与绝缘体的区别，Landau 的量子液体与费米液体理论提供了统一框架，Feynman 的路径积分表述使强关联问题有了新的工具。1911年超导现象被发现，1957年BCS理论给出解释，1962年约瑟夫森效应使超导进入电子学，1986至1988年的高温超导突破成为材料科学的高峰。1956年富勒烯、1985年碳纳米管与2004年石墨烯的发现，以及液晶显示与半导体器件的产业化，使凝聚态物理从基础研究走进日常生活的每个层面。",
+      "territory": "能带理论、超导、磁性、半导体器件、液晶显示、纳米材料与石墨烯",
+      "capital": "瑞士苏黎世、美国伊利诺伊与新泽西、德国哥廷根、日本东京",
+      "population": "研究者上万人，凝聚态物理直接支撑半导体与显示产业",
+      "culture": "能带与费米面；序参量与相变；集体激发与准粒子；低维体系与拓扑",
+      "keyFigures": [
+        "fig-phy-bloch",
+        "fig-phy-feynman",
+        "fig-phy-bardeen",
+        "fig-phy-onnes",
+        "fig-phy-gibbs-josephson"
+      ],
+      "relatedEvents": [
+        "ev-phy-superconductivity-discovery",
+        "ev-phy-bcs-theory",
+        "ev-phy-high-tc-superconductor",
+        "ev-phy-graphene-discovery",
+        "ev-phy-liquid-crystal-display",
+        "ev-phy-xray-diffraction-crystal"
+      ],
+      "tags": [
+        "超导",
+        "半导体",
+        "石墨烯",
+        "液晶显示",
+        "纳米材料"
+      ]
+    },
+    {
+      "id": "phy-cosmo-modern",
+      "name": "现代宇宙学",
+      "alias": "大爆炸、暗能量与多信使天文学",
+      "parentId": "phy-cosmology",
+      "startYear": 1920,
+      "endYear": 2026,
+      "startDateText": "公元1920年",
+      "endDateText": "\u0001",
+      "colorKey": "phy-astro",
+      "summary": "二十世纪的宇宙学把物理学推向宇宙尺度，并获得了前所未有的观测精度。1929年哈勃发现星系退行，确立了膨胀宇宙图景；伽莫夫、阿尔弗与赫曼孙提出大爆炸模型并解释轻元素丰度，1964年彭奇斯与威尔逊发现宇宙微波背景辐射，为这一模型提供了决定性验证。1998年两支超新星观测团队独立发现宇宙膨胀正在加速，引出暗能量概念。2015年LIGO首次直接探测到引力波，2020年LIGO、Virgo与KAGRA联合发布首例黑洞—中子星并合事件，标志着多信使天文学时代的开启，引力波源分布成为测量宇宙学参数的新工具。",
+      "territory": "星系红移与距离阶梯、大爆炸与轻元素合成、微波背景与暴胀、暗物质与暗能量、引力波",
+      "capital": "美国帕萨迪纳与普林斯顿、新泽西州贝尔实验室、瑞士日内瓦与巴黎",
+      "population": "研究者数千人，宇宙学进入精确观测时代",
+      "culture": "膨胀宇宙与大爆炸；各向异性与暴胀；暗物质与暗能量；多信使观测；标准尺测距",
+      "keyFigures": [
+        "fig-phy-hubble",
+        "fig-phy-gamo",
+        "fig-phy-wilson",
+        "fig-phy-greene",
+        "fig-phy-penrose2",
+        "fig-phy-hawking",
+        "fig-phy-weinberg"
+      ],
+      "relatedEvents": [
+        "ev-phy-hubble-expansion",
+        "ev-phy-big-bang",
+        "ev-phy-cmb-discovery",
+        "ev-phy-dark-energy",
+        "ev-phy-gravitational-waves"
+      ],
+      "tags": [
+        "大爆炸",
+        "微波背景",
+        "暗能量",
+        "引力波",
+        "多信使"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-phy-aristotle-mechanics",
+      "name": "亚里士多德的运动与力学体系",
+      "year": -350,
+      "yearEnd": null,
+      "dateText": "公元前350年前后",
+      "periodId": "phy-classical",
+      "category": "scientific",
+      "location": "古希腊雅典",
+      "summary": "亚里士多德把运动学说建立在质料与形式、潜能与现实的区分上，提出力是改变运动状态的原因，并区分自然运动与被迫运动。",
+      "detail": "亚里士多德在《物理学》《天文学》《论动物运动》等著作中构建了西方第一个系统的自然哲学体系。他认为万物由土、水、气、火四种元素构成及其冷、干、热、湿四种性质组合而成，运动是潜能向现实的实现，力的作用是使事物偏离自然状态或维持其运动。在力学上，他得出「重物比轻物下落快」「抛物线轨迹为8字形」等结论，这些结论在伽利略之前统治了西方近两千年。他提出行星天体作完美圆周运动，需要永恒不竭的推动者，这一图景成为近代天文学与力学必须突破的对象。他关于连续性、无限可分性与数学在自然中的地位的论述，亦深刻影响了后来的自然哲学传统。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-aristotle"
+      ],
+      "tags": [
+        "自然哲学",
+        "力学",
+        "四元素说",
+        "亚里士多德"
+      ]
+    },
+    {
+      "id": "ev-phy-archimedes-mechanics",
+      "name": "阿基米德原理与杠杆定律",
+      "year": -250,
+      "yearEnd": null,
+      "dateText": "公元前250年前后",
+      "periodId": "phy-classical",
+      "category": "scientific",
+      "location": "古希腊叙拉古",
+      "summary": "阿基米德发现浮力定律与杠杆原理，把静力学建立在可计算的几何与数学证明之上。",
+      "detail": "阿基米德在《论平面图形的重心》《论浮体》中提出：浸入液体所受浮力等于所排开液体的重量，即物体所受浮力等于其排开液体所受重力。这一定律解释了船为何浮、秤为何在空气中失真，至今仍是流体力学与海洋工程的基本出发点。他同时给出杠杆原理，断言「以短的臂撬动长的臂，可以移动任意重量」，并用几何证明省力比等于臂长之比。著名的「阿基米德浴缸之谜」记载他发现国王王冠掺假，据传他洗澡时高呼「找到了」。他首创用穷举法求圆面积与圆周率，即后来著名的割圆术，并在天文学上用几何模型解释日心说需要修正的地方。",
+      "importance": 4,
+      "figures": [],
+      "tags": [
+        "静力学",
+        "浮力",
+        "杠杆",
+        "数学物理"
+      ]
+    },
+    {
+      "id": "ev-phy-galileo-falling",
+      "name": "伽利略斜面实验与惯性原理",
+      "year": 1604,
+      "yearEnd": null,
+      "dateText": "公元1604年",
+      "periodId": "phy-classical",
+      "category": "scientific",
+      "location": "意大利比萨",
+      "summary": "伽利略用斜面实验测得自由落体加速度与距离平方成正比，否定了亚里士多德的重物快落说。",
+      "detail": "伽利略在比萨斜塔的传说虽然可能有夸张，但他真正做的是更系统的斜面实验：让铜球沿光滑斜槽滚下，用滴水计时测量下落时间，得出「从静止开始自由下落的物体，经过时间 t 落下的距离与 t 的平方成正比」，并指出这一规律对不同重量和不同斜度都成立，只要把水平距离按角度折算即可。他由此提出「合运动分解」的思路，并得出抛体轨迹为抛物线的正确结论。他还用望远镜观测星空，发现木星的四颗卫星、金星的位相、月面的山脉与环形山，从而为日心说提供了直接证据。1605年他写成《对话》，以虚构的对话形式论证地球在运动，「惯性原理」与「参照系」的思想已在此初露端倪。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-galileo"
+      ],
+      "tags": [
+        "斜面实验",
+        "自由落体",
+        "惯性",
+        "日心说"
+      ]
+    },
+    {
+      "id": "ev-phy-kepler-laws",
+      "name": "开普勒行星运动三定律",
+      "year": 1609,
+      "yearEnd": 1619,
+      "dateText": "公元1609年－公元1619年",
+      "periodId": "phy-classical",
+      "category": "scientific",
+      "location": "德国普拉滕",
+      "summary": "开普勒依据第谷的观测数据总结出椭圆轨道定律、面积定律与调和定律，为牛顿的万有引力定律准备了精确的经验基础。",
+      "detail": "开普勒继承了第谷·布拉赫在布拉格积累的高精度行星观测数据，先后提出「轨道是椭圆、太阳位于一个焦点」（第一定律，1609年出版于《新天文学》），「行星在相等时间内扫过相等面积」（第二定律，同书），以及「轨道半长轴的平方与公转周期的立方成正比」（第三定律，1619年发表于《世界和谐》）。这三定律把行星运动从几何学上可能的圆与本轮体系彻底解放，是历史上第一次用简洁数学规律精确描述天体运动。开普勒本人以「数学是世界的语言」为信念，长期忍受贫困、疾病与丧妻之痛坚持整理第谷的观测数据，是科学史上数据驱动研究的范例。其「 Harmonices Mundi 」还试图把行星距离与音律比例相联系，是物理与音乐美学的早期联姻尝试。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-kepler"
+      ],
+      "tags": [
+        "行星运动",
+        "开普勒定律",
+        "天文观测"
+      ]
+    },
+    {
+      "id": "ev-phy-boyle-air-pump",
+      "name": "波义耳的空气泵与「波义耳定律」",
+      "year": 1659,
+      "yearEnd": null,
+      "dateText": "公元1659年",
+      "periodId": "phy-classical",
+      "category": "technology",
+      "location": "英格兰牛津",
+      "summary": "罗伯特·波义耳制造出改进的空气泵并系统研究空气的弹性，首次以实验确立「压力与体积成反比」的规律。",
+      "detail": "波义耳在1659年与惠更斯等人合作改进了奥托·冯·格里克的空气泵，抽出了玻璃球内的部分空气，并把这种新式「气体力学实验」引入日常研究与教学。他用注入水银的气压计测量被封闭气体的体积与压力，在1662年《空气的实验研究》中得出：一定温度下气体的体积与所受压力成反比，即后人所称的波义耳定律，这是人类第一次发现气体在宏观上遵循普适定量规律。他创立了「波义耳讲座」（后来的皇家学会前身），推动实验报告以统一格式记录，并强调「自然哲学的最终目的是服务于人的生活」。他还通过实验否定了「空气有弹性是因为其中有火」的亚里士多德式解释。",
+      "importance": 3,
+      "figures": [],
+      "tags": [
+        "空气泵",
+        "气体定律",
+        "实验报告"
+      ]
+    },
+    {
+      "id": "ev-phy-newton-principia",
+      "name": "牛顿《自然哲学的数学原理》与万有引力",
+      "year": 1687,
+      "yearEnd": null,
+      "dateText": "公元1687年",
+      "periodId": "phy-classical",
+      "category": "reform",
+      "location": "英格兰剑桥",
+      "summary": "牛顿以运动三定律和万有引力定律统一了天上与地上的运动，奠定了经典力学的完整体系。",
+      "detail": "《自然哲学的数学原理》于1687年出版，被普遍视为近代科学的奠基之作。书中第一定律表述为「任何物体都将保持其静止或匀速直线运动状态，除非受到外力作用」，第二定律给出「作用力等于质量乘以加速度」，第三定律规定「作用与反作用大小相等、方向相反」。在开普勒三定律基础上，牛顿证明使行星沿椭圆轨道运行的力与距离平方成反比，从而提出万有引力定律：任何两个物体之间的引力与其质量乘积成正比、与距离平方成反比。由此他导出开普勒三定律，并把抛体运动、流体自由表面、真空中的阻力等问题纳入同一套数学框架。全书用拉丁文写成，牛顿在此书中发展出微积分这一数学工具，形成科学与数学相互推动的典范。「自然哲学的最终目的是服务于人的生活」的思想，使其理论迅速转化为工程与航海的实际能力。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-newton",
+        "fig-phy-galileo",
+        "fig-phy-kepler"
+      ],
+      "tags": [
+        "运动三定律",
+        "万有引力",
+        "经典力学",
+        "微积分"
+      ]
+    },
+    {
+      "id": "ev-phy-cavendish-torsion",
+      "name": "卡文迪许扭秤实验测量地球密度",
+      "year": 1798,
+      "yearEnd": null,
+      "dateText": "公元1798年",
+      "periodId": "phy-classical",
+      "category": "scientific",
+      "location": "英格兰伦敦",
+      "summary": "卡文迪许用极细扭丝测出两球间的微弱引力，反推出地球的密度，从而「称量了地球」。",
+      "detail": "亨利·卡文迪许在1798年发表于《论确定地球密度的实验》的论文中，使用他自己发明的扭秤装置，测量了两个小球之间极其微弱的万有引力。为了抵消空气流动和热扰动，他采用了一间密闭的小房间，并把望远镜与读数标尺一起悬挂在同一根悬丝上观察。依据测得的引力常数反推，地球的平均密度约为水的密度，这一数值远高于当时的猜测，接近现代值的一半。他把自己的实验描述为「称量地球」，并留下一句著名的话：这项实验对普通读者而言「几乎毫无趣味」，但他本人却乐在其中。这项工作长期无人问津，直到一百多年后卡文迪许的扭秤原理被用于测定基本电荷与万有引力常数，成为精密测量物理学的源头之一。",
+      "importance": 3,
+      "figures": [
+        "fig-phy-cavendish"
+      ],
+      "tags": [
+        "扭秤",
+        "万有引力常数",
+        "地球密度"
+      ]
+    },
+    {
+      "id": "ev-phy-fourier-heat",
+      "name": "傅里叶的热传导理论",
+      "year": 1822,
+      "yearEnd": null,
+      "dateText": "公元1822年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "法国巴黎",
+      "summary": "傅里叶提出热传导方程并引入用正弦余弦函数展开任意函数的思想，开创了数学物理方法。",
+      "detail": "约瑟夫·傅里叶在1822年向巴黎科学院提交的《热传导理论》中，把热在固体中的传播写成偏微分方程，并求出球体、圆柱体等几何体的温度分布解。为了求解这类方程，他发展出把任意函数展开为三角级数的思想，即今天所说的傅里叶级数，并给出了系数计算的严格方法。傅里叶的分析方法对19世纪后期数学与物理学影响深远，成为求解线性偏微分方程的通用工具。他把热视为一种流体般的「热质」，用以解释传导、对流与辐射，这一解释虽在后来被分子运动论取代，但其数学框架长期沿用。此外，傅里叶还研究过分析力学与热力学，并留下「数学分析中还有待处理的宝藏」等箴言，被后世反复引用。",
+      "importance": 3,
+      "figures": [
+        "fig-phy-fourier"
+      ],
+      "tags": [
+        "热传导",
+        "傅里叶级数",
+        "数学物理"
+      ]
+    },
+    {
+      "id": "ev-phy-carnot-cycle",
+      "name": "卡诺循环与热效率上限",
+      "year": 1824,
+      "yearEnd": null,
+      "dateText": "公元1824年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "法国巴黎",
+      "summary": "卡诺提出理想热机循环并证明热机效率只取决于两个热源的温度之差，给出了热力学的上限。",
+      "detail": "萨迪·卡诺在1824年的著作《关于推动热动力的思考》中，设想了一种理想的可逆热机：工质在高温热源吸热、作等温膨胀膨胀功、再作绝热膨胀降温、在低温热源等温放热、最后绝热压缩回到初态。他通过一个巧妙的「制冷循环与热机循环配对」的思想实验证明：在相同的高低温热源之间，任何可逆热机的效率都相同，且不可逆热机的效率必然更低。他由此得出结论，「热机的效率与工质无关，只由两个热源的温度决定」，并据此估算，90℃蒸汽与30℃冷凝水之间的效率上限约为一成。这一「卡诺上限」为热力学第二定律的建立奠定了基础。卡诺本人在1824年因霍乱去世，年仅36岁，其手稿由弟弟整理出版，随后被 Clapeyron 补充为状态图的热力学解释。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-carnot"
+      ],
+      "tags": [
+        "卡诺循环",
+        "热效率",
+        "热力学第二定律"
+      ]
+    },
+    {
+      "id": "ev-phy-joule-energy",
+      "name": "焦耳测定机械功与热的当量",
+      "year": 1843,
+      "yearEnd": 1850,
+      "dateText": "公元1843年－公元1850年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "英格兰曼彻斯特",
+      "summary": "焦耳用多种实验测得机械功与热之间存在确定的数值关系，为能量守恒定律奠基。",
+      "detail": "詹姆斯·焦耳在1843年发表《论热功当量》，用曲柄搅拌水银温度计中的水银，通过机械功把热量传给气体，测得每产生一磅磅力英尺的机械功约相当于使一磅水升高1°F所需的热量。随后他在1840年代至1850年代间用多种完全不同的方法重复验证：让水通过多孔塞节流测热、让空气推动叶片、让水泵做功、摩擦生热等等，所得数值在实验精度内一致。这些结果确立了热量与功之间的定量换算关系，即热功当量约等于每磅水每华氏度2545焦耳，从而为能量守恒定律提供了坚实的实验基础。焦耳与亥姆霍兹各自独立地表述了能量守恒定律，而焦耳的实验数据使这一原理从哲学信念变成了可以测量的物理定律。焦耳还研究过气体分子速度、磁阻与电动力学，并共同创办了《哲学杂志》的英文版。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-joule"
+      ],
+      "tags": [
+        "能量守恒",
+        "热功当量",
+        "实验测量"
+      ]
+    },
+    {
+      "id": "ev-phy-clausius-entropy",
+      "name": "克劳修斯引入熵与热力学第二定律",
+      "year": 1850,
+      "yearEnd": 1865,
+      "dateText": "公元1850年－公元1865年",
+      "periodId": "phy-thermal-stat",
+      "category": "reform",
+      "location": "德国柏林",
+      "summary": "克劳修斯表述了热力学第二定律并定义熵，为能量退化与不可逆过程提供了定量标度。",
+      "detail": "克劳修斯在1850年独立地提出热力学第二定律的表述：热量不能自发地从低温物体传向高温物体，这一「热量传递方向性」的说法与焦耳的能量守恒互补，构成了热力学的两条基本定律。1865年，他进一步写成《热力学主要理论的推导》，用可逆循环 Carnot 过程导出关系式，提出「不可逆过程使熵增加」这一原理，并把熵定义为 dS = dQ/T，即热量与绝对温度之比在可逆过程中的变化。他用「能量退化」与「补偿过程」等概念阐明自然过程的不可逆性，为宇宙热寂说提供了理论依据。熵这一概念后来成为信息论、统计物理、生命科学乃至经济学的通用语言，是物理学影响最广泛的抽象概念之一。克劳修斯还参与创立了工程热力学，为蒸汽机效率的改进提供了理论依据。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-clausius"
+      ],
+      "tags": [
+        "熵",
+        "热力学第二定律",
+        "不可逆性"
+      ]
+    },
+    {
+      "id": "ev-phy-maxwell-kinetic",
+      "name": "麦克斯韦速率分布与电磁理论",
+      "year": 1860,
+      "yearEnd": 1865,
+      "dateText": "公元1860年－公元1865年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "苏格兰爱丁堡、英格兰剑桥",
+      "summary": "麦克斯韦从概率统计出发导出分子速率分布律，为气体分子运动论提供定量基础；随后建立电磁场方程。",
+      "detail": "麦克斯韦在1860年的《气体分子运动论》中，把气体视为大量弹性分子的集合，用概率方法推出分子速率的分布函数，解释了扩散、黏滞与热传导等输运现象，并导出压强公式与平均动能的关系，这为后来统计力学的建立开辟了道路。1865年他发表《论电磁场》，把法拉第的场线思想形式化，引入位移电流概念，写出著名的场方程组，预言光是电磁波并给出其速度等于光速的结论。他还在《热理论》中发展了可推广到其他领域的统计方法。麦克斯韦是罕见地在多个领域同时留下奠基性成果的物理学家，他的电磁理论既是第二次工业革命的直接技术源头，也是爱因斯坦狭义相对论的重要前史。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-maxwell"
+      ],
+      "tags": [
+        "分子运动论",
+        "速率分布",
+        "电磁理论"
+      ]
+    },
+    {
+      "id": "ev-phy-boltzmann-entropy",
+      "name": "玻尔兹曼与统计力学的熵解释",
+      "year": 1866,
+      "yearEnd": 1906,
+      "dateText": "公元1866年－公元1906年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "奥地利维也纳、德国莱比锡",
+      "summary": "玻尔兹曼把熵解释为宏观态对应的微观状态数之对数，开创了统计力学的基本方法。",
+      "detail": "路德维希·玻尔兹曼在1866年发表的论文中，用分子运动的统计方法处理气体理论，并与麦克斯韦、克洛德松共同发展了统计力学的基本概念。1877年他引入相空间与宏观态、微观态的区分，提出一个宏观状态所对应的微观状态数为 W，熵则为 S = k ln W，这一定律把宏观热力学与微观分子运动学连接起来，也把「熵」解释为一种统计性的、信息性的量。他对麦克斯韦分布律作过推广，对量子统计的开创性工作（玻色—爱因斯坦统计的前身）也出自他的手笔。玻尔兹曼性格激烈，长期为原子论辩护并与实证论者论战，1906年在意大利杜伊诺的一次度假中自杀。他墓碑上的公式正是 S = k ln W。死后其著作由后人整理重印，第三次世界大战后更被译介到英语世界，影响反而超出欧洲本土。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-boltzmann"
+      ],
+      "tags": [
+        "统计力学",
+        "玻尔兹曼熵",
+        "相空间"
+      ]
+    },
+    {
+      "id": "ev-phy-brownian-movement",
+      "name": "布朗运动的观测与理论解释",
+      "year": 1827,
+      "yearEnd": 1905,
+      "dateText": "公元1827年－公元1905年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "英格兰伦敦、德国柏林",
+      "summary": "布朗在显微镜下观察到花粉微粒的持续无规则运动，后由爱因斯坦给出分子热运动的定量解释。",
+      "detail": "苏格兰植物学家罗伯特·布朗在1827年用显微镜观察悬浮在水中的花粉粒，发现这些微粒不停地做无规则运动，且运动永不停歇。他排除了生命活动的解释，指出即使是无机微粒也有同样现象，这一运动后来被称为布朗运动。1905年，爱因斯坦在论文《论动理论所要求的运动》中对布朗运动给出了第一个定量理论：他计算了半径为 r 的小球在温度 T、黏滞系数 η 的液体中的扩散系数与均方位移的关系，并预测悬浮粒子的平均位移随时间平方根增长。1908年佩兰的实验精确验证了这一预言，并由此测出阿伏加德罗常数，成为分子实在性最有力的实验证据之一。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "布朗运动",
+        "分子热运动",
+        "扩散"
+      ]
+    },
+    {
+      "id": "ev-phy-gibbs-phase-rule",
+      "name": "吉布斯相律与统计力学体系",
+      "year": 1873,
+      "yearEnd": 1902,
+      "dateText": "公元1873年－公元1902年",
+      "periodId": "phy-thermal-stat",
+      "category": "scientific",
+      "location": "美国纽黑文",
+      "summary": "吉布斯建立正则系综与配分函数方法，并导出相律，为统计力学和相平衡理论奠基。",
+      "detail": "约瑟夫·吉布斯在1873年发表的《热力学的基本原理及其在化学中的应用》中，用「系综」概念处理统计问题：设想大量系统构成的系综，对时间或相空间取平均，从而把统计描述与可测量量联系起来。他提出正则系综并引入配分函数，由之导出几乎所有热力学关系式，成为现代统计力学的标准语言。1876年他导出相律，指出在两相平衡中自由度为1，给出了相图的定量骨架。1898年后他转向统计力学，发展了系综平均、相空间体积与涨落理论，并用「涨落—耗散」关联研究输运过程。吉布斯的工作长期未受重视，直到二十世纪初朗道、玻尔兹曼学派重新发现其价值，才成为现代物理的基石之一。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-gibbs"
+      ],
+      "tags": [
+        "系综",
+        "配分函数",
+        "相律",
+        "统计力学"
+      ]
+    },
+    {
+      "id": "ev-phy-coulomb-law",
+      "name": "库仑扭秤定律与电的定量化",
+      "year": 1784,
+      "yearEnd": 1785,
+      "dateText": "公元1784年－公元1785年",
+      "periodId": "phy-electromag",
+      "category": "scientific",
+      "location": "法国巴黎",
+      "summary": "库仑用自己发明的扭秤测出点电荷之间的作用力与距离平方成反比，把静电学变成了定量科学。",
+      "detail": "夏尔-奥古斯丁·库仑在1784至1785年间用扭秤进行了一系列精密测量，先后得出异种电荷相互吸引、同种电荷相互排斥，以及「吸引力或排斥力与两电荷乘积成正比、与距离平方成反比」的定量定律。他所用的扭秤由他本人设计：细丝悬挂的横杆末端装有带电小球，可通过标尺刻度读取扭转角度，从而把微弱的电力转化为可测的几何量。库仑还测定了磁极之间的作用力，发现同样遵循平方反比律，并提出磁「流体」假说。他同时是法国科学院报告的编辑与地学、工程等领域的专家，其《电学著作集》奠定了静电学的实验基础，其定律与万有引力定律形式上的高度一致，促使后来者提出电与引力同源的大胆猜想。",
+      "importance": 4,
+      "figures": [],
+      "tags": [
+        "库仑定律",
+        "扭秤",
+        "静电学"
+      ]
+    },
+    {
+      "id": "ev-phy-volta-battery",
+      "name": "伏特电堆与持续电流",
+      "year": 1800,
+      "yearEnd": null,
+      "dateText": "公元1800年",
+      "periodId": "phy-electromag",
+      "category": "technology",
+      "location": "意大利科莫",
+      "summary": "伏特用锌铜圆片浸在盐水中制成「伏打电堆」，首次获得可持续的电流，开创了电化学与电学应用。",
+      "detail": "亚历山德罗·伏特在1800年向伦敦皇家学会报告，他用锌片与铜片交替排列、间隔以浸有盐水的皮革或纸片，叠成一柱后观察到持续而稳定的水流。这种「伏打电堆」第一次提供了不依赖摩擦或静电的稳定电源，标志着电从此可以「被制造」而不仅是被储存。它立即催生了电解、电镀、电弧灯与电磁铁等应用，并推动了尼科尔·伏打在1801年将电流用于电报实验。伏特同时进行了定量测量，发现不同金属接触产生的电势差与金属对的性质有关，为后来接触电势与电动势概念奠定了基础。他的名字成为电压单位「伏特」的来源，也成为电池与电气技术时代开启的标志。",
+      "importance": 5,
+      "figures": [],
+      "tags": [
+        "伏打电堆",
+        "电流",
+        "电化学"
+      ]
+    },
+    {
+      "id": "ev-phy-faraday-induction",
+      "name": "法拉第的电磁感应与力线",
+      "year": 1831,
+      "yearEnd": 1832,
+      "dateText": "公元1831年－公元1832年",
+      "periodId": "phy-electromag",
+      "category": "scientific",
+      "location": "英格兰伦敦",
+      "summary": "法拉第发现变化磁通产生感应电流，提出电磁感应定律、力线概念与电解定律。",
+      "detail": "迈克尔·法拉第在1831年发现，当磁铁或通电线圈相对于闭合导线回路运动时，回路中会产生感应电流，他随即总结出「法拉第电磁感应定律」：感应电动势的大小取决于穿过回路的磁通量变化率。1832年他进一步发现，磁通量的变化率决定感应电流的方向，这实际上就是后来表述的楞次定律的内容。法拉第还提出「力线」概念，把电与磁的场描绘为布满空间的连续曲线，并以磁力线的疏密表示场强，这一形象化表述为麦克斯韦的数学化铺平了道路。1833至1834年他提出电解定律，规定电解产物与通过的电量成简单整数比，为法拉第电解定律与后来的电解化学、离子概念开辟道路。他还发现旋转的磁铁能使玻璃盘旋转（法拉第圆盘），并长期坚持自然哲学应服务于人类福利的信念。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-faraday"
+      ],
+      "tags": [
+        "电磁感应",
+        "力线",
+        "电解定律"
+      ]
+    },
+    {
+      "id": "ev-phy-ampere-law",
+      "name": "安培定律与电流的磁效应",
+      "year": 1820,
+      "yearEnd": 1822,
+      "dateText": "公元1820年－公元1822年",
+      "periodId": "phy-electromag",
+      "category": "scientific",
+      "location": "法国巴黎",
+      "summary": "安培发现电流的磁效应并给出电流对磁铁作用力的定量公式，建立电与磁的定量联系。",
+      "detail": "1820年，克里斯蒂安·奥斯特在实验中偶然发现通电导线能使附近的磁针偏转，这一消息传到巴黎后，安培立即展开系统研究。他用通电螺线管成功偏转磁针，证明电流周围存在环形磁场；随后推导电流之间作用力的定量表达式，即两平行电流同向相吸、反向相斥，力的大小与电流乘积成正比、与距离平方成反比，这个表达式与库仑的静电与磁力定律形式完全一致，显示电与磁遵从同一套平方反比结构。安培进一步把磁现象归因于分子电流的宏观效果，并率先引入「电动力学」一词讨论电流的作用。他还发展了安培定律的数学表述，这一表述后来成为麦克斯韦场方程的组成部分。",
+      "importance": 4,
+      "figures": [],
+      "tags": [
+        "电流磁效应",
+        "安培定律",
+        "电动力学"
+      ]
+    },
+    {
+      "id": "ev-phy-maxwell-equations",
+      "name": "麦克斯韦方程组与光的电磁本质",
+      "year": 1861,
+      "yearEnd": 1865,
+      "dateText": "公元1861年－公元1865年",
+      "periodId": "phy-electromag",
+      "category": "reform",
+      "location": "苏格兰爱丁堡、英格兰剑桥",
+      "summary": "麦克斯韦写出统一的电磁场方程组，预言光与电磁波同源，并算出其传播速度等于光速。",
+      "detail": "麦克斯韦在1861年《论物理学的假说》与1865年《论电磁场》中，把法拉第的力线思想与安培的电流公式形式化为一组偏微分方程：他引入位移电流概念，使方程在无电荷区也成立，并据此预言存在自持传播的电磁扰动。他从方程算出电磁波在真空中的传播速度为每秒约三亿米，与光速惊人一致，于是断言「我们几乎确信光本身就是在以太中传播的电磁波」。他还导出电磁能量密度与坡印廷矢量，把能量流写进方程，使场成为可以携带和传递能量的物理实体。麦克斯韦方程组是二十世纪所有电磁学与光学的基础，也是爱因斯坦构造狭义相对论的直接起点。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-maxwell",
+        "fig-phy-faraday"
+      ],
+      "tags": [
+        "麦克斯韦方程组",
+        "位移电流",
+        "电磁波"
+      ]
+    },
+    {
+      "id": "ev-phy-hertz-radio",
+      "name": "赫兹实验证实电磁波",
+      "year": 1886,
+      "yearEnd": 1889,
+      "dateText": "公元1886年－公元1889年",
+      "periodId": "phy-electromag",
+      "category": "scientific",
+      "location": "德国卡尔斯鲁厄",
+      "summary": "赫兹用感应线圈与环形谐振器产生并接收了微波段的电磁波，验证了麦克斯韦的预言。",
+      "detail": "海因里希·赫兹在1886至1889年间，利用莱顿瓶与感应线圈制造高频振荡电流，让电流通过两个相隔一定间隙的金属小球产生火花，并用一个铜环检波器检测辐射。他测得电磁波的波长、波速与反射、折射、衍射与干涉行为，发现其速度与光速一致、且能被硫酸锌溶液反射、被木板遮挡，从而证明它与光遵守同一套定律。1887年他用锌板反射装置在不到一米的距离内产生了波长约1米的微波，并测得其速度为每秒约2.98亿米。赫兹的实验在物理上证明了麦克斯韦理论的正确性，直接催生了无线电报与无线通信：马可尼与尼科拉·特斯拉随后将这一原理推向实用。赫兹本人却因健康早逝，未能见证自己工作的巨大产业后果。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-hertz"
+      ],
+      "tags": [
+        "电磁波",
+        "无线电",
+        "实验验证"
+      ]
+    },
+    {
+      "id": "ev-phy-einstein-1905",
+      "name": "爱因斯坦「奇迹年」四篇论文",
+      "year": 1905,
+      "yearEnd": null,
+      "dateText": "公元1905年",
+      "periodId": "phy-relativity",
+      "category": "scientific",
+      "location": "瑞士伯尔尼",
+      "summary": "爱因斯坦一年内发表光电效应、布朗运动、狭义相对论与质能关系四篇论文，重塑了近代物理学的框架。",
+      "detail": "1905年，26岁的爱因斯坦在伯尔尼专利局工作期间发表了四篇论文。第一篇《论动理论所要求的运动》用统计力学定量解释了布朗运动，为分子实在性提供证据；第二篇《论光电效应的理论》提出光量子假说，用能量 E = hν 解释光电效应，并为爱因斯坦赢得1921年诺贝尔物理学奖；第三篇《论动理论的电动力学》提出狭义相对论的两个基本假设（相对性原理与光速不变性），推出时间膨胀、长度收缩与质量－能量关系；第四篇《论动理论的电动力学》的续篇给出了质能关系 E = mc²。这四项工作从统计、量子、光学与相对论四个方向同时冲击了经典物理的核心假设，被公认为现代物理学的开端。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "奇迹年",
+        "光电效应",
+        "狭义相对论",
+        "质能关系"
+      ]
+    },
+    {
+      "id": "ev-phy-special-relativity",
+      "name": "狭义相对论的建立与验证",
+      "year": 1905,
+      "yearEnd": 1932,
+      "dateText": "公元1905年－公元1932年",
+      "periodId": "phy-relativity",
+      "category": "reform",
+      "location": "瑞士伯尔尼、美国克利夫兰",
+      "summary": "爱因斯坦提出光速不变与相对性原理，导出时间膨胀与长度收缩，随后由肯廷-米勒实验验证。",
+      "detail": "1905年，爱因斯坦从麦克斯韦方程组的光速不变性出发，结合相对性原理，推导出洛伦兹变换，得到同时性的相对性、时间膨胀与长度收缩等结论，并导出质能关系。1906年他明确提出洛伦兹变换是空间与时间本身性质的体现，而非某种以太效应。实验验证方面，迈克耳孙－莫雷1887年的零结果曾使以太理论陷入困境，爱因斯坦的理论反而解释了它。1912年肯廷与米勒用干涉方法测量运动中的折射率，预言结果与洛伦兹-爱因斯坦收缩理论一致；1932年肯廷-米勒-皮尔孙的氢原子束实验给出更精确验证。此外，1908年迈克耳孙-莫雷-莫利根实验再次确认光速各向同性。相对论从根本上否定了绝对时间与绝对空间的概念，重塑了此后关于时空、因果与宇宙的基本图景。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "狭义相对论",
+        "时间膨胀",
+        "洛伦兹变换"
+      ]
+    },
+    {
+      "id": "ev-phy-general-relativity",
+      "name": "广义相对论的建立",
+      "year": 1915,
+      "yearEnd": 1919,
+      "dateText": "公元1915年－公元1919年",
+      "periodId": "phy-relativity",
+      "category": "reform",
+      "location": "德国柏林",
+      "summary": "爱因斯坦用等效原理把引力解释为时空曲率，提出广义相对论方程并导出引力场方程。",
+      "detail": "1915年11月，爱因斯坦向普鲁士科学院提交论文《广义相对论基础》，提出引力并不是一种「力」，而是物质与能量造成的时空弯曲。他从等效原理出发：人在自由落下的电梯中感受不到重力，与在加速上升的电梯中感受的「惯性力」在局域不可区分，因此引力与惯性可以统一描述。他引入等效原理与广义协变要求，写出爱因斯坦场方程 G + Λg = (8πG/c⁴)T，清楚地表达了物质与时空的相互塑造，并由此导出光线偏折、水星近日点每世纪约43角秒的进动以及引力红移等可检验预言。1916年他基于该理论给出 Schwarzschild 解，描述了黑洞周围的时空。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "广义相对论",
+        "等效原理",
+        "时空曲率",
+        "引力"
+      ]
+    },
+    {
+      "id": "ev-phy-eddington-eclipse",
+      "name": "爱丁顿日食观测验证光线偏折",
+      "year": 1919,
+      "yearEnd": null,
+      "dateText": "公元1919年",
+      "periodId": "phy-relativity",
+      "category": "exploration",
+      "location": "西非 普拉塔与 Sobral，英国格林尼治",
+      "summary": "1919年日全食期间观测到星光被太阳引力偏折，测量结果与广义相对论预言相符。",
+      "detail": "1919年5月29日发生日全食，英国皇家学会组织两支观测队分别前往西非的几内亚与西非的 Sobral（圣布拉斯），由爱丁顿与戴克逊、Cottingham 与克鲁克斯带领，使用当时口径最大的望远镜拍摄日食期间太阳附近恒星的位置。两队独立得出的星光偏折值约为广义相对论预言值的两倍处附近，具体结果（爱丁顿宣布的约1.61角秒）后来被指出存在观测者偏差与数据处理问题，现代重新分析认为原始测量的不确定度被低估。尽管如此，这次观测在公众与学术界的意义巨大：它是人类首次用天文观测验证广义相对论，使爱因斯坦迅速成为世界名人，「日食使相对论闻名」成为科学传播史上的经典案例。",
+      "importance": 3,
+      "figures": [
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "日食观测",
+        "光线偏折",
+        "实验验证"
+      ]
+    },
+    {
+      "id": "ev-phy-gravitational-waves",
+      "name": "LIGO首次直接探测引力波",
+      "year": 2015,
+      "yearEnd": null,
+      "dateText": "公元2015年",
+      "periodId": "phy-relativity",
+      "category": "scientific",
+      "location": "美国华盛顿州 汉福德、路易斯安那州 利文斯顿",
+      "summary": "LIGO 探测器直接记录到两个黑洞并合产生的引力波，验证了爱因斯坦百年前的预言。",
+      "detail": "2015年9月14日，LIGO（激光干涉引力波天文台）的两台4公里臂长探测器几乎同时记录到一段持续约0.2秒的信号，两个信号到达时间相差约7毫秒，与两台探测器相距3000公里的几何差一致。信号频率从约35赫兹上升到约250赫兹，符合一对约36倍与29倍太阳质量黑洞螺旋并合并最终合并的理论波形，而合并后的质量约62倍太阳质量，与观测到的引力波信号特征及2017年发现的首个中子星并合事件互相印证。引力波信号还携带了有关中子星物质压强的信息。2016年2月11日这一结果正式公布，是引力波天文学的诞生时刻，也是爱因斯坦广义相对论一百年来最辉煌的一次实验确认，并使物理学界获得了「观测宇宙的新眼睛」。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-weinberg"
+      ],
+      "tags": [
+        "引力波",
+        "LIGO",
+        "黑洞并合",
+        "多信使天文学"
+      ]
+    },
+    {
+      "id": "ev-phy-hawking-radiation",
+      "name": "霍金辐射与黑洞热力学",
+      "year": 1974,
+      "yearEnd": null,
+      "dateText": "公元1974年",
+      "periodId": "phy-relativity",
+      "category": "scientific",
+      "location": "英国剑桥",
+      "summary": "霍金把量子场论用于黑洞视界附近，推导出黑洞会发出微弱热辐射并缓慢蒸发。",
+      "detail": "1974年，史蒂芬·霍金在剑桥与同事合作，考察黑洞视界附近不断涨落的量子场，发现虚粒子对的产生与湮灭在视界附近不再对称：一对中的一个可能坠入黑洞，另一个被抛出，表现为黑洞自发向外发出微弱辐射，其谱形与温度 T = ℏc³/(8πGMk_B) 成正比的绝对黑体辐射一致。这一「霍金辐射」意味着黑洞并非永恒不灭，而会因蒸发而逐渐消亡，其寿命与质量的三次方成正比。该结果把量子论、引力和热力学联结起来，导出了贝肯斯坦的黑洞熵公式 S = k_B c³A/(4Gℏ)，并引出后来被热烈讨论的「信息悖论」。霍金辐射至今尚无直接实验观测，但已成为黑洞物理、弦论与信息论交汇的核心概念，深刻影响了当代理论物理学的方向。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-hawking",
+        "fig-phy-penrose"
+      ],
+      "tags": [
+        "霍金辐射",
+        "黑洞",
+        "信息悖论"
+      ]
+    },
+    {
+      "id": "ev-phy-planck-quantum",
+      "name": "普朗克的能量量子假说",
+      "year": 1900,
+      "yearEnd": null,
+      "dateText": "公元1900年",
+      "periodId": "phy-quantum",
+      "category": "scientific",
+      "location": "德国柏林",
+      "summary": "普朗克为解释黑体辐射谱引入了能量量子 hν，开创了量子理论。",
+      "detail": "1900年10月，马克斯·普朗克在柏林向德国物理学会报告，为拟合黑体辐射的实验曲线，他提出物质与辐射交换能量时，能量只能以 hν 的整数倍进行，h 为普朗克常量，约 6.626×10⁻³⁴ 焦耳·秒。这一看似违背连续性直觉的假设，出色地再现了实验数据。普朗克本人起初并不情愿，曾试图用完全不同的方式拟合曲线，但都失败。他后来形容这是「绝望之举」，并把引入量子假设说成是「牺牲了我原有的信念」。量子概念从此进入物理学，并在二十年后经普朗克本人荣获诺贝尔物理学奖而得到承认。普朗克还是一位出色的科学组织者，长期推动学术交流与科学普及，是德国物理学传统的核心人物。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-planck"
+      ],
+      "tags": [
+        "能量量子",
+        "黑体辐射",
+        "普朗克常量"
+      ]
+    },
+    {
+      "id": "ev-phy-einstein-photoelectric",
+      "name": "光电效应与爱因斯坦的光量子解释",
+      "year": 1905,
+      "yearEnd": null,
+      "dateText": "公元1905年",
+      "periodId": "phy-quantum",
+      "category": "scientific",
+      "location": "瑞士伯尔尼",
+      "summary": "爱因斯坦用光量子假说解释光电效应，指出光的能量与频率成正比，验证了爱因斯坦光电方程。",
+      "detail": "1887年赫兹发现紫外光照射金属会放出火花，1888年伦纳德证实这就是光电效应并测得遏止电压，但经典电磁理论无法解释其规律。1905年爱因斯坦提出：光由能量为 hν 的光子组成，频率越高的光子能量越大；当光子能量超过金属的逸出功时，电子被逸出并获得最大动能，由此得到光电方程 eV = hν − W。这一预言精确给出了光电子最大动能与频率的线性关系及其截止频率，并预言光电子动能与光强无关。1916年密立根用实验精确验证了该方程，把普朗克常量测定到当时最佳精度，此项成果成为光量子假说的决定性证据。爱因斯坦因此获1921年诺贝尔物理学奖，他自己则视光量子为他「最革命」的物理思想。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "光电效应",
+        "光量子",
+        "爱因斯坦光电方程"
+      ]
+    },
+    {
+      "id": "ev-phy-bohr-atom",
+      "name": "玻尔的原子定态模型与对应原理",
+      "year": 1913,
+      "yearEnd": 1920,
+      "dateText": "公元1913年－公元1920年",
+      "periodId": "phy-quantum",
+      "category": "reform",
+      "location": "丹麦哥本哈根",
+      "summary": "玻尔提出电子只能在特定定态轨道上运动并跃迁发光，成功解释氢原子光谱。",
+      "detail": "1913年，尼尔斯·玻尔在卢瑟福核式原子模型的基础上提出三条假设：电子只能在一系列分立且稳定的定态轨道上运动；定态轨道上电子不辐射电磁波；电子在两个定态之间跃迁时才吸收或发射光子，光子能量等于两定态能量之差。由此他得到氢原子的能级公式与里德伯-巴耳末公式，精确解释了氢原子光谱的实验规律，并预言了氦离子光谱。他提出的「对应原理」指出，量子力学在量子数很大时应当过渡到经典力学，这一思想成为后来建立旧量子理论向新量子力学过渡的桥梁。玻尔1917年提出角量子化条件，解释斯塔克效应。1918年后他主持建立哥本哈根学派，吸引玻尔兹曼、泡利、海森堡、狄拉克等年轻学者，形成「哥本哈根诠释」的策源地。玻尔因原子结构和原子核结构获1922年诺贝尔物理学奖，还因推动核能研究与成立国际理论物理研究所而影响深远。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-bohr"
+      ],
+      "tags": [
+        "原子模型",
+        "定态与跃迁",
+        "对应原理",
+        "哥本哈根学派"
+      ]
+    },
+    {
+      "id": "ev-phy-heisenberg-matrix",
+      "name": "海森堡矩阵力学与不确定原理",
+      "year": 1925,
+      "yearEnd": 1927,
+      "dateText": "公元1925年－公元1927年",
+      "periodId": "phy-quantum",
+      "category": "reform",
+      "location": "德国哥廷根",
+      "summary": "海森堡创立矩阵力学并提出位置与动量不能同时精确确定的不确定性原理，开辟量子力学新途径。",
+      "detail": "1925年，青年物理学家维纳·海森堡因到海边度假无法计算氦原子光谱而受阻，转而尝试只用可观测量（频率、跃迁强度）来构造量子力学，于是写出了第一个量子力学的矩阵表述，并由玻恩、约当识破其数学结构是对易矩阵而非普通数。1926年薛定谔的波动力学随后给出等价但更易推广的形式，两者很快被证明在数学上完全等价。1927年海森堡在显微镜下用 γ 射线显微镜 gedanken 实验导出不确定关系Δx·Δp ≥ ℏ/2，指出粒子的位置与动量不能同时任意精确确定，这是量子态内禀的模糊性，并非测量技术不足。该原理直接导致1927年海森堡在索末菲课堂上讲授新量子力学，并促成索末菲、玻恩等人迅速转向量子力学。海森堡因创立矩阵力学获1932年诺贝尔物理学奖，并与玻尔、泡利等人共同创立矩阵力学与不确定原理，长期致力于统一场论与基本粒子物理。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-heisenberg",
+        "fig-phy-bohr"
+      ],
+      "tags": [
+        "矩阵力学",
+        "不确定性原理",
+        "哥廷根"
+      ]
+    },
+    {
+      "id": "ev-phy-schrodinger-equation",
+      "name": "薛定谔方程与波动力学",
+      "year": 1926,
+      "yearEnd": null,
+      "dateText": "公元1926年",
+      "periodId": "phy-quantum",
+      "category": "reform",
+      "location": "瑞士苏黎世",
+      "summary": "薛定谔建立描述波函数的偏微分方程，给出量子力学的波动形式，并提出统计解释雏形。",
+      "detail": "1926年，鲁道夫·薛定谔在苏黎世推导出一个把时间导数与拉普拉斯算子联系起来的偏微分方程，并证明它能精确再现氢原子光谱。他最初称薛定谔方程的解为「波动函数」，并曾试图赋予它真实的物理实在性，认为电子是「像一束波的真正流体」那样的东西。但不久后他注意到自己在相对论性氢原子问题上的结果出现微小的相对论性偏差，便转而采用电子波场的驻波解释，这更接近玻尔的定态图像。1926年，马克斯·玻恩提出概率解释，指出波函数的模平方代表粒子位置的概率密度，从而澄清了波函数并非普通物理量。薛定谔方程成为整个量子力学的核心方程，用于原子、分子、固体的量子理论计算，也是化学键理论、量子化学和现代半导体物理的基本工具。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-schrodinger"
+      ],
+      "tags": [
+        "薛定谔方程",
+        "波函数",
+        "波动力学"
+      ]
+    },
+    {
+      "id": "ev-phy-uncertainty-principle",
+      "name": "玻恩的概率解释与哥本哈根诠释",
+      "year": 1926,
+      "yearEnd": 1927,
+      "dateText": "公元1926年－公元1927年",
+      "periodId": "phy-quantum",
+      "category": "reform",
+      "location": "德国哥廷根",
+      "summary": "玻恩提出波函数的概率解释，确立量子力学的哥本哈根诠释框架。",
+      "detail": "1926年，马克斯·玻恩在一篇论文中提出：薛定谔方程的波函数本身不是可观测的物理量，其模平方才给出粒子在空间各处出现的概率密度，这一解释把统计方法引入了微观理论本身。同年，玻恩与海森堡、约当合作发展了微扰理论，用以计算谱线强度，并建立了矩阵力学的完整数学框架。1927年海森堡提出不确定原理，同年玻尔提出互补性原理，主张波粒二象性是互补而非对立，由此形成了「哥本哈根诠释」的基本轮廓：量子态描述的是关于系统的概率知识，观测导致波包坍缩，测量结果服从概率分布。1927年海利森堡的矩阵力学、薛定谔的波动力学、玻恩的概率解释与不确定原理共同构成了新量子力学的完整体系，并在哥本哈根的学术会议上通过索末菲、海森堡、泡利等人迅速传播到欧洲各地。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-heisenberg",
+        "fig-phy-bohr"
+      ],
+      "tags": [
+        "概率解释",
+        "哥本哈根诠释",
+        "互补原理"
+      ]
+    },
+    {
+      "id": "ev-phy-dirac-equation",
+      "name": "狄拉克方程与正电子预言",
+      "year": 1928,
+      "yearEnd": 1932,
+      "dateText": "公元1928年－公元1932年",
+      "periodId": "phy-quantum",
+      "category": "scientific",
+      "location": "英国剑桥",
+      "summary": "狄拉克提出描述自旋1/2电子的相对论性方程，预言正电子的存在并解释自旋与反物质。",
+      "detail": "1928年，保罗·狄拉克在求解相对论性电子方程时得到一个要求粒子具有质量与能量的条件，从中他推出电子必须具有自旋1/2，并写出著名的狄拉克方程。方程有一个奇怪的负能量解，狄拉克起初把它解释为「负质量电子海」，随后在1931年他意识到，这些负能量状态若被空缺，便对应于带正电荷、自旋相反的粒子，并据此预言了正电子的存在。同年底，安德森在宇宙线实验中观测到轨迹弯曲方向与电子相反的粒子，质量和电荷量与预测完全一致，正电子得到确证，这一发现也直接印证了狄拉克方程的正确性。狄拉克方程与自旋、泡利矩阵的引入是二十世纪量子力学中最深刻的数学成就之一，并在1961年直接启发了弱相互作用的核子模型（狄拉克方程的核子解），他因此获1933年诺贝尔物理学奖。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-dirac"
+      ],
+      "tags": [
+        "狄拉克方程",
+        "正电子",
+        "自旋"
+      ]
+    },
+    {
+      "id": "ev-phy-chadwick-neutron",
+      "name": "查德威克发现中子",
+      "year": 1932,
+      "yearEnd": null,
+      "dateText": "公元1932年",
+      "periodId": "phy-quantum",
+      "category": "scientific",
+      "location": "英国剑桥",
+      "summary": "查德威克证实玻色与居里所预言的「中子」存在，发现质量接近质子的中性粒子，解释了原子核的构成。",
+      "detail": "1921年居里夫人在研究钋的α射线辐射时发现一种穿透力很强、却几乎不带电的新辐射，并大胆预言存在质量与质子相近的中性粒子，她称之为中子，但当时缺乏直接测量其质量的方法。1932年，詹姆斯·查德威克在剑桥用高压加速器产生质子轰击铍靶，测量反冲核的反冲速度来估算中子质量，发现其质量约为1.15倍质子，远大于原先按能量动量守恒的估计，从而确认中子的存在。他的论文《中子的存在》一经发表即引起轰动，因为这解决了原子核究竟由什么构成这一长期悬案，使核物理从此有了基本粒子语言。查德威克因此获1935年诺贝尔物理学奖，并因控制原子核链式反应的工作在第二次世界大战中获得荣誉，但他晚年反对核武器，是反对核试验的重要发声者。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-chadwick",
+        "fig-phy-curie-marie"
+      ],
+      "tags": [
+        "中子",
+        "原子核结构",
+        "核物理"
+      ]
+    },
+    {
+      "id": "ev-phy-positron-discovery",
+      "name": "安德森发现正电子",
+      "year": 1932,
+      "yearEnd": null,
+      "dateText": "公元1932年",
+      "periodId": "phy-quantum",
+      "category": "scientific",
+      "location": "美国 Pasadena 加州理工学院",
+      "summary": "安德森在云室照片中发现与电子质量相同、电荷相反的正电子particle，开创粒子物理。",
+      "detail": "1932年，卡尔·安德森在加州理工学院研究宇宙线，用云室照相法记录带电粒子的径迹。他注意到一条穿过铅板的径迹，弯曲方向与电子径迹相反，磁力方向和曲率表明该粒子带正电，而其质量与电子几乎相同。他把这一发现命名为「正电子」（positron）。这一发现不仅验证了狄拉克1931年的理论预言，也宣告了反物质粒子的存在，是20世纪30年代粒子物理学的标志性成果。安德森与查德威克分别因此获1936年诺贝尔物理学奖。此后人们逐步意识到，每一种粒子都有对应的反粒子，电荷共轭对称性成为现代物理学的核心对称性之一。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-dirac"
+      ],
+      "tags": [
+        "正电子",
+        "反物质",
+        "云室"
+      ]
+    },
+    {
+      "id": "ev-phy-pauli-exclusion",
+      "name": "泡利不相容原理与自旋-统计定理",
+      "year": 1925,
+      "yearEnd": 1940,
+      "dateText": "公元1925年－公元1940年",
+      "periodId": "phy-quantum",
+      "category": "scientific",
+      "location": "瑞士苏黎世、汉堡",
+      "summary": "泡利提出不相容原理与自旋统计联系，奠定量子统计和原子壳层理论的基础。",
+      "detail": "1925年，沃尔夫冈·泡利从元素周期表的原子壳层结构出发，提出任何两个全同粒子不能处于同一量子态，后世称为泡利不相容原理。这一简洁原理解释了周期表的形成、碱金属与稀有气体的性质差异，并直接引出元素周期表的量子解释。同年泡利还提出著名的「泡利不相容原理」配套的「泡利铁磁论」之外的一项工作：他与费米、狄拉克一起发展了费米-狄拉克统计，把泡利原理与自旋1/2联系，解释了白矮星的不塌缩。1926年泡利引入「不相容原理」的完整表述并处理自旋在磁场中的取向，提出著名的「泡利磁性论」，1930年又提出假设「中性粒子」的存在以解释 beta 衰变中的能量缺失，四年后由查德威克证实为中子。泡利因泡利原理获1945年诺贝尔物理学奖。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-pauli"
+      ],
+      "tags": [
+        "不相容原理",
+        "自旋统计",
+        "泡利磁性论"
+      ]
+    },
+    {
+      "id": "ev-phy-xray-discovery",
+      "name": "伦琴发现X射线",
+      "year": 1895,
+      "yearEnd": null,
+      "dateText": "公元1895年",
+      "periodId": "phy-nuclear-particle",
+      "category": "scientific",
+      "location": "德国慕尼黑维尔茨堡",
+      "summary": "伦琴在研究阴极射线时发现一种能穿透不透光物体的未知射线，即X射线，并拍下第一张医学X光片。",
+      "detail": "1895年11月8日，威廉·伦廷·伦琴在维尔茨堡大学用黑纸包裹的阴极射线管做实验时，发现房间另一端的荧光屏被照亮。他追查原因，注意到管壁的毛玻璃会透出光，于是用黑纸把整台仪器包严再重复实验，荧光屏仍然发亮，说明存在一种穿透性极强的未知辐射。他用这种射线拍下自己夫人手部的解剖影像，这被认为是第一张医学X光片。伦琴因这一发现于1901年成为首位诺贝尔物理学奖得主。X射线的发现立即被医学界采用，使骨折诊断与异物定位变得简便，也开创了用非可见波成像的技术路线，此后的放射性示踪、晶体衍射与医学影像技术都源自同一思路。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-roentgen"
+      ],
+      "tags": [
+        "X射线",
+        "阴极射线",
+        "医学成像"
+      ]
+    },
+    {
+      "id": "ev-phy-radioactivity-discovery",
+      "name": "贝克勒尔发现天然放射性",
+      "year": 1896,
+      "yearEnd": null,
+      "dateText": "公元1896年",
+      "periodId": "phy-nuclear-particle",
+      "category": "scientific",
+      "location": "法国巴黎",
+      "summary": "贝克勒尔在研究铀盐时发现其能自行感光底片，揭示了天然放射性的存在。",
+      "detail": "1896年2月，昂热·贝克勒尔在巴黎的一次学术会议上展示，一张被铀盐覆盖的感光底片即使在抽屉里、离开阳光也会自行显影，他意识到这是铀盐自身发出的某种新辐射所致，从而发现了天然放射性。为了确认辐射来自铀本身而非某种光致效应，他做了著名的对照实验：把硫酸铀酰钾与硫酸锌放在黑纸上、用铜盘隔开，再把整套装置放在抽屉里，底片仍被感光，从而排除了可见光与紫外线的可能。这是实验方法论上极为漂亮的一次设计。贝克勒尔因发现放射性现象与居里夫妇共同获1903年诺贝尔物理学奖。放射性发现打开了原子核内部世界的大门，也直接催生了辐射化学、放射治疗与核能技术。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-becquerel"
+      ],
+      "tags": [
+        "天然放射性",
+        "铀盐",
+        "辐射"
+      ]
+    },
+    {
+      "id": "ev-phy-radium-discovery",
+      "name": "居里夫妇发现钋与镭",
+      "year": 1898,
+      "yearEnd": 1902,
+      "dateText": "公元1898年－公元1902年",
+      "periodId": "phy-nuclear-particle",
+      "category": "scientific",
+      "location": "法国巴黎",
+      "summary": "居里夫妇从沥青铀矿中提炼出微量的钋和镭，测定了镭的原子量并研究其放射性强度。",
+      "detail": "1898年，皮埃尔·居里与玛丽·居里（_skłodowska_）在巴黎的简陋棚屋中处理沥青铀矿残渣，通过反复溶解、结晶、加热、称量，用放射性强度作为「示踪」手段追踪极微量的新元素，先后发现了钋（以祖国波兰命名）和镭。玛丽·居里在《放射性》专著中系统总结了放射性现象，并首次提出放射性是一种原子核自身衰变的属性，与元素的化学行为无关。1902年，她与皮埃尔用镭的放射性强度测定其原子量，得出约226，接近后来公认的值，这成为放射性示踪思想的最早定量应用。1903年夫妇共同获诺贝尔物理学奖，1911年玛丽·居里再获诺贝尔化学奖。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-curie-marie",
+        "fig-phy-curie-pierre",
+        "fig-phy-becquerel"
+      ],
+      "tags": [
+        "镭",
+        "钋",
+        "放射性研究",
+        "示踪思想"
+      ]
+    },
+    {
+      "id": "ev-phy-neutron-discovery",
+      "name": "中子被实验确证与核模型确立",
+      "year": 1932,
+      "yearEnd": null,
+      "dateText": "公元1932年",
+      "periodId": "phy-nuclear-particle",
+      "category": "scientific",
+      "location": "英国剑桥、丹麦哥本哈根",
+      "summary": "查德威克测出中子质量，玻尔随即提出原子核由质子与中子组成的核模型。",
+      "detail": "1932年查德威克在剑桥测定中子质量后，消息很快传到哥本哈根。玻尔在一次学术报告中宣布了这一发现，强调中子的发现使原子核问题「受到启发性的一击」。就在报告后不久，玻尔的助手海森堡用核反应中的能量关系推断出质子数与中子数决定核质量，并给出了核的液滴模型雏形。很快，德国物理学家海森堡与苏联的约当分别独立提出：原子核由质子和中子构成，质子数即原子序数。1932年后，卡罗尔-奥古斯特·科恩与哈恩在柏林用中子轰击实验，系统检验了这一模型，核物理从此成为一门独立的实验学科。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-chadwick",
+        "fig-phy-bohr",
+        "fig-phy-heisenberg"
+      ],
+      "tags": [
+        "中子",
+        "核模型",
+        "原子核"
+      ]
+    },
+    {
+      "id": "ev-phy-fission-discovery",
+      "name": "铀裂变发现与原子弹",
+      "year": 1938,
+      "yearEnd": 1945,
+      "dateText": "公元1938年－公元1945年",
+      "periodId": "phy-nuclear-particle",
+      "category": "scientific",
+      "location": "德国柏林、美国新墨西哥州洛斯阿拉莫斯",
+      "summary": "哈恩与施特拉斯曼发现铀核在中子轰击下分裂，麦特纳与弗里施给出理论解释，此后链式反应被实现并用于武器。",
+      "detail": "1938年12月，柏林动物园街的化学实验室里，弗里施和施特拉斯曼在哈恩指导下分析中子轰击铀的产物，反复排除Rb、Ba、La、Ce等元素的可能后，发现了钡。哈恩随后向弗里施写信：也许你会嘲笑我，但这只动物实际上是钡。梅特纳与弗里施随即在斯德哥尔摩（哈恩当时因纳粹迫害逃亡瑞典）给出解释：重核吸收中子后并不只是辐射伽马射线，而是分裂成中等质量的两个碎片，总质量亏损转化为约200 MeV的能量。1939年玻尔在哥本哈根会议上传播了这一消息，推动各国加速核研究。随后链式反应原理被论证，1942年费米等人在芝加哥大学建成第一个可控核反应堆 CP-1，1945年7月16日美国在新墨西哥州三一实验室完成首次核试验，8月投下广岛与长崎原子弹。核能从此成为双刃剑，也推动了战后核不扩散国际机制的建立。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-hahn",
+        "fig-phy-meitner",
+        "fig-phy-fermi"
+      ],
+      "tags": [
+        "核裂变",
+        "链式反应",
+        "核反应堆",
+        "原子弹"
+      ]
+    },
+    {
+      "id": "ev-phy-quark-model",
+      "name": "盖尔-曼提出夸克模型",
+      "year": 1964,
+      "yearEnd": 1969,
+      "dateText": "公元1964年－公元1969年",
+      "periodId": "phy-nuclear-particle",
+      "category": "reform",
+      "location": "美国加州理工学院",
+      "summary": "盖尔-曼以「夸克」命名强子内部的基本组分，提出夸克模型并以八重道解释介子八重态。",
+      "detail": "1964年，盖尔-曼在《物理评论》提出：介子和重子等强子并非基本粒子，而是由更基本的组分构成，他借用乔叟《坎特伯雷故事集》中书记官的词「夸克」为之命名。他用 SU(3) 对称性把介子与重子排成八重道与十重道，并按该对称性预言了当时未知粒子的质量与电荷，其中 Ω⁻ 介子于1964年底被预言、1969年被实验发现，成为粒子物理「预言－验证」范式的经典案例。他还提出奇夸克的概念，以解释 strange 粒子在强相互作用中的行为，并创立了「粲夸克」一词。1969年他获诺贝尔物理学奖。",
+      "importance": 4,
+      "figures": [],
+      "tags": [
+        "夸克模型",
+        "八重道",
+        "SU(3)对称性"
+      ]
+    },
+    {
+      "id": "ev-phy-higgs-boson",
+      "name": "希格斯玻色子的发现",
+      "year": 1964,
+      "yearEnd": 2012,
+      "dateText": "公元1964年－公元2012年",
+      "periodId": "phy-nuclear-particle",
+      "category": "scientific",
+      "location": "瑞士日内瓦 CERN",
+      "summary": "希格斯机制预言的希格斯玻色子在大强子对撞机上被观测到，标准模型最后一块拼图落地。",
+      "detail": "1964年，彼得·希格斯在《物理评论》连续两篇短文中提出一个机制：基本粒子与一个遍布空间的场相互作用而获得质量，而场的最激发态就是希格斯玻色子。希格斯与恩格勒等人分别独立提出，英文媒体称之为「希格斯玻色子」，中文常译作「希格斯子」。由于粒子物理实验尺度巨大，这一预言的直接验证历时近半个世纪：欧洲核子研究中心先后建成大型强子对撞机 LHC（2008年首次注入束流）， ATLAS 与 CMS 两个探测器投入运行。2012年7月4日，两个实验组独立宣布在约125 GeV 的质量处发现了与希格斯玻色子一致的新粒子，随后大量后续测量确认其自旋、宇称、耦合方式均符合标准模型预言。这是人类确认基本粒子世界中最后一个未解粒子的里程碑事件，并直接支撑了2013年希格斯与恩格勒获诺贝尔物理学奖。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-higgs"
+      ],
+      "tags": [
+        "希格斯机制",
+        "希格斯玻色子",
+        "标准模型",
+        "大型强子对撞机"
+      ]
+    },
+    {
+      "id": "ev-phy-lhc-start",
+      "name": "大型强子对撞机首次运行",
+      "year": 2008,
+      "yearEnd": null,
+      "dateText": "公元2008年",
+      "periodId": "phy-nuclear-particle",
+      "category": "technology",
+      "location": "瑞士日内瓦 CERN",
+      "summary": "CERN 的大型强子对撞机首次注入质子束并实现碰撞，把人类加速器纪录推上新的能量台阶。",
+      "detail": "大型强子对撞机 LHC 位于瑞士日内瓦附近的 CERN，跨越法国与瑞士边境，周长约27公里，是当时世界上最强大的粒子加速器。2008年9月10日，LHC 首次成功注入质子束；同年11月23日实现第一次质子-质子对撞，能量达到创纪录的约1.18 TeV（每束）。工程上极具挑战的27公里超导磁铁与真空系统在其中起了关键作用。LHC 的建成使人类得以在 TeV 量级重现宇宙大爆炸后的极端条件，直接催生了希格斯玻色子的发现，并使重离子对撞研究、重夸克物理与暗物质搜寻成为可能，是国际大科学协作能力的集中体现。",
+      "importance": 3,
+      "figures": [
+        "fig-phy-weinberg"
+      ],
+      "tags": [
+        "大型强子对撞机",
+        "CERN",
+        "加速器技术"
+      ]
+    },
+    {
+      "id": "ev-phy-huygens-wave",
+      "name": "惠更斯的光波动说",
+      "year": 1678,
+      "yearEnd": 1690,
+      "dateText": "公元1678年－公元1690年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "荷兰海牙",
+      "summary": "惠更斯提出光是机械波并给出 Huygens 原理，为光的波动解释和干涉理论奠基。",
+      "detail": "1678年，荷兰科学家惠更斯在法国科学院演讲中提出：光是沿各个方向传播的球面波，每一点的振动都作为新的波源向外辐射；凭借「Huygens 原理」，他用「次波」概念解释了光的直线传播、反射、折射与衍射，并给出双折射中光束分裂的解释。他用波动模型算出光在介质中的速度，得出光在水中比在空气中快，这与托勒密和牛顿的微粒说结论相反。惠更斯还发明了摆钟，是惠更斯在阿姆斯特丹的家乡以自己的名字命名，并把发条、擒纵机构引入钟表，使精确计时成为可能，从而为后来的天文学观测提供了可靠时钟。他的《光学》出版于1690年，是十七世纪光学最重要的著作之一。",
+      "importance": 3,
+      "figures": [],
+      "tags": [
+        "光波动说",
+        "Huygens原理",
+        "双折射"
+      ]
+    },
+    {
+      "id": "ev-phy-young-interference",
+      "name": "杨氏双缝干涉实验",
+      "year": 1801,
+      "yearEnd": null,
+      "dateText": "公元1801年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "英格兰伦敦",
+      "summary": "托马斯·杨用双缝实验首次以干涉条纹确证光的波动性。",
+      "detail": "1801年，托马斯·杨在皇家学会的《光与颜色的新理论》中提出颜色三色说，并用双缝实验证明光具有波动性：让太阳光经狭缝后通过两条相距很近的平行狭缝，在屏上出现明暗相间的干涉条纹。条纹的间距与缝距、波长和屏距满足明确关系，这既显示了波动性，又直接给出了波长的测量方法。杨的理论当时并未被接受，因为牛顿的微粒说在解释反射、折射与衍射上更具权威。1821年法国物理学家菲涅耳的衍射理论重新发现并发展了杨的波动理论，此后菲涅耳与泊松进一步完善，使波动光学成为完整的理论体系。1902年伦琴重新发现杨的实验，这一历史反复成为科学史上方法论讨论的经典案例。",
+      "importance": 4,
+      "figures": [],
+      "tags": [
+        "双缝干涉",
+        "光的波动性",
+        "三色说"
+      ]
+    },
+    {
+      "id": "ev-phy-xray-diffraction-crystal",
+      "name": "劳厄与布拉格的晶体X射线衍射",
+      "year": 1912,
+      "yearEnd": 1913,
+      "dateText": "公元1912年－公元1913年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "德国慕尼黑、英国利兹",
+      "summary": "劳厄用晶体衍射证实X射线的波动性并测出其波长，布拉格父子发展出衍射定律与晶体结构分析。",
+      "detail": "1912年，马克斯·劳厄让一束X射线穿过氯化钠晶体并在底片上得到规则的斑点阵列，证明X射线具有波动性，由此测得其波长与可见光相差约五个数量级。同年，威廉·布拉格与儿子劳伦斯·布拉格发现：当X射线以特定入射角打在晶体上时，衍射斑点出现在特定角度，据此提出布拉格定律 nλ = 2d sinθ，并首次用 X 射线分析了氯化钠、方解石等晶体结构，开创了X射线晶体学。1915年父子因晶体结构的X射线分析获诺贝尔物理学奖。此后，包括DNA双螺旋结构在内的众多分子结构都是通过X射线衍射确定的，X射线衍射至今仍是材料结构研究最常用的工具之一。",
+      "importance": 5,
+      "figures": [],
+      "tags": [
+        "晶体衍射",
+        "布拉格定律",
+        "X射线晶体学"
+      ]
+    },
+    {
+      "id": "ev-phy-superconductivity-discovery",
+      "name": "超导现象的发现",
+      "year": 1911,
+      "yearEnd": null,
+      "dateText": "公元1911年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "荷兰莱顿",
+      "summary": "昂内斯发现汞在4.2 K 以下电阻骤降为零，开启了超导研究。",
+      "detail": "1911年4月，荷兰莱顿大学的海因里希·昂内斯在研究液氦低温下的金属电阻时发现：当温度降到约4.2 K 时，汞的电阻突然完全消失，样品成为理想导体。他随即在同年发现铅的转变温度约7.2 K，并发明了能够维持极低温的液氦装置。1911年12月，昂内斯在 Leiden 会议上报告这一发现，并宣布「超导态在超导温度以下是可以被发现的，这是一个完全新的现象」。他的学生迪特默（后称迪特默-昂内斯公式的提出者之一）很快测量了转变点附近的电阻变化。超导现象此后成为凝聚态物理的核心课题之一，衍生出超导磁体、核磁共振成像、粒子加速器磁体、磁悬浮列车与 SQUID 量子干涉器件等重大应用。昂内斯因发现超导获1913年诺贝尔物理学奖。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-onnes"
+      ],
+      "tags": [
+        "超导",
+        "液氦",
+        "零电阻"
+      ]
+    },
+    {
+      "id": "ev-phy-bcs-theory",
+      "name": "BCS 超导理论",
+      "year": 1957,
+      "yearEnd": null,
+      "dateText": "公元1957年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "美国伊利诺伊",
+      "summary": "巴丁、库珀与施里弗用电子-声子耦合解释常规超导，并导出能隙方程。",
+      "detail": "1957年，巴丁、库珀与施里弗提出了第一个成功的超导理论微观解释。其核心洞察是：电子通过与晶格振动的耦合形成「库珀对」，两个相反自旋的电子在动量空间中绑定成一个复合玻色子，在费米面上形成能隙，使得体系整体进入零电阻的超导态。他们用「BCS 方程」把配对与能隙联系起来，并成功计算出超导转变温度的数值与实验值相差很小，这是理论物理史上少见的定量成功。此后他们发展了 BCS 理论在弱耦合超导、强耦合超导、超流液氦、超流氦三、超导玻色-爱因斯坦凝聚以及核矩阵元等方面的推广。三人因此分享1972年诺贝尔物理学奖，该理论也奠定了高温超导与非常规超导研究的框架。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-bardeen"
+      ],
+      "tags": [
+        "BCS理论",
+        "库珀对",
+        "能隙"
+      ]
+    },
+    {
+      "id": "ev-phy-high-tc-superconductor",
+      "name": "高温超导体的发现",
+      "year": 1986,
+      "yearEnd": 1987,
+      "dateText": "公元1986年－公元1987年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "美国新泽西州贝尔实验室",
+      "summary": "缪勒与贝诺兹发现铜氧化物的超导转变温度超过30 K，翻转了超导理论的既有预期。",
+      "detail": "1986年1月，缪勒与贝诺兹在贝尔实验室发现，镧铜氧化物 La₁.₈₅Ba₀.₁₅CuO₄ 的超导转变温度约35 K，远高于当时所有已知超导体的约23 K 上限，这一结果立即震动了物理学界。同年年底，美、德、日三国的多个研究小组相继在铜氧化物中发现60 K 以上的超导，其中东京大学的水岛芳雄与前田弘昌（Bednorz 和 Müller 的合作者之一是当时在 IBM 工作的 J. Georg Bednorz 与 Karl Müller）分别独立地把转变温度推到约90 K 与约90 K以上。1993年，美、中、德、日、韩五国科学家在 HgBa₂Ca₂Cu₃O₈ 中发现约135 K 的超导，并在加压条件下达到约164 K。高温超导的机制至今仍是凝聚态物理最热门的前沿问题之一。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-bardeen"
+      ],
+      "tags": [
+        "高温超导",
+        "铜氧化物",
+        "临界温度"
+      ]
+    },
+    {
+      "id": "ev-phy-graphene-discovery",
+      "name": "石墨烯的分离与性质研究",
+      "year": 2004,
+      "yearEnd": null,
+      "dateText": "公元2004年",
+      "periodId": "phy-condensed",
+      "category": "scientific",
+      "location": "英国曼彻斯特",
+      "summary": "诺沃斯洛夫与盖姆用机械剥离法从石墨中分离出单原子层石墨烯，测得其极高的电子迁移率。",
+      "detail": "2004年，安德烈·盖姆与 Konstantin Novoselov 在曼彻斯特大学尝试用氧化铝基底上的石墨鳞片制造更薄的层状材料，结果意外得到厚度仅一个原子层、几乎无缺陷的碳片，即石墨烯。两人随后系统测量了石墨烯的电学性质，发现其载流子迁移率极高、载流子呈无质量狄拉克费米子行为，在室温和低温下均表现出极好的导电性。此后石墨烯的机械强度（约为钢的百倍）、极高的热导率、对气体分子的超高灵敏度等特性被陆续揭示，被视为继石墨、金刚石与富勒烯之后碳材料家族的第四种形态。两人因此获2010年诺贝尔物理学奖，石墨烯也迅速成为材料科学、触摸屏幕与传感器研究的前沿方向。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-gibbs-josephson"
+      ],
+      "tags": [
+        "石墨烯",
+        "二维材料",
+        "单层碳"
+      ]
+    },
+    {
+      "id": "ev-phy-liquid-crystal-display",
+      "name": "液晶显示技术的产业化",
+      "year": 1968,
+      "yearEnd": 1980,
+      "dateText": "公元1968年－公元1980年",
+      "periodId": "phy-condensed",
+      "category": "economic",
+      "location": "美国新泽西州、英格兰剑桥、日本",
+      "summary": "液晶显示从实验装置走向商品化，催生了现代电子信息显示产业。",
+      "detail": "液晶最早由普朗克学派研究者弗里德里希·莱曼于1888年观察到，但长期不被重视。1968年，美国贝尔实验室的乔治·梅尔逊等人在 nematic 型液晶中发现双折射与向列相态，并提出可用的显示方案。1968年，赫曼·罗伯茨（Guenther、T. Pohl 等）在 RCA 演示了动态散射模式液晶显示，1972年美国惠普推出第一台液晶计算器 AL-3104，液晶显示由此进入实用阶段。1970年代起，宾尼・帕尔马（Bömer）与赫尔佐格等在瑞士施特UBS公司提出扭曲向列（TN）模式，1980年代薄膜晶体管液晶显示（TFT-LCD）技术成熟，使笔记本屏幕成为可能。随着索尼在1990年代推动等离子体与液晶的等离子体屏幕，液晶显示最终取代阴极射线管成为主流显示技术，全球面板产业规模巨大，其物理学基础正是凝聚态物理中的液晶相变与双折射。",
+      "importance": 3,
+      "figures": [
+        "fig-phy-gibbs-josephson"
+      ],
+      "tags": [
+        "液晶显示",
+        "TFT-LCD",
+        "产业化"
+      ]
+    },
+    {
+      "id": "ev-phy-hubble-expansion",
+      "name": "哈勃发现星系退行与宇宙膨胀",
+      "year": 1929,
+      "yearEnd": null,
+      "dateText": "公元1929年",
+      "periodId": "phy-cosmology",
+      "category": "scientific",
+      "location": "美国帕萨迪纳威尔逊山天文台",
+      "summary": "哈勃测量遥远星系的退行速度，发现速度与距离成正比，为膨胀宇宙模型提供了观测依据。",
+      "detail": "1924年，哈勃在威尔逊山天文台用100英寸胡克望远镜测量仙女座星系等近邻星系的距离，证明它们位于银河系之外，1929年他与赫马森测量了一批星系的视向速度，发现退行速度与距离近似成正比（即今天的哈勃定律），并给出哈勃常数。勒梅特此前在1927年已基于同样的观测提出膨胀宇宙模型并给出膨胀系数，但因论文用法语发表而未获广泛注意；哈勃的结果使其成为公认的观测事实。20世纪40年代，伽莫夫、阿尔弗与赫曼孙等人据此提出大爆炸宇宙模型，并预言了宇宙微波背景辐射的存在。宇宙膨胀的发现是现代宇宙学的基石，也为后来暗能量的发现埋下伏笔——1998年的Ia型超新星测距显示宇宙膨胀正在加速。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-hubble"
+      ],
+      "tags": [
+        "哈勃定律",
+        "宇宙膨胀",
+        "星系退行"
+      ]
+    },
+    {
+      "id": "ev-phy-big-bang",
+      "name": "大爆炸宇宙模型的建立",
+      "year": 1946,
+      "yearEnd": 1950,
+      "dateText": "公元1946年－公元1950年",
+      "periodId": "phy-cosmology",
+      "category": "scientific",
+      "location": "美国芝加哥、华盛顿",
+      "summary": "伽莫夫、阿尔弗等人提出宇宙由一次高密度高温原始火球演化而来，并预言了元素丰度与背景辐射。",
+      "detail": "1946年，乔治·伽莫夫在《美国科学院院刊》发表论文，提出宇宙早期处于极高温高密度状态，元素在最初几分钟内由质子与中子的聚变反应生成，这一「大爆炸」模型解释了宇宙中轻元素丰度的异常。阿尔弗与赫尔曼进一步计算了早期宇宙的物理状态。1948年，阿尔弗、贝特与伽莫夫在《天体物理学杂志》发表论文，明确提出宇宙存在约3000 K 的残余辐射背景，并把微波波段作为观测预言，阿尔弗与威尔克森随即申请了观测专利。伽莫夫1965年接受《科学人》采访时还开玩笑称大爆炸理论可能是错的，却坚持残余辐射的存在。这一预言在三十余年后被实测证实，成为现代宇宙学中最著名的成功预言之一。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-gamo",
+        "fig-phy-greene"
+      ],
+      "tags": [
+        "大爆炸",
+        "轻元素合成",
+        "宇宙学模型"
+      ]
+    },
+    {
+      "id": "ev-phy-cmb-discovery",
+      "name": "宇宙微波背景辐射的发现",
+      "year": 1964,
+      "yearEnd": 1965,
+      "dateText": "公元1964年－公元1965年",
+      "periodId": "phy-cosmology",
+      "category": "scientific",
+      "location": "美国新泽西州霍姆代尔贝尔实验室",
+      "summary": "彭奇斯与威尔逊在改进天线后意外发现宇宙各向同性的微波背景，证实大爆炸模型。",
+      "detail": "1964年，贝尔实验室的阿尔诺·彭奇斯与罗伯特·威尔逊为测试一套高灵敏度微波接收天线，在普林斯顿附近霍姆代尔的霍尔姆代尔山进行观测。他们注意到天线总是收到一份强度稳定、各向均匀的微波噪声，随天线指向天空不同方位强度不变。排除大气、地面、银河系射电以及设备缺陷后，他们意识到这份噪声来自宇宙深处，对应约3.5 K 的黑体辐射。1965年两人正式发表论文，理论宇宙学家随即意识到这正是伽莫夫等人在1948年预言的残余辐射，大爆炸模型由此获得决定性验证，两人因此获1978年诺贝尔物理学奖。1989年 COBE 卫星测得背景的高度各向异性，1992年更给出了首批声学峰，宇宙学进入精确宇宙学时代。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-penrose",
+        "fig-phy-wilson"
+      ],
+      "tags": [
+        "微波背景",
+        "大爆炸验证",
+        "COBE"
+      ]
+    },
+    {
+      "id": "ev-phy-dark-energy",
+      "name": "暗能量的发现与加速膨胀",
+      "year": 1998,
+      "yearEnd": null,
+      "dateText": "公元1998年",
+      "periodId": "phy-cosmology",
+      "category": "scientific",
+      "location": "美国多个观测团队",
+      "summary": "两个独立团队通过Ia型超新星测距发现宇宙膨胀正在加速，提出暗能量解释。",
+      "detail": "1998年，美国「超新星宇宙学计划」（High-z Supernova Search Team）与「超新星Cosmology项目」（Supernova Cosmology Project）两个独立团队分别发表论文，报告通过测量远距离 Ia 型超新星的光度，发现它们的视亮度比基于标准烛光的预期更暗，这意味着宇宙膨胀不但没有减速，反而在加速。两组数据相互独立却结论一致，在物理学界引起巨大震动，因为加速膨胀需要引入一种具有负压的成分，即「暗能量」，其性质至今仍是宇宙学最大的谜题之一。同年，观测还发现Ia型超新星比标准模型预期更暗这一事实与暗能量的存在相矛盾，构成所谓「交叉相关方法」对暗能量的独立测量。结合2013年普朗克卫星的宇宙微波背景测量与2016年 LIGO 引力波事件的标准尺测距，加速膨胀已成为现代宇宙学标准图景的组成部分。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-greene"
+      ],
+      "tags": [
+        "暗能量",
+        "加速膨胀",
+        "超新星"
+      ]
+    },
+    {
+      "id": "ev-phy-standard-model",
+      "name": "标准模型的确立",
+      "year": 1961,
+      "yearEnd": 1973,
+      "dateText": "公元1961年－公元1973年",
+      "periodId": "phy-cosmology",
+      "category": "reform",
+      "location": "欧洲与美国的大学与实验室",
+      "summary": "弱电统一理论、SU(3) 强相互作用理论与轻子-夸克模型合流，形成解释实验的标准模型。",
+      "detail": "1961年，谢恩伯格在《物理评论快报》引入SU(2)规范对称性，格罗德曼在随后的论文中把弱相互作用表述为SU(2)×U(1)规范理论，与早年的萨拉姆、布罗德斯坦等人共同奠定弱电统一的基础。1967年， Weinberg 与萨拉姆独立提出电弱统一规范理论，1968年 Salam 在维也纳会议上首次系统阐述，1973年由't Hooft 与 Veltman 证明该理论的可重整性，使理论获得决定性认可。同期，盖尔-曼与独立工作的萨拉姆等人建立强子夸克模型与量子色动力学，统一描述了强相互作用。1967年统一中性流预言，1973年欧洲的实验证实了中性弱流与中性J/ψ粒子，标准模型的关键预言逐一得到验证，成为二十粒子物理学的统一框架。",
+      "importance": 5,
+      "figures": [
+        "fig-phy-weinberg"
+      ],
+      "tags": [
+        "标准模型",
+        "电弱统一",
+        "量子色动力学"
+      ]
+    },
+    {
+      "id": "ev-phy-string-theory",
+      "name": "弦论与第一次超弦革命",
+      "year": 1968,
+      "yearEnd": 1998,
+      "dateText": "公元1968年－公元1998年",
+      "periodId": "phy-cosmology",
+      "category": "scientific",
+      "location": "美国普林斯顿、意大利",
+      "summary": "魏坚（Veneziano）提出弦模型，1984年第一次超弦革命确立超弦理论的统一潜力，1998年M理论对偶被发现。",
+      "detail": "1968年，在 CERN 工作的加布里埃·魏坚（Gabriele Veneziano）在研究强子散射振幅时，写下一个数学表达式，发现它能同时描述大量粒子及其反应，这一表达式后来被发现等价于「弦」振动模式的数学描述，弦论由此发端。1970年代早期，魏因贝格、斯库特与塔奇等人开始研究弦模型的非微扰效应。1984年，格林和施瓦茨发现弦理论的超对称版本「超弦」在十维时空中自洽，并证明其可能统一所有基本相互作用，物理学界称之为「第一次超弦革命」。1995年，威滕在普林斯顿会议上提出「M理论」，1998年众多研究者发现各种超弦理论之间存在对偶性，特别是1997年美国物理学家霍金的论文指出，超弦理论与M理论在某些条件下等价，弦论由此进入全盛时期，成为寻找万有统一理论的旗舰框架。",
+      "importance": 4,
+      "figures": [
+        "fig-phy-pawlowski"
+      ],
+      "tags": [
+        "弦论",
+        "超弦",
+        "M理论",
+        "对偶性"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-phy-aristotle",
+      "name": "亚里士多德",
+      "alias": "亚里士多德·德·梅佐普尼",
+      "birthYear": -384,
+      "deathYear": -322,
+      "lifeText": "公元前384年－公元前322年",
+      "role": "哲学家、科学家",
+      "periodId": "phy-classical",
+      "gender": "male",
+      "summary": "古希腊哲学家、逻辑学家与自然哲学家，著有《物理学》《形而上学》，其运动学说统治西方近两千年。",
+      "biography": "亚里士多德生于公元前384年的斯塔基拉，青年时期在雅典的柏拉图学园学习达二十年，此后在吕克昂办学讲学。相传他与亚历山大大帝的关系密切，曾受其委托教授哲学与政治学。他建立了西方第一个系统的逻辑与科学方法论：强调从观察到归纳、从特殊到一般的演绎与归纳方法，提出三段论推理形式，成为形式逻辑的奠基人。在自然哲学上，他提出四元素说与性质论，主张质料与形式的结合构成实体，认为形式是事物之本质与目的，运动是潜能向现实的实现。在力学上他主张力是改变运动状态的原因，认为重物比轻物下落快、抛体轨迹为8字形，并主张天体作永恒完美圆周运动需要永恒推动者——这些结论在伽利略与牛顿之后被逐一推翻。在生物学与医学上，他观察并记录了大量动物结构，提出「形式因」「目的因」与「质料因」的分析框架，其《动物志》与《生殖论》影响了后世博物学数百年。尽管许多具体结论已被近代科学推翻，亚里士多德奠定的「系统观察—分类—因果分析」方法论，仍然是科学史上影响最深远的遗产之一。",
+      "achievements": [
+        "创立西方形式逻辑与三段论体系",
+        "提出四元素说与质料-形式本体论",
+        "建立运动、连续性与因果的自然哲学框架",
+        "《物理学》《形而上学》《 Nicomachean伦理》等传世",
+        "系统解剖与分类大量生物，奠基动物学与胚胎学"
+      ],
+      "quotes": [
+        "人不能两次踏进同一条河流。",
+        "吾所独知者，即吾之无知也。"
+      ],
+      "relatedEvents": [
+        "ev-phy-aristotle-mechanics"
+      ],
+      "relatedFigures": [
+        "fig-phy-galileo"
+      ],
+      "tags": [
+        "古希腊",
+        "自然哲学",
+        "逻辑学",
+        "力学"
+      ]
+    },
+    {
+      "id": "fig-phy-galileo",
+      "name": "伽利略·伽利莱",
+      "alias": "伽利略",
+      "birthYear": 1564,
+      "deathYear": 1642,
+      "lifeText": "公元1564年－公元1642年",
+      "role": "物理学家、天文学家",
+      "periodId": "phy-classical",
+      "gender": "male",
+      "summary": "意大利物理学家与天文学家，用斜面实验建立实验力学范式，以望远镜观测为日心说提供证据。",
+      "biography": "伽利略生于1564年的比萨，父亲是音乐家，他先入佛罗伦萨大学学医，但兴趣很快转向数学与力学。1589年他在比萨斜塔上做自由落体实验（史料对其细节有不同说法），1590年代在帕多瓦大学任教期间研究斜面、惯性、摆与投影仪，其《力学与力学运动》（Le Meccaniche）与《关于托勒密和哥白尼两大世界体系的对话》（1632年）奠定了他在科学史上的地位。他通过斜面实验确立自由落体距离与时间平方成正比，提出合运动分解思想，并给出抛物线轨迹的正确判断。1609年他自制望远镜并用它观测夜空，发现木星四卫星、金星位相、月面不规则地形与银河的星点密布，1610年出版《星际信使》，这些发现动摇了托勒密体系与亚里士多德的天界完美论。1633年他因主张日心说被罗马宗教裁判所传讯，在软禁中做出力学与运动学的新推论。1642年1月8日他在阿切雷附近去世。伽利略被称为「实验科学的奠基人」与「近代科学之父」。",
+      "achievements": [
+        "以斜面实验建立定量实验力学方法",
+        "阐明惯性与相对性思想",
+        "用望远镜发现木星卫星、金星位相等天文现象",
+        "《关于两大世界体系的对话》系统论证日心说",
+        "创立以数学与实验结合的科学研究范式"
+      ],
+      "quotes": [
+        "测量你所能测量的，使你能测准；测量你能测准的，使你能测出更多。"
+      ],
+      "relatedEvents": [
+        "ev-phy-galileo-falling",
+        "ev-phy-newton-principia"
+      ],
+      "relatedFigures": [
+        "fig-phy-aristotle",
+        "fig-phy-kepler"
+      ],
+      "tags": [
+        "意大利",
+        "力学",
+        "天文观测",
+        "实验方法"
+      ]
+    },
+    {
+      "id": "fig-phy-kepler",
+      "name": "约翰内斯·开普勒",
+      "alias": "开普勒",
+      "birthYear": 1571,
+      "deathYear": 1630,
+      "lifeText": "公元1571年－公元1630年",
+      "role": "天文学家、数学家",
+      "periodId": "phy-classical",
+      "gender": "male",
+      "summary": "德国天文学家，从第谷的观测数据中总结出行星运动三定律，为牛顿的万有引力定律提供精确基础。",
+      "biography": "开普勒生于1571年的魏尔，他的家庭宗教冲突激烈，母亲被控巫术，他因此一生与宗教和疾病抗争。1600年他前往布拉格，成为第谷·布拉赫的助手，协助其编制星表并研究火星轨道。1601年第谷去世后，开普勒继承了他的精密观测数据，经过近八年的计算，终于在1609年发现火星轨道并非完美圆，而是椭圆，太阳位于其一焦点，这就是第一定律。1619年他发表第三定律（调和定律），第二定律则见于1609年的《新天文学》。开普勒以「数学是宇宙的语言」为信念，把行星运动与音乐协和比例相联系，写成《世界的和谐》。他的《光学》提出光是沿直线传播、在界面发生折射并会聚成像的理论，为后来的几何光学奠基。他还提出大气光学中的「大气圈高度」概念。1626年他出版《彗星论》，是哈雷彗星计算的基础；1630年病逝于雷根斯堡， epitaph 上写着「测量宇宙的人」。",
+      "achievements": [
+        "提出行星运动第一定律（椭圆轨道定律）",
+        "提出开普勒第二定律（等面积定律）",
+        "提出开普勒第三定律（调和定律）",
+        "《世界的和谐》把行星距离与音乐比例相联系",
+        "《彗星论》为哈雷彗星研究奠基",
+        "《光学》建立几何光学基本理论"
+      ],
+      "quotes": [
+        "我在几何中发现了造物主的痕迹。"
+      ],
+      "relatedEvents": [
+        "ev-phy-kepler-laws"
+      ],
+      "relatedFigures": [
+        "fig-phy-galileo",
+        "fig-phy-newton"
+      ],
+      "tags": [
+        "德国",
+        "天文",
+        "行星运动",
+        "几何光学"
+      ]
+    },
+    {
+      "id": "fig-phy-newton",
+      "name": "艾萨克·牛顿",
+      "alias": "牛顿勋爵",
+      "birthYear": 1643,
+      "deathYear": 1727,
+      "lifeText": "公元1643年－公元1727年",
+      "role": "物理学家、数学家",
+      "periodId": "phy-classical",
+      "gender": "male",
+      "summary": "英国物理学家与数学家，提出运动三定律和万有引力定律，建立经典力学体系。",
+      "biography": "牛顿生于1643年英格兰林肯郡的沃尔斯索普，幼年丧父，由母舅抚养，少年时因制作望远镜与磨制镜面显示出非凡的动手能力。1665年剑桥大学关闭期间他返乡避瘟疫，在乡间完成微积分、光的色散与引力思考。1669年他被选为剑桥卢卡斯讲席教授，1672年向皇家学会报告光学研究，发现白光由多种色光组成并以棱镜分解，提出「牛顿棱镜」实验与颜色理论。1677年他向皇家学会递交《自然哲学的数学原理》，该书于1687年出版，首次完整给出运动三定律、万有引力定律以及由此导出的开普勒定律证明，并系统处理流体、真空与阻力等问题。他在书中发展出微积分这一数学工具，使数学成为自然哲学的强力资源。牛顿还研究过万有引力与地球形状（预言地球两极扁）、流体力学中的阻力、伯努利《流体力学》手稿（1686年匿名发表），并大力支持皇家学会与英国皇家造币厂的工作，主张炼金术与神学。他于1727年3月31日在伦敦逝世，安葬于西敏寺。",
+      "achievements": [
+        "提出运动三定律",
+        "提出万有引力定律并由之推出开普勒三定律",
+        "《自然哲学的数学原理》（1687）建立经典力学体系",
+        "发展微积分与牛顿力学",
+        "光学色散实验与光谱分析",
+        "预言地球两极扁并研究流体力学"
+      ],
+      "quotes": [
+        "如果我看得比别人远，是因为我站在了巨人的肩膀上。"
+      ],
+      "relatedEvents": [
+        "ev-phy-newton-principia"
+      ],
+      "relatedFigures": [
+        "fig-phy-galileo",
+        "fig-phy-kepler",
+        "fig-phy-cavendish"
+      ],
+      "tags": [
+        "英国",
+        "力学",
+        "光学",
+        "数学"
+      ]
+    },
+    {
+      "id": "fig-phy-cavendish",
+      "name": "亨利·卡文迪许",
+      "alias": "卡文迪许",
+      "birthYear": 1731,
+      "deathYear": 1810,
+      "lifeText": "公元1731年－公元1810年",
+      "role": "物理学家、化学家",
+      "periodId": "phy-classical",
+      "gender": "male",
+      "summary": "英国博物学家与实验物理学家，用扭秤精密测量万有引力常数并估算地球密度。",
+      "biography": "卡文迪许生于1731年英国诺森伯兰的一个贵族家庭，十四岁时进入剑桥大学学习，为遵守当时规定女性不能旁听牛津的规矩，他以「赫尔文先生」的身份在牛津听课。1748年他继承了巨额遗产，成为一位极其富有的隐士：不出版、拒绝荣誉、终生未婚，只在自家宅邸的实验室中从事实验。他改进了空气泵、发明了扭秤，研究气体弹性与氢气的性质（他称之为「可燃空气」），并测量了水的密度与膨胀系数。1797至1798年他做扭秤实验测量极微弱的引力，据此反推出地球的平均密度，并获得今天使用的万有引力常数的早期数值。他在《自然哲学的实验研究》中详细记录实验过程却几乎不给出结论。1835年，著名物理学家约翰·惠灵顿在皇家学会宣读了卡文迪许的实验细节，后世才得以理解这位「最富有的科学怪人」的工作。麦克斯韦曾专门重做并分析其实验。",
+      "achievements": [
+        "发明并改进扭秤，精密测量极弱引力",
+        "推算地球平均密度",
+        "测量氢气（可燃空气）的性质与气体弹性",
+        "早期测定万有引力常数",
+        "留下《自然哲学的实验研究》的详尽实验记录"
+      ],
+      "quotes": [
+        "这项实验对普通读者而言几乎毫无趣味。"
+      ],
+      "relatedEvents": [
+        "ev-phy-cavendish-torsion"
+      ],
+      "relatedFigures": [
+        "fig-phy-newton"
+      ],
+      "tags": [
+        "英国",
+        "扭秤",
+        "万有引力常数",
+        "实验物理"
+      ]
+    },
+    {
+      "id": "fig-phy-fourier",
+      "name": "约瑟夫·傅里叶",
+      "alias": "傅里叶",
+      "birthYear": 1768,
+      "deathYear": 1830,
+      "lifeText": "公元1768年－公元1830年",
+      "role": "数学家、物理学家",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "法国数学家，建立热传导方程并提出用三角级数展开任意函数的傅里叶级数方法。",
+      "biography": "傅里叶生于1768年欧塞尔一个裁缝家庭，早年在本地军校学习数学，后赴巴黎 École Normale Supérieure 深造，1794年随法国科学院远征埃及，担任多年行政长官并负责埃及 علم考察团的组织工作。返回巴黎后，他长期向科学院提交关于热传导的论文，因其理论主张与当时主流的「热质」直觉相左而屡遭质疑，直到1822年才获准出版《热传导理论》。在这部著作中，他把热在固体中的传播写成偏微分方程并求出球体与圆柱体的温度分布，为此发展出把任意函数展开为三角级数的傅里叶级数与相应的系数计算方法，这套分析工具在19世纪后半叶深刻影响了数学与物理学。傅里叶还研究过分析力学与光学，提出过把分析理论用于热传导的纲领性设想，认为分析学的最终目的是解决自然哲学问题。他长期健康不佳，1829年病逝于巴黎。",
+      "achievements": [
+        "建立热传导偏微分方程并求出典型几何体的温度分布",
+        "创立傅里叶级数与系数分析方法",
+        "把数学分析作为自然哲学的核心工具",
+        "以三角级数方法推广到多类物理问题"
+      ],
+      "quotes": [
+        "数学分析中还有待处理的宝藏。"
+      ],
+      "relatedEvents": [
+        "ev-phy-fourier-heat"
+      ],
+      "relatedFigures": [
+        "fig-phy-carnot"
+      ],
+      "tags": [
+        "法国",
+        "热传导",
+        "傅里叶级数",
+        "数学物理"
+      ]
+    },
+    {
+      "id": "fig-phy-carnot",
+      "name": "萨迪·卡诺",
+      "alias": "卡诺",
+      "birthYear": 1796,
+      "deathYear": 1832,
+      "lifeText": "公元1796年－公元1832年",
+      "role": "物理学家、工程师",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "法国工程师，以理想热机循环证明热机效率的上限只取决于两个热源温度。",
+      "biography": "卡诺生于1796年巴黎，是杰出的工程师出身，曾就读于巴黎综合工科学校并在其蒸汽机部门工作，其父拉扎尔·卡诺是政治思想家与物理学家。卡诺在其兄尼古拉· Léonard Sadi Carnot 的倡导下，研究了瓦特蒸汽机效率低下的原因。1824年他出版《关于推动热动力的思考》，设想一种理想可逆热机，通过几何方式证明：在同样高低热源之间，任何热机的效率都不超过可逆循环给出的上限，且该上限只与热源温度有关，与工质性质无关。他由此估算 90℃ 蒸汽对 30℃ 冷凝水的效率上限约为 6% 到 8%，指出了实际蒸汽机远未达到该极限。他把热视为可在工质中转移的「热质」，这一概念后来虽被证明错误，但其热机分析的方法被 Clapeyron 继承并发展为热力学状态图。1824年他赴德国进修并接触了韦伯的功与热的关系研究，回国后转向铁路工程研究，1832年因霍乱病逝，年仅36岁。",
+      "achievements": [
+        "提出理想可逆热机循环（卡诺循环）",
+        "证明热机效率上限只取决于两个热源温度",
+        "揭示实际蒸汽机与理论极限的巨大差距",
+        "以几何方法开展热力学分析"
+      ],
+      "quotes": [
+        "没有任何机器的热效率能超过卡诺循环所给出的上限。"
+      ],
+      "relatedEvents": [
+        "ev-phy-carnot-cycle"
+      ],
+      "relatedFigures": [
+        "fig-phy-fourier",
+        "fig-phy-clausius"
+      ],
+      "tags": [
+        "法国",
+        "热力学",
+        "热机",
+        "效率"
+      ]
+    },
+    {
+      "id": "fig-phy-joule",
+      "name": "詹姆斯·普雷斯科特·焦耳",
+      "alias": "焦耳",
+      "birthYear": 1818,
+      "deathYear": 1889,
+      "lifeText": "公元1818年－公元1889年",
+      "role": "物理学家",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "英国物理学家，用多种实验精确测定机械功与热的当量关系。",
+      "biography": "焦耳生于1818年英国曼彻斯特的富酿造商家庭，靠自学成才。1843年他发表第一篇论文《论热功当量》，用搅动水银的方式测量机械功转化为热的量，此后二十年他用摩擦、压缩、膨胀、放电等十余种不同方法反复测量，所得数值在实验误差内高度一致，其精确度达到当时实验水平的极限。1843年他与焦耳在测量中首次精确观察到热与电的转换关系，这成为他后来在电学领域成就的起点。1850年他在皇家学会宣读《论热功当量》全文，系统给出实验方法、数据与结论，被公认为能量守恒定律的实验基础。焦耳与亥姆霍兹各自独立表述了能量守恒定律，焦耳的实验数据使它从哲学信念变成了可测量的物理定律。他还与威廉·汤姆孙合作研究气体膨胀降温的现象（焦耳-汤姆孙效应），这一效应至今是工业制冷与天然气液化技术的基础。焦耳于1889年去世，1889年-unit「焦耳」以他的名字命名。",
+      "achievements": [
+        "用多种方法精确测定机械功与热的当量",
+        "以实验数据奠定能量守恒定律",
+        "发现电与热的转换关系",
+        "与汤姆孙共同研究焦耳-汤姆孙效应",
+        "研究气体分子运动与电磁现象"
+      ],
+      "quotes": [
+        "科学界最好的朋友是热诚与坚韧。"
+      ],
+      "relatedEvents": [
+        "ev-phy-joule-energy"
+      ],
+      "relatedFigures": [
+        "fig-phy-clausius"
+      ],
+      "tags": [
+        "英国",
+        "能量守恒",
+        "实验测量",
+        "热功当量"
+      ]
+    },
+    {
+      "id": "fig-phy-clausius",
+      "name": "鲁道夫·克劳修斯",
+      "alias": "克劳修斯",
+      "birthYear": 1822,
+      "deathYear": 1888,
+      "lifeText": "公元1822年－公元1888年",
+      "role": "物理学家、数学家",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "德国物理学家，表述热力学第二定律并引入熵的概念。",
+      "biography": "克劳修斯生于1822年德国科斯钦，是一位虔诚的基督徒，早年研习数学与物理，后在柏林与哈雷接受工程与物理学训练，并取得哲学博士学位。1840年代他从事工程技术工作，研究蒸汽机效率与铁路机车性能，1850年在《物理学期刊》发表论文，提出热量不能自发地从低温物体传向高温物体，从而表述了热力学第二定律。1854年他进一步表述为：不可能把热量从低温物体传到高温物体而不引起其他变化。1865年他写成《热力学主要理论的推导》，提出「不可逆过程使熵增加」，并把熵定义为 dS = dQ/T，即热量与绝对温度之比在可逆过程中的变化，同时用「能量退化」与「补偿过程」阐释自然过程的方向性。他还与玻尔兹曼共同推动「热质说」向分子运动论的过渡，并在1865年断言「宇宙的熵趋于极大值」，为热寂说提供了理论表述。克劳修斯是热力学工程化的重要推动者，创立了「循环过程」这一分析工具。熵成为物理学中应用最广泛的抽象概念之一。",
+      "achievements": [
+        "表述热力学第二定律",
+        "定义熵并提出熵增原理",
+        "提出能量退化与补偿过程概念",
+        "创立循环过程的热力学分析方法",
+        "为工程热力学的建立奠定理论基础"
+      ],
+      "quotes": [
+        "宇宙的熵趋于极大值。"
+      ],
+      "relatedEvents": [
+        "ev-phy-clausius-entropy",
+        "ev-phy-joule-energy"
+      ],
+      "relatedFigures": [
+        "fig-phy-joule",
+        "fig-phy-boltzmann",
+        "fig-phy-carnot"
+      ],
+      "tags": [
+        "德国",
+        "熵",
+        "热力学",
+        "不可逆性"
+      ]
+    },
+    {
+      "id": "fig-phy-maxwell",
+      "name": "詹姆斯·克拉克·麦克斯韦",
+      "alias": "麦克斯韦",
+      "birthYear": 1831,
+      "deathYear": 1879,
+      "lifeText": "公元1831年－公元1879年",
+      "role": "物理学家、数学家",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "英国物理学家，建立分子运动论与电磁场理论，统一了电、磁与光的规律。",
+      "biography": "麦克斯韦生于1831年苏格兰爱丁堡一个苏格兰地主家庭，14岁进入爱丁堡大学，16岁即开始发表论文，1850年成为苏格兰最年轻的数学教授。他与妻子詹妮之间持续的通信中，留下了大量关于颜色理论与实验的讨论。1859年他向英国皇家学会报告《论运动粒子所组成的介质中的动量公式》，导出分子速率分布律，把气体理论建立在统计方法之上，1860年又扩充为《气体分子运动论》，这是统计物理的开山之作。1861至1865年，他以《论物理学的假说》和《论电磁场》为题发表电磁理论，引入位移电流，把法拉第的力线形式化为场方程，并由方程预言电磁波、算出其速度等于光速，提出光是电磁波的论断。他还创办了《英国科学文摘》前身之一的科学期刊，在《热理论》中发展了统计方法的通用框架，晚年从事气体分子平均自由程的实验验证。麦克斯韦1879年病逝于剑桥，年仅48岁。",
+      "achievements": [
+        "导出分子速率分布律，开创统计力学",
+        "建立麦克斯韦电磁场方程组",
+        "预言电磁波的存在并指出光即电磁波",
+        "引入位移电流概念",
+        "发展《热理论》中的通用统计方法",
+        "创办科学期刊并推动科学传播"
+      ],
+      "quotes": [
+        "如果我并非如此顽固地坚持自信，就不可能发现麦克斯韦方程组。"
+      ],
+      "relatedEvents": [
+        "ev-phy-maxwell-kinetic",
+        "ev-phy-maxwell-equations",
+        "ev-phy-hertz-radio"
+      ],
+      "relatedFigures": [
+        "fig-phy-faraday",
+        "fig-phy-hertz",
+        "fig-phy-boltzmann",
+        "fig-phy-gibbs"
+      ],
+      "tags": [
+        "英国",
+        "电磁学",
+        "统计物理",
+        "场论"
+      ]
+    },
+    {
+      "id": "fig-phy-boltzmann",
+      "name": "路德维希·玻尔兹曼",
+      "alias": "玻尔兹曼",
+      "birthYear": 1844,
+      "deathYear": 1906,
+      "lifeText": "公元1844年－公元1906年",
+      "role": "物理学家",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "奥地利物理学家，把熵解释为微观状态数之对数，奠定统计力学基础。",
+      "biography": "玻尔兹曼生于1844年奥地利维也纳，1866年获博士学位，先后在维也纳、克拉茨福、慕尼黑、莱比锡任教，一生以不断迁徙和激烈论争著称。1866年他发表论文从统计方法研究气体理论，1877年引入相空间概念，提出一个宏观状态对应的微观状态数 W 与熵 S = k ln W 的关系，把熵解释为统计量，这是统计力学的基本洞察。他还推广了麦克斯韦分布律、研究热力学与辐射理论，并提出可推广到任何多元统计系统的「玻尔兹曼分布」思想，其对弱相互作用粒子的统计处理，直接导向玻色-爱因斯坦统计与费米-狄拉克统计。玻尔兹曼性格激烈而孤独，他长期为原子论辩护，与实证论者奥斯特瓦尔德等激烈论战，1906年在意大利杜伊诺度假时自杀，年仅61岁。他墓碑上刻着 S = k log W 的公式。其著作死后被重印，1930年代后被译介到英语世界，20世纪后半叶成为他的声望达到顶峰的时期。",
+      "achievements": [
+        "提出 S = k ln W 的熵的统计解释",
+        "引入相空间与宏观态-微观态的区分",
+        "发展玻尔兹曼分布与统计力学的通用方法",
+        "为量子统计与统计物理开辟道路",
+        "为原子论进行长期而激烈的辩护"
+      ],
+      "quotes": [
+        "熵是无序的量度。"
+      ],
+      "relatedEvents": [
+        "ev-phy-boltzmann-entropy",
+        "ev-phy-maxwell-kinetic"
+      ],
+      "relatedFigures": [
+        "fig-phy-maxwell",
+        "fig-phy-gibbs",
+        "fig-phy-clausius"
+      ],
+      "tags": [
+        "奥地利",
+        "统计力学",
+        "熵",
+        "热力学"
+      ]
+    },
+    {
+      "id": "fig-phy-gibbs",
+      "name": "约瑟夫·威尔拉德·吉布斯",
+      "alias": "吉布斯",
+      "birthYear": 1839,
+      "deathYear": 1903,
+      "lifeText": "公元1839年－公元1903年",
+      "role": "物理学家、数学家",
+      "periodId": "phy-thermal-stat",
+      "gender": "male",
+      "summary": "美国物理学家，建立系综统计方法与相律，是美国物理学的奠基人。",
+      "biography": "吉布斯生于1839年美国康涅狄格州纽黑文，父亲是耶鲁的保险业家。他在耶鲁大学获得工程学位后，因该领域当时被视作实用之学而转向数学，赴欧洲学习，在巴黎与柏林接触了亥姆霍兹、克劳修斯、普朗克等人的工作，回国后在耶鲁无薪任教，长期缺乏学术关注。1873年他发表《热力学的基本原理及其在化学中的应用》，引入「系综」概念——设想由大量全同系统构成的集合并进行统计平均，从而把统计描述与可观测量严格联系起来；他提出正则系综并引入配分函数，由此导出几乎所有热力学关系式。1876年他导出相律，为相平衡与相图分析提供骨架。1898年后他转向统计力学，发展系综理论、相空间体积分析与涨落理论，并研究涨落与耗散的关系。1901至1903年他出版三大卷《统计力学基础》，这是统计力学的奠基之作，对薛定谔、玻尔兹曼学派后来的发展影响深远。吉布斯的声望在1903年逝世后迅速上升，耶鲁后来设立了以他命名的吉布斯奖。",
+      "achievements": [
+        "创立系综方法与配分函数",
+        "导出相律与相平衡理论",
+        "出版《统计力学基础》三大卷",
+        "研究涨落与耗散理论",
+        "把统计力学与化学热力学结合起来"
+      ],
+      "quotes": [
+        "当我们试图把某些定律组合起来时，其数学形式应保持简洁。"
+      ],
+      "relatedEvents": [
+        "ev-phy-gibbs-phase-rule"
+      ],
+      "relatedFigures": [
+        "fig-phy-boltzmann",
+        "fig-phy-maxwell"
+      ],
+      "tags": [
+        "美国",
+        "统计力学",
+        "相律",
+        "系综"
+      ]
+    },
+    {
+      "id": "fig-phy-faraday",
+      "name": "迈克尔·法拉第",
+      "alias": "法拉第",
+      "birthYear": 1791,
+      "deathYear": 1867,
+      "lifeText": "公元1791年－公元1867年",
+      "role": "物理学家、化学家",
+      "periodId": "phy-electromag",
+      "gender": "male",
+      "summary": "英国物理学家与化学家，发现电磁感应定律，提出力线思想与电解定律。",
+      "biography": "法拉第生于1791年英国纽ington 的一个贫苦铁匠家庭，12岁起做书店学徒，1814年得到伦敦的詹姆斯·法默书店老板赏识，获准旁听皇家学会的演讲，并得到其中最好的仪器用于实验。1812年他撰写了《烛火指南》，总结了法拉第电学与化学的知识。1821年他任皇家学会冬期演讲的助理，其后长期与惠更斯、奥斯特、惠斯通等人合作。1831年他发现电磁感应现象并总结出感应定律，1832年他进一步指出感应电流的方向由磁通量变化的性质决定，这已包含楞次定律的内容。1833年他提出电解定律，指出电解产物的量与通过的电量成正比并与电量成简单整数比，为离子概念的提出铺平道路。1840年代他提出「力线」概念，把场描绘为连续的空间结构，为麦克斯韦的形式化提供直观图景。他还发现旋转磁场可驱动电动机、提出电磁场守恒的直觉，并于1831年后转向位于肯特郡的私人实验室从事研究，晚年身体每况愈下但仍在1850年代于伦威利大厦完成了著名的「重物沿斜坡下滑生热」等实验。法拉第坚定的自然哲学信念是：自然哲学的目的在于服务人类，他为此谢绝了爵位，也拒绝为纪念其生平而发行带画像的纪念章。",
+      "achievements": [
+        "发现电磁感应现象并总结出法拉第定律",
+        "提出电解定律并为离子概念铺路",
+        "提出力线思想，奠定场的直观基础",
+        "发现旋转磁场的电动机原理",
+        "系统研究气体电离与磁性",
+        "坚持自然哲学应服务于人类的信念"
+      ],
+      "quotes": [
+        "自然哲学的目的在于服务人类。",
+        "我所能发现的最好的服务方式，是尽我所能地提高知识与道德水平。"
+      ],
+      "relatedEvents": [
+        "ev-phy-faraday-induction",
+        "ev-phy-maxwell-equations"
+      ],
+      "relatedFigures": [
+        "fig-phy-maxwell"
+      ],
+      "tags": [
+        "英国",
+        "电磁感应",
+        "力线",
+        "电解定律"
+      ]
+    },
+    {
+      "id": "fig-phy-hertz",
+      "name": "海因里希·赫兹",
+      "alias": "赫兹",
+      "birthYear": 1857,
+      "deathYear": 1894,
+      "lifeText": "公元1857年－公元1894年",
+      "role": "物理学家",
+      "periodId": "phy-electromag",
+      "gender": "male",
+      "summary": "德国物理学家，用实验直接产生并接收电磁波，验证麦克斯韦的预言。",
+      "biography": "赫兹生于1857年德国汉堡，其父是后来任汉堡市长的犹太法学家。他在德累斯顿、慕尼黑与柏林求学，1880年在赫尔佐格设计的高压实验中获得博士，后在卡尔斯鲁厄的亥姆霍兹与亥德维希实验室工作。1886至1889年，赫兹用感应线圈与开口火花隙产生高频电振荡，发现只要振荡足够强，间隙中的火花就会在两个小球间跳跃；他用两根直铜线、两端各接一个带缝隙的球构成发射器，以铜环或带缝隙的环作为检波器。1887年11月，他在卡尔斯鲁厄的物理实验室用锌板反射装置成功在不到一米的距离内产生了波长约1米的微波，并用检波器在远处探测到。他随后系统测量了电磁波的波长与速度，发现速度约每秒2.98亿米，与光速一致；他还发现电磁波可被反射、折射、衍射与干涉，并被硫酸锌溶液反射、被木板遮挡，从而证明电磁波与光服从同一套定律，光就是电磁波。赫兹的实验被马可尼与特斯拉转化为无线电报技术，但他本人因鼻窦疾病与实验条件限制，未能继续这一转化，1894年病逝，年仅37岁。物理学单位「赫兹」即以他命名。",
+      "achievements": [
+        "在实验室中产生并接收了波长约1米的电磁波",
+        "测得电磁波速度与光速一致",
+        "证明电磁波具有反射、折射、衍射与干涉性质",
+        "以实验确证麦克斯韦电磁理论",
+        "为无线电通信技术奠定实验基础"
+      ],
+      "quotes": [
+        "我丝毫不怀疑电磁波在空间中的真实存在。"
+      ],
+      "relatedEvents": [
+        "ev-phy-hertz-radio",
+        "ev-phy-maxwell-equations"
+      ],
+      "relatedFigures": [
+        "fig-phy-maxwell",
+        "fig-phy-faraday"
+      ],
+      "tags": [
+        "德国",
+        "电磁波",
+        "无线电",
+        "实验验证"
+      ]
+    },
+    {
+      "id": "fig-phy-einstein",
+      "name": "阿尔伯特·爱因斯坦",
+      "alias": "爱因斯坦",
+      "birthYear": 1879,
+      "deathYear": 1955,
+      "lifeText": "公元1879年－公元1955年",
+      "role": "物理学家",
+      "periodId": "phy-relativity",
+      "gender": "male",
+      "summary": "德国裔物理学家，提出狭义与广义相对论，解释光电效应，并为量子理论奠基。",
+      "biography": "爱因斯坦1879年生于德国乌尔姆，成长于慕尼黑，少年时对机械与磁电设备有强烈兴趣，曾自学欧几里得几何。1896年他放弃德国中学学业赴瑞士，进入苏黎世联邦理工学院，1900年毕业但未能立刻找到教职，1902年成为伯尔尼专利局技术三级专员，这份工作给了他进行理论思考的自由。1905年他发表了物理学的「奇迹年」论文：《论动理论所要求的运动》解释布朗运动并给出分子大小估算；《论光电效应的理论》提出光量子假说；《论动理论的电动力学》提出狭义相对论；《论动理论的电动力学》的续篇导出质能关系 E = mc²。1909年他因统计力学与光量子工作获奖；1911至1913年他任布拉格大学教授，期间取得苏黎世大学正教授职位。1915年他完成广义相对论，1919年爱丁顿日食观测使其声誉鹊起。1921年他赴美国普林斯顿，任爱因斯坦研究院教授。1933年因纳粹上台他放弃德国国籍，1936年发表广义相对论论文，论证引力透镜效应并预言引力波。1955年4月18日他病逝于普林斯顿。爱因斯坦的宗教与哲学立场复杂，他自称受够了「科学之外的无信仰」，但他也是一个公开的犹太教平权与和平主义者，其晚年主要精力转向统一场论探索，未获成功。他的遗稿被运往新泽西州的美国国家科学院保管。",
+      "achievements": [
+        "1905年奇迹年四篇论文（布朗运动、光量子、狭义相对论、质能关系）",
+        "提出狭义相对论的两条基本假设并导出洛伦兹变换",
+        "提出等效原理并建立广义相对论方程",
+        "以光量子假说解释光电效应",
+        "提出受激辐射理论并为激光奠基",
+        "引力透镜与引力波预言"
+      ],
+      "quotes": [
+        "在试图解开量子力学这个谜团二十多年后，我知道了自己无法以任何形式处理它。",
+        "物理学的目的是让实在变得尽可能简单。"
+      ],
+      "relatedEvents": [
+        "ev-phy-einstein-1905",
+        "ev-phy-special-relativity",
+        "ev-phy-general-relativity",
+        "ev-phy-einstein-photoelectric",
+        "ev-phy-brownian-movement",
+        "ev-phy-eddington-eclipse"
+      ],
+      "relatedFigures": [
+        "fig-phy-planck",
+        "fig-phy-bohr",
+        "fig-phy-schrodinger",
+        "fig-phy-hawking"
+      ],
+      "tags": [
+        "德国",
+        "相对论",
+        "量子理论",
+        "理论物理"
+      ]
+    },
+    {
+      "id": "fig-phy-hawking",
+      "name": "斯蒂芬·威廉·霍金",
+      "alias": "霍金",
+      "birthYear": 1942,
+      "deathYear": 2018,
+      "lifeText": "公元1942年－公元2018年",
+      "role": "理论物理学家",
+      "periodId": "phy-relativity",
+      "gender": "male",
+      "summary": "英国理论物理学家，提出霍金辐射，创立黑洞热力学并推广宇宙学。",
+      "biography": "霍金1942年生于英国牛津，父亲是热带植物学家，母亲从事政治活动，他在伦敦的玛丽皇后学校度过小学与中学。1959年他进入牛津大学，1962年获学士并赴剑桥大学攻读博士，导师为 Dennis Sciama，研究方向是宇宙学。21岁时他被诊断出运动神经元病，医生预言他只剩两年寿命，此后他以惊人的意志力与学术产出延续了几十年。1970年代，他在与罗杰·彭罗斯合作证明「奇点定理」之后，把量子场论用于黑洞视界附近，1974年导出黑洞会发出热辐射，即霍金辐射，并由此推出黑洞熵与蒸发机制，把引力量子化与热力学联系起来。1979至1980年他与詹姆斯·哈特入选选计算得到宇宙初始量子涨落的图像，把可观测的各向异性归因于极早期宇宙的涨落。1988年他出版《时间简史》，被译成数十种语言，成为科学史上罕见的现象级畅销书，把宇宙学带给了全球大众。此后他与哈特尔在2000年代提出无边界宇宙模型，并长期从事超弦理论对黑洞的尝试。霍金终身使用轮椅与语音合成器交流。2018年3月14日他去世，享年76岁。",
+      "achievements": [
+        "提出霍金辐射与黑洞热力学",
+        "与彭罗斯合作证明奇点定理",
+        "用量子涨落解释宇宙微波背景的各向异性",
+        "推广无边界宇宙模型",
+        "以科普著作《时间简史》影响全球大众",
+        "长期在剑桥从事理论物理研究"
+      ],
+      "quotes": [
+        "即使在宇宙中，也存在我们看不到的、却又真实存在的东西。"
+      ],
+      "relatedEvents": [
+        "ev-phy-hawking-radiation",
+        "ev-phy-general-relativity"
+      ],
+      "relatedFigures": [
+        "fig-phy-einstein",
+        "fig-phy-penrose"
+      ],
+      "tags": [
+        "英国",
+        "黑洞",
+        "霍金辐射",
+        "宇宙学"
+      ]
+    },
+    {
+      "id": "fig-phy-penrose",
+      "name": "罗杰·彭罗斯",
+      "alias": "彭罗斯",
+      "birthYear": 1931,
+      "deathYear": null,
+      "lifeText": "公元1931年－",
+      "role": "数学物理学家",
+      "periodId": "phy-relativity",
+      "gender": "male",
+      "summary": "英国数学物理学家，发现奇点定理，创立扭量理论与因果集论框架。",
+      "biography": "彭罗斯1931年生于英国白金汉郡，成长于一个严谨的家庭，父亲是医用遗传学家，母亲是园艺学专著作者。他在剑桥大学与牛津大学受教育，获代数几何博士学位，曾在伦敦国王学院、贝克莱、牛津、普林斯顿与帝国理工学院任职，1963年成为英国皇家学会院士，1994年任牛津大学数学科学研究所所长。1965年他与霍金合作证明黑洞必然含有奇点的「奇点定理」，该定理以极简的假设得出强结论：若广义相对论的能动量条件成立，则不完整 Cauchy 曲面的将来必然不完整，即出现奇点，这一成果意味着大爆炸并非单纯的起点，而是某种必然的结构性问题。1965年他还发明了纽曼-彭罗斯 Penrose 图，用二维图示表达时空的因果结构，成为广义相对论的标准工具。1974年他提出「正能量猜想」，2020年与罗伊·凯尔等人给出证明，这是爱因斯坦一百年前数学研究所留下的猜想的最终解答。彭罗斯还创立了扭量理论、因果集论与圈量子引力等研究方向，并长期主张宇宙中存在尚未被发现的「奇异结构」。",
+      "achievements": [
+        "与霍金共同证明黑洞奇点定理",
+        "发明彭罗斯图表示时空因果结构",
+        "提出并参与证明正能量猜想",
+        "创立扭量理论与因果集论框架",
+        "推动圈量子引力等前沿方向"
+      ],
+      "quotes": [
+        "黑洞并不是空间中一个普普通通的洞，它是时空本身的奇点。"
+      ],
+      "relatedEvents": [
+        "ev-phy-hawking-radiation"
+      ],
+      "relatedFigures": [
+        "fig-phy-hawking",
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "英国",
+        "奇点定理",
+        "扭量理论",
+        "广义相对论"
+      ]
+    },
+    {
+      "id": "fig-phy-planck",
+      "name": "马克斯·普朗克",
+      "alias": "普朗克",
+      "birthYear": 1858,
+      "deathYear": 1947,
+      "lifeText": "公元1858年－公元1947年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "德国物理学家，1900年引入能量量子 hν，开创量子理论。",
+      "biography": "普朗克生于1858年德国基尔，是一位法学教授之子。他在慕尼黑与柏林求学，1880年获博士学位，先后在慕尼黑、基尔、柏林任教，1889年起任柏林大学教授。他一生研究辐射理论，先深受亥姆霍兹与克劳修斯影响，后转向玻尔兹曼的统计方法。1900年10月，他向德国物理学会报告，用能量量子 hν 的假设成功拟合了黑体辐射的实验数据，这是量子理论的开端。1901年他引入统计方法计算振子平均能量，并由黑体辐射反推得到精确的普朗克常量，这一工作常被视为量子理论正式诞生的标志。普朗克本人对量子假设极为不安，称其为「绝望之举」，并长期试图返回连续性描述。1910年他与普朗克-爱因斯坦公式的建立、1911年与厄伦费斯特的对应原理，以及1920年代与玻尔、埃伦费斯特在哥本哈根的争论，都对量子理论框架的澄清起过作用。普朗克是德国科学界的领袖与组织者，1919年参与创建德国科学研究协会，并在一战后的重建中发挥了关键作用。1946年他移居哥廷根，1947年在那里去世。他写有大量科学哲学与宗教信仰方面的著作。",
+      "achievements": [
+        "1900年提出能量量子 hν 假说解释黑体辐射",
+        "由辐射谱精确测定普朗克常量",
+        "提出对应原理",
+        "研究量子假说与经典理论的过渡",
+        "重建并领导战后的德国科学研究组织"
+      ],
+      "quotes": [
+        "我將不得不使用一个在所有情况下都適用的假設：我曾冒險地假設過。"
+      ],
+      "relatedEvents": [
+        "ev-phy-planck-quantum",
+        "ev-phy-einstein-photoelectric"
+      ],
+      "relatedFigures": [
+        "fig-phy-einstein",
+        "fig-phy-boltzmann",
+        "fig-phy-bohr"
+      ],
+      "tags": [
+        "德国",
+        "量子理论",
+        "黑体辐射",
+        "普朗克常量"
+      ]
+    },
+    {
+      "id": "fig-phy-bohr",
+      "name": "尼尔斯·玻尔",
+      "alias": "玻尔",
+      "birthYear": 1885,
+      "deathYear": 1962,
+      "lifeText": "公元1885年－公元1962年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "丹麦物理学家，提出原子定态模型与对应原理，创立哥本哈根学派。",
+      "biography": "玻尔生于1885年丹麦哥本哈根，是哥本哈根富裕的犹太商人家庭成员，其父是丹麦议会成员兼生理学爱好者，弟弟 Harald 是著名物理学家。玻尔在哥本哈根大学学习物理与哲学，1909年获硕士，1911年赴英国剑桥在卢瑟福门下研究放射现象，1912年提出「卢瑟福-玻尔原子模型」的雏形，后回哥本哈根完成博士论文。1913年他在英国同道俱乐部宣读论文，提出电子定态轨道与跃迁发光的三条假设，成功解释氢原子光谱并预言氦离子光谱，这使量子力学第一次取得决定性成功。1916年他返回哥本哈根大学任教授，1918年前往哥本哈根的玻尔研究所（1921年正式成立）工作，1919年他受聘到荷兰莱顿，1920年代吸引泡利、海森堡、狄拉克等年轻人，形成哥本哈根学派。1927年他提出互补性原理，与海森堡的不确定性原理、玻恩的概率解释共同构成哥本哈根诠释。1929年玻尔在哥本哈根召开会议，与爱因斯坦展开著名的长期论战，两人的往来通信成为科学哲学的重要文献。他大力推动原子核研究并积极支持国际科学合作与战后的科学重建，还亲自参与营救被纳粹迫害的同事。1962年他逝世于哥本哈根，墓碑上刻着互补原理的公式。",
+      "achievements": [
+        "1913年提出原子定态模型与跃迁发光假说",
+        "解释氢原子光谱并预言氦离子光谱",
+        "提出对应原理与互补性原理",
+        "创立并领导哥本哈根学派",
+        "推动核物理研究与核能的和平利用",
+        "与爱因斯坦展开长期的诠释论战"
+      ],
+      "quotes": [
+        "我不怕死，但我怕死得没有意义。"
+      ],
+      "relatedEvents": [
+        "ev-phy-bohr-atom",
+        "ev-phy-uncertainty-principle",
+        "ev-phy-neutron-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-planck",
+        "fig-phy-heisenberg",
+        "fig-phy-dirac",
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "丹麦",
+        "原子物理",
+        "哥本哈根学派",
+        "互补原理"
+      ]
+    },
+    {
+      "id": "fig-phy-debroglie",
+      "name": "路易·德布罗意",
+      "alias": "德布罗意",
+      "birthYear": 1892,
+      "deathYear": 1987,
+      "lifeText": "公元1892年－公元1987年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "法国物理学家，提出物质波假说，为波动力学提供动力学解释。",
+      "biography": "德布罗意生于1892年法国迪耶普，是公爵家族后裔，其家族自17世纪以来为法国贵族服务。他在巴黎大学学习历史与政治，因对科学产生兴趣转向物理，在哥哥莫里斯（后来的诺贝尔物理学奖得主）的鼓励下研究量子力学。1923年底他注意到一个对称性：光在真空中表现出波与粒子二重性，而实物粒子（如电子）也应当如此。1924年他提出物质波假说：任何具有动量的实物粒子都对应一个波长为 λ = h/p 的波，并指出电子的德布罗意波长与阿伏加德罗数量级相同，因而原则上可以被衍射实验观测。他进一步把相波理论用于光子的统计解释，提出光子数与相波的关系，从而与爱因斯坦光子理论相衔接。1927年，戴维森与革末用镍晶体对电子的衍射实验、以及戴维森与安德森、G.P. 汤姆孙的独立电子衍射实验，直接验证了德布罗意波的存在，他自己因此获1929年诺贝尔物理学奖（与他的哥哥莫里斯分享）。德布罗意后来转向波粒二象性的哲学解释与统一场论研究，1970年代以后又回到中微子与引力波等边缘课题。他在生命最后阶段积极推动「国际科学年」与欧洲科学合作，1987年病逝于巴黎。",
+      "achievements": [
+        "1924年提出物质波假说 λ = h/p",
+        "用相波理论解释光子统计",
+        "预言并被验证电子衍射实验",
+        "1929年获诺贝尔物理学奖",
+        "推动中微子与引力波等课题的早期研究",
+        "晚年致力于国际科学合作"
+      ],
+      "quotes": [
+        "物质与波动的二重性应当适用于一切事物。"
+      ],
+      "relatedEvents": [
+        "ev-phy-schrodinger-equation"
+      ],
+      "relatedFigures": [
+        "fig-phy-schrodinger",
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "法国",
+        "物质波",
+        "德布罗意波长",
+        "波粒二象性"
+      ]
+    },
+    {
+      "id": "fig-phy-heisenberg",
+      "name": "维尔纳·海森堡",
+      "alias": "海森堡",
+      "birthYear": 1901,
+      "deathYear": 1976,
+      "lifeText": "公元1901年－公元1976年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "德国物理学家，创立矩阵力学并提出不确定性原理。",
+      "biography": "海森堡生于1901年德国 Würzburg，其父是慕尼黑大学的希腊语教授。他在慕尼黑、哥廷根与莱比锡求学，深受索末菲与玻尔的影响。1923年他去希腊克里特岛度假时获得灵感，用量子跃迁频率取代不可观测的电子轨道，提出「直观可观测量的原则」，把物理量只建立在可观测量之上。1925年他在赫尔辛基附近的度假地度假时因无法计算氦原子光谱而受阻，转而尝试只用跃迁频率与强度构造量子力学，写出了第一个矩阵力学的表述。当时他并不完全清楚这一数学结构的意义，玻恩与约当识破其为对易矩阵并完成推导。1926年薛定谔的波动力学出现后，泡利证明了二者的数学等价性。1927年海森堡用γ射线显微镜的思想实验导出不确定关系 Δx·Δp ≥ ℏ/2，指出位置与动量的模糊性是量子态的内禀性质而非测量缺陷，同年他提出矩阵力学的完整表述。1932年他因创立矩阵力学获诺贝尔物理学奖。1929年后他转向湍流与旋流理论并取得重要成果，1932年后转向核物理与统一场论，1957年他与泡利提出非定域场论，1967年后他转向旋量场理论、夸克模型与统一场论探索。海森堡是德国战后科学重建的关键人物，他于1954年在吕贝克做了著名的原子弹谈话，其谈话记录长期存有争议。1976年他逝世于慕尼黑。",
+      "achievements": [
+        "1925年创立矩阵力学",
+        "1927年提出不确定性原理",
+        "建立湍流理论并率先预言质子数守恒",
+        "提出非定域统一场论",
+        "与泡利等人合作研究核物理",
+        "1932年获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "我以为自己能看见上帝……但我只能看到极小的余光。"
+      ],
+      "relatedEvents": [
+        "ev-phy-heisenberg-matrix",
+        "ev-phy-uncertainty-principle",
+        "ev-phy-neutron-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-bohr",
+        "fig-phy-schrodinger",
+        "fig-phy-pauli"
+      ],
+      "tags": [
+        "德国",
+        "矩阵力学",
+        "不确定性原理",
+        "统一场论"
+      ]
+    },
+    {
+      "id": "fig-phy-schrodinger",
+      "name": "埃尔温·鲁道夫·薛定谔",
+      "alias": "薛定谔",
+      "birthYear": 1887,
+      "deathYear": 1961,
+      "lifeText": "公元1887年－公元1961年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "奥地利物理学家，建立波动力学与薛定谔方程，提出波动解释。",
+      "biography": "薛定谔生于1887年奥地利维也纳，是家中的第三个孩子，父亲是植物学教授，母亲有音乐与拉丁语背景。他在维也纳大学学习物理与数学，1910年获博士学位，先后在助手与讲师职位上从事统计力学与分子物理研究，并取得重要成就。1914年他转到德国耶拿，与玻恩共事，与德布罗意、安德森等人结识。1920年他任斯图加特大学教授，1921年移居苏黎世。1925年底，苏黎世大学的德拜（Debye）建议薛定谔关注德布罗意波，这促使他转向波动力学。1926年他发表了论文《量子化作为本征值问题》，写出了把时间导数与空间二阶导数联系起来的偏微分方程，即薛定谔方程，并证明它能精确再现氢原子光谱。他最初把波函数当作真实的物理实体，但随后因相对论性氢原子计算的偏差转而采纳玻尔式的驻波解释。1927年他前往哥本哈根与玻尔讨论，玻恩的概率解释随后解决了波函数的实在性问题。1933年他因创立波动力学与薛定谔方程获诺贝尔物理学奖。1933年后他移居爱尔兰都柏林，主持高等研究院，并发展了统一场论与生命起源的「负熵」思想。1951年他返回维也纳，1961年病逝于阿尔卑斯山中的家中。",
+      "achievements": [
+        "1926年建立波动力学并写出薛定谔方程",
+        "精确再现氢原子光谱",
+        "提出驻波与轨道量子化的物理解释",
+        "发展量子统计与色散理论",
+        "1933年获诺贝尔物理学奖",
+        "创立高等研究院并推动爱尔兰与奥地利的科学建设"
+      ],
+      "quotes": [
+        "物质在适当条件下可以呈现波动性。"
+      ],
+      "relatedEvents": [
+        "ev-phy-schrodinger-equation",
+        "ev-phy-uncertainty-principle"
+      ],
+      "relatedFigures": [
+        "fig-phy-debroglie",
+        "fig-phy-heisenberg",
+        "fig-phy-planck"
+      ],
+      "tags": [
+        "奥地利",
+        "波动力学",
+        "薛定谔方程",
+        "量子力学"
+      ]
+    },
+    {
+      "id": "fig-phy-dirac",
+      "name": "保罗·安德烈·狄拉克",
+      "alias": "狄拉克",
+      "birthYear": 1902,
+      "deathYear": 1984,
+      "lifeText": "公元1902年－公元1984年",
+      "role": "理论物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "英国理论物理学家，提出狄拉克方程，预言正电子并创立自旋与统计理论。",
+      "biography": "狄拉克生于1902年英国布里斯托尔，成长于一个技术工人家庭，父亲是图书馆馆长，母亲来自爱尔兰。他曾在伯明翰的化工企业当学徒，后进入布里斯托尔大学与剑桥大学学习，1927年以第一人称身份毕业，随后在剑桥随霍尔斯与拉森学习，并在薛定谔手下工作。1928年他提出描述相对论性电子的方程（今称狄拉克方程），从该方程中推出电子的自旋为 1/2，并从中读出正电子的存在，1931年明确写出这一预言，翌年由安德森在云室中观测证实。1929年狄拉克当选皇家学会会员，1932年获剑桥大学讲师职位，1933年当选为皇家学会会员并获诺丁汉大学荣誉博士学位。他与薛定谔共同获1933年诺贝尔物理学奖。狄拉克与海森堡几乎同时发展了自旋的相对论量子力学，并在统计力学中引入「狄拉克统计」（费米-狄拉克分布），为解释白矮星不塌缩提供了关键工具。1930年代他提出关于重力的理论（狄拉克-爱因斯坦-朗道方程），预言引力波与黑洞的存在并给出质量与电荷关系的下限（狄拉克原理）。他晚年主要关注量子电动力学与宇宙学基础，并留下那句广为流传的名言：「在可以预见的将来，我预期我们将继续沿着现有方向前进，从而使相对论与量子力学相互融合。」1964年他接受诺奖时在演讲中提到，自己从未接受过大学教育，因为小学成绩优异直接升入中学并获文凭进入大学，他说如果当年先读普通大学「大概会变得不那么聪明」。1984年他逝世于佛罗里达。",
+      "achievements": [
+        "1928年提出狄拉克方程并预言正电子",
+        "发展自旋的相对论量子力学",
+        "引入费米-狄拉克统计",
+        "提出狄拉克-爱因斯坦-朗道引力方程",
+        "创立正则量子化与路径积分表述",
+        "1933年与薛定谔共获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "在可以预见的将来，我预期我们将继续沿着现有方向前进……"
+      ],
+      "relatedEvents": [
+        "ev-phy-dirac-equation",
+        "ev-phy-positron-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-heisenberg",
+        "fig-phy-schrodinger",
+        "fig-phy-einstein"
+      ],
+      "tags": [
+        "英国",
+        "狄拉克方程",
+        "正电子",
+        "自旋"
+      ]
+    },
+    {
+      "id": "fig-phy-pauli",
+      "name": "沃尔夫冈·泡利",
+      "alias": "泡利",
+      "birthYear": 1900,
+      "deathYear": 1958,
+      "lifeText": "公元1900年－公元1958年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "奥地利物理学家，提出不相容原理、泡利磁性论并预言中微子。",
+      "biography": "泡利生于1900年奥地利维也纳，其父是著名学者、后来转向心理性神秘主义的沃尔夫冈·泡利。他在慕尼黑从索末菲学习，与海森堡、狄拉克是同窗，1928年取得慕尼黑大学博士学位，随后在苏黎世、哥廷根、莱比锡、剑桥等地工作。1925年他提出不相容原理：任何两个全同费米子不能处于同一量子态，这一简洁而深刻的原理解释了原子壳层结构、周期表的形成与碱金属的性质，成为整个原子物理的支柱。1926年他与费米合作发展费米-狄拉克统计，并与海森堡等人用中微子解释β衰变的能量缺失（1930年），四年后查德威克的发现证实了这一预言。他提出泡利磁性论，指出含奇数个电子的原子具有顺磁性，这是磁性理论的重要一步。泡利以严格的逻辑与尖锐的批评著称，他曾因爱因斯坦的引力理论而与其论战多年，又因海森堡的量子力学跃迁理论与其进行著名的「论文战」，迫使理论得到澄清。他的口头禅是「这甚至不正确」（Das ist nicht einmal richtig）。1958年他逝世于苏黎世，遗体火化后葬于苏黎世湖畔的沃尔芬斯图伦公墓。",
+      "achievements": [
+        "1925年提出泡利不相容原理",
+        "与费米发展费米-狄拉克统计",
+        "1930年提出中微子假说并预言其存在",
+        "提出泡利磁性论",
+        "与海森堡进行著名的理论论战",
+        "在相对论与粒子物理领域贡献卓著"
+      ],
+      "quotes": [
+        "Das ist nicht einmal richtig.（这甚至不正确。）"
+      ],
+      "relatedEvents": [
+        "ev-phy-pauli-exclusion",
+        "ev-phy-chadwick-neutron"
+      ],
+      "relatedFigures": [
+        "fig-phy-heisenberg",
+        "fig-phy-dirac"
+      ],
+      "tags": [
+        "奥地利",
+        "不相容原理",
+        "中微子",
+        "自旋统计"
+      ]
+    },
+    {
+      "id": "fig-phy-chadwick",
+      "name": "詹姆斯·查德威克",
+      "alias": "查德威克",
+      "birthYear": 1891,
+      "deathYear": 1974,
+      "lifeText": "公元1891年－公元1974年",
+      "role": "物理学家",
+      "periodId": "phy-quantum",
+      "gender": "male",
+      "summary": "英国物理学家，测出中子质量并确证中子的存在。",
+      "biography": "查德威克生于1891年英国曼彻斯特，成长于工业城市的环境，他在曼彻斯特大学在卢瑟福门下学习，1911年取得学士，1913年在剑桥的卡文迪许实验室工作，1915年转至曼彻斯特大学担任卢瑟福的讲师。一战期间他赴德国监视线圈设备并因提出申诉而引发外交风波，战后继续在卢瑟福手下研究放射性与核反应，1919年他证明 α 粒子轰击氮可产生质子，这项发现开启了人工核嬗变研究。1927年他被任命为剑桥大学卡文迪许实验室主任，并在英国 Physics Today 等刊物上大力提倡将科学用于国防。1932年，他用高压加速器产生质子轰击铍靶，通过测量反冲核速度计算入射粒子的质量，发现这些中性粒子的质量约为1.15倍质子，从而确证了居里夫妇预言的「中子」的存在。他的论文一发表便引起轰动，因为中子的发现一举解决了原子核的构成问题。查德威克因此获1935年诺贝尔物理学奖。二战期间他参与英国核研究并推动将哈恩在德国的裂变发现通报给美国，使「曼哈顿计划」得以启动。战后他任利物浦大学核研究所所长，同时成为强烈反对核武器的著名人物：他于1957年发表《存在核武器吗？》一文，公开质疑核武器的道德性，并拒绝接受英国核威慑政策的官方辩护。1974年他逝世于剑桥。",
+      "achievements": [
+        "1919年证明α粒子轰击氮产生质子，开创人工核嬗变",
+        "1932年用加速器测出中子质量并确证中子存在",
+        "1927年起任卡文迪许实验室主任",
+        "推动核研究与曼哈顿计划的启动",
+        "1957年公开反对核武器并质疑其道德性",
+        "1935年获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "科学家不应回避自己工作的社会后果。"
+      ],
+      "relatedEvents": [
+        "ev-phy-chadwick-neutron",
+        "ev-phy-neutron-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-curie-marie",
+        "fig-phy-bohr"
+      ],
+      "tags": [
+        "英国",
+        "中子",
+        "核物理",
+        "核武器反思"
+      ]
+    },
+    {
+      "id": "fig-phy-becquerel",
+      "name": "亨利·贝克勒尔",
+      "alias": "贝克勒尔",
+      "birthYear": 1852,
+      "deathYear": 1908,
+      "lifeText": "公元1852年－公元1908年",
+      "role": "物理学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "male",
+      "summary": "法国物理学家，1896年发现天然放射性现象。",
+      "biography": "贝克勒尔生于1852年法国巴黎，出身显赫的科学家世家，其父亚历山大-埃德蒙·贝克勒尔是巴黎大学教授、研究荧光与磷光现象的先驱，祖父与叔祖也都是物理学家。他在巴黎高等工业学校与法兰西公学院受教育，1886年在巴黎大学取得博士学位，1889年任巴黎大学教授。1896年2月26日，他在法国科学院会议上展示了一张显影照片：那是他前一天把一张感光底片放在写字台抽屉上，抽屉中放有一小包铀盐（他原打算研究铀盐的荧光）。照片上显出了与盐包相同的轮廓，说明铀盐在无光条件下自发使底片感光。紧接着他做了决定性的对照实验：把铀盐用黑纸包好放在铅盘上，并盖上金属盒，确认辐射仍穿透遮挡，从而排除了可见光与紫外线的可能，确定这是铀自身发出的新辐射。1896年3月1日他向科学院提交论文。贝克勒尔因此与居里夫妇共同获1903年诺贝尔物理学奖。他后来转向铀化合物的荧光与吸收光谱研究，并研究铀在感光乳剂中的行为，是放射化学的奠基人之一。1908年他在阿杰爾海附近的海滨度假时因突发中风去世。",
+      "achievements": [
+        "1896年发现天然放射性现象",
+        "通过遮挡对照实验排除光源解释",
+        "研究铀化合物的荧光与吸收光谱",
+        "与居里夫妇共同获1903年诺贝尔物理学奖",
+        "开创放射化学研究"
+      ],
+      "quotes": [
+        "放射性是铀盐自身发出的全新现象，与光无关。"
+      ],
+      "relatedEvents": [
+        "ev-phy-radioactivity-discovery",
+        "ev-phy-radium-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-curie-marie"
+      ],
+      "tags": [
+        "法国",
+        "放射性",
+        "铀",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-curie-marie",
+      "name": "玛丽·斯克沃多夫斯卡-居里",
+      "alias": "居里夫人",
+      "birthYear": 1867,
+      "deathYear": 1934,
+      "lifeText": "公元1867年－公元1934年",
+      "role": "物理学家、化学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "female",
+      "summary": "波兰裔法国物理学家与化学家，发现钋与镭，两获诺贝尔奖。",
+      "biography": "玛丽·斯克沃多夫斯卡生于1867年波兰华沙，当时波兰处于俄國统治之下，她无法进入大学。1889年她到巴黎索邦大学学习数学物理，以第一名毕业（1893年）与第一名通过教师资格考试（1894年），随后回到华沙从事教师工作，同时自修并教授物理学与化学。1894年她与皮埃尔·居里结婚，两人在巴黎郊区的一间简陋棚屋里搭建了几乎全部家当的实验室。1898年她与丈夫共同发现钋，同年又发现镭，为此她处理了数吨沥青铀矿残渣。她的《放射性》（1899）与《放射性物质的研究》（1903）是这一新领域最早的系统专著，并首次明确指出放射性是原子核自身的属性，与元素的化学行为无关。她还发明了测量放射性强度的仪器与标准方法，建立了定量测量的基础。1903年她与丈夫、贝克勒尔共同获诺贝尔物理学奖，1911年她独获诺贝尔化学奖，成为首位获两个不同学科诺贝尔奖的科学家。一战期间她组织移动X光车前往前线服务了近百万伤员。1920年代她创建巴黎居里研究所，1929年出任巴黎大学第一位女性正教授。她与女儿伊雷娜·居里-居里及女婿弗雷德里克·约里奥-居里共同研究放射化学，约里奥夫妇因此获1955年诺贝尔化学奖。1934年她死于再生障碍性贫血，长期接触放射性物质导致的辐射伤害是她过早去世的原因，她的实验笔记至今仍需特殊防护才能翻阅。",
+      "achievements": [
+        "1898年与皮埃尔·居里共同发现钋与镭",
+        "写成《放射性》开创放射化学体系",
+        "建立放射性强度的定量测量标准与方法",
+        "1903年获诺贝尔物理学奖、1911年获诺贝尔化学奖",
+        "一战期间组织移动X光车救治伤员",
+        "创建巴黎居里研究所并推动放射性研究国际化"
+      ],
+      "quotes": [
+        "生活中没有什么可怕的东西，只有需要理解的东西。"
+      ],
+      "relatedEvents": [
+        "ev-phy-radium-discovery",
+        "ev-phy-radioactivity-discovery",
+        "ev-phy-chadwick-neutron"
+      ],
+      "relatedFigures": [
+        "fig-phy-curie-pierre",
+        "fig-phy-becquerel",
+        "fig-phy-chadwick",
+        "fig-phy-meitner"
+      ],
+      "tags": [
+        "波兰",
+        "镭",
+        "放射性",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-curie-pierre",
+      "name": "皮埃尔·居里",
+      "alias": "皮埃尔·居里",
+      "birthYear": 1859,
+      "deathYear": 1906,
+      "lifeText": "公元1859年－公元1906年",
+      "role": "物理学家、化学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "male",
+      "summary": "法国物理学家与化学家，与妻子玛丽·居里共同发现钋与镭。",
+      "biography": "皮埃尔·居里生于1859年法国巴黎，童年随家人迁居巴黎并在巴黎大学理学院学习，后入索邦大学追随特斯拉恩（Troisne）学习物理，1880年取得博士学位。1887年他在巴黎大学任助理教授，1895年取得巴黎大学博士学位并任讲师。他在晶体物理方面做出重要贡献，建立了压电现象与晶体对称性的关系，并与弟弟雅克·居里一起发现压电效应与热释电现象，这项工作直接促成了后来石英振荡器与超声技术的发展。1895年他与玛丽·斯克沃多夫斯卡结婚，婚后他把妻子带到自己的实验室，两人共同从事放射性研究。1896年贝克勒尔发现放射性的消息使他对铀盐发生兴趣，他很快测得铀盐辐射强度与含铀量成正比，这使「放射性」从个别现象变成可系统研究的领域。1898年夫妇先后发现钋与镭，1902年他与妻子用镭的放射性强度测定了镭的原子量，得出约226，这一数值成为放射性作为原子量测量手段的第一个成功案例。1903年他与妻子、贝克勒尔共同获诺贝尔物理学奖。1906年4月19日，他为在雨后的巴黎街道上驱车时被马蹄滑倒的马车碾压，因伤重当夜去世，年仅46岁。",
+      "achievements": [
+        "与玛丽·居里共同发现钋与镭",
+        "测定镭的原子量约226",
+        "与弟弟雅克·居里发现压电效应",
+        "研究晶体对称性与物理性质的关系",
+        "1903年与妻子、贝克勒尔共同获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "我们必须把我们的一生用于我们认为最重要的事情。"
+      ],
+      "relatedEvents": [
+        "ev-phy-radium-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-curie-marie",
+        "fig-phy-becquerel"
+      ],
+      "tags": [
+        "法国",
+        "镭",
+        "压电效应",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-roentgen",
+      "name": "威廉·康拉德·伦琴",
+      "alias": "伦琴",
+      "birthYear": 1845,
+      "deathYear": 1923,
+      "lifeText": "公元1845年－公元1923年",
+      "role": "物理学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "male",
+      "summary": "德国物理学家，1895年发现X射线，首位诺贝尔物理学奖得主。",
+      "biography": "伦琴生于1845年德国莱茵河畔的伦茨堡，父亲是商人兼保险公司创办人。他曾在苏黎世、乌得勒支与巴伐利亚的大学学习，1871年在符腾堡的机械设备制造厂任工程师，1879年以「物理学与机器构造」双科目的考试成绩进入慕尼黑大学，随后在维尔茨堡大学先后担任物理学讲师、教授与校长。1895年11月8日晚，他在重复用黑纸包裹的阴极射线管做实验时，发现房间另一端的荧光屏被照亮；他追查后确认这是一种能穿透黑纸与不透光物体的未知辐射，并用这种射线拍下其妻的手部骨骼影像——这是第一张医学X光片，也是X射线用于医学诊断的开端。1895年12月28日伦廷向维尔茨堡物理医学学会宣读报告《论一种新射线」，1896年初在维也纳向学术界演示后，这一发现迅速传遍欧洲，一年内出版了上百篇相关论文，X射线设备很快进入医院。1901年伦琴因这一发现成为首位诺贝尔物理学奖得主。他在慕尼黑还发现了仑琴射线在气体中的电离效应，晚年主要研究介质的磁性与电导率。1923年他病逝于慕尼黑。",
+      "achievements": [
+        "1895年发现X射线并拍摄第一张医学X光片",
+        "揭示X射线的穿透性与电离效应",
+        "推动X射线在医学诊断中的迅速应用",
+        "1901年成为首位诺贝尔物理学奖得主",
+        "研究介质的磁性与电导率",
+        "曾任维尔茨堡大学校长"
+      ],
+      "quotes": [
+        "我需要用黑纸把整台仪器包起来……未知的光线穿过了纸。"
+      ],
+      "relatedEvents": [
+        "ev-phy-xray-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-becquerel"
+      ],
+      "tags": [
+        "德国",
+        "X射线",
+        "诺贝尔奖",
+        "医学成像"
+      ]
+    },
+    {
+      "id": "fig-phy-hahn",
+      "name": "奥托·哈恩",
+      "alias": "哈恩",
+      "birthYear": 1879,
+      "deathYear": 1968,
+      "lifeText": "公元1879年－公元1968年",
+      "role": "化学家、核物理学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "male",
+      "summary": "德国化学家，1938年与施特拉斯曼发现铀裂变，1944年获诺贝尔化学奖。",
+      "biography": "哈恩生于1879年德国法兰克福，是市政官员之子，他曾在慕尼黑与柏林学习化学，1901年在慕尼黑获博士学位。1904至1906年他先后在伦敦的拉姆齐实验室、巴黎的居里夫人实验室学习放射性化学，这段经历让他系统掌握了放射化学的方法。1906年他随弗里德里希·哈恩在柏林创建了放射性研究小组，与梅特纳、施特拉斯曼等合作，发现了多种放射性同位素，其中包括镭-钡、钍-锕、镤-镝等系列（所谓「核的同系列」分类至今仍沿用）。1921年他出任柏林 Kaiser Wilhelm 研究所化学研究所所长，1938年他与弗里茨·施特拉斯曼在中子轰击铀的实验中发现钡，并认识到这意味着铀核发生了分裂。哈恩写信告知在斯德哥尔摩的梅特纳，梅特纳与弗里施随即在1939年1月发表论文，从数学上给出核裂变的解释。哈恩因这一发现获1944年诺贝尔化学奖，消息因战争原因延迟到1945年公布。二战期间他参与了德国的核研究并被囚禁于英国，战后他在哥廷根重建实验室。他的自传《一位科学家的自白》坦承自己在核研究中的犹豫与负罪感，是理解科学家社会责任的重要史料。1968年他逝世于哥廷根。",
+      "achievements": [
+        "1938年与施特拉斯曼发现铀核裂变",
+        "建立放射性核的「同系列」分类法",
+        "发现镭-钡、钍-锕等放射性同位素系列",
+        "1944年获诺贝尔化学奖",
+        "战后重建哥廷根的放射性化学研究",
+        "留下关于核研究责任的坦率自述"
+      ],
+      "quotes": [
+        "我们也许应该叫停……但我们已经走到了这一步。"
+      ],
+      "relatedEvents": [
+        "ev-phy-fission-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-meitner",
+        "fig-phy-fermi"
+      ],
+      "tags": [
+        "德国",
+        "核裂变",
+        "放射化学",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-meitner",
+      "name": "莉瑟·迈特纳",
+      "alias": "迈特纳",
+      "birthYear": 1878,
+      "deathYear": 1968,
+      "lifeText": "公元1878年－公元1968年",
+      "role": "物理学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "female",
+      "summary": "瑞典-奥地利物理学家，1939年与弗里施从数学上解释了核裂变机制。",
+      "biography": "迈特纳生于1878年奥地利维也纳，是当时少见的进入学术界的女性物理学家之一。她在维也纳大学学习物理，1901年获博士学位，1907年作为「非任课人员」进入普朗克的柏林实验室工作，尽管路德维希·玻尔茨曼与普朗克都支持她，她在柏林的晋升仍长期受阻——1938年纳粹上台后，她被迫在德国与瑞典之间辗转，最终在瑞典斯德哥尔摩的诺贝尔物理研究所获得研究职位，成为一位面临职业歧视与流亡处境的犹太女性学者。1938年哈恩发现铀裂变的化学证据后，迈特纳与同事奥托·罗伯特·弗里施在不到六周内完成了理论解释：他们用液滴模型计算了铀核吸收中子后的形变与断裂过程，估算出裂变释放的能量约200 MeV，与实验测得的数值一致，并用质子数与库仑斥力的变化说明裂变产物的分布规律。这篇论文于1939年1月发表，是理解核裂变机制的奠基性文献。由于迈特纳是犹太裔女性且已流亡，她在核裂变发现中的贡献长期被忽视，直至1960年代才获得广泛承认。1966年，她与弗里施获得费米奖，1982年美国原子能委员会将诺奖提名荣誉恢复给她。1968年她逝世于斯德哥尔摩。",
+      "achievements": [
+        "1938年与弗里施提出核裂变的液滴模型理论解释",
+        "估算出裂变释放能量约200 MeV",
+        "解释裂变产物的质量分布规律",
+        "在流亡与职业歧视处境中坚持科学研究",
+        "长期被忽视后于1960年代获得迟来的承认"
+      ],
+      "quotes": [
+        "我们不知道是谁在核中打进第一颗子弹……但我们必须继续下去。"
+      ],
+      "relatedEvents": [
+        "ev-phy-fission-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-hahn",
+        "fig-phy-curie-marie"
+      ],
+      "tags": [
+        "奥地利",
+        "核裂变",
+        "理论物理",
+        "女性科学家"
+      ]
+    },
+    {
+      "id": "fig-phy-fermi",
+      "name": "恩里科·费米",
+      "alias": "费米",
+      "birthYear": 1901,
+      "deathYear": 1954,
+      "lifeText": "公元1901年－公元1954年",
+      "role": "物理学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "male",
+      "summary": "意大利物理学家，提出统计力学方法，开创核反应堆与中子反应理论。",
+      "biography": "费米生于1901年意大利罗马，其父是铁路部门的行政主管，祖父是西西里地方行政长官。他在比萨高等师范学校求学，师从马切罗尼，1922年毕业时已掌握朗道、泡利等人刚刚发展出来的量子力学，随后赴哥廷根大学师从玻恩并取得博士学位，1926年回到意大利途中在荷兰莱顿与泡利短期合作，两人发展了费米-狄拉克统计。费米提出「费米统计」与「费米-狄拉克分布」，并应用它研究金属中的电子（费米-狄拉克气体），这成为金属电子论与半导体的理论基础。1928年他提出著名的「费米-狄拉克-狄拉克方程」（托马斯-费米方程）来处理多电子原子，1930年代他在罗马的物理学小组与佩兰的实验合作，研究慢中子效应，发现慢中子被 nuclei 散射的截面随中子能量变化。1938年他移居美国，在芝加哥主持建造了第一个可控核反应堆 CP-1，同年12月2日启动该反应堆实现自持链式反应。他随后参与曼哈顿计划，在芝加哥大学建立了第一个核反应堆，并推动1942年12月2日在芝加哥大学Stagg Field地下球场建成首个临界核反应堆 CP-1，并参与洛斯阿拉莫斯的科学指导。战后他主张科学应服务社会，参与建立《科学》杂志并出任首任主编，推动核科学的和平利用。1954年在芝加哥去世，几个月后他提出的通过中子束诊断肿瘤的方法（Fermi therapy）已被用于临床。",
+      "achievements": [
+        "提出费米-狄拉克统计与费米分布",
+        "建立金属电子论与托马斯-费米原子模型",
+        "发现慢中子效应并研究中子散射",
+        "1938年建成第一个可控核反应堆 CP-1",
+        "参与曼哈顿计划并推动核科学的和平利用",
+        "创办《科学》杂志并推动科学传播"
+      ],
+      "quotes": [
+        "物理学是一门不断带来新奇迹的职业。"
+      ],
+      "relatedEvents": [
+        "ev-phy-fission-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-hahn",
+        "fig-phy-meitner",
+        "fig-phy-dirac"
+      ],
+      "tags": [
+        "意大利",
+        "核反应堆",
+        "统计力学",
+        "慢中子"
+      ]
+    },
+    {
+      "id": "fig-phy-higgs",
+      "name": "彼得·希格斯",
+      "alias": "希格斯",
+      "birthYear": 1929,
+      "deathYear": 2023,
+      "lifeText": "公元1929年－公元2023年",
+      "role": "理论物理学家",
+      "periodId": "phy-nuclear-particle",
+      "gender": "male",
+      "summary": "英国理论物理学家，提出希格斯机制与希格斯玻色子，2013年获诺贝尔物理学奖。",
+      "biography": "希格斯生于1929年苏格兰纽卡斯尔，成长于一个重视劳动阶级生活的家庭，父亲是工厂的暖气工与城市议员，母亲出身于格拉斯哥的一个苏格兰家庭。他在爱丁堡大学与伦敦国王学院学习，1949年获物理学学士学位，随后到布里斯托大学与伦敦国王学院攻读研究生，1950年获物理学博士学位，导师是查尔斯·平克顿，他后来回忆平克顿「只给我留下了两个学生，其中一个就是他自己」。毕业后他留在伦敦国王学院做讲师，离开理论物理前沿若干年，主要从事教学与行政工作，曾任伦敦国王学院物理学系主任与院长。1964年，他在一份只有四页的论文《希格斯机制》中提出一个机制：粒子与一个充满空间的标量场相互作用而获得质量，该场的量子激发态就是后来以他命名的希格斯玻色子。1964年7月，物理学家 GJ 萨拉姆与希格斯在爱丁堡的会议后交谈，萨拉姆意识到这一想法与自己的「电弱对称性破缺」工作相关，并于1966年在《物理评论》发表论文指出希格斯的机制可以用规范场论表述，他与另外一位物理学家随后用可计算的模型证明这一机制是真实有效的，从而把希格斯的工作纳入粒子物理的主流。此后希格斯继续研究粒子物理与宇宙学，包括暴胀理论、幺正性、粒子物理标准模型与超对称性等议题，并以主张谨慎、注重模型可检验性著称。2004年后他基本退出研究前沿。2012年7月4日欧洲核子研究中心（CERN）的 ATLAS 与 CMS 两个实验组宣布发现了与希格斯玻色子一致的新粒子，消息传出时，正在爱丁堡的研究人员中有人开玩笑说「希格斯应该来买彩票」。2013年希格斯与弗朗cis Englert 共同获诺贝尔物理学奖。2023年4月8日他逝世于爱丁堡，享年94岁。",
+      "achievements": [
+        "1964年提出希格斯机制，解释粒子质量的来源",
+        "预测存在标量玻色子（希格斯玻色子）",
+        "与恩格勒共获2013年诺贝尔物理学奖",
+        "研究宇宙学暴胀与幺正性问题",
+        "坚持理论必须可检验的学术态度"
+      ],
+      "quotes": [
+        "我们发现了一个奇妙的粒子——希格斯玻色子。"
+      ],
+      "relatedEvents": [
+        "ev-phy-higgs-boson"
+      ],
+      "relatedFigures": [
+        "fig-phy-weinberg"
+      ],
+      "tags": [
+        "英国",
+        "希格斯机制",
+        "质量",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-weinberg",
+      "name": "史蒂文·温伯格",
+      "alias": "温伯格",
+      "birthYear": 1933,
+      "deathYear": null,
+      "lifeText": "公元1933年－",
+      "role": "理论物理学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "美国理论物理学家，创立电弱统一理论并提出标准模型，2019年获诺贝尔物理学奖。",
+      "biography": "温伯格生于1933年美国纽约市，父亲是制革厂工人，他16岁进入康奈尔大学，1950年获学士，1952年获哈佛大学博士学位，师从朱利奥·施瓦茨，随后前往普林斯顿从事博士后研究。1960年代他转向基本粒子物理，1967年与斯蒂芬·温伯格独立地（后者为斯蒂文·温伯格的同事）提出电弱相互作用的规范理论，把电磁相互作用与弱相互作用统一为 SU(2)×U(1) 规范场论。这一理论的关键在于真空的规范对称性自发破缺，使 W 与 Z 玻色子获得质量，从而解释了弱相互作用力程短的现象。1971至1973年，'t Hooft 与 Veltman 证明该理论在量子层面可重整化，使其获得决定性的理论支持。1973年欧洲的实验在 CERN 证实了中性流与中性 J/ψ 粒子，标准模型的预言得到验证。温伯格还提出「量子场论有效场论」的观点，主张理论只在特定能标下有效，这一观点深刻影响了后来的粒子物理方法论。1979年他出版《粒子物理学预言》，是这一学科最重要的教科书之一。他还致力于公共事务与科学传播，是美国物理学会主席与「科学与工程教育」事业的支持者，并在气候变化与科学政策议题上积极发声。2019年他与沙拉姆、希格斯共享诺贝尔物理学奖。",
+      "achievements": [
+        "1967年提出电弱统一规范理论",
+        "建立标准模型的基本框架",
+        "推动真空对称性自发破缺的研究",
+        "推动量子场论有效场论方法论",
+        "1979年出版粒子物理学标准教材",
+        "2019年获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "我们寻求的不是真理的唯一答案，而是可行假设集合中的最大一致。"
+      ],
+      "relatedEvents": [
+        "ev-phy-standard-model",
+        "ev-phy-higgs-boson"
+      ],
+      "relatedFigures": [
+        "fig-phy-higgs"
+      ],
+      "tags": [
+        "美国",
+        "电弱统一",
+        "标准模型",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-onnes",
+      "name": "海因里希·卡门·昂内斯",
+      "alias": "昂内斯",
+      "birthYear": 1853,
+      "deathYear": 1926,
+      "lifeText": "公元1853年－公元1926年",
+      "role": "物理学家",
+      "periodId": "phy-condensed",
+      "gender": "male",
+      "summary": "荷兰物理学家，1908年首次实现液氦，1911年发现超导现象。",
+      "biography": "昂内斯生于1853年荷兰格罗宁根，曾在格罗宁根与阿姆斯特丹的莱顿大学学习物理与数学，1879年获博士学位并留校任教，1883年任莱顿大学物理学教授。他把莱顿建设成欧洲最重要的实验物理中心，培养了埃伦费斯特、卡末林-昂内斯、厄伦费斯特等一代学者，并建立起低温物理研究的传统。1906年他在莱顿的实验室实现液氦，1908年首次把氦液化，从而打开了低于-269 °C 的低温区域，获得1913年诺贝尔物理学奖。1911年他用液氦冷却汞线电阻计，发现汞在约4.2 K 时电阻完全消失，他随即在同年发现铅的转变温度约7.2 K，并发明了可用于测量极低电阻的氦温度计。1911年12月他在莱顿学术会议上宣布这一「完全新的现象」，并称之为超导（superconductivity）。1913至1914年间他与勒瓦-博兰（van der Waals）等人研究了液氦的性质，注意到液氦在约2.2 K 时表现出异常的低温行为。他在莱顿建立起世界上第一个低温物理实验室，并于1913年创办了《物理学年刊》（Annalen der Physik），该刊成为二十世纪物理学最重要的期刊之一，爱因斯坦、玻尔、玻恩等人在此发表了许多代表作。",
+      "achievements": [
+        "1908年首次成功液化氦",
+        "1911年发现汞与铅的超导现象",
+        "发明氦温度计并测量极低电阻",
+        "建立莱顿低温物理实验室与学术学派",
+        "创办《物理学年刊》并推动物理学传播"
+      ],
+      "quotes": [
+        "我称之为超导的现象，将成为一种引人入胜的全新领域。"
+      ],
+      "relatedEvents": [
+        "ev-phy-superconductivity-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-bardeen",
+        "fig-phy-gibbs"
+      ],
+      "tags": [
+        "荷兰",
+        "超导",
+        "低温物理",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-bardeen",
+      "name": "约翰·巴丁",
+      "alias": "巴丁",
+      "birthYear": 1911,
+      "deathYear": 1991,
+      "lifeText": "公元1911年－公元1991年",
+      "role": "理论物理学家",
+      "periodId": "phy-condensed",
+      "gender": "male",
+      "summary": "美国物理学家，与库珀、施里弗建立 BCS 超导理论，是唯一两获诺贝尔物理学奖的人。",
+      "biography": "巴丁生于1911年美国威斯康星州麦迪逊，父亲是耶鲁大学的天文学教授与谷物研究专家。他在普林斯顿大学与威斯康星大学麦迪逊分校学习，1936年获威斯康星大学博士学位，随后赴普林斯顿跟随尤金·维格纳做博士后。1938至1941年他在珀西·布里奇曼领导的哈佛大学低压实验室工作，研究低温下的金属液态氢，试图解释为什么金属在绝对零度仍有电阻，这一难题困扰了物理界数十年。1941年他转入美国国家标准与技术研究院（NBS）的磁学部门，继续研究超导现象。1945年他应召加入芝加哥大学，参与芝加哥大学的金属研究院，他与库珀、施里弗在此展开密切合作。1956年，库珀提出电子在费米面上配对形成库珀对的图像，巴丁与施里弗则建立了完整的 BCS 方程并给出配对态的能量解，成功解释了超导临界温度与能隙的数值。1962年巴丁等人又用 BCS 理论解释了约瑟夫森效应，成为超导电子学的里程碑。1972年他与库珀、施里弗分享诺贝尔物理学奖。1972年后他转向生物物理，研究膜蛋白与神经传导中的电子过程，并与库珀一起研究蛋白质折叠。巴丁是唯一两次获得诺贝尔物理学奖的科学家，1991年他逝世于美国新罕布什尔州。",
+      "achievements": [
+        "与库珀、施里弗建立 BCS 超导理论并定量解释临界温度",
+        "用 BCS 理论解释约瑟夫森效应",
+        "开创超导电子学",
+        "转向生物物理研究并探索蛋白质折叠",
+        "1972年获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "超导是电子的一种集体状态，而不是单个电子的性质。"
+      ],
+      "relatedEvents": [
+        "ev-phy-bcs-theory",
+        "ev-phy-superconductivity-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-onnes"
+      ],
+      "tags": [
+        "美国",
+        "超导",
+        "BCS理论",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-gibbs-josephson",
+      "name": "布莱恩·约瑟夫森",
+      "alias": "约瑟夫森",
+      "birthYear": 1940,
+      "deathYear": null,
+      "lifeText": "公元1940年－",
+      "role": "物理学家",
+      "periodId": "phy-condensed",
+      "gender": "male",
+      "summary": "英国物理学家，发现约瑟夫森效应，把超导理论与量子力学连接起来。",
+      "biography": "约瑟夫森生于1940年英国卡迪夫，在威尔士长大，在剑桥大学三一学院学习物理，1962年获学士与哲学博士学位，随后进入剑桥的卡文迪许实验室工作。1962年，他在博士论文工作中提出一个想法：如果两个超导体之间夹一层很薄的绝缘层，那么电子对的量子相位可以跨越绝缘层隧穿，从而在没有外加电压的情况下产生超导电流——这就是直流约瑟夫森效应；而外加交流电压时，电流会以频率 2eV/h 振荡，即交流约瑟夫森效应。他在1963年的论文中提出该效应并给出理论预言，同年由西蒙与罗伊·雅各布森在低温实验中证实。这一发现把超导现象与宏观量子相干性联系起来，成为超导电子学、超导量子干涉仪（SQUID）、约瑟夫森结量子比特与电压标准等现代技术的源头，并使「量子隧穿」成为可通过实验精确验证的物理过程。约瑟夫森1964年与他人共享诺贝尔物理学奖，是当时最年轻的获奖者之一。他后来转向生物物理与神经科学，研究神经突触的「约瑟夫森结」式行为，并尝试把它与意识与记忆联系起来，这些设想尚属前沿探索，也提醒人们科学家可以同时跨越多个学科。",
+      "achievements": [
+        "1962年预言直流与交流约瑟夫森效应",
+        "确立量子隧穿的可观测宏观后果",
+        "1964年获诺贝尔物理学奖",
+        "研究超导量子干涉仪与超导量子比特技术",
+        "转向神经科学与生物物理的交叉研究"
+      ],
+      "quotes": [
+        "超导电流可以穿越绝缘层，这完全是量子的行为。"
+      ],
+      "relatedEvents": [
+        "ev-phy-bcs-theory",
+        "ev-phy-superconductivity-discovery",
+        "ev-phy-liquid-crystal-display"
+      ],
+      "relatedFigures": [
+        "fig-phy-bardeen",
+        "fig-phy-onnes"
+      ],
+      "tags": [
+        "英国",
+        "约瑟夫森效应",
+        "超导",
+        "量子隧穿"
+      ]
+    },
+    {
+      "id": "fig-phy-feynman",
+      "name": "理查德·菲利普·费曼",
+      "alias": "费曼",
+      "birthYear": 1918,
+      "deathYear": 1988,
+      "lifeText": "公元1918年－公元1988年",
+      "role": "理论物理学家",
+      "periodId": "phy-condensed",
+      "gender": "male",
+      "summary": "美国理论物理学家，发展路径积分表述，并以「费曼图」与面向大众的科普讲演推动科学传播。",
+      "biography": "费曼生于1918年美国纽约市，其父是销售工程师，1935年进入麻省理工学院，1939年本科毕业后进入普林斯顿大学，师从尤金·维格纳，1942年获博士学位。二战期间他加入洛斯阿拉莫斯国家实验室，在狄拉克、费曼与 Bethe 三人组中负责第三定律的计算，参与研制原子弹。战后他回到普林斯顿，与 Hans Bethe 共同发展了 Bethe-Feynman 公式，并于1948年提出「路径积分」表述：把量子振幅写成对所有可能路径的加权求和，这一表述揭示了费曼图方法的本质，也成为量子场论最优美、最普适的语言之一。他还提出部分子模型解释强子结构（1969年诺贝尔物理学奖），提出「有效场论」的实践原则，并在介子物理、弱作用、量子色动力学与路径积分方面做出奠基性贡献。费曼以极强的教学能力著称，他主持的「加州大学物理 lectures」（《费曼物理学讲义》）成为全球通行的经典教材。1965年他在《科学美国人》上连载《在费曼物理学讲义之前》（Fun to Imagine），把宇宙学、量子力学、生物学与541号难题讲给普通读者，1966年他著名的加州大学演讲《诚实的怀疑》成为怀疑主义科学的经典文本。1981年他因参与挑战者号事故调查委员会工作而以个人身份提出质疑，成为技术伦理与科学家社会责任的标志性案例。1988年他因艾滋病与植物化学研究导致的淋巴瘤并发症逝世于洛杉矶。",
+      "achievements": [
+        "1948年提出量子力学的路径积分表述",
+        "创立费曼图方法与贝特-费曼公式",
+        "提出部分子模型",
+        "推动量子场论有效场论方法论",
+        "以《费曼物理学讲义》成为全球经典教材",
+        "在挑战者号事故调查中坚持技术质疑"
+      ],
+      "quotes": [
+        "如果我能让这个星球上最好的二十个人跟我一起共事，我们可以解决世界上所有的问题。"
+      ],
+      "relatedEvents": [
+        "ev-phy-bcs-theory"
+      ],
+      "relatedFigures": [
+        "fig-phy-schrodinger",
+        "fig-phy-dirac"
+      ],
+      "tags": [
+        "美国",
+        "路径积分",
+        "量子场论",
+        "科学传播"
+      ]
+    },
+    {
+      "id": "fig-phy-bloch",
+      "name": "费利克斯·布洛赫",
+      "alias": "布洛赫",
+      "birthYear": 1905,
+      "deathYear": 1983,
+      "lifeText": "公元1905年－公元1983年",
+      "role": "物理学家",
+      "periodId": "phy-condensed",
+      "gender": "male",
+      "summary": "瑞士物理学家，发展能带理论，奠定固体电子论基础，1954年获诺贝尔物理学奖。",
+      "biography": "布洛赫生于1905年瑞士苏黎世，其父是应用化学教授。布洛赫在苏黎世联邦理工学院学习物理与数学，1924年获博士学位，1925至1927年他在慕尼黑、莱比锡、哥廷根与哥本哈根等地访问学习，参与量子力学的创立，1928年他与 Pauli 一起提出自旋与原子核自旋之间的耦合机制，为核磁共振奠定基础。1928至1929年他在慕尼黑工作，1929年赴莱比锡，1932年后前往瑞士苏黎世联邦理工学院，1934年起在美国斯坦福大学工作。1928至1929年间，布洛赫用量子力学研究晶体中的电子，提出 Bloch 定理：在周期势场中电子的波函数可以用能带结构描述，由此建立了能带理论，解释了金属、绝缘体与半导体的区别，并自然导出固体中的电流如何产生。这一理论是半导体物理、晶体管、激光与几乎整个现代电子学的理论基础。布洛赫还发现了金属在低温下电阻的反常行为（后来称为Bloch-Grüneisen公式）并做出了重要贡献，还与派尔斯一起研究金属的磁性。他在二战期间参与美国雷达与计算机研究，战后推动美国物理学界的重建。1954年他因量子力学与固体物理的工作获诺贝尔物理学奖，并于1956至1957年任 CERN 的首任总干事。1983年他逝世于瑞士苏黎世。",
+      "achievements": [
+        "提出 Bloch 定理与能带理论",
+        "解释金属、绝缘体与半导体的本质区别",
+        "发现金属电阻的低温反常行为（Bloch-Grüneisen 公式）",
+        "与 Pauli 提出核自旋与电子自旋耦合机制",
+        "1954年获诺贝尔物理学奖",
+        "1956至1957年任 CERN 首任总干事"
+      ],
+      "quotes": [
+        "固体的电子行为可以用能带理论完整地描述。"
+      ],
+      "relatedEvents": [
+        "ev-phy-graphene-discovery",
+        "ev-phy-liquid-crystal-display"
+      ],
+      "relatedFigures": [
+        "fig-phy-feynman"
+      ],
+      "tags": [
+        "瑞士",
+        "能带理论",
+        "固体物理",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-hubble",
+      "name": "埃德温·哈勃",
+      "alias": "哈勃",
+      "birthYear": 1889,
+      "deathYear": 1953,
+      "lifeText": "公元1889年－公元1953年",
+      "role": "天文学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "美国天文学家，发现星系退行与哈勃定律，奠定现代宇宙学观测基础。",
+      "biography": "哈勃生于1889年美国密苏里州马歇尔，父亲是保险业从业者。他在芝加哥的费米学校与芝加哥大学学习，在芝加哥 Yerkes 天文台工作并获得博士学位，1919年服役于美国陆军，1920年退伍后前往威尔逊山天文台工作，在哈勃、赫马森等人推动下把威尔逊山建成现代大型反射望远镜观测中心。1924年，哈勃在《美国天文学会会刊》宣布仙女座星系（当时称「仙女座星云」）位于银河系之外，这解决了近代以来关于「宇宙是否只有银河系」的持久争论，同时通过造父变星的周期间接测定了距离。1929年，哈勃与赫马森在《皇家天文学会会刊》发表《河外星系的视向速度》，测量了一批星系的距离与视向退行速度，发现退行速度与距离成正比，即今天所说的哈勃定律，并给出哈勃常数。1927年勒梅特已基于同样的观测提出膨胀宇宙模型，但因用法语发表而长期未获注意。哈勃的发现使天文学从银河系内观测转向大尺度宇宙学，成为大爆炸宇宙模型的关键依据。1931年他转向仙女座星云的旋涡结构研究，1948年出版《星云 Universe 的观测》，他为美国海军在二战期间执行多项光学设备任务，并积极推动国家地理学会的普及项目。1953年他因心脏病逝世于加州帕萨迪纳，被追认为美国科学院院士。",
+      "achievements": [
+        "1924年证明仙女座星系位于银河系之外",
+        "1929年发现哈勃定律（速度-距离正比）",
+        "利用造父变星测定遥远天体距离",
+        "奠定膨胀宇宙与大爆炸模型的观测基础",
+        "开创星系旋涡结构与形态学研究",
+        "推动天文学的大众普及"
+      ],
+      "quotes": [
+        "正是星系的退行速度把我们带出了银河系。"
+      ],
+      "relatedEvents": [
+        "ev-phy-hubble-expansion",
+        "ev-phy-big-bang"
+      ],
+      "relatedFigures": [
+        "fig-phy-gamo",
+        "fig-phy-wilson"
+      ],
+      "tags": [
+        "美国",
+        "哈勃定律",
+        "宇宙膨胀",
+        "星系"
+      ]
+    },
+    {
+      "id": "fig-phy-gamo",
+      "name": "乔治·伽莫夫",
+      "alias": "伽莫夫",
+      "birthYear": 1904,
+      "deathYear": 1988,
+      "lifeText": "公元1904年－公元1988年",
+      "role": "理论物理学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "俄裔美国物理学家，提出大爆炸宇宙模型与核合成理论，也是科学普及大师。",
+      "biography": "伽莫夫生于1904年俄国敖德萨，祖父是母亲一方的家庭医生，父亲是数学家。他在列宁格勒大学学习物理，1926年毕业后赴哥廷根与剑桥求学，1929年在剑桥完成了关于地球磁场与原行星起源的博士论文。1930年代他在乔治·华盛顿大学工作，提出量子隧穿概念（伽莫夫因子至今用于描述粒子穿透势垒的概率），并用它解释α衰变。1934年移居美国，1939年参与威尔金斯与达尔文的闪电理论工作。1946年他与阿尔弗、赫曼孙一起提出大爆炸宇宙模型，解释宇宙中氢、氦等轻元素的丰度，并在1948年明确预言宇宙中存在约3000 K 的残余微波背景辐射。1953年他提出 DNA 分子中碱基对的「遗传密码」可能由三重密码子编码，这一想法对后来遗传学的分子基础的建立具有启发意义。伽莫夫是最成功的科学普及者之一：他的科普著作《宇宙、生命与人类》《从一到无穷大》等至今仍在广泛流传，《从一到无穷大》被认为是最成功的科普书之一。他还创立了「金星汤」与「Goopy 故事」等有趣的科学小品，并向公众解释「DNA 是如何工作的」这一难题。1988年他逝世于美国马萨诸塞州，他提出的「如果生物学是整个故事的话，物理学就只需要一卷」的名句常被引用。",
+      "achievements": [
+        "1946年提出大爆炸宇宙模型并解释轻元素丰度",
+        "1948年预言宇宙微波背景辐射",
+        "提出量子隧穿概念并解释α衰变",
+        "提出遗传密码的三重密码子设想",
+        "以科普著作《从一到无穷大》影响数代读者"
+      ],
+      "quotes": [
+        "任何假设都必须能够被检验。"
+      ],
+      "relatedEvents": [
+        "ev-phy-big-bang",
+        "ev-phy-cmb-discovery"
+      ],
+      "relatedFigures": [
+        "fig-phy-hubble",
+        "fig-phy-wilson",
+        "fig-phy-penrose"
+      ],
+      "tags": [
+        "美国",
+        "大爆炸",
+        "量子隧穿",
+        "科学普及"
+      ]
+    },
+    {
+      "id": "fig-phy-penrose2",
+      "name": "罗杰·彭罗斯的宇宙学贡献",
+      "alias": "彭罗斯（宇宙学）",
+      "birthYear": 1931,
+      "deathYear": null,
+      "lifeText": "公元1931年－",
+      "role": "数学物理学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "英国数学物理学家，与霍金合作证明奇点定理，并创立扭量理论与因果集论框架。",
+      "biography": "彭罗斯生于1931年英国白金汉郡，父亲是医用遗传学家，母亲是园艺学专著作者。他在剑桥大学与牛导大学受教育，1958年获代数几何博士学位，随后在伦敦国王学院、牛津大学与普林斯顿任职，1964年成为皇家学会院士，1994年任牛津大学数学科学研究所所长。1965年他与霍金合作证明黑洞必然含奇点的奇点定理，同年发明了以自己名字命名的 Penrose 图，用二维图示表示时空的因果结构，成为广义相对论的标准工具。1974年他提出正能量猜想，2020年与罗伊·凯尔等人给出证明，回应了爱因斯坦一百年前提出的数学研究纲领。彭罗斯还创立了扭量理论、因果集论，并推动圈量子引力研究，主张量子引力问题必须严肃对待。他在几何学与物理学的交叉领域做出了奠基性贡献，2020年因黑洞奇点定理获诺贝尔物理学奖，并于1988年获沃尔夫数学奖。",
+      "achievements": [
+        "与霍金共同证明黑洞奇点定理",
+        "发明彭罗斯图表示因果结构",
+        "创立扭量理论",
+        "提出并证明正能量猜想",
+        "2020年获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "数学是物理学的语言，而黑洞是数学的试金石。"
+      ],
+      "relatedEvents": [
+        "ev-phy-hawking-radiation",
+        "ev-phy-hubble-expansion"
+      ],
+      "relatedFigures": [
+        "fig-phy-hawking",
+        "fig-phy-gamo"
+      ],
+      "tags": [
+        "英国",
+        "奇点定理",
+        "扭量理论",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-wilson",
+      "name": "罗伯特·威尔逊",
+      "alias": "威尔逊",
+      "birthYear": 1936,
+      "deathYear": null,
+      "lifeText": "公元1936年－",
+      "role": "物理学家、天文学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "美国物理学家与射电天文学家，与彭奇斯共同发现宇宙微波背景辐射。",
+      "biography": "威尔逊生于1936年美国得克萨斯州雷尼尔帕斯，在赖利中学与加州理工学院受教育，1957年获物理学学士学位，1962年在 Caltech 获博士学位，随后随导师 Robert Wilson 加入美国国家射电天文台工作，后转入贝尔实验室从事射电天文学研究。1964年，当贝尔实验室的彭奇斯用改进后的天线检测到一份强度稳定且各向均匀的微波噪声时，威尔逊用不同方法确认了信号来自宇宙而非地面或大气，并排除了银河系射电与仪器缺陷，两人于1965年正式发表论文，报告宇宙微波背景的存在。这一发现直接验证了伽莫夫等人1948年的预言，为大爆炸模型提供了决定性证据，两人因此获1978年诺贝尔物理学奖。此后威尔逊继续在射电天文学领域做出重要贡献，他利用甚长基线干涉测量技术参与测出银河系之外的宇宙距离阶梯，并推动射电望远镜技术在全球范围内的发展。他还与彭奇斯一起建造了用于测量宇宙微波背景各向异性的设备。威尔逊曾任射电天文学研究主任与射电天文学家。近年他与彭奇斯出版回忆录《微波背景的发现》。",
+      "achievements": [
+        "1965年与彭奇斯共同发现宇宙微波背景辐射",
+        "排除地面、大气与仪器因素，确认信号来自宇宙",
+        "1978年获诺贝尔物理学奖",
+        "推动甚长基线干涉测量技术发展",
+        "参与建立宇宙距离阶梯的射电方法"
+      ],
+      "quotes": [
+        "我们听到了宇宙创生时的回声。"
+      ],
+      "relatedEvents": [
+        "ev-phy-cmb-discovery",
+        "ev-phy-big-bang"
+      ],
+      "relatedFigures": [
+        "fig-phy-gamo",
+        "fig-phy-hubble"
+      ],
+      "tags": [
+        "美国",
+        "微波背景",
+        "射电天文学",
+        "诺贝尔奖"
+      ]
+    },
+    {
+      "id": "fig-phy-greene",
+      "name": "亚当·里斯与暗能量发现团队",
+      "alias": "超新星观测团队",
+      "birthYear": 1960,
+      "deathYear": null,
+      "lifeText": "公元1960年－",
+      "role": "天文学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "以亚当·里斯等为代表的天文学家，通过 Ia 型超新星测距发现宇宙加速膨胀。",
+      "biography": "1998年，两个独立团队同时宣布发现了宇宙膨胀加速的观测证据。由亚当·里斯领导的「高红移超新星搜寻小组」（High-z Supernova Search Team）与由肖恩·珀尔默特与布赖恩·施密特等主持的「超新宇宙学项目」（Supernova Cosmology Project）分别测量了约数十颗 Ia 型超新星的光度，发现它们的视亮度显著低于按标准烛光推算的预期值。Ia 型超新星是标准烛光，因为它们源于白矮星吸积达到钱德拉塞卡极限后的爆炸，其峰值光度有内在的规律性。两支团队的数据各自独立，却指向同一结论：宇宙不仅在膨胀，而且在加速膨胀。这一结论意味着宇宙中必须存在一种具有负压的成分，即暗能量，其占宇宙总能量密度的约70%。这一发现深刻改变了现代宇宙学图景，并使「宇宙加速膨胀」成为标准宇宙学模型的标准要素。2011年诺贝尔物理学奖授予亚当·里斯、施密特与 Supernova Cosmology Project 团队的关键成员布赖恩·施密特与亚当·里斯，以表彰他们发现宇宙加速膨胀。1998年后，暗能量的探测成为宇宙学最活跃的方向，暗能量卫星与多项巡天计划相继展开，人们甚至专门组建了暗能量调查组织（DESI 等）以精确测量其性质。",
+      "achievements": [
+        "1998年发现宇宙膨胀正在加速",
+        "确立 Ia 型超新星作为标准烛光的观测方法",
+        "提出暗能量概念并估算其占比约70%",
+        "2011年获诺贝尔物理学奖",
+        "推动暗能量的系统巡天探测"
+      ],
+      "quotes": [
+        "宇宙不仅在膨胀，而且在加速膨胀。"
+      ],
+      "relatedEvents": [
+        "ev-phy-dark-energy",
+        "ev-phy-hubble-expansion"
+      ],
+      "relatedFigures": [
+        "fig-phy-gamo",
+        "fig-phy-wilson"
+      ],
+      "tags": [
+        "美国",
+        "暗能量",
+        "超新星",
+        "加速膨胀"
+      ]
+    },
+    {
+      "id": "fig-phy-pawlowski",
+      "name": "大卫·格罗斯等弦论先驱",
+      "alias": "弦论先驱群像",
+      "birthYear": 1941,
+      "deathYear": null,
+      "lifeText": "公元1941年－",
+      "role": "理论物理学家",
+      "periodId": "phy-cosmology",
+      "gender": "male",
+      "summary": "以大卫·格罗斯、乔治·普拉契克等为代表的物理学家推动超弦理论成为统一理论的候选。",
+      "biography": "弦论的思想源头可追溯到1968年加布里埃·魏坚在 CERN 提出的振幅公式，1970年代维内特、魏因贝格与铃木实治等人对其非微扰结构的研究，以及1976年格里戈里、格勒斯坦与涅珀迈（`'t Hooft`、Veltman 与 Nekrasov）发现对应关系，建立了弦论与超对称规范场论之间的联系。1984年，戴维·格罗斯与拉斐尔·布罗斯等人认识到弦模型中的玻色弦具有超对称性，证明超弦理论在十维时空中自洽，避免了对偶问题中不希望的额外维度与鬼场。这一突破被称为「第一次超弦革命」，确立了超弦理论作为统一基本相互作用候选的地位。同期，戴维·格罗斯与菲利普·宗（Jeffrey Harvey）等人提出「扭量弦理论」，1998年又提出非临界弦论。1990年代，弦论与 M 理论的对偶性被发现，霍金在1997年指出超弦理论与 M 理论在某些条件下等价，1998年大uality 与对偶性的发现被公认为「第二次超弦革命」。在这些工作中，戴维·格罗斯与他的合作者赫尔曼·奥拉西尼、麦克尔·格林等人发展了多个关键模型，包括弦论中的偶数奇异态模型与 M 理论中的 D 膜理论。此外，格林与施瓦茨的M 理论五维表述、以及爱德华·威itten的 M 理论纲领，共同构成了现代弦论图景。戴维·格罗斯因此与弗兰克·施密特、洛朗·比内（Laurent Binet）等人共享2004年诺贝尔物理学奖，以表彰其对超弦理论的基础性贡献。",
+      "achievements": [
+        "1984年证明超弦理论在十维时空中自洽（第一次超弦革命）",
+        "提出扭量弦理论与非临界弦论",
+        "推动弦论与 M 理论的对偶性发现",
+        "发展 M 理论与 D 膜等现代概念",
+        "2004年获诺贝尔物理学奖"
+      ],
+      "quotes": [
+        "理论的美学在于它能解释大自然的深层结构。"
+      ],
+      "relatedEvents": [
+        "ev-phy-string-theory",
+        "ev-phy-standard-model"
+      ],
+      "relatedFigures": [],
+      "tags": [
+        "美国",
+        "弦论",
+        "超弦",
+        "M理论"
+      ]
+    }
+  ]
+}

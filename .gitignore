@@ -1,22 +1,29 @@
 # ── 工作区白名单 ──────────────────────────────────────────────
-# 本目录同时存放多个互不相关的项目，这里只纳入「历史图鉴」相关文件，
+# 本目录同时存放多个互不相关的项目，这里只纳入「可发版的 App」相关文件，
 # 其余一律忽略，避免把无关工程与巨型构建缓存带进仓库。
+#
+# 已登记的 App 项目（清单见 tools/projects.py）：
+#   history-atlas  历史图鉴  tag 前缀 v1.1.5（无前缀，历史沿用）
+#   science-atlas  科学图鉴  tag 前缀 science-atlas-v1.0.0
 /*
 !/.gitignore
 !/.gitattributes
-!/README.md
-!/CHANGELOG.md
+!/.github/
+!/.githooks/
+# 根目录的历史图鉴资料（VERSION / CHANGELOG 属于 history-atlas）
 !/VERSION
+!/CHANGELOG.md
+!/README.md
 !/history-atlas/
+!/science-atlas/
 !/data/
+!/data-science/
 !/docs/
 !/tools/
 !/scripts/
-# 版本管理的 CI 门禁与本地钩子
-!/.github/
-!/.githooks/
 
 # ── Android 构建产物与本地配置 ────────────────────────────────
+# 两个项目各自的构建目录与本地配置
 history-atlas/build/
 history-atlas/app/build/
 history-atlas/.gradle/
@@ -24,8 +31,16 @@ history-atlas/.idea/
 history-atlas/local.properties
 history-atlas/captures/
 history-atlas/.cxx/
+science-atlas/build/
+science-atlas/app/build/
+science-atlas/.gradle/
+science-atlas/.idea/
+science-atlas/local.properties
+science-atlas/captures/
+science-atlas/.cxx/
 # dist/ 是按版本号命名的 release 产物，只用于分发，不入库
 history-atlas/dist/
+science-atlas/dist/
 *.apk
 *.aab
 *.hprof
@@ -34,10 +49,19 @@ history-atlas/dist/
 *.keystore
 keystore.properties
 
-# ── 由 data/ 同步进 assets 的副本 ─────────────────────────────
-# 它们由 scripts/sync_data.ps1 从 data/china.json、data/world.json 复制而来，
+# ── 由源数据同步进 assets 的副本 ───────────────────────────────
+# 它们由 syncData 任务从源目录复制而来，
 # 提交会产生两份可能漂移的相同内容。
 history-atlas/app/src/main/assets/data/*.json
+science-atlas/app/src/main/assets/data/*.json
+
+# ── 截图与临时产物 ────────────────────────────────────────────
+# 真机验证时抓的截图，不入库
+science-atlas/screenshot_*.png
+science-atlas/crop_*.png
+science-atlas/c_*.png
+science-atlas/s_*.png
+science-atlas/s1.png
 
 # ── Python 与工具临时文件 ─────────────────────────────────────
 __pycache__/

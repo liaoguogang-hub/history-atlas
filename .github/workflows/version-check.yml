@@ -1,11 +1,14 @@
 name: 版本与内容校验
 
 # 这个工作流的作用是「挡住没升版本的改动」。
-# 规则：只要 main 分支上有提交领先于最新的版本 tag，
+# 规则：只要 main 分支上有提交领先于该项目的最新版本 tag，
 # 就说明有代码或数据改了但没发版——CI 失败，逼着补发一个版本。
 #
 # 之所以不直接在 push 时构建 APK：APK 体积大、构建慢，
 # 发版由 tools/release.py 统一负责，CI 只做守门。
+#
+# 多项目：仓库里有 history-atlas 与 science-atlas 两个可发版的 App，
+# 各自独立维护版本号与 tag（清单见 tools/projects.py）。
 
 on:
   push:
@@ -30,27 +33,38 @@ jobs:
       - name: 检查版本号、CHANGELOG、tag、Release 资产是否一致
         run: python tools/check_version.py
 
+      # 每个项目各自比一次：两个项目的 tag 命名空间不同
+      # （history-atlas 用裸 v1.1.5，science-atlas 用 science-atlas-v1.0.0），
+      # 不能共用一次比较。
       - name: 检查是否有未发布的改动
         run: |
           set -e
-          LATEST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -n 1)
-          if [ -z "$LATEST_TAG" ]; then
-            echo "没有任何版本 tag"
-            exit 1
-          fi
-          echo "最新版本 tag：$LATEST_TAG"
-          AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
-          echo "领先该 tag 的提交数：$AHEAD"
-          if [ "$AHEAD" -gt 0 ]; then
-            echo ""
-            echo "::error::有 $AHEAD 个提交尚未发布。"
-            echo "内容有变更就必须升版本号并发版："
-            echo "  python tools/release.py <新版本号>"
-            echo "详见 CHANGELOG.md 开头的「版本管理约定」。"
-            git log --oneline "$LATEST_TAG"..HEAD
-            exit 1
-          fi
-          echo "所有提交均已包含在版本 tag 中"
+          for PROJECT in history-atlas science-atlas; do
+            echo "=== $PROJECT ==="
+            if [ "$PROJECT" = "history-atlas" ]; then
+              PATTERN='v*'
+            else
+              PATTERN="$PROJECT-v*"
+            fi
+            LATEST_TAG=$(git tag --list "$PATTERN" --sort=-v:refname | head -n 1)
+            if [ -z "$LATEST_TAG" ]; then
+              echo "::error::$PROJECT 没有任何版本 tag"
+              exit 1
+            fi
+            echo "最新版本 tag：$LATEST_TAG"
+            AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
+            echo "领先该 tag 的提交数：$AHEAD"
+            if [ "$AHEAD" -gt 0 ]; then
+              echo ""
+              echo "::error::$PROJECT 有 $AHEAD 个提交尚未发布。"
+              echo "内容有变更就必须升版本号并发版："
+              echo "  python tools/release.py <新版本号> --project $PROJECT"
+              echo "详见 CHANGELOG.md 开头的「版本管理约定」。"
+              git log --oneline "$LATEST_TAG"..HEAD
+              exit 1
+            fi
+            echo "所有提交均已包含在版本 tag 中"
+          done
 
   build:
     name: 构建验证
@@ -70,7 +84,9 @@ jobs:
           python-version: '3.11'
 
       - name: 准备 SDK 路径
-        run: echo "sdk.dir=$ANDROID_SDK_ROOT" >> history-atlas/local.properties
+        run: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" >> history-atlas/local.properties
+          echo "sdk.dir=$ANDROID_SDK_ROOT" >> science-atlas/local.properties
 
       # 这里只校验数据。版本一致性由上面的 check-version 作业独占，
       # 不在本作业重复执行 check_version.py，原因有二：
@@ -79,10 +95,22 @@ jobs:
       #   2. 「Release 资产」检查依赖 gh 的登录态，本作业没有 GH_TOKEN，
       #      调用只会静默降级成一条误导性的警告
       - name: 校验数据
-        run: python tools/build_data.py
+        run: |
+          python tools/build_data.py
+          python tools/sci_content/validate_sci.py data-science/physics.json data-science/chem.json
+          python tools/sci_content/validate_geo_astro.py data-science/geo.json data-science/astro.json
 
-      - name: 构建 release APK
+      - name: 单元测试
+        run: |
+          cd history-atlas && ./gradlew :app:testReleaseUnitTest
+          cd ../science-atlas && ./gradlew :app:testReleaseUnitTest
+
+      - name: 构建 release APK（历史图鉴）
         working-directory: history-atlas
+        run: ./gradlew :app:assembleRelease
+
+      - name: 构建 release APK（科学图鉴）
+        working-directory: science-atlas
         run: ./gradlew :app:assembleRelease
 
       - name: 上传 APK
@@ -90,4 +118,11 @@ jobs:
         with:
           name: HistoryAtlas-apk
           path: history-atlas/dist/*.apk
+          if-no-files-found: error
+
+      - name: 上传 APK（科学图鉴）
+        uses: actions/upload-artifact@v4
+        with:
+          name: ScienceAtlas-apk
+          path: science-atlas/dist/*.apk
           if-no-files-found: error

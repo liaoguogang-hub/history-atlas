@@ -1,12 +1,15 @@
 #!/bin/sh
 # 提交前钩子：本地就拦住「改了东西但没升版本号」。
 #
-# 规则：如果本次提交会改变代码或数据，且当前 HEAD 已经领先于最新版本 tag，
+# 规则：如果本次提交会改变代码或数据，且当前 HEAD 已经领先于该项目的最新版本 tag，
 # 那么这次提交之后就有未发布的改动——要求先发版再提交。
 #
 # 两种例外：
 #   1. 纯文档改动（README / CHANGELOG 等）不拦，它们本就是发版流程的一部分
 #   2. 版本号已升到不同于最新 tag，说明正在发版流程中，不拦
+#
+# 多项目：history-atlas 与 science-atlas 各判一次——
+# 改了哪个项目的代码，就查哪个项目的 tag。
 #
 # 不想被拦时可用 `git commit --no-verify` 跳过。
 # 跨平台：Windows 上的 Git for Windows 自带 bash，这个脚本同样可用。
@@ -16,34 +19,58 @@ set -e
 cd "$(git rev-parse --show-toplevel)"
 
 STAGED=$(git diff --cached --name-only)
-CODE_CHANGED=$(echo "$STAGED" | grep -E '^(history-atlas/|data/|tools/)' || true)
-if [ -z "$CODE_CHANGED" ]; then
-    exit 0
-fi
 
-LATEST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -n 1)
-if [ -z "$LATEST_TAG" ]; then
-    echo "提示：仓库里还没有版本 tag，发第一个版本前请先跑 tools/release.py"
-    exit 0
-fi
+# 逐个项目检查：改了哪个项目的代码或数据，就查哪个项目的版本状态。
+# $1 = 项目 key，$2 = tag 匹配模式，$3 = 代码/数据改动的前缀正则
+check_project() {
+    PROJECT_KEY="$1"
+    TAG_PATTERN="$2"
+    CHANGE_PATTERN="$3"
+    PROJECT_DIR="$4"
+    VERSION_FILE="$5"
 
-VERSION=$(sed -nE 's/.*val appVersion = "([^"]+)".*/\1/p' history-atlas/app/build.gradle.kts | head -n 1)
+    CODE_CHANGED=$(echo "$STAGED" | grep -E "$CHANGE_PATTERN" || true)
+    if [ -z "$CODE_CHANGED" ]; then
+        return 0
+    fi
 
-# 例外 2：版本号已与最新 tag 不同 —— 正在发版流程中，放行
-if [ -n "$VERSION" ] && [ "$VERSION" != "${LATEST_TAG#v}" ]; then
-    exit 0
-fi
+    LATEST_TAG=$(git tag --list "$TAG_PATTERN" --sort=-v:refname | head -n 1)
+    if [ -z "$LATEST_TAG" ]; then
+        echo "提示：$PROJECT_KEY 还没有版本 tag，发第一个版本前请先跑"
+        echo "  python tools/release.py <版本号> --project $PROJECT_KEY"
+        return 0
+    fi
 
-AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
-if [ "$AHEAD" -eq 0 ]; then
-    # HEAD 正好在 tag 上，版本号也一致，放行
-    exit 0
-fi
+    VERSION=$(sed -nE 's/.*val appVersion = "([^"]+)".*/\1/p' \
+        "$PROJECT_DIR/app/build.gradle.kts" | head -n 1)
 
-echo ""
-echo "当前 HEAD 已有 $AHEAD 个提交超出最新 tag（$LATEST_TAG），尚未发布。"
-echo "本次又改动了代码或数据，提交后将累计更多未发布改动。"
-echo ""
-echo "请先发版：python tools/release.py <新版本号>"
-echo "（跳过检查用 git commit --no-verify）"
-exit 1
+    # 例外 2：版本号已与最新 tag 不同 —— 正在发版流程中，放行
+    TAG_VERSION="${LATEST_TAG##*v}"
+    if [ -n "$VERSION" ] && [ "$VERSION" != "$TAG_VERSION" ]; then
+        return 0
+    fi
+
+    AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
+    if [ "$AHEAD" -eq 0 ]; then
+        # HEAD 正好在 tag 上，版本号也一致，放行
+        return 0
+    fi
+
+    echo ""
+    echo "[$PROJECT_KEY] 当前 HEAD 已有 $AHEAD 个提交超出最新 tag（$LATEST_TAG），尚未发布。"
+    echo "[$PROJECT_KEY] 本次又改动了代码或数据，提交后将累计更多未发布改动。"
+    echo ""
+    echo "请先发版：python tools/release.py <新版本号> --project $PROJECT_KEY"
+    echo "（跳过检查用 git commit --no-verify）"
+    exit 1
+}
+
+# history-atlas：裸 tag（v1.1.5），代码与数据在 history-atlas/ 与 data/
+check_project "history-atlas" 'v*' \
+    '^(history-atlas/|data/|tools/)' 'history-atlas'
+
+# science-atlas：带前缀 tag（science-atlas-v1.0.0），数据在 data-science/
+check_project "science-atlas" 'science-atlas-v*' \
+    '^(science-atlas/|data-science/)' 'science-atlas'
+
+exit 0

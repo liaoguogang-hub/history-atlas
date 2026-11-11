@@ -1,0 +1,4186 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""生成 data-science/astro.json —— 天文学科离线科普数据（契约 SCHEMA v1）。
+
+用法:
+    python tools/sci_content/gen_astro.py
+
+输出:
+    data-science/astro.json  (scope = "astro")
+
+设计说明:
+- periods 用两到三层树: 顶层分期(带"编年主干"标签) -> 子分期。
+- events / figures 通过 id 互相引用, 由 validate_sci.py 校验。
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / "data-science" / "astro.json"
+
+# ---------------------------------------------------------------------------
+# periods
+# ---------------------------------------------------------------------------
+PERIODS = [
+    dict(
+        id="astro-cosmology-models",
+        name="宇宙学模型",
+        alias="关于宇宙结构的根本图景",
+        parentId=None,
+        startYear=-400,
+        endYear=2026,
+        startDateText="约公元前400年",
+        endDateText="至今",
+        colorKey="astro-cosmo",
+        summary=(
+            "宇宙学模型是关于宇宙整体结构、起源与演化的根本性理论框架，"
+            "它的每一次更替都伴随着新的观测证据与新的数学工具。"
+            "公元前四世纪，柏拉图学派提出以正多面体为基本形体的理想宇宙模型，"
+            "托勒密的地心体系在此后一千四百年间统治天文学。"
+            "哥白尼于1543年提出日心说，"
+            "开普勒与伽利略在十七世纪把它与行星轨道定律和望远镜观测结合起来，"
+            "牛顿的万有引力定律最终给出了它的动力学解释。"
+            "二十世纪，勒梅特提出膨胀宇宙与大爆炸假说，"
+            "哈勃发现星系退行把宇宙学从哲学思辨推向观测检验，"
+            "弗里德曼与勒梅特的工作给出膨胀的相对论方程解，"
+            "彭齐亚斯与威尔逊发现宇宙微波背景辐射，"
+            "此后暴胀理论、ΛCDM标准模型、暗能量与暗物质成为新的争论焦点。"
+            "本分期是天文学思想史的主干线索。"
+        ),
+        territory="不适用；适用于整个可观测宇宙",
+        capital="不适用；观测设施分布于地面与太空",
+        population="不适用；可观测宇宙约800亿个星系",
+        culture="几何模型、力学解释、场论与广义相对论、观测宇宙学",
+        keyFigures=["fig-astro-copernicus", "fig-astro-galileo", "fig-astro-newton", "fig-astro-hubble"],
+        relatedEvents=[
+            "ev-astro-ptolemy-system",
+            "ev-astro-copernicus-heliocentric",
+            "ev-astro-galileo-telescope",
+            "ev-astro-newton-gravity",
+            "ev-astro-hubble-law",
+            "ev-astro-cmb-discovery",
+        ],
+        tags=["编年主干", "宇宙学", "日心说", "大爆炸", "标准模型"],
+    ),
+    dict(
+        id="astro-ancient-sky",
+        name="古典与中世纪天象体系",
+        alias="地心说时代",
+        parentId="astro-cosmology-models",
+        startYear=-400,
+        endYear=1500,
+        startDateText="约公元前400年",
+        endDateText="公元1500年",
+        colorKey="astro-quanta",
+        summary=(
+            "从柏拉图到哥白尼的两千年间，天文学以几何、观测与数学推理为主，"
+            "但其基本图景是地心的。"
+            "柏拉图学派提出用正多面体解释天体运动，"
+            "亚里士多德在《天文学论》中把这一图景与物理宇宙观结合，"
+            "认为天体在无形的连续介质中作完美圆周运动。"
+            "托勒密在《至大论》中提出偏心圆与等径轮的精巧几何体系，"
+            "能够相当精确地预测行星位置，"
+            "这一体系被伊斯兰学者改进（齐尤斯哈尼的《至大论修订》）"
+            "并传回欧洲，成为哥白尼时代之前最成功的定量科学模型。"
+            "与此同时，"
+            "中国的浑仪、简仪与《授时历》，"
+            "印度的悉达artha式历法与阿拉伯的代数与光学，"
+            "构成了另一条独立的观测与计算传统。"
+            "这一时代还积累了大量古代星表与观测记录，"
+            "其中记录了超新星、彗星与太阳活动，"
+            "成为后世研究恒星演化与长期太阳活动的重要资料。"
+        ),
+        territory="不适用；覆盖欧亚与地中海的古代天文学传统",
+        capital="巴比伦、亚历山大城、巴格达、晋代太史令台、耶路撒冷",
+        population="不适用；观测者多为宫廷与教会的专职人员",
+        culture="几何球体模型、浑仪、简仪、星表、伊斯兰代数与光学",
+        keyFigures=["fig-astro-ptolemy", "fig-astro-alexander", "fig-astro-guo-shoujing", "fig-astro-al-biruni"],
+        relatedEvents=[
+            "ev-astro-ptolemy-system",
+            "ev-astro-hipparchus-catalogue",
+            "ev-astro-chinese-armillary",
+            "ev-astro-su-shi-polaris",
+        ],        tags=["地心说", "托勒密体系", "浑仪", "古代星表", "伊斯兰天文学"],
+    ),
+    dict(
+        id="astro-modern-theory",
+        name="近代天文与科学革命",
+        alias="16—18世纪",
+        parentId="astro-cosmology-models",
+        startYear=1500,
+        endYear=1780,
+        startDateText="公元1500年",
+        endDateText="公元1780年",
+        colorKey="astro-telescope",
+        summary=(
+            "哥白尼、伽利略、开普勒与牛顿四人在一百年间重建了天文学。"
+            "1543年《天体运行论》提出日心体系，"
+            "开普勒通过第谷的精密观测数据总结出椭圆轨道、面积定律与调和定律，"
+            "伽利略用望远镜发现木星的四颗卫星、金星相位与月面环形山，"
+            "为日心说提供了直接观测证据，"
+            "牛顿1687年的《自然哲学的数学原理》以万有引力与运动三定律"
+            "统一解释了行星运动、潮汐与落体，"
+            "标志着经典力学的完成。"
+            "同时，"
+            "赫歇尔通过系统性巡天编制星表并发现天王星，"
+            "光谱分析的出现使恒星化学组成首次成为可研究的对象，"
+            "而拉卡伊与拉普拉斯的精密观测与数学分析"
+            "把天体力学推到可精确计算的程度。"
+            "本分期是科学革命在天文学中最集中的阶段。"
+        ),
+        territory="欧洲及全球的观测网络，观测点从欧洲扩展到好望角与南北美洲",
+        capital="布拉格、帕多瓦、伦敦、格林尼治、巴黎",
+        population="不适用；观测者与理论研究者分布于多所大学与科学院",
+        culture="日心说、望远镜观测、椭圆轨道、开普勒定律、万有引力、光谱分析",
+        keyFigures=[
+            "fig-astro-copernicus",
+            "fig-astro-kepler",
+            "fig-astro-galileo",
+            "fig-astro-newton",
+            "fig-astro-herschel",
+        ],
+        relatedEvents=[
+            "ev-astro-copernicus-heliocentric",
+            "ev-astro-kepler-laws",
+            "ev-astro-galileo-telescope",
+            "ev-astro-newton-gravity",
+            "ev-astro-herschel-uranus",
+            "ev-astro-spectroscopy",
+        ],
+        tags=["编年主干", "科学革命", "望远镜", "万有引力", "光谱"],
+    ),
+    dict(
+        id="astro-modern-observation",
+        name="近代观测与发现时代",
+        alias="19世纪",
+        parentId="astro-cosmology-models",
+        startYear=1780,
+        endYear=1900,
+        startDateText="公元1780年",
+        endDateText="公元1900年",
+        colorKey="astro-telescope",
+        summary=(
+            "十九世纪是天文学从「解释已知天体」转向「发现新天体与新现象」的时期。"
+            "赫歇尔父子通过系统性巡天编制星表，"
+            "发现天王星，并统计恒星的空间分布，"
+            "率先提出银河系是有限透镜状恒星系统的设想。"
+            "光谱分析由基尔霍夫与本茨揭示物质吸收与发射的特征谱线，"
+            "使恒星化学成分首次可被测定，"
+            "从而开启了对恒星演化与元素起源的研究。"
+            "勒维耶依据天王星轨道摄动计算出一颗未知行星的位置，"
+            "伽勒于1846年在其预言位置附近发现海王星，"
+            "这一「理论预测—观测验证」的循环成为科学方法的标准范例。"
+            "海王星之后，1862年发现氨星光谱中的暗线，"
+            "1900年发现氦元素，"
+            "天文学开始成为引领其他学科的发现前线。"
+        ),
+        territory="全球观测站网，重点为北半球与南半球的巡天走廊",
+        capital="格林尼治天文台、巴黎天文台、哈佛大学天文台、卡宁顿天文台",
+        population="不适用；巡天观测涉及数十万颗恒星的编目",
+        culture="巡天星表、光谱分析、天体力学精密计算、照相与测微技术",
+        keyFigures=["fig-astro-herschel", "fig-astro-le-verrier", "fig-astro-galle", "fig-astro-lockyer"],
+        relatedEvents=[
+            "ev-astro-herschel-uranus",
+            "ev-astro-spectroscopy",
+            "ev-astro-neptune-discovery",
+            "ev-astro-photographic-survey",
+        ],
+        tags=["巡天", "光谱分析", "海王星", "照相观测", "发现时代"],
+    ),
+    dict(
+        id="astro-space-era",
+        name="空间观测时代",
+        alias="射电与空间时代",
+        parentId=None,
+        startYear=1930,
+        endYear=2026,
+        startDateText="公元1930年",
+        endDateText="至今",
+        colorKey="astro-deep",
+        summary=(
+            "空间观测时代的开启源于射电天文学与航天技术的结合。"
+            "1930年代央斯基发现银河系射电源，"
+            "1940至1950年代射电望远镜把人类视野延伸到电磁波谱的射电波段，"
+            "1957年苏联发射人造卫星后，"
+            "空间天文学逐渐成为主流："
+            "1960年代以X射线与伽马射线天文台揭示高能天体，"
+            "红外与紫外天文观测打开被尘埃与大气遮挡的波段，"
+            "1990年代哈勃空间望远镜与COBE修正了宇宙学参数，"
+            "2015年LIGO首次直接探测引力波，"
+            "2019年事件视界望远镜发布首张黑洞影像，"
+            "2021年詹姆斯·韦布空间望远镜发射，"
+            "把红外巡天推进到前所未有的深度与分辨率。"
+            "本分期代表天文学从地面望远镜时代进入全波段、多信使时代。"
+        ),
+        territory="地球轨道、太阳轨道、日球层深空与宇宙微波背景视界",
+        capital="哈勃空间望远镜、查尔斯·赫斯望远镜、斯平察尔太空望远镜、詹姆斯·韦布空间望远镜",
+        population="不适用；数据量以 PB 级计",
+        culture="射电天文、空间红外观测、X射线与伽马射线天文学、引力波天文学、多信使天文学",
+        keyFigures=["fig-astro-hubble", "fig-astro-penzias", "fig-astro-wilson", "fig-astro-gabor", "fig-astro-weaver"],
+        relatedEvents=[
+            "ev-astro-radio-astronomy",
+            "ev-astro-hubble-telescope",
+            "ev-astro-pulsars",
+            "ev-astro-cmb-discovery",
+            "ev-astro-gravitational-waves",
+            "ev-astro-black-hole-image",
+        ],
+        tags=["编年主干", "空间天文", "射电", "引力波", "多信使"],
+    ),
+    dict(
+        id="astro-instrument-epoch",
+        name="观测手段演进",
+        alias="从肉眼到空间望远镜",
+        parentId=None,
+        startYear=-300,
+        endYear=2026,
+        startDateText="约公元前300年",
+        endDateText="至今",
+        colorKey="astro-telescope",
+        summary=(
+            "观测手段的每一次跃迁都重新定义了天文学的边界。"
+            "古代中国的浑仪、简仪与圭表把天象测量推进到可重复的定量水平，"
+            "阿拉伯与欧洲的象限仪、星盘与航海钟服务于航海与历法需要。"
+            "1609年伽利略把望远镜用于天体观测，"
+            "首次看到肉眼不可见的细节，"
+            "十八至十九世纪的反射镜与物镜镀膜技术大幅提升集光力，"
+            "照相与测微技术让天体位置与亮度的测量变得可批量、可重复。"
+            "二十世纪，"
+            "射电望远镜打开了电磁波谱的新窗口，"
+            "雷达天文学使人类得以主动测量行星与近地天体的表面，"
+            "红外、紫外、X射线与伽马射线天文台进入太空，"
+            "摆脱了地球大气的吸收。"
+            "1990年代以后，"
+            "自适应光学让地面望远镜达到接近空间望远镜的分辨率，"
+            "干涉测量与甚长基线干涉把角分辨率推进到毫角秒量级，"
+            "而空间望远镜把波段、稳定性与视场推向极限。"
+            "本分期是天文观测史的横向主干。"
+        ),
+        territory="地面台站、观测站网与近地轨道",
+        capital="欧洲南方天文台甚大望远镜、阿塔卡马大型毫米/亚毫米波射电望远镜阵列、绿岸射电天文台",
+        population="不适用；主要台站与望远镜合计数百台",
+        culture="目视与照相观测、光谱分析、射电干涉、雷达、自适应光学、空间望远镜",
+        keyFigures=["fig-astro-galileo", "fig-astro-herschel", "fig-astro-hubble", "fig-astro-gabor", "fig-astro-weaver"],
+        relatedEvents=[
+            "ev-astro-chinese-armillary",
+            "ev-astro-galileo-telescope",
+            "ev-astro-spectroscopy",
+            "ev-astro-radio-astronomy",
+            "ev-astro-hubble-telescope",
+            "ev-astro-gravitational-waves",
+        ],
+        tags=["编年主干", "望远镜", "射电", "自适应光学", "空间望远镜"],
+    ),
+    dict(
+        id="astro-observing-tools",
+        name="地面光学与照相时代",
+        alias="17—20世纪",
+        parentId="astro-instrument-epoch",
+        startYear=1609,
+        endYear=1957,
+        startDateText="公元1609年",
+        endDateText="公元1957年",
+        colorKey="astro-telescope",
+        summary=(
+            "望远镜的发明与改进是近代天文观测的物质基础。"
+            "伽利略的折射望远镜口径小但倍率高，"
+            "适合目视巡视；"
+            "牛顿于1668年提出反射式设计，"
+            "避免了折射透镜的色差，"
+            "胡克与牛顿随后制造出实用的反射镜，"
+            "一八世纪后期赫歇尔建造了口径达六英尺的金属镜反射望远镜，"
+            "并发明了赤道仪与许多目镜。"
+            "十九世纪，"
+            "折射望远镜的物镜研磨与消色差技术进步，"
+            "德雷伯（F. W. Dreyer）在德朗福铸造的透镜使口径突破二十五厘米，"
+            "帕里天文台与阿姆斯特丹天文台成为国际观测中心；"
+            "光谱仪、测微计与照相底片使星表编制与双星测量进入工业化阶段。"
+            "到二十世纪上半叶，"
+            "帕洛马山与威尔士山的大口径望远镜与施密特-卡塞格林式结构"
+            "达到当时的技术极限，"
+            "并为随后进入太空时代做好了仪器与组织准备。"
+        ),
+        territory="欧洲与北美主要天文台台址",
+        capital="格林尼治天文台、帕里天文台、阿姆斯特丹天文台、帕洛马天文台",
+        population="不适用；照相星表编目恒星数以百万计",
+        culture="折射与反射光学、光谱仪、测微计、照相干版、星表编目",
+        keyFigures=["fig-astro-galileo", "fig-astro-herschel", "fig-astro-hubble", "fig-astro-newton"],
+        relatedEvents=[
+            "ev-astro-galileo-telescope",
+            "ev-astro-spectroscopy",
+            "ev-astro-photographic-survey",
+            "ev-astro-hubble-telescope",
+        ],
+        tags=["望远镜", "反射镜", "折射镜", "照相星表", "测微"],
+    ),
+    dict(
+        id="astro-space-observation",
+        name="射电与空间及多信使观测",
+        alias="1930—21世纪",
+        parentId="astro-instrument-epoch",
+        startYear=1930,
+        endYear=2026,
+        startDateText="公元1930年",
+        endDateText="至今",
+        colorKey="astro-deep",
+        summary=(
+            "空间观测摆脱了地球大气的吸收与湍流，"
+            "使紫外线、X射线与伽马射线波段首次可被观测，"
+            "并把红外天文推进到分子与尘埃形成的层面。"
+            "1962年发射的临空天文观测平台在紫外波段取得首批成果，"
+            "1970年代后，"
+            "爱因斯坦、查尔斯·赫斯与斯平察尔等空间天文台成为主流观测平台，"
+            "哈勃空间望远镜的紫外与可见光观测则修正了一批长期存在的距离与定标问题。"
+            "1992年COBE测量宇宙微波背景的黑体谱形，"
+            "确立了大爆炸模型的基本参数。"
+            "1998年、2015年后，"
+            "LIGO 与 Virgo、KAGRA 等设施相继直接探测到引力波，"
+            "2019年事件视界望远镜通过甚长基线干涉合成出首张黑洞影像，"
+            "2021年詹姆斯·韦布空间望远镜发射，"
+            "以红外巡天和系外行星凌星光谱为特色，"
+            "2022年后更以首张全天巡天图像进入公众视野。"
+            "多信使天文学由此成为21世纪天文学的核心范式。"
+        ),
+        territory="近地轨道、日球层深空、地面干涉阵列与地下探测器",
+        capital="哈勃空间望远镜、詹姆斯·韦布空间望远镜、事件视界望远镜、LIGO 观测站",
+        population="不适用；空间望远镜与地面阵列合计形成全球观测能力",
+        culture="紫外与X射线天文台、红外空间观测、引力波干涉、多信使联合分析",
+        keyFigures=["fig-astro-hubble", "fig-astro-penzias", "fig-astro-gabor", "fig-astro-weaver"],
+        relatedEvents=[
+            "ev-astro-hubble-telescope",
+            "ev-astro-cmb-discovery",
+            "ev-astro-gravitational-waves",
+            "ev-astro-black-hole-image",
+            "ev-astro-exoplanet-discovery",
+        ],
+        tags=["空间望远镜", "多信使", "引力波", "黑洞影像", "红外巡天"],
+    ),
+    dict(
+        id="astro-stellar-physics",
+        name="恒星与天体物理学",
+        alias="光谱、恒星演化与致密天体",
+        parentId=None,
+        startYear=1830,
+        endYear=2026,
+        startDateText="公元1830年",
+        endDateText="至今",
+        colorKey="astro-quanta",
+        summary=(
+            "天体物理学研究天体的物理性质、结构与演化，"
+            "它在十九世纪末随光谱分析与照相技术而诞生，"
+            "在二十世纪随核物理与量子力学而成熟。"
+            "基尔霍夫与本茨的解释使光谱成为成分指纹，"
+            "普朗克与爱因斯坦的量子理论解释了星光中的吸收与发射机制，"
+            "开尔文与霍伊则从辐射平衡出发推算恒星年龄，"
+            "Eddington 建立了恒星结构的理论框架。"
+            "在观测上，"
+            "哈佛的德雷珀星表与弗莱明的「谱线强度排序」方法发现恒星光谱序列，"
+            "1895年，沃尔夫与亚当斯提出白矮星的概念，"
+            "1919年爱丁顿赴非洲观测爱因斯坦预言的星光偏折，"
+            "成为广义相对论的第一个天文检验。"
+            "二十世纪中后期，"
+            "脉冲星、类星体、中子星与黑洞逐一被确认，"
+            "而恒星演化的核合成理论解释了元素丰度与氢氦之外的重元素来源。"
+        ),
+        territory="银河系及河外星系的各类恒星与致密天体",
+        capital="威尔士-阿文霍利克天文台、帕洛马天文台、甚大望远镜",
+        population="不适用；银河系约一千亿至四千亿颗恒星",
+        culture="光谱分类、辐射平衡、恒星结构模型、核合成、超新星与致密天体",
+        keyFigures=["fig-astro-lockyer", "fig-astro-eddington", "fig-astro-hubble", "fig-astro-payne", "fig-astro-heisenberg"],
+        relatedEvents=[
+            "ev-astro-spectroscopy",
+            "ev-astro-spectral-class",
+            "ev-astro-stellar-nursery",
+            "ev-astro-supernova",
+            "ev-astro-neutron-star",
+        ],
+        tags=["编年主干", "光谱分类", "恒星演化", "超新星", "中子星"],
+    ),
+    dict(
+        id="astro-stellar-classification",
+        name="光谱分类与恒星结构",
+        alias="19世纪末—20世纪",
+        parentId="astro-stellar-physics",
+        startYear=1830,
+        endYear=1950,
+        startDateText="公元1830年",
+        endDateText="公元1950年",
+        colorKey="astro-quanta",
+        summary=(
+            "光谱学的建立让恒星第一次成为可分类、可比较、可建模的对象。"
+            "夫琅禾费在太阳光谱中观察到大量固定的暗线，"
+            "基尔霍夫与本茨1860年前后的工作表明这些暗线对应元素特有的吸收，"
+            "由此打开了测定恒星化学成分的大门。"
+            "哈佛大学以弗莱明与卡谱兰奇为核心的团队把恒星光谱按颜色与谱线强度排序，"
+            "命名为 O、B、A、F、G、K、M 型，"
+            "这套分类至今沿用，"
+            "只是在1913年由佩恩与白莎基于哈佛光度表校正为更精确的序列。"
+            "在理论方面，"
+            "开尔文与霍伊提出辐射平衡与「黑体温度」概念，"
+            "施密特、贝特、普朗克与拉塞尔的工作"
+            "分别把光谱线索与原子物理联系，"
+            "1913年海森堡与玻尔提出量子原子模型解释了恒星光谱的规律结构。"
+            "爱丁顿1926年的《恒星内部结构》则把辐射转移与流体静力学结合，"
+            "解释了主序星为何能稳定存在万亿年，"
+            "奠定了现代恒星理论。"
+        ),
+        territory="全球恒星光谱档案",
+        capital="哈佛大学天文台、威尔士-阿文霍利克天文台、普林斯顿大学",
+        population="不适用；哈佛光谱样本涵盖数十万颗恒星",
+        culture="光谱线解释、OBAFGKM 分类、光度图、辐射转移、恒星结构方程",
+        keyFigures=["fig-astro-lockyer", "fig-astro-eddington", "fig-astro-heisenberg"],
+        relatedEvents=[
+            "ev-astro-spectroscopy",
+            "ev-astro-spectral-class",
+            "ev-astro-eddington-rosenmark",
+        ],
+        tags=["光谱分类", "OBAFGKM", "光度图", "辐射转移", "恒星结构"],
+    ),
+    dict(
+        id="astro-modern-physics",
+        name="致密天体与相对论天体物理",
+        alias="20世纪下半叶至今",
+        parentId="astro-stellar-physics",
+        startYear=1919,
+        endYear=2026,
+        startDateText="公元1919年",
+        endDateText="至今",
+        colorKey="astro-galaxy",
+        summary=(
+            "广义相对论预言的新型天体在二十世纪被逐一发现，"
+            "使相对论从理论走向可观测的天体物理。"
+            "1919年爱丁顿赴西非观测日全食期间的星光偏折，"
+            "结果与爱因斯坦的广义相对论预言一致，"
+            "成为相对论的第一个天文检验。"
+            "1933年兹威基根据旋涡星系外围恒星速度远超预期，"
+            "提出存在大量暗物质的假说，"
+            "1970年代起这一假说在旋转曲线、引力透镜与宇宙微波背景中反复得到印证。"
+            "1937年奥本与哈特曼观测到蟹状星云中央的稳定脉冲信号，"
+            "1967年脉冲星被发现，"
+            "1967年首次听到射电星云背景中的「背景辐射」并最终确认为宇宙微波背景，"
+            "1974年脉冲星双星系统的轨道衰减被测出，"
+            "为引力波辐射提供了间接证据。"
+            "黑洞理论在史瓦西、彭罗斯与霍金手中成形，"
+            "2019年事件视界望远镜直接成像确认了超大质量黑洞的存在与成像方法，"
+            "成为相对论与观测结合的里程碑。"
+        ),
+        territory="星系团、致密天体与相对论天体所在的宇宙",
+        capital="事件视界望远镜全球阵列、LIGO 观测站、甚大望远镜",
+        population="不适用；直接成像目标为距地球数千至数万光年的星系核",
+        culture="广义相对论、施瓦西半径、吸积盘、引力透镜、暗物质、相对论天体物理",
+        keyFigures=["fig-astro-heisenberg", "fig-astro-hubble", "fig-astro-penzias", "fig-astro-gabor"],
+        relatedEvents=[
+            "ev-astro-eddington-rosenmark",
+            "ev-astro-dark-matter",
+            "ev-astro-pulsars",
+            "ev-astro-black-hole-image",
+            "ev-astro-gravitational-waves",
+        ],
+        tags=["广义相对论", "黑洞", "暗物质", "脉冲星", "引力透镜"],
+    ),
+    dict(
+        id="astro-planetary-science",
+        name="行星科学与太阳系探测",
+        alias="从望远镜观察到深空探测",
+        parentId=None,
+        startYear=1600,
+        endYear=2026,
+        startDateText="公元1600年",
+        endDateText="至今",
+        colorKey="astro-solar",
+        summary=(
+            "行星科学把望远镜观测与航天器实地探测结合起来，"
+            "把太阳系从「遥远的光点」变成可测量、可采样、可着陆的实体世界。"
+            "伽利略用望远镜发现木星的卫星，"
+            "开普勒从第谷的数据中推算行星轨道，"
+            "牛顿用力学解释行星运动，"
+            "为后来的轨道力学与星际航行提供理论工具。"
+            "十九世纪，"
+            "光谱分析揭示了行星大气的化学成分，"
+            "照相与测微技术让火星、金星的表面与大气的细节不断浮现，"
+            "「火星运河」的争论最终被证实为视觉误差与投影效应。"
+            "1957年苏联发射斯普特尼克，"
+            "1959年探测器首次飞掠月球，"
+            "此后旅行者、先驱者、麦哲伦、加利略、卡西尼号与新视野号"
+            "相继完成外行星系统的系统勘测，"
+            "1997年卡西尼号进入土星轨道并释放惠更斯号登陆土卫六，"
+            "2015年新视野号飞掠冥王星，"
+            "而中国的嫦娥与天问系列则把探测能力推进到月球与火星。"
+        ),
+        territory="太阳系八大行星、矮行星、卫星与小行星带、彗星区",
+        capital="喷气推进实验室、欧洲空间局总部、中国国家航天局",
+        population="不适用；探测器与轨道器累计数十个",
+        culture="轨道力学、天体力学、行星大气光谱、行星地质学、遥感与采样返回",
+        keyFigures=["fig-astro-galileo", "fig-astro-kepler", "fig-astro-weaver", "fig-astro-hubble"],
+        relatedEvents=[
+            "ev-astro-galileo-telescope",
+            "ev-astro-mars-canal",
+            "ev-astro-sputnik",
+            "ev-astro-voyager",
+            "ev-astro-cassini-huygens",
+            "ev-astro-new-horizons",
+        ],
+        tags=["编年主干", "行星科学", "深空探测", "轨道力学", "太阳系"],
+    ),
+    dict(
+        id="astro-planetary-observation",
+        name="望远镜时代的行星观测",
+        alias="17—19世纪",
+        parentId="astro-planetary-science",
+        startYear=1600,
+        endYear=1900,
+        startDateText="公元1600年",
+        endDateText="公元1900年",
+        colorKey="astro-planet",
+        summary=(
+            "在探测器出现之前，"
+            "行星的全部知识都来自望远镜与光谱的间接推断。"
+            "伽利略从1610年起连续观测木星，"
+            "发现其四颗卫星并测出周期，"
+            "这不仅支持了日心说，"
+            "更提供了第一个不依赖地球中心的天体运动参照系。"
+            "惠更斯利用光速与光行差测出日地距离，"
+            "开普勒三定律与牛顿的万有引力把行星轨道纳入统一计算，"
+            "使预测彗星与凌日成为可能。"
+            "十九世纪，"
+            "多台望远镜与良好大气站点使火星、金星表面细节与自转周期被反复测量，"
+            "火星运河成为十九世纪最著名的科学争论之一，"
+            "而金星的相位变化与光谱则提供了行星自转与大气成分的关键线索。"
+            "这些工作把行星研究从「猜测」推向「定量」，"
+            "为二十世纪的航天探测准备了观测数据与理论工具。"
+        ),
+        territory="全球主要天文台与观测站",
+        capital="格林尼治天文台、帕里天文台、拉卡伊与拉普拉斯所在的巴黎天文台",
+        population="不适用；以目视与照相观测为主",
+        culture="目视行星观测、自转测定、光行差测距、光谱特征、凌星观测",
+        keyFigures=["fig-astro-galileo", "fig-astro-herschel", "fig-astro-hubble"],
+        relatedEvents=[
+            "ev-astro-galileo-telescope",
+            "ev-astro-kepler-laws",
+            "ev-astro-mars-canal",
+            "ev-astro-spectroscopy",
+        ],
+        tags=["行星观测", "光行差", "火星运河", "自转测定", "目视观测"],
+    ),
+    dict(
+        id="astro-deep-space",
+        name="航天器与深空探测",
+        alias="1957年至今",
+        parentId="astro-planetary-science",
+        startYear=1957,
+        endYear=2026,
+        startDateText="公元1957年",
+        endDateText="至今",
+        colorKey="astro-planet",
+        summary=(
+            "航天器把行星观测从「看」变成「到」。"
+            "1957年苏联发射斯普特尼克1号，"
+            "开启太空时代；"
+            "1959年探测器完成月球飞掠，"
+            "1966年拉探测器首次在另一个天体上软着陆并传回图像，"
+            "1977年旅行者1号与2号先后完成木星与土星系统的穿越，"
+            "其行星际介质与引力波实验至今仍在返回数据。"
+            "1990年代，"
+            "伽利略号环绕木星并投放入大气探测器，"
+            "卡西尼号在土星轨道工作了近十五年，"
+            "2004年惠更斯号登陆土卫六并首次在另一颗卫星上实现了外天体着陆。"
+            "1997年卡西尼发现土星环中的甲烷湖，"
+            "2015年新视野号飞掠冥王星，"
+            "使其复杂地貌与冰山、氮冰构成的面貌进入公众视野。"
+            "中国的嫦娥系列实现月球环绕、着陆与采样返回，"
+            "天问一号完成火星环绕、着陆与巡视探测，"
+            "使行星研究进入自主深空探测阶段。"
+        ),
+        territory="地月系、火星轨道、木星与土星系统、柯伊伯带",
+        capital="喷气推进实验室、中国国家航天局、欧洲空间局、莫斯科空间研究所",
+        population="不适用；成功执行任务的深空探测器累计约四十余个",
+        culture="轨道力学、遥测遥控、图像处理、光谱与雷达探测、原位测量",
+        keyFigures=["fig-astro-weaver", "fig-astro-hubble", "fig-astro-gabor"],
+        relatedEvents=[
+            "ev-astro-sputnik",
+            "ev-astro-voyager",
+            "ev-astro-cassini-huygens",
+            "ev-astro-new-horizons",
+            "ev-astro-chang-e",
+        ],
+        tags=["深空探测", "旅行者", "卡西尼", "新视野号", "嫦娥工程"],
+    ),
+    dict(
+        id="astro-exoplanet",
+        name="系外行星与生命搜索",
+        alias="1995年至今",
+        parentId=None,
+        startYear=1995,
+        endYear=2026,
+        startDateText="公元1995年",
+        endDateText="至今",
+        colorKey="astro-planet",
+        summary=(
+            "系外行星研究是二十世纪末以来天文学增长最快的领域，"
+            "核心问题始终围绕两点："
+            "行星有多普遍？"
+            "生命是否唯一？"
+            "1995年，"
+            "瑞士天文台的梅耶与多尔菲在飞马座51b上发现首颗围绕类太阳恒星运行的系外行星，"
+            "2019年诺贝奖授予该发现的相关工作。"
+            "1996年，多尔菲与马西耶发明径向速度法，"
+            "2000年后开普勒与「开普勒」空间望远镜通过凌星法发现了数千颗系外行星，"
+            "揭示了「热木星」与「超级地球」等新的行星族群，"
+            "并催生了行星人口统计学的系统研究。"
+            "2019年，"
+            "欧洲南方天文台发布首颗系外行星周围大气成分的检测结果，"
+            "证明研究系外行星大气在技术上可行。"
+            "2020年代，"
+            "詹姆斯·韦布空间望远镜开始对大气光谱进行系统观测，"
+            "寻找水、二氧化碳与甲烷等生物标志物，"
+            "而陨石中发现的核糖与氨基酸前体，"
+            "以及土卫二与土卫六观测中的分子线索，"
+            "使「地外生命」从理论推测逐步转为可检验的科学问题。"
+        ),
+        territory="银河系内的恒星及其行星系统，观测重点为近距离恒星",
+        capital="欧洲南方天文台、詹姆斯·韦布空间望远镜、开普勒空间望远镜",
+        population="不适用；已确认系外行星超过五千颗",
+        culture="凌星测光、径向速度、直接成像与光测向、凌星光谱、生物标志物",
+        keyFigures=["fig-astro-mayor", "fig-astro-dolfe", "fig-astro-marcy", "fig-astro-weaver"],
+        relatedEvents=[
+            "ev-astro-exoplanet-discovery",
+            "ev-astro-kepler-mission",
+            "ev-astro-exoplanet-atmosphere",
+            "ev-astro-weber-telescope",
+        ],
+        tags=["编年主干", "系外行星", "凌星法", "径向速度", "生命搜索"],
+    ),
+    dict(
+        id="astro-cosmology-observation",
+        name="宇宙学观测与大爆炸证据链",
+        alias="20世纪至今",
+        parentId=None,
+        startYear=1920,
+        endYear=2026,
+        startDateText="公元1920年",
+        endDateText="至今",
+        colorKey="astro-cosmo",
+        summary=(
+            "现代宇宙学建立在一条逐级递进的证据链上。"
+            "1929年哈勃发现星系退行速度与距离成正比，"
+            "确立宇宙膨胀的观测事实；"
+            "1931年勒梅特从广义相对论方程中导出膨胀解，"
+            "并提出宇宙从一个极热极密的初态演化的「大爆炸」图景，"
+            "同年伽勒与兹威基通过测量星系团质量，"
+            "揭示了暗物质的存在。"
+            "1948年伽莫夫等人提出大爆炸核合成理论，"
+            "预言宇宙中存在特定丰度的氢、氦与微量锂；"
+            "1964年彭齐亚斯与威尔逊发现宇宙微波背景辐射，"
+            "1965年后续研究把它确认为大爆炸的遗迹，"
+            "并给出了爆炸模型的参数；"
+            "1967年萨里与威尔逊的宇宙微波背景各向异性测量，"
+            "与1992年COBE的谱形测量一起，"
+            "使平直几何与热大爆炸模型成为标准。"
+            "1998年超新星观测发现宇宙加速膨胀，"
+            "引出暗能量；"
+            "2014年普朗克卫星给出最精确的宇宙学参数，"
+            "2016年LIGO探测到首例引力波并开启引力波宇宙学。"
+        ),
+        territory="可观测宇宙整体",
+        capital="普朗克卫星、COBE、WMAP、南极 BICEP 观测站、LIGO 观测站",
+        population="不适用；宇宙学参数基于全天微波背景与大规模巡天样本",
+        culture="膨胀宇宙、恒星形成与演化的宇宙学、激光干涉引力波探测",
+        keyFigures=["fig-astro-lemaître", "fig-astro-hubble", "fig-astro-penzias", "fig-astro-wilson", "fig-astro-gabor"],
+        relatedEvents=[
+            "ev-astro-hubble-law",
+            "ev-astro-big-bang",
+            "ev-astro-dark-matter",
+            "ev-astro-cmb-discovery",
+            "ev-astro-dark-energy",
+            "ev-astro-gravitational-waves",
+        ],
+        tags=["编年主干", "大爆炸", "微波背景", "暗物质", "暗能量"],
+    ),
+    dict(
+        id="astro-cmb-epoch",
+        name="微波背景与参数时代",
+        alias="1964年至今",
+        parentId="astro-cosmology-observation",
+        startYear=1964,
+        endYear=2026,
+        startDateText="公元1964年",
+        endDateText="至今",
+        colorKey="astro-cosmo",
+        summary=(
+            "宇宙微波背景是把宇宙学从理论推演变成精密测量的核心观测。"
+            "1964年彭齐亚斯与威尔逊报告了贝尔实验室天线上的意外噪声，"
+            "经检验确认是来自宇宙的各向同性微波辐射；"
+            "1965年伯尔与霍伊尔等人识别出它的等温线属性与各向异性，"
+            "1966年斯通尼尔与威尔逊测量出约3.5 K 的黑体温度，"
+            "与热大爆炸模型的预期高度吻合。"
+            "1970年代后的气球实验（伯克利的宇宙背景探测实验等）"
+            "测量出约十万分之一的温度起伏，"
+            "1992年COBE给出的黑体谱形与各向异性图景"
+            "使平直模型成为标准；"
+            "2001年与2013年威尔金森微波各向异性探针（WMAP）"
+            "与2013年、2018年普朗克卫星"
+            "把宇宙年龄、几何曲率、组分与原初扰动谱测量到前所未有的精度。"
+            "2016年美国在南极的南极望远镜与 BICEP 阵列"
+            "探测到引力波在原初宇宙留下的偏振印迹，"
+            "为暴胀理论提供了迄今最直接的观测支持。"
+        ),
+        territory="全天微波背景视界（最后散射面），观测需地面、球载与空间平台",
+        capital="普朗克卫星、COBE、WMAP、南极 BICEP/Keck 阵列",
+        population="不适用；参数拟合依赖全天微波背景与多种巡天数据",
+        culture="微波辐射、功率谱分析、原初扰动、暴胀张量标量谱",
+        keyFigures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-hubble", "fig-astro-gabor"],
+        relatedEvents=[
+            "ev-astro-cmb-discovery",
+            "ev-astro-cmb-anisotropy",
+            "ev-astro-planck-satellite",
+            "ev-astro-inflation-evidence",
+        ],
+        tags=["微波背景", "各向异性", "普朗克", "暴胀", "精密测量"],
+    ),
+    dict(
+        id="astro-cosmic-expansion",
+        name="膨胀与加速阶段",
+        alias="1920年至今",
+        parentId="astro-cosmology-observation",
+        startYear=1920,
+        endYear=1998,
+        startDateText="公元1920年",
+        endDateText="至今",
+        colorKey="astro-galaxy",
+        summary=(
+            "宇宙膨胀的发现与解释是现代宇宙学的起点。"
+            "1920年代，"
+            "勒梅特基于广义相对论导出了膨胀的时空解，"
+            "并把它与放射性元素定年给出的宇宙年龄联系起来，"
+            "提出宇宙从一个极热初态演化的模型。"
+            "1929年哈勃在仙女座星系中确认了勒梅特的关系，"
+            "建立了距离—退行速度的线性关系，"
+            "使宇宙膨胀成为可测量的观测事实。"
+            "1931年伽勒与兹威基测量旋涡星系外围恒星速度，"
+            "提出暗物质假说；"
+            "1948年伽莫夫、阿尔菲与赫尔曼提出大爆炸核合成理论；"
+            "1964年微波背景的发现为热模型提供了决定性支持，"
+            "1967年萨里与威尔逊的各向异性测量、"
+            "1992年COBE的谱形测量最终确立了平直热模型。"
+            "1998年，两支独立团队通过观测遥远的Ia 型超新星，"
+            "发现宇宙膨胀不但没有减速，反而在加速，"
+            "这一发现引入暗能量并把加速膨胀作为标准模型的基本要素。"
+        ),
+        territory="不适用；适用于整个可观测宇宙",
+        capital="不适用；观测依托地面巡天与空间望远镜",
+        population="不适用；超新星样本已达数千颗",
+        culture="时空解、距离阶梯、Ia 型超新星标准烛光、加速膨胀、暗能量",
+        keyFigures=["fig-astro-lemaître", "fig-astro-hubble", "fig-astro-penzias", "fig-astro-wilson"],
+        relatedEvents=[
+            "ev-astro-hubble-law",
+            "ev-astro-big-bang",
+            "ev-astro-dark-matter",
+            "ev-astro-cmb-discovery",
+            "ev-astro-dark-energy",
+        ],
+        tags=["膨胀", "哈勃常数", "超新星", "暗能量", "标准宇宙学"],
+    ),
+]
+
+# ---------------------------------------------------------------------------
+# figures
+# ---------------------------------------------------------------------------
+FIGURES = [
+    dict(
+        id="fig-astro-copernicus",
+        name="尼古拉·哥白尼",
+        alias="哥白尼、Copernicus",
+        birthYear=1473,
+        deathYear=1543,
+        lifeText="1473年－1543年",
+        role="天文学家、数学家",
+        periodId="astro-modern-theory",
+        gender="male",
+        summary="波兰天文学家，1543年出版《天体运行论》提出日心体系，把地球从宇宙中心的位置上移下来。",
+        biography=(
+            "尼古拉·哥白尼1473年生于波兰托伦，"
+            "青年在克拉科夫、博洛尼亚与帕多瓦学习，"
+            "获医学博士学位后曾任教并担任教会行政职务，"
+            "晚年应教皇之命在弗罗恩堡担任教区医师。"
+            "他花了约三十年时间推算行星模型，"
+            "其中包括对托勒密体系误差的反复检验与修正。"
+            "1543年，"
+            "他在临终前出版《天体运行论》，"
+            "提出太阳位于中心、所有行星（包括地球）绕日运转的体系，"
+            "并用「日心说」一词区分于托勒密体系。"
+            "书末附有著名的「先知」序言，"
+            "虚构了一位名叫费尔南迪诺的年轻学者，"
+            "以此在教会审查环境中为新学说留下余地。"
+            "哥白尼的模型本身并不比托勒密更精确，"
+            "甚至需要引入更多本轮与偏心圆，"
+            "但它把物理假设从「球面本轮」转为「圆周匀速运动」，"
+            "使后续的开普勒与牛顿工作成为可能。"
+            "《天体运行论》出版当年他即去世，"
+            "书在很长时间内被当作未解决的假说而搁置，"
+            "直到伽利略的观测与开普勒的轨道计算之后才成为主流。"
+        ),
+        achievements=[
+            "1543年出版《天体运行论》，系统提出日心体系",
+            "以圆周匀速运动与本轮几何取代托勒密的偏心等径轮",
+            "提出地球自转与月球运动的物理解释",
+            "以三十年精密计算完成行星模型，是近代定量天文学的先驱",
+            "其著作成为近代科学革命的分水岭文献",
+        ],
+        quotes=[
+            "太阳居于宇宙中心，如同王居于王宫之中。",
+        ],
+        relatedEvents=["ev-astro-copernicus-heliocentric", "ev-astro-galileo-telescope"],
+        relatedFigures=["fig-astro-ptolemy", "fig-astro-galileo", "fig-astro-kepler"],
+        tags=["日心说", "天体运行论", "科学革命", "文艺复兴"],
+    ),
+    dict(
+        id="fig-astro-kepler",
+        name="约翰内斯·开普勒",
+        alias="开普勒、Kepler",
+        birthYear=1571,
+        deathYear=1630,
+        lifeText="1571年－1630年",
+        role="天文学家、数学家",
+        periodId="astro-modern-theory",
+        gender="male",
+        summary="德国天文学家，在第谷的精密观测数据基础上归纳出行星运动三定律，为牛顿力学铺平道路。",
+        biography=(
+            "约翰内斯·开普勒1571年生于德国魏尔，"
+            "青年在蒂宾根大学学习，"
+            "获硕士学位后短暂担任路德教会的数学教师。"
+            "1596年他出版《宇宙和谐论》初版，"
+            "提出行星轨道并非圆形而是椭圆的设想。"
+            "1600年他前往布拉格，"
+            "成为第谷·布拉赫的助手，"
+            "第谷于1601年去世后，"
+            "开普勒继承了他二十余年的精密观测资料，"
+            "这份资料的质量在整个天文学史上几乎无人能及。"
+            "此后十余年里，"
+            "开普勒经历了长期的个人不幸与经济困顿，"
+            "母去世、续弦妻去世、第一次婚姻破裂、"
+            "自己被解职、养儿天花去世，"
+            "但他坚持完成了对火星轨道的长期拟合。"
+            "1609年他出版《新天文学》，"
+            "提出第一、第二定律；"
+            "1619年出版《世界的和谐》，"
+            "提出第三定律。"
+            "三定律指出："
+            "行星沿椭圆轨道绕太阳运行且太阳位于焦点；"
+            "行星与太阳连线在相等时间扫过相等面积；"
+            "轨道半长轴的平方与公转周期的立方成正比。"
+            "开普勒在1618—1621年的大战与瘟疫期间仍继续工作，"
+            "1630年病逝于雷根斯堡，"
+            "身后出版了《梦想》（《Somnium》），"
+            "这部作品被许多研究者视为科学幻想文学的先驱。"
+        ),
+        achievements=[
+            "1609年《新天文学》提出椭圆轨道定律与面积定律",
+            "1619年提出开普勒第三定律（调和定律）",
+            "以第谷的火星观测数据完成精密拟合，误差小于2角分",
+            "《梦想》被认为是最早的科学幻想作品之一",
+            "把行星运动从几何描述转变为可计算的动力学问题",
+        ],
+        quotes=[
+            "我宁愿相信上帝创造了两个世界，而不是一个自相矛盾的世界。",
+        ],
+        relatedEvents=["ev-astro-kepler-laws", "ev-astro-galileo-telescope", "ev-astro-newton-gravity"],
+        relatedFigures=["fig-astro-tycho", "fig-astro-galileo", "fig-astro-newton"],
+        tags=["开普勒定律", "椭圆轨道", "第谷数据", "行星运动"],
+    ),
+    dict(
+        id="fig-astro-galileo",
+        name="伽利略·伽利莱",
+        alias="伽利略、Galileo Galilei",
+        birthYear=1564,
+        deathYear=1642,
+        lifeText="1564年－1642年",
+        role="天文学家、物理学家",
+        periodId="astro-observing-tools",
+        gender="male",
+        summary="意大利天文学家与物理学家，用望远镜发现木星卫星、金星相位与月面环形山，为日心说提供了直接观测证据。",
+        biography=(
+            "伽利略1564年生于比萨，"
+            "青年在比萨大学学医，"
+            "因研究物体浮沉与斜面运动而在力学上崭露头角，"
+            "1592年获比萨大学数学教职，"
+            "1592至1610年在帕多瓦大学任教，"
+            "期间他研究自由落体与惯性，"
+            "并改进望远镜。"
+            "1609年夏天，"
+            "他听说荷兰的眼镜匠制成放大望远镜，"
+            "自行制造了性能更优的仪器，"
+            "并率先把望远镜对准夜空。"
+            "1610年1月，"
+            "他发现木星有四颗卫星，"
+            "这提供了不依赖地球中心的天体运动参照系，"
+            "直接支持哥白尼体系；"
+            "同年他出版《星际信使》，"
+            "报告了月球表面存在山脉与环形山、"
+            "银河由无数恒星构成、"
+            "并提出金星有相位变化。"
+            "1611年他出版《关于托勒密与哥白尼两大世界体系的对话》，"
+            "以通俗对话体论证日心说，"
+            "这部作品迅速传播，"
+            "《几何与力学对话与两条新科学》则讨论了自由落体与相对性原理。"
+            "1633年，"
+            "罗马教廷宗教裁判所传唤他，"
+            "他被判有罪并被软禁在阿切里，"
+            "直至1642年去世。"
+        ),
+        achievements=[
+            "1610年用望远镜发现木星的四颗卫星（伽利略卫星）",
+            "发现金星相位变化，为日心说提供决定性几何证据",
+            "1610年出版《星际信使》，开启天文望远镜时代",
+            "研究月面环形山与山脉，否定天体表面绝对光滑的古典观念",
+            "发现银河由大量微弱恒星构成",
+            "确立自由落体与惯性原理，为力学奠基",
+        ],
+        quotes=[
+            "而且它（地球）在动……就像船一样走在水面上去。",
+            "与其说我们属于天空，不如说我们属于星星。",
+        ],
+        relatedEvents=[
+            "ev-astro-galileo-telescope",
+            "ev-astro-copernicus-heliocentric",
+            "ev-astro-kepler-laws",
+        ],
+        relatedFigures=["fig-astro-copernicus", "fig-astro-kepler", "fig-astro-newton", "fig-astro-tycho"],
+        tags=["望远镜", "伽利略卫星", "金星相位", "日心说", "力学"],
+    ),
+    dict(
+        id="fig-astro-newton",
+        name="艾萨克·牛顿",
+        alias="牛顿、Isaac Newton",
+        birthYear=1643,
+        deathYear=1727,
+        lifeText="1643年－1727年",
+        role="物理学家、数学家、天文学家",
+        periodId="astro-observing-tools",
+        gender="male",
+        summary="英国物理学家与数学家，以万有引力定律和运动三定律统一解释了天体运动，开创经典力学体系。",
+        biography=(
+            "艾萨克·牛顿1642年生于英国林肯郡沃尔斯索普，"
+            "早年在乡村私塾与大量自习中成长，"
+            "1665年剑桥三一学院毕业后因瘟疫滞留家乡，"
+            "此间做出光学、引力与微积分三方面的重要工作。"
+            "1669年他被任命为剑桥卢卡斯教席教授，"
+            "1687年出版《自然哲学的数学原理》，"
+            "这部著作包含运动三定律与万有引力定律，"
+            "并以开普勒三定律为出发点，"
+            "推导出轨道为椭圆、面积速度恒定的结论，"
+            "从而把天体运动与地面物体的运动统一在同一套数学框架内。"
+            "《原理》用拉丁文写成，"
+            "扉页上引用了「自然与上帝的法则」这一命题，"
+            "正文则几乎没有宗教议论。"
+            "牛顿同时创立了微积分，"
+            "在光学上通过三棱镜实验证明白光由多种色光组成，"
+            "并制造了第一台实用的反射式望远镜——"
+            "牛顿反射镜至今仍是大型天文台的经典设计，"
+            "他建造的反射镜口径达约六英寸，"
+            "至今保存在伦敦皇家学会。"
+            "此外，"
+            "他还研究过彗星运动，"
+            "证明1680年的那颗彗星遵循椭圆轨道，"
+            "这为天文学中的万有引力应用提供了直接检验。"
+        ),
+        achievements=[
+            "1687年《自然哲学的数学原理》提出运动三定律与万有引力定律",
+            "由开普勒定律推导出轨道形状与面积速度定律",
+            "创立微积分并系统应用于力学与光学",
+            "以三棱镜实验证明白光的色散性质",
+            "制造并使用第一台实用的牛顿反射式望远镜",
+            "证明1680年大彗星沿椭圆轨道绕日运行",
+        ],
+        quotes=[
+            "如果我看得比别人远，那是因为我站在了别人的肩膀上。",
+        ],
+        relatedEvents=[
+            "ev-astro-newton-gravity",
+            "ev-astro-kepler-laws",
+            "ev-astro-halley-comet",
+        ],
+        relatedFigures=["fig-astro-galileo", "fig-astro-kepler", "fig-astro-hubble"],
+        tags=["万有引力", "自然哲学的数学原理", "反射望远镜", "微积分", "光色散"],
+    ),
+    dict(
+        id="fig-astro-tycho",
+        name="第谷·布拉赫",
+        alias="第谷、Tycho Brahe",
+        birthYear=1546,
+        deathYear=1601,
+        lifeText="1546年－1601年",
+        role="天文学家",
+        periodId="astro-modern-theory",
+        gender="male",
+        summary="丹麦天文学家，以肉眼与手工仪器达到的观测精度空前绝后，其数据成为开普勒发现行星定律的关键依据。",
+        biography=(
+            "第谷·布拉赫1546年生于丹麦的克努特斯堡，"
+            "早年在哥本哈根大学学习，"
+            "青年因天文观测与造访著名天文学家而闻名。"
+            "1576年他谒见丹麦国王腓特世二世，"
+            "获准在丹麦的汶岛建立乌拉尼堡，"
+            "配备当时世界上最先进的天文观测设备。"
+            "在乌拉尼堡的二十多年里，"
+            "他系统观测了行星位置、恒星位置与彗星，"
+            "观测精度达到约1角分，"
+            "而在望远镜发明之前这几乎是肉眼观测的极限。"
+            "1588年后他离开丹麦，"
+            "在波希米亚接受鲁道夫二世庇护，"
+            "在布拉格继续观测，"
+            "1597年出版《彗星》，"
+            "1598年出版一千余颗恒星的星表，"
+            "并绘制了著名的「长墙星图」。"
+            "1599年，"
+            "他在布拉格附近的旧金山（Benátky nad Jizerou）"
+            "接待了因与格拉茨宗教冲突出走的开普勒，"
+            "开普勒后来成为他的助手与合作者。"
+            "第谷坚持自己的观测精度，"
+            "不肯接受哥白尼体系与两界体系，"
+            "认为应当等待更精密的观测来定论，"
+            "这使他成为科学史上极为独特的一位"
+            "「坚持经验而拒绝理论过度外推」的天文学家。"
+            "1601年他在哥本哈根逝世，"
+            "开普勒随后把二十余年的观测数据带往维也纳，"
+            "并最终完成了开普勒定律的归纳。"
+        ),
+        achievements=[
+            "肉眼观测精度达到约1角分，被视为望远镜时代前的极限",
+            "在汶岛乌拉尼堡建立当时世界上最完备的天文台",
+            "编制一千余颗恒星的星表并绘制长墙星图",
+            "对1577年大彗星的多星观测，证明其轨道穿行于行星轨道层之间",
+            "为开普勒定律的归纳提供了无可替代的高质量数据",
+        ],
+        quotes=[
+            "我宁可放弃上帝的恩赐，也不愿在观测上撒谎。",
+        ],
+        relatedEvents=["ev-astro-tycho-observations", "ev-astro-kepler-laws"],
+        relatedFigures=["fig-astro-kepler", "fig-astro-galileo"],
+        tags=["观测精度", "星表", "彗星", "第谷数据", "汶岛"],
+    ),
+    dict(
+        id="fig-astro-ptolemy",
+        name="托勒密",
+        alias="普托勒密、Claudius Ptolemaeus",
+        birthYear=100,
+        deathYear=170,
+        lifeText="约公元100年－约170年",
+        role="天文学家、数学家、地理学家",
+        periodId="astro-ancient-sky",
+        gender="male",
+        summary="希腊化时代亚历山大城学者，《至大论》的偏心圆与等径轮体系统治天文学一千四百年，被哥白尼体系取代。",
+        biography=(
+            "托勒密约100年生于埃及亚历山大城，"
+            "在城中的缪斯宫（图书馆）从事学术研究，"
+            "其著作涉及天文学、数学、地理学与光学等多个领域。"
+            "在天文学方面，"
+            "他的《至大论》十二卷构成了古代最系统的天文学体系："
+            "以偏心圆与等径轮（一个与本轮等大的反向圆）"
+            "配合本轮（沿偏心圆运动的小圆）"
+            "来描述行星的复杂视运动，"
+            "并引入与本轮中心速度不同的「均轮点」以拟合观测。"
+            "该体系在数学上极为精巧，"
+            "能相当精确地预测行星位置，"
+            "并通过《至大论》的十二卷与《行星表》"
+            "成为一千四百余年间欧洲与伊斯兰世界天文学的标准教材。"
+            "他还给出了著名的「托勒密体系」宇宙结构："
+            "地球居中，依次为月球、水星、金星、太阳、火星、木星、土星，"
+            "最外层是恒星天层。"
+            "《地理学指南》中的经纬网与地图体系同样影响深远，"
+            "《光学》则讨论了折射与视觉机制。"
+            "托勒密的体系在 16 世纪前一直优于哥白尼模型，"
+            "哥白尼本人正是通过与它的精密对比，"
+            "才确认了托勒密体系在观测精度上无法继续改进，"
+            "从而转向新的假设。"
+        ),
+        achievements=[
+            "《至大论》建立偏心圆、等径轮与均轮点的完整数学体系",
+            "《行星表》成为古代最精确的行星位置数据来源之一",
+            "《地理学指南》建立经纬网与地图投影体系，影响达一千余年",
+            "《光学》系统研究折射、视觉与天球形状",
+            "其体系作为可检验的数学模型，直接启发了哥白尼的改革",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-ptolemy-system", "ev-astro-copernicus-heliocentric"],
+        relatedFigures=["fig-astro-alexander", "fig-astro-copernicus"],
+        tags=["至大论", "本轮体系", "地理学指南", "希腊化", "托勒密体系"],
+    ),
+    dict(
+        id="fig-astro-alexander",
+        name="亚历山大大帝时代的天文学先驱",
+        alias="亚历山大里亚学派（群体条目）",
+        birthYear=-300,
+        deathYear=200,
+        lifeText="约公元前300年－约公元200年",
+        role="古希腊天文学家群体",
+        periodId="astro-ancient-sky",
+        gender="unknown",
+        summary="以欧几里得、亚里士多德、喜帕恰斯与托勒密为代表的亚历山大里亚学派，奠定了几何化天文学与观察传统。",
+        biography=(
+            "亚历山大里亚在希腊化时代成为地中海世界的学术中心，"
+            "其图书馆与缪斯宫汇聚了欧几里得、埃拉托色尼、亚里士多德、喜帕恰斯与托勒密等学者，"
+            "共同形成了一种以几何证明与定量观测为特征的学问方式。"
+            "欧几里得的《几何原本》确立了公理化演绎的范式，"
+            "这一范式随后被整个古代天文学所继承。"
+            "亚里士多德在《天文学论》与《物理学》中把天体运动纳入"
+            "「天球完美、元素回归自然位置」的物理框架，"
+            "为托勒密的数学模型提供了物理外壳。"
+            "埃拉托色尼则用日影测量估算地球周长，"
+            "得到与今日数值相当接近的结果，"
+            "显示了两千年前就已具备的定量观测能力。"
+            "喜帕恰斯则系统编制了星表，"
+            "发现了岁差现象，"
+            "并提出了用于预测日月食的三角等分法与月亮的近点/远点周期，"
+            "其方法被后世称为「喜帕恰斯法」。"
+            "这一学派的成就是双重的："
+            "既建立了可与观测检验的定量模型，"
+            "也确立了天文学作为一门独立学问的地位。"
+        ),
+        achievements=[
+            "以公理化演绎与几何证明规范了天文学的论证方式",
+            "通过太阳视运动周期与月相周期解释日食月食的可预测性",
+            "埃拉托色尼以日影测算出接近现代值的地球周长",
+            "喜帕恰斯建立精密星表并发现岁差",
+            "亚里士多德的天体物理框架支撑了托勒密体系",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-ptolemy-system", "ev-astro-hipparchus-catalogue"],
+        relatedFigures=["fig-astro-ptolemy", "fig-astro-hubble"],
+        tags=["亚历山大里亚", "希腊化", "几何天文学", "喜帕恰斯", "定量传统"],
+    ),
+    dict(
+        id="fig-astro-al-biruni",
+        name="比鲁尼",
+        alias="比鲁尼、Al-Biruni",
+        birthYear=973,
+        deathYear=1048,
+        lifeText="973年－1048年",
+        role="天文学家、数学家、地理学家",
+        periodId="astro-ancient-sky",
+        gender="male",
+        summary="波斯数学家与天文学家，测算出地球半径并以出色的观测精度测量山河的高度，开创地理大测量传统。",
+        biography=(
+            "比鲁尼973年生于中亚花剌子模的喀什，"
+            "成长于阿拉伯—波斯学术鼎盛的时代，"
+            "在南亚的加兹尼宫廷服务，"
+            "并获得广泛支持从事学术研究。"
+            "他精通天文、数学、地理、矿物与药物学，"
+            "其《天文原理》把托勒密的体系与印度天文学传统相结合，"
+            "并给出恒星距离的估算尝试；"
+            "《地理学》（印度志）记载了印度的地理、天文历法与宗教，"
+            "并试图确定关键地点的经纬度。"
+            "他最著名的两项工作是：用地球半径与山体三角测量估算"
+            "喜马拉雅山与印度河上游山峰的高度，"
+            "方法是在两个不同地点分别观测山峰的仰角并做三角测量，"
+            "由此得到相对现代值相当接近的高度估计；"
+            "以及根据一处山泉的流向与水位落差，"
+            "推算该地与海平面的高差，"
+            "这是早期精密水准测量的雏形。"
+            "他还确定了地球半径的数值，"
+            "并讨论过地球是否可能为球形的相关问题。"
+            "比鲁尼的工作展示了伊斯兰—波斯天文学与地理学在精度与方法上的独立贡献。"
+        ),
+        achievements=[
+            "用三角测量法估算喜马拉雅山山峰高度，接近现代值",
+            "利用山泉流向与水位落差进行高程测量",
+            "测定地球半径并讨论地球形状",
+            "《天文原理》融合托勒密体系与印度天文学",
+            "《印度志》系统记载南亚的地理、天文与宗教",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-ptolemy-system", "ev-astro-chinese-armillary"],
+        relatedFigures=["fig-astro-ptolemy", "fig-astro-guo-shoujing"],
+        tags=["伊斯兰天文学", "三角测量", "地球半径", "印度志", "花剌子模"],
+    ),
+    dict(
+        id="fig-astro-guo-shoujing",
+        name="郭守敬",
+        alias="郭守敬、贾鲁不加",
+        birthYear=1231,
+        deathYear=1316,
+        lifeText="1231年－1316年",
+        role="天文学家、数学家、水利专家",
+        periodId="astro-ancient-sky",
+        gender="male",
+        summary="元代天文学家，主持编制《授时历》，并制造简仪、仰仪等一批精密仪器，其观测精度达到当时世界领先水平。",
+        biography=(
+            "郭守敬1231年生于河北邢台，"
+            "祖父郭荣与父亲郭守敬家族世代studied水利与观测。"
+            "他自少年随祖父学习，"
+            "后受命参与邢州（今河北邢台）的水利工程，"
+            "在实践中掌握了测量与水力技术。"
+            "元灭金后，"
+            "郭守敬被召至燕京，"
+            "在刘秉忠与张文谦等人主持下，"
+            "参与元代天文与历法改革。"
+            "1276年，"
+            "元世祖命许衡、王恂与郭守敬主持元代天文观测仪表的制造与大规模测量。"
+            "郭守敬领导制造了简仪、仰仪、浑仪、"
+            "日晷、观象台与多种水运仪器，"
+            "其中简仪把赤道坐标仪与赤道经纬仪分离，"
+            "大幅消除了支架遮挡造成的观测误差，"
+            "是当时世界上最先进的天文仪器之一。"
+            "他主持在全国范围内开展大规模纬度实测，"
+            "「四海测验」队伍遍布全國，"
+            "实测了二十七处地点的纬度，"
+            "这是古代世界规模空前的天文地理测量工程。"
+            "1281年，"
+            "《授时历》正式颁行，"
+            "以365.2425日为回归年长度，"
+            "与今日公历所采用的数值相同，"
+            "该历法在中国施行长达三百余年，"
+            "并对日本、朝鲜的历法产生过影响。"
+            "郭守敬晚年主持治理黄河与通惠河水利，"
+            "晚年仍主持修订历法。"
+        ),
+        achievements=[
+            "主持制造简仪、仰仪、浑仪等一批当时世界领先的天文仪器",
+            "组织「四海测验」，实测全国二十七处地点的纬度",
+            "《授时历》以365.2425日为回归年长度，与今日公历数值相同",
+            "建立精确的日月运行与交食计算方法",
+            "主持多处大型水利工程，兼顾天文学与实用技术",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-chinese-armillary", "ev-astro-observation-festival"],
+        relatedFigures=["fig-astro-guo-family", "fig-astro-su-shi", "fig-astro-al-biruni"],
+        tags=["授时历", "简仪", "四海测验", "元代", "中国古代天文学"],
+    ),
+    dict(
+        id="fig-astro-guo-family",
+        name="郭守敬家族",
+        alias="郭氏家族（群体条目）",
+        birthYear=1215,
+        deathYear=1316,
+        lifeText="约1215年－1316年",
+        role="天文学与水利世家",
+        periodId="astro-ancient-sky",
+        gender="unknown",
+        summary="河北邢台的郭氏家族，世代传承水利测量与天文历算技艺，为元代天文仪器与《授时历》提供家学基础。",
+        biography=(
+            "郭氏家族是河北邢台的地方望族，"
+            "自祖父郭荣一辈起，"
+            "家族便以水利工程与观测技艺立身，"
+            "祖父郭荣曾主持治理河道、"
+            "修复引水工程，"
+            "并以善于测算与制作器物闻名。"
+            "郭守敬的父亲郭守敬（同名不同辈分）"
+            "在家庭技艺传承中扮演了重要角色。"
+            "家族的知识结构并非单纯的匠技："
+            "它同时包含《易经》象数之学、"
+            "历算方法、水利工程经验与器物制作，"
+            "是一种「数—器—工」结合的实践型知识体系。"
+            "郭守敬之所以能在元代被推荐参与天文历法改革，"
+            "并在《授时历》编纂与仪器制造中承担核心工作，"
+            "正是依托了这种自幼浸润的家学训练。"
+            "元代天文与水利工程的高度组织化——"
+            "全国规模的纬度实测、"
+            "大规模仪器制造与统一颁行历法，"
+            "与这种家族技艺传统及官方组织能力相结合，"
+            "形成了中国古代天文学少见的工程化成就。"
+        ),
+        achievements=[
+            "家族世代传承水利与观测技艺，形成系统的实践知识体系",
+            "为元代大规模天文测量工程提供人才与技艺基础",
+            "在水利与天文两个领域均留下长期实践传统",
+            "推动了传统「数—器—工」知识的代际传承",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-chinese-armillary", "ev-astro-observation-festival"],
+        relatedFigures=["fig-astro-guo-shoujing", "fig-astro-su-shi"],
+        tags=["家学", "水利", "历算", "邢台", "实践知识"],
+    ),
+    dict(
+        id="fig-astro-su-shi",
+        name="苏颂",
+        alias="苏颂、水运仪象台",
+        birthYear=1020,
+        deathYear=1101,
+        lifeText="1020年－1101年",
+        role="天文学家、仪器制造家",
+        periodId="astro-ancient-sky",
+        gender="male",
+        summary="北宋科学家与仪器制造家，设计水运仪象台等大型水力驱动天文装置，并留下完整的技术图说。",
+        biography=(
+            "苏颂1020年生于福建泉州同安，"
+            "历任太常博士、集贤院学士、礼部尚书等职，"
+            "是北宋少见兼具官僚身份与技术创造力的学者。"
+            "他主持设计的「水运仪象台」是十一世纪最宏大的科学仪器："
+            "以水力驱动浑仪、浑象与报时系统，"
+            "并用多个擒纵装置与齿轮回转系统实现等时与同步，"
+            "浑象铜球表面刻有山川地理与州县位置，"
+            "使仪器兼具天文演示、地理展示与计时的功能。"
+            "沈括在《梦溪笔谈》中详细记录了这套装置的构造与原理，"
+            "使其成为研究中国古代机械技术的重要文献。"
+            "苏颂还绘制了《华夷图》与《禹迹图》，"
+            "后者以十九幅地图拼接反映山川水系，"
+            "在中国地图史上占据重要地位。"
+            "他的科学工作体现出一种「以制度与工程组织知识」的特点："
+            "在宋代崇文抑技的政策环境下，"
+            "他以侍从官与文献编纂者的身份推动技术实践，"
+            "这在中国古代科技史上是一个独特案例。"
+        ),
+        achievements=[
+            "设计并主持建造水运仪象台，以水力驱动天文演示与报时系统",
+            "运用擒纵装置实现等时与同步传动",
+            "著《仪象图》《新仪象法要》，留下完整装置图说",
+            "绘制《华夷图》与《禹迹图》",
+            "在《梦溪笔谈》中留下关于其装置的详细技术记录",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-chinese-armillary", "ev-astro-observation-festival"],
+        relatedFigures=["fig-astro-guo-shoujing", "fig-astro-su-shi"],
+        tags=["水运仪象台", "浑天仪", "浑象", "宋代科技"],
+    ),
+    dict(
+        id="fig-astro-herschel",
+        name="威廉·赫歇尔",
+        alias="赫歇尔、William Herschel",
+        birthYear=1738,
+        deathYear=1822,
+        lifeText="1738年－1822年",
+        role="天文学家",
+        periodId="astro-modern-observation",
+        gender="male",
+        summary="德裔英国天文学家，巡天发现天王星，并率先提出银河系是有限恒星系统的设想，是近代巡天观测的奠基人。",
+        biography=(
+            "威廉·赫歇尔1738年生于德国汉诺威，"
+            "早年在军队中服役并任音乐教师，"
+            "自幼痴迷音乐与数学，"
+            "在哥哥与妹妹的协助下自制反射式望远镜。"
+            "1774年他制作了一台口径约6.7英寸的望远镜，"
+            "次年用它巡天时发现了天王星，"
+            "这一发现使人类所知太阳系的边界一举扩大近一倍，"
+            "并引发关于行星形成机制的讨论。"
+            "1781年他获皇家学会奖章并成为会员，"
+            "1786年获国王乔治三世的年度津贴，"
+            "得以专心从事观测。"
+            "他一生制作了数百台望远镜，"
+            "最大者口径约四英尺，"
+            "并系统开展巡天观测，"
+            "编制了包含上千颗恒星的星表等观测成果，"
+            "其中1789年的「千星表」与1791至1808年的双星测量尤其重要，"
+            "后者为恒星距离测定与「日心说」的进一步检验提供了数据。"
+            "1785年他在统计恒星沿天空的分布后提出："
+            "银河系是一个被我们从内部观看的、形状不规则的恒星系统，"
+            "太阳并不位于其中心——这是关于银河系结构的早期正确图像。"
+            "他还通过加热实验测量太阳表面各带的辐射强度，"
+            "首创太阳光度学，"
+            "并指出太阳与恒星都是发光体这一重要结论。"
+            "1822年他逝世于海克尼，"
+            "其子约翰·赫歇尔继承了他的事业并前往南半球巡天，"
+            "发现了南天大量新恒星与南天星云。"
+        ),
+        achievements=[
+            "1781年发现天王星，把太阳系已知边界扩大近一倍",
+            "自制数百台反射式望远镜，最大口径约四英尺",
+            "提出并以统计证据支持银河系为有限恒星系统的图像",
+            "开创太阳光度学研究并证明太阳与恒星同为发光体",
+            "编制大规模恒星表与双星测量表，奠定精密测量的基础",
+        ],
+        quotes=[
+            "假如恒星是太阳，它们会照亮我们；那我们就处在它们的中间。",
+        ],
+        relatedEvents=[
+            "ev-astro-herschel-uranus",
+            "ev-astro-spectroscopy",
+            "ev-astro-photographic-survey",
+        ],
+        relatedFigures=["fig-astro-galileo", "fig-astro-hubble", "fig-astro-lockyer"],
+        tags=["天王星", "巡天", "银河系", "反射望远镜", "恒星光度学"],
+    ),
+    dict(
+        id="fig-astro-le-verrier",
+        name="乌尔本·勒维耶",
+        alias="勒维耶、Le Verrier",
+        birthYear=1811,
+        deathYear=1877,
+        lifeText="1811年－1877年",
+        role="天文学家",
+        periodId="astro-modern-observation",
+        gender="male",
+        summary="法国天文学家与天体力学家，依据天王星轨道摄动计算出未知行星的位置，预言了海王星的存在。",
+        biography=(
+            "乌尔本·勒维耶1811年生于法国圣诺朗，"
+            "青年在巴黎综合工科学校学习，"
+            "毕业后在巴黎天文台工作。"
+            "他在天体力学方面表现出突出才能，"
+            "1846年完成《海王星与它的质量的研究》，"
+            "在书中运用摄动理论分析天王星轨道的偏差，"
+            "计算出应存在一颗位于约天王星外侧、"
+            "质量约为地球的32倍的未知行星，"
+            "并给出了其预计位置。"
+            "同年9月，"
+            "柏林天文台的伽勒在勒维耶指定的一个小时内，"
+            "于该位置附近观测到一颗直径约3角秒的微弱星点，"
+            "持续数夜后确认其运动与预言一致，"
+            "这就是海王星的发现。"
+            "消息传到巴黎后，"
+            "勒维耶立即成为公众名人，"
+            "获得众多荣誉与奖励。"
+            "但其后围绕发现优先权的争议持续多年，"
+            "并波及对英国人亚当斯的类似工作是否被忽视的讨论，"
+            "这一公案至今仍是科学史与科学制度研究的重要案例。"
+            "勒维耶还预言了行星运动理论中的"
+            "「进动项」，"
+            "并研究彗星运动，"
+            "1860年代出版《天体力学讲义》，"
+            "该书是十九世纪天体力学最重要的教科书之一。"
+        ),
+        achievements=[
+            "1846年由天王星轨道摄动计算出未知行星的位置与质量",
+            "其预言被伽勒的观测证实，发现海王星",
+            "研究行星运动理论中的进动项与摄动理论",
+            "出版《天力学讲义》，确立十九世纪天体力学的教学体系",
+            "参与发现与研究双星与彗星运动",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-neptune-discovery", "ev-astro-tycho-observations"],
+        relatedFigures=["fig-astro-galle", "fig-astro-herschel"],
+        tags=["海王星", "天体力学", "摄动理论", "理论预言", "优先权争议"],
+    ),
+    dict(
+        id="fig-astro-galle",
+        name="约翰·加勒",
+        alias="加勒、Johann Gottfried Galle",
+        birthYear=1812,
+        deathYear=1890,
+        lifeText="1812年－1890年",
+        role="天文学家",
+        periodId="astro-modern-observation",
+        gender="male",
+        summary="德国天文学家，1846年按勒维耶给出的位置观测到海王星，成为理论预测—观测验证闭环的经典见证。",
+        biography=(
+            "约翰·加勒1812年生于德国尼萨，"
+            "青年在柏林与哥廷根求学，"
+            "1835年起在柏林天文台工作，"
+            "在威廉·贝尔的指导下学习观测技术。"
+            "1839年，"
+            "他在法国巴黎求学期间，"
+            "见到勒梅特基于哈勃观测提出的膨胀宇宙模型，"
+            "并成为最早理解其含义的学者之一。"
+            "1846年9月，"
+            "加勒收到勒维耶的来信，"
+            "信中给出一颗未知行星的预言位置。"
+            "他在当晚望远镜视场内按图索骥，"
+            "在距预言位置约一度处发现一颗八等星，"
+            "并记录了其位置；"
+            "随后数夜的连续观测显示该星在天球上的移动，"
+            "且速度与预言一致，"
+            "从而确认了它的身份。"
+            "这一过程被广泛视为"
+            "「理论计算—精确定位—观测证实」这一科学范式的教科书案例。"
+            "加勒后来把观测记录整理发表，"
+            "并继续在柏林天文台从事双星与彗星观测。"
+            "柏林天文台后被命名为「加勒天文台」，"
+            "以纪念这位把理论变为事实的观测者。"
+        ),
+        achievements=[
+            "1846年按勒维耶预言位置发现海王星并确认其运动",
+            "完成从理论预言到观测证实的完整验证闭环",
+            "长期从事双星测量与彗星观测",
+            "柏林天文台以其命名，成为德国天文学的重要机构",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-neptune-discovery", "ev-astro-tycho-observations"],
+        relatedFigures=["fig-astro-le-verrier", "fig-astro-herschel"],
+        tags=["海王星", "验证", "观测定位", "柏林天文台"],
+    ),
+    dict(
+        id="fig-astro-lockyer",
+        name="约瑟夫·洛克耶",
+        alias="洛克耶、Joseph Norman Lockyer",
+        birthYear=1836,
+        deathYear=1920,
+        lifeText="1836年－1920年",
+        role="天文学家",
+        periodId="astro-modern-observation",
+        gender="male",
+        summary="英国天文学家，因1868年日全食观测中在日珥中发现氦元素而闻名，并创办《自然》杂志与天文台。",
+        biography=(
+            "约瑟夫·诺曼·洛克耶1836年生于英国斯卡布罗，"
+            "早年在伦敦的商人学徒，"
+            "后成为政府科学教育部官员，"
+            "1862年获法国政府资助赴巴黎学习，"
+            "师从布朗兄弟学习照相光谱分析技术。"
+            "1868年8月18日，"
+            "他在印度拍摄日全食时，"
+            "用光谱观察到日珥中一条明亮的黄色发射线 D3，"
+            "这条谱线的位置与当时已知的任何元素都不符。"
+            "洛克耶推测存在一种未知的太阳元素，"
+            "并以「氦」（helium，希腊语太阳之意）命名之，"
+            "这一命名得到了洛克耶的朋友、剑桥的光谱学专家爱德华·弗兰克兰的支持。"
+            "直到1895年，"
+            "洛克耶在剑桥的拉姆齐姆光谱学实验中"
+            "在地球上的「页铅矿」中检测到同一谱线，"
+            "氦才被确认为地球上的化学元素。"
+            "同年洛克yer 出版《日珥的研究》，"
+            "系统阐述日珥的形态与运动特征。"
+            "1869年，"
+            "他利用分光镜原理制造了第一台分光光谱仪，"
+            "使太阳与恒星的化学成分分析成为常规工作。"
+            "他在科学传播与组织方面同样重要："
+            "1870年创办《自然》杂志并任主编，"
+            "1894年在南半球观测日全食时"
+            "发现日珥的「 helium line」"
+            "并发现日冕的辐射强度远超日面，"
+            "这一观察直到1910年代才被正确解释，"
+            "成为日冕存在的早期证据。"
+        ),
+        achievements=[
+            "1868年在日全食中于日珥光谱中发现氦元素谱线",
+            "1895年在地球上确认氦的存在，完成元素的发现闭环",
+            "1869年制造第一台分光光谱仪，使光谱分析常规化",
+            "创办《自然》杂志并长期任主编，推动科学传播",
+            "1894年在日全食中发现日冕辐射强度远超日面",
+        ],
+        quotes=[],
+        relatedEvents=[
+            "ev-astro-spectroscopy",
+            "ev-astro-spectral-class",
+            "ev-astro-eclipse-observation",
+        ],
+        relatedFigures=["fig-astro-herschel", "fig-astro-hubble"],
+        tags=["氦", "分光光谱", "日珥", "自然杂志", "日全食"],
+    ),
+    dict(
+        id="fig-astro-eddington",
+        name="亚瑟·爱丁顿",
+        alias="爱丁顿、Arthur Eddington",
+        birthYear=1882,
+        deathYear=1944,
+        lifeText="1882年－1944年",
+        role="天文学家、物理学家",
+        periodId="astro-stellar-classification",
+        gender="male",
+        summary="英国天文学家与物理学家，创立恒星内部结构理论，并率队观测证实了广义相对论的星光偏折预言。",
+        biography=(
+            "亚瑟·爱丁顿1882年生于英国肯特，"
+            "1904年毕业于剑桥三一学院，"
+            "后成为剑桥天文台主任，"
+            "并长期兼任剑桥的卢卡斯数学讲座教授。"
+            "在天体物理方面，"
+            "他于1926年出版《恒星内部结构》，"
+            "把辐射转移、气体压力与流体静力学结合，"
+            "建立了恒星结构方程的近似解，"
+            "解释了主序星为何能稳定存在极长时间，"
+            "并率先提出恒星能源来自核聚变的设想。"
+            "他的另一项重要工作是「质子—电子相互吸引猜测定律」（质子—电子耦合），"
+            "用以解释白矮星在极端压强下的状态，"
+            "后来被证明在物理上是错的，"
+            "但其数学处理方法成为后来恒星与致密天体理论的基础。"
+            "1919年，"
+            "爱丁顿组织了由他与克鲁姆林、戴维逊组成的三支观测队，"
+            "分别前往巴西与西非观测日全食期间恒星光线的偏折，"
+            "结果与爱因斯坦广义相对论的预言符合良好，"
+            "这是广义相对论的第一个天文检验，"
+            "也是爱因斯坦获得诺贝尔物理学奖的重要背景之一。"
+            "爱丁顿还推广了「爱丁顿数」这一光度学概念，"
+            "并与塞西莉亚·佩恩合作推广球状星团的统计研究。"
+            "1944年他因心脏病去世。"
+        ),
+        achievements=[
+            "1919年组织三支队伍观测日全食，验证广义相对论的星光偏折预言",
+            "1926年《恒星内部结构》建立恒星结构理论，解释主序星稳定性",
+            "提出质子—电子耦合定律，开启白矮星理论计算",
+            "提出爱丁顿光度与爱丁顿数等光度学概念",
+            "推广球状星团的统计研究与理论分析",
+        ],
+        quotes=[
+            "如果最终是正确的，那么相对论所依据的原理将被推翻。",
+        ],
+        relatedEvents=["ev-astro-eddington-rosenmark", "ev-astro-eclipse-observation"],
+        relatedFigures=["fig-astro-heisenberg", "fig-astro-hubble", "fig-astro-lockyer"],
+        tags=["恒星结构", "广义相对论", "日全食观测", "白矮星", "剑桥"],
+    ),
+    dict(
+        id="fig-astro-heisenberg",
+        name="维尔纳·海森堡",
+        alias="海森堡、Werner Heisenberg",
+        birthYear=1901,
+        deathYear=1976,
+        lifeText="1901年－1976年",
+        role="物理学家",
+        periodId="astro-stellar-physics",
+        gender="male",
+        summary="德国物理学家，创立量子力学并提出不确定原理，为原子光谱与恒星内部物理提供了理论基础。",
+        biography=(
+            "维尔纳·海森堡1901年生于德国维尔茨堡，"
+            "青年在慕尼黑大学学习，"
+            "在索末菲门下研究量子理论，"
+            "1925年以矩阵力学完成量子力学的第一个完整表述，"
+            "1926年又独立发展出矩阵力学，"
+            "与薛定谔的波动力学等价。"
+            "1927年他提出不确定性原理，"
+            "指出位置与动量等共轭物理量的测量精度存在根本性限制，"
+            "这一结论直接动摇了经典决定论，"
+            "是量子力学最深刻的认识论后果之一。"
+            "他还提出测不准关系的物理表述，"
+            "并研究铁磁性，"
+            "提出交换相互作用模型。"
+            "1930年代他转向核物理，"
+            "提出氦核模型与中子—质子模型，"
+            "并与博恩共同建立矩阵力学。"
+            "在宇宙学方面，"
+            "1941年他提出宇宙膨胀中的「热爆炸」图像，"
+            "这一设想与伽莫夫的大爆炸核合成模型相互独立地出现，"
+            "是热大爆炸模型早期的重要理论来源。"
+            "1930年代他参与德国核物理研究，"
+            "战时与核裂变工作有关，"
+            "1941年后在战争末期转向研究德国的核计划，"
+            "战后被盟国科学家拘留并审查，"
+            "1954年重新开始在慕尼黑大学的科研，"
+            "1976年逝世。"
+        ),
+        achievements=[
+            "1925年创立矩阵力学，完成量子力学的第一个完整表述",
+            "1927年提出不确定性原理，动摇经典决定论",
+            "提出铁磁性的交换相互作用模型",
+            "建立核壳层模型并提出氦核模型",
+            "1941年提出宇宙学「热爆炸」模型，是热大爆炸理论先驱之一",
+        ],
+        quotes=[
+            "原则上，观测会扰乱被观测者。",
+        ],
+        relatedEvents=["ev-astro-spectral-class", "ev-astro-big-bang"],
+        relatedFigures=["fig-astro-eddington", "fig-astro-lemaître"],
+        tags=["量子力学", "不确定性原理", "恒星内部", "热爆炸模型"],
+    ),
+    dict(
+        id="fig-astro-hubble",
+        name="埃德温·哈勃",
+        alias="哈勃、Edwin Hubble",
+        birthYear=1889,
+        deathYear=1953,
+        lifeText="1889年－1953年",
+        role="天文学家",
+        periodId="astro-cosmic-expansion",
+        gender="male",
+        summary="美国天文学家，发现星系退行速度与距离成正比（哈勃定律），并提出按形态分类星系的星系形态学。",
+        biography=(
+            "埃德温·哈勃1889年生于美国密苏里州Marshfield，"
+            "青年在芝加哥大学与威尔士大学学习，"
+            "获理学博士学位后赴英国爱丁堡与都柏林继续研习，"
+            "第一次世界大战期间在美国空军的弹道计算部门服役。"
+            "1919年他到威尔士山天文台工作，"
+            "1924年转到威尔士山与威尔逊山观测，"
+            "并获得威尔逊山天文台的工作机会。"
+            "1924年，"
+            "他用改进后的照相方法测量仙女座星系（当时称 M31）的距离，"
+            "证明它远在银河系之外，"
+            "这一发现彻底终结了「银河系即宇宙」的传统宇宙观，"
+            "现代宇宙学由此起步。"
+            "1929年，"
+            "他在《Proceedings of the National Academy of Sciences》发表论文，"
+            "指出遥远星系的退行速度与其距离成正比，"
+            "这一定律成为宇宙膨胀的观测基石，"
+            "并被命名为哈勃定律。"
+            "他与米尔顿·哈马森一起建立了星系形态分类系统（哈勃序列），"
+            "以旋臂、棒状与椭圆形态为依据，"
+            "该分类至今仍是星系研究的基本框架。"
+            "他还测定了仙女座星系的距离、"
+            "确认了仙女座星云中的造父变星，"
+            "并提出宇宙学原理，"
+            "即认为宇宙在统计上是均匀且各向同性的。"
+            "1953年他因心脏病逝世于帕萨迪纳。"
+        ),
+        achievements=[
+            "1924年证明仙女座星系在银河系之外，结束「银河系即宇宙」的观念",
+            "1929年发现星系退行速度与距离成正比（哈勃定律）",
+            "与哈马森建立星系形态分类（哈勃序列）",
+            "用造父变星测定了仙女座星系的距离",
+            "提出宇宙学原理，为现代宇宙学框架奠基",
+        ],
+        quotes=[
+            "正是这些遥远星系的退行把我们引向宇宙膨胀的图景。",
+        ],
+        relatedEvents=[
+            "ev-astro-hubble-law",
+            "ev-astro-hubble-telescope",
+            "ev-astro-big-bang",
+        ],
+        relatedFigures=["fig-astro-lemaître", "fig-astro-penzias", "fig-astro-wilson", "fig-astro-gabor"],
+        tags=["哈勃定律", "星系", "宇宙膨胀", "造父变星", "哈勃序列"],
+    ),
+    dict(
+        id="fig-astro-lemaître",
+        name="乔治·勒梅特",
+        alias="勒梅特、Lemaître",
+        birthYear=1894,
+        deathYear=1966,
+        lifeText="1894年－1966年",
+        role="天文学家、天主教神父",
+        periodId="astro-cosmic-expansion",
+        gender="male",
+        summary="比利时天文学家与神父，从广义相对论导出膨胀宇宙解并提出大爆炸假说，是现代宇宙学的奠基人之一。",
+        biography=(
+            "乔治·勒梅特1894年生于比利时沙勒罗瓦，"
+            "青年在鲁汶大学学习，"
+            "一战期间曾作为炮兵军官服役，"
+            "战后取得博士学位，"
+            "1923年赴剑桥与卢万继续研究，"
+            "在剑桥期间受爱丁顿影响，"
+            "研究宇宙学并研究膨胀宇宙的相对论解。"
+            "1927年，"
+            "他在《Nature》发表论文，"
+            "从广义相对论方程导出膨胀宇宙的时空解，"
+            "并指出当时观测到的星系退行与膨胀模型一致，"
+            "他还用放射性定年估算宇宙年龄，"
+            "并讨论宇宙是从一个极热极密的初态演化而来。"
+            "当时这一图景与爱因斯坦的静态宇宙模型激烈冲突，"
+            "爱因斯坦起初并不接受。"
+            "1931年，"
+            "勒梅特在《Nature》再次发表论文，"
+            "明确提出大爆炸假说，"
+            "并把膨胀的起点称为「原初原子」，"
+            "他甚至提出原初原子核衰变产生元素的过程，"
+            "这在方向上接近后来的核合成理论。"
+            "1933年，"
+            "勒梅特与斯图尔特合作测定了宇宙膨胀速率，"
+            "其估计的哈勃常数数值与后来的哈勃接近。"
+            "作为神父与科学家，"
+            "勒梅特曾任卢万大学天主教教授，"
+            "并在比利时皇家科学院任职。"
+            "1966年他在莱布尼茨奖提名名单中去世，"
+            "两年后被发现葬于卢汶公墓的「牛顿纪念堂」，"
+            "同一地点安葬着爱因斯坦与培根。"
+        ),
+        achievements=[
+            "1927年从广义相对论导出膨胀宇宙解，并指出与星系退行观测一致",
+            "1931年明确提出大爆炸假说与「原初原子」图像",
+            "1933年测定的宇宙膨胀速率与后来的哈勃常数接近",
+            "以放射性定年方法估算宇宙年龄",
+            "被公认为现代宇宙学的奠基人之一",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-hubble-law", "ev-astro-big-bang", "ev-astro-dark-matter"],
+        relatedFigures=["fig-astro-hubble", "fig-astro-heisenberg", "fig-astro-penzias"],
+        tags=["大爆炸", "膨胀宇宙", "原初原子", "现代宇宙学", "卢万"],
+    ),
+    dict(
+        id="fig-astro-penzias",
+        name="阿诺·彭齐亚斯",
+        alias="彭齐亚斯、Arno Penzias",
+        birthYear=1933,
+        deathYear=2024,
+        lifeText="1933年－2024年",
+        role="物理学家",
+        periodId="astro-cmb-epoch",
+        gender="male",
+        summary="美籍物理学家，与威尔逊共同发现宇宙微波背景辐射，为大爆炸模型提供了决定性证据，2024年获诺贝尔物理学奖。",
+        biography=(
+            "阿诺·彭齐亚斯1933年生于德国慕尼黑，"
+            "其父是研究犹太隔都史的学者。"
+            "1938年全家迁居美国，"
+            "二战期间他在纽约长大。"
+            "他曾在宾夕法尼亚州立大学与普渡大学学习，"
+            "1954年取得普渡学士学位，"
+            "随后赴加州大学伯克利分校，"
+            "在雷蒙·费曼与罗伯特·奥本指导下研究，"
+            "1958年获博士学位。"
+            "1961年他加入贝尔电话实验室，"
+            "在霍姆代尔山的 Crawford Hill 实验室工作。"
+            "1964年，"
+            "他与威尔逊接手了用于射电天文与卫星通信的 horn 天线，"
+            "这台天线曾在1961年用于回声卫星的信号接收，"
+            "残留的噪声令他们反复排查设备故障。"
+            "在对噪声源的排除中，"
+            "他们发现这个噪声无论天线指向何处都不消失，"
+            "且波长约七点三五厘米，"
+            "对应约3.5 K 的等效温度。"
+            "1965年，"
+            "普林斯顿的迪克与威尔伯金斯等人告诉他们，"
+            "这正是理论预测的大爆炸遗迹微波辐射。"
+            "彭齐亚斯与威尔逊随即共同发表论文，"
+            "《我们在2.725 K观测到的宇宙背景辐射的证据》，"
+            "这一发现是20世纪最重要的天文观测之一，"
+            "1978年获物理学诺贝尔奖。"
+            "彭齐亚斯后来任普林斯顿大学教授与"
+            "美国国家科学院院长，"
+            "2024年去世，"
+            "同年与威尔逊共同获诺贝尔物理学奖，"
+            "以表彰他们对宇宙微波背景的发现。"
+        ),
+        achievements=[
+            "1964年与威尔逊发现宇宙微波背景辐射的存在",
+            "1978年获诺贝尔物理学奖",
+            "2024年与威尔逊再次共享诺贝尔物理学奖",
+            "曾任普林斯顿大学教授与美国国家科学院院长",
+            "推动大爆炸模型的确立与科学政策工作",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-cmb-discovery", "ev-astro-cmb-anisotropy"],
+        relatedFigures=["fig-astro-wilson", "fig-astro-hubble", "fig-astro-lemaître"],
+        tags=["宇宙微波背景", "大爆炸证据", "贝尔实验室", "诺贝尔奖"],
+    ),
+    dict(
+        id="fig-astro-wilson",
+        name="罗伯特·威尔逊",
+        alias="威尔逊、Robert Wilson",
+        birthYear=1936,
+        deathYear=None,
+        lifeText="1936年－至今",
+        role="物理学家",
+        periodId="astro-cmb-epoch",
+        gender="male",
+        summary="美籍物理学家，与彭齐亚斯共同发现宇宙微波背景辐射，2024年获诺贝尔物理学奖，并推动科学传播。",
+        biography=(
+            "罗伯特·威尔逊1936年生于美国得克萨斯州休斯敦，"
+            "青年在莱斯大学学习物理，"
+            "1958年毕业后进入贝尔电话实验室，"
+            "1963年取得博士学位后继续留在该实验室工作。"
+            "1964年，"
+            "他与彭齐亚斯一起使用 Crawford Hill 实验室的 horn 天线，"
+            "在排查设备噪声的过程中，"
+            "发现了一个无法归因于任何地面来源的、各向同性的微波噪声。"
+            "他们更换了接收机、"
+            "检查了大气与地面反射，"
+            "甚至在设备移到另一地点后重做实验，"
+            "但噪声始终存在。"
+            "1965年，"
+            "普林斯顿的迪克与威尔伯金斯来访，"
+            "讨论中他们意识到这正是理论预言的大爆炸余热。"
+            "两人随后发表论文，"
+            "并与普林斯顿团队的两个后续论文共同构成证据，"
+            "大爆炸模型由此成为标准宇宙学。"
+            "威尔逊后来在阿尔伯塔大学从事射电天文研究，"
+            "并长期参与普林斯顿宇宙学观测项目。"
+            "他在宇宙学与科学哲学层面写过一些颇有影响的文章，"
+            "包括讨论「宇宙微波背景的存在是否预设了创造者」这一话题，"
+            "并因此在1999年收到梵蒂冈的道歉信。"
+            "2024年，"
+            "他与彭齐亚斯共同获得诺贝尔物理学奖，"
+            "以表彰他们对宇宙微波背景的发现。"
+        ),
+        achievements=[
+            "1964年与彭齐亚斯共同发现宇宙微波背景辐射",
+            "系统排除地面与大气来源，确认噪声的宇宙学性质",
+            "2024年获诺贝尔物理学奖",
+            "在阿尔伯塔大学与普林斯顿推进射电宇宙学研究",
+            "撰写关于宇宙学与科学哲学的畅销科普作品",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-cmb-discovery", "ev-astro-cmb-anisotropy"],
+        relatedFigures=["fig-astro-penzias", "fig-astro-hubble", "fig-astro-gabor"],
+        tags=["宇宙微波背景", "贝尔实验室", "射电天文", "诺贝尔奖"],
+    ),
+    dict(
+        id="fig-astro-gabor",
+        name="德维茨·加博",
+        alias="加博、Reinhard Genzel",
+        birthYear=1952,
+        deathYear=None,
+        lifeText="1952年－至今",
+        role="物理学家、天文学家",
+        periodId="astro-modern-physics",
+        gender="male",
+        summary="德国物理学家与天文学家，用大型望远镜长期追踪银河系中心恒星轨道，以直接证据确认了中心黑洞的存在。",
+        biography=(
+            "德维茨·加博1952年生于德国巴特洪斯堡，"
+            "在慕尼黑工业大学与波恩大学学习，"
+            "获博士学位后在加州大学伯克利分校与哈佛大学从事研究，"
+            "后任德国马普地外物理研究所所长与慕尼黑工业大学教授。"
+            "他从1990年代开始，"
+            "在智利与西班牙的甚大望远镜上"
+            "长期追踪银河系中心（人马座A*）附近恒星的轨道运动。"
+            "这一工作持续二十余年，"
+            "积累了数千个观测位置的数据，"
+            "其结果显示中心天体的质量约为太阳的四百万倍，"
+            "而其体积远小于这一质量所对应的恒星，"
+            "只能是一个超大质量黑洞。"
+            "1998年，"
+            "加博团队与阿伦·赖尔（阿姆斯特丹大学）团队"
+            "分别在两篇背对背发表的论文中报告了这一结果，"
+            "共同构成黑洞存在的直接动力学证据，"
+            "两人因此共享2020年诺贝尔物理学奖。"
+            "加博的研究还涉及星系中心的活动、"
+            "银河系与其他星系的区别，"
+            "并运用甚长基线干涉与光行差测量确定银河系中心银心距太阳约八千秒差距。"
+            "他的工作方式是长期、大样本、高精度跟踪，"
+            "并公开全部原始数据供他人独立检验，"
+            "这种做法已成为精密天文学的典范。"
+        ),
+        achievements=[
+            "二十余年追踪银河系中心恒星轨道，测得中心天体质量约四百万太阳质量",
+            "以动力学证据直接确认银河系中心存在超大质量黑洞",
+            "2020年与赖尔共享诺贝尔物理学奖",
+            "测定银心距太阳约八千秒差距",
+            "公开原始观测数据供独立检验",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-black-hole-image", "ev-astro-dark-matter", "ev-astro-gravitational-waves"],
+        relatedFigures=["fig-astro-weaver", "fig-astro-hubble", "fig-astro-penzias"],
+        tags=["超大质量黑洞", "银心", "恒星轨道", "诺贝尔奖", "长期观测"],
+    ),
+    dict(
+        id="fig-astro-weaver",
+        name="约翰·惠勒",
+        alias="惠勒、John Archibald Wheeler",
+        birthYear=1911,
+        deathYear=2008,
+        lifeText="1911年－2008年",
+        role="物理学家",
+        periodId="astro-modern-physics",
+        gender="male",
+        summary="美国物理学家，推广「黑洞」一词并提出「虫洞」与「三分之一宇宙」等概念，深刻影响黑洞理论与深空探测工程。",
+        biography=(
+            "约翰·阿奇博尔德·惠勒1911年生于美国佛罗里达州杰克逊维尔，"
+            "青年在约翰·霍普金斯大学获博士学位，"
+            "师从量子力学先驱卡尔·布里渊与乔治·普莱克特，"
+            "后随玻恩在普林斯顿工作。"
+            "1937年他参与并命名了核裂变，"
+            "与博特共同提出用中子俘获解释恒星元素合成的工作。"
+            "1953年，"
+            "他在美国陆军的一次报告中"
+            "首次在物理学文献中使用了「黑洞」（black hole）一词，"
+            "此后这个词随惠勒的著作而广为流传，"
+            "成为天文学与大众文化中的标准术语。"
+            "他与爱因斯坦的学生罗森塔尔等人研究了恒星的引力坍缩，"
+            "并推广了「 Wheeler-DeWitt 方程」这一量子引力表述。"
+            "1955年他提出「虫洞」概念，"
+            "认为连接遥远时空的通道在数学上可以存在，"
+            "这一想法后来被用于构造可穿越虫洞的理论模型，"
+            "并成为科幻作品的重要素材。"
+            "他还提出「三分之一宇宙」假说——"
+            "认为中子星可能是黑洞形成过程中被甩出的中子物质碎片，"
+            "在1996年由斯皮策等人提出时曾再度引发关注。"
+            "晚年，"
+            "他强调「以人为本（frog's-eye view）」的科学哲学，"
+            "主张从观察者的位置出发理解物理，"
+            "这一立场在他的科普写作与「惠勒-德维茨量子宇宙学」中都有体现。"
+        ),
+        achievements=[
+            "1953年起在物理学界推广「黑洞」一词",
+            "参与提出核裂变与恒星元素合成的解释",
+            "1955年提出虫洞概念并推动其理论发展",
+            "提出「三分之一宇宙」假说，解释中子星的成因",
+            "推广量子引力研究与「观察者视角」的科学哲学",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-black-hole-image", "ev-astro-neutron-star"],
+        relatedFigures=["fig-astro-gabor", "fig-astro-heisenberg", "fig-astro-hubble"],
+        tags=["黑洞", "虫洞", "核裂变", "量子引力", "中子星"],
+    ),
+    dict(
+        id="fig-astro-payne",
+        name="塞西莉亚·佩恩-加波施金",
+        alias="佩恩-加波施金、Cecilia Payne-Gaposchkin",
+        birthYear=1900,
+        deathYear=1979,
+        lifeText="1900年－1979年",
+        role="天文学家",
+        periodId="astro-stellar-classification",
+        gender="female",
+        summary="英国裔美国天文学家，以博士论文证明恒星光谱主要呈现吸收而非发射，并测定恒星大气中氢的压倒性占比。",
+        biography=(
+            "塞西莉亚·佩恩1900年生于英国伯恩茅斯，"
+            "后随家人迁居美国新泽西。"
+            "她在剑桥大学取得学士学位后赴德国，"
+            "在拉德克利夫-史密森天文台学习并在普林斯顿完成博士学业。"
+            "1925年，"
+            "她在导师哈罗萧·沙普利的指导下完成博士论文《恒星大气中的氢丰度》，"
+            "论文发表于1926年，"
+            "是她一生最重要的工作。"
+            "论文的核心结论有两点："
+            "其一，"
+            "恒星光谱中的强吸收线并不表明恒星大气「主要在吸收」，"
+            "而是因为我们的视线穿过恒星大气时看到的是较冷的外层，"
+            "所以吸收线占主导；"
+            "其二，"
+            "按吸收线强度推断，"
+            "恒星大气中氢的重量占比高达99%以上，"
+            "而当时的天体物理学界普遍认为恒星主要由与太阳类似的金属构成。"
+            "她的结论与当时的主流观点直接冲突，"
+            "沙普利与罗素等人起初也持保留态度，"
+            "但很快发现她算错了量级——正确的比例并非99%，而是约99.9%——"
+            "这使得她的结论更为惊人。"
+            "论文在正式发表前曾被建议推迟，"
+            "以免让读者难以接受，"
+            "但佩恩坚持认为正确结果应当尽快公布，"
+            "论文最终得以面世，"
+            "并在随后的几年里被学界普遍接受。"
+            "1930年代起，"
+            "她在哈佛继续工作，"
+            "与同事开展大规模恒星光谱研究，"
+            "并指导了哈勃与沙普利的诸多学生，"
+            "成为哈佛「恒星研究学派」的核心人物之一。"
+            "她的工作把光谱分析与恒星结构理论真正结合起来，"
+            "是二十世纪天体物理学方法论上的关键一步。"
+        ),
+        achievements=[
+            "1925年博士论文证明恒星光谱以吸收线为主，纠正了天文学界的普遍误解",
+            "测定恒星大气中氢的重量占比在99%以上，动摇金属构成论",
+            "坚持正确结果应当尽快公布，不因读者难以接受而推迟",
+            "参与哈佛大规模恒星光谱研究并培养大批学生",
+            "把光谱分析与恒星结构理论结合，奠定恒星光谱学的现代方法",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-spectral-class", "ev-astro-eddington-rosenmark"],
+        relatedFigures=["fig-astro-hubble", "fig-astro-lockyer", "fig-astro-eddington"],
+        tags=["恒星光谱", "氢丰度", "哈佛", "光谱分类", "女性科学家"],
+    ),
+    dict(
+        id="fig-astro-mayor",
+        name="米歇尔·梅耶",
+        alias="梅耶、Michel Mayor",
+        birthYear=1942,
+        deathYear=None,
+        lifeText="1942年－至今",
+        role="天文学家",
+        periodId="astro-exoplanet",
+        gender="male",
+        summary="瑞士天文学家，1995年与多尔菲共同发现首颗围绕类太阳恒星运行的系外行星，2019年获诺贝尔物理学奖。",
+        biography=(
+            "米歇尔·梅耶1942年生于瑞士洛桑，"
+            "青年在洛桑大学与日内瓦大学学习，"
+            "在剑桥大学与伯克利分校继续研习，"
+            "1970年代获日内瓦大学博士学位。"
+            "此后他在日内瓦天文台工作，"
+            "并于1995年成为该台台长。"
+            "他长期专注于恒星光谱与速度精密测量，"
+            "并利用安装在瑞士瓦莱州欧布上的"
+            "一米口径瑞士漏斗式望远镜（瑞士漏斗望远镜）"
+            "进行高精度的视向速度测量。"
+            "1995年，"
+            "他与同事迪迪耶·多尔菲在"
+            "使用埃尔rohendi 星表给出的高自行恒星测光数据后，"
+            "成功在飞马座51b上确认了一颗围绕类太阳恒星运行的行星，"
+            "并测得其轨道周期约为4.2天、轨道质量下限约为木星的0.47倍。"
+            "这一发现被公认为首颗系外行星，"
+            "打开了系外行星研究领域。"
+            "此后，"
+            "他与多尔菲继续发展径向速度法，"
+            "并推动瑞士天文台建立 ELITE（拉瑞士液氩望远镜）计划，"
+            "该项目在2017年实现了每厘米每秒量级的径向速度精度。"
+            "2019年，"
+            "梅耶与多尔菲因发现系外行星共享诺贝尔物理学奖的一半。"
+            "他在系外行星统计、半径分布与金属丰度—行星关系方面的研究，"
+            "构成行星人口统计学的基础。"
+        ),
+        achievements=[
+            "1995年与多尔菲共同发现首颗系外行星（飞马座51b）",
+            "发展并推广径向速度法测量行星质量",
+            "2019年获诺贝尔物理学奖",
+            "推动 ELITE 项目建成高精度视向速度光谱仪",
+            "开创系外行星的统计分布与金属丰度研究",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-exoplanet-discovery", "ev-astro-exoplanet-atmosphere"],
+        relatedFigures=["fig-astro-dolfe", "fig-astro-marcy"],
+        tags=["系外行星", "径向速度", "诺贝尔奖", "日内瓦天文台", "飞马座51b"],
+    ),
+    dict(
+        id="fig-astro-dolfe",
+        name="迪迪耶·多尔菲",
+        alias="多尔菲、Didier Queloz",
+        birthYear=1966,
+        deathYear=None,
+        lifeText="1966年－至今",
+        role="天文学家",
+        periodId="astro-exoplanet",
+        gender="male",
+        summary="瑞士天文学家，与梅耶共同发现首颗系外行星，并因开发径向速度法获2019年诺贝尔物理学奖。",
+        biography=(
+            "迪迪耶·多尔菲1966年生于瑞士，"
+            "在日内瓦大学学习物理与天文，"
+            "1992年获博士学位，"
+            "其后加入梅耶领导的研究组。"
+            "他与梅耶一起，"
+            "在改进高信噪比的视向速度测量方法与自动化的光谱分析流程后，"
+            "于1995年在飞马座51b上确认了首颗系外行星。"
+            "此后，"
+            "他主要贡献于径向速度技术本身："
+            "通过改进光纤馈光、"
+            "提高光谱仪稳定性与采用自动化数据处理，"
+            "把视向速度测量精度从每秒数公里提升到每秒数米，"
+            "并使其具备长期监测大量恒星的能力。"
+            "1996年，"
+            "他与同事在三角座恒星系统中发现"
+            "第一颗位于三星系统内的系外行星，"
+            "这一系统因而被视为研究行星系统动力演化的重要样本。"
+            "2003年，"
+            "他发现了第一批「褐矮」质量的伴星，"
+            "这些天体的质量介于行星与恒星之间，"
+            "为行星与恒星的边界提供了重要观测约束。"
+            "2019年，"
+            "多尔菲与梅耶因发现系外行星并贡献于径向速度法，"
+            "共享诺贝尔物理学奖。"
+        ),
+        achievements=[
+            "1995年与梅耶共同发现首颗系外行星",
+            "发展高精度径向速度测量与自动化光谱分析技术",
+            "1996年在三角座三星系统内发现首颗该类系统中的系外行星",
+            "2003年发现首批介于行星与恒星之间的褐矮质量伴星",
+            "2019年获诺贝尔物理学奖",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-exoplanet-discovery", "ev-astro-exoplanet-atmosphere"],
+        relatedFigures=["fig-astro-mayor", "fig-astro-marcy"],
+        tags=["系外行星", "径向速度", "褐矮", "诺贝尔奖", "三角座"],
+    ),
+    dict(
+        id="fig-astro-marcy",
+        name="马西耶",
+        alias="马西耶、Marcy",
+        birthYear=1954,
+        deathYear=None,
+        lifeText="1954年－至今",
+        role="天文学家",
+        periodId="astro-exoplanet",
+        gender="male",
+        summary="美国天文学家，以行星搜索与行星半径—质量分布研究著称，其统计结果揭示了系外行星的族群结构。",
+        biography=(
+            "马西耶1954年生于美国，"
+            "青年在加州大学伯克利分校与亚利桑那大学学习，"
+            "后加入旧金山州立大学与加州大学伯克利分校，"
+            "主要从事系外行星的径向速度搜索与统计研究。"
+            "他是「麦克唐纳分光速度仪搜索」的推动者之一，"
+            "该计划在许多恒星上搜寻微小速度摆动，"
+            "以识别被行星牵引的恒星。"
+            "其最具影响力的工作是"
+            "对径向速度法发现的系外行星样本做统计分析："
+            "他与巴特勒等人建立了行星质量与轨道半长轴的联合分布，"
+            "揭示出两类截然不同的族群——"
+            "「热木星」聚集在极短周期与近圆轨道区域，"
+            "而「超级地球」则分布在更长的周期与更大的质量区间，"
+            "这一「径向速度谷」的现象至今仍是行星形成理论的重要约束。"
+            "他还参与了多波段的凌星测光工作，"
+            "测量行星半径并反照率，"
+            "并参与发现与研究众多多行星系统。"
+            "在数据与方法上，"
+            "他主张严格限定探测偏差、"
+            "公开原始观测并做完整的不确定性处理，"
+            "这种做法与加博团队的做法一道，"
+            "代表了当代精密天文学的严谨标准。"
+        ),
+        achievements=[
+            "建立径向速度法发现样本的联合分布统计",
+            "揭示「径向速度谷」与热木星、超级地球两大族群",
+            "参与发现大量多行星系统",
+            "推动系外行星凌星测光与半径测定工作",
+            "以严格的偏差校正与不确定性处理规范领域方法",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-exoplanet-discovery", "ev-astro-kepler-mission"],
+        relatedFigures=["fig-astro-mayor", "fig-astro-dolfe"],
+        tags=["径向速度谷", "行星族群", "热木星", "超级地球", "系外行星统计"],
+    ),
+    dict(
+        id="fig-astro-schrodinger",
+        name="埃尔温·薛定谔",
+        alias="薛定谔、Erwin Schrödinger",
+        birthYear=1887,
+        deathYear=1961,
+        lifeText="1887年－1961年",
+        role="物理学家",
+        periodId="astro-stellar-classification",
+        gender="male",
+        summary="奥地利物理学家，创立波动力学并以其方程描述原子与电子，为原子光谱与恒星量子理论提供数学基础。",
+        biography=(
+            "埃尔温·薛定谔1887年生于奥地利维也纳，"
+            "青年在维也纳大学学习物理与数学，"
+            "先后在维也纳、莱比锡、耶拿、斯图加特与苏黎世任教，"
+            "是当时最受欢迎的量子力学讲授者之一。"
+            "1926年，"
+            "他发展出波动方程，"
+            "提出粒子由波函数描述、"
+            "并用薛定谔方程描述其演化，"
+            "这与海森堡的矩阵力学在数学上等价，"
+            "但更易推广到多体问题与连续空间，"
+            "成为量子力学的主要表述形式。"
+            "同年，"
+            "他提出概率解释，"
+            "把波函数视为描述粒子统计行为的概率振幅，"
+            "这是量子力学哥本哈根诠释的核心组成部分。"
+            "在应用上，"
+            "薛定谔方程立即解释了氢原子光谱，"
+            "使玻尔的旧量子理论与实验观测首次在数学上得到统一。"
+            "他也把薛定谔方程应用于统计力学，"
+            "为讨论原子气体的行为提供了工具。"
+            "在宇宙学方面，"
+            "薛定谔曾研究生命现象的物理基础，"
+            "在《生命是什么》中提出负熵与生物大分子复制等观点，"
+            "对分子生物学与薛定谔的猫等科普话题产生了长久影响。"
+            "1961年他逝世于维也纳。"
+        ),
+        achievements=[
+            "1926年创立波动力学与薛定谔方程",
+            "提出波函数的概率解释，构成哥本哈根诠释基础",
+            "以薛定谔方程解释氢原子光谱",
+            "把波动方程推广至多体与统计力学问题",
+            "《生命是什么》提出负熵与生物大分子复制思想",
+        ],
+        quotes=[
+            "我每周都会去读那些「量子论文」，全因我嘲笑它们，让我神清气爽。",
+        ],
+        relatedEvents=["ev-astro-spectral-class", "ev-astro-big-bang"],
+        relatedFigures=["fig-astro-heisenberg", "fig-astro-eddington"],
+        tags=["薛定谔方程", "波动力学", "概率解释", "原子光谱", "生命是什么"],
+    ),
+    dict(
+        id="fig-astro-patel",
+        name="哈里·帕特尔",
+        alias="帕特尔、H. C. Arvey",
+        birthYear=1924,
+        deathYear=2005,
+        lifeText="1924年－2005年",
+        role="天文学家",
+        periodId="astro-cosmology-observation",
+        gender="male",
+        summary="美国天文学家，以恒星运动学与银晕研究闻名，其工作把银河系的恒星结构与暗物质假说联系起来。",
+        biography=(
+            "哈里·帕特尔1924年生于美国，"
+            "青年在加州大学伯克利分校学习，"
+            "后赴英格兰的剑桥大学与普林斯顿大学，"
+            "在普林斯顿获博士学位，"
+            "其后长期在普林斯顿与哈佛大学从事研究。"
+            "他与同事建立了全天自行与视向速度的复合数据库，"
+            "并用这套数据研究银河系的运动学结构，"
+            "测量了太阳相对银心的速度、"
+            "银晕的恒星速度弥散以及银河系整体的质量分布。"
+            "他的一项著名工作是把恒星的银心距与速度弥散数据结合，"
+            "得到一条「速度弥散—半径」关系曲线，"
+            "该曲线在两万光年处明显转折，"
+            "暗示银河系外缘存在一个质量贡献急剧下降的边界，"
+            "这一结果后来成为讨论银河系质量与暗物质分布的重要依据。"
+            "他与格林伯格等人合作，"
+            "把这类运动学方法推广到仙女座等邻近星系，"
+            "成为星系暗物质晕研究的重要工具。"
+            "他的工作特点是强调大规模样本与严格的数据处理，"
+            "并长期推动恒星运动学数据库的建设与共享。"
+        ),
+        achievements=[
+            "建立全天自行与视向速度复合数据库",
+            "测出太阳相对银心的速度与银晕速度弥散",
+            "给出「速度弥散—半径」关系曲线，界定银河系质量边界",
+            "把运动学方法推广到邻近星系暗物质晕研究",
+            "推动恒星运动学数据的系统化与共享",
+        ],
+        quotes=[],
+        relatedEvents=["ev-astro-dark-matter", "ev-astro-hubble-law"],
+        relatedFigures=["fig-astro-hubble", "fig-astro-gabor"],
+        tags=["银河系", "恒星运动学", "速度弥散", "暗物质晕", "银晕"],
+    ),
+]
+
+# ---------------------------------------------------------------------------
+# events
+# ---------------------------------------------------------------------------
+EVENTS = [
+    dict(
+        id="ev-astro-ptolemy-system",
+        name="托勒密体系与《至大论》",
+        year=150,
+        yearEnd=None,
+        dateText="约公元150年",
+        periodId="astro-ancient-sky",
+        category="scientific",
+        location="埃及亚历山大城",
+        summary="托勒密以偏心圆、等径轮与本轮构成的数学体系描述行星运动，统治天文学一千四百余年。",
+        detail=(
+            "约公元150年，"
+            "托勒密在《至大论》中系统阐述了他的天文体系。"
+            "在几何上，"
+            "他用本轮、均轮与偏心圆三种构件组合，"
+            "配合等径轮与「均轮点」的变速运动，"
+            "成功拟合了行星在地心视角下复杂的视运动，"
+            "包括水星与金星的相位变化、"
+            "火星的逆行运动以及逆行点的位置。"
+            "这一体系在数学上极为精巧，"
+            "其《行星表》给出的预测精度在很长一段时间内优于哥白尼体系。"
+            "在物理上，"
+            "它依托亚里士多德的天球论："
+            "天体在无形的连续介质中作完美圆周运动，"
+            "地球居于中心且是不动的。"
+            "《至大论》的十二卷构成完整的理论、观测与计算体系，"
+            "在希腊文与阿拉伯文中被反复注释与修订，"
+            "其中齐尤斯哈尼的《至大论修订》与阿尔·哈兹米的《光学》"
+            "是这一传统中最重要的两项中世纪进展。"
+            "哥白尼正是通过对托勒密体系精度极限的反复检验，"
+            "确认了继续在偏心与等径轮的框架内改进已无出路，"
+            "才转向了新的假设，"
+            "这使得《至大论》成为近代科学革命中被超越的对象而非被抛弃的对象。"
+        ),
+        importance=5,
+        figures=["fig-astro-ptolemy", "fig-astro-alexander", "fig-astro-copernicus"],
+        tags=["托勒密体系", "至大论", "本轮", "地心说", "希腊化"],
+    ),
+    dict(
+        id="ev-astro-hipparchus-catalogue",
+        name="喜帕恰斯星表与岁差发现",
+        year=-130,
+        yearEnd=-100,
+        dateText="约公元前130年－公元前100年",
+        periodId="astro-ancient-sky",
+        category="scientific",
+        location="希腊罗得岛",
+        summary="喜帕恰斯编制精密星表、发现岁差并建立预测日月食的三角等分法，成为古代定量天文学的范本。",
+        detail=(
+            "喜帕恰斯约活动于公元前二世纪，"
+            "是古代天文学定量化的代表人物。"
+            "他利用多年观测记录编制星表，"
+            "把恒星亮度分为六等，"
+            "这一亮度分级思想在两千余年后由波利茨加以系统化并沿用至今。"
+            "他比较了不同时期的恒星位置，"
+            "发现春分点相对恒星背景的西移，"
+            "即岁差现象，"
+            "并给出约每百年移动一度左右的估计，"
+            "接近现代值。"
+            "在理论方法上，"
+            "他提出用于预测日月食的「三角等分法」，"
+            "把圆周分为360度并允许分数表示，"
+            "这一来自巴比伦的六十进制体系经由希腊化世界传播，"
+            "成为此后一千八百年间所有天文计算的基础。"
+            "他还区分了太阳与月亮各自的运动周期，"
+            "并研究月亮的近点运动，"
+            "其数值精度达到令人惊叹的水平。"
+            "喜帕恰斯留下的星表与模型，"
+            "经托勒密的整理与改进后成为古代天文学的标准内容，"
+            "他本人因此被称为「古代最伟大的天文学家」。"
+        ),
+        importance=4,
+        figures=["fig-astro-alexander", "fig-astro-ptolemy"],
+        tags=["喜帕恰斯", "星表", "岁差", "三角等分法", "亮度分级"],
+    ),
+    dict(
+        id="ev-astro-chinese-armillary",
+        name="中国古代浑仪与简仪的研制",
+        year=1000,
+        yearEnd=1300,
+        dateText="约公元1000年－1300年",
+        periodId="astro-ancient-sky",
+        category="technology",
+        location="开封、邢台、杭州",
+        summary="宋代至元代，中国建成浑仪、简仪与水运仪象台等精密天文仪器，其观测精度达到当时世界领先水平。",
+        detail=(
+            "中国古代天文仪器在宋代取得突破性进展。"
+            "苏颂于十一世纪主持设计的水运仪象台，"
+            "以水力驱动浑仪、浑象与报时系统，"
+            "并采用擒纵装置实现等时与同步，"
+            "是当时世界上功能最复杂的科学仪器之一。"
+            "沈括在《梦溪笔谈》中详细记录了它的构造与原理。"
+            "元代则把仪器制造与观测组织推到新的规模："
+            "郭守敬主持制造了简仪、仰仪、圭表与多种水运仪器，"
+            "其中简仪把赤道坐标仪与赤道经纬仪分离安装，"
+            "从根本上消除了传统支架遮挡视线的观测误差，"
+            "是十二世纪世界天文学最重大的仪器革新之一。"
+            "他主持的「四海测验」派出观测队至全国二十七处地点实测纬度，"
+            "是古代世界规模空前的天文地理测量工程。"
+            "配套的《授时历》以365.2425日为回归年长度，"
+            "与今日公历采用值相同，"
+            "在中国施行三百余年并曾影响日本与朝鲜的历法。"
+            "这一系列工作显示，"
+            "中国古代天文在观测精度与组织规模上长期居于世界前列，"
+            "其特点是以器物制造与实测数据为核心，"
+            "而非依赖高度形式化的几何模型。"
+        ),
+        importance=4,
+        figures=["fig-astro-guo-shoujing", "fig-astro-guo-family", "fig-astro-su-shi"],
+        tags=["浑仪", "简仪", "水运仪象台", "授时历", "四海测验"],
+    ),
+    dict(
+        id="ev-astro-observation-festival",
+        name="元代大规模天文测量工程",
+        year=1276,
+        yearEnd=1281,
+        dateText="公元1276年－1281年",
+        periodId="astro-ancient-sky",
+        category="exploration",
+        location="元大都与全国二十七处观测点",
+        summary="元世祖下令开展全国范围的天文实测，郭守敬主持「四海测验」并编成《授时历》，成为古代最大规模的天文测量工程。",
+        detail=(
+            "1276年，"
+            "元世祖忽必烈下令开展新历编制，"
+            "由许衡、王恂与郭守敬共同主持，"
+            "史称「元代天文测量」。"
+            "工程首先集中力量研制与改进观测仪器，"
+            "郭守敬先后制成简仪、仰仪、浑仪、"
+            "玲珑仪、曷仪、圭表、景符等多种仪器，"
+            "并专门建造了规模宏大的观象台。"
+            "随后的「四海测验」派出多支队伍分赴全国，"
+            "在二十七处地点观测并记录纬度，"
+            "观测点北抵北海（今贝加尔湖一带），"
+            "南至南海（今南海诸岛），"
+            "跨度超过六千公里，"
+            "其目的是为编制历法提供准确的地理基准。"
+            "工程还专门组织了对日月食的实测，"
+            "并派遣使者在偏远地区用「简仪」实地观测，"
+            "以验证推算结果。"
+            "1279年前后，"
+            "新的观测数据被用于重新测定"
+            "地球轨道基本参数中的几个关键数值，"
+            "并据此改进历法。"
+            "1281年，"
+            "《授时历》正式颁行，"
+            "它把中国历法推向长达三百余年的稳定时期，"
+            "并通过当时东亚的交流网络影响了日本与朝鲜。"
+            "这次工程常被视为古代世界最系统的国家天文测量计划之一。"
+        ),
+        importance=4,
+        figures=["fig-astro-guo-shoujing", "fig-astro-guo-family", "fig-astro-su-shi"],
+        tags=["四海测验", "元代", "授时历", "国家天文工程", "纬度测量"],
+    ),
+    dict(
+        id="ev-astro-copernicus-heliocentric",
+        name="哥白尼《天体运行论》与日心体系",
+        year=1543,
+        yearEnd=None,
+        dateText="公元1543年",
+        periodId="astro-modern-theory",
+        category="reform",
+        location="波兰弗罗恩堡",
+        summary="哥白尼出版《天体运行论》提出日心体系，把地球从宇宙中心移开，成为近代科学革命的分水岭。",
+        detail=(
+            "1543年，"
+            "哥白尼在临终前出版了《天体运行论》，"
+            "该书第一部分讨论托勒密体系在三处观测上的困难，"
+            "并提出均匀性、公圆性、天地体系统一性三条原则作为反驳的出发点。"
+            "第二部分以三角函数与等径轮等几何工具，"
+            "重新推算地球、金星、火星、木星与土星的运动，"
+            "第三部分给出托勒密《行星表》的新版本，"
+            "其精度与托勒密表相当或略优。"
+            "在宇宙学方面，"
+            "哥白尼提出太阳居于中心、"
+            "地球绕日转动的体系，"
+            "并用「日心说」一词与托勒密体系相区分。"
+            "他还给出了著名的「有序世界模型」："
+            "土星、木星、太阳、火星、金星、地球、水星、月球依次排列，"
+            "这一顺序与古代传统相比虽有调整，"
+            "但整体仍保留着同心球宇宙的框架痕迹。"
+            "《天体运行论》出版后并未立刻获得广泛接受，"
+            "其真正的说服力来自随后三项工作的累积："
+            "第谷的精密观测、开普勒的轨道归纳与伽利略的望远镜发现。"
+            "即便如此，"
+            "把地球从宇宙中心移开这一命题本身，"
+            "已经改变了人对自身位置与宇宙结构的理解，"
+            "成为科学革命中最具标志性的事件之一。"
+        ),
+        importance=5,
+        figures=["fig-astro-copernicus", "fig-astro-ptolemy", "fig-astro-galileo"],
+        tags=["日心说", "天体运行论", "哥白尼", "科学革命", "宇宙观"],
+    ),
+    dict(
+        id="ev-astro-tycho-observations",
+        name="第谷的高精度观测与星表",
+        year=1576,
+        yearEnd=1601,
+        dateText="公元1576年－1601年",
+        periodId="astro-modern-theory",
+        category="scientific",
+        location="丹麦汶岛与布拉格",
+        summary="第谷·布拉赫以肉眼观测达到约1角分的精度，编制千余颗恒星的星表，这批数据成为开普勒定律的推导依据。",
+        detail=(
+            "1576年，"
+            "第谷在丹麦国王腓特世二世支持下，"
+            "于汶岛建立乌拉尼堡天文台，"
+            "配备了当时最好的象限仪、方位仪与星盘，"
+            "并训练了一批专职观测助手。"
+            "他的观测精度达到约1角分，"
+            "几乎耗尽了肉眼配合机械读数的极限，"
+            "被后世公认为望远镜发明前人类天文学观测能力的顶点。"
+            "在观测方法上，"
+            "第谷坚持同时记录观测时刻、"
+            "仪器状态与观测者的视力状态，"
+            "并对仪器误差做系统校准，"
+            "这套记录规范使他的数据在开普勒手中具备可检验性。"
+            "1577年，"
+            "他对大彗星的观测给出了两个关键结论："
+            "彗星的轨道穿行于行星轨道层之间，"
+            "且在近日点速度更快，"
+            "这直接反驳了托勒密关于天体层次的传统设定。"
+            "1597年，"
+            "他出版了关于1577年彗星的著作，"
+            "1598年出版一千余颗恒星的星表，"
+            "并绘制了著名的「长墙星图」，"
+            "该图首次把全天恒星按大小分为不同符号绘制，"
+            "成为早期星图史上的里程碑。"
+            "1601年他去世后，"
+            "这些数据被开普勒继承，"
+            "并最终导出椭圆轨道与开普勒三定律，"
+            "成为科学史上「高精度观测转化为理论突破」的最典型链条。"
+        ),
+        importance=5,
+        figures=["fig-astro-tycho", "fig-astro-kepler"],
+        tags=["第谷", "观测精度", "星表", "长墙星图", "乌拉尼堡"],
+    ),
+    dict(
+        id="ev-astro-kepler-laws",
+        name="开普勒三定律的建立",
+        year=1609,
+        yearEnd=1619,
+        dateText="公元1609年－1619年",
+        periodId="astro-modern-theory",
+        category="scientific",
+        location="德国与布拉格",
+        summary="开普勒在第谷数据基础上归纳出椭圆轨道定律、面积定律与调和定律，把行星运动化为可计算的动力学问题。",
+        detail=(
+            "开普勒于1609年出版《新天文学》，"
+            "1619年出版《世界的和谐》，"
+            "分两阶段提出三条行星运动定律。"
+            "第一定律来自对火星轨道的拟合："
+            "开普勒发现以太阳为中心的偏心圆加本轮无法把火星观测误差压到2角分以内，"
+            "于是尝试用分半圆、椭圆等曲线，"
+            "最终确认行星沿椭圆运行、太阳位于其中一个焦点。"
+            "第二定律来自面积计算："
+            "开普勒发现行星与太阳的连线在相等时间内扫过相等面积，"
+            "这意味着行星速度在近日点快、远日点慢，"
+            "并由此排除了托勒密体系中本轮匀速的设定。"
+            "第三定律则给出了轨道尺度与周期的定量关系："
+            "轨道半长轴的立方与公转周期的平方成正比。"
+            "三定律的建立意义在于："
+            "行星运动第一次从「几何形状的描述」"
+            "转变为「可用少量参数精确计算的物理规律」，"
+            "并直接给出牛顿所需的问题形式。"
+            "开普勒还以《世界的和谐》大胆尝试"
+            "把行星距离与柏拉图多面体几何相联系，"
+            "这一尝试在科学上失败，"
+            "却清楚地表明他正在寻找一条把几何与天体结构统一起来的原理。"
+        ),
+        importance=5,
+        figures=["fig-astro-kepler", "fig-astro-tycho", "fig-astro-newton"],
+        tags=["开普勒定律", "椭圆轨道", "面积定律", "调和定律", "行星运动"],
+    ),
+    dict(
+        id="ev-astro-galileo-telescope",
+        name="伽利略的望远镜天文观测",
+        year=1609,
+        yearEnd=1610,
+        dateText="公元1609年－1610年",
+        periodId="astro-observing-tools",
+        category="scientific",
+        location="意大利帕多瓦与威尼斯",
+        summary="伽利略率先把望远镜用于天体观测，发现木星卫星、金星相位与月面环形山，为日心说提供了直接证据。",
+        detail=(
+            "1609年夏，"
+            "伽利略听说荷兰出现望远镜，"
+            "自行磨制器件并大幅改进性能，"
+            "制出可在夜空中使用的仪器，"
+            "并率先将其对准天体。"
+            "1610年1月，"
+            "他观察到木星旁边有微弱光点，"
+            "经过连续数夜观测，"
+            "确认这四个光点始终与木星同行，"
+            "亮度随木星位置变化而隐现，"
+            "这排除了它们是背景恒星的可能，"
+            "从而发现了木星的四颗卫星。"
+            "这一发现的意义有两层："
+            "它直接支持哥白尼体系，"
+            "因为地球不再拥有所有绕转天体的特权；"
+            "同时它提供了一个不依赖地球中心的运动参照系，"
+            "使太阳系模型可以被直接观测检验。"
+            "同年，"
+            "伽利略在《星际信使》中报告了月面存在高地、"
+            "山脉与环形山，"
+            "否定了亚里士多德关于天体表面绝对光滑的经典教条；"
+            "还报告银河由无数微弱恒星构成，"
+            "并提出用望远镜观测可以发现肉眼看不到的恒星。"
+            "1610年9月，"
+            "他观察到金星具有与月球类似的相位变化，"
+            "这一几何事实直接排除了托勒密体系与第谷的折中模型，"
+            "成为日心说最有力的单一证据。"
+            "《星际信使》以拉丁文印行并迅速传遍欧洲，"
+            "「望远镜」从此成为天文学的象征。"
+        ),
+        importance=5,
+        figures=["fig-astro-galileo", "fig-astro-copernicus", "fig-astro-kepler"],
+        tags=["望远镜", "伽利略卫星", "金星相位", "月面环形山", "天文革命"],
+    ),
+    dict(
+        id="ev-astro-newton-gravity",
+        name="牛顿《原理》与万有引力定律",
+        year=1687,
+        yearEnd=None,
+        dateText="公元1687年7月5日",
+        periodId="astro-instrument-epoch",
+        category="scientific",
+        location="英国伦敦",
+        summary="牛顿出版《自然哲学的数学原理》，以运动三定律与万有引力统一解释天体运动，完成经典力学体系。",
+        detail=(
+            "1687年7月5日，"
+            "牛顿出版《自然哲学的数学原理》，"
+            "这部著作被普遍视为近代科学的奠基文本之一。"
+            "在第一与第二部分，"
+            "牛顿定义了质量、动量与力，"
+            "提出运动三定律，"
+            "其中包括著名的「作用与反作用」表述，"
+            "并以严格的数学语言处理了抛体、碰撞、摆与流体等经典问题。"
+            "第三部分《论宇宙体系》把万有引力定律应用于天体："
+            "他指出，"
+            "若太阳以一个与质量成正比的力吸引各行星，"
+            "且该力沿指向太阳的直线作用，"
+            "则行星轨道必为椭圆、"
+            "且面积扫过速率恒定，"
+            "这正是开普勒第一、第二定律的推论；"
+            "由此开普勒第三定律也被自然地解释了。"
+            "同时，"
+            "同一套定律解释了潮汐、"
+            "彗星轨道与地球上物体的自由落体，"
+            "实现了天体与地面现象的第一次统一。"
+            "牛顿还处理了当时争论激烈的「平方反比」与"
+            "笛卡尔旋涡说之争，"
+            "并讨论了行星轨道的稳定性问题，"
+            "指出轨道偏离椭圆时会产生回复力，"
+            "从而保证系统长期稳定。"
+            "这部著作在数学上首次把物理定律写成可推导、可验证的形式，"
+            "对后世所有精确科学的影响极为深远，"
+            "开普勒与伽利略的工作与它共同构成近代天文学的骨架。"
+        ),
+        importance=5,
+        figures=["fig-astro-newton", "fig-astro-galileo", "fig-astro-kepler"],
+        tags=["万有引力", "自然哲学的数学原理", "运动三定律", "经典力学"],
+    ),
+    dict(
+        id="ev-astro-halley-comet",
+        name="哈雷彗星回归的预言与证实",
+        year=1705,
+        yearEnd=1705,
+        dateText="公元1705年",
+        periodId="astro-modern-theory",
+        category="scientific",
+        location="英国牛津与格林尼治",
+        summary="哈雷依据牛顿力学与历史彗星记录算出彗星回归周期，1758年彗星按期返回，成为牛顿理论最著名的成功预测。",
+        detail=(
+            "1705年，"
+            "英国天文学家埃德蒙·哈雷在皇家学会宣读了《彗星轨道的说明》，"
+            "提出一个大胆的思路："
+            "把历史上关于这颗彗星的观测记录收集起来，"
+            "用牛顿提出的万有引力与轨道计算方法，"
+            "分别推算它在1531年、1607年与1682年的位置，"
+            "结果三者在天球上高度吻合，"
+            "说明它们是同一颗彗星。"
+            "他进一步计算了它的公转周期，"
+            "约为七十六年，"
+            "并据此预言它将在1758年前后返回。"
+            "哈雷的结论在当时并未立即引起广泛重视，"
+            "而是有趣的是，"
+            "1758年德国的哈雷式更正是唯一认出该彗星的观测者，"
+            "而巴黎天文台在1759年才正式确认，"
+            "从欧洲大陆到亚洲的许多地方在1759至1760年间记录了它的观测。"
+            "哈雷还提出，"
+            "若该彗星在1758年未能返回，"
+            "就意味着牛顿的引力理论可能有误；"
+            "它如期而至，"
+            "因而成为牛顿理论最著名的成功预测。"
+            "哈雷进一步指出，"
+            "1759年回归时它的轨道受木星摄动而明显改变，"
+            "这一发现开创了行星摄动的实用研究，"
+            "并使人们意识到彗星是太阳系家族的成员而非天外来客。"
+        ),
+        importance=4,
+        figures=["fig-astro-newton", "fig-astro-hubble"],
+        tags=["哈雷彗星", "彗星回归", "牛顿理论验证", "摄动"],
+    ),
+    dict(
+        id="ev-astro-herschel-uranus",
+        name="天王星的发现与巡天时代开启",
+        year=1781,
+        yearEnd=None,
+        dateText="公元1781年3月13日",
+        periodId="astro-modern-observation",
+        category="scientific",
+        location="英国英国皇家天文台",
+        summary="赫歇尔巡天时发现天王星，把太阳系的已知边界一举扩大近一倍，并开启系统性巡天观测的时代。",
+        detail=(
+            "1781年3月13日，"
+            "赫歇尔在英国格林尼治附近的巴顿观测站用自制反射镜"
+            "在双子座一带巡天时，"
+            "发现了一颗位置近似固定的微弱光点，"
+            "起初他以为是一颗彗星，"
+            "但连续数夜的观测显示它并不移动，"
+            "并可被放大观察成一个小圆面。"
+            "他随即查询了当时的星表，"
+            "确认此前的观测记录中没有这颗天体，"
+            "从而判定它是一颗新的行星。"
+            "这颗后来被命名为天王星的行星，"
+            "直径约为地球的九倍，"
+            "它的发现使太阳系已知边界从最远的土星骤增到约地球轨道半径的十九倍，"
+            "是自哥白尼与伽利略之后天文学最重大的发现，"
+            "也促使康德在1781年提出「行星生成论」，"
+            "认为行星与卫星由同一原始物质云旋转凝结而成。"
+            "赫歇尔随后投入大量时间制作更大口径的反射镜，"
+            "并开展系统巡天，"
+            "编制星表、测量双星位置与视差，"
+            "同时统计恒星的分布密度，"
+            "提出银河系是一个有限透镜状恒星系统的设想。"
+            "他的工作确立了「巡天—编表—统计」这一19世纪天文学的基本范式。"
+        ),
+        importance=5,
+        figures=["fig-astro-herschel", "fig-astro-galileo"],
+        tags=["天王星", "巡天", "赫歇尔", "双星", "银河系"],
+    ),
+    dict(
+        id="ev-astro-spectroscopy",
+        name="光谱分析与基尔霍夫定律的确立",
+        year=1859,
+        yearEnd=1860,
+        dateText="公元1859年－1860年",
+        periodId="astro-observing-tools",
+        category="scientific",
+        location="德国海德堡与慕尼黑",
+        summary="基尔霍夫与本茨阐明物质吸收与发射的特征谱线规律，使恒星化学成分首次可被测定，天文学进入光谱时代。",
+        detail=(
+            "光谱分析的基础由夫琅禾费在1814年奠定："
+            "他在太阳光谱中观察到大量位置固定的暗线，"
+            "并测量了它们的波长，"
+            "但当时无法解释其成因。"
+            "1859年，"
+            "基尔霍夫在海德堡提出三条定律，"
+            "明确了物质与光谱之间的对应关系："
+            "炽热的稠密物质发出连续光谱；"
+            "温度较低的稀薄气体在连续光谱上产生与其特征波长对应的暗线；"
+            "若气体本身温度足够高，则在这些位置发出亮线。"
+            "同年，"
+            "本茨与基尔霍夫共同发现碱金属元素各自具有特征谱线，"
+            "并据此在光谱中鉴定出太阳中的钠，"
+            "此后锂、钾、钙、铁等元素陆续被太阳光谱鉴定出来。"
+            "1859年，"
+            "洛克yer在日珥中发现了位置与任何已知元素都不符的 D3 线，"
+            "提出氦的存在，"
+            "二十六年后才在地球上得到确认。"
+            "1860年，"
+            "基尔霍夫提出元素在恒星中的相对丰度可由谱线强度估计，"
+            "并首次通过与实验室火焰光谱的比较，"
+            "揭示了太阳大气中钠、铁等元素的含量，"
+            "开创了「天体化学」这一方向。"
+            "光谱分析使天文学从「测量位置与亮度」"
+            "扩展到「测量化学成分与物理状态」，"
+            "成为十九世纪天文学最重要的方法论转变。"
+        ),
+        importance=5,
+        figures=["fig-astro-lockyer", "fig-astro-herschel", "fig-astro-schrodinger"],
+        tags=["光谱分析", "基尔霍夫定律", "本茨", "恒星化学", "太阳光谱"],
+    ),
+    dict(
+        id="ev-astro-neptune-discovery",
+        name="海王星的发现与理论预言的验证",
+        year=1846,
+        yearEnd=None,
+        dateText="公元1846年9月23日",
+        periodId="astro-modern-observation",
+        category="scientific",
+        location="德国柏林天文台",
+        summary="勒维耶由天王星轨道摄动计算出未知行星的位置，加勒在该处发现海王星，成为理论预测转化为观测的经典范例。",
+        detail=(
+            "1846年，"
+            "勒维耶在《海王星与它的质量的研究》中系统论证："
+            "天王星轨道的偏差"
+            "（尤其是其近日点附近的超前位置）"
+            "无法用已知行星的摄动解释，"
+            "因此必定存在一颗更靠外的行星在施加摄动。"
+            "他运用摄动理论解算方程，"
+            "得到该行星的质量约为地球的32倍、"
+            "轨道半长轴约为天王星的1.78倍，"
+            "并给出了该行星在天空中的位置。"
+            "9月23日，"
+            "伽勒在柏林天文台按勒维耶的指示，"
+            "于当晚望远镜视场内"
+            "（在距预言位置约一度处）"
+            "发现一颗视星等约八的微弱天体，"
+            "并在随后数夜连续观测，"
+            "记录其位置移动与预言完全一致。"
+            "这一发现立即成为整个欧洲的公众话题，"
+            "法国科学院正式承认了勒维耶的优先权。"
+            "但其后关于发现权与英国人亚当斯独立计算的讨论持续了近一个世纪，"
+            "成为科学史上关于同行评议、优先权与国家荣誉的经典案例。"
+            "海王星的发现不仅证实了牛顿引力在太阳系边缘依然有效，"
+            "更展示了一种前所未有的方法论："
+            "用数学从已有观测中「算出」一个从未见过的天体，"
+            "再用望远镜把它找出来。"
+        ),
+        importance=5,
+        figures=["fig-astro-le-verrier", "fig-astro-galle", "fig-astro-herschel"],
+        tags=["海王星", "理论预言", "摄动理论", "发现权争议"],
+    ),
+    dict(
+        id="ev-astro-su-shi-polaris",
+        name="苏颂的浑象水运仪象台与地理演示",
+        year=1090,
+        yearEnd=1092,
+        dateText="公元1090年－1092年",
+        periodId="astro-ancient-sky",
+        category="technology",
+        location="北宋汴京（今开封）",
+        summary="苏颂主持建成水运仪象台，以水力驱动浑仪、浑象与报时系统，并在铜球上刻出山川地理与州县位置。",
+        detail=(
+            "1090年前后，"
+            "苏颂主持设计并建成「水运仪象台」，"
+            "这是十一世纪世界上功能最复杂的科学仪器。"
+            "该装置以水力驱动一组齿轮与擒纵机构，"
+            "带动浑仪（用于实际天文测量）、"
+            "浑象（用于演示天体在球面上的位置）"
+            "与独立的报时系统三套机构同步运转，"
+            "其等时性依赖水流的稳定与擒纵装置的周期性。"
+            "浑象的铜球表面刻有山川、河流与州县位置，"
+            "并可以转动的球面演示天体位置，"
+            "因此该仪器同时具有天文观测、天象演示与地理展示三重功能，"
+            "在中国古代仪器史上是独一无二的创造。"
+            "其具体构造与运行原理由沈括记录在《梦溪笔谈》卷二十五中，"
+            "包括对水柱、浑象与报时装置的详细描述，"
+            "这使其成为研究中国古代机械与天文技术最重要的文献之一。"
+            "同时，"
+            "苏颂还绘制了《华夷图》与《禹迹图》，"
+            "后者以十九幅地图拼接反映山川水系与行政区划，"
+            "被视为中国地图史上融合地理实测与制图工艺的代表作。"
+            "水运仪象台与《梦溪笔谈》的记述共同表明，"
+            "北宋的工程技术组织能力与知识记录方式已相当成熟。"
+        ),
+        importance=3,
+        figures=["fig-astro-su-shi", "fig-astro-guo-shoujing"],
+        tags=["水运仪象台", "浑象", "苏颂", "沈括", "宋代科技"],
+    ),
+    dict(
+        id="ev-astro-stellar-nursery",
+        name="恒星形成区观测与恒星诞生图像",
+        year=1995,
+        yearEnd=1995,
+        dateText="公元1995年",
+        periodId="astro-stellar-physics",
+        category="scientific",
+        location="智利与美国的空间与地面天文台",
+        summary="以红外与射电观测识别出恒星形成区中的吸积与喷流结构，并在恒星诞生现场直接看到原行星盘的尘埃与气体。",
+        detail=(
+            "恒星如何诞生，是二十世纪末天体物理学最活跃的领域之一。"
+            "研究方法的关键在于："
+            "年轻恒星往往深嵌在稠密的尘埃云中，"
+            "可见光被完全遮蔽，"
+            "必须依靠红外与毫米波观测穿透尘埃。"
+            "1995年，"
+            "研究者利用红外与射电望远镜在猎户座分子云等区域"
+            "识别出典型的恒星形成区结构，"
+            "其中的核心是引力坍缩形成的原恒星与围绕它的吸积结构，"
+            "并伴有沿双极方向的强烈外流喷流。"
+            "1996年，"
+            "哈勃空间望远镜对猎户座分子云中的年轻恒星进行了深空成像，"
+            "直接拍到被尘埃盘环绕的年轻恒星，"
+            "以及撞击在盘面并被加热到高温的撞击斑点，"
+            "这是人类首次在图像中直接看到恒星正在形成的现场。"
+            "2007年，"
+            "甚大望远镜与 ALMA 等设施进一步解析了这些盘中的尘埃结构，"
+            "并在其中探测到复杂的有机分子，"
+            "把行星化学的起点前推到了恒星形成的最初阶段。"
+            "这一系列工作把恒星形成从理论模型变成了可直接成像观测的过程，"
+            "并解释了行星系统中普遍存在的尘埃盘与原始成分。"
+        ),
+        importance=4,
+        figures=["fig-astro-hubble", "fig-astro-weaver", "fig-astro-schrodinger"],
+        tags=["恒星形成", "吸积盘", "喷流", "原行星盘", "红外观测"],
+    ),
+    dict(
+        id="ev-astro-photographic-survey",
+        name="照相巡天与照相星表",
+        year=1887,
+        yearEnd=1900,
+        dateText="公元1887年－1900年",
+        periodId="astro-modern-observation",
+        category="technology",
+        location="英国格林尼治、巴黎、美国帕洛马",
+        summary="干版照相与测微技术使天体位置与亮度可批量记录，大型照相星表把天文学推向工业化观测阶段。",
+        detail=(
+            "照相术在19世纪中叶传入天文学，"
+            "迅速成为重要的观测手段，"
+            "因为底片可以长时间曝光以累积暗弱天体的光，"
+            "并可同时记录大批天体的位置。"
+            "1872年，"
+            "英国皇家格林尼治天文台开始系统拍摄全天照片，"
+            "形成著名的「格林尼治照相星表」。"
+            "1887年，"
+            "国际天文学联合会成立并着手编制《照相星表》（Carte du Ciel），"
+            "这是第一次有组织、有统一标准、覆盖全天的国际合作观测项目，"
+            "参与国多达二十余个，"
+            "其成果延续使用到二十世纪中叶。"
+            "照相观测还带来一项关键方法论变化："
+            "底片同时记录了成像位置与亮度，"
+            "使得「测量」从人眼的实时比对变成可重复、可归档、可再分析的客观记录。"
+            "进入二十世纪，"
+            "大口径反射镜与照相物镜的改进使恒星亮度测光走向精密化，"
+            "哈佛的威尔士与福布宁等系统建立了可见光波段的测光序列，"
+            "为恒星光谱分类与现代光度学奠定了数据基础。"
+            "帕洛马山与威尔士山等新台址的建成，"
+            "使照相与光谱观测的规模进一步扩大，"
+            "并为哈勃1924年证明仙女座星系在银河系之外提供了关键工具。"
+        ),
+        importance=4,
+        figures=["fig-astro-herschel", "fig-astro-hubble"],
+        tags=["照相星表", "Carte du Ciel", "测光", "国际合作", "底片"],
+    ),
+    dict(
+        id="ev-astro-spectral-class",
+        name="恒星光谱分类系统的建立",
+        year=1886,
+        yearEnd=1913,
+        dateText="公元1886年－1913年",
+        periodId="astro-stellar-classification",
+        category="scientific",
+        location="美国哈佛大学天文台",
+        summary="哈佛团队以光谱特征建立 OBAFGKM 分类，佩恩与白莎基进一步与光度表结合，使恒星分类成为定量体系。",
+        detail=(
+            "光谱分析使恒星第一次可以按物理性质系统地分门别类。"
+            "哈佛大学天文台在弗莱明与卡谱兰奇的组织下，"
+            "把恒星光谱按颜色与谱线强度排序，"
+            "命名为 O、B、A、F、G、K、M 七个光谱型，"
+            "这一命名沿用至今，"
+            "并成为天文学与星际介质研究中最基础的语言。"
+            "哈佛的分类最初纯粹基于光谱形态，"
+            "但1913年佩恩与白莎基把这一序列与"
+            "由罗素建立的绝对星等标尺联系起来，"
+            "把光谱型与光度结合，"
+            "并提出沿光谱序列的恒星质量与半径呈规律变化。"
+            "这项工作的直接后果是"
+            "「赫罗图」的诞生："
+            "以光谱型为横轴、绝对星等为纵轴，"
+            "恒星在图上并非随机分布，"
+            "而是集中于一条从右上到左下的主序，"
+            "外加巨星、超巨星与白矮星等分支。"
+            "赫罗图的建立是二十世纪天体物理学的核心工具，"
+            "使恒星演化的理论可以被直接对照观测检验。"
+            "同时，"
+            "光谱分类也在光谱型与绝对星等之间发现了一些「异常」，"
+            "这些异常正是后来被识别为双星与尚未认识的演化阶段的对象，"
+            "体现了分类系统作为发现问题工具的价值。"
+        ),
+        importance=5,
+        figures=["fig-astro-payne", "fig-astro-lockyer", "fig-astro-eddington"],
+        tags=["光谱分类", "OBAFGKM", "赫罗图", "绝对星等", "主序"],
+    ),
+    dict(
+        id="ev-astro-eclipse-observation",
+        name="日全食观测与日冕发现",
+        year=1869,
+        yearEnd=1919,
+        dateText="公元1869年－1919年",
+        periodId="astro-stellar-classification",
+        category="exploration",
+        location="西班牙、印度、巴西与西非",
+        summary="一系列日全食观测揭示了日冕的独立存在与日珥的结构，并最终检验了爱因斯坦的星光偏折预言。",
+        detail=(
+            "1869年8月18日，"
+            "在美国内布拉斯加州与西班牙北部观测的日全食中，"
+            "科学家首次清楚地观察到日冕是太阳大气的一个独立结构，"
+            "它并非日面尘埃或大气折射造成的假象。"
+            "同一次观测还显示，"
+            "日珥在日面边缘呈现鲜红色的发射光谱，"
+            "与日面的连续吸收光谱明显不同，"
+            "从而确证日珥是稠密、相对冷的等离子体结构。"
+            "洛克耶的观测进一步表明，"
+            "日冕的辐射强度远超日面，"
+            "这意味着日冕的温度必然远高于日面，"
+            "而这一悖论直到二十世纪中叶才由高温等离子体辐射理论解决。"
+            "1919年5月29日与9月28日，"
+            "爱丁顿组织三支观测队，"
+            "分别前往巴西 Sobral 与西非的普林西比与几内亚，"
+            "测量日全食期间恒星光线经过太阳引力场后的偏折。"
+            "观测结果与爱因斯坦1911年的数值预测相符良好，"
+            "尽管精度尚有争议，"
+            "但这是广义相对论的第一个天文检验，"
+            "使爱因斯坦的声誉从此确立，"
+            "也让「日全食观测」成为二十世纪天文学最具象征性的观测类型。"
+        ),
+        importance=4,
+        figures=["fig-astro-eddington", "fig-astro-lockyer", "fig-astro-heisenberg"],
+        tags=["日全食", "日冕", "日珥", "星光偏折", "广义相对论检验"],
+    ),
+    dict(
+        id="ev-astro-eddington-rosenmark",
+        name="恒星内部结构理论与爱丁顿模型",
+        year=1926,
+        yearEnd=1926,
+        dateText="公元1926年",
+        periodId="astro-stellar-classification",
+        category="scientific",
+        location="英国剑桥",
+        summary="爱丁顿《恒星内部结构》把辐射转移与流体静力学结合，解释了主序星为何能稳定存在极长时间。",
+        detail=(
+            "1926年，"
+            "爱丁顿出版《恒星内部结构》，"
+            "首次把辐射转移方程、"
+            "气体静力学平衡方程与能量产生机制"
+            "联立求解，"
+            "建立了第一个自洽的恒星内部结构理论。"
+            "该理论给出了几个关键结论："
+            "第一，"
+            "恒星之所以能稳定存在极长时间，"
+            "是因为引力收缩释放的能量与核反应释放的能量达到精确平衡，"
+            "这一「负比热」机制使恒星对扰动保持稳定，"
+            "并解释了主序星长达上百亿年的寿命；"
+            "第二，"
+            "恒星质量与半径的关系可由结构方程推出，"
+            "为理解赫罗图上主序的斜率提供了理论依据；"
+            "第三，"
+            "他提出白矮星在极端压强下由电子简并压支撑，"
+            "并推导了「质子—电子相互吸引猜测定律」，"
+            "用于描述简并压随密度与温度的变化。"
+            "爱丁顿的第四定律则是关于恒星质心与辐射能损失的著名论断。"
+            "尽管他关于简并压的定量公式后来被证明是错误的，"
+            "其数学处理框架成为后来查德塞克、帕内与帕斯库等工作的基础，"
+            "白矮星也于1930年被沃尔夫与亚当斯观测确认。"
+            "爱丁顿的理论是二十世纪天体物理学的奠基石之一。"
+        ),
+        importance=4,
+        figures=["fig-astro-eddington", "fig-astro-heisenberg", "fig-astro-schrodinger"],
+        tags=["恒星内部结构", "辐射转移", "静力学平衡", "白矮星", "赫罗图"],
+    ),
+    dict(
+        id="ev-astro-crab-supernova",
+        name="1054年超新星与《宋会要辑稿》的记载",
+        year=1054,
+        yearEnd=1054,
+        dateText="公元1054年7月4日",
+        periodId="astro-ancient-sky",
+        category="scientific",
+        location="中国北宋（都城汴京）、日本",
+        summary="宋代天文官记录了一颗白昼可见二十三天的超亮天体，其遗迹即今蟹状星云，是世界上最早的此类超新星精确记载之一。",
+        detail=(
+            "公元1054年7月4日，"
+            "北宋司天监记录到一颗位于金牛座东南方向的超亮天体，"
+            "《宋会要辑稿》与《宋史》均载其「昼见如太白」乃至「昼见如昼」的现象，"
+            "亮度在白昼可见达二十三天，"
+            "夜间可见约二十三天，"
+            "并记载了它出现的日期与位置变化。"
+            "该记录同时见于日本与阿拉伯的文献，"
+            "被现代研究认定为一次超新星爆发，"
+            "其遗迹即今天著名的蟹状星云（M1），"
+            "位于金牛座。"
+            "这份记载的价值在于其罕见的精度："
+            "它给出了爆发日期、持续时间与大致位置，"
+            "使蟹状星云的年龄可被独立测定为约一千六百年，"
+            "与天文学其他方法得到的估计一致。"
+            "宋代文献对这一天体颜色随时间变化的描述"
+            "（从白昼可见的白金色逐渐转为暗红、最终消失）"
+            "也被用来检验超新星抛射物与星际介质相互作用的光度演化模型。"
+            "蟹状星云中心的中子星于1931年被认出，"
+            "其脉冲周期与该星云的自转周期一致，"
+            "使这则千年前的记载与现代脉冲星理论形成了完整的证据链。"
+            "它同时也是古代中国天文记录具有世界科学价值的最著名例证。"
+        ),
+        importance=4,
+        figures=["fig-astro-guo-shoujing", "fig-astro-weaver", "fig-astro-su-shi"],
+        tags=["超新星", "蟹状星云", "宋代天文记录", "1054年", "古代观测"],
+    ),
+    dict(
+        id="ev-astro-supernova",
+        name="超新星观测与恒星演化的实证",
+        year=1987,
+        yearEnd=2026,
+        dateText="公元1987年至今",
+        periodId="astro-stellar-physics",
+        category="scientific",
+        location="全球",
+        summary="1987A 超新星的观测提供了极近距离的爆发过程样本，Ia 型超新星成为宇宙学的标准烛光，超新星研究把恒星演化与元素合成连成一体。",
+        detail=(
+            "超新星是观测恒星演化的天然实验室，"
+            "因为它们的亮度可在短时间内超过整个星系，"
+            "使远距离的恒星末期过程也能被详细记录。"
+            "1987年2月，"
+            "在大麦哲伦云中爆发的大质量超新星 1987A 被发现，"
+            "由于距离仅约五万光年，"
+            "它是人类历史上观测条件最好的超新星之一，"
+            "研究者在其光芒中先后探测到了从放射性钴衰变驱动的峰值光谱、"
+            "以及1987年著名的三环结构。"
+            "这三次环状爆发源于超新星抛出物与星际介质相互作用，"
+            "其形态与距离被精确测量，"
+            "成为检验超新星抛射模型与星际介质密度分布的关键样本。"
+            "在更宏观的层面，"
+            "Ia 型超新星因具有高度一致的光度—光变关系而成为宇宙学最重要的标准烛光，"
+            "1998年正是对遥远 Ia 型超新星的观测"
+            "促成了宇宙加速膨胀与暗能量的发现。"
+            "在元素合成方面，"
+            "超新星光谱中的重元素丰度"
+            "确认了 r-过程是宇宙中金、银、铂等重元素的主要来源，"
+            "而 Ia 型超新星的镍-56 衰变则是铁族元素的重要贡献者。"
+            "2020年代，"
+            "关于早期超新星可能帮助清除早期宇宙暗物质的研究，"
+            "也为「宇宙锂问题」提供了新的解释路径。"
+        ),
+        importance=4,
+        figures=["fig-astro-weaver", "fig-astro-mayor", "fig-astro-hubble"],
+        tags=["超新星", "1987A", "标准烛光", "核合成", "三环结构"],
+    ),
+    dict(
+        id="ev-astro-neutron-star",
+        name="中子星与脉冲星的发现",
+        year=1933,
+        yearEnd=1967,
+        dateText="公元1933年－1967年",
+        periodId="astro-modern-physics",
+        category="scientific",
+        location="英国剑桥与美国贝尔实验室",
+        summary="从兹威基提出中子星到脉冲星被发现，致密天体研究揭示了极端压强下物质的全新形态与能量转化机制。",
+        detail=(
+            "1933年，"
+            "兹威基在研究超新星遗迹时提出，"
+            "超新星爆发的核心可能被压缩为一颗直径仅十余公里、"
+            "质量却超过太阳的「中子星」，"
+            "他把这一想法归功于朗伯的提出。"
+            "1939年，"
+            "Oppenheimer 与 Volkoff 在广义相对论框架下计算了"
+            "中子物质所支撑的平衡结构，"
+            "建立了中子星的基本理论模型。"
+            "1962年，"
+            "焦塞克斯与夏皮罗在蟹状星云中发现了持续脉冲的射电源，"
+            "但当时尚不知其本质。"
+            "1967年，"
+            "英国剑桥的休伊什与贝尔实验室的贝尔在其余射电源中也发现了"
+            "严格的周期性脉冲信号，"
+            "这种「脉冲星」的信号周期极为规整，"
+            "短到毫秒量级，"
+            "其来源被迅速识别为快速自转的中子星。"
+            "同年，"
+            "奥本与哈特曼在蟹状星云中心确认了周期约33毫秒的脉冲，"
+            "且脉冲周期恰好等于该星云中心的自转周期，"
+            "彻底解决了蟹状星云中那个神秘脉冲电源的身份。"
+            "脉冲星的发现使中子星理论获得决定性观测支持，"
+            "也是射电天文学最重要的成果之一。"
+            "此后，"
+            "双星脉冲星的轨道衰减被精确测量，"
+            "为引力波辐射提供了早期间接证据，"
+            "而毫秒脉冲星的发现更揭示了超新星残骸中可能存在的毫秒级脉冲星，"
+            "其计时精度达到与原子钟可比的程度。"
+        ),
+        importance=5,
+        figures=["fig-astro-weaver", "fig-astro-hubble", "fig-astro-gabor"],
+        tags=["中子星", "脉冲星", "超新星遗迹", "射电天文学", "致密天体"],
+    ),
+    dict(
+        id="ev-astro-radio-astronomy",
+        name="射电天文学的诞生",
+        year=1931,
+        yearEnd=1957,
+        dateText="公元1931年－1957年",
+        periodId="astro-space-era",
+        category="technology",
+        location="美国新泽西贝尔实验室、荷兰射电天文台",
+        summary="央斯基发现银河系射电源，赖尔完成距离测定，射电望远镜打开电磁波谱的新窗口，天文学进入射电时代。",
+        detail=(
+            "1931年，"
+            "美国贝尔实验室的卡尔·央斯基在研究短波无线电中的背景噪声时，"
+            "发现信号源方向固定在人马座方向，"
+            "即银河系中心区域。"
+            "他用旋转天线确定了这一源的方向，"
+            "并推断它来自银河系的射电辐射。"
+            "1937年，"
+            "贝尔实验室的雷利·雷伯利用自制的旋转抛物面天线"
+            "绘制出第一张详细的银河射电图，"
+            "明确显示了沿银道面高度增强的射电辐射结构，"
+            "这一图景与现代射电银河系图惊人地相似。"
+            "1944年，"
+            "扬·厄特雷在荷兰卡斯特金的射电天文台"
+            "成功测定了银河系射电辐射的距离，"
+            "证明地球位于一个直径约十万光年的旋涡状恒星系统之中，"
+            "这是人类首次明确地「置身于」银河系之内。"
+            "1946年，"
+            "央斯基与雷伯发现木星存在强烈的射电辐射，"
+            "这一发现最终引出行星射电天文学与木星磁层的概念。"
+            "技术方面，"
+            "1940年代二战期间，"
+            "英国伯恩茅斯的雷达天线被用于跟踪德国干扰机，"
+            "客观上推动了高灵敏度射电接收技术的发展。"
+            "1957年，"
+            " Jodrell Bank 的洛朗·巴沃德用射电望远镜绘出第一张射电太阳图，"
+            "把太阳射电研究推向高潮。"
+            "射电天文学由此与可见光天文学并列，"
+            "成为二十世纪天文学最重要的观测分支之一。"
+        ),
+        importance=5,
+        figures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-herschel"],
+        tags=["射电天文", "央斯基", "银河系", "木星射电", "卡斯特金"],
+    ),
+    dict(
+        id="ev-astro-sputnik",
+        name="斯普特尼克与太空时代的开启",
+        year=1957,
+        yearEnd=1957,
+        dateText="公元1957年10月4日",
+        periodId="astro-deep-space",
+        category="technology",
+        location="苏联拜科努尔航天发射场",
+        summary="苏联发射世界第一颗人造地球卫星斯普特尼克1号，人类进入太空时代，空间天文学由此成为可能。",
+        detail=(
+            "1957年10月4日，"
+            "苏联用R-7火箭成功发射斯普特尼克1号，"
+            "这是人类送入轨道的第一个人造物体。"
+            "该卫星直径约58厘米，"
+            "重约83.6公斤，"
+            "以约96分钟绕地球一周的周期飞行，"
+            "其表面发声的「嘀—嘀」无线电信号被全世界的业余无线电爱好者接收。"
+            "11月3日，"
+            "斯普特尼克2号发射，"
+            "携带的小狗莱卡成为第一只进入地球轨道的动物，"
+            "并因此成为全球媒体的主角。"
+            "同年，"
+            "美国启动「先锋」计划，"
+            "并于1958年1月31日成功发射第一颗美国卫星 Explorer 1，"
+            "后者由詹姆斯·范艾伦设计，"
+            "携带的仪器发现了范艾伦辐射带，"
+            "这是空间时代最早的重大科学发现之一。"
+            "卫星时代的直接天文后果是："
+            "1957年苏联发射了第一颗用于气象观测的卫星，"
+            "开创了从太空系统观测地球与太阳的模式；"
+            "1958年艾森豪威尔总统签署《国家航空航天法》，"
+            "设立美国国家航空航天局（NASA），"
+            "把民用与军用空间活动分离为专门的科研体系。"
+            "此后，"
+            "空间观测平台逐步成为天文研究的主要手段之一。"
+        ),
+        importance=4,
+        figures=["fig-astro-weaver", "fig-astro-hubble"],
+        tags=["斯普特尼克", "人造卫星", "太空时代", "NASA", "范艾伦带"],
+    ),
+    dict(
+        id="ev-astro-pulsars",
+        name="脉冲星的发现与射电天体物理时代",
+        year=1967,
+        yearEnd=1967,
+        dateText="公元1967年11月28日",
+        periodId="astro-space-era",
+        category="scientific",
+        location="英国剑桥与美国新泽西",
+        summary="休伊什与贝尔在射电源中发现严格的周期性脉冲，脉冲星被确认为快速自转的中子星，射电天文学成为主力学科。",
+        detail=(
+            "1967年11月28日，"
+            "英国剑桥的安东尼·休伊什在剑桥的射电望远镜巡天中，"
+            "用标准的快速记录仪在一片天区发现了一个极为特殊的信号："
+            "它以精确的周期性重复，"
+            "脉冲宽度约几毫秒，"
+            "并在数周后仍在同一位置以同一周期出现。"
+            "贝尔实验室的阿尔诺·彭齐亚斯与罗伯特·威尔逊几乎同时发现了类似的射电点源，"
+            "他们称之为「稳恒射电源」，"
+            "并一度认为这是外星际介质的氢原子发射。"
+            "1968年，"
+            "在贝尔实验室工作的英国天文学家福尔科·霍伊尔与伊曼纽尔·帕皮亚尼等人在数据分析后指出，"
+            "这类「定标源」应是快速自转的中子星，"
+            "其周期性来自自转轴的扫过效应，"
+            "1967年末的英国《Nature》与《Science》分别刊出了这一论断。"
+            "同年12月，"
+            "奥本与哈特曼在蟹状星云中心确认了周期约33毫秒的脉冲，"
+            "脉冲间隔恰好等于该星云中心的自转周期，"
+            "这一「蟹状星云脉冲星」的发现使中性理论得到决定性验证。"
+            "脉冲星从此成为极端物理的天然实验室："
+            "它们的旋转能通过磁偶极辐射被逐步抽走，"
+            "观测其周期变化可以直接测量磁偶极矩，"
+            "这是人类对中子星内部结构最直接的探针。"
+        ),
+        importance=5,
+        figures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-weaver"],
+        tags=["脉冲星", "中子星", "射电天文", "蟹状星云", "磁偶极"],
+    ),
+    dict(
+        id="ev-astro-hubble-telescope",
+        name="哈勃空间望远镜发射与空间天文时代",
+        year=1990,
+        yearEnd=1990,
+        dateText="公元1990年4月24日",
+        periodId="astro-space-era",
+        category="technology",
+        location="地球低地球轨道",
+        summary="哈勃空间望远镜进入轨道并在1993年完成首次修复，把光学、紫外观测带到大气层之上，修正了多项长期参数偏差。",
+        detail=(
+            "1990年4月24日，"
+            "哈勃空间望远镜由发现号航天飞机送入地球轨道。"
+            "由于主镜边缘的研磨误差超差，"
+            "其初期的图像质量并不理想，"
+            "1993年航天员在轨实施了包括加装纠正光学系统在内的第一次维修，"
+            "图像质量由此大幅提升，"
+            "1997年与2009年又进行了多次在轨维修与仪器升级。"
+            "哈勃的观测带来了多项具有决定意义的成果："
+            "它把距离尺度上的关键定标重新做了一遍，"
+            "修正了麦哲伦云的距离，"
+            "从而间接改善了对哈勃常数的估计；"
+            "它在深场观测中发现了大量前所未见的遥远星系，"
+            "为宇宙学模型提供了统计样本；"
+            "其紫外观测记录了类星体的剧烈变化，"
+            "并对球状星团与星系核区进行了高分辨率研究。"
+            "在概念上，"
+            "哈勃证明了天文台可以像空间站一样被维修与升级，"
+            "这一思路直接体现在后来哈勃与韦布等空间天文台的设计中。"
+            "与哈勃同时代的紫外与X射线天文台，"
+            "如1978年的爱因斯坦、1992年的康普顿伽马射线天文台与哈斯等，"
+            "共同把高能波段的观测推向系统化阶段。"
+            "空间天文时代的核心意义在于："
+            "把大气从望远镜与天空之间彻底移除，"
+            "让地球之外成为常规观测平台。"
+        ),
+        importance=5,
+        figures=["fig-astro-hubble", "fig-astro-gabor", "fig-astro-weaver"],
+        tags=["哈勃空间望远镜", "紫外天文", "深场观测", "在轨维修", "定标"],
+    ),
+    dict(
+        id="ev-astro-hubble-law",
+        name="哈勃定律与宇宙膨胀的发现",
+        year=1929,
+        yearEnd=None,
+        dateText="公元1929年",
+        periodId="astro-cosmology-models",
+        category="scientific",
+        location="美国帕萨迪纳威尔逊山天文台",
+        summary="哈勃发现遥远星系的退行速度与其距离成正比，确立宇宙膨胀的观测事实，现代宇宙学由此起步。",
+        detail=(
+            "1929年，"
+            "哈勃在《美国国家科学院院刊》发表论文，"
+            "宣布了一条经验规律："
+            "遥远星系的退行速度与它们的距离成正比。"
+            "该结论基于他此前一年的两项关键工作："
+            "一是1924年，"
+            "他利用改进的照相方法测定了仙女座星云的角直径，"
+            "并在其中识别出造父变星，"
+            "由变星的周期—光度关系定出距离，"
+            "证明它远在银河系之外；"
+            "二是他系统测定了多个「涡状星云」的视向速度与距离。"
+            "两组数据的结合产生了那条著名的直线，"
+            "斜率即哈勃常数。"
+            "这一发现的物理意义在当年尚不清楚："
+            "1927年勒梅特在《Nature》发表的论文中，"
+            "已从广义相对论导出膨胀的时空解，"
+            "并指出观测到的退行与膨胀一致，"
+            "还提出宇宙从一个极热初态演化而来，"
+            "但当时多数学者尚未接受这一解释。"
+            "哈勃本人长期倾向于「宇宙本已如此、且正在膨胀」的解释，"
+            "并未明确支持大爆炸模型。"
+            "宇宙膨胀的确认是现代宇宙学的起点，"
+            "它把宇宙学从哲学思辨变成了可用观测检验的定量科学，"
+            "并使「宇宙年龄」成为一个可以从数据中估计的量。"
+        ),
+        importance=5,
+        figures=["fig-astro-hubble", "fig-astro-lemaître"],
+        tags=["哈勃定律", "宇宙膨胀", "造父变星", "红移距离关系"],
+    ),
+    dict(
+        id="ev-astro-big-bang",
+        name="大爆炸模型的提出与核合成理论",
+        year=1927,
+        yearEnd=1948,
+        dateText="公元1927年－1948年",
+        periodId="astro-cosmic-expansion",
+        category="scientific",
+        location="比利时鲁汶、美国芝加哥与普林斯顿",
+        summary="勒梅特提出大爆炸假说，伽莫夫等建立大爆炸核合成理论，解释了宇宙中氢氦丰度并预言微波背景。",
+        detail=(
+            "1927年，"
+            "勒梅特从广义相对论方程导出膨胀宇宙解，"
+            "并明确提出宇宙从一个极热极密的初态演化的图景；"
+            "1931年他进一步用「原初原子」描述这一初态，"
+            "并提出原初原子核的衰变产生元素。"
+            "1948年，"
+            "伽莫夫在普林斯顿与阿尔菲、赫尔曼等人合作，"
+            "把核物理引入宇宙学，"
+            "建立大爆炸核合成理论。"
+            "该理论指出，"
+            "宇宙最初几分钟的高温高密度环境中，"
+            "质子与中子处于热平衡，"
+            "反应速率与宇宙膨胀速率的比较决定了元素丰度；"
+            "膨胀冷却后，"
+            "中子衰变留下约四分之三的氢与约四分之一的氦，"
+            "并留下极微量的氘、氦-3与锂-7。"
+            "这一预言的精确性在几十年后被宇宙微波背景与原初元素丰度测量所验证，"
+            "成为大爆炸模型最有力的证据之一。"
+            "伽莫夫等人还指出，"
+            "若宇宙确实从热致密状态膨胀而来，"
+            "则必然残留下一片各向同性的微波辐射，"
+            "这一预言在1964年被意外发现。"
+            "大爆炸模型与稳态模型的争论是20世纪科学史上最具标志性的理论对决之一，"
+            "最终由观测证据裁决。"
+        ),
+        importance=5,
+        figures=["fig-astro-lemaître", "fig-astro-heisenberg", "fig-astro-schrodinger"],
+        tags=["大爆炸", "核合成", "原初原子", "伽莫夫", "元素丰度"],
+    ),
+    dict(
+        id="ev-astro-dark-matter",
+        name="暗物质的发现与暗物质晕证据",
+        year=1933,
+        yearEnd=1998,
+        dateText="公元1933年－1998年",
+        periodId="astro-cosmic-expansion",
+        category="scientific",
+        location="美国帕萨迪纳与瑞士苏黎世",
+        summary="兹威基由星系团质量异常提出暗物质假说，旋转曲线、引力透镜与微波背景等多项独立观测共同确认暗物质存在。",
+        detail=(
+            "1933年，"
+            "兹威基在测量后发座星系团（后称「后发座星系团」）"
+            "的旋转速度时发现，"
+            "按可见物质估算的引力质量远不足以束缚其成员星系的运动，"
+            "他据此提出星系团中存在着大量不可见的「暗物质」，"
+            "并借用「暗物质」（dark matter）一词。"
+            "1970年，"
+            "维里耶等人测量旋涡星系的旋转曲线，"
+            "发现外围恒星的速度并不随距离增加而按预期下降，"
+            "而是保持在高位，"
+            "这被公认为暗物质最直接的证据。"
+            "此后，"
+            "证据链迅速延伸："
+            "1979年，"
+            "爱因斯坦环的观测首次以引力透镜效应探测星系外围的暗物质晕；"
+            "1980年代，"
+            "星系团的 X 射线观测显示其中存在大量热气体，"
+            "但其质量仍不足以解释旋转曲线；"
+            "1998年，"
+            "「重子振荡」在星系分布中的检出，"
+            "成为暗物质在宇宙大尺度结构上留下的独立印记；"
+            "2000年代后，"
+            "宇宙微波背景与大规模红移巡天（如 SDSS、2dF）的功率谱分析，"
+            "把暗物质密度精确锁定为宇宙总质能密度的大约26%，"
+            "而普通物质仅约5%。"
+            "2017年，"
+            "引力波波段的首次探测进一步独立支持了这一比例，"
+            "因为引力波不依赖于电磁辐射。"
+            "暗物质的本质至今仍是未解难题，"
+            "从轴子、超对称中性微子到各类超出标准模型的候选方案，"
+            "相关实验仍在进行。"
+        ),
+        importance=5,
+        figures=["fig-astro-hubble", "fig-astro-lemaître", "fig-astro-patel", "fig-astro-gabor"],
+        tags=["暗物质", "旋转曲线", "引力透镜", "兹威基", "重子振荡"],
+    ),
+    dict(
+        id="ev-astro-cmb-discovery",
+        name="宇宙微波背景辐射的发现",
+        year=1964,
+        yearEnd=1965,
+        dateText="公元1964年－1965年",
+        periodId="astro-space-observation",
+        category="scientific",
+        location="美国新泽西霍姆代尔山",
+        summary="彭齐亚斯与威尔逊在排除设备故障后确认了各向同性的微波噪声，即宇宙微波背景，大爆炸模型获得决定性支持。",
+        detail=(
+            "1964年，"
+            "彭齐亚斯与威尔逊在贝尔电话实验室的 Crawford Hill 实验室"
+            "使用一台用于射电天文与卫星通信的 horn 天线时，"
+            "反复遇到一个无法消除的噪声源。"
+            "他们更换了接收机、"
+            "检查了电缆与接头，"
+            "排除了大气、地面反射与电台干扰，"
+            "还把设备移到另一地点重做实验，"
+            "但噪声始终存在，"
+            "并且无论天线指向何处都不消失，"
+            "其波长约为七点三五厘米，"
+            "对应一个约3.5 K 的等效温度。"
+            "1965年，"
+            "普林斯顿的迪克与威尔伯金斯来访，"
+            "提到他们正在建造一个天线，"
+            "用来检验由大爆炸模型预言的残余辐射；"
+            "这一信息使贝尔实验室的两人意识到，"
+            "他们发现的正是大爆炸的遗迹。"
+            "同年，"
+            "两篇论文同时发表：一篇是彭齐亚斯与威尔逊报告观测结果，"
+            "另一篇是迪克团队从理论上论证其宇宙学意义，"
+            "并给出了大爆炸模型下的温度预测。"
+            "1966年，"
+            "斯通尼尔与威尔逊在地面更精确地测得该辐射的温度为3.50 ± 0.07 K，"
+            "与理论预期高度一致。"
+            "这一发现是20世纪最重要的天文观测之一，"
+            "彭齐亚斯与威尔逊因此获1978年诺贝尔物理学奖，"
+            "并在2024年再次共同获此奖，"
+            "以表彰他们对宇宙微波背景的发现。"
+        ),
+        importance=5,
+        figures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-hubble"],
+        tags=["宇宙微波背景", "大爆炸证据", "贝尔实验室", "3.5K", "诺贝尔奖"],
+    ),
+    dict(
+        id="ev-astro-cmb-anisotropy",
+        name="微波背景各向异性的测量与平直模型确立",
+        year=1967,
+        yearEnd=1992,
+        dateText="公元1967年－1992年",
+        periodId="astro-space-observation",
+        category="scientific",
+        location="美国普林斯顿、新泽西与马萨诸塞",
+        summary="从萨里与威尔逊的各向异性测量到 COBE 的谱形与方向图，平直热大爆炸模型成为标准宇宙学。",
+        detail=(
+            "1967年，"
+            "普林斯顿的萨里与威尔逊用改进的差分微波辐射计，"
+            "在大气污染较少的纬度测量到约十万分之几量级的温度起伏，"
+            "并给出了方向图。"
+            "这是人类首次在宇宙微波背景中检出各向异性，"
+            "表明早期宇宙并非完全均匀，"
+            "而存在密度涨落——正是这些涨落在引力作用下成长为大尺度结构与星系的种子。"
+            "1980年代，"
+            "地面与高空气球实验把测量精度推进到约百万分之一，"
+            "并确认各向异性具有高度各向同性的统计特征。"
+            "1992年，"
+            "COBE 卫星公布的结果带来了两个决定性结论："
+            "其一，"
+            "宇宙微波背景的谱形与温度在极长波段上"
+            "以极高精度符合黑体谱（温度2.725 K），"
+            "这几乎排除了任何非标准的热起源模型；"
+            "其二，"
+            "COBE 给出的各向异性方向图显示"
+            "宇宙微波背景的涨落几乎完全与银河系尘埃的分布无关，"
+            "从而彻底确立了「宇宙微波背景在银河系之外」这一结论。"
+            "这两项结果与卫星位置条件相互配合，"
+            "使平直（近零空间曲率）的热大爆炸模型成为标准宇宙学，"
+            "并为暴胀理论提供了关键支持。"
+        ),
+        importance=5,
+        figures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-hubble"],
+        tags=["各向异性", "COBE", "黑体谱", "平直宇宙", "密度涨落"],
+    ),
+    dict(
+        id="ev-astro-planck-satellite",
+        name="普朗克卫星与宇宙学参数的精密测量",
+        year=2013,
+        yearEnd=2018,
+        dateText="公元2013年－2018年",
+        periodId="astro-cmb-epoch",
+        category="technology",
+        location="日地拉格朗日 L2 点",
+        summary="普朗克卫星以极高精度测量宇宙微波背景，把宇宙年龄、几何曲率与组分等参数锁定到前所未有的精度。",
+        detail=(
+            "普朗克卫星于2009年发射，"
+            "2013年公布首轮结果，"
+            "2018年发布最终的全天数据产品。"
+            "它运行在日地系统的第二拉格朗日点，"
+            "这一位置提供了稳定、远离地球辐射与热源的观测环境。"
+            "卫星搭载的赫伯与瓦里瓦测量仪以液氦制冷，"
+            "在极低噪声下覆盖微波谱的九个频段，"
+            "并以微弱的偏振灵敏度测量原初扰动。"
+            "结果给出了标准宇宙学（ΛCDM）参数的空前精度："
+            "宇宙年龄约137.7亿年，"
+            "几何曲率与零曲率相容，"
+            "普通物质约占总质能的5%，"
+            "暗物质约占26%，"
+            "暗能量约占69%。"
+            "同时，"
+            "普朗克给出的原初扰动谱形支持标量扰动近似尺度不变，"
+            "并显示张量—标量比小于约0.06，"
+            "这一上限直接约束了简单暴胀模型的参数空间。"
+            "普朗克数据成为后续众多大型巡天、"
+            "暗能量巡天与弱引力透镜分析的基础参照系，"
+            "并在宇宙学参数测量领域树立了精确度与系统误差控制的新标准。"
+        ),
+        importance=5,
+        figures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-hubble"],
+        tags=["普朗克", "宇宙学参数", "L2点", "标量谱", "暗能量占比"],
+    ),
+    dict(
+        id="ev-astro-inflation-evidence",
+        name="暴胀宇宙学的原初引力波证据",
+        year=2014,
+        yearEnd=None,
+        dateText="公元2014年3月",
+        periodId="astro-cmb-epoch",
+        category="scientific",
+        location="南极阿塔卡马沙漠",
+        summary="南极望远镜与 BICEP 阵列在微波背景偏振中检出与暴胀预言一致的引力波印记，为暴胀理论提供迄今最直接的观测支持。",
+        detail=(
+            "暴胀理论提出，"
+            "宇宙在极早期经历一段指数膨胀，"
+            "量子涨落被拉伸为原初扰动，"
+            "而时空本身的涨落会产生引力波，"
+            "在微波背景的偏振中留下一个特殊的 B 模模式印记。"
+            "这一「张量—标量比」是可观测的。"
+            "2014年3月，"
+            "美国哈佛—史密斯sonian 天体物理中心与斯坦福大学的研究团队宣布，"
+            "利用南极的 BICEP/Keck 望远镜阵列"
+            "在微波背景的偏振信号中检出了约0.2的 B 模张量—标量比，"
+            "与当时最流行的若干暴胀模型预测相容。"
+            "2016年后，"
+            "普朗克卫星的偏振数据与更新的地面观测共同表明，"
+            "此前信号中相当一部分来自前景星系尘埃的偏振污染，"
+            "真实的张量—标量比被压低到约0.05以下，"
+            "但这仍是对暴胀的正面支持。"
+            "2022年以后的更新观测继续缩小这一参数。"
+            "暴胀理论的另一条证据来自星系分布的大尺度特性，"
+            "即近似的空间平直性与近似的尺度不变性，"
+            "而平直性已由普朗克精确证实。"
+            "暴胀仍是目前唯一能同时解释上述多项事实的宇宙学框架，"
+            "但其具体模型仍在被数据筛选。"
+        ),
+        importance=4,
+        figures=["fig-astro-penzias", "fig-astro-wilson", "fig-astro-gabor"],
+        tags=["暴胀", "B模", "张量标量比", "BICEP", "原初引力波"],
+    ),
+    dict(
+        id="ev-astro-dark-energy",
+        name="暗能量的发现与加速膨胀",
+        year=1998,
+        yearEnd=None,
+        dateText="公元1998年",
+        periodId="astro-cosmic-expansion",
+        category="scientific",
+        location="美国费米实验室与澳大利亚国立大学",
+        summary="两个独立团队通过观测遥远的Ia 型超新星发现宇宙膨胀在加速，引出暗能量并成为现代宇宙学的核心谜题。",
+        detail=(
+            "1998年，"
+            "两个研究团队独立开展的工作得出了相同结论。"
+            "美国费米实验室的亚当·里斯与团队，"
+            "利用超新星巡天（Supernova Cosmology Project）"
+            "的数据，"
+            "以及澳大利亚国立大学的布莱恩·施密特与团队，"
+            "利用「高红移超新星搜索」团队的数据，"
+            "分别发现："
+            "那些本应因膨胀减速而显得「更暗」的遥远Ia 型超新星，"
+            "实际却比预期更亮。"
+            "这意味着光在传播过程中经历的宇宙膨胀"
+            "不是减速而是加速，"
+            "即宇宙的膨胀速度在过去几十亿年里一直在增加。"
+            "这是人类第一次测量到宇宙的加速膨胀，"
+            "也是暗能量概念被引入的起点。"
+            "两种解释长期并存："
+            "其一认为存在一种具有负压的均匀能量（暗能量），"
+            "其方程状态参数接近 -1，"
+            "与广义相对论的宇宙学常数在观测上难以区分；"
+            "其二认为引力理论本身在宇宙尺度上需要修改。"
+            "后续的观测给出了进一步约束："
+            "2001至2004年，"
+            "WMAP 与超新星数据联合分析显示，"
+            "在平坦几何假设下暗能量确实存在；"
+            "2003年的宇宙微波背景与重子振荡数据在不自洽地把暗能量塞入黑洞洞这类非自然方式时，"
+            "独立支持了暗能量的必要性；"
+            "2018年，"
+            " DES 超新星巡天给出约 3.5σ 的统计显著性，"
+            "进一步巩固了这一结论。"
+            "然而暗能量的物理本质至今完全不明，"
+            "它是当代物理学最重要的未解问题之一。"
+        ),
+        importance=5,
+        figures=["fig-astro-hubble", "fig-astro-lemaître", "fig-astro-mayor"],
+        tags=["暗能量", "加速膨胀", "Ia 型超新星", "宇宙学常数", "标准烛光"],
+    ),
+    dict(
+        id="ev-astro-gravitational-waves",
+        name="引力波的直接探测与多信使天文学",
+        year=2015,
+        yearEnd=2016,
+        dateText="公元2015年9月14日－2016年2月11日",
+        periodId="astro-space-era",
+        category="scientific",
+        location="美国LIGO汉福德与利文斯通观测站",
+        summary="LIGO 直接探测到黑洞并合产生的引力波，随后又观测到中子星并合事件并探测到其光信号，多信使天文学正式开启。",
+        detail=(
+            "2015年9月14日，"
+            "位于美国华盛顿州与路易斯安那州的 LIGO 两台四公里激光干涉引力波探测器"
+            "同时观测到一个持续约0.2秒的信号，"
+            "其时域波形与频率上移"
+            "（啁啾信号）特征与两个约三十倍太阳质量的黑洞并合所发出的引力波理论波形高度吻合。"
+            "LIGO 于2016年2月11日正式公布这一结果，"
+            "这是人类第一次直接探测到引力波，"
+            "也是爱因斯坦广义相对论诞生一百年的里程碑。"
+            "该事件还提供了独立测量黑洞质量的手段，"
+            "并证实了此前由电磁波观测长期间接推断的恒星级黑洞并合的存在。"
+            "2017年10月，"
+            "LIGO 与 Virgo 探测器网络共同观测到一次中子星并合事件（GW170817），"
+            "其后约两秒，"
+            "费米伽马射线空间望远镜与 SWIFT 观测到了来自同一方向的短伽马射线暴，"
+            "光学与射电望远镜随后在宿主星系 NGC 4993 中确认了余晖，"
+            "这一「引力波 + 伽马射线 + 可见光 + 射电」的四重联合观测，"
+            "使人类第一次能够以引力波这一新方式测量天体物理量，"
+            "包括直接测定双中子星的质量与宿主星系的距离，"
+            "并为重元素合成与短伽马射线暴的起源提供了直接线索。"
+            "多信使天文学由此成为二十一世纪天文学的核心范式。"
+        ),
+        importance=5,
+        figures=["fig-astro-gabor", "fig-astro-penzias", "fig-astro-weaver"],
+        tags=["引力波", "LIGO", "黑洞并合", "中子星并合", "多信使"],
+    ),
+    dict(
+        id="ev-astro-black-hole-image",
+        name="首张黑洞影像与超大质量黑洞的直接证据",
+        year=2019,
+        yearEnd=2019,
+        dateText="公元2019年4月10日",
+        periodId="astro-modern-physics",
+        category="scientific",
+        location="事件视界望远镜全球阵列",
+        summary="事件视界望远镜通过全球射电望远镜干涉合成出 M87* 的影像，首次直接呈现黑洞阴影与吸积盘的光学像。",
+        detail=(
+            "2019年4月10日，"
+            "事件视界望远镜（EHT）项目公布"
+            "位于室女座 M87 星系中心的超大质量黑洞 M87* 的影像，"
+            "这是人类历史上第一张黑洞的影像。"
+            "EHT 并非一台望远镜，"
+            "而是把位于夏威夷、智利、西班牙、墨西哥、阿根廷、南极与美国的"
+            "多台亚毫米与毫米波望远镜组成一个地球大小的虚拟望远镜，"
+            "利用甚长基线干涉技术，"
+            "在约1.3毫米的波长上获得约20微角秒的角分辨率，"
+            "这一分辨率相当于在地球上看清月球表面的一块面包。"
+            "所成影像是一个不对称的环形结构，"
+            "外径约420微角秒，"
+            "内缘即「阴影」，"
+            "其直径约为史瓦西半径的两倍多一点，"
+            "与广义相对论对黑洞阴影尺寸的预言高度吻合。"
+            "环的不对称则来自吸积盘物质的光学厚度与多普勒增亮效应。"
+            "被成像的黑洞质量约为太阳的65亿倍，"
+            "此前天文学家已通过恒星与气体轨道的动力学测量确认了这一质量，"
+            "因此这张影像同时也是对「中心确实存在黑洞」这一结论的直接可视化。"
+            "2019年的数据来自2017年的观测，"
+            "2022年EHT又发布了M87* 多波段（光学、射电、X射线与偏振）联合图像，"
+            "2023年公布了Sagittarius A* 的影像，"
+            "展示了这一方法在太阳系之外的普适性。"
+        ),
+        importance=5,
+        figures=["fig-astro-gabor", "fig-astro-weaver", "fig-astro-hubble"],
+        tags=["黑洞影像", "事件视界望远镜", "M87", "甚长基线干涉", "超大质量黑洞"],
+    ),
+    dict(
+        id="ev-astro-exoplanet-discovery",
+        name="首颗系外行星的发现",
+        year=1995,
+        yearEnd=1995,
+        dateText="公元1995年10月6日",
+        periodId="astro-planetary-science",
+        category="scientific",
+        location="瑞士瓦莱州欧布天文台",
+        summary="梅耶与多尔菲在飞马座51b上确认一颗围绕类太阳恒星运行的行星，人类首次确认太阳系之外的行星。",
+        detail=(
+            "1995年10月6日，"
+            "瑞士日内瓦天文台的梅耶与多尔菲宣布，"
+            "他们通过径向速度方法，"
+            "在飞马座51b（HD 217014）周围发现了一颗行星。"
+            "技术路线是这样展开的："
+            "他们注意到该恒星的自行运动异常大，"
+            "于是利用恒星自行数据筛选出高运动恒星，"
+            "再用赫罗夫等人在勒斯特恩测光巡天中的数据"
+            "进一步估算其颜色，"
+            "挑选出最有可能被仪器对准的目标。"
+            "随后，"
+            "他们用瑞士漏斗望远镜（瑞士漏斗望远镜）"
+            "进行高精度视向速度测量，"
+            "发现该恒星的光谱线在观测期内"
+            "以约4.2天的周期做周期性蓝移与红移，"
+            "这正是行星绕恒星运行并牵引其重心所致。"
+            "由轨道周期与速度振幅估算的行星质量下限约为木星的0.47倍，"
+            "而飞马座51b本身是一颗接近太阳的 K 型主序星，"
+            "因此它与我们的太阳系具有可比性。"
+            "这一发现被公认为首颗系外行星，"
+            "并直接开启了系外行星研究领域；"
+            "2019年梅耶与多尔菲因此共享诺贝尔物理学奖。"
+            "此后，"
+            "开普勒空间望远镜的凌星法与径向速度法的结合，"
+            "在二十余年内把已确认的系外行星数量推至数千颗，"
+            "并揭示出「热木星」「超级地球」等全新族群。"
+        ),
+        importance=5,
+        figures=["fig-astro-mayor", "fig-astro-dolfe", "fig-astro-marcy"],
+        tags=["系外行星", "飞马座51b", "径向速度", "诺贝尔奖", "行星搜寻"],
+    ),
+    dict(
+        id="ev-astro-kepler-mission",
+        name="开普勒空间望远镜与系外行星人口统计学",
+        year=2009,
+        yearEnd=2018,
+        dateText="公元2009年－2018年",
+        periodId="astro-exoplanet",
+        category="technology",
+        location="日地拉格朗日 L2 附近的日地转移轨道",
+        summary="开普勒空间望远镜以极高精度监测十五万颗恒星，通过凌星法发现数千颗系外行星，并揭示了轨道与尺寸分布规律。",
+        detail=(
+            "开普勒空间望远镜于2009年发射，"
+            "在绕日轨道上运行，"
+            "主要任务是持续监测天琴座方向一片天区内约十五万颗恒星。"
+            "其原理是凌星测光："
+            "当行星从恒星前方经过时，"
+            "恒星亮度会出现极微弱的下降，"
+            "这一下降的深度给出行星与恒星的半径比，"
+            "下降的周期则给出轨道周期。"
+            "在长达四年的主任务期间，"
+            "开普勒发现了数千颗候选行星，"
+            "其中数百颗得到后续观测确认。"
+            "其数据最重要的产出不是单颗行星，"
+            "而是系外行星的统计分布。"
+            "统计显示："
+            "行星的尺寸分布并不均匀，"
+            "存在一个明显的半径峰值，"
+            "且小于地球的行星远比原先设想的多；"
+            "轨道周期服从一个近似的「间隔分布」规律，"
+            "即在特定周期附近的行星更稀少，"
+            "这一特征被认为与行星轨道共振与迁移过程有关；"
+            "多行星系统相当普遍，"
+            "且其轨道间距与稳定性特征表明迁移过程普遍存在。"
+            "这些统计结果深刻影响了行星形成与演化的理论框架。"
+            "2018年，"
+            "开普勒因燃料耗尽而退役，"
+            "但其数据至今仍在被反复挖掘，"
+            "并成为 TESS 等后续巡天的参照。"
+        ),
+        importance=5,
+        figures=["fig-astro-mayor", "fig-astro-marcy", "fig-astro-weaver"],
+        tags=["开普勒", "凌星法", "系外行星统计", "轨道分布", "多行星系统"],
+    ),
+    dict(
+        id="ev-astro-exoplanet-atmosphere",
+        name="系外行星大气的成分探测",
+        year=2019,
+        yearEnd=2022,
+        dateText="公元2019年－2022年",
+        periodId="astro-exoplanet",
+        category="scientific",
+        location="智利帕拉纳尔甚大望远镜与詹姆斯·韦布空间望远镜",
+        summary="高分辨率光谱技术使研究者首次在系外行星大气中探测到水、二氧化碳与一氧化碳等分子，为生命搜索打开新途径。",
+        detail=(
+            "系外行星大气研究的技术难点在于："
+            "行星信号只占恒星总光度的极小部分，"
+            "而恒星自身的连续谱与吸收线非常强，"
+            "且行星的谱线被极度展宽。"
+            "突破来自高色散光谱仪与高信噪比的观测，"
+            "并且需要在多个波长上联合反演。"
+            "2008年，"
+            "瑞士团队用瑞士漏斗望远镜的高分辨率光谱仪"
+            "在 HD 189733b 的大气中探测到水汽与一氧化碳的明确信号，"
+            "这是系外行星大气成分的第一个可靠检测。"
+            "2019年，"
+            "研究团队利用甚大望远镜的高分辨率光谱仪"
+            "在热木星 WASP-121b 上探测到水与二氧化碳，"
+            "并发现其金属丰度显著高于宿主恒星，"
+            "这一结果对行星形成理论提供了直接约束。"
+            "同一时期，"
+            "低分辨率的凌星光谱也给出了越来越多的大气信息，"
+            "包括云层与灰霾对光谱的遮蔽效应。"
+            "2022年，"
+            "詹姆斯·韦布空间望远镜的首次科学观测"
+            "公布了一批系外行星的大气光谱，"
+            "其中包括对 WASP-39b 的二氧化碳、水与一氧化碳的清晰检测，"
+            "以及首次对岩质行星 K2-18b 大气中二氧化碳与甲烷的报道，"
+            "后者虽未发现生物标志物，"
+            "但确认了研究小型岩石行星大气的方法可行。"
+        ),
+        importance=4,
+        figures=["fig-astro-mayor", "fig-astro-dolfe", "fig-astro-weaver"],
+        tags=["系外行星大气", "凌星光谱", "高分辨率光谱", "生物标志物", "韦布"],
+    ),
+    dict(
+        id="ev-astro-weber-telescope",
+        name="詹姆斯·韦布空间望远镜发射",
+        year=2021,
+        yearEnd=2022,
+        dateText="公元2021年12月25日－2022年7月",
+        periodId="astro-exoplanet",
+        category="technology",
+        location="日地第二拉格朗日点",
+        summary="詹姆斯·韦布空间望远镜发射并抵达 L2 点，以红外巡天与系外行星光谱为核心，把观测推进到前所未有的深度。",
+        detail=(
+            "2021年12月25日，"
+            "詹姆斯·韦布空间望远镜由阿丽亚娜5号火箭发射，"
+            "并在飞行过程中完成了一系列精密的部署操作："
+            "展开遮阳帆、折叠主镜并完成镀金、"
+            "张开五层网球场大小的反射镜面等。"
+            "2022年1月，"
+            "它抵达日地第二拉格朗日点附近，"
+            "开始了为期五年的科学观测。"
+            "韦布的主镜口径6.5米，"
+            "镀有金膜以提高红外反射率，"
+            "并在太阳遮阳网与低温冷却的配合下，"
+            "实现了极低的热噪声，"
+            "使其能观测到宇宙膨胀初期的第一代星系。"
+            "2022年7月，"
+            "首批全彩色科学图像公布，"
+            "包括深场星系图像、"
+            "船底座星云与车夫星系团的特写，"
+            "以及 WASP-96b 的凌星光谱，"
+            "后者清楚地显示了水、二氧化碳与一氧化碳的吸收特征。"
+            "2023年，"
+            "韦布发布了首张全天巡天图像，"
+            "展示了其在广域巡天能力上的巨大优势。"
+            "在系外行星方向，"
+            "韦布通过透射光谱与发射光谱，"
+            "系统性地刻画了多类系外行星的大气，"
+            "为在类地行星上寻找生物标志物提供了关键工具。"
+            "韦布与哈勃、地面大型望远镜组成的联合观测体系，"
+            "使「空间 + 地面」协同成为当代天文学的标准工作方式。"
+        ),
+        importance=5,
+        figures=["fig-astro-weaver", "fig-astro-mayor", "fig-astro-gabor"],
+        tags=["詹姆斯·韦布", "红外巡天", "L2点", "系外行星光谱", "第一代星系"],
+    ),
+    dict(
+        id="ev-astro-mars-canal",
+        name="火星运河之争与照相观测的裁决",
+        year=1877,
+        yearEnd=1900,
+        dateText="公元1877年－1900年",
+        periodId="astro-planetary-observation",
+        category="scientific",
+        location="全球主要天文台",
+        summary="火星表面「运河」的观测争论持续三十年，高质量照相与大行星星历最终证明其为视觉误差与投影效应。",
+        detail=(
+            "1877年，"
+            "意大利米兰天文台的乔瓦尼·夏帕雷利宣布，"
+            "他在火星表面观测到大量笔直的线状结构，"
+            "并用意大利语canali（沟渠）加以描述。"
+            "这些线条在盘面上显得纵横交错，"
+            "暗示着某种智能生物建造的灌溉工程，"
+            "这一想象迅速在公众中激起巨大热情，"
+            "并被后来的科学幻想作品反复引用。"
+            "但「canali」在意大利语中同时包含「沟渠」与「运河」的含义，"
+            "这一多义性在翻译与传播中被单向放大。"
+            "反对意见主要来自两个方向："
+            "其一，"
+            "舒伯特与西维斯等观测者指出，"
+            "火星自转与视径变化会造成观测条件的剧烈波动，"
+            "而乔瓦尼·夏帕雷利的火星观测条件本身极佳，"
+            "这可能使其他观测者更易受视觉误差影响；"
+            "其二，"
+            "1894年，"
+            "洛厄尔天文台的帕西瓦尔·洛厄尔在亚利桑那州开普的报告基础上，"
+            "宣称观测到「运河」沿直线延伸并终止于圆形洼地，"
+            "进而提出了著名的「运河说」与"
+            "「灌溉文明假说」，"
+            "这一说法在英语世界影响极大，"
+            "但同样缺乏严谨的观测支撑。"
+            "1905年，"
+            "珀西瓦尔·洛厄尔本人卸任，"
+            "而1906年，"
+            "「运河」一名被弃用，"
+            "改用canalis（沟壑），"
+            "以强调这些结构是自然形成的。"
+            "1908年，"
+            "安纳博天文台的帕特里克·布莱克本运用高质量照相与视径测量，"
+            "证明所谓线条既不直也不连续，"
+            "而是大量小暗斑在低对比度条件下被视觉系统连接成线的产物。"
+            "这一案例是科学史上最著名的观测错误被澄清的实例，"
+            "也是「照相与定量测量取代目视印象」这一方法论转折的标志。"
+        ),
+        importance=4,
+        figures=["fig-astro-herschel", "fig-astro-hubble"],
+        tags=["火星运河", "夏帕雷利", "洛厄尔", "照相观测", "科学史"],
+    ),
+    dict(
+        id="ev-astro-voyager",
+        name="旅行者号双星任务的穿越",
+        year=1977,
+        yearEnd=2026,
+        dateText="公元1977年－2026年",
+        periodId="astro-deep-space",
+        category="exploration",
+        location="木星与土星系统、外太阳系与星际空间",
+        summary="旅行者1号与2号先后穿越木星与土星系统，发现火山活动、土星环结构与众多卫星，并仍在向星际空间传回数据。",
+        detail=(
+            "1977年8月与9月，"
+            "旅行者2号与1号先后发射。"
+            "为利用木星与土星的引力助推，"
+            "两舰的发射顺序与轨道设计经过精心安排，"
+            "使旅行者2号先行穿越木星，"
+            "再经土星，"
+            "而旅行者1号则利用木星引力偏转，"
+            "得以在土星之后飞掠并首次从更高纬度穿越日球层顶。"
+            "两舰的主要科学成果包括："
+            "在木星发现了活火山活动的直接证据"
+            "（火山喷发羽流与大尺度高压结构），"
+            "发现了木卫一上极紫外辐射的存在与木星磁层的结构；"
+            "在土星方面，"
+            "发现恩克拉环与更密的 F 环，"
+            "测量了土星大气与环的组成；"
+            "并发现了多颗此前未知的卫星。"
+            "旅行者号还携带了「星际唱片」——"
+            "一张镀金唱片，收录了地球上的音乐与问候语，"
+            "用以向可能存在的地外文明传递信息。"
+            "在行星际环境方面，"
+            "两舰的等离子体与宇宙线测量"
+            "首次刻画了太阳系的边界结构，"
+            "并确认了日球层顶的位置。"
+            "2012年，"
+            "旅行者1号穿越日球层顶进入星际空间，"
+            "成为人类制造的第一个进入星际空间的人造物体；"
+            "2018年旅行者2号也完成了这一穿越。"
+            "两舰仍在持续传回数据，"
+            "并因等离子体波发射器燃料接近耗尽而逐步减少发射功率。"
+        ),
+        importance=5,
+        figures=["fig-astro-weaver", "fig-astro-hubble"],
+        tags=["旅行者", "木星", "土星", "日球层顶", "星际空间"],
+    ),
+    dict(
+        id="ev-astro-cassini-huygens",
+        name="卡西尼号与惠更斯号土星系统探测",
+        year=1997,
+        yearEnd=2017,
+        dateText="公元1997年－2017年",
+        periodId="astro-deep-space",
+        category="exploration",
+        location="土星系统",
+        summary="卡西尼号在土星轨道工作近十五年，惠更斯号于2004年登陆土卫六并发现甲烷雨海，把土星系统研究推向纵深。",
+        detail=(
+            "1997年10月，"
+            "卡西尼号发射，"
+            "并借助一次土星引力助推，"
+            "于2004年7月进入绕土星运行的轨道。"
+            "在土星系统的十三年里，"
+            "卡西尼号完成了大量近距离观测与着陆器投放，"
+            "发现了土卫六上复杂的甲烷与乙烷湖泊与河流地貌，"
+            "并测得湖中有液态甲烷与乙烷的直接证据；"
+            "还发现土卫二（Enceladus）南极喷发出含水汽与有机分子的羽流，"
+            "这一发现使土卫二成为研究地外海洋与生命起源条件的重点目标，"
+            "卡西尼号飞穿羽流时直接测量了其成分。"
+            "2004年12月，"
+            "由卡西尼号携带的惠更斯号探测器进入土卫六大气并着陆，"
+            "这是人类首次在外太阳系天体上实现着陆，"
+            "其携带的谱仪在着陆过程中直接分析了大气成分。"
+            "此外，"
+            "卡西尼号还测得土星环的密度结构、"
+            "探测了土星磁层与极光、"
+            "并对土星的辐射能量收支做了长期监测，"
+            "由此发现土卫对其能量收支有显著贡献。"
+            "2017年9月，"
+            "卡西尼号执行了「大终章」任务，"
+            "进入土星大气层并烧毁，"
+            "以避免污染可能具有生命条件的土卫卫星，"
+            "这一抉择在行星保护史上被广泛讨论。"
+        ),
+        importance=5,
+        figures=["fig-astro-weaver", "fig-astro-hubble"],
+        tags=["卡西尼", "惠更斯", "土卫六", "土卫二", "甲烷湖"],
+    ),
+    dict(
+        id="ev-astro-new-horizons",
+        name="新视野号飞掠冥王星",
+        year=2015,
+        yearEnd=2015,
+        dateText="公元2015年7月14日",
+        periodId="astro-deep-space",
+        category="exploration",
+        location="柯伊伯带",
+        summary="新视野号飞掠冥王星，发现其复杂地貌与氮冰构成的山峰与冰原，刷新了人类对这颗矮行星的认识。",
+        detail=(
+            "2015年7月14日19时50分，"
+            "新视野号在约五万八千公里高度以每秒约五十公里飞掠冥王星，"
+            "这是人类历史上速度最快的一次近距离天体飞掠。"
+            "在此之前，"
+            "冥王星仅是望远镜中的一个暗淡光点，"
+            "其表面被推测可能有氮冰构成的山峰，"
+            "但几乎没有任何细节被确认。"
+            "飞掠期间，"
+            "新视野号的高分辨率彩色相机与光谱仪获得了大量数据，"
+            "揭示了极为复杂的地貌："
+            "名为「斯普特尼克平原」的巨型心形冰原，"
+            "其表面有明显的对流状流动纹理，"
+            "表明其下的氮冰层仍在缓慢流动；"
+            "名为「汤博区」的高亮区域，"
+            "其中有高耸的山峰与深谷，"
+            "被解释为水冰构成的山体上覆着氮冰或一氧化碳冰；"
+            "以及红色的托林特开阔区，"
+            "其颜色被归因于托林卫星表面物质在冥王星轨道的紫外辐射下"
+            "产生的复杂有机化合物。"
+            "新视野号还发现冥王星存在一层显著的大气，"
+            "其成分以氮气为主，"
+            "并测量了由甲烷与乙烷冰蒸发造成的边界层。"
+            "冥王星于2006年被归类为矮行星，"
+            "新视野号的这次飞掠则使它从统计意义上的分类对象"
+            "变为一个有具体地质史的已知世界。"
+        ),
+        importance=5,
+        figures=["fig-astro-weaver", "fig-astro-hubble"],
+        tags=["新视野号", "冥王星", "柯伊伯带", "冰火山", "矮行星"],
+    ),
+    dict(
+        id="ev-astro-chang-e",
+        name="嫦娥系列月球探测与天问火星任务",
+        year=2007,
+        yearEnd=2022,
+        dateText="公元2007年至今",
+        periodId="astro-deep-space",
+        category="exploration",
+        location="月球轨道与表面、火星轨道与表面",
+        summary="嫦娥一号至五号完成绕、落、回的完整链条，天问一号实现火星环绕、着陆与巡视，中国进入自主深空探测阶段。",
+        detail=(
+            "中国探月工程以「绕、落、回」三步走推进："
+            "2007年10月，"
+            "嫦娥一号发射并进入环月轨道，"
+            "完成全月影像覆盖与月球表面元素成分测量；"
+            "2010年发射的嫦娥二号测得月球表面高精度地形图，"
+            "并于2012年 flew至日地拉格朗日 L2 点开展halo 轨道绕行；"
+            "2013年12月，"
+            "嫦娥三号携带玉兔号月球车在虹湾软着陆，"
+            "成为继苏联与美国之后第三个实现月球软着陆的国家；"
+            "2016年，"
+            "嫦娥四号首次在月球背面软着陆，"
+            "并释放玉兔二号在背面开展巡视与中子月壤实验；"
+            "2020年11月，"
+            "嫦娥五号完成月球采样返回，"
+            "带回约1731克月壤样品，"
+            "使中国加入拥有月球返回样品的国家行列。"
+            "火星方面，"
+            "2020年7月天问一号发射，"
+            "2021年5月成功进入环火轨道，"
+            "同年5月至6月，"
+            "天问一号着陆巡视器「祝融号」在乌托邦平原南部软着陆，"
+            "并开展了形貌、物质成分与气象等巡视探测。"
+            "这些任务表明中国已具备深空探测所需的轨道设计、"
+            "深空测控与着陆巡视的核心能力。"
+        ),
+        importance=4,
+        figures=["fig-astro-weaver", "fig-astro-gabor"],
+        tags=["嫦娥工程", "天问一号", "祝融号", "月球背面", "采样返回"],
+    ),
+]
+
+
+def build():
+    periods = []
+    for p in PERIODS:
+        periods.append({
+            "id": p["id"],
+            "name": p["name"],
+            "alias": p.get("alias", ""),
+            "parentId": p.get("parentId"),
+            "startYear": p["startYear"],
+            "endYear": p["endYear"],
+            "startDateText": p["startDateText"],
+            "endDateText": p["endDateText"],
+            "colorKey": p["colorKey"],
+            "summary": p["summary"],
+            "territory": p.get("territory", ""),
+            "capital": p.get("capital", ""),
+            "population": p.get("population", ""),
+            "culture": p.get("culture", ""),
+            "keyFigures": p.get("keyFigures", []),
+            "relatedEvents": p.get("relatedEvents", []),
+            "tags": p.get("tags", []),
+        })
+
+    events = []
+    for e in EVENTS:
+        events.append({
+            "id": e["id"],
+            "name": e["name"],
+            "year": e["year"],
+            "yearEnd": e.get("yearEnd"),
+            "dateText": e["dateText"],
+            "periodId": e["periodId"],
+            "category": e["category"],
+            "location": e.get("location", ""),
+            "summary": e["summary"],
+            "detail": e["detail"],
+            "importance": e["importance"],
+            "figures": e.get("figures", []),
+            "tags": e.get("tags", []),
+        })
+
+    figures = []
+    for f in FIGURES:
+        figures.append({
+            "id": f["id"],
+            "name": f["name"],
+            "alias": f.get("alias", ""),
+            "birthYear": f.get("birthYear"),
+            "deathYear": f.get("deathYear"),
+            "lifeText": f["lifeText"],
+            "role": f["role"],
+            "periodId": f["periodId"],
+            "gender": f.get("gender", "unknown"),
+            "summary": f["summary"],
+            "biography": f["biography"],
+            "achievements": f.get("achievements", []),
+            "quotes": f.get("quotes", []),
+            "relatedEvents": f.get("relatedEvents", []),
+            "relatedFigures": f.get("relatedFigures", []),
+            "tags": f.get("tags", []),
+        })
+
+    return {
+        "version": 1,
+        "scope": "astro",
+        "periods": periods,
+        "events": events,
+        "figures": figures,
+    }
+
+
+def main():
+    data = build()
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"written: {OUT}")
+    print(f"periods={len(data['periods'])} events={len(data['events'])} figures={len(data['figures'])}")
+
+
+if __name__ == "__main__":
+    main()
