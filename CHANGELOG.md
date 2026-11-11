@@ -14,6 +14,70 @@
 
 ---
 
+## v1.1.1 — 2026-11-11
+
+版本管理机制化。不改变应用内容，仅改进工程流程；应用行为与 v1.1.0 完全一致。
+
+### 背景
+
+v1.0.0 发布后又做了 10 个提交的内容工作，但版本号一直停在 1.0.0、versionCode 停在 1，
+甚至用 `--clobber` 覆盖了 v1.0.0 已发布的 Release 资产。结果是版本号与实际内容脱节，
+已安装旧版的用户也收不到更新提示。
+
+这次把「任何修改都要走版本管理」从口头纪律变成机制，靠工具强制，而不是靠记性。
+
+### 新增工具
+
+| 工具 | 作用 |
+|---|---|
+| `tools/release.py` | 一条命令完成发版：改版本号 → 构建 → 打 tag → 发 Release |
+| `tools/check_version.py` | 核对版本号、CHANGELOG、tag、远端、Release 资产是否一致 |
+| `.githooks/pre-commit` | 提交前钩子，拦住「改了内容但没升版本号」的提交 |
+| `.githooks/install.py` | 安装上述钩子（Windows 与 Linux 通用） |
+
+### `release.py` 的保护
+
+- **版本号未变直接拒绝**：不允许覆盖已发布的版本
+- **自动推导 versionCode**：修订号 +1、次版本 +100、主版本 +1000
+- **强制写 CHANGELOG**：CHANGELOG 里没有该版本段落就中止发版
+- **单一来源**：版本号只写在 `build.gradle.kts`，`VERSION` 文件、产物名、tag 全部派生
+
+### `check_version.py` 核对六项
+
+1. `build.gradle.kts` 与 `VERSION` 文件的版本号一致
+2. CHANGELOG 里有当前版本的段落
+3. 当前版本已打 tag
+4. 本地分支未落后于远端
+5. GitHub Release 存在且资产名为 `HistoryAtlas-v<版本>.apk`
+6. Release 资产的 digest 与本地 `dist/` 里的文件一致
+
+### CI 门禁
+
+新增 `.github/workflows/version-check.yml`，在每次 push 与 PR 上运行：
+
+- 版本一致性检查
+- **未发布改动检查**：若 `main` 的 HEAD 领先于最新版本 tag，CI 直接失败。
+  改了代码或数据却没发版，CI 不会通过
+- 数据校验与 release APK 构建
+
+### 本地钩子
+
+`.githooks/pre-commit` 在以下情况拦截提交：
+
+- 代码或数据有改动，但 HEAD 已领先于最新版本 tag（说明有内容未发版）
+- 版本号与最新 tag 不一致
+
+纯文档改动（README、CHANGELOG 等）不拦截，因为它们本就是发版流程的一部分。
+需要跳过时用 `git commit --no-verify`。
+
+安装方式：
+
+```powershell
+python .githooks/install.py
+```
+
+---
+
 ## v1.1.0 — 2026-11-11
 
 内容与交互的大幅增补。数据格式未变，可覆盖安装升级（versionCode 2 → 1）。
