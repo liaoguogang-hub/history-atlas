@@ -52,7 +52,14 @@ check_project() {
 
     AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
     if [ "$AHEAD" -eq 0 ]; then
-        # HEAD 正好在 tag 上，版本号也一致，放行
+        # HEAD 正好在 tag 上，这次是发版流程的第一个提交，放行。
+        #
+        # 判断依据是「这次提交之前是否还有别的未发布提交」：
+        #   AHEAD == 0  → 发版的第一个提交，放行
+        #   AHEAD >  0  → 已经有未发布的提交了，这次又改代码，必须先发版
+        #
+        # 不能改成「提交后」的总数：那样任何一次代码改动都会立刻变成 1，
+        # 把正常的开发提交全部拦下。
         return 0
     fi
 
