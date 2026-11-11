@@ -195,8 +195,12 @@ def main():
     # --- 5. 推送与 Release ---
     print("[5/5] 推送并创建 Release…")
     if not args.no_push:
-        run(["git", "push", "origin", "main"])
-        run(["git", "push", "origin", f"v{new_ver}"])
+        # 分支与 tag 必须一条命令一起推。
+        # 分两次推会留出竞态窗口：CI 由 main 的推送触发，但那一刻 tag 还没到远端，
+        # 门禁的「检查是否有未发布的改动」就会把刚发布的这次提交判成
+        # 「有 1 个提交尚未发布」并失败。一条命令推送时两个 ref 同时更新，
+        # CI 启动即可看到 tag。
+        run(["git", "push", "origin", "main", f"v{new_ver}"])
 
     notes = args.notes
     if notes and os.path.exists(notes):

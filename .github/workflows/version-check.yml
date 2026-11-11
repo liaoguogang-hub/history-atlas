@@ -65,13 +65,21 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: 准备 SDK 路径
         run: echo "sdk.dir=$ANDROID_SDK_ROOT" >> history-atlas/local.properties
 
+      # 这里只校验数据。版本一致性由上面的 check-version 作业独占，
+      # 不在本作业重复执行 check_version.py，原因有二：
+      #   1. 本作业的 checkout 是默认浅克隆，拿不到任何 tag，
+      #      「当前版本已打 tag」这一项必然误报「尚未打 tag」
+      #   2. 「Release 资产」检查依赖 gh 的登录态，本作业没有 GH_TOKEN，
+      #      调用只会静默降级成一条误导性的警告
       - name: 校验数据
-        run: |
-          python tools/build_data.py
-          python tools/check_version.py
+        run: python tools/build_data.py
 
       - name: 构建 release APK
         working-directory: history-atlas

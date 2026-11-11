@@ -14,6 +14,57 @@
 
 ---
 
+## v1.1.4 — 2026-11-11
+
+修复 v1.1.3 首次真正跑通 CI 时「构建验证」作业的误报。应用内容与 v1.1.3 完全一致。
+
+### 问题
+
+v1.1.3 推送后 `版本与内容校验` 工作流第一次实际执行，结果是同一份代码下
+两个作业结论相反：`版本号一致性` 通过（5 秒），`构建验证` 失败（44 秒），
+挂在「校验数据」步骤。
+
+失败信息是 `check_version.py` 报「尚未打 tag v1.1.3」，但 tag `v1.1.3` 与
+Release「历史图鉴 v1.1.3」当时都已存在。两处独立缺陷叠加：
+
+1. **浅克隆里没有 tag**：`build` 作业的 `actions/checkout` 没写 `fetch-depth: 0`，
+   默认 depth=1 并带 `--no-tags`，`git tag -l` 返回空，
+   于是「当前版本已打 tag」这一项必然误判。`check-version` 作业因为要比较 tag，
+   显式设了 `fetch-depth: 0`，所以同一个脚本在那边能过——差别只在 checkout 参数。
+2. **推送顺序留了竞态窗口**：`release.py` 先推 `main`、再单独推 tag，
+   而 CI 正是由 `main` 的推送触发，启动那一刻 tag 往往还没到远端。
+
+第二点在 v1.1.3 只是运气好没触发：tag 在 checkout 之前落了地。
+
+### 修复
+
+`.github/workflows/version-check.yml`
+
+- `build` 作业的「校验数据」只保留 `python tools/build_data.py`。
+  版本一致性检查归 `check-version` 作业独占：它已有完整历史，
+  而 `build` 作业既没有 tag 也没有 `GH_TOKEN`，重复执行只会误报。
+- `build` 作业补上 `actions/setup-python@v5`，不再依赖 runner 镜像里恰好有 `python` 命令。
+
+`tools/release.py`
+
+- 分支与 tag 改为一条命令推送（`git push origin main v<版本>`），
+  两个 ref 同时更新，CI 启动时即可看到 tag。
+
+### 验证方式
+
+- `构建验证` 作业的「校验数据」只剩 `build_data.py` 输出，`ERROR=0  WARN=0`
+- `版本号一致性` 作业两项检查均通过，`git rev-list --count v1.1.4..HEAD` 为 0
+- 本地 `python tools/release.py <新版本> --dry-run` 正常输出
+
+### 经验
+
+同一个脚本在两个作业里一个过一个不过，先对比两个作业的 checkout 参数，
+别先怀疑数据。浅克隆默认带 `--no-tags`，任何涉及 tag 的判断都要显式 `fetch-depth: 0`；
+反过来，如果某个检查依赖登录态（如 `gh release view`），也要确认该作业有对应 token，
+否则它只会静默降级成警告，看着「通过」其实什么都没验。
+
+---
+
 ## v1.1.3 — 2026-11-11
 
 补上 v1.1.2 遗漏入库的 CI 与钩子文件。应用内容与 v1.1.2 完全一致。
