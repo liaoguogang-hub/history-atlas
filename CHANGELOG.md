@@ -50,9 +50,17 @@ Release「历史图鉴 v1.1.3」当时都已存在。两处独立缺陷叠加：
 - 分支与 tag 改为一条命令推送（`git push origin main v<版本>`），
   两个 ref 同时更新，CI 启动时即可看到 tag。
 
+`history-atlas/gradlew`
+
+- 补上可执行位：git 里的文件模式由 `100644` 改为 `100755`。
+  版本一致性恢复后，构建步骤第一次真正被执行，runner 报
+  `./gradlew: Permission denied`（exit 126）——文件在 Windows 上提交时没有可执行位，
+  Linux runner 无法直接执行。此前这个问题一直被「校验数据」的失败挡在前面，从未暴露。
+
 ### 验证方式
 
 - `构建验证` 作业的「校验数据」只剩 `build_data.py` 输出，`ERROR=0  WARN=0`
+- `构建验证` 作业的「构建 release APK」通过，`HistoryAtlas-v1.1.4.apk` 上传为构件
 - `版本号一致性` 作业两项检查均通过，`git rev-list --count v1.1.4..HEAD` 为 0
 - 本地 `python tools/release.py <新版本> --dry-run` 正常输出
 
@@ -62,6 +70,12 @@ Release「历史图鉴 v1.1.3」当时都已存在。两处独立缺陷叠加：
 别先怀疑数据。浅克隆默认带 `--no-tags`，任何涉及 tag 的判断都要显式 `fetch-depth: 0`；
 反过来，如果某个检查依赖登录态（如 `gh release view`），也要确认该作业有对应 token，
 否则它只会静默降级成警告，看着「通过」其实什么都没验。
+
+另外：前一个检查失败会把后面的步骤整段 skip 掉，缺陷因此被层层掩盖。
+这次是「校验数据」挡住了「构建 APK」，修好第一层才看见第二层。
+跨平台仓库还要记得 git 只记录一个可执行位——
+Windows 上提交的 `gradlew` 默认没有它，Linux/macOS 上就是 Permission denied，
+需要用 `git update-index --chmod=+x history-atlas/gradlew` 显式补上。
 
 ---
 
