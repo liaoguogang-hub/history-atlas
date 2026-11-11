@@ -36,35 +36,44 @@ jobs:
       # 每个项目各自比一次：两个项目的 tag 命名空间不同
       # （history-atlas 用裸 v1.1.5，science-atlas 用 science-atlas-v1.0.0），
       # 不能共用一次比较。
+      #
+      # 只统计「与该项目相关」的提交：改了 history-atlas 的代码或数据，
+      # 才要求它发版；只加了 science-atlas 不该拖累前者。
+      # tools/ 是多项目共享的，两边都不算。
       - name: 检查是否有未发布的改动
         run: |
           set -e
-          for PROJECT in history-atlas science-atlas; do
-            echo "=== $PROJECT ==="
-            if [ "$PROJECT" = "history-atlas" ]; then
-              PATTERN='v*'
-            else
-              PATTERN="$PROJECT-v*"
-            fi
-            LATEST_TAG=$(git tag --list "$PATTERN" --sort=-v:refname | head -n 1)
+          check_unpublished() {
+            PROJECT_KEY="$1"
+            TAG_PATTERN="$2"
+            CHANGE_PATTERN="$3"
+            echo "=== $PROJECT_KEY ==="
+
+            LATEST_TAG=$(git tag --list "$TAG_PATTERN" --sort=-v:refname | head -n 1)
             if [ -z "$LATEST_TAG" ]; then
-              echo "::error::$PROJECT 没有任何版本 tag"
+              echo "::error::$PROJECT_KEY 没有任何版本 tag"
               exit 1
             fi
             echo "最新版本 tag：$LATEST_TAG"
-            AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
-            echo "领先该 tag 的提交数：$AHEAD"
+
+            # 列出「该 tag 之后、且改动了本项目文件」的提交
+            AHEAD=$(git log --format='%H' "$LATEST_TAG"..HEAD -- \
+                    "$CHANGE_PATTERN" | wc -l)
+            echo "与本项目相关的未发布提交数：$AHEAD"
             if [ "$AHEAD" -gt 0 ]; then
               echo ""
-              echo "::error::$PROJECT 有 $AHEAD 个提交尚未发布。"
+              echo "::error::$PROJECT_KEY 有 $AHEAD 个相关提交尚未发布。"
               echo "内容有变更就必须升版本号并发版："
-              echo "  python tools/release.py <新版本号> --project $PROJECT"
+              echo "  python tools/release.py <新版本号> --project $PROJECT_KEY"
               echo "详见 CHANGELOG.md 开头的「版本管理约定」。"
-              git log --oneline "$LATEST_TAG"..HEAD
+              git log --oneline "$LATEST_TAG"..HEAD -- "$CHANGE_PATTERN"
               exit 1
             fi
-            echo "所有提交均已包含在版本 tag 中"
-          done
+            echo "本项目无未发布的相关改动"
+          }
+
+          check_unpublished "history-atlas" 'v*' 'history-atlas/ data/'
+          check_unpublished "science-atlas" 'science-atlas-v*' 'science-atlas/ data-science/'
 
   build:
     name: 构建验证

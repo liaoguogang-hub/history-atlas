@@ -65,9 +65,11 @@ check_project() {
     exit 1
 }
 
-# history-atlas：裸 tag（v1.1.5），代码与数据在 history-atlas/ 与 data/
+# history-atlas：裸 tag（v1.1.5）
+# 只看它自己的代码与数据。tools/ 是多项目共享的，
+# 改了共享工具不该逼着 history-atlas 升版本号。
 check_project "history-atlas" 'v*' \
-    '^(history-atlas/|data/|tools/)' 'history-atlas'
+    '^(history-atlas/|data/)' 'history-atlas'
 
 # science-atlas：带前缀 tag（science-atlas-v1.0.0），数据在 data-science/
 check_project "science-atlas" 'science-atlas-v*' \
