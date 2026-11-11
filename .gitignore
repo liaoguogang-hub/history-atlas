@@ -12,6 +12,9 @@
 !/docs/
 !/tools/
 !/scripts/
+# 版本管理的 CI 门禁与本地钩子
+!/.github/
+!/.githooks/
 
 # ── Android 构建产物与本地配置 ────────────────────────────────
 history-atlas/build/

@@ -12,8 +12,8 @@ plugins {
 //
 // versionCode 必须每次发布递增，否则 Android 不会把新包识别为升级，
 // 已安装旧版的用户收不到更新提示。
-val appVersion = "1.1.2"
-val appVersionCode = 4
+val appVersion = "1.1.3"
+val appVersionCode = 5
 
 android {
     namespace = "com.historyatlas.app"

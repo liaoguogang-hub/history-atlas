@@ -14,6 +14,41 @@
 
 ---
 
+## v1.1.3 — 2026-11-11
+
+补上 v1.1.2 遗漏入库的 CI 与钩子文件。应用内容与 v1.1.2 完全一致。
+
+### 修复
+
+v1.1.2 加入了 `.github/workflows/version-check.yml` 与 `.githooks/`，
+但工作区采用白名单式 `.gitignore`（`/*` 后逐个 `!` 放行），
+新增目录未显式加入白名单，导致这些文件被静默忽略——发布脚本的 `git add -A`
+没有把它们纳进提交，CI 与钩子并未真正进入仓库。
+
+本次在 `.gitignore` 中补上：
+
+```
+!/.github/
+!/.githooks/
+```
+
+并已用 `git check-ignore` 确认两个路径不再被忽略。
+
+### 验证方式
+
+- `git check-ignore -v .githooks/pre-commit .github/workflows/version-check.yml`
+  应无输出（未被忽略）
+- `git ls-files | grep -E "githooks|github/"` 应列出 4 个文件
+- 钩子实测：改动代码后提交被拦截，HEAD 未变化
+- CI 实测：`git rev-list --count v1.1.3..HEAD` 为 0
+
+### 经验
+
+白名单式 `.gitignore` 的坑在于**新增目录默认被忽略且不报错**。
+`git add` 成功但文件没进去，必须用 `git check-ignore` 逐个确认。
+
+---
+
 ## v1.1.2 — 2026-11-11
 
 版本管理机制落地：CI 门禁与本地提交钩子。应用内容与 v1.1.1 完全一致。

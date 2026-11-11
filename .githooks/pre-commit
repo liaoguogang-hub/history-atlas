@@ -1,0 +1,49 @@
+#!/bin/sh
+# 提交前钩子：本地就拦住「改了东西但没升版本号」。
+#
+# 规则：如果本次提交会改变代码或数据，且当前 HEAD 已经领先于最新版本 tag，
+# 那么这次提交之后就有未发布的改动——要求先发版再提交。
+#
+# 两种例外：
+#   1. 纯文档改动（README / CHANGELOG 等）不拦，它们本就是发版流程的一部分
+#   2. 版本号已升到不同于最新 tag，说明正在发版流程中，不拦
+#
+# 不想被拦时可用 `git commit --no-verify` 跳过。
+# 跨平台：Windows 上的 Git for Windows 自带 bash，这个脚本同样可用。
+
+set -e
+
+cd "$(git rev-parse --show-toplevel)"
+
+STAGED=$(git diff --cached --name-only)
+CODE_CHANGED=$(echo "$STAGED" | grep -E '^(history-atlas/|data/|tools/)' || true)
+if [ -z "$CODE_CHANGED" ]; then
+    exit 0
+fi
+
+LATEST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -n 1)
+if [ -z "$LATEST_TAG" ]; then
+    echo "提示：仓库里还没有版本 tag，发第一个版本前请先跑 tools/release.py"
+    exit 0
+fi
+
+VERSION=$(sed -nE 's/.*val appVersion = "([^"]+)".*/\1/p' history-atlas/app/build.gradle.kts | head -n 1)
+
+# 例外 2：版本号已与最新 tag 不同 —— 正在发版流程中，放行
+if [ -n "$VERSION" ] && [ "$VERSION" != "${LATEST_TAG#v}" ]; then
+    exit 0
+fi
+
+AHEAD=$(git rev-list --count "$LATEST_TAG"..HEAD)
+if [ "$AHEAD" -eq 0 ]; then
+    # HEAD 正好在 tag 上，版本号也一致，放行
+    exit 0
+fi
+
+echo ""
+echo "当前 HEAD 已有 $AHEAD 个提交超出最新 tag（$LATEST_TAG），尚未发布。"
+echo "本次又改动了代码或数据，提交后将累计更多未发布改动。"
+echo ""
+echo "请先发版：python tools/release.py <新版本号>"
+echo "（跳过检查用 git commit --no-verify）"
+exit 1
