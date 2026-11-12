@@ -38,6 +38,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.scienceatlas.app.data.AxisViewportCalculator
 import com.scienceatlas.app.data.Event
 import com.scienceatlas.app.data.EventCategory
 import com.scienceatlas.app.data.Period
@@ -77,6 +78,7 @@ private val TickIntervals = listOf(
     10_000L, 20_000L, 50_000L, 100_000L, 200_000L, 500_000L,
     1_000_000L, 2_000_000L, 5_000_000L, 10_000_000L, 20_000_000L, 50_000_000L,
     100_000_000L, 200_000_000L, 500_000_000L, 1_000_000_000L,
+    2_000_000_000L, 5_000_000_000L, 10_000_000_000L,
 )
 
 /** 事件分类 → 标记颜色。 */
@@ -105,8 +107,10 @@ private val AxisCategoryColors: Map<EventCategory, Color> = mapOf(
     EventCategory.ARCHAEOLOGY to Color(0xFF6E6548),
 )
 
-private const val MIN_PPY = 0.0008f
-private const val MAX_PPY = 400f
+// 缩放上下限统一由 AxisViewportCalculator 定义，
+// 避免「视窗算出来的值」和「缩放时被夹回去的值」两处不一致。
+private const val MIN_PPY = AxisViewportCalculator.MIN_PPY
+private const val MAX_PPY = AxisViewportCalculator.MAX_PPY
 
 /**
  * 由主刻度间隔推导一个更细的网格步长。
@@ -120,6 +124,7 @@ private fun gridStepOf(tickInterval: Long): Long {
         200_000L, 500_000L, 1_000_000L, 2_000_000L, 5_000_000L,
         10_000_000L, 20_000_000L, 50_000_000L, 100_000_000L,
         200_000_000L, 500_000_000L, 1_000_000_000L,
+        2_000_000_000L, 5_000_000_000L, 10_000_000_000L,
     )
     // 主刻度不超过 10 步时，取十分之一作为细网格；再小就用 1
     val target = tickInterval / 10
@@ -178,22 +183,14 @@ fun TimelineAxis(
 ) {
     val measurer = rememberTextMeasurer()
 
-    // 默认视窗：取事件年份的 2%~92% 分位，避开「前 170 万年」这类离群点，
-    // 否则全部标记会挤成一条线。
+    // 默认视窗。
+    //
+    // 计算逻辑放在 AxisViewportCalculator 里（可单元测试），
+    // 核心是**用 IQR 剔除地质深时这类天然离群点**再定位视窗，
+    // 否则地理学科的时间轴刻度会全是「前 X 亿年」，近现代事件挤成一个点。
+    // 详见该类的 KDoc。
     val defaultViewport = remember(events) {
-        if (events.isEmpty()) {
-            AxisViewport(0.0, 0.5f)
-        } else {
-            val years = events.map { it.year }.sorted()
-            fun q(p: Double): Double {
-                val i = ((years.size - 1) * p).toInt().coerceIn(0, years.size - 1)
-                return years[i].toDouble()
-            }
-            val lo = q(0.02)
-            val hi = q(0.92)
-            val span = (hi - lo).coerceAtLeast(1.0)
-            AxisViewport((lo + hi) / 2.0, (1080.0 / span).toFloat().coerceIn(MIN_PPY, 3f))
-        }
+        AxisViewportCalculator.compute(events.map { it.year })
     }
     var centerYear by remember { mutableDoubleStateOf(viewport?.centerYear ?: defaultViewport.centerYear) }
     var pixelsPerYear by remember {
