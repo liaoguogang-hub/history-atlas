@@ -3898,7 +3898,8 @@
     "fig-shang-yang",
     "fig-sun-tzu",
     "fig-bai-qi",
-    "fig-mencius"
+    "fig-mencius",
+    "fig-zzbq-zhaowuling"
    ],
    "tags": [
     "战国",
@@ -3928,7 +3929,9 @@
     "fig-qin-shao-gong",
     "fig-liqin",
     "fig-zouji",
-    "fig-qi-weiwang"
+    "fig-qi-weiwang",
+    "fig-zzbq-weiwenhou",
+    "fig-zzbq-zhaowuling"
    ],
    "tags": [
     "战国",
@@ -4161,7 +4164,8 @@
    "detail": "孙武，齐国乐安人。《史记·孙子吴起列传》载孙武以所著兵法十三篇见于吴王阖闾，阖闾曰：子之十三篇吾尽观之矣，可以小试勒兵乎？于是以宫女百人试之，三令五申而妇人大笑，孙武曰：约束不明，申令不熟，将之罪也。遂斩其左右队长以徇，再三令五申而妇人大惊，然后行师，击鼓进军，右兵进，左兵退，妇人大笑。如此者再，然后尽从其令，无一人不成其行者。孙武约束队伍，整齐如一，与伍子胥、柏举之战，五战五胜而破郢。所著《兵法》十三篇，是世界现存最早的完整军事著作，其以谋略取胜、不战而屈人之兵、攻其无备出其不意的思想，至今仍是兵学与商业竞争理论的重要源头。",
    "importance": 4,
    "figures": [
-    "fig-sun-tzu"
+    "fig-sun-tzu",
+    "fig-zzbq-wuzixu"
    ],
    "tags": [
     "战国",
@@ -4259,7 +4263,8 @@
    "figures": [
     "fig-liqin",
     "fig-xunzi",
-    "fig-qin-shao-gong"
+    "fig-qin-shao-gong",
+    "fig-zzbq-weiwenhou"
    ],
    "tags": [
     "战国",
@@ -4665,7 +4670,9 @@
    "figures": [
     "fig-han-wudi",
     "fig-dong-zhongshu",
-    "fig-wei-qing"
+    "fig-wei-qing",
+    "fig-zzbq3-weiqing",
+    "fig-zzbq3-huoqubing"
    ],
    "tags": [
     "汉",
@@ -8619,7 +8626,8 @@
    "figures": [
     "fig-li-zicheng",
     "fig-chongzhen",
-    "fig-huang-taiji"
+    "fig-huang-taiji",
+    "fig-zzbq2-zhangxianzhong"
    ],
    "tags": [
     "明",
@@ -8755,7 +8763,9 @@
    "summary": "清军两次围攻雅克萨，击败沙俄入侵者，随后签订《尼布楚条约》。",
    "detail": "沙俄自十七世纪中叶起进入黑龙江流域，在雅克萨筑城劫掠。康熙二十四年（1685年），清军派彭春率军围攻雅克萨，迫使俄军投降退往尼布楚。次年俄军重返雅克萨筑城坚守，康熙帝命萨布素率军再次围攻，历时半年，俄军伤亡惨重。1689年，中俄双方在尼布楚谈判，签订《尼布楚条约》，划定东段边界，确定外兴安岭以南、格尔必齐河与额尔古纳河以东地区归属中国，这是中国与西方国家签订的第一个具有近代意义的边界条约。",
    "importance": 4,
-   "figures": [],
+   "figures": [
+    "fig-zzbq2-kangxi"
+   ],
    "tags": [
     "清",
     "雅克萨"
@@ -8792,7 +8802,8 @@
    "detail": "康熙帝玄烨八岁即位，十四岁亲政，十六岁智擒鳌拜。此后他平定三藩之乱（1673—1681）、收复台湾（1683）、两次围攻雅克萨并签订《尼布楚条约》（1689）、三征噶尔丹（1690—1697）、册封五世班禅确立对西藏的管辖，并推行「滋生人丁永不加赋」以纾民困。他重视西学，任用南怀仁等传教士修订历法。康熙一朝与雍正、乾隆两朝合称「康乾盛世」，清朝的疆域与人口在这一百三十余年间达到极盛，但文字狱与闭关政策也埋下近代落伍的隐患。",
    "importance": 5,
    "figures": [
-    "fig-kangxi"
+    "fig-kangxi",
+    "fig-zzbq2-kangxi"
    ],
    "tags": [
     "清",
@@ -8883,7 +8894,9 @@
    "summary": "嘉庆帝即位后诛和珅、查抄其家产，但清朝的颓势已难挽回。",
    "detail": "嘉庆四年（1799年）乾隆帝去世，嘉庆帝亲政后立即宣布和珅二十大罪，赐其自尽，查抄家产估值约八亿两白银，相当于清廷十余年的财政收入，民间遂有「和珅跌倒，嘉庆吃饱」之谚。嘉庆帝勤政节俭，试图整顿吏治、禁止进贡、开放言路，但面对白莲教起义、河道失修、八旗腐化等积弊，其改革收效有限。嘉庆二十五年（1820年）他在热河避暑山庄猝然去世，清朝的衰落趋势已不可逆转。",
    "importance": 4,
-   "figures": [],
+   "figures": [
+    "fig-zzbq2-qianlong"
+   ],
    "tags": [
     "清",
     "嘉庆",
@@ -9272,7 +9285,8 @@
    "detail": "1949年4月20日，国民党政府拒绝在《国内和平协定》上签字，和平谈判破裂。4月21日，毛泽东、朱德发布《向全国进军的命令》，人民解放军第二、第三野战军及第四野战军一部共约百万人，在西起湖口、东至江阴的千里战线上发起渡江战役。解放军迅速突破长江防线，4月23日解放南京，宣告国民党政权的覆灭。此后解放军继续南下，解放上海、武汉、南昌等城市，至6月初渡江战役结束，共歼灭国民党军四十三万余人，为解放全中国奠定了基础。",
    "importance": 5,
    "figures": [
-    "fig-mao-zedong"
+    "fig-mao-zedong",
+    "fig-zzbq2-zhude"
    ],
    "tags": [
     "解放战争",
@@ -9482,6 +9496,542 @@
    "tags": [
     "五代",
     "后晋"
+   ]
+  },
+  {
+   "id": "ev-zzbq-sanjia-fenjin",
+   "name": "三家分晋",
+   "year": -453,
+   "yearEnd": -403,
+   "dateText": "公元前453年－公元前403年",
+   "periodId": "cn-zhou-east",
+   "category": "political",
+   "location": "晋国",
+   "summary": "晋国被赵、韩、魏三家大夫瓜分，周威烈王正式册命三家为诸侯，通常被视为战国时代的开始。",
+   "detail": "晋国自春秋中后期起，公室衰微，政权落入赵、韩、魏、智、范、中行等几家卿大夫之手。前453年，智氏智伯瑶强索地于三家，赵襄子不从，智伯联合韩、魏围攻晋阳。赵襄子派张孟谈暗中联络韩、魏，三家反戈共灭智氏，三分其地。此后晋国实际由赵、魏、韩三家共主，晋君只剩下绛、曲沃两邑。前403年，周威烈王正式册命赵烈侯、魏文侯、韩景侯三家为诸侯，晋国名存实亡。前376年三家废晋静公，尽并其地，晋彻底灭亡。司马光著《资治通鉴》即以此年为开篇，称「三家分晋」上接春秋、下启战国，标志礼乐征伐自诸侯出的旧秩序彻底瓦解。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq-zhaoxiangzi",
+    "fig-zzbq-weiwenhou"
+   ],
+   "tags": [
+    "战国",
+    "三家分晋",
+    "韩赵魏",
+    "晋国",
+    "资治通鉴"
+   ]
+  },
+  {
+   "id": "ev-zzbq-goujian-miewu",
+   "name": "勾践灭吴与卧薪尝胆",
+   "year": -494,
+   "yearEnd": -473,
+   "dateText": "公元前494年－公元前473年",
+   "periodId": "cn-zhou-east",
+   "category": "political",
+   "location": "吴越",
+   "summary": "越王勾践被吴王夫差击败后忍辱求和，卧薪尝胆十年生聚十年教训，最终灭吴，成为春秋末期最后一位霸主。",
+   "detail": "前494年，吴王夫差为报父仇大败越军于夫椒，越王勾践仅剩五千甲士退守会稽。勾践采纳文种、范蠡之策，向吴求和，携妻子入吴为臣仆三年，忍辱负重。返国后置胆于坐侧，坐卧即仰胆，饮食亦尝胆，曰「汝忘会稽之耻邪」，史称卧薪尝胆。他重用文种治内、范蠡治军，十年生聚、十年教训，发展生产，奖励生育，抚恤国中。前482年趁夫差北上黄池会盟、国内空虚之机发兵攻吴；前473年越军再攻，夫差自杀，吴亡。勾践随后北渡淮水，会诸侯于徐州，号令中原，成为春秋最后一位霸主。范蠡功成身退，泛舟五湖，后经商成巨富；文种则被勾践赐死。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq-goujian",
+    "fig-zzbq-fanli",
+    "fig-zzbq-fuchai",
+    "fig-zzbq-wenzhong"
+   ],
+   "tags": [
+    "春秋",
+    "勾践",
+    "卧薪尝胆",
+    "灭吴",
+    "越国"
+   ]
+  },
+  {
+   "id": "ev-zzbq-tianshi-daiqi",
+   "name": "田氏代齐",
+   "year": -386,
+   "yearEnd": -379,
+   "dateText": "公元前386年－公元前379年",
+   "periodId": "cn-warring-states",
+   "category": "political",
+   "location": "齐国",
+   "summary": "齐国田氏大夫世代把持国政并最终取代姜氏自立为侯，与三家分晋并列为战国田氏代姜之变。",
+   "detail": "齐国的田氏（陈氏）本为陈国公子完之后，前672年逃到齐国。田完后人田桓子、田厘子等世代为齐卿，以「大斗出小斗入」收买人心，逐渐控制了齐政权。前481年田常弑齐简公，专齐国之政。前391年，田和把齐康公迁到海岛上，仅留一城之食。前386年，田和得到周安王册命为齐侯，是为田齐太公，齐国国姓由姜氏变为田氏，史称「田氏代齐」，与「三家分晋」并称战国初年卿大夫夺权的两大标志事件。田氏政权维持到前221年秦灭齐。",
+   "importance": 4,
+   "figures": [],
+   "tags": [
+    "战国",
+    "田氏代齐",
+    "齐国",
+    "田和"
+   ]
+  },
+  {
+   "id": "ev-zzbq-hufu-qishe",
+   "name": "胡服骑射",
+   "year": -307,
+   "yearEnd": null,
+   "dateText": "公元前307年",
+   "periodId": "cn-warring-states",
+   "category": "political",
+   "location": "赵国",
+   "summary": "赵武灵王力排众议推行胡服骑射改革，组建中原最早的骑兵部队，使赵国北却匈奴、南并中山，成为战国强国。",
+   "detail": "前307年，赵武灵王为对付北方游牧民族林胡、楼烦、匈奴以及中山国的威胁，决心改革军制、引进胡人的短衣窄袖装束与骑马射箭技术。此议遭到以公子成为代表的贵族反对，赵武灵王以「治世不一道，便国不必法古」说服群臣，率先穿着胡服上朝，随后在全国推行「胡服骑射」。赵人因此建立起中原诸国中第一支正规骑兵，战斗力大增。此后赵国北拓疆土至代地、榆中一线，西灭中山国，东取燕地，一跃成为与秦抗衡的军事强国，赵武灵王也被后世誉为中国军事改革的先驱。",
+   "importance": 4,
+   "figures": [
+    "fig-zzbq-zhaowuling"
+   ],
+   "tags": [
+    "战国",
+    "胡服骑射",
+    "赵武灵王",
+    "军事改革"
+   ]
+  },
+  {
+   "id": "ev-zzbq-wangbi-guitang",
+   "name": "完璧归赵与渑池之会",
+   "year": -283,
+   "yearEnd": -279,
+   "dateText": "公元前283年－公元前279年",
+   "periodId": "cn-warring-states",
+   "category": "political",
+   "location": "赵国·秦国",
+   "summary": "蔺相如奉命携和氏璧出使秦国，机智保全玉璧归赵；后又在渑池之会上不辱使命，维护赵国尊严。",
+   "detail": "前283年，秦昭襄王以十五座城池为诱饵，欲骗取赵国的和氏璧。赵国宦者令缪贤的门客蔺相如出使秦国，见秦王无意割城，便设计让随从携璧抄小路送回赵国，自己留在秦廷以头颅作保，上演「完璧归赵」。前279年秦王约赵惠文王会于渑池，席间强令赵王鼓瑟以辱之，蔺相如据理力争，逼秦王亦击缶，保全赵国体面。归国后赵王以蔺相如为上卿，位在名将廉颇之上。廉颇不服，扬言要当面羞辱他。蔺相如以国事为重一再避让，曰「吾所以为此者，以先国家之急而后私仇也」。廉颇得知后深受感动，负荆请罪，两人结为刎颈之交，是为「将相和」，传为千古美谈。",
+   "importance": 4,
+   "figures": [
+    "fig-zzbq-linxiangru",
+    "fig-lian-po"
+   ],
+   "tags": [
+    "战国",
+    "完璧归赵",
+    "渑池之会",
+    "蔺相如",
+    "将相和"
+   ]
+  },
+  {
+   "id": "ev-zzbq-quyuan-toujiang",
+   "name": "屈原投江与楚辞",
+   "year": -278,
+   "yearEnd": null,
+   "dateText": "公元前278年",
+   "periodId": "cn-warring-states",
+   "category": "literature",
+   "location": "楚国",
+   "summary": "楚国大诗人屈原遭谗放逐，在秦将白起攻破郢都后自沉汨罗江，后世端午投粽以祭，传为爱国典范。",
+   "detail": "屈原（约前340—前278年）名平，战国时期楚国贵族、伟大诗人。他早年深得楚怀王信任，任左徒、三闾大夫，主张对内举贤任能、对外联齐抗秦，并主持起草宪令。因上官大夫靳尚嫉妒进谗，屈原遭怀王疏远，后又在顷襄王时遭令尹子兰、上官大夫构陷，被流放江南。流放途中他创作了《离骚》《九歌》《天问》《九章》等篇，开创「楚辞」体与浪漫主义文学传统。前278年，秦将白起攻陷楚国郢都，屈原眼见国都沦陷、复国无望，于农历五月初五抱石自沉汨罗江。传说百姓闻讯驾舟入江相救不成，遂向江中投粽子以饲鱼虾，端午龙舟竞渡与包粽习俗由此而来。屈原的高洁品格与爱国精神千古传颂，后世尊其为「中华诗祖」。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq-quyuan",
+    "fig-bai-qi"
+   ],
+   "tags": [
+    "战国",
+    "屈原",
+    "楚辞",
+    "端午节",
+    "爱国主义"
+   ]
+  },
+  {
+   "id": "ev-zzbq-jingke-ciqin",
+   "name": "荆轲刺秦",
+   "year": -227,
+   "yearEnd": null,
+   "dateText": "公元前227年",
+   "periodId": "cn-warring-states",
+   "category": "political",
+   "location": "秦都咸阳",
+   "summary": "燕太子丹派荆轲入秦刺杀秦王政，图穷匕见功亏一篑，荆轲悲壮牺牲，成为千古流传的刺客壮举。",
+   "detail": "秦灭六国已成定局，前227年，燕太子丹为挽回危局，礼聘刺客荆轲入秦行刺秦王政。荆轲以献上樊於期首级与燕督亢地图为名得见秦王。献图时「图穷而匕见」，荆轲左手把秦王之袖，右手持匕首刺之，未中。秦王惊起绕柱而走，在医官夏无且与群臣的帮助下拔出长剑，斩断荆轲左腿。荆轲掷匕首未中，倚柱而笑，骂曰「事所以不成者，乃欲以生劫之，必得约契以报太子也」，遂被左右杀死。高渐离击筑、易水送别的悲壮场面，经《战国策》《史记》记载传为千古绝唱；荆轲也因此与专诸、聂政、豫让并称「四大刺客」，其「风萧萧兮易水寒，壮士一去兮不复还」之句千古流传。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq-jingke"
+   ],
+   "tags": [
+    "战国",
+    "荆轲刺秦",
+    "燕太子丹",
+    "刺客",
+    "易水送别"
+   ]
+  },
+  {
+   "id": "ev-zzbq-xinlingjun-qiefu",
+   "name": "信陵君窃符救赵",
+   "year": -257,
+   "yearEnd": null,
+   "dateText": "公元前257年",
+   "periodId": "cn-warring-states",
+   "category": "conflict",
+   "location": "魏国·赵国",
+   "summary": "秦军围邯郸，魏公子信陵君窃取魏王兵符、矫命夺晋鄙军救赵破秦，展现战国「四公子」养士用士的风范。",
+   "detail": "前257年，秦军围攻赵都邯郸，赵国向魏求救。魏安釐王派大将晋鄙率十万军队救赵，但因秦的恫吓又令晋鄙驻留观望。魏公子信陵君无忌在隐士侯嬴的谋划下，通过魏王宠妃如姬窃得兵符，又命力士朱亥椎杀晋鄙，夺得兵权，选精兵八万救赵。邯郸城下魏楚联军大破秦军，解邯郸之围，秦将郑安平降赵。信陵君窃符救赵后留居赵国，声望极高。他是战国「四公子」中礼贤下士最著名者，门下食客三千，曾因礼遇士人而使秦国十年不敢加兵于魏。「窃符救赵」充分体现了战国士阶层「士为知己者死」的精神与权术谋略的运用。",
+   "importance": 4,
+   "figures": [
+    "fig-zzbq-xinlingjun"
+   ],
+   "tags": [
+    "战国",
+    "信陵君",
+    "窃符救赵",
+    "四公子",
+    "邯郸之战"
+   ]
+  },
+  {
+   "id": "ev-zzbq-wuqifa",
+   "name": "吴起变法",
+   "year": -387,
+   "yearEnd": null,
+   "dateText": "公元前387年",
+   "periodId": "cn-warring-states",
+   "category": "political",
+   "location": "楚国",
+   "summary": "著名军事家吴起在楚国主持变法，明法审令、裁撤冗官、强兵强楚，但变法触犯贵族利益而遭车裂。",
+   "detail": "吴起是战国初期杰出的军事家与政治家，曾仕鲁、魏，以善用兵闻名。前387年楚悼王任用吴起为令尹，主持变法。吴起明法审令，废旧官、裁冗员，减俸禄、厚赏战士，堵塞权门请托，废公族疏远者之特权用来抚养战斗之士，并提出「要在强兵」。变法使楚国在短时期内积弱转强，南平百越、北并陈蔡、西却三晋，威震诸侯。但变法严重损害楚国旧贵族的利益。前381年楚悼王去世，宗室大臣作乱攻吴起，吴起伏在悼王尸体上被箭射死，死后又遭车裂。变法随之中止，楚国错失了变法图强的机会，此后始终未能像秦国那样彻底改革。",
+   "importance": 4,
+   "figures": [],
+   "tags": [
+    "战国",
+    "吴起",
+    "变法",
+    "楚国",
+    "吴起变法"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-chenqiao",
+   "name": "陈桥兵变与北宋建立",
+   "year": 960,
+   "yearEnd": 960,
+   "dateText": "公元960年",
+   "periodId": "cn-song-north",
+   "category": "political",
+   "location": "陈桥驿（今河南封丘）",
+   "summary": "后周殿前都点检赵匡胤在陈桥驿被部下黄袍加身，回师开封代周建宋，终结五代十国的分裂局面。",
+   "detail": "后周世宗柴荣英年早逝，幼主柴宗训即位，主少国疑，禁军将领拥兵自重。960年正月初一，边报契丹与北汉联兵南下，宰相范质等不辨真伪，急遣殿前都点检赵匡胤率军北上御敌。大军行至开封东北的陈桥驿宿营。当夜，其弟赵光义与幕僚赵普等密谋，散布「点检作天子」的谶语。次日清晨，将士鼓噪而起，将黄袍披在赵匡胤身上，山呼万岁，随即回师开封。守将石守信、王审琦等皆为赵匡胤旧部，开门内应。赵匡胤约束军士不得剽掠，入城后逼周恭帝禅位，改国号为宋，定都开封，史称北宋。此后他采纳赵普「先南后北、先易后难」之策，逐一削平荆南、后蜀、南汉、南唐、吴越、北汉等割据政权。为防止重演「黄袍加身」，961年他又以「杯酒释兵权」解除石守信等禁军宿将兵权，把军权收归中央。陈桥兵变以近乎兵不血刃的方式完成王朝更替，被视为五代十国乱世的终点与宋代文治的开端。",
+   "importance": 5,
+   "figures": [
+    "fig-zhao-kuangyin"
+   ],
+   "tags": [
+    "北宋",
+    "兵变",
+    "赵匡胤",
+    "五代十国",
+    "王朝更替"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-hongjin",
+   "name": "红巾军起义",
+   "year": 1351,
+   "yearEnd": 1368,
+   "dateText": "公元1351年－公元1368年",
+   "periodId": "cn-yuan-late",
+   "category": "conflict",
+   "location": "颍州（今安徽阜阳）等地",
+   "summary": "元末韩山童、刘福通以白莲教组织民众起义，义军头裹红巾，席卷南北，最终由朱元璋推翻元朝。",
+   "detail": "元朝末年，政治腐败，赋役沉重，黄河屡次决口，至正年间又逢大疫与大饥荒。朝廷强征十五万民夫治理黄河，民怨沸腾。1351年，白莲教首领韩山童、刘福通在颍州预埋独眼石人，散布「石人一只眼，挑动黄河天下反」的童谣，聚众起义。义军头裹红巾为号，故称红巾军，又称香军。韩山童不久被捕杀，刘福通继续领导，拥立韩山童之子韩林儿为「小明王」，建号「宋」，年号龙凤。红巾军迅速发展为多支：北方有刘福通部，南方有徐寿辉、彭莹玉部，此外还有张士诚、方国珍等割据势力。元廷调集察罕帖木儿、扩廓帖木儿等军镇压，红巾军几度受挫，刘福通战死。朱元璋原为郭子兴部将，后自立门户，以应天府（南京）为中心，采纳朱升「高筑墙、广积粮、缓称王」之策，逐步壮大。1368年，朱元璋在应天称帝，国号大明，同年北伐攻克大都，元顺帝北遁，元朝灭亡。红巾军起义是元末社会矛盾总爆发的产物，它摧毁了元朝统治，也为明朝的建立铺平了道路。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq2-liufutong",
+    "fig-zhu-yuanzhang",
+    "fig-temujin"
+   ],
+   "tags": [
+    "元末",
+    "农民起义",
+    "白莲教",
+    "红巾军",
+    "朱元璋"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-jingnan",
+   "name": "靖难之役",
+   "year": 1399,
+   "yearEnd": 1402,
+   "dateText": "公元1399年－公元1402年",
+   "periodId": "cn-ming-early",
+   "category": "conflict",
+   "location": "北平、山东、南京等地",
+   "summary": "燕王朱棣以「清君侧」为名起兵，历时四年击败建文帝，夺取皇位，是为明成祖。",
+   "detail": "明太祖朱元璋分封诸子为王，镇守要地，其中第四子燕王朱棣就藩北平，拥兵十万，屡次北征蒙古，战功卓著。1398年朱元璋去世，皇太孙朱允炆即位，是为建文帝。建文帝与齐泰、黄子澄等谋削藩，先后废周、湘、齐、代、岷五王。1399年，朱棣以「朝无正臣，内有奸恶」为辞，援引《皇明祖训》「清君侧」之义，在北平起兵，自称「靖难」，史称靖难之役。战争初期，朱棣以少胜多，在真定、白沟河等战役中击溃南军主力。建文帝一方先以老将耿炳文挂帅，后改用李景隆，屡战屡败。1400年东昌之战，朱棣被盛庸击败，险些被俘，但南军未能乘胜追击。1402年，朱棣采纳姚广孝之策，避开山东防线，长驱直入，渡江攻占南京。建文帝下落不明，宫中起火，一说自焚而死，一说逃亡为僧。朱棣即位，是为明成祖，改元永乐。他大肆诛杀建文旧臣，方孝孺因拒绝草诏被诛十族，景清、铁铉等亦遭惨祸。靖难之役以藩王武力夺位告终，改变了明初的政治格局，也促使朱棣迁都北京、设立内阁、派遣郑和下西洋，开启永乐盛世。",
+   "importance": 5,
+   "figures": [
+    "fig-zhu-di",
+    "fig-zzbq2-zhuyunwen",
+    "fig-zzbq2-fangxiaoru",
+    "fig-zheng-he"
+   ],
+   "tags": [
+    "明朝",
+    "藩王",
+    "靖难",
+    "朱棣",
+    "建文帝",
+    "永乐"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-mingmo",
+   "name": "明末农民大起义",
+   "year": 1628,
+   "yearEnd": 1644,
+   "dateText": "公元1628年－公元1644年",
+   "periodId": "cn-ming-late",
+   "category": "conflict",
+   "location": "陕西、河南、湖北、北京等地",
+   "summary": "明末天灾人祸交加，李自成、张献忠等揭竿而起，最终李自成攻入北京，明朝灭亡。",
+   "detail": "明朝末年，政治极度腐败，魏忠贤阉党专权之后党争不已，辽东战事耗饷巨大。朝廷加派辽饷、剿饷、练饷，农民负担空前沉重。与此同时，陕西等地连续多年大旱、蝗灾、瘟疫，「人相食」的记载不绝于书。1628年，陕西爆发大规模民变，王二、高迎祥等率先起事。高迎祥自称「闯王」，转战陕、晋、豫等地，1636年被俘就义，其部众推李自成为「闯王」。李自成提出「均田免赋」的口号，所到之处开仓放粮，民间传唱「迎闯王，不纳粮」，队伍迅速扩大到百万之众。张献忠则活动于湖北、四川一带，建立大西政权。1644年正月，李自成在西安称帝，国号大顺，随即东渡黄河，经山西攻入北京。三月十九日，崇祯帝在煤山自缢，明朝灭亡。然而李自成未能稳固政权，吴三桂引清军入关，李自成于山海关一片石之战大败，退出北京，后在湖北九宫山遇害。张献忠在四川建立大西政权，1646年与清军作战时中箭身亡。明末农民大起义推翻了腐朽的明朝，却未能建立稳固的新秩序，最终为清朝入主中原创造了条件。",
+   "importance": 5,
+   "figures": [
+    "fig-li-zicheng",
+    "fig-zzbq2-zhangxianzhong",
+    "fig-wu-sangui"
+   ],
+   "tags": [
+    "明末",
+    "农民起义",
+    "李自成",
+    "张献忠",
+    "均田免赋"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-yihetuan",
+   "name": "义和团运动与八国联军侵华",
+   "year": 1899,
+   "yearEnd": 1901,
+   "dateText": "公元1899年－公元1901年",
+   "periodId": "cn-qing-late",
+   "category": "conflict",
+   "location": "山东、直隶、北京、天津等地",
+   "summary": "义和团以「扶清灭洋」为号兴起，引发八国联军侵华，清廷战败签订《辛丑条约》，中国半殖民地化程度空前加深。",
+   "detail": "甲午战后，列强掀起瓜分中国的狂潮，教会势力深入乡村，民教冲突频发。19世纪末，山东、直隶一带的民间秘密结社义和拳逐渐活跃，后改称义和团，提出「扶清灭洋」的口号，攻击教堂、拆毁铁路电线，驱杀洋人与教民。1899年，山东巡抚毓贤对义和团采取安抚政策，义和团迅速蔓延至直隶。1900年，义和团大批涌入北京、天津，围攻东交民巷使馆区与西什库教堂。慈禧太后因戊戌政变后与列强结怨，又误信义和团「刀枪不入」之说，于6月21日下诏对各国宣战。英、美、德、法、俄、日、意、奥八国组成联军，由天津登陆，攻陷大沽炮台，7月攻占天津，8月攻入北京。慈禧携光绪帝仓皇西逃西安。八国联军在北京大肆烧杀抢掠，圆明园再遭劫掠。1901年，清廷被迫与十一国签订《辛丑条约》，赔款白银四亿五千万两（史称「庚子赔款」），划定使馆区，拆除大沽炮台，允许列强驻兵北京至山海关沿线。义和团运动以「灭洋」为诉求却招致更深的民族灾难，标志着清廷「天朝上国」幻想的彻底破灭，也客观上阻止了列强直接瓜分中国的企图。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq2-cixi",
+    "fig-zzbq2-guangxu",
+    "fig-li-hongzhang"
+   ],
+   "tags": [
+    "清末",
+    "义和团",
+    "八国联军",
+    "辛丑条约",
+    "庚子赔款"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-nanchang",
+   "name": "南昌起义",
+   "year": 1927,
+   "yearEnd": 1927,
+   "dateText": "公元1927年8月1日",
+   "periodId": "cn-modern",
+   "category": "conflict",
+   "location": "江西南昌",
+   "summary": "中国共产党在南昌发动武装起义，打响了武装反抗国民党反动派的第一枪，是中共独立领导武装斗争与创建人民军队的开端。",
+   "detail": "1927年，国共合作破裂。4月12日蒋介石在上海发动政变，7月15日汪精卫在武汉「分共」，大革命失败。中共中央决定在南昌发动武装起义，成立以周恩来为书记的前敌委员会。起义原定7月30日举行，因张国焘的阻挠而推迟。8月1日凌晨，起义部队在周恩来、贺龙、叶挺、朱德、刘伯承等指挥下，向南昌城内国民党守军发起进攻，经过四个多小时激战，占领南昌全城。起义部队沿用「国民革命军第二方面军」番号，共两万余人。随后起义军按原定计划南下广东，意图夺取海口、重建革命根据地，但在潮汕地区遭到优势敌军围攻而失败。保存下来的部队一部分由朱德、陈毅率领，经赣南、粤北转战至湘南，1928年与毛泽东领导的秋收起义部队在井冈山会师，组成中国工农红军第四军。南昌起义标志着中国共产党独立领导革命战争、创建人民军队的开始，8月1日后来被定为中国人民解放军建军节。",
+   "importance": 5,
+   "figures": [
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-zzbq2-yeting",
+    "fig-zzbq2-helong",
+    "fig-mao-zedong",
+    "fig-liu-bocheng"
+   ],
+   "tags": [
+    "南昌起义",
+    "建军",
+    "周恩来",
+    "朱德",
+    "八一"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-changzheng",
+   "name": "红军长征",
+   "year": 1934,
+   "yearEnd": 1936,
+   "dateText": "公元1934年－公元1936年",
+   "periodId": "cn-modern",
+   "category": "conflict",
+   "location": "江西、贵州、四川、甘肃、陕西等地",
+   "summary": "中央红军因第五次反「围剿」失败被迫战略转移，历时两年、行程二万五千里，最终到达陕北，是中国革命转危为安的关键。",
+   "detail": "1933年秋，蒋介石调集百万大军对中央苏区发动第五次「围剿」。由于王明「左」倾教条主义路线的错误指挥，红军放弃运动战，与装备精良的敌军打阵地战，损失惨重。1934年10月，中央红军主力八万六千人从江西瑞金等地出发，开始战略转移，长征由此开始。长征初期，红军一度损失惨重，湘江战役后由八万余人锐减至三万余人。1935年1月，中共中央在遵义召开政治局扩大会议，纠正了「左」倾军事错误，确立了毛泽东在党和红军中的领导地位，成为中国革命的转折点。此后红军四渡赤水、巧渡金沙江、强渡大渡河、飞夺泸定桥、翻越夹金山、走过草地，于1935年10月到达陕北吴起镇，与红十五军团会师。1936年10月，红一、二、四方面军在甘肃会宁、静宁将台堡会师，长征胜利结束。长征跨越十余省，翻越十八座大山，渡过二十四条大河，行程约二万五千里，保存了中国革命的核心力量，铸就了伟大的长征精神。",
+   "importance": 5,
+   "figures": [
+    "fig-mao-zedong",
+    "fig-zzbq2-zhude",
+    "fig-zhou-enlai",
+    "fig-zzbq2-yejianying"
+   ],
+   "tags": [
+    "长征",
+    "红军",
+    "遵义会议",
+    "毛泽东",
+    "陕北"
+   ]
+  },
+  {
+   "id": "ev-zzbq2-zunyi",
+   "name": "遵义会议",
+   "year": 1935,
+   "yearEnd": 1935,
+   "dateText": "公元1935年1月",
+   "periodId": "cn-modern",
+   "category": "political",
+   "location": "贵州遵义",
+   "summary": "中共中央政治局扩大会议在遵义召开，纠正「左」倾军事路线，确立毛泽东的领导地位，是中共历史上生死攸关的转折点。",
+   "detail": "长征初期，红军在「左」倾教条主义指挥下屡遭挫折，湘江战役后兵力从八万余人减至三万余人，全军上下对错误的军事路线强烈不满。1935年1月15日至17日，中共中央政治局扩大会议在贵州遵义召开，出席会议的有博古、周恩来、张闻天、毛泽东、朱德、陈云、王稼祥、刘少奇、刘伯承、彭德怀、聂荣臻、邓小平、李德（共产国际军事顾问）等二十人。会议集中批评了博古、李德在第五次反「围剿」和长征初期的军事指挥错误，通过了《中共中央关于反对敌人五次「围剿」的总结的决议》。会议改组了中央领导机构，推选毛泽东为政治局常委，取消博古、李德的最高军事指挥权，仍由朱德、周恩来负责军事指挥，周恩来为党内委托的对于指挥军事上下最后决心的负责者。会后不久，成立了由毛泽东、周恩来、王稼祥组成的三人军事指挥小组。遵义会议结束了王明「左」倾教条主义在中共中央的统治，确立了以毛泽东为代表的马克思主义正确路线在党中央的领导地位，在极端危急的历史关头挽救了党、挽救了红军、挽救了中国革命。",
+   "importance": 5,
+   "figures": [
+    "fig-mao-zedong",
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-chen-yi",
+    "fig-liu-shaoqi",
+    "fig-liu-bocheng",
+    "fig-peng-dehuai",
+    "fig-deng-xiaoping"
+   ],
+   "tags": [
+    "遵义会议",
+    "长征",
+    "毛泽东",
+    "转折点"
+   ]
+  },
+  {
+   "id": "ev-zzbq3-julu",
+   "name": "巨鹿之战",
+   "year": -207,
+   "yearEnd": -207,
+   "dateText": "公元前207年",
+   "periodId": "cn-qin",
+   "category": "conflict",
+   "location": "巨鹿（今河北平乡）",
+   "summary": "项羽率楚军破釜沉舟，以少胜多大破秦军主力，成为秦朝灭亡的决定性战役。",
+   "detail": "陈胜吴广起义后，六国旧贵族纷纷复国。秦将章邯率军先后击灭陈胜、项梁，又北上围攻赵国，赵王歇与张耳退守巨鹿，向各路反秦武装求救。楚怀王命宋义为上将军、项羽为次将北上救赵。宋义行至安阳，屯兵四十六日不进，欲坐观秦赵相斗。项羽怒杀宋义，夺取兵权，率两万楚军渡漳水。渡河之后，项羽下令凿沉船只、砸破炊具、烧毁营舍，每人只带三日口粮，以示必死之心，史称「破釜沉舟」。楚军以雷霆之势直扑巨鹿，九战九捷，断绝秦军甬道，大破章邯部将王离的军队，王离被俘，苏角被杀。当时诸侯援军十余壁皆作壁上观，见楚军以一当十、喊声动天，无不震恐。战后项羽召见诸侯将领，众将入辕门皆膝行而前，莫敢仰视，项羽由此成为诸侯上将军。章邯率余部二十万投降，后被项羽坑杀于新安。巨鹿之战摧毁了秦军的主力，秦朝的覆亡已不可挽回，项羽也由此确立了反秦联军的领导地位。",
+   "importance": 5,
+   "figures": [
+    "fig-xiang-yu",
+    "fig-zhang-liang",
+    "fig-chen-sheng",
+    "fig-wu-guang"
+   ],
+   "tags": [
+    "秦末",
+    "巨鹿之战",
+    "项羽",
+    "破釜沉舟",
+    "章邯"
+   ]
+  },
+  {
+   "id": "ev-zzbq3-xiongnu",
+   "name": "卫青霍去病北击匈奴",
+   "year": -127,
+   "yearEnd": -119,
+   "dateText": "公元前127年－公元前119年",
+   "periodId": "cn-han-west",
+   "category": "conflict",
+   "location": "河套、河西走廊、漠北",
+   "summary": "汉武帝任用卫青、霍去病大举反击匈奴，收复河套、打通河西走廊，漠北决战重创匈奴主力，扭转汉匈攻守之势。",
+   "detail": "汉初以来，匈奴屡次南下侵扰，汉朝长期以和亲、纳贡求安。汉武帝即位后，国力强盛，决心反击。前127年，卫青率军出云中，西进至高阙，击败匈奴白羊王、楼烦王，收复河南地（河套地区），设朔方郡，解除了匈奴对长安的直接威胁。前121年，霍去病率军两次出陇西，转战河西走廊，歼灭匈奴休屠王、浑邪王部众数万，浑邪王率四万余众降汉，汉朝设置武威、酒泉、张掖、敦煌四郡，打通了通往西域的道路。前119年，汉武帝发动漠北决战，卫青、霍去病各率五万骑兵分道北击。卫青出定襄，穿越大漠，击溃匈奴单于主力；霍去病出代郡，深入两千余里，大破左贤王部，封狼居胥山而还。此役匈奴损失惨重，远遁漠北，「漠南无王庭」。卫青、霍去病以卓越的骑兵战术和长途奔袭能力著称，成为中国古代抗击游牧民族的名将典范。此后汉朝在河西走廊屯田设郡，丝绸之路得以畅通。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq3-weiqing",
+    "fig-zzbq3-huoqubing",
+    "fig-han-wudi"
+   ],
+   "tags": [
+    "西汉",
+    "匈奴",
+    "卫青",
+    "霍去病",
+    "漠北之战",
+    "河西走廊"
+   ]
+  },
+  {
+   "id": "ev-zzbq3-zhaojun",
+   "name": "昭君出塞",
+   "year": -33,
+   "yearEnd": -33,
+   "dateText": "公元前33年",
+   "periodId": "cn-han-west",
+   "category": "treaty",
+   "location": "长安、漠北",
+   "summary": "汉元帝时宫女王昭君自愿远嫁匈奴呼韩邪单于，换取汉匈半个多世纪的和平，成为民族和睦的千古典范。",
+   "detail": "汉宣帝时，匈奴分裂为五部，相互攻伐。呼韩邪单于为求自保，于前51年归附汉朝，南迁至漠南。前33年，呼韩邪单于入朝觐见汉元帝，自请为汉朝女婿，以结永好。汉元帝下诏征召宫女，宫女王嫱（字昭君）自愿请行。传说昭君因不肯贿赂画工毛延寿，画像被丑化，故久居宫中不得见幸；临行时元帝方见其美貌，悔之不及。昭君随呼韩邪单于出塞，被封为「宁胡阏氏」，生一子。呼韩邪死后，依匈奴「收继婚」之俗，昭君上书汉廷请求归国，汉成帝命其「从胡俗」，遂再嫁呼韩邪长子复株累单于，又生二女。昭君出塞后，汉匈之间维持了约六十年的和平局面，「边城晏闭，牛马布野，三世无犬吠之警，黎庶无干戈之役」。昭君出塞成为后世诗歌、戏曲、绘画反复吟咏的题材，王昭君也被视为民族友好与和平的象征。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq3-wangzhaojun"
+   ],
+   "tags": [
+    "西汉",
+    "匈奴",
+    "昭君出塞",
+    "和亲",
+    "民族关系"
+   ]
+  },
+  {
+   "id": "ev-zzbq3-suwu",
+   "name": "苏武牧羊",
+   "year": -100,
+   "yearEnd": -81,
+   "dateText": "公元前100年－公元前81年",
+   "periodId": "cn-han-west",
+   "category": "political",
+   "location": "北海（今贝加尔湖）",
+   "summary": "汉使苏武出使匈奴被扣，持节牧羊十九年不改汉节，成为中华民族坚贞气节的象征。",
+   "detail": "汉武帝天汉元年（前100年），中郎将苏武奉使匈奴，送还此前扣留的匈奴使者，并携带厚礼。因副使张胜卷入匈奴内部的谋反事件，苏武一行被扣留。单于派卫律劝降，许以高官厚禄，苏武严词拒绝，拔刀自刺，气绝半日方苏。单于敬佩其气节，将其幽禁于地窖，断绝饮食，苏武啮雪吞毡，得以不死。单于又将其放逐至北海（今贝加尔湖）牧羊，声称「公羊产子乃得归」。苏武持汉节牧羊，卧起操持，节旄尽落。其在匈奴十九年，历尽艰辛，始终不改汉节。汉昭帝时，汉匈和亲，汉朝遣使寻访苏武，匈奴谎称其已死，后汉使得知实情，以「天子射上林得雁，足有系帛书」为由，迫使单于放还。前81年，苏武白发苍苍返回长安，长安百姓夹道迎接。苏武牧羊的故事成为中华民族坚贞不屈、忠贞报国精神的象征，「苏武节」也成为气节的代名词。",
+   "importance": 4,
+   "figures": [
+    "fig-su-wu",
+    "fig-han-wudi"
+   ],
+   "tags": [
+    "西汉",
+    "匈奴",
+    "苏武",
+    "气节",
+    "外交"
+   ]
+  },
+  {
+   "id": "ev-zzbq3-mibing",
+   "name": "弭兵之会",
+   "year": -546,
+   "yearEnd": -546,
+   "dateText": "公元前546年（另前579年）",
+   "periodId": "cn-spring-autumn",
+   "category": "treaty",
+   "location": "宋国",
+   "summary": "宋国大夫向戌促成的晋楚及各国弭兵会盟，承认晋楚并霸，使中原获得数十年相对和平。",
+   "detail": "春秋中期，晋楚两国长期争霸，中原小国疲于奔命，朝晋暮楚，饱受战乱之苦。前579年，宋国大夫华元曾促成晋楚第一次弭兵之会，但不久因楚国背盟而破裂。前546年，宋国大夫向戌再度奔走于晋、楚、齐、秦之间，倡议弭兵。同年夏，晋、楚、齐、秦、宋、鲁、卫、郑、陈、蔡、许、曹、邾、滕等十四国在宋国举行会盟。会上，楚国代表请求先歃血，晋国大夫赵武让步，楚国得以主盟。会议约定：晋楚之从交相见，即原本跟随晋国或楚国的中原小国，须同时向晋楚两国朝贡；齐、秦作为大国，不在此列。弭兵之会后，晋楚之间维持了约四十年的休战局面，中原得以喘息，但由于小国需同时朝贡两国，负担反而加重。弭兵之会是春秋时代由「争霸」走向「弭兵」的重要标志，为后来战国时代的格局演变埋下伏笔。",
+   "importance": 4,
+   "figures": [
+    "fig-zzbq3-xiangxu"
+   ],
+   "tags": [
+    "春秋",
+    "弭兵之会",
+    "晋楚争霸",
+    "外交会盟"
    ]
   },
   {
@@ -9986,7 +10536,9 @@
    "category": "cultural",
    "importance": 5,
    "detail": "1919年5月4日，北京学生三千余人齐集天安门，抗议巴黎和会将德国在山东的权益转交日本，运动迅速扩展至全国。这场运动的发生有其国际与国内的双重背景。1919年巴黎和会上中国虽作为战胜国参会，却因北洋政府外交能力的软弱与列强的强权政治，最终接受将德国在山东的权益转让给日本的决议，中国作为战败国蒙受奇耻。消息传回国内，激起举国愤怒，而北洋政府却试图以「接受专使回京」淡化处理，更激起普遍不满。五月四日，北京大学等校学生三千余人齐集天安门，散发传单，宣读宣言，呼吁「外争主权，内除国贼」「拒绝在和约上签字」。运动很快扩展至上海、广州、武汉、天津等地，6月5日上海工人罢工、商人罢市，工人阶级第一次以独立的姿态登上政治舞台，运动由学生扩展为全民参与。运动迫使北洋政府释放被捕学生，罢免曹汝霖、章宗祥、陆宗舆三人职务，6月28日中国代表最终拒绝在对德和约上签字。运动还推动了马克思主义在中国的传播：《新青年》出版「马克思研究」专号，李大钊发表《我的马克思主义观》，共产主义小组在北京成立。五四运动是中国新民主主义革命的开端，旧民主主义革命的结束与新民主主义革命的兴起在此完成转折，它所唤起的社会参与方式与思想解放，也为此后中国革命与思想转型奠定了基础。",
-   "figures": []
+   "figures": [
+    "fig-zzbq2-lidazhao"
+   ]
   },
   {
    "id": "ev-modern-communist-party",
@@ -10327,7 +10879,9 @@
    "detail": "戊戌变法发生于公元1898年，是清后期制度变革中的一次重要尝试。改革的出发点在于解决当时最为突出的制度性弊病，措施触及官僚考核、赋役征收、土地关系与社会治理等具体环节。推行之初往往阻力不大，但触动既得利益之后，来自不同方向的抵触随之出现；其中一部分主张在实践中得到了修正与延续，另一部分则因触及深层矛盾而难以推行。改革的成效需要相当长的时间才能显现。它是否被后世继承、是否被修正、是否最终偏离初衷，往往取决于其推行者能否在后续的博弈中维持住制度上的既得安排。",
    "figures": [
     "fig-liang-qichao",
-    "fig-kang-youwei"
+    "fig-kang-youwei",
+    "fig-zzbq2-cixi",
+    "fig-zzbq2-guangxu"
    ]
   },
   {
@@ -12793,6 +13347,8 @@
     "fig-kongzi",
     "fig-guan-zhong",
     "fig-mozi",
+    "fig-zzbq-zhaowuling",
+    "fig-zzbq-wuzixu",
     "fig-han-xin"
    ],
    "tags": [
@@ -13124,7 +13680,8 @@
    ],
    "relatedEvents": [
     "ev-zhou-changpeng",
-    "ev-zhou-liujiu"
+    "ev-zhou-liujiu",
+    "ev-zzbq-sanjia-fenjin"
    ],
    "relatedFigures": [
     "fig-jin-wengong",
@@ -13556,11 +14113,11 @@
     "fig-zouji",
     "fig-qi-weiwang",
     "fig-mencius",
+    "fig-zzbq-zhaowuling",
+    "fig-zzbq-weiwenhou",
     "fig-qin-shi-huang",
     "fig-li-si",
-    "fig-zhao-gao",
-    "fig-han-feizi",
-    "fig-su-qin"
+    "fig-zhao-gao"
    ],
    "tags": [
     "战国",
@@ -13608,6 +14165,8 @@
     "fig-zouji",
     "fig-qi-weiwang",
     "fig-xunzi",
+    "fig-zzbq-weiwenhou",
+    "fig-zzbq-zhaowuling",
     "fig-han-feizi"
    ],
    "tags": [
@@ -13652,7 +14211,9 @@
     "fig-shang-yang",
     "fig-liqin",
     "fig-kongzi",
-    "fig-qin-shao-gong"
+    "fig-qin-shao-gong",
+    "fig-zzbq-weiwenhou",
+    "fig-zzbq-zhaowuling"
    ],
    "tags": [
     "战国",
@@ -13835,6 +14396,7 @@
    ],
    "relatedEvents": [
     "ev-qin-chensheng",
+    "ev-zzbq3-julu",
     "ev-qin-fall"
    ],
    "relatedFigures": [
@@ -13973,7 +14535,8 @@
    "relatedEvents": [
     "ev-zhou-fall",
     "ev-zhou-warring-states",
-    "ev-zhou-changping"
+    "ev-zhou-changping",
+    "ev-zzbq-quyuan-toujiang"
    ],
    "relatedFigures": [
     "fig-wang-jian",
@@ -13983,6 +14546,8 @@
     "fig-zhao-kuo",
     "fig-mencius",
     "fig-qin-shi-huang",
+    "fig-zzbq-zhaowuling",
+    "fig-zzbq-quyuan",
     "fig-zhang-han",
     "fig-han-xin"
    ],
@@ -14183,7 +14748,8 @@
    "relatedEvents": [
     "ev-qin-chensheng",
     "ev-qin-fall",
-    "ev-qin-er-shi"
+    "ev-qin-er-shi",
+    "ev-zzbq3-julu"
    ],
    "relatedFigures": [
     "fig-wu-guang",
@@ -14389,7 +14955,9 @@
     "ev-han-yuefu",
     "ev-han-bagua",
     "ev-han-lichun",
+    "ev-zzbq3-xiongnu",
     "ev-han-sima-qian",
+    "ev-zzbq3-suwu",
     "ev-han-wenjing",
     "ev-han-chimei"
    ],
@@ -14405,7 +14973,7 @@
     "fig-liu-ying",
     "fig-kong-ju-dasha",
     "fig-sima-xiangru",
-    "fig-ban-gu"
+    "fig-zzbq3-weiqing"
    ],
    "tags": [
     "西汉",
@@ -20053,6 +20621,7 @@
    "relatedEvents": [
     "ev-qing-yangwu",
     "ev-qing-jiawu",
+    "ev-zzbq2-yihetuan",
     "ev-qing-taiping"
    ],
    "relatedFigures": [
@@ -20060,6 +20629,8 @@
     "fig-zuo-zongtang",
     "fig-zhang-zhidong",
     "fig-lin-zexu",
+    "fig-zzbq2-cixi",
+    "fig-zzbq2-guangxu",
     "fig-zhan-tianyou"
    ],
    "tags": [
@@ -20112,6 +20683,8 @@
     "fig-chen-duxiu",
     "fig-zhang-taiyan",
     "fig-yuan-shikai",
+    "fig-zzbq2-cixi",
+    "fig-zzbq2-guangxu",
     "fig-zhang-zhidong",
     "fig-hu-shi"
    ],
@@ -20420,7 +20993,8 @@
    "quotes": [],
    "relatedEvents": [
     "ev-ming-yongle",
-    "ev-ming-zhenghe"
+    "ev-ming-zhenghe",
+    "ev-zzbq2-jingnan"
    ],
    "relatedFigures": [
     "fig-zhu-di",
@@ -20626,7 +21200,8 @@
     "fig-hu-shi",
     "fig-mao-zedong",
     "fig-liang-qichao",
-    "fig-luxun-writer"
+    "fig-luxun-writer",
+    "fig-zzbq2-lidazhao"
    ],
    "tags": [
     "近代",
@@ -20677,8 +21252,13 @@
     "fig-deng-xiaoping",
     "fig-liu-shaoqi",
     "fig-lin-biao",
-    "fig-qian-xuesen",
-    "fig-liu-bocheng"
+    "fig-zzbq2-zhude",
+    "fig-zzbq2-yejianying",
+    "fig-zzbq2-yeting",
+    "fig-zzbq2-helong",
+    "fig-liu-bocheng",
+    "fig-chen-yi",
+    "fig-peng-dehuai"
    ],
    "tags": [
     "现代",
@@ -20724,7 +21304,11 @@
    "relatedFigures": [
     "fig-zhou-enlai",
     "fig-liu-shaoqi",
-    "fig-deng-xiaoping"
+    "fig-deng-xiaoping",
+    "fig-mao-zedong",
+    "fig-zzbq2-zhude",
+    "fig-liu-bocheng",
+    "fig-peng-dehuai"
    ],
    "tags": [
     "现代",
@@ -21023,6 +21607,8 @@
     "fig-sima-qian",
     "fig-liu-bang",
     "fig-mou-dang",
+    "fig-zzbq3-weiqing",
+    "fig-zzbq3-huoqubing",
     "fig-han-zhaodi",
     "fig-han-west-zhu-fu-jian"
    ],
@@ -21120,7 +21706,8 @@
     "ev-han-wudi",
     "ev-han-bagua",
     "ev-han-wenjing",
-    "ev-han-zhangqian"
+    "ev-han-zhangqian",
+    "ev-zzbq3-zhaojun"
    ],
    "relatedFigures": [
     "fig-han-wudi",
@@ -22628,7 +23215,9 @@
     "fig-sun-tzu",
     "fig-bai-qi",
     "fig-zhang-liang",
-    "fig-han-east-fan-pang"
+    "fig-han-east-fan-pang",
+    "fig-zzbq3-zhangliang",
+    "fig-zzbq3-xiaohe"
    ],
    "tags": [
     "西汉",
@@ -22666,10 +23255,13 @@
    ],
    "relatedEvents": [
     "ev-ming-zhenghe",
+    "ev-zzbq2-jingnan",
     "ev-ming-yongle"
    ],
    "relatedFigures": [
-    "fig-zhu-di"
+    "fig-zhu-di",
+    "fig-zzbq2-zhuyunwen",
+    "fig-zzbq2-fangxiaoru"
    ],
    "tags": [
     "明朝",
@@ -22910,6 +23502,7 @@
    ],
    "relatedEvents": [
     "ev-ming-fall",
+    "ev-zzbq2-mingmo",
     "ev-ming-chongzhen",
     "ev-ming-liaodong"
    ],
@@ -22918,6 +23511,7 @@
     "fig-chongzhen",
     "fig-kangxi",
     "fig-duo-er-dung",
+    "fig-zzbq2-zhangxianzhong",
     "fig-nurhaci",
     "fig-xizong"
    ],
@@ -22956,12 +23550,14 @@
    ],
    "relatedEvents": [
     "ev-ming-fall",
-    "ev-ming-chongzhen"
+    "ev-ming-chongzhen",
+    "ev-zzbq2-mingmo"
    ],
    "relatedFigures": [
     "fig-wu-sangui",
     "fig-chongzhen",
     "fig-huang-taiji",
+    "fig-zzbq2-zhangxianzhong",
     "fig-duo-er-dung"
    ],
    "tags": [
@@ -23007,7 +23603,8 @@
     "fig-li-zicheng",
     "fig-wu-sangui",
     "fig-huang-taiji",
-    "fig-wanli"
+    "fig-wanli",
+    "fig-zzbq2-zhangxianzhong"
    ],
    "tags": [
     "明末",
@@ -23053,7 +23650,8 @@
     "fig-huang-taiji",
     "fig-duo-er-dung",
     "fig-wu-sangui",
-    "fig-xizong"
+    "fig-xizong",
+    "fig-zzbq2-kangxi"
    ],
    "tags": [
     "清",
@@ -23098,7 +23696,9 @@
     "fig-nurhaci",
     "fig-duo-er-dung",
     "fig-li-zicheng",
-    "fig-chongzhen"
+    "fig-chongzhen",
+    "fig-zzbq2-zhangxianzhong",
+    "fig-zzbq2-kangxi"
    ],
    "tags": [
     "清",
@@ -23189,6 +23789,7 @@
     "fig-qianlong",
     "fig-wu-sangui",
     "fig-li-zongren",
+    "fig-zzbq2-kangxi",
     "fig-suo-shi"
    ],
    "tags": [
@@ -23593,7 +24194,9 @@
     "ev-qing-jiawu"
    ],
    "relatedFigures": [
-    "fig-liang-qichao"
+    "fig-liang-qichao",
+    "fig-zzbq2-cixi",
+    "fig-zzbq2-guangxu"
    ],
    "tags": [
     "晚清",
@@ -23855,7 +24458,10 @@
     "fig-dong-bi-wu",
     "fig-liu-bocheng",
     "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
     "fig-chen-yi",
+    "fig-peng-dehuai",
+    "fig-deng-xiaoping",
     "fig-zhang-taiyan",
     "fig-sun-yat-sen"
    ],
@@ -23903,7 +24509,12 @@
     "fig-peng-dehuai",
     "fig-lin-biao",
     "fig-mao-zedong",
-    "fig-deng-xiaoping"
+    "fig-deng-xiaoping",
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-zzbq2-yeting",
+    "fig-zzbq2-helong",
+    "fig-chen-yi"
    ],
    "tags": [
     "现代",
@@ -23945,7 +24556,13 @@
    "relatedFigures": [
     "fig-liu-bocheng",
     "fig-zhang-xueliang",
-    "fig-lin-biao"
+    "fig-lin-biao",
+    "fig-mao-zedong",
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-chen-yi",
+    "fig-liu-shaoqi",
+    "fig-deng-xiaoping"
    ],
    "tags": [
     "现代",
@@ -24116,13 +24733,14 @@
     "fig-liu-shaoqi",
     "fig-zhang-xueliang",
     "fig-wang-yi",
+    "fig-zzbq2-zhude",
+    "fig-zzbq2-yeting",
+    "fig-zzbq2-helong",
+    "fig-zzbq2-yejianying",
+    "fig-liu-bocheng",
     "fig-chen-yi",
-    "fig-wen-jiabao",
-    "fig-xi-jinping",
-    "fig-dong-bi-wu",
-    "fig-li-zongren",
-    "fig-yan-fulong",
-    "fig-sun-yat-sen"
+    "fig-peng-dehuai",
+    "fig-deng-xiaoping"
    ],
    "tags": [
     "现代",
@@ -24974,10 +25592,14 @@
     "治天下惟能用贤而已。"
    ],
    "relatedEvents": [
+    "ev-zzbq2-hongjin",
     "ev-yuan-fall"
    ],
    "relatedFigures": [
-    "fig-zhu-di"
+    "fig-zhu-di",
+    "fig-zzbq2-liufutong",
+    "fig-temujin",
+    "fig-zzbq2-zhuyunwen"
    ],
    "tags": [
     "明朝",
@@ -25021,6 +25643,8 @@
     "fig-zheng-he",
     "fig-xuande",
     "fig-zhu-gao",
+    "fig-zzbq2-zhuyunwen",
+    "fig-zzbq2-fangxiaoru",
     "fig-wang-yangming",
     "fig-zhengde"
    ],
@@ -25062,6 +25686,7 @@
     "选天下之才，为天下之官。"
    ],
    "relatedEvents": [
+    "ev-zzbq2-chenqiao",
     "ev-wudai-song-founding",
     "ev-song-cup-wine"
    ],
@@ -28807,7 +29432,8 @@
    "relatedEvents": [
     "ev-song-song-founding",
     "ev-song-wanyan",
-    "ev-song-liao-chanyuan"
+    "ev-song-liao-chanyuan",
+    "ev-zzbq2-chenqiao"
    ],
    "relatedFigures": [
     "fig-zhao-kuangyin",
@@ -29790,8 +30416,11 @@
    "quotes": [
     "屈节辱命，虽生，何面目以归汉。"
    ],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-zzbq3-suwu"
+   ],
    "relatedFigures": [
+    "fig-han-wudi",
     "fig-chang-hui"
    ],
    "tags": []
@@ -29906,11 +30535,13 @@
     "先国家之急而后私仇也。"
    ],
    "relatedEvents": [
-    "ev-zhou-changping"
+    "ev-zhou-changping",
+    "ev-zzbq-wangbi-guitang"
    ],
    "relatedFigures": [
     "fig-bai-qi",
     "fig-zhao-kuo",
+    "fig-zzbq-linxiangru",
     "fig-wang-jian"
    ],
    "tags": []
@@ -29951,7 +30582,9 @@
     "fig-qi-weiwang",
     "fig-zhang-liang",
     "fig-su-qin",
-    "fig-xunzi"
+    "fig-xunzi",
+    "fig-zzbq-weiwenhou",
+    "fig-zzbq-zhaowuling"
    ],
    "tags": [
     "春秋战国",
@@ -30564,8 +31197,12 @@
     "1405年远征明朝途中病死于讹答剌"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-zzbq2-hongjin"
+   ],
    "relatedFigures": [
+    "fig-zzbq2-liufutong",
+    "fig-zhu-yuanzhang",
     "fig-kublai-khan"
    ],
    "tags": []
@@ -30750,6 +31387,10 @@
     "fig-zhu-rongji",
     "fig-liu-bocheng",
     "fig-mao-zedong",
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-liu-shaoqi",
+    "fig-peng-dehuai",
     "fig-hu-jintao",
     "fig-wen-jiabao"
    ],
@@ -30759,6 +31400,1154 @@
     "邓小平",
     "社会主义市场经济",
     "一国两制"
+   ]
+  },
+  {
+   "id": "fig-zzbq-goujian",
+   "name": "勾践",
+   "alias": "越王勾践",
+   "birthYear": null,
+   "deathYear": -465,
+   "lifeText": "约公元前496年继位，前473年灭吴",
+   "role": "越国国君、春秋末期最后一位霸主",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "越王勾践卧薪尝胆、十年生聚十年教训，最终灭吴称霸，是忍辱负重、发愤图强的千古典范。",
+   "biography": "勾践是春秋末期越国国君。前496年其父允常去世后即位，同年吴王阖闾乘丧伐越，勾践在檇李大败吴军，阖闾伤指而死，临终嘱子夫差报仇。前494年夫差大举攻越，勾践大败于夫椒，仅余五千甲士退保会稽。他采纳文种、范蠡之策，愿委身于吴以求存。勾践入吴为质三年，侍奉夫差，甚至亲自为夫差尝粪验病，表现得极为恭顺，终得放归。返回会稽后，他置胆于座旁，坐卧取视、饮食亦尝，日夜不忘会稽之耻，史称「卧薪尝胆」。在文种、范蠡辅佐下，勾践十年生聚、十年教训：奖励生育、减免赋税、发展农桑、整军经武。前482年趁夫差与晋争霸于黄池之机奇袭吴国；前473年再次伐吴，夫差乞降不成自刎，吴国灭亡。覆灭吴国后勾践北渡淮水、会诸侯于徐州，一时称霸中原，成为春秋最后一位霸主。然越国霸业未能持久，功臣文种被赐剑自杀，范蠡则功成身退、泛舟五湖，后经商致富。勾践「卧薪尝胆」已成民族精神中自强不息的精神符号，影响深远。",
+   "achievements": [
+    "卧薪尝胆十年灭吴复国",
+    "成为春秋末期最后一位霸主",
+    "励精图治使越国由弱转强"
+   ],
+   "quotes": [
+    "汝忘会稽之耻邪"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-goujian-miewu"
+   ],
+   "relatedFigures": [
+    "fig-zzbq-fanli",
+    "fig-zzbq-fuchai",
+    "fig-zzbq-wenzhong"
+   ],
+   "tags": [
+    "春秋",
+    "越国",
+    "卧薪尝胆",
+    "霸主"
+   ]
+  },
+  {
+   "id": "fig-zzbq-fanli",
+   "name": "范蠡",
+   "alias": "陶朱公",
+   "birthYear": null,
+   "deathYear": null,
+   "lifeText": "春秋末期越国大夫",
+   "role": "越国谋臣、后弃官经商、被尊为商圣",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "范蠡辅佐勾践灭吴后功成身退，泛舟五湖经商致富，三散家财，被后世尊为「陶朱公」与商圣。",
+   "biography": "范蠡，字少伯，春秋末期楚国宛（今河南南阳）人，杰出的政治家、军事家与商业家。他与文种一同辅佐越王勾践。勾践兵败会稽后，范蠡主张卑辞厚礼向吴求和，并建议勾践忍辱侍吴。勾践入吴为质期间，范蠡随行不离左右，出谋划策。返国后他与文种一个主内安邦、一个主外强军，协助勾践「十年生聚、十年教训」，最终前473年灭吴称霸。灭吴后，范蠡深知勾践「可与共患难、不可与共乐」，于是功成身退，携西施泛舟五湖，隐居齐国。他在齐国经营农牧渔商，不久积财巨万，齐人闻其贤，欲任以为相，他散尽家财报国家，又到陶地（今山东定陶）定居经商，「候时转物，逐什一之利」，十一年间三致千金，又两次散财济贫，人称「陶朱公」。后世尊他为「商圣」，民间尊财神。其人生「进能治国、退能富家」，堪称千古完人。",
+   "achievements": [
+    "辅佐勾践灭吴称霸",
+    "功成身退后经商致富成巨富",
+    "三散家财济贫，被尊为商圣陶朱公"
+   ],
+   "quotes": [
+    "飞鸟尽，良弓藏；狡兔死，走狗烹",
+    "旱则资舟，水则资车"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-goujian-miewu"
+   ],
+   "relatedFigures": [
+    "fig-zzbq-goujian",
+    "fig-zzbq-wenzhong",
+    "fig-zzbq-fuchai"
+   ],
+   "tags": [
+    "春秋",
+    "越国",
+    "商圣",
+    "陶朱公",
+    "功成身退"
+   ]
+  },
+  {
+   "id": "fig-zzbq-fuchai",
+   "name": "夫差",
+   "alias": "吴王夫差",
+   "birthYear": null,
+   "deathYear": -473,
+   "lifeText": "公元前495年继位，前473年自尽",
+   "role": "吴国国君",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "晋国吴王夫差为报父仇大败越国，后骄纵误国，争霸中原之际被勾践乘虚灭国，前车之鉴。",
+   "biography": "夫差是春秋末期吴国国君，吴王阖闾之子。前496年阖闾伐越兵败伤重而亡，临终嘱夫差勿忘报父仇。夫差即位后置「必毋忘越」于座侧，励精图治，每日命人提醒自己。前494年他在夫椒大败越军，围困会稽，本可灭越，却因勾践卑辞求和而答应，并以「妇人之仁」放虎归山，这为他日后亡国埋下祸根。此后夫差志得意满、骄纵日盛，重用奸臣伯嚭，逼走良臣伍子胥（后赐死），连年北上征伐中原，欲图霸业。前482年他率精锐北上黄池与晋争盟，越王勾践乘其国内空虚奇袭吴都，太子友被俘。夫差争盟后仓皇回师，从此一蹶不振。前473年越军再度大举攻吴，吴都姑苏陷落，夫差乞降不遂，自刎而死，吴国灭亡。夫差的兴亡告诫后世：胜而骄、忘根本、亲谗疏忠，终致亡国，常为后人引为「骄兵必败」的教训。",
+   "achievements": [
+    "为报父仇大败越国",
+    "北上争霸曾使吴国称雄一时",
+    "开凿邗沟、通江淮以利漕运"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq-goujian-miewu"
+   ],
+   "relatedFigures": [
+    "fig-zzbq-goujian",
+    "fig-zzbq-wuzixu",
+    "fig-zzbq-fanli",
+    "fig-zzbq-wenzhong"
+   ],
+   "tags": [
+    "春秋",
+    "吴国",
+    "夫差",
+    "骄兵必败"
+   ]
+  },
+  {
+   "id": "fig-zzbq-linxiangru",
+   "name": "蔺相如",
+   "alias": null,
+   "birthYear": null,
+   "deathYear": null,
+   "lifeText": "战国时期赵国上卿",
+   "role": "赵国上卿、著名政治家",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "蔺相如完璧归赵、渑池挫秦，与廉颇上演将相和，其「先国家之急而后私仇」的精神千古传颂。",
+   "biography": "蔺相如是战国时期赵国著名政治家，本为赵国宦官缪贤的门客。前283年秦昭襄王欲以十五城换赵和氏璧，蔺相如奉命入秦。见秦王无意割城，他机智以大义与性命相争，暗中派人携璧回国，自己甘留秦廷，终使「完璧归赵」。前279年渑池之会上，秦王强令赵王鼓瑟，蔺相如以死相逼秦王击缶，不辱国格。因功劳卓著，赵王拜他为上卿，位在廉颇之上。廉颇自恃战功，扬言要当众羞辱他；蔺相如为上朝避让廉颇，多次称病不朝、望车避匿。其门客以为胆怯，他解释说「吾所以为此者，以先国家之急而后私仇也」。廉颇闻知大受感动，登门负荆请罪，两人结为刎颈之交，同心保卫赵国，史称「将相和」。蔺相如的大局观与宽容智慧，成为中华民族「和衷共济、先公后私」的典范。",
+   "achievements": [
+    "完璧归赵挫败秦国诡计",
+    "渑池之会智勇护国",
+    "识大体促成将相和"
+   ],
+   "quotes": [
+    "吾所以为此者，以先国家之急而后私仇也"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-wangbi-guitang"
+   ],
+   "relatedFigures": [
+    "fig-lian-po"
+   ],
+   "tags": [
+    "战国",
+    "赵国",
+    "完璧归赵",
+    "将相和"
+   ]
+  },
+  {
+   "id": "fig-zzbq-quyuan",
+   "name": "屈原",
+   "alias": "屈平",
+   "birthYear": -340,
+   "deathYear": -278,
+   "lifeText": "约公元前340—前278年",
+   "role": "楚国大夫、中国古代最伟大的诗人之一",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "屈原开创楚辞体，是浪漫主义诗歌的鼻祖，遭谗放逐后自沉汨罗而殉国，爱国精神与端午文化传颂千年。",
+   "biography": "屈原，名平，字原，战国末期楚国人，著名的政治家和文学家，中国浪漫主义文学的奠基人。他出身楚国王族，才华横溢，早年深得楚怀王信任，任左徒，「博闻强志，明于治乱，娴于辞令」，主张对内修明法度、举贤任能，对外联齐抗秦。他主持起草宪令，本想通过改革使楚国强大，却因上官大夫靳尚等的嫉妒陷害而遭怀王疏远。秦相张仪以「献商於之地六百里」为诱饵离间楚齐，楚怀王绝齐亲秦后大败于丹阳、蓝田，屈原也由此进一步失势。顷襄王即位后，屈原又遭令尹子兰与靳尚构陷，被放逐于江南。流放途中，他披发行吟于湘水、汨罗之滨，创作了《离骚》《九歌》《天问》《九章》等光辉诗篇，以瑰丽想象、比兴手法倾诉忠君爱国之志与「上下而求索」的求索精神，开创「楚辞」体，与《诗经》并称中国诗歌的两大源头。前278年，秦将白起攻破郢都，屈原悲愤无望，于五月初五投汨罗江殉国。百姓感其高洁，竞舟相救、投粽入江，遂成端午节俗。屈原「路漫漫其修远兮，吾将上下而求索」「亦余心之所善兮，虽九死其犹未悔」等名句激励千古，被尊为「中华诗祖」，其人格与作品树起了中华民族爱国主义的崇高标杆。",
+   "achievements": [
+    "开创楚辞体与浪漫主义诗歌传统",
+    "作《离骚》《九歌》《天问》等名篇",
+    "与《诗经》并称中国诗歌两大源头",
+    "其人格精神成为端午文化与爱国主义的源头"
+   ],
+   "quotes": [
+    "路漫漫其修远兮，吾将上下而求索",
+    "亦余心之所善兮，虽九死其犹未悔",
+    "举世皆浊我独清，众人皆醉我独醒"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-quyuan-toujiang"
+   ],
+   "relatedFigures": [
+    "fig-bai-qi"
+   ],
+   "tags": [
+    "战国",
+    "屈原",
+    "楚辞",
+    "爱国",
+    "端午"
+   ]
+  },
+  {
+   "id": "fig-zzbq-jingke",
+   "name": "荆轲",
+   "alias": null,
+   "birthYear": null,
+   "deathYear": -227,
+   "lifeText": "战国末期游侠刺客",
+   "role": "刺客、燕国壮士",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "荆轲受燕太子丹之托入秦行刺秦王，图穷匕见而功败垂成，「风萧萧兮易水寒」成为千古绝唱。",
+   "biography": "荆轲是战国末期卫国（一说齐国）人，著名刺客。他好读书击剑、仗义勇为，周游列国后到燕国，与善击筑的高渐离结交，日日痛饮于燕市，酒酣则高渐离击筑、荆轲和歌而泣，旁若无人。秦灭韩、赵后大军压境，燕国危在旦夕，燕太子丹礼聘荆轲入秦行刺秦王政。荆轲提出需携樊於期首级与燕督亢地图以取信秦王，太子丹不忍处死来投的秦将樊於期，荆轲便亲自往说，樊於期自刎献首。前227年荆轲与少年勇士秦舞阳入秦，太子丹在易水边送行，高渐离击筑，荆轲和而歌曰「风萧萧兮易水寒，壮士一去兮不复还」，声泪俱下、悲壮难抑。至咸阳后，献图时「图穷而匕见」，荆轲迅捷持匕刺秦王未中，秦王惊走绕柱，众人慌乱中竟忘了拔剑，后经提醒秦王才拔出长剑斩断荆轲左腿。荆轲倚柱大笑，掷匕不中，骂曰「事所以不成者，乃欲以生劫之，必得约契以报太子也」，遂为秦兵所杀。荆轲之死虽未阻止秦灭燕，但其「明知不可为而为之」的悲壮气节，经司马迁《史记·刺客列传》记载而名垂千古，成为中国文化中侠义与忠勇的精神象征。",
+   "achievements": [
+    "勇赴国难入秦行刺秦王",
+    "留下「易水送别」千古绝唱",
+    "位列中国古代「四大刺客」"
+   ],
+   "quotes": [
+    "风萧萧兮易水寒，壮士一去兮不复还",
+    "事所以不成者，乃欲以生劫之，必得约契以报太子也"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-jingke-ciqin"
+   ],
+   "relatedFigures": [],
+   "tags": [
+    "战国",
+    "刺客",
+    "荆轲",
+    "刺秦"
+   ]
+  },
+  {
+   "id": "fig-zzbq-zhaoxiangzi",
+   "name": "赵襄子",
+   "alias": "赵毋恤",
+   "birthYear": null,
+   "deathYear": -425,
+   "lifeText": "战国初年赵氏家主",
+   "role": "晋国赵氏家主、赵国奠基人",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "赵襄子联合韩、魏在晋阳之战中灭智氏，为后来三家分晋、赵国立国打下根基。",
+   "biography": "赵襄子，名毋恤，晋国正卿赵简子之子，战国时期赵国的实际奠基者。赵简子晚年选择贤能的毋恤为继承人。前453年，晋国的智伯瑶仗着智氏最强，强逼赵、魏、韩三家割地，赵襄子不从，智伯瑶遂率韩、魏联军围困赵氏都邑晋阳。晋阳城坚守两年有余，城内「悬釜而炊、易子而食」，形势危急。赵襄子派亲信谋臣张孟谈乘夜缒城而出，秘密游说韩、魏，晓以唇亡齿寒之理。韩、魏因智伯骄横、早有戒心，遂与赵氏结盟，反戈一击，水淹智军，斩杀智伯瑶，三家共分智地。此后晋国大政尽归赵、魏、韩三家，为前403年周威烈王册命三家为诸侯（三家分晋）铺平了道路。赵襄子以晋阳为基地经营赵氏，其坚忍不拔、善用谋略的形象，使其成为赵氏立国的关键人物，谥号「襄」正体现了其开创之功。",
+   "achievements": [
+    "晋阳保卫战坚守二年击退智氏联军",
+    "联合韩魏共灭智氏"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq-sanjia-fenjin"
+   ],
+   "relatedFigures": [
+    "fig-zzbq-weiwenhou"
+   ],
+   "tags": [
+    "春秋",
+    "赵国",
+    "智伯瑶",
+    "三家分晋"
+   ]
+  },
+  {
+   "id": "fig-zzbq-weiwenhou",
+   "name": "魏文侯",
+   "alias": null,
+   "birthYear": null,
+   "deathYear": -396,
+   "lifeText": "战国初年魏国国君",
+   "role": "魏国开国君主、战国第一位变法图强之君",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "魏文侯礼贤下士、任用李悝变法、乐羊灭中山、吴起强兵，使魏国成为战国初年最强盛的霸主。",
+   "biography": "魏文侯，名斯，战国时期魏国的创立者和第一位有所作为的君主。前403年周威烈王册命魏、赵、韩三家为诸侯，魏国立国，魏文侯即位。他礼贤下士，尊儒者子夏、田子方、段干木为师友，「师卜子夏、友田子方、礼段干木」，虚心求教，贯彻「独乐乐不若与人乐乐」的与民同乐思想。他任用李悝为相，推行变法：废世袭禄位、尽地力、平籴法、颁布《法经》，使魏国法治初立、国力大增。他又任用大将乐羊灭中山国，吴起守西河以拒强秦，西门豹治邺兴修水利、革除河伯娶妇陋俗。在魏文侯治理下，魏国西却强秦、北灭中山、称雄中原，成为战国初年首屈一指的霸主强国，「三晋」之中以魏为最强。魏文侯厉行变革、广纳贤才的作风，为其后商鞅、吴起等变法提供了范式，是「魏国变法图强」的开启者。",
+   "achievements": [
+    "任李悝为相推行变法，魏国率先富强",
+    "任用乐羊灭中山、吴起拒秦、西门豹治邺",
+    "礼贤下士尊儒，战国初期称雄中原"
+   ],
+   "quotes": [
+    "寡人闻之，太子曰「近此一堂，可以行危」"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-sanjia-fenjin",
+    "ev-zhou-bianfa",
+    "ev-zhou-liqin"
+   ],
+   "relatedFigures": [
+    "fig-liqin",
+    "fig-zzbq-zhaoxiangzi",
+    "fig-shang-yang",
+    "fig-qin-shao-gong",
+    "fig-zouji",
+    "fig-qi-weiwang",
+    "fig-zzbq-zhaowuling",
+    "fig-xunzi"
+   ],
+   "tags": [
+    "战国",
+    "魏国",
+    "李悝",
+    "变法",
+    "魏文侯"
+   ]
+  },
+  {
+   "id": "fig-zzbq-zhaowuling",
+   "name": "赵武灵王",
+   "alias": "赵雍",
+   "birthYear": -340,
+   "deathYear": -295,
+   "lifeText": "约公元前340—前295年",
+   "role": "赵国国君、胡服骑射改革者",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "赵武灵王力排众议推行胡服骑射，组建中原最早的骑兵，北灭中山、西却匈奴，使赵国一跃成为军事强国。",
+   "biography": "赵武灵王，名雍，战国时期赵国国君，约前325年即位。他鉴于赵国受北边胡人、楼烦、匈奴与中山国的侵扰，且中原车战兵制渐显陈旧，决心改革军制。前307年他召肥义商议朝政，提出「今吾将胡服骑射以教百姓」，并亲自服胡服、习骑射，以「治世不一道，便国不必法古」反驳贵族的反对，最终说服赵国朝野推行「胡服骑射」。此举使赵国建立起中原诸国第一支正规骑兵，一跃而为军事强国。北击林胡、楼烦，扩地千里，连匈奴亦退避三舍；又于前296年一举灭掉心腹之患中山国，兼取云中、雁门之地。赵武灵王还曾乔装借道观察秦国，有「主父欲观秦王」之事，其雄才大略可见一斑。可惜他晚年传位给幼子赵惠文王自称主父，却因废长立幼、二子争位，前295年困死沙丘宫，一代雄主身死于宫变。其「胡服骑射」已成为大胆实行军制改革、移风易俗、富国强兵的历史标志。",
+   "achievements": [
+    "推行胡服骑射组建中原首支骑兵",
+    "灭中山、却匈奴、扩地千里",
+    "奠定赵国战国强国地位"
+   ],
+   "quotes": [
+    "治世不一道，便国不必法古",
+    "吾将胡服骑射以教百姓"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-hufu-qishe",
+    "ev-zhou-warring-states",
+    "ev-zhou-bianfa"
+   ],
+   "relatedFigures": [
+    "fig-shang-yang",
+    "fig-sun-tzu",
+    "fig-bai-qi",
+    "fig-mencius",
+    "fig-qin-shao-gong",
+    "fig-liqin",
+    "fig-zouji",
+    "fig-qi-weiwang",
+    "fig-zzbq-weiwenhou"
+   ],
+   "tags": [
+    "战国",
+    "胡服骑射",
+    "赵武灵王",
+    "军事改革"
+   ]
+  },
+  {
+   "id": "fig-zzbq-wenzhong",
+   "name": "文种",
+   "alias": null,
+   "birthYear": null,
+   "deathYear": -472,
+   "lifeText": "春秋末期越国大夫",
+   "role": "越国大夫、勾践霸业的经营之臣",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "文种辅佐勾践灭吴，献「伐吴七术」，然功成后遭勾践猜忌赐死，才华与悲剧并存的一代谋臣。",
+   "biography": "文种，字子禽，春秋末期楚国人，越王勾践最重要的谋臣之一。越王兵败会稽后，文种献计麻痹吴国：收购吴国粮食、献美女西施、贿赂太宰伯嚭，劝吴王夫差许和，为越国争取到了喘息与复国的时间。他主管内政，与范蠡一个主内、一个主外，协助勾践「十年生聚、十年教训」，大力发展农桑、整军经武，积蓄力量。传说文种向勾践献上「伐吴七术」：一曰捐货币以悦其君臣，二曰贵籴粟藁以虚其积聚，三曰遗美女以惑其心志，四曰遗之巧工良材使作宫室以罄其财，五曰遗之谀臣以乱其谋，六曰强其谏臣使自杀以弱其辅，七曰积财练兵以承其弊。越国正是运用这些计谋一步步削弱吴国。前473年勾践灭吴后，范蠡功成身退，曾写信告诫文种说「蜚鸟尽，良弓藏；狡兔死，走狗烹，越王为人长颈鸟喙，可与共患难，不可与共乐」。文种不听，仍留朝中。果然，前472年勾践赐剑，说「子教寡人伐吴七术，寡人用其三而败吴，其四在子，子为我从先王试之」，文种遂自杀。文种之死，成为「兔死狗烹」「鸟尽弓藏」的历史注脚，令后人叹惋。",
+   "achievements": [
+    "献伐吴七术助勾践灭吴",
+    "主内政助越国十年生聚",
+    "是勾践霸业的经营谋臣"
+   ],
+   "quotes": [
+    "蜚鸟尽，良弓藏；狡兔死，走狗烹"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-goujian-miewu"
+   ],
+   "relatedFigures": [
+    "fig-zzbq-goujian",
+    "fig-zzbq-fanli",
+    "fig-zzbq-fuchai"
+   ],
+   "tags": [
+    "春秋",
+    "越国",
+    "文种",
+    "兔死狗烹"
+   ]
+  },
+  {
+   "id": "fig-zzbq-wuzixu",
+   "name": "伍子胥",
+   "alias": "伍员",
+   "birthYear": null,
+   "deathYear": -484,
+   "lifeText": "春秋末期吴国大夫",
+   "role": "吴国大夫、助吴崛起的一代名臣",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "伍子胥为报父仇引吴灭楚，又辅佐阖闾、夫差使吴国强盛，终因忠言进谏被夫差赐剑自尽。",
+   "biography": "伍子胥，名员，字子胥，春秋末期楚国人，吴国著名政治家、军事家。其父伍奢、兄伍尚为楚平王所杀，伍子胥历尽艰险逃往吴国，「掘墓鞭尸」、「吹箫吴市」等典故皆出其身。到吴后他辅佐公子光（阖闾）用专诸刺王僚夺位，又举荐孙武练兵，与孙武一同创下「西破强楚」的战绩。前506年，吴王阖闾在伍子胥、孙武辅佐下大举伐楚，郢都陷落，伍子胥掘开楚平王坟墓鞭尸三百以报父仇。阖闾败给越王勾践伤重死后，伍子胥辅佐其子夫差，但渐遭猜忌。夫差败越受降，伍子胥力谏乘势灭越，「今不灭吴、更待何时」，「越在腹心之疾也」，却被伯嚭谗言所累。前484年夫差赐剑令伍子胥自尽，伍子胥临死悲愤地说「抉吾眼县吴东门之上，以观越寇之入灭吴也」，死后九年越果灭吴。伍子胥忠而遭疑、直言受戮，成为「忠臣不得善终」的千古悲剧，其故事至今在苏州等地仍有传承。",
+   "achievements": [
+    "辅佐阖闾引吴灭楚、破楚郢都",
+    "举荐孙武、共创吴国霸业",
+    "为吴国据强楚北境、开拓疆土"
+   ],
+   "quotes": [
+    "越在腹心之疾也",
+    "抉吾眼县吴东门之上，以观越寇之入灭吴也"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-goujian-miewu",
+    "ev-zhou-sun-tzu"
+   ],
+   "relatedFigures": [
+    "fig-zzbq-fuchai",
+    "fig-sun-tzu"
+   ],
+   "tags": [
+    "春秋",
+    "吴国",
+    "伍子胥",
+    "灭楚",
+    "忠臣"
+   ]
+  },
+  {
+   "id": "fig-zzbq-xinlingjun",
+   "name": "信陵君",
+   "alias": "魏无忌",
+   "birthYear": null,
+   "deathYear": -243,
+   "lifeText": "战国时期魏国公子",
+   "role": "魏国公子、战国四公子之一",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "信陵君魏无忌礼贤下士、门下食客三千，窃符救赵解邯郸之围，秦兵因此多年不敢加兵于魏。",
+   "biography": "信陵君魏无忌，战国时期魏国安釐王的异母弟，与齐之孟尝君、赵之平原君、楚之春申君并称「战国四公子」。他为人仁厚、礼贤下士，以致士之诚著称，门下食客常达三千之众。因赢得士心，东方诸侯十多年不敢窥兵于魏。前257年秦军围赵都邯郸，赵国向魏求救，魏王派晋鄙救赵却又因秦恫吓而按兵观望。信陵君在隐士侯嬴的策划下，透过安釐王宠妃如姬窃得兵符，又命力士朱亥以铁椎锤杀不听命的大将晋鄙，夺得军权，勒令「父子俱在军中，父归；兄弟俱在军中，兄归；独子无兄弟，归养」，选精兵八万救赵。邯郸城下赵、魏、楚三国合纵大破秦军，解邯郸之围。信陵君救赵后留居赵国十年。前247年因秦攻魏，他被急召回魏担任上将军，率五国联军在河外大破秦军，追奔至函谷关。然而魏王因其名望日高而猜忌，信陵君忧郁成疾，于前243年病逝。秦闻知无忌死，遂兴兵攻魏，后魏果亡。司马迁赞其「能下士」「名冠诸侯」，窃符救赵成为千古佳话。",
+   "achievements": [
+    "窃符救赵解邯郸之围",
+    "率五国联军河外破秦，追至函谷关",
+    "礼贤下士、门客三千，是战国四公子典范"
+   ],
+   "quotes": [
+    "士为知己者死"
+   ],
+   "relatedEvents": [
+    "ev-zzbq-xinlingjun-qiefu"
+   ],
+   "relatedFigures": [],
+   "tags": [
+    "战国",
+    "信陵君",
+    "四公子",
+    "窃符救赵"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-zhangxianzhong",
+   "name": "张献忠",
+   "alias": "大西王",
+   "birthYear": 1606,
+   "deathYear": null,
+   "lifeText": "公元1606年—1647年",
+   "role": "明末农民起义军领袖、大西政权建立者",
+   "periodId": "cn-ming-mid",
+   "gender": "male",
+   "summary": "与李自成齐名的明末农民起义领袖，转战湖广、四川，建立大西政权，最终败亡于清军。",
+   "biography": "张献忠，字秉吾，号敬轩，延安府柳树涧（今陕西定边）人。早年曾为捕快、边兵，后被裁撤，流落乡里。1628年陕西大旱，王嘉胤、高迎祥等揭竿而起，张献忠投奔义军，自号「八大王」。他作战骁勇，善于流动作战，转战陕西、山西、河南、湖广、安徽等地，屡次挫败明军。1635年，各路义军荥阳大会后，张献忠与高迎祥、李自成等分兵东进，攻破凤阳，焚毁明皇陵。此后他与李自成一度不合，各自为战。1640年，张献忠在四川大败明军，震动朝廷。1644年，李自成攻入北京、明朝灭亡，张献忠率军再次入川，在成都称帝，国号大西，建元大顺。他在四川实行严厉统治，开科取士，铸造「大顺通宝」钱币。1646年，清军南下，张献忠率部北上抗清，在西充凤凰山中箭身亡，大西军余部由孙可望、李定国等率领继续抗清。张献忠在四川的统治手段严厉，后世记载多有争议，但其领导的大西政权是明末农民起义的重要组成部分，对推翻明朝统治起到了重要作用。",
+   "achievements": [
+    "领导明末农民起义，攻破凤阳、焚明皇陵",
+    "在成都建立大西政权",
+    "抗清而死，余部继续坚持抗清斗争"
+   ],
+   "quotes": [
+    "吾杀四川人几尽，亦有何辜"
+   ],
+   "relatedEvents": [
+    "ev-zzbq2-mingmo",
+    "ev-ming-chongzhen",
+    "ev-ming-fall"
+   ],
+   "relatedFigures": [
+    "fig-li-zicheng",
+    "fig-chongzhen",
+    "fig-huang-taiji",
+    "fig-wu-sangui"
+   ],
+   "tags": [
+    "明末",
+    "农民起义",
+    "大西政权",
+    "抗清"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-kangxi",
+   "name": "康熙帝",
+   "alias": "爱新觉罗·玄烨",
+   "birthYear": 1654,
+   "deathYear": null,
+   "lifeText": "公元1654年—1722年，在位1661年—1722年",
+   "role": "清朝第四位皇帝、中国历史上在位时间最长的皇帝之一",
+   "periodId": "cn-qing-early",
+   "gender": "male",
+   "summary": "八岁登基，在位六十一年，平定三藩、统一台湾、抗击沙俄、亲征漠北，开创康乾盛世。",
+   "biography": "康熙帝，名爱新觉罗·玄烨，顺治帝第三子，1654年生于北京紫禁城。1661年顺治帝去世，年仅八岁的玄烨即位，由索尼、苏克萨哈、遏必隆、鳌拜四大臣辅政，次年改元康熙。1669年，年仅十六岁的康熙以「布库」少年智擒鳌拜，夺回亲政大权。当时三藩割据南方：平西王吴三桂据云南，平南王尚可喜据广东，靖南王耿精忠据福建，尾大不掉。1673年吴三桂举兵叛乱，尚可喜、耿精忠响应，史称三藩之乱。康熙帝调兵遣将，历时八年于1681年平定三藩。1683年，他命施琅率水师攻取澎湖，郑克塽投降，台湾纳入清朝版图，次年设台湾府隶属福建省。1685年、1686年，清军两次在雅克萨击败沙俄侵略军，1689年签订中俄《尼布楚条约》，划定中俄东段边界。康熙帝曾三次亲征漠北，击败准噶尔部首领噶尔丹，巩固了对漠北蒙古的控制。在内政上，他停止圈地，奖励垦荒，蠲免钱粮，治理黄河，编修《康熙字典》《古今图书集成》《数理精蕴》，学习西方天文历算。康熙帝晚年因太子废立之争而烦恼，诸皇子夺嫡激烈，吏治也有所废弛。1722年，康熙帝病逝于畅春园，在位六十一年，是中国历史上在位时间最长的皇帝。他为康乾盛世奠定了坚实基础。",
+   "achievements": [
+    "智擒鳌拜，夺回亲政大权",
+    "平定三藩之乱，统一台湾",
+    "签订《尼布楚条约》，打击沙俄侵略",
+    "三征噶尔丹，巩固漠北",
+    "开创康乾盛世，编修《康熙字典》"
+   ],
+   "quotes": [
+    "愿天下安，生民乐，朕之志也"
+   ],
+   "relatedEvents": [
+    "ev-qing-qing-enter",
+    "ev-qing-sanfan",
+    "ev-qing-taiwan",
+    "ev-qing-kangxi",
+    "ev-qing-yaksa",
+    "ev-qing-qianlong"
+   ],
+   "relatedFigures": [
+    "fig-nurhaci",
+    "fig-huang-taiji",
+    "fig-kangxi",
+    "fig-zzbq2-qianlong"
+   ],
+   "tags": [
+    "清朝",
+    "康乾盛世",
+    "三藩之乱",
+    "统一台湾",
+    "尼布楚条约"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-qianlong",
+   "name": "乾隆帝",
+   "alias": "爱新觉罗·弘历",
+   "birthYear": 1711,
+   "deathYear": null,
+   "lifeText": "公元1711年—1799年，在位1735年—1796年",
+   "role": "清朝第六位皇帝、康乾盛世的集大成者与清朝由盛转衰的转折点",
+   "periodId": "cn-qing-early",
+   "gender": "male",
+   "summary": "在位六十年，平定西北、编纂《四库全书》、巡幸江南，使清朝国力达到顶峰，但晚年宠信和珅、闭关自守，埋下衰落伏笔。",
+   "biography": "乾隆帝，名爱新觉罗·弘历，雍正帝第四子，1711年生。1735年雍正帝去世，弘历即位，次年改元乾隆。他在位六十年，加上三年太上皇，实际执政六十三年，是中国历史上实际执政时间最长的皇帝。乾隆前期励精图治，政治上宽严相济，经济上奖励垦荒、蠲免钱粮，人口突破三亿，国力达到极盛，史称「康乾盛世」的顶点。军事上有「十全武功」：两平准噶尔、一定回部、两征金川、一靖台湾、降缅甸、降安南、两降廓尔喀。1771年，土尔扈特部在渥巴锡率领下万里东归，乾隆帝妥善安置。文化上，他主持编纂《四库全书》，收书三千五百余种、七万九千余卷，是中国古代最大的丛书，但同时在编纂过程中禁毁大量书籍，厉行文字狱。他六下江南，巡幸各地，耗费巨大。1793年，英国马戛尔尼使团来华，要求通商，乾隆帝以「天朝物产丰盈，无所不有」拒绝，错失了了解世界、走向近代的机遇。晚年宠信和珅，吏治腐败，白莲教起义爆发，清朝由盛转衰。1796年，乾隆帝禅位于皇十五子颙琰（嘉庆帝），自为太上皇，1799年病逝。",
+   "achievements": [
+    "平定准噶尔与回部，奠定近代中国疆域基础",
+    "主持编纂《四库全书》",
+    "十全武功，清朝国力达到顶峰",
+    "六下江南，巡幸各地"
+   ],
+   "quotes": [
+    "天朝物产丰盈，无所不有，原不藉外夷货物以通有无"
+   ],
+   "relatedEvents": [
+    "ev-qing-qianlong",
+    "ev-qing-wuwu",
+    "ev-qing-jiaqing",
+    "ev-qing-kangxi",
+    "ev-qing-siku",
+    "ev-qing-wenziyu",
+    "ev-qing-bailianjiao"
+   ],
+   "relatedFigures": [
+    "fig-zzbq2-kangxi"
+   ],
+   "tags": [
+    "清朝",
+    "康乾盛世",
+    "四库全书",
+    "十全武功",
+    "闭关"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-zhuyunwen",
+   "name": "建文帝",
+   "alias": "朱允炆",
+   "birthYear": 1377,
+   "deathYear": null,
+   "lifeText": "公元1377年—？，在位1398年—1402年",
+   "role": "明朝第二位皇帝、靖难之役后被叔父朱棣夺位、下落不明",
+   "periodId": "cn-ming-early",
+   "gender": "male",
+   "summary": "明太祖之孙，即位后推行削藩与宽政，因靖难之役失国，其下落成为中国历史上一大悬案。",
+   "biography": "建文帝，名朱允炆，明太祖朱元璋之孙、懿文太子朱标次子。朱标早逝，朱元璋立朱允炆为皇太孙。1398年朱元璋去世，朱允炆即位，改元建文。他即位后，重用齐泰、黄子澄、方孝孺等儒臣，推行宽仁之政，减轻洪武年间的严刑峻法，史称「建文新政」。同时，他着手削藩，先后废周、湘、齐、代、岷五王，矛头直指拥兵自重的燕王朱棣。1399年，朱棣以「清君侧」为名起兵「靖难」。建文帝用人失当，先以老将耿炳文为帅，兵败后改用纨绔子弟李景隆，屡战屡败，丧师数十万。战争中建文帝又下令「毋使朕有杀叔父名」，使将士不敢全力作战。1402年，朱棣渡江攻入南京，宫中起火，建文帝下落不明。一说自焚而死，一说由地道出逃，剃发为僧，流落江湖数十年，民间与野史有大量传说。建文帝的削藩之策本为巩固中央，却因操之过急与用人不当而失败，其宽仁之政与悲剧结局令后世唏嘘不已。",
+   "achievements": [
+    "推行建文新政，宽刑省狱",
+    "削夺藩王，加强中央集权"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq2-jingnan",
+    "ev-ming-founding"
+   ],
+   "relatedFigures": [
+    "fig-zhu-yuanzhang",
+    "fig-zhu-di",
+    "fig-zzbq2-fangxiaoru",
+    "fig-zheng-he"
+   ],
+   "tags": [
+    "明朝",
+    "建文帝",
+    "削藩",
+    "靖难之役"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-fangxiaoru",
+   "name": "方孝孺",
+   "alias": "正学先生",
+   "birthYear": 1357,
+   "deathYear": null,
+   "lifeText": "公元1357年—1402年",
+   "role": "明初大儒、建文帝重臣、因拒为朱棣草诏被诛十族",
+   "periodId": "cn-yuan-late",
+   "gender": "male",
+   "summary": "明初著名儒者，师从宋濂，以气节著称，靖难之役后拒绝为朱棣草拟即位诏书，被诛十族，成为士人风骨的象征。",
+   "biography": "方孝孺，字希直，一字希古，号逊志，浙江宁海人，世称正学先生。他师从明初文宗宋濂，学问醇正，以明王道、致太平为己任。洪武年间，方孝孺两次被举荐入朝，朱元璋见其举止端整，对太子朱标说「此庄士，当老其才」，未加重用。建文帝即位后，召方孝孺为翰林侍讲，后迁侍讲学士，国家大政常咨询于他。建文帝好读书，每有疑问即召方孝孺讲解，君臣相得。靖难之役爆发后，讨伐燕王的诏书檄文多出自方孝孺之手。1402年，朱棣攻入南京，建文帝自焚（一说出逃）。朱棣召方孝孺起草即位诏书，方孝孺披麻戴孝，痛哭于殿，掷笔于地，大骂「死即死耳，诏不可草」。朱棣威胁道：「汝不顾九族乎？」方孝孺厉声答道：「便十族奈我何！」朱棣大怒，命人割其舌，方孝孺仍含血喷之。最终朱棣将其磔杀于聚宝门外，并诛其十族，坐死者八百七十三人。方孝孺的著作被禁毁，后由门人私下辑录为《逊志斋集》。他以生命捍卫君臣大义与士人气节，成为中国古代士人风骨的极致象征，后世对其评价极高。",
+   "achievements": [
+    "明初醇儒，师从宋濂，学问醇正",
+    "辅佐建文帝，主持建文新政",
+    "拒草即位诏书，以身殉节"
+   ],
+   "quotes": [
+    "死即死耳，诏不可草",
+    "便十族奈我何"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zzbq2-zhuyunwen",
+    "fig-zhu-di",
+    "fig-zheng-he"
+   ],
+   "tags": [
+    "明朝",
+    "儒者",
+    "气节",
+    "靖难之役",
+    "诛十族"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-liufutong",
+   "name": "刘福通",
+   "alias": "",
+   "birthYear": null,
+   "deathYear": 1363,
+   "lifeText": "约1351年起兵，1363年战死",
+   "role": "元末红巾军北方红巾军领袖",
+   "periodId": "cn-yuan-late",
+   "gender": "male",
+   "summary": "元末红巾军主要领袖，拥立韩林儿为小明王，建立宋政权，转战中原十余年，沉重打击元朝统治。",
+   "biography": "刘福通，颍州（今安徽阜阳）人，白莲教首领。元朝末年，黄河屡决，赋役繁重，民不聊生。1351年，刘福通与韩山童在颍州预埋独眼石人，散布「石人一只眼，挑动黄河天下反」的民谣，聚众起义，义军头裹红巾，称红巾军。韩山童不久被元军捕杀，刘福通继续领导，于1355年拥立韩山童之子韩林儿为帝，号「小明王」，国号宋，建元龙凤，建都亳州。北方红巾军在刘福通指挥下，分兵三路北伐：东路毛贵进军山东，中路关先生、破头潘进攻山西、河北，西路白不信、大刀敖进军关中。红巾军一度攻占汴梁（开封），定为都城，声势浩大。但因三路北伐兵力分散、缺乏统一指挥，加之元廷调集察罕帖木儿、扩廓帖木儿等精锐镇压，红巾军逐渐失利。1359年汴梁失守，刘福通退守安丰。1363年，张士诚部将吕珍围攻安丰，刘福通战死，小明王韩林儿被朱元璋迎往滁州，后溺死于瓜步。刘福通领导的红巾军是元末农民起义的主力，前后坚持十余年，从根本上动摇了元朝的统治。",
+   "achievements": [
+    "发动元末红巾军起义",
+    "拥立小明王，建立宋政权",
+    "分兵三路北伐，沉重打击元朝"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq2-hongjin",
+    "ev-yuan-fall"
+   ],
+   "relatedFigures": [
+    "fig-zhu-yuanzhang",
+    "fig-temujin"
+   ],
+   "tags": [
+    "元末",
+    "红巾军",
+    "白莲教",
+    "小明王"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-cixi",
+   "name": "慈禧太后",
+   "alias": "孝钦显皇后",
+   "birthYear": 1835,
+   "deathYear": null,
+   "lifeText": "公元1835年—1908年",
+   "role": "晚清实际最高统治者、掌权近半个世纪",
+   "periodId": "cn-qing-late",
+   "gender": "female",
+   "summary": "咸丰帝妃、同治帝生母，通过辛酉政变掌权，实际统治晚清四十七年，既推动洋务运动，也镇压戊戌变法、支持义和团，是晚清政局的核心人物。",
+   "biography": "慈禧太后，叶赫那拉氏，满洲镶蓝旗人，1835年生。1852年入宫，封兰贵人，后晋懿嫔、懿妃、懿贵妃，为咸丰帝生下唯一的皇子载淳（同治帝）。1861年咸丰帝病逝于热河，遗命肃顺等八大臣辅政。慈禧联合恭亲王奕訢发动辛酉政变，诛杀肃顺等人，与慈安太后垂帘听政，改元同治。同治帝早逝后，她立醇亲王之子载湉为帝（光绪帝），继续垂帘。1881年慈安太后去世，1884年她罢黜奕訢，独揽大权。执政期间，她支持洋务运动，兴办近代工业、编练新式海军，出现「同治中兴」的局面；但她也挪用海军经费修颐和园，1894年甲午战败。1898年，光绪帝推行戊戌变法，她发动戊戌政变，囚禁光绪帝于瀛台，杀害谭嗣同等戊戌六君子，重新训政。1900年，她利用义和团攻击列强，招致八国联军侵华，仓皇西逃西安，次年签订《辛丑条约》。回銮后，她推行清末新政，废科举、练新军、准备立宪，但为时已晚。1908年，慈禧在光绪帝驾崩次日病逝，结束了她对晚清长达四十七年的统治。她是一个复杂的历史人物，既有维护国家统一的一面，也因保守误国而备受批评。",
+   "achievements": [
+    "发动辛酉政变，确立垂帘听政体制",
+    "支持洋务运动，推动近代化起步",
+    "推行清末新政，废科举、练新军"
+   ],
+   "quotes": [
+    "量中华之物力，结与国之欢心"
+   ],
+   "relatedEvents": [
+    "ev-zzbq2-yihetuan",
+    "ev-qing-new-policies",
+    "ev-qing-jiawu",
+    "ev-qing-hundred-days",
+    "ev-qing-yangwu"
+   ],
+   "relatedFigures": [
+    "fig-zzbq2-guangxu",
+    "fig-li-hongzhang",
+    "fig-liang-qichao",
+    "fig-kang-youwei"
+   ],
+   "tags": [
+    "晚清",
+    "慈禧",
+    "垂帘听政",
+    "义和团",
+    "清末新政"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-guangxu",
+   "name": "光绪帝",
+   "alias": "爱新觉罗·载湉",
+   "birthYear": 1871,
+   "deathYear": null,
+   "lifeText": "公元1871年—1908年，在位1875年—1908年",
+   "role": "清朝第十一位皇帝、戊戌变法的推动者",
+   "periodId": "cn-qing-late",
+   "gender": "male",
+   "summary": "四岁登基，亲政后支持康有为、梁启超推行戊戌变法，失败后被慈禧囚禁，是晚清最具悲剧色彩的皇帝。",
+   "biography": "光绪帝，名爱新觉罗·载湉，醇亲王奕譞之子，慈禧太后的外甥，1871年生。1875年同治帝去世无子，慈禧立年仅四岁的载湉为帝，改元光绪，继续垂帘听政。1889年光绪帝大婚亲政，但朝政实权仍掌握在慈禧手中。甲午战争期间，光绪帝主战，反对议和，但无力回天。战后民族危机空前严重，康有为、梁启超等发起维新运动。1898年，光绪帝颁布「明定国是」诏书，推行戊戌变法，在百余日内发布数十道改革诏令，涉及政治、经济、军事、文教各方面，史称「百日维新」。变法触动了守旧派的利益，慈禧太后发动戊戌政变，囚禁光绪帝于中南海瀛台，杀害谭嗣同等戊戌六君子，变法失败。此后光绪帝形同傀儡，1900年义和团运动与八国联军侵华时被慈禧挟持西逃西安。1908年，光绪帝在慈禧去世前一天突然驾崩，死因长期成谜，2008年经科学检测确认死于砒霜中毒。光绪帝一生力图振作、变法图强，却始终受制于慈禧，是晚清最具悲剧色彩的皇帝。",
+   "achievements": [
+    "主导戊戌变法，推行百日维新",
+    "甲午战争期间主战抗敌"
+   ],
+   "quotes": [
+    "朕惟国是不定，则号令不行"
+   ],
+   "relatedEvents": [
+    "ev-zzbq2-yihetuan",
+    "ev-qing-new-policies",
+    "ev-qing-jiawu",
+    "ev-qing-hundred-days"
+   ],
+   "relatedFigures": [
+    "fig-zzbq2-cixi",
+    "fig-kang-youwei",
+    "fig-liang-qichao",
+    "fig-li-hongzhang"
+   ],
+   "tags": [
+    "晚清",
+    "光绪帝",
+    "戊戌变法",
+    "百日维新"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-zhude",
+   "name": "朱德",
+   "alias": "朱玉阶",
+   "birthYear": 1886,
+   "deathYear": null,
+   "lifeText": "公元1886年—1976年",
+   "role": "中国人民解放军主要缔造者之一、中华人民共和国元帅之首",
+   "periodId": "cn-qing-late",
+   "gender": "male",
+   "summary": "参加南昌起义，率部上井冈山与毛泽东会师，历任红军总司令、八路军总司令、解放军总司令，是中共武装力量的核心缔造者之一。",
+   "biography": "朱德，字玉阶，四川仪陇人，1886年生。早年入云南陆军讲武堂，参加辛亥革命、护国战争、护法战争，官至滇军旅长。后赴德国留学，1922年在柏林经周恩来介绍加入中国共产党。1927年，朱德参与领导南昌起义，任第九军副军长。起义军南下失败后，他率余部转战赣南、粤北，1928年初发动湘南起义，随后率部上井冈山与毛泽东领导的秋收起义部队会师，组成中国工农红军第四军，任军长，毛泽东任党代表，从此「朱毛红军」威名远扬。此后朱德历任红一方面军总司令、红军总司令，参加历次反「围剿」和长征。抗日战争爆发后，任八路军总司令，开赴华北抗日前线。解放战争中，任中国人民解放军总司令，协助毛泽东指挥辽沈、淮海、平津三大战役。中华人民共和国成立后，任中央人民政府副主席、人民革命军事委员会副主席、中国人民解放军总司令，1955年被授予中华人民共和国元帅军衔，位列十大元帅之首。朱德生活俭朴，平易近人，深受军民爱戴，1976年在北京逝世。",
+   "achievements": [
+    "参与领导南昌起义",
+    "率部上井冈山与毛泽东会师，缔造红四军",
+    "历任红军、八路军、解放军总司令",
+    "1955年被授予元帅军衔，位列十大元帅之首"
+   ],
+   "quotes": [
+    "革命到底"
+   ],
+   "relatedEvents": [
+    "ev-qing-xinhai"
+   ],
+   "relatedFigures": [
+    "fig-mao-zedong",
+    "fig-zhou-enlai",
+    "fig-zzbq2-yeting",
+    "fig-zzbq2-helong",
+    "fig-zzbq2-yejianying",
+    "fig-liu-bocheng",
+    "fig-chen-yi",
+    "fig-liu-shaoqi",
+    "fig-peng-dehuai",
+    "fig-deng-xiaoping"
+   ],
+   "tags": [
+    "中共",
+    "元帅",
+    "南昌起义",
+    "井冈山",
+    "长征"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-yejianying",
+   "name": "叶剑英",
+   "alias": "叶宜伟",
+   "birthYear": 1897,
+   "deathYear": null,
+   "lifeText": "公元1897年—1986年",
+   "role": "中华人民共和国开国元勋、十大元帅之一",
+   "periodId": "cn-qing-late",
+   "gender": "male",
+   "summary": "参与南昌起义、长征，在遵义会议前后支持毛泽东，历任要职，是中共军事与政治的重要领导人。",
+   "biography": "叶剑英，原名叶宜伟，广东梅县人，1897年生。早年毕业于云南陆军讲武堂，追随孙中山参加革命。1924年任黄埔军校教授部副主任，后参加北伐战争。1927年加入中国共产党，参与领导广州起义。1928年赴苏联学习。1931年进入中央苏区，历任红一方面军参谋长、红军前敌总指挥部参谋长。长征中，叶剑英在遵义会议前后坚决支持毛泽东的正确主张；1935年张国焘分裂红军时，他及时向毛泽东报告，使中央红军得以脱离险境，被毛泽东赞为「诸葛一生唯谨慎，吕端大事不糊涂」。抗日战争时期，任八路军参谋长、中共中央军委参谋长。解放战争时期，任中国人民解放军参谋长，参与北平和平谈判。中华人民共和国成立后，历任中共中央华南分局第一书记、广东省主席、国防部长、全国人大常委会委员长、中共中央副主席等职。1976年，他在粉碎「四人帮」的斗争中发挥了决定性作用。1955年被授予元帅军衔。1986年在北京逝世。",
+   "achievements": [
+    "参与领导广州起义",
+    "长征中支持毛泽东正确路线",
+    "抗日战争、解放战争时期任参谋长",
+    "1976年参与粉碎「四人帮」"
+   ],
+   "quotes": [
+    "诸葛一生唯谨慎，吕端大事不糊涂"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-mao-zedong",
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude"
+   ],
+   "tags": [
+    "中共",
+    "元帅",
+    "长征",
+    "参谋长"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-helong",
+   "name": "贺龙",
+   "alias": "贺文常",
+   "birthYear": 1896,
+   "deathYear": null,
+   "lifeText": "公元1896年—1969年",
+   "role": "中国人民解放军创始人之一、十大元帅之一",
+   "periodId": "cn-qing-late",
+   "gender": "male",
+   "summary": "两把菜刀起家的传奇将领，南昌起义时任总指挥，后创建湘鄂西革命根据地，是中共武装力量的重要缔造者。",
+   "biography": "贺龙，原名贺文常，湖南桑植人，1896年生。早年以「两把菜刀闹革命」著称，参加护国战争、护法战争，官至国民革命军第二十军军长。1927年，贺龙率部参加南昌起义，任起义军总指挥，并于同年加入中国共产党。起义失败后，他回到湘西，创建湘鄂西革命根据地和红二军团，任军团长。1935年，率红二、六军团长征，1936年在甘孜与红四方面军会师，后与红一、四方面军在会宁会师。抗日战争时期，任八路军一二〇师师长，开辟晋西北抗日根据地。解放战争时期，任西北军区司令员、西南军区司令员，参与指挥解放大西南。中华人民共和国成立后，历任西南军区司令员、国务院副总理、国家体委主任、中央军委副主席等职。1955年被授予元帅军衔。「文化大革命」中遭受迫害，1969年含冤逝世，1974年得到平反昭雪。",
+   "achievements": [
+    "创建湘鄂西革命根据地与红二军团",
+    "八路军一二〇师师长，开辟晋西北根据地",
+    "1955年被授予元帅军衔"
+   ],
+   "quotes": [
+    "两把菜刀闹革命"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-zzbq2-yeting",
+    "fig-mao-zedong",
+    "fig-liu-bocheng"
+   ],
+   "tags": [
+    "中共",
+    "元帅",
+    "南昌起义",
+    "湘鄂西"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-yeting",
+   "name": "叶挺",
+   "alias": "叶希夷",
+   "birthYear": 1896,
+   "deathYear": null,
+   "lifeText": "公元1896年—1946年",
+   "role": "北伐名将、南昌起义与广州起义的重要领导人、新四军首任军长",
+   "periodId": "cn-qing-late",
+   "gender": "male",
+   "summary": "北伐战争中率「铁军」独立团屡建奇功，参与领导南昌起义、广州起义，后任新四军军长，皖南事变中被俘，1946年因空难遇难。",
+   "biography": "叶挺，字希夷，广东惠阳人，1896年生。早年毕业于保定陆军军官学校，后任孙中山大元帅府警卫团营长。1924年加入中国共产党，1925年任国民革命军第四军独立团团长。北伐战争中，叶挺率独立团作为先遣队，在汀泗桥、贺胜桥等战役中屡建奇功，被誉为「北伐名将」，第四军也因此赢得「铁军」称号。1927年，叶挺参与领导南昌起义，任起义军前敌总指挥兼第十一军军长；同年12月又参与领导广州起义，任起义军总指挥。起义失败后流亡海外，与党组织失去联系。抗日战争爆发后，叶挺出任新四军军长，率部挺进华中抗日前线。1941年皖南事变中，叶挺在与国民党军谈判时被扣押，先后被囚于上饶、恩施、桂林、重庆等地，在狱中写下著名的《囚歌》以明志。1946年3月，经中共中央营救获释，随即重新加入中国共产党。同年4月8日，叶挺与王若飞、秦邦宪等由重庆飞返延安途中，因飞机失事遇难，史称「四八烈士」。",
+   "achievements": [
+    "北伐名将，率独立团赢得「铁军」称号",
+    "参与领导南昌起义、广州起义",
+    "出任新四军首任军长",
+    "狱中写下《囚歌》"
+   ],
+   "quotes": [
+    "我希望在烈火与热血中得到永生"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zhou-enlai",
+    "fig-zzbq2-zhude",
+    "fig-zzbq2-helong",
+    "fig-mao-zedong",
+    "fig-liu-bocheng"
+   ],
+   "tags": [
+    "中共",
+    "北伐",
+    "南昌起义",
+    "新四军",
+    "囚歌"
+   ]
+  },
+  {
+   "id": "fig-zzbq2-lidazhao",
+   "name": "李大钊",
+   "alias": "李守常",
+   "birthYear": 1889,
+   "deathYear": null,
+   "lifeText": "公元1889年—1927年",
+   "role": "中国共产主义运动的先驱、中国共产党主要创始人之一",
+   "periodId": "cn-qing-late",
+   "gender": "male",
+   "summary": "中国最早传播马克思主义的先驱，五四运动的重要领导者，中国共产党主要创始人之一，1927年被奉系军阀张作霖杀害。",
+   "biography": "李大钊，字守常，河北乐亭人，1889年生。1907年考入天津北洋法政专门学校，1913年赴日本早稻田大学留学。1916年回国，任北京大学图书馆主任兼经济学教授，并参与编辑《新青年》。1918年，他发表《庶民的胜利》《布尔什维主义的胜利》等文章，在中国最早传播马克思主义，预言「试看将来的环球，必是赤旗的世界」。1919年，他积极参与领导五四运动，是运动的重要领袖之一。1920年，他在北京发起成立共产主义小组，并指导北方各地的建党工作。1921年中国共产党成立后，他负责北方地区的党的领导工作。1922年起，他多次代表中国共产党与孙中山会谈，推动国共合作。1924年，他出席国民党一大，当选中央执行委员。1927年4月，奉系军阀张作霖逮捕李大钊，同月28日将其绞杀于北京西交民巷京师看守所，年仅三十八岁。李大钊是中国共产主义运动的先驱、伟大的马克思主义者、杰出的无产阶级革命家，中国共产党主要创始人之一，他的一生「铁肩担道义，妙手著文章」，为中国革命事业献出了生命。",
+   "achievements": [
+    "中国最早传播马克思主义的先驱",
+    "参与领导五四运动",
+    "中国共产党主要创始人之一",
+    "推动第一次国共合作"
+   ],
+   "quotes": [
+    "试看将来的环球，必是赤旗的世界",
+    "铁肩担道义，妙手著文章"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-chen-duxiu"
+   ],
+   "tags": [
+    "中共",
+    "五四运动",
+    "马克思主义",
+    "建党"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-zhangliang",
+   "name": "张良",
+   "alias": "留侯、子房",
+   "birthYear": -250,
+   "deathYear": null,
+   "lifeText": "约公元前250年—前186年",
+   "role": "汉初三杰之一、刘邦的首席谋臣",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "汉初三杰之一，以「运筹帷幄之中，决胜千里之外」著称，助刘邦建立汉朝，功成身退。",
+   "biography": "张良，字子房，城父（今安徽亳州）人，出身韩国贵族世家，祖父、父亲五世相韩。秦灭韩后，张良倾其家财，招募刺客在博浪沙狙击秦始皇，误中副车，事败后逃亡下邳。在下邳桥上，他遇黄石公，被三试其诚，得授《太公兵法》，从此潜心研习韬略。秦末天下大乱，张良投奔刘邦，成为其最重要的谋臣。鸿门宴上，张良设计使刘邦脱险；刘邦被项羽封为汉王、被迫就国南郑时，张良献「烧绝栈道」之策以示无东顾之心；楚汉相争中，他提出联合英布、彭越，重用韩信的战略，并劝阻刘邦分封六国后代。刘邦称帝后论功行赏，称张良「运筹策帷帐中，决胜千里外，子房功也」，封其为留侯，食邑万户。张良深知「狡兔死，走狗烹」之理，功成之后托病辟谷，学导引之术，不参与朝政，得保善终。张良与萧何、韩信并称「汉初三杰」，是中国古代谋士的最高典范之一。",
+   "achievements": [
+    "博浪沙刺秦，以身许国",
+    "鸿门宴设计使刘邦脱险",
+    "提出联合英布、彭越、重用韩信的战略",
+    "汉初三杰之一，功成身退"
+   ],
+   "quotes": [
+    "运筹策帷帐中，决胜千里外"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-liu-bang",
+    "fig-zzbq3-xiaohe",
+    "fig-han-xin"
+   ],
+   "tags": [
+    "汉初三杰",
+    "谋士",
+    "留侯",
+    "楚汉相争"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-xiaohe",
+   "name": "萧何",
+   "alias": "酂侯",
+   "birthYear": -257,
+   "deathYear": null,
+   "lifeText": "约公元前257年—前193年",
+   "role": "汉初三杰之一、西汉首任丞相",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "汉初三杰之一，楚汉相争时镇守关中、保障后勤，荐韩信于刘邦，汉朝建立后制定律令制度。",
+   "biography": "萧何，沛县（今江苏沛县）人，早年任沛县主吏掾，与刘邦交好。秦末起义时，萧何、曹参等拥立刘邦为沛公。刘邦率军西入关中，诸将争抢金帛财物，萧何独先入秦丞相府、御史府收取律令图书，使刘邦得以掌握天下山川险要、户口多少、强弱之处。楚汉相争期间，萧何留守关中，侍奉太子，治理栎阳，制定法令，修建宗庙、社稷、宫室、县邑，源源不断地向前线输送兵员粮饷，使刘邦屡败而不溃。他曾向刘邦力荐韩信，留下「萧何月下追韩信」的典故。汉朝建立后，刘邦论功行赏，以萧何功居第一，封酂侯，食邑八千户。萧何主持制定《九章律》，废除秦朝苛法，与民休息，奠定了汉初的制度基础。晚年他故意强买民田以自污，消除刘邦的猜忌。萧何与张良、韩信并称「汉初三杰」，是汉初政治制度的奠基者。",
+   "achievements": [
+    "入咸阳先收秦律令图书",
+    "楚汉相争时镇守关中，保障后勤",
+    "力荐韩信，留下「月下追韩信」典故",
+    "制定《九章律》，奠定汉初制度"
+   ],
+   "quotes": [
+    "夫猎，追杀兽兔者狗也，而发踪指示兽处者人也"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-liu-bang",
+    "fig-zzbq3-zhangliang",
+    "fig-han-xin"
+   ],
+   "tags": [
+    "汉初三杰",
+    "丞相",
+    "九章律",
+    "楚汉相争"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-fanzeng",
+   "name": "范增",
+   "alias": "亚父",
+   "birthYear": -278,
+   "deathYear": null,
+   "lifeText": "公元前278年—前204年",
+   "role": "项羽的首席谋士、被尊为「亚父」",
+   "periodId": "cn-warring-states",
+   "gender": "male",
+   "summary": "项羽的谋主，被尊为「亚父」，鸿门宴上力主杀刘邦未果，后遭项羽猜忌，愤而离去，病死途中。",
+   "biography": "范增，居鄛（今安徽桐城）人，年七十而好奇计。秦末大乱，范增投奔项梁，劝其立楚怀王之后以为号召，项梁从其言，立熊心为楚怀王。项梁战死后，范增辅佐项羽，被尊为「亚父」。前206年，刘邦先入关中，项羽大怒欲攻之，范增力劝项羽在鸿门宴上除掉刘邦，并安排项庄舞剑，欲乘机刺杀，但因项伯掩护、项羽犹豫而失败。此后楚汉相争，范增多次为项羽出谋划策，但项羽刚愎自用，渐生猜忌。前204年，刘邦采用陈平的反间计，项羽怀疑范增与汉有私，范增大怒道：「天下事大定矣，君王自为之，愿赐骸骨归卒伍。」遂辞官归乡，未至彭城，背疽发作而死。范增以其卓越的谋略与悲剧性的结局著称，后世常以「亚父」称之，项羽不能用范增之谋，也成为其最终失败的重要原因之一。",
+   "achievements": [
+    "劝项梁立楚怀王之后为号召",
+    "鸿门宴上力主除掉刘邦",
+    "辅佐项羽，被尊为「亚父」"
+   ],
+   "quotes": [
+    "竖子不足与谋",
+    "天下事大定矣，君王自为之"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-liu-bang"
+   ],
+   "tags": [
+    "楚汉相争",
+    "谋士",
+    "亚父",
+    "项羽"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-weiqing",
+   "name": "卫青",
+   "alias": "长平侯、仲卿",
+   "birthYear": null,
+   "deathYear": -106,
+   "lifeText": "？—公元前106年",
+   "role": "西汉名将、汉武帝时期抗击匈奴的统帅",
+   "periodId": "cn-han-west",
+   "gender": "male",
+   "summary": "出身奴隶的西汉名将，七次出击匈奴，收复河套、击溃单于主力，官至大司马大将军。",
+   "biography": "卫青，字仲卿，河东平阳（今山西临汾）人，出身卑微，为平阳侯府奴婢卫媪之子，年少时为牧羊奴，后为平阳公主骑奴。其姐卫子夫得幸于汉武帝，卫青因此入宫当差。卫青为人谦逊，才干出众，逐渐得到汉武帝赏识。前129年，匈奴南下，汉武帝派四路大军出击，唯卫青一路获胜，直捣匈奴祭天圣地龙城，封关内侯。前127年，卫青率军收复河南地，设朔方郡。前124年，卫青率三万骑兵出朔方，大破匈奴右贤王，俘获甚众，拜大将军。前119年漠北之战，卫青率军穿越大漠，击溃匈奴单于主力。卫青一生七次出击匈奴，屡建奇功，官至大司马大将军，封长平侯。他虽位极人臣，却谦恭退让，体恤士卒，深受爱戴。卫青与霍去病并称「帝国双璧」，是汉武帝时期反击匈奴的核心将领。",
+   "achievements": [
+    "七次出击匈奴，屡建奇功",
+    "收复河套，设朔方郡",
+    "漠北之战击溃匈奴单于主力"
+   ],
+   "quotes": [
+    "人臣奉法遵职而已，何与招士"
+   ],
+   "relatedEvents": [
+    "ev-zzbq3-xiongnu",
+    "ev-han-wudi"
+   ],
+   "relatedFigures": [
+    "fig-han-wudi",
+    "fig-zzbq3-huoqubing",
+    "fig-dong-zhongshu"
+   ],
+   "tags": [
+    "西汉",
+    "匈奴",
+    "名将",
+    "大将军"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-huoqubing",
+   "name": "霍去病",
+   "alias": "冠军侯",
+   "birthYear": -140,
+   "deathYear": null,
+   "lifeText": "公元前140年—前117年",
+   "role": "西汉名将、汉武帝时期抗击匈奴的骠骑将军",
+   "periodId": "cn-han-west",
+   "gender": "male",
+   "summary": "二十四岁病逝的西汉天才将领，六次出击匈奴，打通河西走廊，封狼居胥，成为历代武将的最高功勋象征。",
+   "biography": "霍去病，河东平阳（今山西临汾）人，卫青之外甥，其母为卫少儿。他自幼善骑射，十八岁即为天子侍中，随卫青出征，率八百轻骑深入敌境，斩获甚众，封冠军侯。前121年，霍去病两次率军出击河西，转战千余里，歼灭匈奴休屠王、浑邪王部众数万，浑邪王率四万余众降汉，汉朝设置河西四郡，打通了中原通往西域的道路。前119年漠北之战，霍去病率五万骑兵出代郡，深入两千余里，大破左贤王部，追至狼居胥山（今蒙古国境内），封山祭天而还，史称「封狼居胥」。「匈奴未灭，无以家为也」是他留下的千古名句。前117年，霍去病病逝，年仅二十四岁。汉武帝悲痛不已，调遣边境五郡的铁甲军从长安到茂陵为其送葬，并为其修建了形似祁连山的坟墓。霍去病以其闪电般的骑兵战术和显赫战功，成为中国军事史上的传奇人物。",
+   "achievements": [
+    "两次出击河西，打通河西走廊",
+    "漠北之战封狼居胥",
+    "留下「匈奴未灭，无以家为」的名言"
+   ],
+   "quotes": [
+    "匈奴未灭，无以家为也"
+   ],
+   "relatedEvents": [
+    "ev-zzbq3-xiongnu",
+    "ev-han-wudi"
+   ],
+   "relatedFigures": [
+    "fig-han-wudi",
+    "fig-zzbq3-weiqing",
+    "fig-dong-zhongshu"
+   ],
+   "tags": [
+    "西汉",
+    "匈奴",
+    "名将",
+    "封狼居胥",
+    "冠军侯"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-wangzhaojun",
+   "name": "王昭君",
+   "alias": "王嫱、明妃、宁胡阏氏",
+   "birthYear": null,
+   "deathYear": null,
+   "lifeText": "公元前1世纪",
+   "role": "汉元帝时宫女、远嫁匈奴呼韩邪单于、民族和睦的象征",
+   "periodId": "cn-han-west",
+   "gender": "female",
+   "summary": "中国古代四大美女之一，自愿远嫁匈奴，换取汉匈六十余年和平，成为民族友好的千古典范。",
+   "biography": "王昭君，名嫱，字昭君，南郡秭归（今湖北兴山）人。汉元帝时以良家子选入掖庭为宫女。传说因不肯贿赂宫廷画师毛延寿，画像被丑化，故入宫数年不得见幸。前33年，匈奴呼韩邪单于入朝，自请为汉朝女婿，元帝下诏征召宫女，昭君自愿请行。临行时元帝方见其美貌，悔之不及，一怒之下诛杀画师毛延寿。昭君随呼韩邪单于出塞，被封为「宁胡阏氏」，生一子右日逐王。呼韩邪死后，依匈奴收继婚之俗，昭君上书汉廷求归，汉成帝命其「从胡俗」，遂再嫁呼韩邪长子复株累单于，生二女。昭君出塞后，汉匈之间维持了约六十年的和平。昭君出塞的故事在后世被反复吟咏，杜甫「千载琵琶作胡语，分明怨恨曲中论」、王安石「明妃初出汉宫时，泪湿春风鬓脚垂」等诗篇流传千古。王昭君与西施、貂蝉、杨玉环并称中国古代四大美女，她更被视为民族友好与和平的象征。",
+   "achievements": [
+    "自愿远嫁匈奴呼韩邪单于",
+    "换取汉匈六十余年和平",
+    "成为民族友好的象征"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq3-zhaojun",
+    "ev-han-bagua"
+   ],
+   "relatedFigures": [],
+   "tags": [
+    "西汉",
+    "匈奴",
+    "和亲",
+    "四大美女",
+    "民族关系"
+   ]
+  },
+  {
+   "id": "fig-zzbq3-xiangxu",
+   "name": "向戌",
+   "alias": "",
+   "birthYear": null,
+   "deathYear": null,
+   "lifeText": "春秋后期",
+   "role": "宋国大夫、第二次弭兵之会的发起人",
+   "periodId": "cn-spring-autumn",
+   "gender": "male",
+   "summary": "宋国大夫，奔走于晋楚之间促成十四国会盟，实现中原数十年休战。",
+   "biography": "向戌，子姓，向氏，名戌，宋国大夫。春秋中期，晋楚长期争霸，中原小国疲于奔命，饱受战乱之苦。前579年，宋国大夫华元曾促成晋楚第一次弭兵之会，但不久即因楚国背盟而破裂。前546年，向戌凭借与晋国执政赵武、楚国令尹子木皆有私交的有利条件，奔走于晋、楚、齐、秦等大国之间，倡议再次弭兵。同年夏，晋、楚、齐、秦、宋、鲁、卫、郑、陈、蔡、许、曹等十四国在宋国举行会盟，约定晋楚之从交相见，即中原小国须同时向晋楚朝贡。弭兵之会后，晋楚之间维持了约四十年的休战，中原得以喘息。向戌以促成弭兵之会而名垂史册，但因其受封采邑、生活奢侈，也受到时人的批评。弭兵之会是中国古代外交史上的重要事件，反映了春秋后期大国争霸格局的变化。",
+   "achievements": [
+    "奔走晋楚之间，倡议弭兵",
+    "促成十四国弭兵之会",
+    "使中原获得数十年休战"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq3-mibing"
+   ],
+   "relatedFigures": [],
+   "tags": [
+    "春秋",
+    "宋国",
+    "弭兵之会",
+    "外交"
    ]
   }
  ]
