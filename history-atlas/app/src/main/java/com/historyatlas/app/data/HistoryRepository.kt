@@ -69,7 +69,11 @@ fun splitByChronology(periods: List<Period>): Pair<List<Period>, List<Period>> {
 
     // 先放「包含者」（上位时期）：它们是上位单位，需要先占位，
     // 否则会被自己的下位朝代顶掉。后放普通时期。
-    for (period in wrappers + rest) {
+    //
+    // 注意：wrappers 是 rest 的子集，若直接写 `wrappers + rest`，每个 wrapper
+    // 会被遍历两次——第二次与刚进入 main 的自己重叠，于是既进主干又进补充组，
+    // 造成「同一时期被重复分配」。这里必须把已处理的 wrapper 从 rest 中剔除。
+    for (period in wrappers + rest.filterNot { candidate -> wrappers.any { it === candidate } }) {
         // 仅在边界年份相接不算重叠（如秦 -221..-207 与汉 -202..220 之间有空隙）
         val conflict = main.any { existing -> overlaps(period, existing) }
         if (conflict) {
