@@ -12,8 +12,8 @@ plugins {
 //
 // versionCode 必须每次发布递增，否则 Android 不会把新包识别为升级，
 // 已安装旧版的用户收不到更新提示。
-val appVersion = "1.0.0"
-val appVersionCode = 1
+val appVersion = "1.0.1"
+val appVersionCode = 2
 
 /** 四个学科的数据文件名（含扩展名）。顺序即 App 中的学科切换顺序。 */
 val dataFiles = listOf("geo.json", "astro.json", "physics.json", "chem.json")

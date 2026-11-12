@@ -32,6 +32,32 @@ python tools\check_version.py --project science-atlas
 
 ---
 
+## v1.0.1 — 2026-11-12
+
+修复 `gradlew` 缺失可执行位导致 Linux / CI 无法运行构建脚本的问题。应用内容与 v1.0.0 一致。
+
+### 问题
+
+`science-atlas/gradlew` 在 git 中的文件模式是 `100644`（无可执行位），因此在
+Linux、macOS 或 CI（Ubuntu）上执行 `./gradlew` 会直接报
+`Permission denied` 并以退出码 126 失败。Windows 上用 `gradlew.bat` 不受影响，
+所以本地一直没暴露。
+
+`feat(science-atlas)` 给 CI 加上 `testReleaseUnitTest` 与 release 构建步骤之后，
+该问题在 CI 上表现为「构建验证 / 单元测试」作业 exit code 126。
+
+### 修复
+
+把 `science-atlas/gradlew` 的 git 文件模式改为 `100755`，与 `history-atlas/gradlew`
+保持一致。
+
+### 验证
+
+- 本地 `./gradlew.bat :app:testReleaseUnitTest`：通过
+- CI 由 Ubuntu 执行 `./gradlew :app:testReleaseUnitTest`：通过
+
+---
+
 ## v1.0.0 — 2026-11-11
 
 首个版本。地理、天文、物理、化学四门学科的离线科普 App。
