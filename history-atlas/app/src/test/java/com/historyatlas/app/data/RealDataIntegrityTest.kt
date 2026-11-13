@@ -49,8 +49,8 @@ class RealDataIntegrityTest {
         val dataset = loadWorld()
 
         assertTrue(dataset.periods.size >= 85, "世界史时期数异常: ${dataset.periods.size}")
-        assertTrue(dataset.events.size >= 395, "世界史事件数低于预期: ${dataset.events.size}")
-        assertTrue(dataset.figures.size >= 240, "世界史人物数低于预期: ${dataset.figures.size}")
+        assertTrue(dataset.events.size >= 421, "世界史事件数低于预期: ${dataset.events.size}")
+        assertTrue(dataset.figures.size >= 259, "世界史人物数低于预期: ${dataset.figures.size}")
 
         val eventNames = dataset.events.map { it.name }
         val figureNames = dataset.figures.map { it.name }
@@ -65,6 +65,18 @@ class RealDataIntegrityTest {
             assertTrue(eventNames.any { it.contains(name) }, "世界史缺少事件: $name")
         }
         listOf("史蒂芬孙", "希特勒", "曼德拉", "杜鲁门", "威尔逊", "达·芬奇", "乔布斯").forEach { name ->
+            assertTrue(figureNames.any { it.contains(name) }, "世界史缺少人物: $name")
+        }
+
+        // v1.5.0：填空壳时期 + 重量级人物
+        listOf("亚述", "旧石器时代", "商代青铜", "香料群岛", "库克船长", "拜占庭晚期").forEach { name ->
+            assertTrue(eventNames.any { it.contains(name) }, "世界史缺少事件: $name")
+        }
+        listOf(
+            "拿破仑", "华盛顿", "玻利瓦尔", "爱因斯坦", "贝多芬", "巴赫", "莫扎特",
+            "梵高", "毕加索", "歌德", "雨果", "陀思妥耶夫斯基", "弗洛伊德",
+            "马丁·路德·金", "戈尔巴乔夫",
+        ).forEach { name ->
             assertTrue(figureNames.any { it.contains(name) }, "世界史缺少人物: $name")
         }
     }
