@@ -39,8 +39,8 @@ class RealDataIntegrityTest {
 
         // 基础规模
         assertTrue(dataset.periods.size >= 60, "时期数异常: ${dataset.periods.size}")
-        assertTrue(dataset.events.size >= 400, "事件数低于预期: ${dataset.events.size}")
-        assertTrue(dataset.figures.size >= 474, "人物数低于预期: ${dataset.figures.size}")
+        assertTrue(dataset.events.size >= 426, "事件数低于预期: ${dataset.events.size}")
+        assertTrue(dataset.figures.size >= 482, "人物数低于预期: ${dataset.figures.size}")
 
         // 第一批（春秋战国）补充必须存在
         val eventNames = dataset.events.map { it.name }
@@ -65,6 +65,20 @@ class RealDataIntegrityTest {
             assertTrue(eventNames.any { it.contains(name) }, "缺少事件: $name")
         }
         listOf("张良", "萧何", "范增", "卫青", "霍去病", "王昭君", "向戌").forEach { name ->
+            assertTrue(figureNames.any { it.contains(name) }, "缺少人物: $name")
+        }
+
+        // 第四批（科技发明、文物艺术、文学名著、制度经济）补充必须存在
+        listOf(
+            "火药的发明", "印刷术的发明", "指南针的发明", "本草纲目", "天工开物",
+            "授时历", "农政全书", "梦溪笔谈", "都江堰", "赵州桥", "兵马俑",
+            "敦煌", "龙门石窟", "青花瓷", "诗经", "四大名著", "宋词", "三省六部",
+            "交子", "一条鞭法", "摊丁入亩", "军机处", "遣唐使", "马可·波罗",
+            "利玛窦", "尼布楚条约",
+        ).forEach { name ->
+            assertTrue(eventNames.any { it.contains(name) }, "缺少事件: $name")
+        }
+        listOf("李冰", "李春", "曹雪芹", "罗贯中", "施耐庵", "吴承恩", "马可·波罗", "利玛窦").forEach { name ->
             assertTrue(figureNames.any { it.contains(name) }, "缺少人物: $name")
         }
     }
