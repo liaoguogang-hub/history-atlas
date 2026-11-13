@@ -33,6 +33,42 @@ class RealDataIntegrityTest {
         return json.decodeFromString(HistoryDataset.serializer(), text)
     }
 
+    private fun loadWorld(): HistoryDataset {
+        val candidates = listOf(
+            File("src/main/assets/data/world.json"),
+            File("app/src/main/assets/data/world.json"),
+        )
+        val file = candidates.firstOrNull { it.isFile }
+            ?: error("找不到 assets/data/world.json")
+        val text = file.readText(Charsets.UTF_8)
+        return json.decodeFromString(HistoryDataset.serializer(), text)
+    }
+
+    @Test
+    fun `打包的世界史数据可被完整解析且新补充条目未丢失`() {
+        val dataset = loadWorld()
+
+        assertTrue(dataset.periods.size >= 85, "世界史时期数异常: ${dataset.periods.size}")
+        assertTrue(dataset.events.size >= 395, "世界史事件数低于预期: ${dataset.events.size}")
+        assertTrue(dataset.figures.size >= 240, "世界史人物数低于预期: ${dataset.figures.size}")
+
+        val eventNames = dataset.events.map { it.name }
+        val figureNames = dataset.figures.map { it.name }
+        // 近代骨架：工业革命、帝国主义、两次大战、冷战、去殖民化、科技时代
+        listOf(
+            "瓦特", "工业革命", "铁路时代", "柏林会议", "帝国主义扩张",
+            "第一次世界大战", "第二次世界大战", "纳粹大屠杀", "冷战",
+            "古巴导弹危机", "柏林墙", "去殖民化", "甘地", "曼德拉",
+            "电子计算机", "阿波罗登月", "双螺旋", "人工智能",
+            "君士坦丁堡的陷落", "大宪章", "文艺复兴",
+        ).forEach { name ->
+            assertTrue(eventNames.any { it.contains(name) }, "世界史缺少事件: $name")
+        }
+        listOf("史蒂芬孙", "希特勒", "曼德拉", "杜鲁门", "威尔逊", "达·芬奇", "乔布斯").forEach { name ->
+            assertTrue(figureNames.any { it.contains(name) }, "世界史缺少人物: $name")
+        }
+    }
+
     @Test
     fun `打包的中国史数据可被完整解析且新补充条目未丢失`() {
         val dataset = loadChina()
