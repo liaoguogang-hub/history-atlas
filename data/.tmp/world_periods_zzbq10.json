@@ -1,0 +1,74 @@
+[
+ {
+  "id": "w-medieval-south-asia",
+  "name": "中世纪南亚",
+  "alias": "德里苏丹国与印度中世纪",
+  "parentId": null,
+  "startYear": -185,
+  "endYear": 1526,
+  "startDateText": "公元前185年",
+  "endDateText": "公元1526年",
+  "colorKey": "india",
+  "summary": "孔雀王朝崩溃后，印度经历巽伽、贵霜、笈多、戒日王与德里苏丹国等政权更迭，佛教、印度教与伊斯兰教在此交汇。",
+  "territory": "印度次大陆",
+  "capital": "华氏城、曲女城、德里",
+  "population": "约1亿",
+  "culture": "印度教、佛教、伊斯兰教",
+  "keyFigures": [],
+  "relatedEvents": [],
+  "tags": [
+   "南亚",
+   "印度",
+   "中世纪",
+   "德里苏丹国"
+  ]
+ },
+ {
+  "id": "w-mughal",
+  "name": "莫卧儿帝国",
+  "alias": "Mughal Empire",
+  "parentId": null,
+  "startYear": 1526,
+  "endYear": 1857,
+  "startDateText": "公元1526年",
+  "endDateText": "公元1857年",
+  "colorKey": "india",
+  "summary": "巴布尔建立的印度次大陆最后一个本土大帝国，阿克巴的宗教宽容、沙贾汗的泰姬陵与奥朗则布的扩张构成其兴衰主线。",
+  "territory": "印度次大陆大部",
+  "capital": "阿格拉、德里",
+  "population": "约1.5亿",
+  "culture": "波斯—印度混合文化、细密画、泰姬陵",
+  "keyFigures": [],
+  "relatedEvents": [],
+  "tags": [
+   "南亚",
+   "莫卧儿",
+   "印度",
+   "泰姬陵"
+  ]
+ },
+ {
+  "id": "w-medieval-southeast-asia",
+  "name": "中世纪东南亚",
+  "alias": "印度化王国时代",
+  "parentId": null,
+  "startYear": 200,
+  "endYear": 1600,
+  "startDateText": "公元200年",
+  "endDateText": "公元1600年",
+  "colorKey": "medieval",
+  "summary": "扶南、真腊、吴哥、室利佛逝、满者伯夷等印度化王国相继兴起，留下吴哥窟、婆罗浮屠等宏伟遗产。",
+  "territory": "中南半岛与马来群岛",
+  "capital": "吴哥、巨港、满者伯夷",
+  "population": "约2000万",
+  "culture": "印度教—佛教文化、吴哥窟、婆罗浮屠",
+  "keyFigures": [],
+  "relatedEvents": [],
+  "tags": [
+   "东南亚",
+   "吴哥",
+   "印度化",
+   "室利佛逝"
+  ]
+ }
+]

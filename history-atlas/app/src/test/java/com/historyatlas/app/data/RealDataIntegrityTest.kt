@@ -48,9 +48,9 @@ class RealDataIntegrityTest {
     fun `打包的世界史数据可被完整解析且新补充条目未丢失`() {
         val dataset = loadWorld()
 
-        assertTrue(dataset.periods.size >= 85, "世界史时期数异常: ${dataset.periods.size}")
-        assertTrue(dataset.events.size >= 430, "世界史事件数低于预期: ${dataset.events.size}")
-        assertTrue(dataset.figures.size >= 271, "世界史人物数低于预期: ${dataset.figures.size}")
+        assertTrue(dataset.periods.size >= 92, "世界史时期数异常: ${dataset.periods.size}")
+        assertTrue(dataset.events.size >= 439, "世界史事件数低于预期: ${dataset.events.size}")
+        assertTrue(dataset.figures.size >= 272, "世界史人物数低于预期: ${dataset.figures.size}")
 
         val eventNames = dataset.events.map { it.name }
         val figureNames = dataset.figures.map { it.name }
@@ -92,6 +92,18 @@ class RealDataIntegrityTest {
         ).forEach { name ->
             assertTrue(figureNames.any { it.contains(name) }, "世界史缺少人物: $name")
         }
+
+        // v1.7.0：新增南亚/东南亚编年时期 + 修畸形 id
+        listOf("笈多王朝", "德里苏丹国", "莫卧儿帝国", "泰姬陵",
+               "室利佛逝", "婆罗浮屠", "马六甲").forEach { name ->
+            assertTrue(eventNames.any { it.contains(name) }, "世界史缺少事件: $name")
+        }
+        // 畸形 id 必须已修正
+        val figureIds = dataset.figures.map { it.id }
+        assertTrue(figureIds.none { it == "fig-sherlock-plo" }, "畸形 id fig-sherlock-plo 未修复")
+        assertTrue(figureIds.none { it == "fig-o-kongo" }, "畸形 id fig-o-kongo 未修复")
+        assertTrue(figureIds.any { it == "fig-xerxes" }, "缺少 fig-xerxes")
+        assertTrue(figureIds.any { it == "fig-oda-nobunaga" }, "缺少 fig-oda-nobunaga")
     }
 
     @Test
