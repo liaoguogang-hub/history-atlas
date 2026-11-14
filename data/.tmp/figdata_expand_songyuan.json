@@ -581,7 +581,7 @@
    "fig-li-bai",
    "fig-du-fu",
    "fig-han-yu",
-   "fig-liu-zongyuan"
+   "fig-liu-zongyuan-2"
   ],
   "relatedEvents": [
    "ev-tang-poetry",
@@ -625,7 +625,7 @@
   "relatedFigures": [
    "fig-bai-juyi",
    "fig-liu-yu",
-   "fig-liu-zongyuan",
+   "fig-liu-zongyuan-2",
    "fig-han-yu"
   ],
   "relatedEvents": [
@@ -668,7 +668,7 @@
   "relatedFigures": [
    "fig-bai-juyi",
    "fig-yuan-zhen",
-   "fig-liu-zongyuan"
+   "fig-liu-zongyuan-2"
   ],
   "relatedEvents": [
    "ev-tang-poetry",
@@ -896,47 +896,6 @@
   ]
  },
  {
-  "id": "fig-liu-zongyuan",
-  "name": "刘宗元",
-  "alias": "子厚、柳河东、柳柳州",
-  "role": "文学家",
-  "birthYear": 773,
-  "deathYear": 819,
-  "gender": "male",
-  "periodId": "cn-tang-mid",
-  "summary": "唐代文学家，与韩愈并称韩柳，倡导古文运动，被贬柳州而文名益彰于世流传至今。",
-  "biography": "刘宗元是河间人，字子厚，祖上为北魏官员，因得罪宦官被贬柳州刺史，有《柳州城西北隅种柑树》与《捕蛇者说》传世，贬谪所作皆佳。他与韩愈等人力倡古文运动，反对骈文，为文雄深雅健，务去陈言，以为世言文章不古，而斥为迂。永贞革新失败后，刘宗元与王叔文先后贬州司马、柳州刺史，在贬所写下《柳州城西北隅种柑树》《江雪》等诗，又作《捕蛇者说》以寓言讽世。他参与王叔文集团的政治革新，出任管州、柳州刺史，在柳州兴办学校，招引后学，化去蛮俗，使文教渐兴，其「韩柳」之名亦由此奠定。其《唐故中书舍人柳君集》残稿存于世。他是唐宋古文运动的开启者，与韩愈并称韩柳；宋人称其文「发纤秾于简古，寄至味于澹泊」，明清以后更被推为古文运动的正宗，苏轼称其「独铸伟辞」，柳宗元与韩愈共同奠定了中国散文由六朝骈体回归先秦两汉散文的路径。柳宗元在柳州颇有惠政，百姓感其德，为之立庙。后世以柳州与柳子厚并称，成为贬谪与州郡治理相映的典型。他与韩愈同倡古文而路径稍异，韩愈长于雄直，柳宗元长于峻洁，二家并立，遂使六朝以来骈文之风为之一变，明清古文家多奉二人为圭臬，其影响直到五四新文化运动以后犹有余响。柳宗元在柳州颇有惠政，百姓感其德，为之立庙。后世以柳州与柳子厚并称，成为贬谪与州郡治理相映的典型。他与韩愈同倡古文而路径稍异，韩愈长于雄直，柳宗元长于峻洁，二家并立，遂使六朝以来骈文之风为之一变，明清古文家多奉二人为圭臬，其影响直到新文化运动以后犹有余响。",
-  "achievements": [
-   "与韩愈力倡古文运动，反对骈文，为文雄深雅健",
-   "永贞革新失败后贬永州司马、柳州刺史，诗文多作于贬所",
-   "《捕蛇者说》以寓言讽世，《江雪》《柳州城西北隅种柑树》传世",
-   "任柳州刺史，兴办学校，移风易俗，有政绩",
-   "为唐宋古文运动的开启者，与韩愈并称韩柳",
-   "《旧唐书》称其文章雄深雅健，宋人称其寄至味于澹泊《旧唐书》称其文章雄深雅健，宋人称其寄至味于澹泊"
-  ],
-  "quotes": [
-   "千山鸟飞绝，万径人踪灭。",
-   "苛政猛于虎也。"
-  ],
-  "relatedFigures": [
-   "fig-han-yu",
-   "fig-li-de",
-   "fig-yuan-zhen",
-   "fig-bai-juyi"
-  ],
-  "relatedEvents": [
-   "ev-tang-poetry",
-   "ev-tang-jingde"
-  ],
-  "tags": [
-   "唐朝",
-   "文学家",
-   "古文运动",
-   "韩柳",
-   "贬谪"
-  ]
- },
- {
   "id": "fig-han-yu",
   "name": "韩愈",
   "alias": "退之、昌黎先生",
@@ -961,7 +920,7 @@
    "古之学者必有师。"
   ],
   "relatedFigures": [
-   "fig-liu-zongyuan",
+   "fig-liu-zongyuan-2",
    "fig-li-bai",
    "fig-bai-juyi",
    "fig-du-fu"
@@ -1219,7 +1178,7 @@
   ],
   "relatedFigures": [
    "fig-zhu-ci-2",
-   "fig-liu-zongyuan",
+   "fig-liu-zongyuan-2",
    "fig-li-huaiguang",
    "fig-yang-yan"
   ],
@@ -1852,7 +1811,7 @@
    "fig-guo-ziyi",
    "fig-li-de",
    "fig-li-huaiguang",
-   "fig-liu-zongyuan"
+   "fig-liu-zongyuan-2"
   ],
   "relatedEvents": [
    "ev-tang-jingde"

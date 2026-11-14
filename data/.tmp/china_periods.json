@@ -333,7 +333,6 @@
    "fig-zhu-wen",
    "fig-li-keyong",
    "fig-li-conghou",
-   "fig-li-yuan",
    "fig-chao-rong",
    "fig-li-yu"
   ],
@@ -493,9 +492,9 @@
   "keyFigures": [
    "fig-nurhaci",
    "fig-huang-taiji",
-   "fig-kangxi",
+   "fig-zzbq2-kangxi",
    "fig-yongzheng",
-   "fig-qianlong",
+   "fig-zzbq2-qianlong",
    "fig-jiaqing"
   ],
   "relatedEvents": [
@@ -1406,7 +1405,6 @@
   "population": "约二千余万",
   "culture": "门阀政治与玄学余绪、佛教丛林化、江南开发、《文心雕龙》、志怪小说、绘画谢赫六法",
   "keyFigures": [
-   "fig-xiao-yan",
    "fig-liang-wudi",
    "fig-xiao-yan-liang",
    "fig-hou-jing",
@@ -1607,7 +1605,6 @@
   "keyFigures": [
    "fig-wen-zong",
    "fig-li-keyong",
-   "fig-wang-xianzhi",
    "fig-huang-chao",
    "fig-zhu-wen",
    "fig-luo-hongxin"
@@ -2078,7 +2075,7 @@
    "fig-nurhaci",
    "fig-huang-taiji",
    "fig-duo-er-dung",
-   "fig-kangxi",
+   "fig-zzbq2-kangxi",
    "fig-yongzheng",
    "fig-wu-sangui"
   ],
@@ -2117,7 +2114,7 @@
   "population": "约三亿至四亿",
   "culture": "《四库全书》与乾嘉考据、红楼梦与京旗文化、京剧形成、督抚与学政、闭关与广州一口通商",
   "keyFigures": [
-   "fig-qianlong",
+   "fig-zzbq2-qianlong",
    "fig-jiaqing",
    "fig-chen-hongshou",
    "fig-ji-yun",

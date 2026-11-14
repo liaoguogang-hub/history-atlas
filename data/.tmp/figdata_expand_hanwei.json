@@ -1611,7 +1611,6 @@
   ],
   "relatedFigures": [
    "fig-liang-wudi",
-   "fig-xiao-yan",
    "fig-shen-yue",
    "fig-nanbei-south-hou-jing",
    "fig-nanbei-south-chen-wubao"
@@ -1661,7 +1660,7 @@
    "fig-fang-xuanling",
    "fig-du-ru-hui",
    "fig-wei-gong",
-   "fig-xiao-yan",
+   "fig-liang-wudi",
    "fig-han-west-wei-qing",
    "fig-li-yuan-tang"
   ],
@@ -1713,7 +1712,7 @@
    "fig-nanbei-south-fang-xuanling",
    "fig-wei-gong",
    "fig-han-east-fan-pang",
-   "fig-xiao-yan"
+   "fig-liang-wudi"
   ],
   "relatedEvents": [
    "ev-tang-xuanwumen",
@@ -1764,7 +1763,7 @@
    "fig-du-ru-hui",
    "fig-wei-gong",
    "fig-han-west-wei-qing",
-   "fig-xiao-yan",
+   "fig-liang-wudi",
    "fig-li-yuan-tang"
   ],
   "relatedEvents": [
@@ -1815,7 +1814,7 @@
    "fig-nanbei-south-fang-xuanling",
    "fig-du-ru-hui",
    "fig-han-west-wei-qing",
-   "fig-xiao-yan"
+   "fig-liang-wudi"
   ],
   "relatedEvents": [
    "ev-tang-kaifeng",
@@ -1832,59 +1831,6 @@
    "十思疏",
    "文贞",
    "以人为镜"
-  ]
- },
- {
-  "id": "fig-xiao-yan",
-  "name": "萧衍",
-  "alias": "梁武帝",
-  "role": "君主",
-  "birthYear": 464,
-  "deathYear": 549,
-  "gender": "unknown",
-  "periodId": "cn-nanbei-south",
-  "summary": "南朝梁开国皇帝，在位四十八年，前期政清人和崇文重教，晚年佞佛误国，侯景之乱中忧愤而死。",
-  "biography": "萧衍字叔达，南齐宗室，出身兰陵萧氏，齐明帝时为雍州刺史，雍州士民推为领袖。西泰二年（500年），他以齐宝卷残暴、杀害宗室为名起兵于雍州，攻克建康，次年即皇帝位，是为梁武帝，在位凡四十八年。他即位初年选拔人才、广开言路，崇文重教，立五馆以讲经，置集雅馆以聚书，编撰《通史》与《文选》，使南朝文化臻于极盛。他还规定官民衣服礼制的规范，教化百姓，境内称治。他与兄弟们争夺帝位时手段狠辣，登基后诛杀萧宝、萧宝融及宗室诸王，防范之心极重，这使他晚年多猜忌、少恩泽。他又三临同泰寺讲《涅槃经》，前后四次舍身同泰寺，每次由群臣以巨资赎回，「所费以亿计」，国库为之空虚。他设无遮大会供养僧尼，下诏僧尼可食酒肉，这在中国佛教史上是破天荒的举措。他还首创皇帝登坛受戒之例，一时士女争入寺内受戒，法席盛况空前的，以为佛法之盛。于是僧尼之众增至数万，僧尼之权势亦随之增长，而他所倚重的僧人朱异、贺琛等借此干预朝政。天监十四年（515年）他第一次舍身同泰寺时，侍中何敬容等不肯奉还所募金钱，他大怒而免其官。中大通三年（531年）他亲临同泰寺讲法，殿内千人，群臣、宗室、贵戚皆列侍。他晚年国势衰微，侯景之乱起，江州望王不降，京城陷落。侯景幽禁他于净居殿，尚书殷钧、侍中王绾等请突围出降，他不肯；求蜜不得，忧愤成疾，口苦而索蜜不得，再曰「荷荷」，遂崩。太清三年（549年）他崩于净居殿，年八十六，谥号武皇帝，庙号太宗，葬于栖谷山。他死前所著的《净住子》《附佛道论》表明其晚年对佛道之辨的用心。他一生勤于政事而晚年佞佛，前朝政清明与后朝国败形成鲜明对比，成为后世论君主与佛教的典型案例。",
-  "achievements": [
-   "西泰二年（500年）起兵于雍州，攻克建康，次年称帝建立梁",
-   "在位四十八年，前期政清人和，江南称治",
-   "立五馆以讲经，置集雅馆以聚书，崇文重教",
-   "编撰《通史》与《文选》",
-   "规定官民衣服礼制规范，教化百姓",
-   "三临同泰寺讲《涅槃经》，前后四次舍身同泰寺",
-   "下诏僧尼可食酒肉，为中国佛教史上的特例",
-   "开创皇帝登坛受戒之例",
-   "晚年遭侯景之乱，幽禁台城，忧愤而崩",
-   "著《净住子》《附佛道论》"
-  ],
-  "quotes": [
-   "我本无心，奈何求佛。",
-   "举宗沦为奴婢。"
-  ],
-  "relatedFigures": [
-   "fig-liang-wudi",
-   "fig-nanbei-south-hou-jing",
-   "fig-nanbei-south-chen-wubao",
-   "fig-nanbei-south-fan-yun",
-   "fig-shen-yue",
-   "fig-tao-yuanming",
-   "fig-zu-chongzhi",
-   "fig-wang-wei"
-  ],
-  "relatedEvents": [
-   "ev-nanbei-nanbei-south",
-   "ev-weijin-liang-wudi",
-   "ev-weijin-houjing",
-   "ev-weijin-north-south"
-  ],
-  "tags": [
-   "南北朝",
-   "南朝梁",
-   "皇帝",
-   "萧衍",
-   "梁武帝",
-   "侯景之乱",
-   "佛教"
   ]
  },
  {
@@ -1916,11 +1862,10 @@
   ],
   "relatedFigures": [
    "fig-nanbei-south-fan-yun",
-   "fig-xiao-yan",
+   "fig-liang-wudi",
    "fig-tao-yuanming",
    "fig-liu-xie",
-   "fig-wang-xizhi",
-   "fig-liang-wudi"
+   "fig-wang-xizhi"
   ],
   "relatedEvents": [
    "ev-nanbei-nanbei-south",
@@ -1968,7 +1913,7 @@
   ],
   "relatedFigures": [
    "fig-shen-yue",
-   "fig-xiao-yan",
+   "fig-liang-wudi",
    "fig-tao-yuanming",
    "fig-liu-yao-2"
   ],
@@ -2062,7 +2007,6 @@
   "relatedFigures": [
    "fig-nanbei-south-hou-jing",
    "fig-liang-wudi",
-   "fig-xiao-yan",
    "fig-nanbei-south-fan-yun",
    "fig-nanbei-south-chen-wubao"
   ],

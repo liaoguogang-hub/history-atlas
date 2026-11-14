@@ -336,7 +336,6 @@
     "fig-zhu-wen",
     "fig-li-heng",
     "fig-li-conghou",
-    "fig-li-yuan-tang",
     "fig-chao-rong",
     "fig-li-yu"
    ],
@@ -495,9 +494,9 @@
    "keyFigures": [
     "fig-nurhaci",
     "fig-huang-taiji",
-    "fig-kangxi",
+    "fig-zzbq2-kangxi",
     "fig-yongzheng",
-    "fig-qianlong",
+    "fig-zzbq2-qianlong",
     "fig-jiaqing"
    ],
    "relatedEvents": [
@@ -1403,8 +1402,8 @@
    "population": "约二千余万",
    "culture": "门阀政治与玄学余绪、佛教丛林化、江南开发、《文心雕龙》、志怪小说、绘画谢赫六法",
    "keyFigures": [
-    "fig-xiao-yan",
     "fig-liang-wudi",
+    "fig-nanbei-north-liang-wudi",
     "fig-nanbei-south-hou-jing"
    ],
    "relatedEvents": [
@@ -1596,7 +1595,6 @@
    "keyFigures": [
     "fig-wen-zong",
     "fig-li-heng",
-    "fig-wang-xianzhi-2",
     "fig-huang-chao",
     "fig-zhu-wen",
     "fig-luo-hongxin"
@@ -2058,7 +2056,7 @@
     "fig-nurhaci",
     "fig-huang-taiji",
     "fig-duo-er-dung",
-    "fig-kangxi",
+    "fig-zzbq2-kangxi",
     "fig-yongzheng",
     "fig-wu-sangui"
    ],
@@ -2097,7 +2095,7 @@
    "population": "约三亿至四亿",
    "culture": "《四库全书》与乾嘉考据、红楼梦与京旗文化、京剧形成、督抚与学政、闭关与广州一口通商",
    "keyFigures": [
-    "fig-qianlong",
+    "fig-zzbq2-qianlong",
     "fig-jiaqing"
    ],
    "relatedEvents": [
@@ -6168,7 +6166,7 @@
     "fig-nanbei-south-hou-jing",
     "fig-liang-wudi",
     "fig-wang-wei",
-    "fig-xiao-yan"
+    "fig-nanbei-north-liang-wudi"
    ],
    "tags": [
     "南北朝",
@@ -6194,8 +6192,8 @@
     "fig-liang-wudi",
     "fig-shen-yue",
     "fig-nanbei-south-fan-yun",
-    "fig-xiao-yan",
-    "fig-nanbei-south-hou-jing"
+    "fig-nanbei-south-hou-jing",
+    "fig-nanbei-north-liang-wudi"
    ],
    "tags": [
     "南北朝",
@@ -6863,7 +6861,7 @@
     "fig-li-de",
     "fig-zhu-ci-2",
     "fig-li-huaiguang",
-    "fig-liu-zongyuan",
+    "fig-liu-zongyuan-2",
     "fig-yu-chao-en"
    ],
    "tags": [
@@ -8565,7 +8563,7 @@
    "detail": "康熙帝玄烨八岁即位，十四岁亲政，十六岁智擒鳌拜。此后他平定三藩之乱（1673—1681）、收复台湾（1683）、两次围攻雅克萨并签订《尼布楚条约》（1689）、三征噶尔丹（1690—1697）、册封五世班禅确立对西藏的管辖，并推行「滋生人丁永不加赋」以纾民困。他重视西学，任用南怀仁等传教士修订历法。康熙一朝与雍正、乾隆两朝合称「康乾盛世」，清朝的疆域与人口在这一百三十余年间达到极盛，但文字狱与闭关政策也埋下近代落伍的隐患。",
    "importance": 5,
    "figures": [
-    "fig-kangxi",
+    "fig-kangxi-2",
     "fig-zzbq2-kangxi"
    ],
    "tags": [
@@ -10514,7 +10512,6 @@
    "importance": 5,
    "detail": "嘉平元年（249年），司马懿趁曹爽与魏帝曹芳一同谒陵高平陵时发动政变，以「讨伐曹爽」为名率兵控制洛阳朝廷，史称高平陵之变。政变之前，司马懿已长期蛰伏，先后担任太尉、大将军等职，与曹爽分掌军政大权，表面上称病回避，实则暗中积蓄力量，并在洛阳城内外布置亲信与死士。曹爽兄弟经营多年，把持朝政、抑制曹魏宗室，司马懿则被视为无足轻重的老臣。249年正月，曹爽兄弟随曹芳出城谒陵，司马懿在洛阳发动政变，控制武库与城门，随即以太后诏书罢免曹爽兄弟职务并将其逮捕。曹爽最终相信桓范建议，放弃抵抗而投降，司马懿以承诺免罪为诱饵将其骗至洛阳，随即以「大逆不道」之名诛灭曹爽三族，并捕杀曹魏宗室与名士。同一时期，支持曹爽的夏侯玄、魏征等人亦相继被害。此后司马懿逐步清除反对势力：嘉平三年平定王凌之乱，嘉平四年平定令狐愚与诸葛诞之乱，把淮南三叛一并压平。嘉平六年（254年）司马懿发动废黜齐王曹芳的政变，改立高贵乡公曹髦。嘉平七年司马懿去世，其子司马师、司马昭相继承袭权位。265年司马炎以晋王受禅称帝，建立西晋。这场政变是曹魏政权终结与司马氏皇朝建立的起点，也标志着中国政治从汉末以来的门阀士族与皇权合作格局，实质性地转向士族政治主导的时代。",
    "figures": [
-    "fig-cao-shuang",
     "fig-sima-zhao",
     "fig-wei-gong",
     "fig-jin-west-han-emperor-mingdi",
@@ -16598,7 +16595,6 @@
    "relatedFigures": [
     "fig-bai-juyi",
     "fig-yuan-zhen",
-    "fig-liu-zongyuan",
     "fig-liu-zongyuan-2"
    ],
    "tags": [
@@ -16650,7 +16646,7 @@
     "fig-li-bai",
     "fig-du-fu",
     "fig-han-yu",
-    "fig-liu-zongyuan",
+    "fig-liu-zongyuan-2",
     "fig-li-shangyin",
     "fig-wang-changling",
     "fig-wen-zong"
@@ -16698,7 +16694,7 @@
    "relatedFigures": [
     "fig-bai-juyi",
     "fig-liu-yu",
-    "fig-liu-zongyuan",
+    "fig-liu-zongyuan-2",
     "fig-han-yu",
     "fig-jianzhen"
    ],
@@ -16815,11 +16811,11 @@
    "id": "fig-cao-shuang",
    "name": "曹爽",
    "alias": "昭伯",
-   "birthYear": null,
+   "birthYear": -223,
    "deathYear": 249,
    "lifeText": "？－公元249年",
    "role": "政治家",
-   "periodId": "cn-three-wei",
+   "periodId": "cn-zhou-east",
    "gender": "male",
    "summary": "曹魏宗室与大将军，与司马懿争权，推崇清谈玄学，嘉平元年败于高平陵之变。",
    "biography": "曹爽，字昭伯，曹操与卞夫人之子、曹丕之弟、曹叡之叔。他少有才名，性格谨慎，曹操在世时已与其交往。曹叡即位后，曹爽先任散骑侍郎、散骑常侍、武卫将军，魏明帝临终时被任命为大将军，与司马懿同受遗诏辅佐魏齐王曹芳。嘉平元年（249年），曹芳诣陵高平陵，司马懿以洛阳兵控制局面，勒兵奏免曹爽兄弟，指控曹爽「背君以专权，图中以作威」——曹爽「专权以作威福」，用从官数百人分次奏事，每奏必得须报，司马懿乘机奏请罢免其兵权。曹爽惶恐，乃问桓范计策，桓范建议他挟天子以至许昌、召外兵而讨司马懿；曹爽不听，桓范进而叹曰「当今日不识」。曹爽信服「免官归第」的劝告，解印绶归第。此前曹爽曾用何晏、邓飏、丁谧等名士推行清谈与虚玄之风，「以玄为贵」，讲究「天地以自然运，圣人以自然用」，一时成为魏国清谈的宗主；何晏等又借其势而操弄权柄，逐曹真而专权，曹爽不能制。他与司马懿的冲突，自嘉平元年魏明帝病重时已伏下：明帝临终赐曹爽舆服与虎贲、剑履上殿，入朝不趋，剑履上殿，与司马懿并为顾命大臣，司马懿因此恐惧而发动政变。高平陵之变后，司马懿以谋反罪诛曹爽、曹羲、曹训三族，桓范等皆夷三族。曹爽从此成为魏晋之际「权臣而不能制」的反面教材，其失败被后世归因于「有才无断」与「信谗违众」。",
@@ -16836,18 +16832,14 @@
     "吾乃故人，有疑不问。",
     "免官归第，以避贤路。"
    ],
-   "relatedEvents": [
-    "ev-three-gaopingling"
-   ],
+   "relatedEvents": [],
    "relatedFigures": [
     "fig-sima-yi",
     "fig-han-east-cao-rui",
     "fig-sima-shi",
     "fig-han-east-cao-cao",
     "fig-jin-west-han-emperor-mingdi",
-    "fig-zhao-yan",
-    "fig-sima-zhao",
-    "fig-wei-gong"
+    "fig-zhao-yan"
    ],
    "tags": [
     "三国",
@@ -16986,7 +16978,6 @@
     "fig-jin-west-han-emperor-mingdi",
     "fig-zhong-hui",
     "fig-deng-ai",
-    "fig-cao-shuang",
     "fig-wei-gong"
    ],
    "tags": [
@@ -17632,7 +17623,8 @@
     "fig-tao-yuanming",
     "fig-shen-yue",
     "fig-liu-yao-2",
-    "fig-xiao-yan"
+    "fig-nanbei-north-liang-wudi",
+    "fig-fang-xuanling"
    ],
    "tags": [
     "南北朝",
@@ -17893,10 +17885,10 @@
     "fig-shen-yue",
     "fig-nanbei-south-hou-jing",
     "fig-wang-xizhi",
-    "fig-xiao-yan",
     "fig-liu-xie",
     "fig-faxian",
-    "fig-wang-xianzhi-2"
+    "fig-wang-xianzhi-2",
+    "fig-tang-late-wang-yi"
    ],
    "tags": [
     "东晋",
@@ -17998,8 +17990,7 @@
     "fig-tao-yuanming",
     "fig-liu-yao-2",
     "fig-shen-yue",
-    "fig-nanbei-south-hou-jing",
-    "fig-xiao-yan"
+    "fig-nanbei-south-hou-jing"
    ],
    "tags": [
     "南北朝",
@@ -18392,7 +18383,7 @@
     "fig-du-ru-hui",
     "fig-wei-gong",
     "fig-han-west-wei-qing",
-    "fig-xiao-yan",
+    "fig-liang-wudi",
     "fig-li-yuan-tang",
     "fig-li-shimin",
     "fig-shen-yue",
@@ -18493,14 +18484,14 @@
     "fig-nanbei-south-fang-xuanling",
     "fig-du-ru-hui",
     "fig-han-west-wei-qing",
-    "fig-xiao-yan",
+    "fig-liang-wudi",
     "fig-li-shimin",
     "fig-li-yuan-tang",
     "fig-li-jiancheng",
-    "fig-cao-shuang",
     "fig-sima-zhao",
     "fig-jin-west-han-emperor-mingdi",
-    "fig-sima-yi"
+    "fig-sima-yi",
+    "fig-li-shangyin"
    ],
    "tags": [
     "南北朝",
@@ -18913,11 +18904,11 @@
    "id": "fig-yang-guozhong",
    "name": "杨国忠",
    "alias": "杨钊",
-   "birthYear": null,
+   "birthYear": 708,
    "deathYear": 756,
    "lifeText": "？－公元756年",
    "role": "政治家",
-   "periodId": "cn-tang-mid",
+   "periodId": "cn-tang-early",
    "gender": "male",
    "summary": "唐玄宗时期宰相，与李林甫争权，安禄山以讨伐为名起兵，马嵬驿兵变中被诛。",
    "biography": "杨国忠是蒲州永乐人，本名钊，杨玄琰之子。为人无行，好敛财，与族兄杨慎矜皆有宠，杨慎矜为御史，杨国忠为右金吾卫大将军，后为宰相。天宝十一载（752年）杨国忠为相，与前任相李林甫相互倾轧，李林甫在任时凡有善恶皆推为李林甫之善，己为恶，台司及外镇皆附杨国忠，一时号称「国忠」，可见其气焰之盛。他专权用事，广收贿赂，搜刮民财，盐铁诸利一并揽入己手，又与安禄山交情日密而互相嫌隙。他曾以胡人为将，驱使南诏与吐蕃出兵，损耗国库，又忌边将盛强，故意抑抑之以树私怨，最终迫使安禄山以讨杨为名起兵。天宝十四载（755年）安禄山反，兵临潼关，唐玄宗迫于形势西幸成都，途中马嵬驿兵变，杨国忠被乱军诛杀，其子杨暄亦死于乱兵。禄山遂称帝。安史之乱中杨国忠虽死，其为相三年间造成的财政崩溃与边镇失和却已是无法挽回，其人成为唐代宦官与权臣交替擅权的典型标本。后世史家多以「禄山之乱」始于杨国忠之激成，把安史之乱的爆发归因于唐廷内部政治失衡，而非单纯的边将叛乱。杨国忠在任内排斥异己，把持朝政，其子杨暄亦居显位，进一步加深了唐廷内部的派系之争。他对安禄山既倚为爪牙又处处牵制，终于把边镇逼到不得不反的地步，这一过程正体现中唐藩镇体制下中央与地方的深刻矛盾。",
@@ -19060,53 +19051,6 @@
    ]
   },
   {
-   "id": "fig-liu-zongyuan",
-   "name": "刘宗元",
-   "alias": "子厚、柳河东、柳柳州",
-   "birthYear": 773,
-   "deathYear": 819,
-   "lifeText": "公元773年－公元819年",
-   "role": "文学家",
-   "periodId": "cn-tang-mid",
-   "gender": "male",
-   "summary": "唐代文学家，与韩愈并称韩柳，倡导古文运动，被贬柳州而文名益彰于世流传至今。",
-   "biography": "刘宗元是河间人，字子厚，祖上为北魏官员，因得罪宦官被贬柳州刺史，有《柳州城西北隅种柑树》与《捕蛇者说》传世，贬谪所作皆佳。他与韩愈等人力倡古文运动，反对骈文，为文雄深雅健，务去陈言，以为世言文章不古，而斥为迂。永贞革新失败后，刘宗元与王叔文先后贬州司马、柳州刺史，在贬所写下《柳州城西北隅种柑树》《江雪》等诗，又作《捕蛇者说》以寓言讽世。他参与王叔文集团的政治革新，出任管州、柳州刺史，在柳州兴办学校，招引后学，化去蛮俗，使文教渐兴，其「韩柳」之名亦由此奠定。其《唐故中书舍人柳君集》残稿存于世。他是唐宋古文运动的开启者，与韩愈并称韩柳；宋人称其文「发纤秾于简古，寄至味于澹泊」，明清以后更被推为古文运动的正宗，苏轼称其「独铸伟辞」，柳宗元与韩愈共同奠定了中国散文由六朝骈体回归先秦两汉散文的路径。柳宗元在柳州颇有惠政，百姓感其德，为之立庙。后世以柳州与柳子厚并称，成为贬谪与州郡治理相映的典型。他与韩愈同倡古文而路径稍异，韩愈长于雄直，柳宗元长于峻洁，二家并立，遂使六朝以来骈文之风为之一变，明清古文家多奉二人为圭臬，其影响直到五四新文化运动以后犹有余响。柳宗元在柳州颇有惠政，百姓感其德，为之立庙。后世以柳州与柳子厚并称，成为贬谪与州郡治理相映的典型。他与韩愈同倡古文而路径稍异，韩愈长于雄直，柳宗元长于峻洁，二家并立，遂使六朝以来骈文之风为之一变，明清古文家多奉二人为圭臬，其影响直到新文化运动以后犹有余响。",
-   "achievements": [
-    "与韩愈力倡古文运动，反对骈文，为文雄深雅健",
-    "永贞革新失败后贬永州司马、柳州刺史，诗文多作于贬所",
-    "《捕蛇者说》以寓言讽世，《江雪》《柳州城西北隅种柑树》传世",
-    "任柳州刺史，兴办学校，移风易俗，有政绩",
-    "为唐宋古文运动的开启者，与韩愈并称韩柳",
-    "《旧唐书》称其文章雄深雅健，宋人称其寄至味于澹泊《旧唐书》称其文章雄深雅健，宋人称其寄至味于澹泊"
-   ],
-   "quotes": [
-    "千山鸟飞绝，万径人踪灭。",
-    "苛政猛于虎也。"
-   ],
-   "relatedEvents": [
-    "ev-tang-poetry",
-    "ev-tang-jingde"
-   ],
-   "relatedFigures": [
-    "fig-han-yu",
-    "fig-li-de",
-    "fig-yuan-zhen",
-    "fig-bai-juyi",
-    "fig-zhu-ci-2",
-    "fig-li-huaiguang",
-    "fig-yu-chao-en",
-    "fig-liu-yu",
-    "fig-liu-zongyuan-2"
-   ],
-   "tags": [
-    "唐朝",
-    "文学家",
-    "古文运动",
-    "韩柳",
-    "贬谪"
-   ]
-  },
-  {
    "id": "fig-han-yu",
    "name": "韩愈",
    "alias": "退之、昌黎先生",
@@ -19137,12 +19081,11 @@
     "ev-tang-jingde"
    ],
    "relatedFigures": [
-    "fig-liu-zongyuan",
+    "fig-liu-zongyuan-2",
     "fig-li-bai",
     "fig-bai-juyi",
     "fig-du-fu",
-    "fig-yuan-zhen",
-    "fig-liu-zongyuan-2"
+    "fig-yuan-zhen"
    ],
    "tags": [
     "唐朝",
@@ -19426,7 +19369,7 @@
    ],
    "relatedFigures": [
     "fig-zhu-ci-2",
-    "fig-liu-zongyuan",
+    "fig-liu-zongyuan-2",
     "fig-li-huaiguang",
     "fig-yang-yan",
     "fig-yu-chao-en"
@@ -19573,7 +19516,7 @@
     "fig-guo-ziyi",
     "fig-li-de",
     "fig-zhu-ci-2",
-    "fig-liu-zongyuan"
+    "fig-liu-zongyuan-2"
    ],
    "tags": [
     "唐朝",
@@ -20154,19 +20097,27 @@
     "孤舟蓑笠翁，独钓寒江雪。"
    ],
    "relatedEvents": [
+    "ev-tang-jingde",
     "ev-suita-luoyang"
    ],
    "relatedFigures": [
     "fig-han-yu",
     "fig-liu-yu",
-    "fig-liu-zongyuan"
+    "fig-li-de",
+    "fig-zhu-ci-2",
+    "fig-li-huaiguang",
+    "fig-yu-chao-en",
+    "fig-bai-juyi",
+    "fig-yuan-zhen"
    ],
    "tags": [
     "唐朝",
     "文学家",
     "古文运动",
     "唐宋八大家",
-    "永州八记"
+    "永州八记",
+    "柳宗元",
+    "cn-tang-mid"
    ]
   },
   {
@@ -20548,8 +20499,7 @@
     "十六国",
     "大夏",
     "匈奴",
-    "十六国时期西北强国",
-    "胡夏"
+    "十六国时期西北强国"
    ]
   },
   {
@@ -20625,11 +20575,11 @@
    "id": "fig-kang-senghui",
    "name": "康僧会",
    "alias": "",
-   "birthYear": null,
+   "birthYear": 190,
    "deathYear": 280,
    "lifeText": "？－公元280年",
    "role": "宗教人物",
-   "periodId": "cn-three-wu",
+   "periodId": "cn-han-east",
    "gender": "male",
    "summary": "三国吴僧人，自天竺来建业译经，为江南佛教传入之始。",
    "biography": "康僧会，本姓康，是康居（位于中亚今撒马尔罕一带）人。其先祖于汉桓帝时迁入中国，父辈移居吴郡建业（今日南京）。他早年出家为僧，法名僧会，博学多能，通晓天文、历法、术数、阴阳、医方、典籍，能背诵经文数千余卷，工于草隶。据《高僧传》记载，他于孙权赤乌十年（247年）从西域来到建业。当时江南尚未有佛经僧寺，孙权以沙门为妖僧，礼制不备，康僧会于是携带西域佛经、佛像与舍利至吴宫，直接向孙权陈说佛教教义，指明佛陀是西域的仁王，与中国先贤所奉的教义并无冲突，并称其可治国利民。孙权深为叹服，称为「那就明感应化」，乃于建业为一座佛寺，名曰建初寺，这是江南地区第一座佛寺。康僧会又译出《泥洹经》《太子凡赞本起经》《法护经》《首楞严三昧经》等佛经，是三吴时期已知译经最多的僧人之一。其所译经论文字流畅，对佛教在南方的传播起了重要作用康僧会还绘制佛像（夹纻、泥塑等造像），供信众礼拜，并劝导孙皓信仰佛法，前后长达三十余年。他对儒道佛三家的经典都有涉猎，曾与孙权讨论过儒道佛三教的优劣，属于早期会通思想的尝试。康僧会约在吴赤乌五年（242年）前后卒，享年七十余岁。",
@@ -21531,7 +21481,6 @@
     "ev-zzbq4-nibuchu"
    ],
    "relatedFigures": [
-    "fig-kangxi",
     "fig-zzbq2-kangxi"
    ],
    "tags": [
@@ -21806,7 +21755,7 @@
    "deathYear": null,
    "lifeText": "公元1942年－",
    "role": "政治家",
-   "periodId": "cn-modern-anti-japan",
+   "periodId": "cn-prc-reform",
    "gender": "male",
    "summary": "中国政治家，2003年至2013年任国家主席，提出科学发展观与构建社会主义和谐社会。",
    "biography": "胡锦涛，安徽绩溪人，生于江苏泰州，出身书香门第。他1965年毕业于清华大学水利工程系，在校期间加入中国共产党。毕业后他在甘肃刘家峡水电工程局工作，历任技术员、秘书、团委书记，后在甘肃省建委、共青团中央工作。1985年他任中共贵州省委书记，1988年任中共西藏自治区党委书记，在西藏工作期间主持维护稳定与发展经济的工作。1992年他当选中央政治局常委、中央书记处书记，1998年任国家副主席，2002年任中共中央总书记，2003年任中华人民共和国主席，2004年任中央军委主席。在任期间他提出科学发展观与构建社会主义和谐社会，推动经济社会的协调发展与生态文明建设；提出建设社会主义新农村，取消农业税；推动应对国际金融危机、举办北京奥运会与上海世博会；提出「一国两制」方针下的香港、澳门繁荣稳定与两岸关系和平发展，推动两岸「三通」与签署《海峡两岸经济合作框架协议》。2012年他卸任总书记，2013年卸任国家主席。他作风低调务实，任内中国经济总量跃居世界第二位。",
@@ -21827,7 +21776,9 @@
     "权为民所用，情为民所系，利为民所谋。"
    ],
    "relatedEvents": [
-    "ev-modern-communist-party"
+    "ev-prc-new-era",
+    "ev-prc-olympic",
+    "ev-prc-founding"
    ],
    "relatedFigures": [
     "fig-xi-jinping",
@@ -21851,7 +21802,7 @@
    "deathYear": null,
    "lifeText": "公元1942年－",
    "role": "政治家",
-   "periodId": "cn-modern-anti-japan",
+   "periodId": "cn-prc-reform",
    "gender": "male",
    "summary": "中国政治家，2003年至2013年任国务院总理，推动农村税费改革、应对金融危机。",
    "biography": "温家宝，天津人，出身教育世家，祖父温瀛士为教育家，父温刚为中学教师。他1960年考入北京地质学院地质构造专业，1965年毕业并留校任教，1967年研究生毕业。此后他长期在甘肃省地质局工作，历任技术员、副队长、副局长；1982年调任地质矿产部副部长，1985年任中共中央办公厅副主任，1986年任办公厅主任，后兼任中央政治局候补委员。1993年他任中央书记处书记，1998年任国务院副总理，分管农业、金融、科技等工作。2003年他出任国务院总理，任内推动农村税费改革，2006年全面取消农业税，终结了延续两千六百年的农业税；推行农村义务教育「两免一补」、新型农村合作医疗与农村最低生活保障制度；推动应对2008年国际金融危机，出台四万亿投资计划；主持抗击非典、汶川地震救灾与灾后重建；推动教育、医疗卫生体制改革与保障性住房建设。他在任期间多次深入矿井、灾区与田间地头，以「我心里始终装着群众」著称，2003年在北京航空航天大学看望学生时的「仰望星空」之答广为流传。2013年3月他卸任总理。",
@@ -21900,7 +21851,7 @@
    "deathYear": null,
    "lifeText": "公元1953年－",
    "role": "政治家",
-   "periodId": "cn-prc-early",
+   "periodId": "cn-prc-new-era",
    "gender": "male",
    "summary": "中华人民共和国主席、中共中央总书记，提出中国梦、一带一路倡议与全面建成小康社会的目标。",
    "biography": "习近平，祖籍陕西富平，生于北京，父习仲勋曾任国务院副总理。1969年他作为知识青年到陕西延川县梁家河插队，任大队党支部书记。1975年他入清华大学化学工程系学习，1979年毕业后在国务院办公厅、中央军委办公厅工作，任耿飙秘书。1982年他主动要求到基层工作，任中共河北正定县委副书记、书记。此后他历任福建省厦门市副市长、宁德地委书记、福州市委书记、福建省省长，2002年任中共浙江省委书记，2007年任中共上海市委书记，同年当选中央政治局常委。2012年11月他当选中共中央总书记、中央军委主席，2013年3月当选中华人民共和国主席。在任期间他提出实现中华民族伟大复兴的中国梦，提出「一带一路」倡议，推动构建人类命运共同体；领导脱贫攻坚战，2020年宣布现行标准下农村贫困人口全部脱贫；推动全面深化改革、全面依法治国、全面从严治党；推动生态文明建设，提出「绿水青山就是金山银山」；推动国防和军队改革，提出强军目标。他还推动粤港澳大湾区建设、长江经济带发展与乡村振兴战略。",
@@ -23089,10 +23040,10 @@
    ],
    "relatedFigures": [
     "fig-liang-wudi",
-    "fig-xiao-yan",
     "fig-shen-yue",
     "fig-nanbei-south-hou-jing",
     "fig-nanbei-south-chen-wubao",
+    "fig-nanbei-north-liang-wudi",
     "fig-nanbei-north-bao-ling",
     "fig-wang-wei"
    ],
@@ -23138,7 +23089,7 @@
     "fig-fang-xuanling",
     "fig-du-ru-hui",
     "fig-wei-gong",
-    "fig-xiao-yan",
+    "fig-liang-wudi",
     "fig-han-west-wei-qing",
     "fig-li-yuan-tang",
     "fig-li-shimin"
@@ -23188,7 +23139,7 @@
     "fig-fang-xuanling",
     "fig-nanbei-south-fang-xuanling",
     "fig-wei-gong",
-    "fig-xiao-yan",
+    "fig-liang-wudi",
     "fig-li-shimin"
    ],
    "tags": [
@@ -23199,72 +23150,6 @@
     "玄武门之变",
     "鄂国公",
     "渭桥之役"
-   ]
-  },
-  {
-   "id": "fig-xiao-yan",
-   "name": "萧衍",
-   "alias": "梁武帝",
-   "birthYear": 464,
-   "deathYear": 549,
-   "lifeText": "公元464年－公元549年",
-   "role": "君主",
-   "periodId": "cn-nanbei-south",
-   "gender": "unknown",
-   "summary": "南朝梁开国皇帝，在位四十八年，前期政清人和崇文重教，晚年佞佛误国，侯景之乱中忧愤而死。",
-   "biography": "萧衍字叔达，南齐宗室，出身兰陵萧氏，齐明帝时为雍州刺史，雍州士民推为领袖。西泰二年（500年），他以齐宝卷残暴、杀害宗室为名起兵于雍州，攻克建康，次年即皇帝位，是为梁武帝，在位凡四十八年。他即位初年选拔人才、广开言路，崇文重教，立五馆以讲经，置集雅馆以聚书，编撰《通史》与《文选》，使南朝文化臻于极盛。他还规定官民衣服礼制的规范，教化百姓，境内称治。他与兄弟们争夺帝位时手段狠辣，登基后诛杀萧宝、萧宝融及宗室诸王，防范之心极重，这使他晚年多猜忌、少恩泽。他又三临同泰寺讲《涅槃经》，前后四次舍身同泰寺，每次由群臣以巨资赎回，「所费以亿计」，国库为之空虚。他设无遮大会供养僧尼，下诏僧尼可食酒肉，这在中国佛教史上是破天荒的举措。他还首创皇帝登坛受戒之例，一时士女争入寺内受戒，法席盛况空前的，以为佛法之盛。于是僧尼之众增至数万，僧尼之权势亦随之增长，而他所倚重的僧人朱异、贺琛等借此干预朝政。天监十四年（515年）他第一次舍身同泰寺时，侍中何敬容等不肯奉还所募金钱，他大怒而免其官。中大通三年（531年）他亲临同泰寺讲法，殿内千人，群臣、宗室、贵戚皆列侍。他晚年国势衰微，侯景之乱起，江州望王不降，京城陷落。侯景幽禁他于净居殿，尚书殷钧、侍中王绾等请突围出降，他不肯；求蜜不得，忧愤成疾，口苦而索蜜不得，再曰「荷荷」，遂崩。太清三年（549年）他崩于净居殿，年八十六，谥号武皇帝，庙号太宗，葬于栖谷山。他死前所著的《净住子》《附佛道论》表明其晚年对佛道之辨的用心。他一生勤于政事而晚年佞佛，前朝政清明与后朝国败形成鲜明对比，成为后世论君主与佛教的典型案例。",
-   "achievements": [
-    "西泰二年（500年）起兵于雍州，攻克建康，次年称帝建立梁",
-    "在位四十八年，前期政清人和，江南称治",
-    "立五馆以讲经，置集雅馆以聚书，崇文重教",
-    "编撰《通史》与《文选》",
-    "规定官民衣服礼制规范，教化百姓",
-    "三临同泰寺讲《涅槃经》，前后四次舍身同泰寺",
-    "下诏僧尼可食酒肉，为中国佛教史上的特例",
-    "开创皇帝登坛受戒之例",
-    "晚年遭侯景之乱，幽禁台城，忧愤而崩",
-    "著《净住子》《附佛道论》",
-    "起兵推翻南齐建立梁朝",
-    "在位四十八年提倡文教",
-    "组织编撰《通史》与《文选》",
-    "收侯景之乱导致梁亡"
-   ],
-   "quotes": [
-    "我本无心，奈何求佛。",
-    "举宗沦为奴婢。",
-    "断酒肉、断财色、断淫戏。"
-   ],
-   "relatedEvents": [
-    "ev-nanbei-nanbei-south",
-    "ev-weijin-liang-wudi",
-    "ev-weijin-houjing",
-    "ev-weijin-north-south",
-    "ev-nanbei-xiaowen"
-   ],
-   "relatedFigures": [
-    "fig-liang-wudi",
-    "fig-nanbei-south-hou-jing",
-    "fig-nanbei-south-chen-wubao",
-    "fig-nanbei-south-fan-yun",
-    "fig-shen-yue",
-    "fig-tao-yuanming",
-    "fig-zu-chongzhi",
-    "fig-wang-wei",
-    "fig-fang-xuanling",
-    "fig-wei-gong",
-    "fig-nanbei-south-fang-xuanling",
-    "fig-han-west-wei-qing"
-   ],
-   "tags": [
-    "南北朝",
-    "南朝梁",
-    "皇帝",
-    "萧衍",
-    "梁武帝",
-    "侯景之乱",
-    "佛教",
-    "南朝",
-    "梁"
    ]
   },
   {
@@ -23307,13 +23192,13 @@
    ],
    "relatedFigures": [
     "fig-nanbei-south-fan-yun",
-    "fig-xiao-yan",
+    "fig-liang-wudi",
     "fig-tao-yuanming",
     "fig-liu-xie",
     "fig-wang-xizhi",
-    "fig-liang-wudi",
     "fig-fang-xuanling",
     "fig-nanbei-south-hou-jing",
+    "fig-nanbei-north-liang-wudi",
     "fig-zu-chongzhi",
     "fig-liu-yao-2"
    ],
@@ -23368,7 +23253,7 @@
    ],
    "relatedFigures": [
     "fig-shen-yue",
-    "fig-xiao-yan",
+    "fig-liang-wudi",
     "fig-tao-yuanming",
     "fig-liu-yao-2",
     "fig-fang-xuanling"
@@ -23472,10 +23357,10 @@
    "relatedFigures": [
     "fig-nanbei-south-hou-jing",
     "fig-liang-wudi",
-    "fig-xiao-yan",
     "fig-nanbei-south-fan-yun",
     "fig-nanbei-south-chen-wubao",
-    "fig-li-shangyin"
+    "fig-li-shangyin",
+    "fig-nanbei-north-liang-wudi"
    ],
    "tags": [
     "南北朝",
@@ -23921,7 +23806,7 @@
    "relatedFigures": [
     "fig-li-zicheng",
     "fig-chongzhen",
-    "fig-kangxi",
+    "fig-zzbq2-kangxi",
     "fig-duo-er-dung",
     "fig-zzbq2-zhangxianzhong",
     "fig-nurhaci",
@@ -24164,55 +24049,6 @@
    ]
   },
   {
-   "id": "fig-kangxi",
-   "name": "玄烨",
-   "alias": "康熙、圣祖",
-   "birthYear": 1654,
-   "deathYear": 1722,
-   "lifeText": "公元1654年－公元1722年",
-   "role": "君主",
-   "periodId": "cn-qing-early",
-   "gender": "male",
-   "summary": "清朝第三任皇帝，在位六十一年，平三藩、收台湾、征噶尔丹，奠定百年疆域。",
-   "biography": "玄烨爱新觉罗氏，号清圣祖，顺治帝第三子，生母佟佳氏。顺治十八年（1661年）顺治帝崩，玄烨年八岁即位，为康熙帝。登极后，权臣鳌拜专权跋扈，玄烨自幼聪颖，与内侍索额图、索尼、遏必隆、鳌拜四大臣周旋，康熙八年（1669年）智擒鳌拜，收回政权，其后数年陆续削除其余三臣，帝权始固。他勤于政事，御极五十余载，日御讲筵不辍，巡幸天下三十余次，治理黄河，疏浚漕运，减免赋税，赈济灾荒，编纂《康熙字典》《古今图书集成》《皇舆全览图》《佩文韵府》等大型类书，重开科举，慎重用兵。康熙二十年（1681年）平定吴三桂等三藩之乱，二十年而后方定。康熙二十二年（1683年）命施琅攻台，郑氏降清，台湾纳入版图，设一府三县隶福建。康熙二十四年（1685年）设台湾府，康熙二十六年设台湾省。康熙二十八年（1689年）与沙俄议定《尼布楚条约》，划定东段边界，为中国第一个与西方国家签订的平等条约。康熙年间三次亲征噶尔丹，1696年昭莫多之战大败之，1697年噶尔丹败死，漠北蒙古悉平。康熙晚年因二阿哥夺嫡、诸皇子争储而苦闷，储位空虚，朝廷内外隐伏危机。康熙六十一年（1722年）十一月崩于畅春园，年六十九，在位六十一年，为清朝在位最久之帝。他继承努尔哈赤、皇太极、多尔衮三代基业，平内靖外、治河兴业，使清朝疆域与国力臻于极盛，史称康乾盛世。",
-   "achievements": [
-    "智擒权臣鳌拜，解除四大臣专权，帝权自此稳固",
-    "康熙二十年（1681年）平定三藩之乱，历二十年而底定",
-    "1683年命施琅攻台，郑氏降清，台湾纳入版图并设府置县",
-    "1689年与沙俄签《尼布楚条约》，划定东段边界，为中国第一个平等对外条约",
-    "三次亲征噶尔丹，昭莫多之战大败之，漠北蒙古悉平",
-    "治理黄河、疏浚漕运、减免赋税、赈济灾荒，编《康熙字典》等大型类书",
-    "在位六十一年，为清朝疆域与国力的奠基者，史称康乾盛世",
-    "签《尼布楚条约》"
-   ],
-   "quotes": [
-    "民安则国固。",
-    "朕继承祖宗基业，非为享乐。"
-   ],
-   "relatedEvents": [
-    "ev-qing-kangxi",
-    "ev-qing-sanfan",
-    "ev-qing-taiwan",
-    "ev-zzbq4-nibuchu",
-    "ev-qing-qianlong"
-   ],
-   "relatedFigures": [
-    "fig-yongzheng",
-    "fig-qianlong",
-    "fig-wu-sangui",
-    "fig-zzbq2-kangxi",
-    "fig-suo-shi"
-   ],
-   "tags": [
-    "清朝",
-    "康熙",
-    "三藩之乱",
-    "尼布楚条约",
-    "台湾",
-    "君主"
-   ]
-  },
-  {
    "id": "fig-yongzheng",
    "name": "胤禛",
    "alias": "雍正、世宗",
@@ -24244,10 +24080,10 @@
     "ev-zzbq4-junjichu"
    ],
    "relatedFigures": [
-    "fig-kangxi",
-    "fig-qianlong",
     "fig-zzbq2-kangxi",
-    "fig-zzbq2-qianlong"
+    "fig-zzbq2-qianlong",
+    "fig-kangxi-2",
+    "fig-qianlong-2"
    ],
    "tags": [
     "清朝",
@@ -24255,51 +24091,6 @@
     "摊丁入亩",
     "军机处",
     "改土归流",
-    "君主"
-   ]
-  },
-  {
-   "id": "fig-qianlong",
-   "name": "弘历",
-   "alias": "乾隆、高宗",
-   "birthYear": 1711,
-   "deathYear": 1799,
-   "lifeText": "公元1711年－公元1799年",
-   "role": "君主",
-   "periodId": "cn-qing-early",
-   "gender": "male",
-   "summary": "清朝第五任皇帝，在位六十年，拓疆至极盛，编《四库全书》，亦大兴文字狱。",
-   "biography": "弘历爱新觉罗氏，号高宗，康熙帝之孙、雍正帝第四子，母孝贤纯皇后富察氏。雍正十三年（1735年）即位，在位六十年，实权在握至死，禅位嘉庆后仍以太上皇身份干政。乾隆性聪明，读书过目成诵，善骑射，喜书画，长于诗文，著御制诗文集四集，御制诗逾四万首，屡开经筵，巡幸天下二十余次，南巡六次，北巡五次，幸五台山三次。乾隆朝文治武功极盛：编纂《四库全书》，收书三千五百余种、七万九千余卷，分经史子集四部，抄七部，分藏七阁，命总裁分校，缮写精审，亘古未有之巨典；又编《皇舆全览图》，颁《钦定大清一统志》，定《四库全书荟要》。军事上，乾隆十五年（1750年）平定西藏珠尔默特那木札尔叛乱，十七年定准噶尔，二十年平定阿睦尔撒纳，二十四年定回部，拓疆二万余里，使清朝疆域达于极盛，史称十全武功。外交上，册封缅甸、暹罗、廓尔喀、锡兰等为藩属，与十数国建立朝贡关系，使节来朝络绎不绝。乾隆亦留意农桑水利，减免赋税，赈济灾荒，多次蠲免钱粮。然而乾隆朝后期政治渐衰，大兴文字狱，销毁违碍书籍，株连逮捕，藉吕留良案、《大江东去》等事严惩反清文人，思想控制空前严酷；吏治败坏，贪污成风，和珅专权二十余年，积贮白银逾八千万两，成为清廷由盛转衰的关键。乾隆还屡次南巡耗费民力，广建离宫耗费帑藏，民间积怨加深。乾隆五十年（1785年）千叟宴，赐八十五岁以上老人酒食，寓养老宣德之意。1795年禅位嘉庆，仍以太上皇身份临朝。1799年正月崩于养心殿，年八十九，在位六十年，为清朝在位最久之帝，庙号高宗。",
-   "achievements": [
-    "编纂《四库全书》，收书三千五百余种七万九千余卷，抄七部分藏七阁",
-    "编《皇舆全览图》《钦定大清一统志》，为清代地理与舆图之总结",
-    "十五年定西藏，二十二年定准噶尔，二十四定回部，拓疆二万余里",
-    "对西南设驻藏大臣，颁布《钦定藏内善后章程》，行金瓶掣签之制",
-    "平定大小金川之乱，次第裁定西南边事",
-    "三次赈灾蠲免、减免赋税，治理黄河，多方体恤民力",
-    "在位六十年，为清朝疆域最广、经济总量最高时期，史称康乾盛世"
-   ],
-   "quotes": [
-    "十全武功。",
-    "制度则良，心术未佳。"
-   ],
-   "relatedEvents": [
-    "ev-qing-siku",
-    "ev-qing-wenziyu",
-    "ev-qing-wuwu",
-    "ev-qing-qianlong"
-   ],
-   "relatedFigures": [
-    "fig-yongzheng",
-    "fig-kangxi",
-    "fig-jiaqing"
-   ],
-   "tags": [
-    "清朝",
-    "乾隆",
-    "四库全书",
-    "十全武功",
-    "文字狱",
     "君主"
    ]
   },
@@ -24331,7 +24122,7 @@
     "ev-qing-bailianjiao"
    ],
    "relatedFigures": [
-    "fig-qianlong",
+    "fig-zzbq2-qianlong",
     "fig-daoguang"
    ],
    "tags": [
@@ -25746,7 +25537,7 @@
    "deathYear": 2023,
    "lifeText": "公元1955年－公元2023年",
    "role": "政治家",
-   "periodId": "cn-prc",
+   "periodId": "cn-prc-new-era",
    "gender": "male",
    "summary": "中华人民共和国国务院总理，推行供给侧结构性改革与互联网加战略，2023年病逝。",
    "biography": "李克强生于安徽定远，父李奉先为教师，家境清贫。1974年入北京大学法律系，1978年毕业后任团总支书记，1982年加入中共。1984年任国务院办公厅秘书。1988年任共青团中央书记。1993年任中央常委、书记处书记，1998年任河南省委书记。2003年任国务院副总理，2007年任上海市委书记，2008年任第十一届全国人大常委会副委员长，2013年任国务院总理。任内他推进简政放权，放管结合，深化行政审批制度改革，推行商事制度改革，削减前置审批与审批事项；提出并推动大众创业、万众创新，兴起创新创业浪潮；他主持制定国民经济和社会发展十三五规划，强调以供给侧结构性改革为主线，提出去产能、去库存、去杠杆、降成本、补短板五大任务；他推动互联网加行动计划和制造业与互联网融合发展，令共享经济、移动支付、电子商务在中国迅猛生长，被称为中国互联网经济的黄金年代；他主持新型城镇化与精准扶贫工作，推行以人民为中心的发展思想，脱贫攻坚取得决定性成果。他多次参加全国两会，答记者问务实恳切，风格温和勤勉。2023年3月5日，他因病在北京逝世，享年六十八岁。",
@@ -25839,7 +25630,7 @@
    "deathYear": null,
    "lifeText": "公元1955年－",
    "role": "外交家",
-   "periodId": "cn-prc-early",
+   "periodId": "cn-prc-new-era",
    "gender": "male",
    "summary": "中共中央政治局委员、中央外事工作领导小组组长，长期担任外交部长。",
    "biography": "王毅生于上海，祖籍山东龙口。1977年入北京第二外国语学院日语专业，1982年毕业进入外交部，历任驻日本使馆参赞、驻日公使，2004年任驻日本大使，2007年任外交部副部长兼新闻发言人，2008年任驻日本大使，2013年任外交部部长，2014年任中央外事工作领导小组组长，2018年再任外交部长，2022年任中共中央政治局委员。他在外交部任职三十余年，通晓日语，经历对日谈判与涉日外交的多个重要阶段。他主张以对话解决分歧，推动中日关系改善，2016年后中日关系回暖，举行首脑会晤，其力可见。他推动一带一路倡议的对外阐释与落地，多次出访沿线国家，是该倡议国际推介的主要发言者之一。他提出人类命运共同体理念，推动其写入联合文件，在纽约联合国总部、联合国维和行动十周年纪念会议等多边场合系统阐释这一理念，为中国拓展多边外交空间。他推动全球发展倡议与全球安全倡议的提出与落实，主张全球发展命运共同体，主张以对话弥合分歧、以合作应对挑战。他出席各种多边会议，阐述中国立场，是金砖国家、亚太经合组织、联合国等多边场合的常客。他重视与周边国家的关系，推动中国与东盟关系升级，主张搁置分歧、管控冲突。他还出任中国驻联合国维和行动代表，深度参与国际维和事务。",
@@ -26968,11 +26759,11 @@
    "id": "fig-deng-rong",
    "name": "邓荣",
    "alias": "",
-   "birthYear": null,
+   "birthYear": -233,
    "deathYear": 264,
    "lifeText": "生年不详－公元264年",
    "role": "将领",
-   "periodId": "cn-three-wei",
+   "periodId": "cn-zhou-east",
    "gender": "male",
    "summary": "曹魏将领，邓艾之子，随父参与灭蜀之役，邓艾被钟会诬陷时父子一同遇害于成都。",
    "biography": "邓荣是曹魏名将邓艾之子，父邓艾是曹魏灭蜀的主帅。邓艾早年孤贫，十三岁随母至颍川读故太祖《太学》篇，感「文王之德」，立志立身；后被司马懿赏识为掾属，典司军事，累迁征西将军。景元三年（262年），邓艾与钟会并进伐蜀，钟会受阻于剑阁，邓艾则自阴平道行无人之地七百余里，凿山通道、造作桥阁，山高谷深，艾以毡自裹推转而下；守军迎战不利，邓艾斩将破关，成都门户洞开，蜀汉灭亡。邓荣随父在军中，父以子贵。后邓艾因与钟会争功相隙，被钟会捏造「专权欲反」的假消息诬陷于军狱，派兵追捕于绵竹。邓艾父子被缚成都，因不肯降，被监军卫瓘所派使者杀害，邓荣亦一同遇害。邓艾灭蜀之功震动天下，而父子俱死于诬陷，是三国末期最令人叹息的政治冤案之一。钟会随即在成都发动叛乱，兵变中被杀，魏国元气大伤。后世史家评论邓艾，谓其「出身微贱而建功立业，为曹魏开国以来所仅见」，然功成见疑而身死，父子俱罹其祸，魏晋之际功臣不得其死之例，由斯而著。唐人杜甫《咏怀古迹》咏此，谓「江流石不转，遗恨失吞吴」，别有所指；而《三国志》裴松之注中保存的邓艾《济河论》与《封侯表》，至今仍可想见其用兵与治军之识。",
@@ -26991,11 +26782,7 @@
    "quotes": [
     "良田百顷，不在一亩；但有现役八十余人，即能敌一万。"
    ],
-   "relatedEvents": [
-    "ev-weijin-shu-fall",
-    "ev-three-zhonghui",
-    "ev-three-zhuge-liang"
-   ],
+   "relatedEvents": [],
    "relatedFigures": [
     "fig-deng-ai",
     "fig-jiang-wei",
@@ -27592,7 +27379,7 @@
     "fig-nanbei-south-fan-yun",
     "fig-nanbei-north-gao-huan",
     "fig-tao-yuanming",
-    "fig-xiao-yan",
+    "fig-nanbei-north-liang-wudi",
     "fig-shen-yue",
     "fig-zu-chongzhi",
     "fig-liu-yao-2",
@@ -27643,8 +27430,7 @@
     "fig-nanbei-south-hou-jing",
     "fig-liang-wudi",
     "fig-wang-wei",
-    "fig-nanbei-south-fan-yun",
-    "fig-xiao-yan"
+    "fig-nanbei-south-fan-yun"
    ],
    "tags": [
     "南北朝",
@@ -29385,7 +29171,7 @@
     "fig-guo-ziyi",
     "fig-li-de",
     "fig-li-huaiguang",
-    "fig-liu-zongyuan",
+    "fig-liu-zongyuan-2",
     "fig-yu-chao-en",
     "fig-liwang-yan",
     "fig-pu-gu-huai-en",
@@ -29775,7 +29561,7 @@
     "fig-zhu-ci-2",
     "fig-li-de",
     "fig-li-huaiguang",
-    "fig-liu-zongyuan"
+    "fig-liu-zongyuan-2"
    ],
    "tags": [
     "唐朝",
@@ -30964,9 +30750,9 @@
     "fig-zhuge-liang",
     "fig-gongsun-yuan",
     "fig-zhao-yun",
-    "fig-cao-shuang",
     "fig-wei-gong",
-    "fig-jin-west-han-emperor-mingdi"
+    "fig-jin-west-han-emperor-mingdi",
+    "fig-deng-ai"
    ],
    "tags": [
     "三国",
@@ -31762,6 +31548,47 @@
    "tags": []
   },
   {
+   "id": "fig-nanbei-north-liang-wudi",
+   "name": "萧衍",
+   "alias": "叔达、梁武帝",
+   "birthYear": 464,
+   "deathYear": 549,
+   "lifeText": "公元464年－公元549年",
+   "role": "君主",
+   "periodId": "cn-nanbei-north",
+   "gender": "male",
+   "summary": "南朝梁开国皇帝，即梁武帝，在位近半世纪。",
+   "biography": "萧衍是南齐宗室，出身兰陵萧氏。齐明帝时为雍州刺史，雍州士民推为领袖。西泰二年（500年）起兵，攻克建康，次年称帝，建立梁，是为梁武帝，在位凡四十八年。梁武帝前期政治清明，崇文重教，礼佛建寺，编撰《通史》与《文选》，国势强盛。然晚年崇佛耗费国力，晚年太子昭明、昭明诸子争夺继承，侯景之乱爆发，梁朝旋即土崩。侯景攻陷台城，梁武帝饿死净居殿，江南受巨大破坏。",
+   "achievements": [
+    "起兵推翻南齐建立梁朝",
+    "在位四十八年提倡文教",
+    "组织编撰《通史》与《文选》",
+    "收侯景之乱导致梁亡"
+   ],
+   "quotes": [
+    "断酒肉、断财色、断淫戏。"
+   ],
+   "relatedEvents": [
+    "ev-nanbei-xiaowen",
+    "ev-nanbei-nanbei-south",
+    "ev-weijin-houjing",
+    "ev-weijin-liang-wudi"
+   ],
+   "relatedFigures": [
+    "fig-nanbei-south-hou-jing",
+    "fig-liang-wudi",
+    "fig-wang-wei",
+    "fig-shen-yue",
+    "fig-nanbei-south-fan-yun"
+   ],
+   "tags": [
+    "南北朝",
+    "南朝",
+    "梁",
+    "梁武帝"
+   ]
+  },
+  {
    "id": "fig-sun-yat-sen",
    "name": "孙中山",
    "alias": "逸仙、中山",
@@ -31859,6 +31686,92 @@
     "邓小平",
     "社会主义市场经济",
     "一国两制"
+   ]
+  },
+  {
+   "id": "fig-helian-bobobo-2",
+   "name": "赫连勃勃",
+   "alias": "",
+   "birthYear": -425,
+   "deathYear": 425,
+   "lifeText": "？－公元425年",
+   "role": "君主",
+   "periodId": "cn-sixteen-kingdoms",
+   "gender": "male",
+   "summary": "胡夏开国君主。赫连勃勃建立大夏，定都统万城。",
+   "biography": "赫连勃勃建立大夏，定都统万城。",
+   "achievements": [
+    "建立大夏",
+    "定都统万城"
+   ],
+   "quotes": [],
+   "relatedEvents": [],
+   "relatedFigures": [],
+   "tags": [
+    "十六国",
+    "胡夏"
+   ]
+  },
+  {
+   "id": "fig-kangxi-2",
+   "name": "玄烨",
+   "alias": "",
+   "birthYear": 1654,
+   "deathYear": 1722,
+   "lifeText": "公元1654年－公元1722年",
+   "role": "君主",
+   "periodId": "cn-qing-early",
+   "gender": "male",
+   "summary": "康熙帝，平三藩收台湾。",
+   "biography": "康熙在位六十一年，奠定清朝疆域。",
+   "achievements": [
+    "签《尼布楚条约》"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-qing-kangxi"
+   ],
+   "relatedFigures": [
+    "fig-yongzheng",
+    "fig-zzbq2-kangxi"
+   ],
+   "tags": [
+    "清朝",
+    "康熙",
+    "玄烨",
+    "cn-qing-mid"
+   ]
+  },
+  {
+   "id": "fig-qianlong-2",
+   "name": "弘历",
+   "alias": "",
+   "birthYear": 1711,
+   "deathYear": 1799,
+   "lifeText": "公元1711年－公元1799年",
+   "role": "君主",
+   "periodId": "cn-qing-early",
+   "gender": "male",
+   "summary": "乾隆帝，疆域达于极盛。",
+   "biography": "乾隆十全武功，编《四库全书》，亦大兴文字狱。",
+   "achievements": [
+    "十全武功",
+    "编《四库全书》",
+    "疆域达于极盛"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-qing-wenziyu",
+    "ev-qing-wuwu"
+   ],
+   "relatedFigures": [
+    "fig-yongzheng"
+   ],
+   "tags": [
+    "清朝",
+    "乾隆",
+    "弘历",
+    "cn-qing-mid"
    ]
   },
   {
@@ -32296,7 +32209,7 @@
    "name": "张献忠",
    "alias": "大西王",
    "birthYear": 1606,
-   "deathYear": null,
+   "deathYear": 1647,
    "lifeText": "公元1606年—1647年",
    "role": "明末农民起义军领袖、大西政权建立者",
    "periodId": "cn-ming-mid",
@@ -32334,7 +32247,7 @@
    "name": "康熙帝",
    "alias": "爱新觉罗·玄烨",
    "birthYear": 1654,
-   "deathYear": null,
+   "deathYear": 1722,
    "lifeText": "公元1654年—1722年，在位1661年—1722年",
    "role": "清朝第四位皇帝、中国历史上在位时间最长的皇帝之一",
    "periodId": "cn-qing-early",
@@ -32364,8 +32277,9 @@
     "fig-nurhaci",
     "fig-huang-taiji",
     "fig-yongzheng",
-    "fig-kangxi",
+    "fig-kangxi-2",
     "fig-suo-shi",
+    "fig-wu-sangui",
     "fig-zzbq2-qianlong"
    ],
    "tags": [
@@ -32381,7 +32295,7 @@
    "name": "乾隆帝",
    "alias": "爱新觉罗·弘历",
    "birthYear": 1711,
-   "deathYear": null,
+   "deathYear": 1799,
    "lifeText": "公元1711年—1799年，在位1735年—1796年",
    "role": "清朝第六位皇帝、康乾盛世的集大成者与清朝由盛转衰的转折点",
    "periodId": "cn-qing-early",
@@ -32410,6 +32324,7 @@
    "relatedFigures": [
     "fig-zzbq2-kangxi",
     "fig-yongzheng",
+    "fig-jiaqing",
     "fig-zzbq4-caoxueqin"
    ],
    "tags": [
@@ -32425,7 +32340,7 @@
    "name": "建文帝",
    "alias": "朱允炆",
    "birthYear": 1377,
-   "deathYear": null,
+   "deathYear": 1398,
    "lifeText": "公元1377年—？，在位1398年—1402年",
    "role": "明朝第二位皇帝、靖难之役后被叔父朱棣夺位、下落不明",
    "periodId": "cn-ming-early",
@@ -32459,7 +32374,7 @@
    "name": "方孝孺",
    "alias": "正学先生",
    "birthYear": 1357,
-   "deathYear": null,
+   "deathYear": 1402,
    "lifeText": "公元1357年—1402年",
    "role": "明初大儒、建文帝重臣、因拒为朱棣草诏被诛十族",
    "periodId": "cn-yuan-late",
@@ -32527,7 +32442,7 @@
    "name": "慈禧太后",
    "alias": "孝钦显皇后",
    "birthYear": 1835,
-   "deathYear": null,
+   "deathYear": 1908,
    "lifeText": "公元1835年—1908年",
    "role": "晚清实际最高统治者、掌权近半个世纪",
    "periodId": "cn-qing-late",
@@ -32568,7 +32483,7 @@
    "name": "光绪帝",
    "alias": "爱新觉罗·载湉",
    "birthYear": 1871,
-   "deathYear": null,
+   "deathYear": 1908,
    "lifeText": "公元1871年—1908年，在位1875年—1908年",
    "role": "清朝第十一位皇帝、戊戌变法的推动者",
    "periodId": "cn-qing-late",
@@ -32606,7 +32521,7 @@
    "name": "朱德",
    "alias": "朱玉阶",
    "birthYear": 1886,
-   "deathYear": null,
+   "deathYear": 1976,
    "lifeText": "公元1886年—1976年",
    "role": "中国人民解放军主要缔造者之一、中华人民共和国元帅之首",
    "periodId": "cn-prc-early",
@@ -32650,7 +32565,7 @@
    "name": "叶剑英",
    "alias": "叶宜伟",
    "birthYear": 1897,
-   "deathYear": null,
+   "deathYear": 1986,
    "lifeText": "公元1897年—1986年",
    "role": "中华人民共和国开国元勋、十大元帅之一",
    "periodId": "cn-qing-late",
@@ -32684,7 +32599,7 @@
    "name": "贺龙",
    "alias": "贺文常",
    "birthYear": 1896,
-   "deathYear": null,
+   "deathYear": 1969,
    "lifeText": "公元1896年—1969年",
    "role": "中国人民解放军创始人之一、十大元帅之一",
    "periodId": "cn-qing-late",
@@ -32719,7 +32634,7 @@
    "name": "叶挺",
    "alias": "叶希夷",
    "birthYear": 1896,
-   "deathYear": null,
+   "deathYear": 1946,
    "lifeText": "公元1896年—1946年",
    "role": "北伐名将、南昌起义与广州起义的重要领导人、新四军首任军长",
    "periodId": "cn-qing-late",
@@ -32756,7 +32671,7 @@
    "name": "李大钊",
    "alias": "李守常",
    "birthYear": 1889,
-   "deathYear": null,
+   "deathYear": 1927,
    "lifeText": "公元1889年—1927年",
    "role": "中国共产主义运动的先驱、中国共产党主要创始人之一",
    "periodId": "cn-qing-late",
@@ -32789,7 +32704,7 @@
    "name": "张良",
    "alias": "留侯、子房",
    "birthYear": -250,
-   "deathYear": null,
+   "deathYear": -186,
    "lifeText": "约公元前250年—前186年",
    "role": "汉初三杰之一、刘邦的首席谋臣",
    "periodId": "cn-warring-states",
@@ -32823,7 +32738,7 @@
    "name": "萧何",
    "alias": "酂侯",
    "birthYear": -257,
-   "deathYear": null,
+   "deathYear": -193,
    "lifeText": "约公元前257年—前193年",
    "role": "汉初三杰之一、西汉首任丞相",
    "periodId": "cn-warring-states",
@@ -32857,7 +32772,7 @@
    "name": "范增",
    "alias": "亚父",
    "birthYear": -278,
-   "deathYear": null,
+   "deathYear": -204,
    "lifeText": "公元前278年—前204年",
    "role": "项羽的首席谋士、被尊为「亚父」",
    "periodId": "cn-warring-states",
@@ -32925,7 +32840,7 @@
    "name": "霍去病",
    "alias": "冠军侯",
    "birthYear": -140,
-   "deathYear": null,
+   "deathYear": -117,
    "lifeText": "公元前140年—前117年",
    "role": "西汉名将、汉武帝时期抗击匈奴的骠骑将军",
    "periodId": "cn-han-west",
@@ -33119,11 +33034,11 @@
    "id": "fig-zzbq4-luoguanzhong",
    "name": "罗贯中",
    "alias": "罗本、湖海散人",
-   "birthYear": null,
-   "deathYear": null,
+   "birthYear": 1330,
+   "deathYear": 1400,
    "lifeText": "约1330年—约1400年",
    "role": "元末明初小说家、《三国演义》的作者",
-   "periodId": "cn-ming-early",
+   "periodId": "cn-yuan-late",
    "gender": "male",
    "summary": "元末明初小说家，据史传与民间说唱创作《三国演义》，开创中国章回体历史演义小说的先河。",
    "biography": "罗贯中，名本，字贯中，号湖海散人，山西太原人（一说钱塘或庐陵）。生于元末乱世，相传曾入张士诚幕府，有志图王而不得，明初后绝意仕进，专心著述。他在陈寿《三国志》及裴松之注的史实基础上，广泛吸收民间三国故事、话本、戏曲的营养，创作了《三国志通俗演义》（后称《三国演义》）。全书以章回体写成，共一百二十回，起于桃园结义，终于西晋统一，演绎了东汉末年至三国近百年间的政治军事斗争。书中「七分实事，三分虚构」，塑造了诸葛亮、关羽、曹操、刘备、张飞、赵云等家喻户晓的人物形象，「三顾茅庐」「草船借箭」「空城计」「赤壁之战」等段落成为中国文化中最广为流传的叙事。该书是中国第一部长篇章回体历史演义小说，开创了历史演义这一体裁，后世仿作不绝。罗贯中还相传著有《隋唐两朝志传》《残唐五代史演义》《三遂平妖传》等。",
@@ -33135,11 +33050,9 @@
    "quotes": [
     "话说天下大势，分久必合，合久必分"
    ],
-   "relatedEvents": [
-    "ev-zzbq4-sidamingzhu"
-   ],
+   "relatedEvents": [],
    "relatedFigures": [
-    "fig-zzbq4-wuchengen"
+    "fig-zzbq4-shinaian"
    ],
    "tags": [
     "元末明初",
@@ -33167,7 +33080,9 @@
    ],
    "quotes": [],
    "relatedEvents": [],
-   "relatedFigures": [],
+   "relatedFigures": [
+    "fig-zzbq4-luoguanzhong"
+   ],
    "tags": [
     "元末明初",
     "水浒传",
@@ -33198,9 +33113,7 @@
    "relatedEvents": [
     "ev-zzbq4-sidamingzhu"
    ],
-   "relatedFigures": [
-    "fig-zzbq4-luoguanzhong"
-   ],
+   "relatedFigures": [],
    "tags": [
     "明代",
     "西游记",
@@ -33214,7 +33127,7 @@
    "name": "马可·波罗",
    "alias": "",
    "birthYear": 1254,
-   "deathYear": null,
+   "deathYear": 1324,
    "lifeText": "公元1254年—1324年",
    "role": "威尼斯商人、旅行家、元朝时游历中国",
    "periodId": "cn-yuan",
@@ -33249,7 +33162,7 @@
    "name": "利玛窦",
    "alias": "西泰",
    "birthYear": 1552,
-   "deathYear": null,
+   "deathYear": 1610,
    "lifeText": "公元1552年—1610年",
    "role": "意大利耶稣会传教士、明末西学东渐的开创者",
    "periodId": "cn-ming-mid",

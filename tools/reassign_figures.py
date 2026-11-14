@@ -142,6 +142,12 @@ PERIOD_OVERRIDE = {
     "fig-zhao-kuangyin": "cn-song-north",   # 宋太祖，原误挂辽朝
     "fig-zhao-guangyi": "cn-song-north",    # 宋太宗，原误挂辽朝
     "fig-suo-shi": "cn-qing-early",         # 索额图（康熙朝），原误挂明朝
+    # ---- 中国当代领导人 ----
+    "fig-hu-jintao": "cn-prc-reform",       # 2003-2013 执政
+    "fig-wen-jiabao": "cn-prc-reform",      # 2003-2013 任总理
+    "fig-xi-jinping": "cn-prc-new-era",     # 2012 至今
+    "fig-wang-yi": "cn-prc-new-era",        # 2013 至今任外长
+    "fig-li-keqiang": "cn-prc-new-era",     # 2013-2023 任总理
 }
 
 
