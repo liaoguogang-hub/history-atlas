@@ -32,6 +32,22 @@ GROUP = {
 }
 
 
+# ---- 地区专题时期：只能容纳「明确属于该地区」的人物 ----
+# 这些时期是按地理划分的容器（东南亚、南亚、非洲、拉美…），
+# 若允许按生卒年兜底塞人，就会把黑格尔、惠灵顿、董必武放进「东南亚」。
+# 兜底逻辑（同组找不到 → 放宽到全时期）必须跳过它们。
+REGION_PERIODS = {
+    "w-medieval-south-asia", "w-modern-south-asia", "w-mughal",
+    "w-medieval-southeast-asia", "w-southeast-asia", "w-modern-southeast-asia",
+    "w-modern-africa", "w-africa-west", "w-africa-east", "w-old-world",
+    "w-latin-america", "w-maya", "w-mesoamerica", "w-andes",
+    "w-america-precol", "w-east-asia", "w-korea", "w-japan", "w-oceania",
+    "w-near-east-persian", "w-han-tang", "w-tang-song", "w-ming-qing",
+    "w-ancient-china", "w-cc-medieval", "w-cc-classical", "w-cc-industrial",
+    "w-cc-oceanic", "w-cc-contemporary", "w-cc-prehistoric",
+}
+
+
 def year_in(a, b, y):
     if not isinstance(a, int) or not isinstance(b, int):
         return False
@@ -55,6 +71,18 @@ PERIOD_OVERRIDE = {
     "fig-nasser": "w-cold-war",             # 1952 年政变、1956 年苏伊士运河
     "fig-gamal-abdel-nasser": "w-cold-war", # 同上（实际 id）
     "fig-zzbq5-mandela": "w-cold-war",      # 同上（实际 id）
+    # 源分片历史遗留的错误 periodId（被错标为东南亚，实际是英国人）
+    "fig-william-wilberforce": "w-modern",  # 英国废奴运动领袖 1754-1833
+    "fig-charles-ellington": "w-modern",    # 威灵顿公爵，滑铁卢 1769-1852
+    # 拉丁美洲独立人物：生于 1800 年前，但历史地位属于拉美时期
+    "fig-zzbq23-hidalgo": "w-latin-america",  # 墨西哥独立之父 1753-1811
+    "fig-zzbq23-pedro": "w-latin-america",    # 巴西独立 1798-1834
+    "fig-zzbq8-bolivar": "w-latin-america",   # 南美解放者 1783-1830
+    "fig-zzbq15-sanmartin": "w-latin-america",# 南美解放者 1778-1850
+    "fig-zzbq15-toussaint": "w-latin-america",# 海地革命 1743-1803
+    "fig-salvador-allende": "w-latin-america",# 智利总统 1908-1973
+    # 东南亚：生于 1600 年前的 VOC 总督，历史地位属于东南亚贸易时代
+    "fig-zzbq23-coen": "w-southeast-asia",    # 巴达维亚建立者 1587-1629
 }
 
 
@@ -134,6 +162,8 @@ def main():
                         continue
                 if (qe - qs) > 1200:
                     continue          # 跨度过大的时期过于笼统
+                if q["id"] in REGION_PERIODS:
+                    continue          # 地区专题时期不接受兜底塞入
                 cands.append(q)
 
         if not cands:

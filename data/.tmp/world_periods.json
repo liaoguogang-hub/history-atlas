@@ -1297,8 +1297,7 @@
   "culture": "常备军与官僚国家；重商主义；宫廷文化与绝对主义；契约与议会；东方的中央集权重组",
   "keyFigures": [
    "fig-john-wesley",
-   "fig-watt",
-   "fig-zzbq15-toussaint"
+   "fig-watt"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1326,11 +1325,11 @@
    "fig-otto-von-bismarck",
    "fig-zzbq8-hugo",
    "fig-victoria",
+   "fig-charles-ellington",
    "fig-darwin",
    "fig-marx",
    "fig-ismail-isi",
-   "fig-zzbq8-dostoevsky",
-   "fig-zzbq8-freud"
+   "fig-zzbq8-dostoevsky"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1905,13 +1904,8 @@
   "population": "约500万至6000万",
   "culture": "水利稻作国家；寺庙与巨石建筑；海上转口贸易；多宗教并存；殖民种植园经济",
   "keyFigures": [
-   "fig-shah-isfandiyar",
-   "fig-william-wilberforce",
-   "fig-charles-ellington",
-   "fig-zzbq12-hegel",
-   "fig-zzbq8-bolivar",
-   "fig-zzbq15-sanmartin",
-   "fig-zzbq5-stephenson"
+   "fig-zzbq23-narai",
+   "fig-zzbq23-coen"
   ],
   "relatedEvents": [],
   "tags": [
@@ -2263,6 +2257,8 @@
   "population": "约1亿至4亿",
   "culture": "摊丁入亩与丁银；军机处与文字狱；闭关与开埠；康乾人口增长；金瓶掣签与边疆治理；洋务与新政",
   "keyFigures": [
+   "fig-shah-isfandiyar",
+   "fig-zzbq12-hegel",
    "fig-tan-sitong"
   ],
   "relatedEvents": [],

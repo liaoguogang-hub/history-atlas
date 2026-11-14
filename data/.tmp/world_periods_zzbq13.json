@@ -18,10 +18,8 @@
    "fig-zzbq13-tagore",
    "fig-mahatma-gandhi",
    "fig-zzbq13-jinnah",
-   "fig-zzbq8-picasso",
-   "fig-dong-biwu",
+   "fig-victoria",
    "fig-nehru",
-   "fig-ho-chi-minh",
    "fig-zzbq13-ambedkar"
   ],
   "relatedEvents": [],
@@ -48,7 +46,16 @@
   "capital": "墨西哥城、布宜诺斯艾利斯、里约热内卢",
   "population": "约6.5亿",
   "culture": "混血文化、天主教、魔幻现实主义文学、足球",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq23-diaz",
+   "fig-zzbq23-peron",
+   "fig-zzbq23-cardenas",
+   "fig-zzbq15-sanmartin",
+   "fig-zzbq23-vargas",
+   "fig-salvador-allende",
+   "fig-zzbq23-chavez",
+   "fig-zzbq8-bolivar"
+  ],
   "relatedEvents": [],
   "tags": [
    "拉丁美洲",
