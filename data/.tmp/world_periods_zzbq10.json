@@ -14,7 +14,11 @@
   "capital": "华氏城、曲女城、德里",
   "population": "约1亿",
   "culture": "印度教、佛教、伊斯兰教",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq13-kalidasa",
+   "fig-zzbq10-nanak",
+   "fig-zzbq13-samudragupta"
+  ],
   "relatedEvents": [],
   "tags": [
    "南亚",
@@ -38,7 +42,11 @@
   "capital": "阿格拉、德里",
   "population": "约1.5亿",
   "culture": "波斯—印度混合文化、细密画、泰姬陵",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq13-aurangzeb",
+   "fig-zzbq13-shivaji",
+   "fig-zzbq13-tilak"
+  ],
   "relatedEvents": [],
   "tags": [
    "南亚",
@@ -62,7 +70,10 @@
   "capital": "吴哥、巨港、满者伯夷",
   "population": "约2000万",
   "culture": "印度教—佛教文化、吴哥窟、婆罗浮屠",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq16-jayavarman7",
+   "fig-zzbq16-suryavarman2"
+  ],
   "relatedEvents": [],
   "tags": [
    "东南亚",

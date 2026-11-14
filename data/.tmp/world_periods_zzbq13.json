@@ -14,7 +14,16 @@
   "capital": "加尔各答、德里",
   "population": "约3亿至4亿",
   "culture": "英语教育、印刷资本主义、宗教改革与民族主义",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq13-tagore",
+   "fig-mahatma-gandhi",
+   "fig-zzbq13-jinnah",
+   "fig-zzbq8-picasso",
+   "fig-dong-biwu",
+   "fig-nehru",
+   "fig-jawaharlal-nehru",
+   "fig-ho-chi-minh"
+  ],
   "relatedEvents": [],
   "tags": [
    "南亚",
@@ -63,7 +72,11 @@
   "capital": "—",
   "population": "约1亿至2.8亿",
   "culture": "奴隶贸易创伤、基督教与伊斯兰扩张、泛非主义",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq14-menelik",
+   "fig-zzbq14-haile-selassie",
+   "fig-zzbq14-tewodros"
+  ],
   "relatedEvents": [],
   "tags": [
    "非洲",
@@ -88,7 +101,10 @@
   "capital": "曼谷、马尼拉、巴达维亚、西贡",
   "population": "约5000万至1.5亿",
   "culture": "殖民经济、华人移民、佛教与伊斯兰复兴、民族主义",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq16-chulalongkorn",
+   "fig-zzbq16-sukarno"
+  ],
   "relatedEvents": [],
   "tags": [
    "东南亚",

@@ -85,7 +85,11 @@
   "capital": "巴比伦、乌尔、孟斐斯、底比斯、尼尼微、波斯波利斯",
   "population": "约500万至2000万",
   "culture": "楔形文字与象形文字；城市国家与神庙经济；成文法典；法老神权与来世观；楔形文字泥板档案",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-moses",
+   "fig-david",
+   "fig-solomon"
+  ],
   "relatedEvents": [],
   "tags": [
    "两河",
@@ -110,7 +114,9 @@
   "capital": "乌鲁克、乌尔、埃布拉、拉加什、尼普尔",
   "population": "约50万至150万（总人口约300万）",
   "culture": "神庙经济与城邦民主雏形；楔形文字；圆柱印章；吉尔伽美什史诗；轮制陶器与青铜",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-hammurabi-babylon"
+  ],
   "relatedEvents": [],
   "tags": [
    "苏美尔",
@@ -133,7 +139,9 @@
   "capital": "阿卡德（位置不明，推测在底格里斯河中游东岸）",
   "population": "约100万至300万",
   "culture": "中央集权官僚；常备军与驿传；土地国有与税收；标准化度量衡；王室与神庙之争",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-sargon"
+  ],
   "relatedEvents": [],
   "tags": [
    "阿卡德",
@@ -156,7 +164,9 @@
   "capital": "巴比伦、乌尔、乌鲁克、马尔",
   "population": "约200万至300万",
   "culture": "成文法典；楔形文字双语书写；神庙与王室土地制；吉尔伽美什史诗；私田与奴隶占有",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-hammurabi"
+  ],
   "relatedEvents": [],
   "tags": [
    "汉谟拉比",
@@ -170,16 +180,19 @@
   "alias": "亚述",
   "parentId": "w-ancient-near-east",
   "startYear": -2025,
-  "endYear": -801,
+  "endYear": -601,
   "startDateText": "公元前2025年",
-  "endDateText": "公元前801年",
+  "endDateText": "公元前601年",
   "colorKey": "mesopotamia",
   "summary": "古代近东最庞大的帝国，以军事与技术著称。亚述从亚述城的小邦崛起，先成为阿达德王国的附庸，在公元前9世纪自立，确立以亚述为唯一中心的集权统治。提格拉·帕拉萨三世迁都尼尼微，萨尔贡二世建起八角形宫殿并开凿人工战道，阿达德尼拉里二世与阿散巴尼拔把疆域推至埃及与伊朗。帝国以铁制武器、骑兵、工兵攻城机械与严酷的移民安置政策维持统治，是古代世界最早出现常备职业军与大型运输车队的国家之一。然而连续战争引发内部反抗，公元前612年尼尼微被巴比伦与米底联军攻陷，亚述文明作为独立政治体终结，但其军事技术与帝国治理经验被后来的波斯与伊斯兰世界继承。",
   "territory": "美索不达米亚、叙利亚、黎巴嫩、约旦、以色列、安纳托利亚、伊朗西部、埃及北部",
   "capital": "阿淑尔、尼尼微",
   "population": "约1000万至1500万",
   "culture": "铁器与大规模骑兵；攻城战术与投石机；强制移民同化政策；楔形文字档案与外交信函；亚述浮雕",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq18-assurbanipal",
+   "fig-zzbq18-tiglath"
+  ],
   "relatedEvents": [],
   "tags": [
    "亚述",
@@ -202,7 +215,10 @@
   "capital": "巴比伦",
   "population": "约1000万",
   "culture": "伊什塔尔门与空中花园；天文与历法记录；新巴比伦天文学；药物学专著；庙宇与巴比伦伦理学",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-nebuchadnezzar",
+   "fig-w-hamilcar"
+  ],
   "relatedEvents": [],
   "tags": [
    "新巴比伦",
@@ -225,7 +241,12 @@
   "capital": "孟斐斯、底比斯、赫利奥波利斯、亚历山大里亚",
   "population": "约100万至500万",
   "culture": "象形文字与纸草；金字塔与神庙建筑；太阳神崇拜与来世观；法老权威与官僚体系；几何学与工程",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-ramesses-ii",
+   "fig-akhenaten",
+   "fig-w-nilocrimis",
+   "fig-tutankhamun"
+  ],
   "relatedEvents": [],
   "tags": [
    "埃及",
@@ -249,7 +270,11 @@
   "capital": "摩亨佐-达罗、哈拉帕、华氏城、毗罗伐底、摩蹉罗",
   "population": "约500万（哈拉帕时代）至1亿（孔雀王朝）",
   "culture": "青铜器与城市规划；吠陀祭祀与种姓制度；佛教与耆那教；梵语、婆罗米语等 Prakrit 语；史诗文学与法论",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-buddha",
+   "fig-buddha-2",
+   "fig-kautilya"
+  ],
   "relatedEvents": [],
   "tags": [
    "印度",
@@ -274,7 +299,10 @@
   "capital": "摩亨佐-达罗、哈拉帕",
   "population": "约100万至150万（城市人口）",
   "culture": "青铜时代冶金；精密城市规划与卫生设施；红陶与彩陶；斧形货币；尚未破译的印章文字",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq18-aryan-queen",
+   "fig-zzbq18-sushimani"
+  ],
   "relatedEvents": [],
   "tags": [
    "哈拉帕",
@@ -320,7 +348,12 @@
   "capital": "华氏城（室利）、毗罗伐底",
   "population": "约5000万至1亿",
   "culture": "石柱敕令与岩窟；中央官僚与省区制；佛教与“达摩”治理；两种文字书写体系；官道与驿站",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-mahinda",
+   "fig-ashoka",
+   "fig-chandragupta",
+   "fig-kanishka"
+  ],
   "relatedEvents": [],
   "tags": [
    "孔雀王朝",
@@ -343,7 +376,9 @@
   "capital": "亳、殷（安阳）、镐京、洛邑、临淄、咸阳",
   "population": "约1500万（前1600年）至约2000万（前221年）",
   "culture": "甲骨文与金文；青铜礼器；礼乐制度与宗法分封；百家争鸣；铁器牛耕与土地私有",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-shanfu"
+  ],
   "relatedEvents": [],
   "tags": [
    "商周",
@@ -367,7 +402,10 @@
   "capital": "亳、邢、殷（安阳）",
   "population": "约1500万",
   "culture": "甲骨文与占卜；青铜礼器与饕餮纹；方国联盟；神权与王权结合；象形文字体系",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-king-wu",
+   "fig-king-zhou-gong"
+  ],
   "relatedEvents": [],
   "tags": [
    "商朝",
@@ -413,7 +451,11 @@
   "capital": "洛邑、临淄、邯郸、咸阳、郢",
   "population": "约2000万至2500万",
   "culture": "铁器牛耕与土地私有；士阶层与私学；百家争鸣；编钟与漆器；合纵连横",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-laozi",
+   "fig-confucius",
+   "fig-sunzi"
+  ],
   "relatedEvents": [],
   "tags": [
    "春秋",
@@ -437,7 +479,9 @@
   "capital": "雅典、斯巴达、科林斯、底比斯、米利都、亚历山大里亚",
   "population": "约100万至800万（各城邦合计）",
   "culture": "城邦民主与公民大会；悲剧喜剧与修辞；几何学与自然哲学；陶瓶与雕塑；奥林匹亚与泛希腊节庆",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-leonidas"
+  ],
   "relatedEvents": [],
   "tags": [
    "古希腊",
@@ -462,7 +506,10 @@
   "capital": "克诺索斯、帕莱斯特罗、马萨利",
   "population": "约20万至30万",
   "culture": "大型宫殿建筑与庭院；祭司统治与女神崇拜；线性陶与螺旋陶；海上贸易与航海；象形符号与印章",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq18-minos",
+   "fig-zzbq18-arthena"
+  ],
   "relatedEvents": [],
   "tags": [
    "米诺斯",
@@ -475,9 +522,9 @@
   "name": "迈锡尼希腊",
   "alias": "爱奥尼亚之前",
   "parentId": "w-ancient-near-east",
-  "startYear": -1750,
+  "startYear": -1600,
   "endYear": -1100,
-  "startDateText": "公元前1750年",
+  "startDateText": "公元前1600年",
   "endDateText": "公元前1100年",
   "colorKey": "greece",
   "summary": "荷马史诗时代的历史对应物。公元前1750年亚该亚语族人群进入希腊本土，在伯罗奔尼撒半岛北部的迈锡尼、提林斯、格吕尼奥斯等地建立蜂巢式城邦，宫殿以大厅为核心，筒形地下墓葬与狮子门是其标志。线性B文字泥板记录了橄榄油、纺织品与牲畜的经济账目，证实其已是有文字的社会。约公元前1250年迈锡尼各城几乎同时毁灭，学界多认为与米萨火山爆发、海啸及随后的动荡入侵有关，希腊进入黑暗时代。荷马史诗中的特洛伊战争虽属传说，但特洛伊遗址的考古发现与赫梯文献提及的阿维利亚事件，为战争传说提供了历史背景。",
@@ -485,7 +532,12 @@
   "capital": "迈锡尼、提林斯、格吕尼奥斯",
   "population": "约30万",
   "culture": "宫殿与筒形墓葬；线性B文字与泥板账目；几何陶；泛希腊的迈锡尼宗教；战士精英体制",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq18-helen",
+   "fig-zzbq18-agamemnon",
+   "fig-zzbq18-penelope",
+   "fig-pan-geng"
+  ],
   "relatedEvents": [],
   "tags": [
    "迈锡尼",
@@ -508,7 +560,11 @@
   "capital": "雅典、斯巴达、科林斯、米利都、以弗所",
   "population": "约200万至400万",
   "culture": "城邦制度与殖民；荷马与赫西俄德；几何陶与断线陶；自然哲学起源；奥林匹克与泛希腊节",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-solon",
+   "fig-pythagoras",
+   "fig-cyrus"
+  ],
   "relatedEvents": [],
   "tags": [
    "城邦",
@@ -531,7 +587,16 @@
   "capital": "雅典、斯巴达、叙拉古",
   "population": "约300万至400万",
   "culture": "直接民主与公民大会；悲剧与喜剧；帕特农雕塑；苏格拉底—柏拉图—亚里士多德学派；修辞学与演说术",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-hippocrates",
+   "fig-demo-crates",
+   "fig-plato",
+   "fig-euripides",
+   "fig-socrates",
+   "fig-aristotle",
+   "fig-demosthenes",
+   "fig-thucydides"
+  ],
   "relatedEvents": [],
   "tags": [
    "雅典",
@@ -555,7 +620,10 @@
   "capital": "亚历山大里亚、安条克、帕提拉、巴比伦、帕加马蒙",
   "population": "约5000万至1亿",
   "culture": "通用希腊语通行；亚历山大图书馆与博物馆；混合风格艺术；钱币经济与城市自治；哲学与宗教的多元并存",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-archimedes",
+   "fig-euclid"
+  ],
   "relatedEvents": [],
   "tags": [
    "亚历山大",
@@ -578,7 +646,9 @@
   "capital": "罗马、君士坦丁堡（东罗马）、米兰、莱姆尼、亚历山大里亚",
   "population": "约100万（共和末）至5000万至6000万（帝国盛期）",
   "culture": "拉丁语与罗马法；混凝土与道路工程；军团与公民制度；基督教；拉丁文献与希腊哲学",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-pliny-elder"
+  ],
   "relatedEvents": [],
   "tags": [
    "罗马",
@@ -603,7 +673,12 @@
   "capital": "罗马",
   "population": "约100万至300万（罗马城人口）",
   "culture": "元老院与执政官；军团与扩张主义；《十二铜表法》与平民权利；拉丁语与罗马建筑；角斗与公共娱乐",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-julius-caesar",
+   "fig-lucretius",
+   "fig-w-augustus-alt",
+   "fig-augustus"
+  ],
   "relatedEvents": [],
   "tags": [
    "共和国",
@@ -626,7 +701,12 @@
   "capital": "罗马、亚历山大里亚、安条克、伦敦、君士坦丁堡",
   "population": "约4500万至6000万",
   "culture": "罗马法与元首制；拉丁语与希腊语双语文书；圆形竞技场与公共工程；基督教国教化；面包配给与城市等级",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-nagarjuna",
+   "fig-seneca",
+   "fig-constantine",
+   "fig-marcus-aurelius"
+  ],
   "relatedEvents": [],
   "tags": [
    "帝国",
@@ -649,7 +729,10 @@
   "capital": "罗马（至476年）、君士坦丁堡、腊古拉姆、迦太基",
   "population": "约3000万至4000万",
   "culture": "戴克里先的税制与四帝共治；基督教国教；拉丁语法律编纂；城市衰减与乡村化；宫廷官僚化",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq12-augustine",
+   "fig-hypatia"
+  ],
   "relatedEvents": [],
   "tags": [
    "晚期帝国",
@@ -672,7 +755,12 @@
   "capital": "罗马（教宗国）、巴格达、大马士革、长安、奈良",
   "population": "约2亿至4亿",
   "culture": "日耳曼王权与教会；伊斯兰黄金时代；唐宋中国；拜占庭残存；维京与波罗的海贸易",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq19-justinian",
+   "fig-zzbq19-belisarius",
+   "fig-zzbq19-basil",
+   "fig-zzbq19-theodora"
+  ],
   "relatedEvents": [],
   "tags": [
    "中世纪早期",
@@ -696,7 +784,15 @@
   "capital": "巴黎、亚琛、伦敦、罗马、希隆",
   "population": "约2000万至3000万（西欧）",
   "culture": "加洛林文艺复兴；庄园经济与农奴制；教俗二元权力；抄本与拉丁文学；维京与诺曼传统",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-erik-the-red",
+   "fig-w-umar",
+   "fig-w-abu-bakr",
+   "fig-cyril-and-methodius",
+   "fig-muhammad",
+   "fig-leif-erikson",
+   "fig-w-christian-miracle"
+  ],
   "relatedEvents": [],
   "tags": [
    "法兰克",
@@ -720,7 +816,12 @@
   "capital": "麦地那、大马士革、耶路撒冷、迦太基、库法",
   "population": "约3000万至8000万",
   "culture": "伊斯兰教义与清真寺；阿拉伯语通用化；拜占庭式官僚与税收；跨洲伊斯兰文明圈；阿拉伯化的宗教建筑",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-sankara",
+   "fig-zzbq13-mansur",
+   "fig-w-charlemagne",
+   "fig-w-muqaddimah-author"
+  ],
   "relatedEvents": [],
   "tags": [
    "伊斯兰教",
@@ -743,7 +844,15 @@
   "capital": "巴格达、科尔多瓦、开罗、大马士革、内沙布尔",
   "population": "约1亿",
   "culture": "智慧宫与翻译运动；代数与光学；医学与药典；圆顶清真寺与几何装饰；纸业与商业城市",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq13-farabi",
+   "fig-zzbq13-kindi",
+   "fig-al-khwarizmi",
+   "fig-zzbq13-razi",
+   "fig-zzbq13-abunuwasi",
+   "fig-zzbq13-mamun",
+   "fig-zzbq13-harun"
+  ],
   "relatedEvents": [],
   "tags": [
    "阿拔斯",
@@ -767,7 +876,10 @@
   "capital": "长安、洛阳、奈良、贝多城、室利佛逝",
   "population": "约1亿至1.3亿",
   "culture": "唐诗与科举；佛教传播与译经；雕版印刷与造纸；新罗与大和文化；爪哇海上贸易",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-w-ali",
+   "fig-murasaki"
+  ],
   "relatedEvents": [],
   "tags": [
    "唐朝",
@@ -791,7 +903,13 @@
   "capital": "巴黎、伦敦、罗马、君士坦丁堡、开罗、大都、巴格达",
   "population": "约2.5亿至4亿",
   "culture": "哥特式建筑；大学与经院哲学；十字军；蒙古帝国与驿传；中国理学与印刷；伊斯兰科学承前",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq19-doge",
+   "fig-omar-khayyam",
+   "fig-alfonso-x",
+   "fig-zzbq12-aquinas",
+   "fig-zzbq13-osman"
+  ],
   "relatedEvents": [],
   "tags": [
    "中世纪",
@@ -816,7 +934,10 @@
   "capital": "君士坦丁堡、尼西亚、赫利克",
   "population": "约1000万至3000万",
   "culture": "《民法大全》；圣索菲亚与拜占庭圣像；东正教与圣像破坏运动；希腊学术与抄本；宫廷礼仪",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq19-theophrastus",
+   "fig-zzbq19-manuel"
+  ],
   "relatedEvents": [],
   "tags": [
    "拜占庭",
@@ -839,7 +960,12 @@
   "capital": "亚琛、凡尔登、沃尔姆斯",
   "population": "约1500万至2500万",
   "culture": "加洛林小写体与抄本；敕令集与巡察使；宫廷修院；地方封建契约",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq19-theophrastus",
+   "fig-al-khwarizmi",
+   "fig-zzbq13-razi",
+   "fig-w-hakim"
+  ],
   "relatedEvents": [],
   "tags": [
    "查理曼",
@@ -862,7 +988,11 @@
   "capital": "耶路撒冷、安条克、特里波西、埃德萨",
   "population": "数十万至百万级（十字军国家）",
   "culture": "军事修会与条顿骑士；东西方军事技术交流；地中海贸易；圣战叙事与宗教宽容尝试",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-genghis-khan",
+   "fig-saladin",
+   "fig-w-innocent-iii"
+  ],
   "relatedEvents": [],
   "tags": [
    "十字军",
@@ -885,7 +1015,14 @@
   "capital": "哈拉和林、大都、大不里士、撒马尔罕、基辅",
   "population": "约1亿至1.3亿",
   "culture": "游牧与农耕二元统治；驿站与通行证；宗教宽容；《蒙古秘史》；火药与战术东传西渐",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-rubruck",
+   "fig-kublai-khan",
+   "fig-rashid-al-din",
+   "fig-hulagu",
+   "fig-marco-polo",
+   "fig-zzbq12-dante"
+  ],
   "relatedEvents": [],
   "tags": [
    "蒙古",
@@ -909,7 +1046,11 @@
   "capital": "开罗、大马士革、巴格达、科尔多瓦、格拉纳达、大不里士",
   "population": "约1亿至1.5亿",
   "culture": "马穆鲁克与奥斯曼崛起；伊斯兰法学与苏菲主义；数学与光学；安达卢斯与格拉纳达文化；贸易城市网络",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-w-ibn-rushd",
+   "fig-rumi",
+   "fig-zzbq13-baibars"
+  ],
   "relatedEvents": [],
   "tags": [
    "伊斯兰中世纪",
@@ -957,7 +1098,16 @@
   "capital": "佛罗伦萨、威尼斯、罗马、里斯本、伊斯坦布尔、北京、平户、江户",
   "population": "约2.5亿至5亿",
   "culture": "人文主义与古典复兴；透视法与写实绘画；活字印刷；宗教改革与新教；大航海与殖民",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-cosimo-de-medici",
+   "fig-gutenberg",
+   "fig-martin-luther",
+   "fig-boccaccio",
+   "fig-zzbq12-machiavelli",
+   "fig-zzbq12-calvin",
+   "fig-christopher-columbus",
+   "fig-mehmed-ii"
+  ],
   "relatedEvents": [],
   "tags": [
    "文艺复兴",
@@ -982,7 +1132,16 @@
   "capital": "佛罗伦萨、威尼斯、罗马、米兰、那不勒斯",
   "population": "约1500万（意大利）",
   "culture": "人文主义与古典复兴；透视法与油彩技法；银行与市政共和；歌剧与芭蕾的雏形",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-vasco-da-gama",
+   "fig-gutenberg",
+   "fig-leonardo-da-vinci",
+   "fig-alfonso-de-albuquerque",
+   "fig-copernicus",
+   "fig-zzbq5-davinci",
+   "fig-michelangelo",
+   "fig-ferdinand-magellan"
+  ],
   "relatedEvents": [],
   "tags": [
    "佛罗伦萨",
@@ -1006,7 +1165,16 @@
   "capital": "维滕贝格、日内瓦、伦敦、安特卫普",
   "population": "约6000万（欧洲北部）",
   "culture": "宗教改革与新教诸派；《方言圣经》；北方油画；哥白尼日心说；大学与印刷业",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-copernicus",
+   "fig-martin-luther",
+   "fig-akbar",
+   "fig-juan-sebastian-elcano",
+   "fig-oda-nobunaga",
+   "fig-zzbq9-babur",
+   "fig-shakespeare",
+   "fig-galileo"
+  ],
   "relatedEvents": [],
   "tags": [
    "宗教改革",
@@ -1030,7 +1198,16 @@
   "capital": "巴黎、伦敦、马德里、里斯本、阿姆斯特丹、维也纳、圣彼得堡、北京、江户、德里、伊斯坦布尔",
   "population": "约5亿至9亿",
   "culture": "科学革命；启蒙运动；重商主义与奴隶贸易；常备军与官僚国家；世界白银流动",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-w-ottoman-founder",
+   "fig-voltaire",
+   "fig-immanuel-kant",
+   "fig-diderot",
+   "fig-zzbq12-locke",
+   "fig-suleiman-the-magnificent",
+   "fig-ibn-majid",
+   "fig-rousseau"
+  ],
   "relatedEvents": [],
   "tags": [
    "近代早期",
@@ -1045,17 +1222,26 @@
   "name": "大航海时代",
   "alias": "地理大发现与殖民扩张",
   "parentId": "w-early-modern",
-  "startYear": 1600,
-  "endYear": 1700,
-  "startDateText": "公元1600年",
-  "endDateText": "公元1700年",
+  "startYear": 1400,
+  "endYear": 1650,
+  "startDateText": "公元1400年",
+  "endDateText": "公元1650年",
   "colorKey": "earlymodern",
   "summary": "世界从分散到整体的转折期。葡萄牙恩里克王子推动的远航传统在迪奥戈·卡莫与瓦斯科·达·伽马手中完成突破：1487年迪亚士绕过好望角，1498年达·伽马经好望角抵达印度卡利卡特，1510年阿尔布克奎克取代卡利卡特成为葡属印度中心，1511年占马六甲；此后麦哲伦率船队横渡太平洋，完成人类历史上第一次环球航行，证明地球是球形并使世界地图骤然清晰。西班牙的哥伦布与阿古斯丁、墨西哥征服者科尔特斯与埃尔南·德·索托则把势力推进到美洲：1519—1521年征服阿兹特克帝国，1532—1533年击败印加帝国。跨大西洋的哥伦布大交换随之发生：美洲的玉米、马铃薯、番茄、可可、烟草与马匹进入旧大陆，旧大陆的猪、羊、小麦、蔗糖与疾病进入美洲，后者造成原住民百分之九十的人口灾难。荷兰在17世纪凭借金融与海运成为黄金时代的商业霸主，联合东印度公司与东印度公司建立了世界上第一批现代股份公司。",
   "territory": "全球海域与沿岸、欧洲、亚洲、非洲、美洲",
   "capital": "里斯本、塞维利亚、阿姆斯特丹、墨西哥城、吕宋（马尼拉）",
   "population": "约5亿至6亿",
   "culture": "航海技术与星盘；股份公司与金融；殖民贸易与奴隶制；天文学与制图学；宗教传教",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-w-ottoman-founder",
+   "fig-ahmad-ibn-majid",
+   "fig-zzbq19-alberti",
+   "fig-w-hobbes",
+   "fig-kepler",
+   "fig-w-descartes",
+   "fig-zzbq19-dias",
+   "fig-juan-sebastian-elcano"
+  ],
   "relatedEvents": [],
   "tags": [
    "大航海",
@@ -1079,7 +1265,15 @@
   "capital": "伦敦、巴黎、莱比锡、博洛尼亚、乌得勒支",
   "population": "约1亿（欧洲）",
   "culture": "实验与数学方法；日心说与望远镜；经典力学；学会与期刊；自然哲学",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-w-hobbes",
+   "fig-zzbq12-locke",
+   "fig-newton",
+   "fig-kepler",
+   "fig-w-descartes",
+   "fig-w-leibniz",
+   "fig-leibniz"
+  ],
   "relatedEvents": [],
   "tags": [
    "科学革命",
@@ -1103,7 +1297,11 @@
   "capital": "巴黎、凡尔赛、马德里、伦敦、阿姆斯特丹、圣彼得堡、德里、北京、江户、伊斯坦布尔",
   "population": "约6亿至8亿",
   "culture": "常备军与官僚国家；重商主义；宫廷文化与绝对主义；契约与议会；东方的中央集权重组",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-john-wesley",
+   "fig-watt",
+   "fig-zzbq15-toussaint"
+  ],
   "relatedEvents": [],
   "tags": [
    "绝对君主制",
@@ -1126,7 +1324,16 @@
   "capital": "伦敦、巴黎、柏林、维也纳、圣彼得堡、莫斯科、纽约、东京、新德里",
   "population": "约8亿至18亿",
   "culture": "工业文明与工厂制度；民族主义与帝国主义；社会主义运动；现代科学；议会民主与总动员战争",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-otto-von-bismarck",
+   "fig-zzbq8-hugo",
+   "fig-victoria",
+   "fig-darwin",
+   "fig-marx",
+   "fig-ismail-isi",
+   "fig-zzbq8-dostoevsky",
+   "fig-zzbq8-freud"
+  ],
   "relatedEvents": [],
   "tags": [
    "近代",
@@ -1151,7 +1358,16 @@
   "capital": "曼彻斯特、伯明翰、利兹、伦敦、格拉斯哥",
   "population": "约1亿至3亿（工业国）",
   "culture": "工厂制度与蒸汽动力；铁路与电报；机器制造与标准化；工会与工厂立法；古典经济学与马克思主义",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-darwin",
+   "fig-abraham-lincoln",
+   "fig-otto-von-bismarck",
+   "fig-marx",
+   "fig-victoria",
+   "fig-lord-ripon",
+   "fig-leo-tolstoy",
+   "fig-leopold-ii"
+  ],
   "relatedEvents": [],
   "tags": [
    "工业革命",
@@ -1175,7 +1391,16 @@
   "capital": "伦敦、巴黎、柏林、维也纳、布鲁塞尔、新德里、东京",
   "population": "约13亿至18亿",
   "culture": "帝国主义与殖民行政；民族主义与反殖民运动；国际法与白人的负担话语；热带医学与铁路",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-lenin",
+   "fig-stalin",
+   "fig-zzbq8-einstein",
+   "fig-roosevelt",
+   "fig-john-maynard-keynes",
+   "fig-simone-weil",
+   "fig-alan-turing",
+   "fig-harry-white"
+  ],
   "relatedEvents": [],
   "tags": [
    "帝国主义",
@@ -1199,7 +1424,12 @@
   "capital": "巴黎、伦敦、柏林、莫斯科、东京、华盛顿",
   "population": "约18亿至23亿",
   "culture": "总体战与全民动员；民族主义与法西斯主义；化学武器与雷达；布尔什维克革命与苏维埃体制；国际法与战后秩序",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-stalin",
+   "fig-roosevelt",
+   "fig-churchill",
+   "fig-lenin"
+  ],
   "relatedEvents": [],
   "tags": [
    "一战",
@@ -1223,7 +1453,12 @@
   "capital": "华盛顿、莫斯科、纽约、布鲁塞尔、北京、东京、柏林、新德里",
   "population": "约23亿至81亿",
   "culture": "冷战与去殖民化；第三次科技革命；全球经济一体化；信息技术与人工智能；生态与气候议题",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-francis-crick",
+   "fig-nehru",
+   "fig-mahatma-gandhi",
+   "fig-zzbq8-mlk"
+  ],
   "relatedEvents": [],
   "tags": [
    "当代",
@@ -1238,9 +1473,9 @@
   "name": "冷战时期",
   "alias": "两极对峙",
   "parentId": "w-contemporary",
-  "startYear": 1945,
+  "startYear": 1914,
   "endYear": 1990,
-  "startDateText": "公元1945年",
+  "startDateText": "公元1914年",
   "endDateText": "公元1990年",
   "colorKey": "contemporary",
   "summary": "美苏两极主宰的半个世纪。1947年杜鲁门主义标志冷战开始，1949年北约与华约对峙形成，1949年中国内战结束，1950年朝鲜战争是热战与冷战的混合体，1953年斯大林去世，1955年万隆会议与华沙条约组织成立，1956年苏伊士运河危机与匈牙利事件、1959年古巴导弹危机、1962年古巴导弹危机将世界推向核战争边缘，同年古巴导弹危机是核时代最惊险的一刻。1969年美苏在月球竞赛中达成登月竞赛的巅峰，1972年中美《上海公报》开启破冰，1979年苏联入侵阿富汗，冷战重新升温，1983年“星球大战”计划与里根的“邪恶帝国”演说，1986年切尔诺贝利事故，1989年柏林墙倒塌与东欧剧变，1991年苏联解体，冷战和平结束。同时期第三世界以不结盟运动（1961）、万隆精神与古巴革命抵抗两极压力，民族解放与民主化浪潮（1989年“颜色革命”）在全世界展开。",
@@ -1248,7 +1483,16 @@
   "capital": "华盛顿、莫斯科、伦敦、巴黎、伯尔尼、北京、平壤",
   "population": "约23亿至53亿",
   "culture": "核威慑与军备竞赛；太空竞赛；去殖民化与不结盟；福利国家与冷战经济；意识形态竞争",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-churchill",
+   "fig-claude-shannon",
+   "fig-zhao-ziyang",
+   "fig-juan-antonio-samaranch",
+   "fig-suharto",
+   "fig-julius-nyerere",
+   "fig-henry-kissinger",
+   "fig-nguyen-van-thieu"
+  ],
   "relatedEvents": [],
   "tags": [
    "冷战",
@@ -1272,7 +1516,10 @@
   "capital": "新德里、雅加达、开罗、达喀尔、内罗毕、哈瓦那、卢萨卡",
   "population": "约13亿至33亿",
   "culture": "民族主义与泛非主义；不结盟运动；新兴国家与人口增长；后殖民文学与艺术；经济发展战略",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-angela-merkel",
+   "fig-yo-yo-ma"
+  ],
   "relatedEvents": [],
   "tags": [
    "去殖民化",
@@ -1296,7 +1543,9 @@
   "capital": "华盛顿、布鲁塞尔、北京、东京、纽约、日内瓦、内罗毕",
   "population": "约44亿至81亿",
   "culture": "新自由主义与全球化；信息革命与人工智能；国际组织与多边治理；气候议题与可持续发展；多元身份政治",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-luis-angeles-jimenez"
+  ],
   "relatedEvents": [],
   "tags": [
    "全球化",
@@ -1320,7 +1569,16 @@
   "capital": "硅谷（圣克拉拉）、北京、上海、深圳、东京、首尔、班加罗尔、特拉维夫",
   "population": "约30亿至81亿（数字人口）",
   "culture": "半导体与信息技术；互联网与社交媒体；生物技术与基因编辑；核能与航天；计算伦理与数字治理",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-neil-armstrong",
+   "fig-rosalind-franklin",
+   "fig-yuri-gagarin",
+   "fig-zzbq5-jobs",
+   "fig-tu-youyou",
+   "fig-james-watson",
+   "fig-geoffrey-hinton",
+   "fig-yoshua-bengio"
+  ],
   "relatedEvents": [],
   "tags": [
    "科技革命",
@@ -1345,7 +1603,9 @@
   "capital": "麦罗埃、努比亚、比尔萨尔、库施、恩泽米、迦太基",
   "population": "约1500万至6000万",
   "culture": "铁器冶铸与诺克陶；库施神庙与象形文字；跨撒哈拉黄金盐贸易；红海与印度洋贸易；班图语族扩散",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-jiang-ziya"
+  ],
   "relatedEvents": [],
   "tags": [
    "非洲",
@@ -1371,7 +1631,12 @@
   "capital": "昆比萨利赫、马利、廷巴克图、加奥、杰内",
   "population": "约1000万至3000万",
   "culture": "跨撒哈拉贸易与黄金盐交换；伊斯兰教与阿拉伯语在宫廷的采用；曼萨穆萨的麦加朝觐；廷巴克图的大学与手抄本；司法与土地制度",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq14-askia",
+   "fig-mansa-musa",
+   "fig-zzbq14-sonni-ali",
+   "fig-zzbq9-sundiata"
+  ],
   "relatedEvents": [],
   "tags": [
    "加纳",
@@ -1396,7 +1661,11 @@
   "capital": "阿克苏姆、拉利贝拉、泽拉、摩加迪沙",
   "population": "约1000万至3000万",
   "culture": "阿克苏姆文字与金币；拉利贝拉岩石教堂；埃塞俄比亚正教；斯瓦希里与索马里城邦；红海与印度洋贸易",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq14-lalibela",
+   "fig-zzbq14-ezana",
+   "fig-zzbq14-amda-seyon"
+  ],
   "relatedEvents": [],
   "tags": [
    "埃塞俄比亚",
@@ -1446,7 +1715,11 @@
   "capital": "蒂卡尔、帕伦克、卡拉克穆尔、科潘、诺钦潘萨",
   "population": "约100万至300万",
   "culture": "玛雅文字与长纪历；二十进制与零；金字塔神庙与天文观测；雨林农业与梯田；历法与仪式历",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq15-pacal",
+   "fig-zzbq15-kukulkan",
+   "fig-zzbq15-itzamna"
+  ],
   "relatedEvents": [],
   "tags": [
    "玛雅",
@@ -1470,7 +1743,14 @@
   "capital": "特奥蒂瓦坎、塔斯科、特诺奇蒂特兰",
   "population": "约100万至2000万",
   "culture": "网格城市与市场；塔庙与石头雕刻；湖上堤道与浮园；贡赋与贸易联盟；球赛与献祭",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq15-montezuma1",
+   "fig-zzbq9-montezuma",
+   "fig-moctezuma",
+   "fig-zzbq9-cortes",
+   "fig-zzbq15-lascasas",
+   "fig-zzbq15-cuauhtemoc"
+  ],
   "relatedEvents": [],
   "tags": [
    "中美洲",
@@ -1494,7 +1774,12 @@
   "capital": "查文、卡拉尔、库斯科、库斯科旧城",
   "population": "约500万至1200万",
   "culture": "梯田农业与灌溉；奇普结绳记事；驿传与劳役制；梯形与金字塔；黄金与银器工艺",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-pachacuti",
+   "fig-zzbq9-pizarro",
+   "fig-zzbq15-huayna",
+   "fig-zzbq9-atahualpa"
+  ],
   "relatedEvents": [],
   "tags": [
    "安第斯",
@@ -1542,7 +1827,12 @@
   "capital": "平壤、熊津、庆州、开城、汉城（首尔）",
   "population": "约200万至2000万",
   "culture": "佛教与儒学的交替；金属活字印刷；律令与科举；士林政治与两班等级；北学与汉医",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq9-sejong",
+   "fig-zzbq9-yisunshin",
+   "fig-zzbq16-heo-gyun",
+   "fig-modu-chanyu"
+  ],
   "relatedEvents": [],
   "tags": [
    "朝鲜",
@@ -1566,7 +1856,16 @@
   "capital": "大和、奈良、平城、平安京、镰仓、足利（京都）、江户、东京",
   "population": "约100万至5000万",
   "culture": "大和祭祀与古坟；律令国家与遣唐使；武家与幕府；町与近世经济；明治维新与殖产兴业",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq9-ieyasu",
+   "fig-zzbq16-fukuzawa",
+   "fig-zzbq9-hideyoshi",
+   "fig-zzbq9-shotoku",
+   "fig-zzbq16-kamatari",
+   "fig-w-saicho",
+   "fig-w-kukai",
+   "fig-zzbq16-meiji"
+  ],
   "relatedEvents": [],
   "tags": [
    "日本",
@@ -1590,7 +1889,15 @@
   "capital": "吴哥、悉达威亚、蒲甘、阿瑜陀耶、亚细亚（马尼拉）、巴达维亚",
   "population": "约500万至6000万",
   "culture": "水利稻作国家；寺庙与巨石建筑；海上转口贸易；多宗教并存；殖民种植园经济",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-shah-isfandiyar",
+   "fig-william-wilberforce",
+   "fig-charles-ellington",
+   "fig-zzbq12-hegel",
+   "fig-zzbq8-bolivar",
+   "fig-zzbq15-sanmartin",
+   "fig-zzbq5-stephenson"
+  ],
   "relatedEvents": [],
   "tags": [
    "东南亚",
@@ -1615,7 +1922,10 @@
   "capital": "悉尼、墨尔本、莫尔兹比港、楠迪（苏瓦）、马尼拉",
   "population": "约50万至600万（1800年前后）",
   "culture": "航海与星象导航；巨石纪念物；酋长制与禁忌体系；波利尼西亚语言三角；毛利与澳洲原住民传统",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq16-cook",
+   "fig-te-piki"
+  ],
   "relatedEvents": [],
   "tags": [
    "大洋洲",
@@ -1639,7 +1949,13 @@
   "capital": "帕萨尔加德、波斯波利斯、塞浦西斯、埃克巴塔纳",
   "population": "约2000万至4000万",
   "culture": "行省制与驿传；多语言行政；琐罗亚斯德教；波斯波利斯建筑与浮雕；铸币与道路标准化",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-euripides-2",
+   "fig-pericles",
+   "fig-darius",
+   "fig-herodotus",
+   "fig-xerxes"
+  ],
   "relatedEvents": [],
   "tags": [
    "波斯",
@@ -1663,7 +1979,10 @@
   "capital": "长安、洛阳、邺城、建业",
   "population": "约1500万至8000万",
   "culture": "郡县与中央集权；儒学独尊与经学；丝绸之路；造纸与雕版印刷；唐诗与乐舞；科举与三省六部",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zhang-dai",
+   "fig-songtsen-gampo"
+  ],
   "relatedEvents": [],
   "tags": [
    "汉朝",
@@ -1711,7 +2030,10 @@
   "capital": "迦太基、罗马、锡拉库萨",
   "population": "约2000万至5000万（地中海）",
   "culture": "迦太基的腓尼基传统与商业海权；罗马军团与海军；跨地中海的希腊化城市文化；奴隶贸易与农业庄园",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-hannibal",
+   "fig-scipio-africanus"
+  ],
   "relatedEvents": [],
   "tags": [
    "迦太基",
@@ -1735,7 +2057,10 @@
   "capital": "巴比伦、帕撒拉加德、腓力比、亚历山大里亚",
   "population": "约5000万至7000万",
   "culture": "马其顿方阵与混合兵种；希腊语国际化；亚历山大城市的希腊化规划；比较宗教学与异教融合；希腊化艺术风格",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-alexander",
+   "fig-euclid"
+  ],
   "relatedEvents": [],
   "tags": [
    "亚历山大",
@@ -1759,7 +2084,11 @@
   "capital": "南京、北京",
   "population": "约6000万至4亿",
   "culture": "科举与程朱理学；一条鞭法与白银货币化；紫禁城与园林；四大名著与昆曲；京杭大运河；朝贡贸易与白银流入",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-robert-hart",
+   "fig-johann-adam-schell-von-bell",
+   "fig-matteo-ricci"
+  ],
   "relatedEvents": [],
   "tags": [
    "明朝",
@@ -1783,7 +2112,11 @@
   "capital": "巴格达、库法、内沙布尔、大马士革、开罗、科尔多瓦",
   "population": "约5000万至1亿",
   "culture": "智慧宫与翻译运动；代数与几何；光学与实验精神；医学百科；天文与地理；阿拉伯语文学与《一千零一夜》",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-al-khwarizmi",
+   "fig-ibn-sina",
+   "fig-al-biruni"
+  ],
   "relatedEvents": [],
   "tags": [
    "巴格达",
@@ -1807,7 +2140,12 @@
   "capital": "长安、洛阳",
   "population": "约1500万至6000万",
   "culture": "郡县与中央集权；儒学独尊与经学；张骞凿空西域与丝绸之路；造纸术发明；佛教传入与白马寺；编户齐民与编年史",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-dong-zhuo",
+   "fig-han-mingdi",
+   "fig-cleopatra-vii",
+   "fig-sun-quan"
+  ],
   "relatedEvents": [],
   "tags": [
    "汉朝",
@@ -1830,7 +2168,10 @@
   "capital": "长安、洛阳",
   "population": "约4000万至8000万",
   "culture": "科举与三省六部；唐诗与乐舞；佛教传播与译经；雕版印刷；长安国际都市；朝贡贸易与丝路西传",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-w-jianzhen",
+   "fig-wang-xuance"
+  ],
   "relatedEvents": [],
   "tags": [
    "唐朝",
@@ -1853,7 +2194,11 @@
   "capital": "开封、临安（杭州）、兴庆（北京大都）",
   "population": "约8000万至1.3亿",
   "culture": "商业革命与纸币；印刷术与火药指南针；理学与心学；市舶贸易；词与话本；辽金西夏多元政权",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-shen-kui",
+   "fig-huizong",
+   "fig-huang-chong"
+  ],
   "relatedEvents": [],
   "tags": [
    "宋朝",
@@ -1876,7 +2221,10 @@
   "capital": "南京、北京",
   "population": "约6000万至1.5亿",
   "culture": "一条鞭法与白银货币化；郑和下西洋；朝贡与海禁；紫禁城与园林；四大名著与昆曲；京杭大运河",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-dorgon",
+   "fig-zheng-chenggong"
+  ],
   "relatedEvents": [],
   "tags": [
    "明朝",
@@ -1899,7 +2247,9 @@
   "capital": "北京",
   "population": "约1亿至4亿",
   "culture": "摊丁入亩与丁银；军机处与文字狱；闭关与开埠；康乾人口增长；金瓶掣签与边疆治理；洋务与新政",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-tan-sitong"
+  ],
   "relatedEvents": [],
   "tags": [
    "清朝",
@@ -1922,7 +2272,9 @@
   "capital": "君士坦丁堡、尼西亚",
   "population": "约1000万至3000万",
   "culture": "《民法大全》；圣索菲亚与拜占庭圣像；东正教；希腊学术；宫廷礼仪",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-constantine"
+  ],
   "relatedEvents": [],
   "tags": [
    "拜占庭",
@@ -1945,7 +2297,16 @@
   "capital": "君士坦丁堡、尼西亚",
   "population": "约1000万至3000万",
   "culture": "《民法大全》；圣索菲亚与拜占庭圣像；东正教；希腊学术；宫廷礼仪",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-timur",
+   "fig-ibn-khaldun",
+   "fig-edward-iii",
+   "fig-ibn-battuta",
+   "fig-w-john-wycliffe",
+   "fig-john-wycliffe",
+   "fig-constantine-xi",
+   "fig-henry-v"
+  ],
   "relatedEvents": [],
   "tags": [
    "拜占庭",

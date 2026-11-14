@@ -79,16 +79,20 @@
    "alias": "两河流域与埃及",
    "parentId": null,
    "startYear": -3600,
-   "endYear": -800,
+   "endYear": -601,
    "startDateText": "公元前3600年",
-   "endDateText": "公元前800年",
+   "endDateText": "公元前601年",
    "colorKey": "mesopotamia",
    "summary": "世界最早的文明区域。美索不达米亚的城市国家在苏美尔的乌鲁克、乌尔、埃布拉、拉加什之间兴起，苏美尔语楔形文字从记账符号发展为完整书写体系，《吉尔伽美什史诗》记录了人类最早的长篇文学想象。阿卡德王朝统一两河，古巴比伦的汉谟拉比以《汉谟拉比法典》确立成文法的典范；新巴比伦的尼布甲尼撒重建巴比伦城与空中花园，囚禁犹太人。埃及尼罗河谷的统一形成那尔迈王朝，此后古王国、中王国、新王国三朝兴衰，法老作为神王统领，卡特丽神弓等武器与图坦卡蒙陵墓构成其不朽遗产。此后亚述、波斯兴起，近东成为连接地中海、印度与草原的枢纽。",
    "territory": "美索不达米亚、埃及、安纳托利亚、叙利亚、黎巴嫩、约旦、以色列、伊朗高原",
    "capital": "巴比伦、乌尔、孟斐斯、底比斯、尼尼微、波斯波利斯",
    "population": "约500万至2000万",
    "culture": "楔形文字与象形文字；城市国家与神庙经济；成文法典；法老神权与来世观；楔形文字泥板档案",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-moses",
+    "fig-david",
+    "fig-solomon"
+   ],
    "relatedEvents": [],
    "tags": [
     "两河",
@@ -113,7 +117,9 @@
    "capital": "乌鲁克、乌尔、埃布拉、拉加什、尼普尔",
    "population": "约50万至150万（总人口约300万）",
    "culture": "神庙经济与城邦民主雏形；楔形文字；圆柱印章；吉尔伽美什史诗；轮制陶器与青铜",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-hammurabi-babylon"
+   ],
    "relatedEvents": [],
    "tags": [
     "苏美尔",
@@ -136,7 +142,9 @@
    "capital": "阿卡德（位置不明，推测在底格里斯河中游东岸）",
    "population": "约100万至300万",
    "culture": "中央集权官僚；常备军与驿传；土地国有与税收；标准化度量衡；王室与神庙之争",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-sargon"
+   ],
    "relatedEvents": [],
    "tags": [
     "阿卡德",
@@ -159,7 +167,9 @@
    "capital": "巴比伦、乌尔、乌鲁克、马尔",
    "population": "约200万至300万",
    "culture": "成文法典；楔形文字双语书写；神庙与王室土地制；吉尔伽美什史诗；私田与奴隶占有",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-hammurabi"
+   ],
    "relatedEvents": [],
    "tags": [
     "汉谟拉比",
@@ -173,16 +183,19 @@
    "alias": "亚述",
    "parentId": "w-ancient-near-east",
    "startYear": -2025,
-   "endYear": -801,
+   "endYear": -601,
    "startDateText": "公元前2025年",
-   "endDateText": "公元前801年",
+   "endDateText": "公元前601年",
    "colorKey": "mesopotamia",
    "summary": "古代近东最庞大的帝国，以军事与技术著称。亚述从亚述城的小邦崛起，先成为阿达德王国的附庸，在公元前9世纪自立，确立以亚述为唯一中心的集权统治。提格拉·帕拉萨三世迁都尼尼微，萨尔贡二世建起八角形宫殿并开凿人工战道，阿达德尼拉里二世与阿散巴尼拔把疆域推至埃及与伊朗。帝国以铁制武器、骑兵、工兵攻城机械与严酷的移民安置政策维持统治，是古代世界最早出现常备职业军与大型运输车队的国家之一。然而连续战争引发内部反抗，公元前612年尼尼微被巴比伦与米底联军攻陷，亚述文明作为独立政治体终结，但其军事技术与帝国治理经验被后来的波斯与伊斯兰世界继承。",
    "territory": "美索不达米亚、叙利亚、黎巴嫩、约旦、以色列、安纳托利亚、伊朗西部、埃及北部",
    "capital": "阿淑尔、尼尼微",
    "population": "约1000万至1500万",
    "culture": "铁器与大规模骑兵；攻城战术与投石机；强制移民同化政策；楔形文字档案与外交信函；亚述浮雕",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq18-assurbanipal",
+    "fig-zzbq18-tiglath"
+   ],
    "relatedEvents": [],
    "tags": [
     "亚述",
@@ -205,7 +218,10 @@
    "capital": "巴比伦",
    "population": "约1000万",
    "culture": "伊什塔尔门与空中花园；天文与历法记录；新巴比伦天文学；药物学专著；庙宇与巴比伦伦理学",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-nebuchadnezzar",
+    "fig-w-hamilcar"
+   ],
    "relatedEvents": [],
    "tags": [
     "新巴比伦",
@@ -228,7 +244,12 @@
    "capital": "孟斐斯、底比斯、赫利奥波利斯、亚历山大里亚",
    "population": "约100万至500万",
    "culture": "象形文字与纸草；金字塔与神庙建筑；太阳神崇拜与来世观；法老权威与官僚体系；几何学与工程",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-ramesses-ii",
+    "fig-akhenaten",
+    "fig-w-nilocrimis",
+    "fig-tutankhamun"
+   ],
    "relatedEvents": [],
    "tags": [
     "埃及",
@@ -252,7 +273,11 @@
    "capital": "摩亨佐-达罗、哈拉帕、华氏城、毗罗伐底、摩蹉罗",
    "population": "约500万（哈拉帕时代）至1亿（孔雀王朝）",
    "culture": "青铜器与城市规划；吠陀祭祀与种姓制度；佛教与耆那教；梵语、婆罗米语等 语；史诗文学与法论",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-buddha",
+    "fig-buddha-2",
+    "fig-kautilya"
+   ],
    "relatedEvents": [],
    "tags": [
     "印度",
@@ -277,7 +302,10 @@
    "capital": "摩亨佐-达罗、哈拉帕",
    "population": "约100万至150万（城市人口）",
    "culture": "青铜时代冶金；精密城市规划与卫生设施；红陶与彩陶；斧形货币；尚未破译的印章文字",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq18-aryan-queen",
+    "fig-zzbq18-sushimani"
+   ],
    "relatedEvents": [],
    "tags": [
     "哈拉帕",
@@ -323,7 +351,12 @@
    "capital": "华氏城（室利）、毗罗伐底",
    "population": "约5000万至1亿",
    "culture": "石柱敕令与岩窟；中央官僚与省区制；佛教与“达摩”治理；两种文字书写体系；官道与驿站",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-mahinda",
+    "fig-ashoka",
+    "fig-chandragupta",
+    "fig-kanishka"
+   ],
    "relatedEvents": [],
    "tags": [
     "孔雀王朝",
@@ -346,7 +379,9 @@
    "capital": "亳、殷（安阳）、镐京、洛邑、临淄、咸阳",
    "population": "约1500万（前1600年）至约2000万（前221年）",
    "culture": "甲骨文与金文；青铜礼器；礼乐制度与宗法分封；百家争鸣；铁器牛耕与土地私有",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-shanfu"
+   ],
    "relatedEvents": [],
    "tags": [
     "商周",
@@ -370,7 +405,10 @@
    "capital": "亳、邢、殷（安阳）",
    "population": "约1500万",
    "culture": "甲骨文与占卜；青铜礼器与饕餮纹；方国联盟；神权与王权结合；象形文字体系",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-king-wu",
+    "fig-king-zhou-gong"
+   ],
    "relatedEvents": [],
    "tags": [
     "商朝",
@@ -416,7 +454,11 @@
    "capital": "洛邑、临淄、邯郸、咸阳、郢",
    "population": "约2000万至2500万",
    "culture": "铁器牛耕与土地私有；士阶层与私学；百家争鸣；编钟与漆器；合纵连横",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-laozi",
+    "fig-confucius",
+    "fig-sunzi"
+   ],
    "relatedEvents": [],
    "tags": [
     "春秋",
@@ -440,7 +482,9 @@
    "capital": "雅典、斯巴达、科林斯、底比斯、米利都、亚历山大里亚",
    "population": "约100万至800万（各城邦合计）",
    "culture": "城邦民主与公民大会；悲剧喜剧与修辞；几何学与自然哲学；陶瓶与雕塑；奥林匹亚与泛希腊节庆",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-leonidas"
+   ],
    "relatedEvents": [],
    "tags": [
     "古希腊",
@@ -465,7 +509,10 @@
    "capital": "克诺索斯、帕莱斯特罗、马萨利",
    "population": "约20万至30万",
    "culture": "大型宫殿建筑与庭院；祭司统治与女神崇拜；线性陶与螺旋陶；海上贸易与航海；象形符号与印章",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq18-minos",
+    "fig-zzbq18-arthena"
+   ],
    "relatedEvents": [],
    "tags": [
     "米诺斯",
@@ -478,9 +525,9 @@
    "name": "迈锡尼希腊",
    "alias": "爱奥尼亚之前",
    "parentId": "w-ancient-near-east",
-   "startYear": -1750,
+   "startYear": -1600,
    "endYear": -1100,
-   "startDateText": "公元前1750年",
+   "startDateText": "公元前1600年",
    "endDateText": "公元前1100年",
    "colorKey": "greece",
    "summary": "荷马史诗时代的历史对应物。公元前1750年亚该亚语族人群进入希腊本土，在伯罗奔尼撒半岛北部的迈锡尼、提林斯、格吕尼奥斯等地建立蜂巢式城邦，宫殿以大厅为核心，筒形地下墓葬与狮子门是其标志。线性B文字泥板记录了橄榄油、纺织品与牲畜的经济账目，证实其已是有文字的社会。约公元前1250年迈锡尼各城几乎同时毁灭，学界多认为与米萨火山爆发、海啸及随后的动荡入侵有关，希腊进入黑暗时代。荷马史诗中的特洛伊战争虽属传说，但特洛伊遗址的考古发现与赫梯文献提及的阿维利亚事件，为战争传说提供了历史背景。",
@@ -488,7 +535,12 @@
    "capital": "迈锡尼、提林斯、格吕尼奥斯",
    "population": "约30万",
    "culture": "宫殿与筒形墓葬；线性B文字与泥板账目；几何陶；泛希腊的迈锡尼宗教；战士精英体制",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq18-helen",
+    "fig-zzbq18-agamemnon",
+    "fig-zzbq18-penelope",
+    "fig-pan-geng"
+   ],
    "relatedEvents": [],
    "tags": [
     "迈锡尼",
@@ -511,7 +563,11 @@
    "capital": "雅典、斯巴达、科林斯、米利都、以弗所",
    "population": "约200万至400万",
    "culture": "城邦制度与殖民；荷马与赫西俄德；几何陶与断线陶；自然哲学起源；奥林匹克与泛希腊节",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-solon",
+    "fig-pythagoras",
+    "fig-cyrus"
+   ],
    "relatedEvents": [],
    "tags": [
     "城邦",
@@ -534,7 +590,16 @@
    "capital": "雅典、斯巴达、叙拉古",
    "population": "约300万至400万",
    "culture": "直接民主与公民大会；悲剧与喜剧；帕特农雕塑；苏格拉底—柏拉图—亚里士多德学派；修辞学与演说术",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-hippocrates",
+    "fig-demo-crates",
+    "fig-plato",
+    "fig-euripides",
+    "fig-socrates",
+    "fig-aristotle",
+    "fig-demosthenes",
+    "fig-thucydides"
+   ],
    "relatedEvents": [],
    "tags": [
     "雅典",
@@ -558,7 +623,10 @@
    "capital": "亚历山大里亚、安条克、帕提拉、巴比伦、帕加马蒙",
    "population": "约5000万至1亿",
    "culture": "通用希腊语通行；亚历山大图书馆与博物馆；混合风格艺术；钱币经济与城市自治；哲学与宗教的多元并存",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-archimedes",
+    "fig-euclid"
+   ],
    "relatedEvents": [],
    "tags": [
     "亚历山大",
@@ -581,7 +649,9 @@
    "capital": "罗马、君士坦丁堡（东罗马）、米兰、莱姆尼、亚历山大里亚",
    "population": "约100万（共和末）至5000万至6000万（帝国盛期）",
    "culture": "拉丁语与罗马法；混凝土与道路工程；军团与公民制度；基督教；拉丁文献与希腊哲学",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-pliny-elder"
+   ],
    "relatedEvents": [],
    "tags": [
     "罗马",
@@ -606,7 +676,12 @@
    "capital": "罗马",
    "population": "约100万至300万（罗马城人口）",
    "culture": "元老院与执政官；军团与扩张主义；《十二铜表法》与平民权利；拉丁语与罗马建筑；角斗与公共娱乐",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-julius-caesar",
+    "fig-lucretius",
+    "fig-w-augustus-alt",
+    "fig-augustus"
+   ],
    "relatedEvents": [],
    "tags": [
     "共和国",
@@ -629,7 +704,12 @@
    "capital": "罗马、亚历山大里亚、安条克、伦敦、君士坦丁堡",
    "population": "约4500万至6000万",
    "culture": "罗马法与元首制；拉丁语与希腊语双语文书；圆形竞技场与公共工程；基督教国教化；面包配给与城市等级",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-nagarjuna",
+    "fig-seneca",
+    "fig-constantine",
+    "fig-marcus-aurelius"
+   ],
    "relatedEvents": [],
    "tags": [
     "帝国",
@@ -652,7 +732,10 @@
    "capital": "罗马（至476年）、君士坦丁堡、腊古拉姆、迦太基",
    "population": "约3000万至4000万",
    "culture": "戴克里先的税制与四帝共治；基督教国教；拉丁语法律编纂；城市衰减与乡村化；宫廷官僚化",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq12-augustine",
+    "fig-hypatia"
+   ],
    "relatedEvents": [],
    "tags": [
     "晚期帝国",
@@ -675,7 +758,12 @@
    "capital": "罗马（教宗国）、巴格达、大马士革、长安、奈良",
    "population": "约2亿至4亿",
    "culture": "日耳曼王权与教会；伊斯兰黄金时代；唐宋中国；拜占庭残存；维京与波罗的海贸易",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq19-justinian",
+    "fig-zzbq19-belisarius",
+    "fig-zzbq19-basil",
+    "fig-zzbq19-theodora"
+   ],
    "relatedEvents": [],
    "tags": [
     "中世纪早期",
@@ -699,7 +787,15 @@
    "capital": "巴黎、亚琛、伦敦、罗马、希隆",
    "population": "约2000万至3000万（西欧）",
    "culture": "加洛林文艺复兴；庄园经济与农奴制；教俗二元权力；抄本与拉丁文学；维京与诺曼传统",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-erik-the-red",
+    "fig-w-umar",
+    "fig-w-abu-bakr",
+    "fig-cyril-and-methodius",
+    "fig-muhammad",
+    "fig-leif-erikson",
+    "fig-w-christian-miracle"
+   ],
    "relatedEvents": [],
    "tags": [
     "法兰克",
@@ -723,7 +819,12 @@
    "capital": "麦地那、大马士革、耶路撒冷、迦太基、库法",
    "population": "约3000万至8000万",
    "culture": "伊斯兰教义与清真寺；阿拉伯语通用化；拜占庭式官僚与税收；跨洲伊斯兰文明圈；阿拉伯化的宗教建筑",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-sankara",
+    "fig-zzbq13-mansur",
+    "fig-w-charlemagne",
+    "fig-w-muqaddimah-author"
+   ],
    "relatedEvents": [],
    "tags": [
     "伊斯兰教",
@@ -746,7 +847,15 @@
    "capital": "巴格达、科尔多瓦、开罗、大马士革、内沙布尔",
    "population": "约1亿",
    "culture": "智慧宫与翻译运动；代数与光学；医学与药典；圆顶清真寺与几何装饰；纸业与商业城市",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq13-farabi",
+    "fig-zzbq13-kindi",
+    "fig-al-khwarizmi",
+    "fig-zzbq13-razi",
+    "fig-zzbq13-abunuwasi",
+    "fig-zzbq13-mamun",
+    "fig-zzbq13-harun"
+   ],
    "relatedEvents": [],
    "tags": [
     "阿拔斯",
@@ -770,7 +879,10 @@
    "capital": "长安、洛阳、奈良、贝多城、室利佛逝",
    "population": "约1亿至1.3亿",
    "culture": "唐诗与科举；佛教传播与译经；雕版印刷与造纸；新罗与大和文化；爪哇海上贸易",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-w-ali",
+    "fig-murasaki"
+   ],
    "relatedEvents": [],
    "tags": [
     "唐朝",
@@ -794,7 +906,13 @@
    "capital": "巴黎、伦敦、罗马、君士坦丁堡、开罗、大都、巴格达",
    "population": "约2.5亿至4亿",
    "culture": "哥特式建筑；大学与经院哲学；十字军；蒙古帝国与驿传；中国理学与印刷；伊斯兰科学承前",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq19-doge",
+    "fig-omar-khayyam",
+    "fig-alfonso-x",
+    "fig-zzbq12-aquinas",
+    "fig-zzbq13-osman"
+   ],
    "relatedEvents": [],
    "tags": [
     "中世纪",
@@ -819,7 +937,10 @@
    "capital": "君士坦丁堡、尼西亚、赫利克",
    "population": "约1000万至3000万",
    "culture": "《民法大全》；圣索菲亚与拜占庭圣像；东正教与圣像破坏运动；希腊学术与抄本；宫廷礼仪",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq19-theophrastus",
+    "fig-zzbq19-manuel"
+   ],
    "relatedEvents": [],
    "tags": [
     "拜占庭",
@@ -842,7 +963,12 @@
    "capital": "亚琛、凡尔登、沃尔姆斯",
    "population": "约1500万至2500万",
    "culture": "加洛林小写体与抄本；敕令集与巡察使；宫廷修院；地方封建契约",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq19-theophrastus",
+    "fig-al-khwarizmi",
+    "fig-zzbq13-razi",
+    "fig-w-hakim"
+   ],
    "relatedEvents": [],
    "tags": [
     "查理曼",
@@ -865,7 +991,11 @@
    "capital": "耶路撒冷、安条克、特里波西、埃德萨",
    "population": "数十万至百万级（十字军国家）",
    "culture": "军事修会与条顿骑士；东西方军事技术交流；地中海贸易；圣战叙事与宗教宽容尝试",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-genghis-khan",
+    "fig-saladin",
+    "fig-w-innocent-iii"
+   ],
    "relatedEvents": [],
    "tags": [
     "十字军",
@@ -888,7 +1018,14 @@
    "capital": "哈拉和林、大都、大不里士、撒马尔罕、基辅",
    "population": "约1亿至1.3亿",
    "culture": "游牧与农耕二元统治；驿站与通行证；宗教宽容；《蒙古秘史》；火药与战术东传西渐",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-rubruck",
+    "fig-kublai-khan",
+    "fig-rashid-al-din",
+    "fig-hulagu",
+    "fig-marco-polo",
+    "fig-zzbq12-dante"
+   ],
    "relatedEvents": [],
    "tags": [
     "蒙古",
@@ -912,7 +1049,11 @@
    "capital": "开罗、大马士革、巴格达、科尔多瓦、格拉纳达、大不里士",
    "population": "约1亿至1.5亿",
    "culture": "马穆鲁克与奥斯曼崛起；伊斯兰法学与苏菲主义；数学与光学；安达卢斯与格拉纳达文化；贸易城市网络",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-w-ibn-rushd",
+    "fig-rumi",
+    "fig-zzbq13-baibars"
+   ],
    "relatedEvents": [],
    "tags": [
     "伊斯兰中世纪",
@@ -960,7 +1101,16 @@
    "capital": "佛罗伦萨、威尼斯、罗马、里斯本、伊斯坦布尔、北京、平户、江户",
    "population": "约2.5亿至5亿",
    "culture": "人文主义与古典复兴；透视法与写实绘画；活字印刷；宗教改革与新教；大航海与殖民",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-cosimo-de-medici",
+    "fig-gutenberg",
+    "fig-martin-luther",
+    "fig-boccaccio",
+    "fig-zzbq12-machiavelli",
+    "fig-zzbq12-calvin",
+    "fig-christopher-columbus",
+    "fig-mehmed-ii"
+   ],
    "relatedEvents": [],
    "tags": [
     "文艺复兴",
@@ -985,7 +1135,16 @@
    "capital": "佛罗伦萨、威尼斯、罗马、米兰、那不勒斯",
    "population": "约1500万（意大利）",
    "culture": "人文主义与古典复兴；透视法与油彩技法；银行与市政共和；歌剧与芭蕾的雏形",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-vasco-da-gama",
+    "fig-gutenberg",
+    "fig-leonardo-da-vinci",
+    "fig-alfonso-de-albuquerque",
+    "fig-copernicus",
+    "fig-zzbq5-davinci",
+    "fig-michelangelo",
+    "fig-ferdinand-magellan"
+   ],
    "relatedEvents": [],
    "tags": [
     "佛罗伦萨",
@@ -1009,7 +1168,16 @@
    "capital": "维滕贝格、日内瓦、伦敦、安特卫普",
    "population": "约6000万（欧洲北部）",
    "culture": "宗教改革与新教诸派；《方言圣经》；北方油画；哥白尼日心说；大学与印刷业",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-copernicus",
+    "fig-martin-luther",
+    "fig-akbar",
+    "fig-juan-sebastian-elcano",
+    "fig-oda-nobunaga",
+    "fig-zzbq9-babur",
+    "fig-shakespeare",
+    "fig-galileo"
+   ],
    "relatedEvents": [],
    "tags": [
     "宗教改革",
@@ -1023,9 +1191,9 @@
    "name": "近代早期",
    "alias": "大航海与殖民时代",
    "parentId": null,
-   "startYear": 1600,
+   "startYear": 1400,
    "endYear": 1800,
-   "startDateText": "公元1600年",
+   "startDateText": "公元1400年",
    "endDateText": "公元1800年",
    "colorKey": "earlymodern",
    "summary": "全球联系形成与早期现代国家形成的时代。地理大发现使世界从分散走向整体：1492年哥伦布抵达美洲，1498年达·伽马绕好望角入印度，1519—1522年麦哲伦船队完成环球航行，1540年麦哲伦海峡与德雷克海峡成为全球航路的枢纽。随后是西班牙与葡萄牙的殖民帝国、荷兰的“黄金时代”商业共和国、英国与法国的特许公司、俄罗斯的东向扩张与波斯的萨法维复兴。17世纪是“科学革命”的时代，开普勒、伽利略、笛卡尔、牛顿建立经典力学与近代科学方法，笛卡尔坐标系与培根的实验哲学构成现代思维范式的起点。政治上，尼德兰革命与英国革命产生现代议会君主制，启蒙运动在洛克、孟德斯鸠、伏尔泰、卢梭笔下成熟，美国独立宣言（1776年）与法国大革命（1789年）则把启蒙理想变为政治现实。同期亚洲的明清王朝、奥斯曼、莫卧儿与德川日本各自完成早期现代转型，全球白兰地、鸦片、茶叶与白银的贸易网络把各文明牢牢锁定在同一体系之中。",
@@ -1033,7 +1201,16 @@
    "capital": "巴黎、伦敦、马德里、里斯本、阿姆斯特丹、维也纳、圣彼得堡、北京、江户、德里、伊斯坦布尔",
    "population": "约5亿至9亿",
    "culture": "科学革命；启蒙运动；重商主义与奴隶贸易；常备军与官僚国家；世界白银流动",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-w-ottoman-founder",
+    "fig-voltaire",
+    "fig-immanuel-kant",
+    "fig-diderot",
+    "fig-zzbq12-locke",
+    "fig-suleiman-the-magnificent",
+    "fig-ibn-majid",
+    "fig-rousseau"
+   ],
    "relatedEvents": [],
    "tags": [
     "近代早期",
@@ -1048,17 +1225,26 @@
    "name": "大航海时代",
    "alias": "地理大发现与殖民扩张",
    "parentId": "w-early-modern",
-   "startYear": 1600,
-   "endYear": 1700,
-   "startDateText": "公元1600年",
-   "endDateText": "公元1700年",
+   "startYear": 1400,
+   "endYear": 1650,
+   "startDateText": "公元1400年",
+   "endDateText": "公元1650年",
    "colorKey": "earlymodern",
    "summary": "世界从分散到整体的转折期。葡萄牙恩里克王子推动的远航传统在迪奥戈·卡莫与瓦斯科·达·伽马手中完成突破：1487年迪亚士绕过好望角，1498年达·伽马经好望角抵达印度卡利卡特，1510年阿尔布克奎克取代卡利卡特成为葡属印度中心，1511年占马六甲；此后麦哲伦率船队横渡太平洋，完成人类历史上第一次环球航行，证明地球是球形并使世界地图骤然清晰。西班牙的哥伦布与阿古斯丁、墨西哥征服者科尔特斯与埃尔南·德·索托则把势力推进到美洲：1519—1521年征服阿兹特克帝国，1532—1533年击败印加帝国。跨大西洋的哥伦布大交换随之发生：美洲的玉米、马铃薯、番茄、可可、烟草与马匹进入旧大陆，旧大陆的猪、羊、小麦、蔗糖与疾病进入美洲，后者造成原住民百分之九十的人口灾难。荷兰在17世纪凭借金融与海运成为黄金时代的商业霸主，联合东印度公司与东印度公司建立了世界上第一批现代股份公司。",
    "territory": "全球海域与沿岸、欧洲、亚洲、非洲、美洲",
    "capital": "里斯本、塞维利亚、阿姆斯特丹、墨西哥城、吕宋（马尼拉）",
    "population": "约5亿至6亿",
    "culture": "航海技术与星盘；股份公司与金融；殖民贸易与奴隶制；天文学与制图学；宗教传教",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-w-ottoman-founder",
+    "fig-ahmad-ibn-majid",
+    "fig-zzbq19-alberti",
+    "fig-w-hobbes",
+    "fig-kepler",
+    "fig-w-descartes",
+    "fig-zzbq19-dias",
+    "fig-juan-sebastian-elcano"
+   ],
    "relatedEvents": [],
    "tags": [
     "大航海",
@@ -1082,7 +1268,15 @@
    "capital": "伦敦、巴黎、莱比锡、博洛尼亚、乌得勒支",
    "population": "约1亿（欧洲）",
    "culture": "实验与数学方法；日心说与望远镜；经典力学；学会与期刊；自然哲学",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-w-hobbes",
+    "fig-zzbq12-locke",
+    "fig-newton",
+    "fig-kepler",
+    "fig-w-descartes",
+    "fig-w-leibniz",
+    "fig-leibniz"
+   ],
    "relatedEvents": [],
    "tags": [
     "科学革命",
@@ -1106,7 +1300,11 @@
    "capital": "巴黎、凡尔赛、马德里、伦敦、阿姆斯特丹、圣彼得堡、德里、北京、江户、伊斯坦布尔",
    "population": "约6亿至8亿",
    "culture": "常备军与官僚国家；重商主义；宫廷文化与绝对主义；契约与议会；东方的中央集权重组",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-john-wesley",
+    "fig-watt",
+    "fig-zzbq15-toussaint"
+   ],
    "relatedEvents": [],
    "tags": [
     "绝对君主制",
@@ -1129,7 +1327,16 @@
    "capital": "伦敦、巴黎、柏林、维也纳、圣彼得堡、莫斯科、纽约、东京、新德里",
    "population": "约8亿至18亿",
    "culture": "工业文明与工厂制度；民族主义与帝国主义；社会主义运动；现代科学；议会民主与总动员战争",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-otto-von-bismarck",
+    "fig-zzbq8-hugo",
+    "fig-victoria",
+    "fig-darwin",
+    "fig-marx",
+    "fig-ismail-isi",
+    "fig-zzbq8-dostoevsky",
+    "fig-zzbq8-freud"
+   ],
    "relatedEvents": [],
    "tags": [
     "近代",
@@ -1154,7 +1361,16 @@
    "capital": "曼彻斯特、伯明翰、利兹、伦敦、格拉斯哥",
    "population": "约1亿至3亿（工业国）",
    "culture": "工厂制度与蒸汽动力；铁路与电报；机器制造与标准化；工会与工厂立法；古典经济学与马克思主义",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-darwin",
+    "fig-abraham-lincoln",
+    "fig-otto-von-bismarck",
+    "fig-marx",
+    "fig-victoria",
+    "fig-lord-ripon",
+    "fig-leo-tolstoy",
+    "fig-leopold-ii"
+   ],
    "relatedEvents": [],
    "tags": [
     "工业革命",
@@ -1178,7 +1394,16 @@
    "capital": "伦敦、巴黎、柏林、维也纳、布鲁塞尔、新德里、东京",
    "population": "约13亿至18亿",
    "culture": "帝国主义与殖民行政；民族主义与反殖民运动；国际法与白人的负担话语；热带医学与铁路",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-lenin",
+    "fig-stalin",
+    "fig-zzbq8-einstein",
+    "fig-roosevelt",
+    "fig-john-maynard-keynes",
+    "fig-simone-weil",
+    "fig-alan-turing",
+    "fig-harry-white"
+   ],
    "relatedEvents": [],
    "tags": [
     "帝国主义",
@@ -1202,7 +1427,12 @@
    "capital": "巴黎、伦敦、柏林、莫斯科、东京、华盛顿",
    "population": "约18亿至23亿",
    "culture": "总体战与全民动员；民族主义与法西斯主义；化学武器与雷达；布尔什维克革命与苏维埃体制；国际法与战后秩序",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-stalin",
+    "fig-roosevelt",
+    "fig-churchill",
+    "fig-lenin"
+   ],
    "relatedEvents": [],
    "tags": [
     "一战",
@@ -1226,7 +1456,12 @@
    "capital": "华盛顿、莫斯科、纽约、布鲁塞尔、北京、东京、柏林、新德里",
    "population": "约23亿至81亿",
    "culture": "冷战与去殖民化；第三次科技革命；全球经济一体化；信息技术与人工智能；生态与气候议题",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-francis-crick",
+    "fig-nehru",
+    "fig-mahatma-gandhi",
+    "fig-zzbq8-mlk"
+   ],
    "relatedEvents": [],
    "tags": [
     "当代",
@@ -1241,9 +1476,9 @@
    "name": "冷战时期",
    "alias": "两极对峙",
    "parentId": "w-contemporary",
-   "startYear": 1945,
+   "startYear": 1914,
    "endYear": 1990,
-   "startDateText": "公元1945年",
+   "startDateText": "公元1914年",
    "endDateText": "公元1990年",
    "colorKey": "contemporary",
    "summary": "美苏两极主宰的半个世纪。1947年杜鲁门主义标志冷战开始，1949年北约与华约对峙形成，1949年中国内战结束，1950年朝鲜战争是热战与冷战的混合体，1953年斯大林去世，1955年万隆会议与华沙条约组织成立，1956年苏伊士运河危机与匈牙利事件、1959年古巴导弹危机、1962年古巴导弹危机将世界推向核战争边缘，同年古巴导弹危机是核时代最惊险的一刻。1969年美苏在月球竞赛中达成登月竞赛的巅峰，1972年中美《上海公报》开启破冰，1979年苏联入侵阿富汗，冷战重新升温，1983年“星球大战”计划与里根的“邪恶帝国”演说，1986年切尔诺贝利事故，1989年柏林墙倒塌与东欧剧变，1991年苏联解体，冷战和平结束。同时期第三世界以不结盟运动（1961）、万隆精神与古巴革命抵抗两极压力，民族解放与民主化浪潮（1989年“颜色革命”）在全世界展开。",
@@ -1251,7 +1486,16 @@
    "capital": "华盛顿、莫斯科、伦敦、巴黎、伯尔尼、北京、平壤",
    "population": "约23亿至53亿",
    "culture": "核威慑与军备竞赛；太空竞赛；去殖民化与不结盟；福利国家与冷战经济；意识形态竞争",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-churchill",
+    "fig-claude-shannon",
+    "fig-zhao-ziyang",
+    "fig-juan-antonio-samaranch",
+    "fig-suharto",
+    "fig-julius-nyerere",
+    "fig-henry-kissinger",
+    "fig-nguyen-van-thieu"
+   ],
    "relatedEvents": [],
    "tags": [
     "冷战",
@@ -1275,7 +1519,10 @@
    "capital": "新德里、雅加达、开罗、达喀尔、内罗毕、哈瓦那、卢萨卡",
    "population": "约13亿至33亿",
    "culture": "民族主义与泛非主义；不结盟运动；新兴国家与人口增长；后殖民文学与艺术；经济发展战略",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-angela-merkel",
+    "fig-yo-yo-ma"
+   ],
    "relatedEvents": [],
    "tags": [
     "去殖民化",
@@ -1299,7 +1546,9 @@
    "capital": "华盛顿、布鲁塞尔、北京、东京、纽约、日内瓦、内罗毕",
    "population": "约44亿至81亿",
    "culture": "新自由主义与全球化；信息革命与人工智能；国际组织与多边治理；气候议题与可持续发展；多元身份政治",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-luis-angeles-jimenez"
+   ],
    "relatedEvents": [],
    "tags": [
     "全球化",
@@ -1323,7 +1572,16 @@
    "capital": "硅谷（圣克拉拉）、北京、上海、深圳、东京、首尔、班加罗尔、特拉维夫",
    "population": "约30亿至81亿（数字人口）",
    "culture": "半导体与信息技术；互联网与社交媒体；生物技术与基因编辑；核能与航天；计算伦理与数字治理",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-neil-armstrong",
+    "fig-rosalind-franklin",
+    "fig-yuri-gagarin",
+    "fig-zzbq5-jobs",
+    "fig-tu-youyou",
+    "fig-james-watson",
+    "fig-geoffrey-hinton",
+    "fig-yoshua-bengio"
+   ],
    "relatedEvents": [],
    "tags": [
     "科技革命",
@@ -1348,7 +1606,9 @@
    "capital": "麦罗埃、努比亚、比尔萨尔、库施、恩泽米、迦太基",
    "population": "约1500万至6000万",
    "culture": "铁器冶铸与诺克陶；库施神庙与象形文字；跨撒哈拉黄金盐贸易；红海与印度洋贸易；班图语族扩散",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-jiang-ziya"
+   ],
    "relatedEvents": [],
    "tags": [
     "非洲",
@@ -1374,7 +1634,12 @@
    "capital": "昆比萨利赫、马利、廷巴克图、加奥、杰内",
    "population": "约1000万至3000万",
    "culture": "跨撒哈拉贸易与黄金盐交换；伊斯兰教与阿拉伯语在宫廷的采用；曼萨穆萨的麦加朝觐；廷巴克图的大学与手抄本；司法与土地制度",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq14-askia",
+    "fig-mansa-musa",
+    "fig-zzbq14-sonni-ali",
+    "fig-zzbq9-sundiata"
+   ],
    "relatedEvents": [],
    "tags": [
     "加纳",
@@ -1399,7 +1664,11 @@
    "capital": "阿克苏姆、拉利贝拉、泽拉、摩加迪沙",
    "population": "约1000万至3000万",
    "culture": "阿克苏姆文字与金币；拉利贝拉岩石教堂；埃塞俄比亚正教；斯瓦希里与索马里城邦；红海与印度洋贸易",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq14-lalibela",
+    "fig-zzbq14-ezana",
+    "fig-zzbq14-amda-seyon"
+   ],
    "relatedEvents": [],
    "tags": [
     "埃塞俄比亚",
@@ -1449,7 +1718,11 @@
    "capital": "蒂卡尔、帕伦克、卡拉克穆尔、科潘、诺钦潘萨",
    "population": "约100万至300万",
    "culture": "玛雅文字与长纪历；二十进制与零；金字塔神庙与天文观测；雨林农业与梯田；历法与仪式历",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq15-pacal",
+    "fig-zzbq15-kukulkan",
+    "fig-zzbq15-itzamna"
+   ],
    "relatedEvents": [],
    "tags": [
     "玛雅",
@@ -1473,7 +1746,14 @@
    "capital": "特奥蒂瓦坎、塔斯科、特诺奇蒂特兰",
    "population": "约100万至2000万",
    "culture": "网格城市与市场；塔庙与石头雕刻；湖上堤道与浮园；贡赋与贸易联盟；球赛与献祭",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq15-montezuma1",
+    "fig-zzbq9-montezuma",
+    "fig-moctezuma",
+    "fig-zzbq9-cortes",
+    "fig-zzbq15-lascasas",
+    "fig-zzbq15-cuauhtemoc"
+   ],
    "relatedEvents": [],
    "tags": [
     "中美洲",
@@ -1497,7 +1777,12 @@
    "capital": "查文、卡拉尔、库斯科、库斯科旧城",
    "population": "约500万至1200万",
    "culture": "梯田农业与灌溉；奇普结绳记事；驿传与劳役制；梯形与金字塔；黄金与银器工艺",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-pachacuti",
+    "fig-zzbq9-pizarro",
+    "fig-zzbq15-huayna",
+    "fig-zzbq9-atahualpa"
+   ],
    "relatedEvents": [],
    "tags": [
     "安第斯",
@@ -1545,7 +1830,12 @@
    "capital": "平壤、熊津、庆州、开城、汉城（首尔）",
    "population": "约200万至2000万",
    "culture": "佛教与儒学的交替；金属活字印刷；律令与科举；士林政治与两班等级；北学与汉医",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq9-sejong",
+    "fig-zzbq9-yisunshin",
+    "fig-zzbq16-heo-gyun",
+    "fig-modu-chanyu"
+   ],
    "relatedEvents": [],
    "tags": [
     "朝鲜",
@@ -1569,7 +1859,16 @@
    "capital": "大和、奈良、平城、平安京、镰仓、足利（京都）、江户、东京",
    "population": "约100万至5000万",
    "culture": "大和祭祀与古坟；律令国家与遣唐使；武家与幕府；町与近世经济；明治维新与殖产兴业",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq9-ieyasu",
+    "fig-zzbq16-fukuzawa",
+    "fig-zzbq9-hideyoshi",
+    "fig-zzbq9-shotoku",
+    "fig-zzbq16-kamatari",
+    "fig-w-saicho",
+    "fig-w-kukai",
+    "fig-zzbq16-meiji"
+   ],
    "relatedEvents": [],
    "tags": [
     "日本",
@@ -1593,7 +1892,15 @@
    "capital": "吴哥、悉达威亚、蒲甘、阿瑜陀耶、亚细亚（马尼拉）、巴达维亚",
    "population": "约500万至6000万",
    "culture": "水利稻作国家；寺庙与巨石建筑；海上转口贸易；多宗教并存；殖民种植园经济",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-shah-isfandiyar",
+    "fig-william-wilberforce",
+    "fig-charles-ellington",
+    "fig-zzbq12-hegel",
+    "fig-zzbq8-bolivar",
+    "fig-zzbq15-sanmartin",
+    "fig-zzbq5-stephenson"
+   ],
    "relatedEvents": [],
    "tags": [
     "东南亚",
@@ -1618,7 +1925,10 @@
    "capital": "悉尼、墨尔本、莫尔兹比港、楠迪（苏瓦）、马尼拉",
    "population": "约50万至600万（1800年前后）",
    "culture": "航海与星象导航；巨石纪念物；酋长制与禁忌体系；波利尼西亚语言三角；毛利与澳洲原住民传统",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq16-cook",
+    "fig-te-piki"
+   ],
    "relatedEvents": [],
    "tags": [
     "大洋洲",
@@ -1642,7 +1952,13 @@
    "capital": "帕萨尔加德、波斯波利斯、塞浦西斯、埃克巴塔纳",
    "population": "约2000万至4000万",
    "culture": "行省制与驿传；多语言行政；琐罗亚斯德教；波斯波利斯建筑与浮雕；铸币与道路标准化",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-euripides-2",
+    "fig-pericles",
+    "fig-darius",
+    "fig-herodotus",
+    "fig-xerxes"
+   ],
    "relatedEvents": [],
    "tags": [
     "波斯",
@@ -1666,7 +1982,10 @@
    "capital": "长安、洛阳、邺城、建业",
    "population": "约1500万至8000万",
    "culture": "郡县与中央集权；儒学独尊与经学；丝绸之路；造纸与雕版印刷；唐诗与乐舞；科举与三省六部",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zhang-dai",
+    "fig-songtsen-gampo"
+   ],
    "relatedEvents": [],
    "tags": [
     "汉朝",
@@ -1714,7 +2033,10 @@
    "capital": "迦太基、罗马、锡拉库萨",
    "population": "约2000万至5000万（地中海）",
    "culture": "迦太基的腓尼基传统与商业海权；罗马军团与海军；跨地中海的希腊化城市文化；奴隶贸易与农业庄园",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-hannibal",
+    "fig-scipio-africanus"
+   ],
    "relatedEvents": [],
    "tags": [
     "迦太基",
@@ -1738,7 +2060,10 @@
    "capital": "巴比伦、帕撒拉加德、腓力比、亚历山大里亚",
    "population": "约5000万至7000万",
    "culture": "马其顿方阵与混合兵种；希腊语国际化；亚历山大城市的希腊化规划；比较宗教学与异教融合；希腊化艺术风格",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-alexander",
+    "fig-euclid"
+   ],
    "relatedEvents": [],
    "tags": [
     "亚历山大",
@@ -1762,7 +2087,11 @@
    "capital": "南京、北京",
    "population": "约6000万至4亿",
    "culture": "科举与程朱理学；一条鞭法与白银货币化；紫禁城与园林；四大名著与昆曲；京杭大运河；朝贡贸易与白银流入",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-robert-hart",
+    "fig-johann-adam-schell-von-bell",
+    "fig-matteo-ricci"
+   ],
    "relatedEvents": [],
    "tags": [
     "明朝",
@@ -1786,7 +2115,11 @@
    "capital": "巴格达、库法、内沙布尔、大马士革、开罗、科尔多瓦",
    "population": "约5000万至1亿",
    "culture": "智慧宫与翻译运动；代数与几何；光学与实验精神；医学百科；天文与地理；阿拉伯语文学与《一千零一夜》",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-al-khwarizmi",
+    "fig-ibn-sina",
+    "fig-al-biruni"
+   ],
    "relatedEvents": [],
    "tags": [
     "巴格达",
@@ -1810,7 +2143,12 @@
    "capital": "长安、洛阳",
    "population": "约1500万至6000万",
    "culture": "郡县与中央集权；儒学独尊与经学；张骞凿空西域与丝绸之路；造纸术发明；佛教传入与白马寺；编户齐民与编年史",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-dong-zhuo",
+    "fig-han-mingdi",
+    "fig-cleopatra-vii",
+    "fig-sun-quan"
+   ],
    "relatedEvents": [],
    "tags": [
     "汉朝",
@@ -1833,7 +2171,10 @@
    "capital": "长安、洛阳",
    "population": "约4000万至8000万",
    "culture": "科举与三省六部；唐诗与乐舞；佛教传播与译经；雕版印刷；长安国际都市；朝贡贸易与丝路西传",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-w-jianzhen",
+    "fig-wang-xuance"
+   ],
    "relatedEvents": [],
    "tags": [
     "唐朝",
@@ -1856,7 +2197,11 @@
    "capital": "开封、临安（杭州）、兴庆（北京大都）",
    "population": "约8000万至1.3亿",
    "culture": "商业革命与纸币；印刷术与火药指南针；理学与心学；市舶贸易；词与话本；辽金西夏多元政权",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-shen-kui",
+    "fig-huizong",
+    "fig-huang-chong"
+   ],
    "relatedEvents": [],
    "tags": [
     "宋朝",
@@ -1879,7 +2224,10 @@
    "capital": "南京、北京",
    "population": "约6000万至1.5亿",
    "culture": "一条鞭法与白银货币化；郑和下西洋；朝贡与海禁；紫禁城与园林；四大名著与昆曲；京杭大运河",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-dorgon",
+    "fig-zheng-chenggong"
+   ],
    "relatedEvents": [],
    "tags": [
     "明朝",
@@ -1902,7 +2250,9 @@
    "capital": "北京",
    "population": "约1亿至4亿",
    "culture": "摊丁入亩与丁银；军机处与文字狱；闭关与开埠；康乾人口增长；金瓶掣签与边疆治理；洋务与新政",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-tan-sitong"
+   ],
    "relatedEvents": [],
    "tags": [
     "清朝",
@@ -1925,7 +2275,9 @@
    "capital": "君士坦丁堡、尼西亚",
    "population": "约1000万至3000万",
    "culture": "《民法大全》；圣索菲亚与拜占庭圣像；东正教；希腊学术；宫廷礼仪",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-constantine"
+   ],
    "relatedEvents": [],
    "tags": [
     "拜占庭",
@@ -1948,7 +2300,16 @@
    "capital": "君士坦丁堡、尼西亚",
    "population": "约1000万至3000万",
    "culture": "《民法大全》；圣索菲亚与拜占庭圣像；东正教；希腊学术；宫廷礼仪",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-timur",
+    "fig-ibn-khaldun",
+    "fig-edward-iii",
+    "fig-ibn-battuta",
+    "fig-w-john-wycliffe",
+    "fig-john-wycliffe",
+    "fig-constantine-xi",
+    "fig-henry-v"
+   ],
    "relatedEvents": [],
    "tags": [
     "拜占庭",
@@ -1972,7 +2333,11 @@
    "capital": "华氏城、曲女城、德里",
    "population": "约1亿",
    "culture": "印度教、佛教、伊斯兰教",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq13-kalidasa",
+    "fig-zzbq10-nanak",
+    "fig-zzbq13-samudragupta"
+   ],
    "relatedEvents": [],
    "tags": [
     "南亚",
@@ -1996,7 +2361,11 @@
    "capital": "阿格拉、德里",
    "population": "约1.5亿",
    "culture": "波斯—印度混合文化、细密画、泰姬陵",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq13-aurangzeb",
+    "fig-zzbq13-shivaji",
+    "fig-zzbq13-tilak"
+   ],
    "relatedEvents": [],
    "tags": [
     "南亚",
@@ -2020,7 +2389,10 @@
    "capital": "吴哥、巨港、满者伯夷",
    "population": "约2000万",
    "culture": "印度教—佛教文化、吴哥窟、婆罗浮屠",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq16-jayavarman7",
+    "fig-zzbq16-suryavarman2"
+   ],
    "relatedEvents": [],
    "tags": [
     "东南亚",
@@ -2044,7 +2416,16 @@
    "capital": "加尔各答、德里",
    "population": "约3亿至4亿",
    "culture": "英语教育、印刷资本主义、宗教改革与民族主义",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq13-tagore",
+    "fig-mahatma-gandhi",
+    "fig-zzbq13-jinnah",
+    "fig-zzbq8-picasso",
+    "fig-dong-biwu",
+    "fig-nehru",
+    "fig-jawaharlal-nehru",
+    "fig-ho-chi-minh"
+   ],
    "relatedEvents": [],
    "tags": [
     "南亚",
@@ -2093,7 +2474,11 @@
    "capital": "—",
    "population": "约1亿至2.8亿",
    "culture": "奴隶贸易创伤、基督教与伊斯兰扩张、泛非主义",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq14-menelik",
+    "fig-zzbq14-haile-selassie",
+    "fig-zzbq14-tewodros"
+   ],
    "relatedEvents": [],
    "tags": [
     "非洲",
@@ -2118,7 +2503,10 @@
    "capital": "曼谷、马尼拉、巴达维亚、西贡",
    "population": "约5000万至1.5亿",
    "culture": "殖民经济、华人移民、佛教与伊斯兰复兴、民族主义",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq16-chulalongkorn",
+    "fig-zzbq16-sukarno"
+   ],
    "relatedEvents": [],
    "tags": [
     "东南亚",
@@ -3056,7 +3444,7 @@
    "year": -1750,
    "yearEnd": -1530,
    "dateText": "公元前1750年－公元前1530年",
-   "periodId": "w-mycenaean",
+   "periodId": "w-ancient-near-east",
    "category": "political",
    "location": "二里头－洛阳",
    "summary": "二里头遗址显示黄河流域在夏代已出现宫殿区、青铜礼器与早期国家形态，这一事件在世界史上留下深远影响。",
@@ -4392,7 +4780,7 @@
    "detail": "公元528年，查士丁尼一世登上东罗马皇帝位后，任命以特里布为首的十人委员会着手编纂罗马法汇编。历时六年完成《敕法集成》（，529年），收集自戴克里先以来的皇帝敕令并译为拉丁文；随后陆续编成《学说汇纂》（，533年），摘录与评论自赛卢斯至尤利安时代二百年间约三千部法学家著作；533—534年完成《法典》（），仿照学生用的法学校教科书体例编纂；534年汇编《诺瓦斯集》收录查士丁尼晚近的敕令。四部合称《民法大全》（）。查士丁尼编纂的直接动因是为帝国日益混乱的法律现状提供统一依据，但更深远的影响在于：这部由皇帝下令完成的法典汇编在12世纪前后被重新发现并译回拉丁语，成为欧洲大学罗马法课程与市民法（）体系的直接来源，最终经由注释法学（）与后来的法典化，塑造了整个大陆法系的法律结构与法典编纂传统，使其成为罗马文明在身后千余年里最持久的制度遗产之一。",
    "importance": 5,
    "figures": [
-    "fig-justinian"
+    "fig-zzbq19-justinian"
    ],
    "tags": [
     "罗马",
@@ -4414,7 +4802,8 @@
    "detail": "查士丁尼把收复失地视为帝国的首要使命，任命名将贝利撒留为总指挥。533—541年， 率军渡海夺取北非，摧毁了重建后的迦太基与周边据点；随后攻入意大利，在拉韦纳之战中击败东哥特军，但随后发生的长期围城战与瘟疫使意大利战事拖延七年；查士丁尼的补给线与后勤使东哥特得以坚持，比利撒留的胜利最终以长期的消耗结束。彻底毁灭东哥特。查士丁尼的战争虽然成功，但消耗了帝国的财政基础，532—537年君士坦丁堡的尼卡暴动（起因是税收与货币变制）几乎摧毁全城，也显示了帝国城市的阶层矛盾与财政压力。555年查士丁尼的将领在西班牙的科尔多瓦之战中击败西哥特，为拜占庭赢得了地中海西岸的一席。但这场持续二十余年的战争未能永久巩固西地中海：7世纪阿拉伯征服迅速夺走了北非与叙利亚，7世纪末西班牙的西哥特王国复国，拜占庭的西地中海帝国仅存意大利南部与若干沿海据点。",
    "importance": 4,
    "figures": [
-    "fig-justinian"
+    "fig-zzbq19-justinian",
+    "fig-zzbq19-belisarius"
    ],
    "tags": [
     "拜占庭",
@@ -4436,7 +4825,7 @@
    "detail": "公元537年12月27日，查士丁尼一世主持的圣索菲亚大教堂在君士坦丁堡正式落成。为实现巨大的中央穹顶，建筑师 与 提出了一套 的构造方案：以帆拱把中央穹顶的荷载分散到四个巨大的拱券与柱列之上，从而不必依赖连续的大面积墙体。穹顶跨度约三十一米、高约五十五米，中央垂下的四十二扇窗使穹顶看起来仿佛悬浮于空中，查士丁尼据说在落成时高呼「，我把你盖起来了」。教堂内有大量从神庙与宫殿拆取或劫掠来的古代大理石柱、浮雕与器物，镶嵌画与金属饰物覆盖内壁，将地上的拜占庭宫廷扩展为一个天上的意象空间。此后近千年间它是东地中海基督教世界最庄严的礼仪中心，直到1204年被十字军洗劫、1453年被奥斯曼攻占时仍保持原貌，奥斯曼时期被改为清真寺，1934年成为博物馆。它是世界建筑史上空间与结构结合的最杰出典范之一。",
    "importance": 4,
    "figures": [
-    "fig-justinian"
+    "fig-zzbq19-justinian"
    ],
    "tags": [
     "拜占庭",
@@ -4458,7 +4847,7 @@
    "detail": "从查士丁尼法典的编纂到其实际施行，罗马法在拜占庭帝国全境与地中海各行省运行。公元6—7世纪，罗马法随着拜占庭的司法与行政实践传播到意大利、非洲、西班牙与埃及的教堂与学校。当地的基督教会法与习惯法在此基础上与罗马法相互渗透。到8世纪后，意大利各城市的伦巴德法、日耳曼部族法与罗马法残存的混合，其中最接近罗马法传统的部分在11世纪后进入大学的课堂。中世纪后期与近代早期的注释法学把《民法大全》重新整理为系统的民法体系，其关于合同、财产、侵权、婚姻家庭与诉讼的分类框架与原则，经由《法国民法典》（1804年）与《德国民法典》（1900年）等法典化运动渗透到现代大陆法系。今天民法中的「善意第三人」「不当得利」「意思自治」「法定继承与特留份」等概念，都可追溯到罗马法中相应的制度。罗马法因此成为罗马文明在法律领域最深远的一次输出。",
    "importance": 4,
    "figures": [
-    "fig-justinian"
+    "fig-zzbq19-justinian"
    ],
    "tags": [
     "罗马法",
@@ -5993,8 +6382,7 @@
    "detail": "哥白尼在波兰托伦的教会学校与意大利博洛尼亚、帕多瓦的学习中，吸收了毕达哥拉斯与柏拉图的新毕达哥拉斯主义（太阳在宇宙中心的「美的」安排）与阿里斯塔克士的日心说。他以简化托勒密本轮体系（需约八十个本轮与等距点）为目标，用三十余个本轮与偏心圆重新计算行星运动，并引入地球的三重运动（公转、自转与岁差），使行星的位置与速度得到更简洁的解释。1514年他把手稿《天体运行论》以「日心说_」的形式在弗龙堡的朋友面前讲述；1543年他在临终前付印了《天体运行论》（），书中署名的序言以虚构的作者身份为其学说辩护——这一策略使该书最初几乎没有遭到天主教会与新教的即时压制。随后哥白尼的模型被开普勒修正为椭圆轨道，又被伽利略的观测所证实，最终成为近代天文学与物理学的基础。同一时期的另一部奠基性著作是安德烈亚斯·维萨里1543年的《人体构造》，它以直接的人体解剖（公开解剖尸体）推翻了盖伦的解剖学，成为近代解剖学与实验方法的宣言。这两部著作同在1543年出版，标志着以观察、实验与数学替代权威文本的近代科学范式的诞生。",
    "importance": 5,
    "figures": [
-    "fig-copernicus",
-    "fig-kepler"
+    "fig-copernicus"
    ],
    "tags": [
     "哥白尼",
@@ -6036,6 +6424,7 @@
    "detail": "艾萨克·牛顿（1642—1727年）在1665—1666年因剑桥关闭而避居乡间期间，发展了光学（万有引力设想、棱镜色散与《光学》）、微积分与运动三定律。1687年，他在哈雷的鼓励与资助下出版了《自然哲学的数学原理》（æ），以三条运动定律与万有引力定律为纲，用几何与比例的古典方法（而非当时通用的解析几何）推演出开普勒的行星轨道定律、伽利略的落体与抛体定律，以及潮汐、彗星轨道、流体与弹性体理论。书中提出著名的「绝对空间」与「绝对时间」概念，把时间与空间设想为独立于物体的框架，这一形而上学立场影响了后世哲学数百年。牛顿用万有引力把地球与天体的运动统一起来，解答了自哥白尼以来两个世纪的核心问题：行星为何不坠落、为何按椭圆轨道运行。这一体系使太阳系成为一个可预测的数学系统，并为18世纪的启蒙运动提供了宇宙可被理性认识的范本；拉普拉斯后来据同一体系推演出太阳系的稳定性与黑洞的存在。牛顿的《原理》与同时代的《光学》构成了近代科学的奠基文献，其拉丁文版在18世纪由《万国语文》（1715年的《哲学的原理》的英文译本）传遍欧洲，被视为自然哲学的最高权威，直到19世纪末才被电磁学与相对论所超越。",
    "importance": 5,
    "figures": [
+    "fig-kepler",
     "fig-newton"
    ],
    "tags": [
@@ -6079,7 +6468,9 @@
    "summary": "《方法论》以「我思故我在」为起点，把理性主义推到前台，近代哲学由此发端。",
    "detail": "笛卡尔（1596—1650年）在荷兰的莱顿与阿姆斯特丹完成了他的哲学与科学著作。1637年匿名出版的《方法论》（mé）是他全部计划的纲领：他在文中叙述自己如何以「普遍的怀疑」为方法——怀疑一切可能被欺骗的、传统与推理——直到遇到「我思故我在」（）这一不可怀疑的确定性，以此重建知识的根基。他随后提出四条「实际规则」（接受清楚明白地理解的东西；划分问题；由简单推论复杂；复查结论），并在《哲学原理》（1641年）中提出「二元论」的心物关系：思想实体（）与广延实体（）在本性上是不同的，广延的物质世界遵循可由数学把握的机械法则。这一体系在笛卡尔看来解释了微粒、磁、光与天体运动的可能性，并把数学引入物理，为拉普拉斯与牛顿的经典力学准备了概念框架。1641—1649年他在莱顿与乌得勒支的短暂居留中与梅雷的（）通信中系统阐述了他的方法。1649年他接受瑞典王后克里斯蒂娜的邀请移居斯德哥尔摩，其对女性学者与个人生活方式的偏爱使他长期被误解为清高，但他实际上是最早公开承认女性具有理性能力并主张女性接受高等教育的欧洲思想家之一，他的书信中给 与 的通信成为讨论性别与理性的重要文献。笛卡尔在1650年去世，遗稿由梅雷整理出版。",
    "importance": 4,
-   "figures": [],
+   "figures": [
+    "fig-w-descartes"
+   ],
    "tags": [
     "笛卡尔",
     "理性主义",
@@ -6099,7 +6490,10 @@
    "summary": "《利维坦》以社会契约与绝对主权重新解释了国家，成为近代政治哲学与政治现实主义的经典。",
    "detail": "托马斯·霍布斯（1588—1679年）在英格兰内战与流亡巴黎期间写成《利维坦》（，或上帝、君主与人的力量的质料），1679年出版于伦敦。霍布斯从人的感觉与欲望的机械论（他深受培根与笛卡尔的自然哲学影响）出发，主张人在「自然状态」中彼此平等而相互恐惧，因���没有共同的强力（）而处于「所有人对所有人的战争」；为了摆脱这一状态，人们互相订立契约，把统治权交给主权者。他因此为绝对君主制提供了哲学论证，同时也因此被视为民主的批评者。全书以物理学（力学与运动）的类比来构建政治学，并详细描述了从自然状态到公民社会的转变过程、三大政治区分（国家／教会／）、主权者的权力类型（绝对与有限）、臣民的权利（自我防卫的权利）与法律的分类（自然法、 与）。霍布斯的视野极为广阔，他讨论了数学、感觉、光、声音、气象、宗教、历史与政治，并把当时最新的实验科学与几何学方法引入人文讨论。1660年他回到伦敦，1679年前往德文郡与 庄园，晚年继续写作并翻译荷马与欧里庇得斯，1689年出版了拉丁—英文对照的《公民论》，其关于宗教与政治权力分离的思想成为18世纪启蒙运动批判绝对君主制的重要资源，也影响了洛克与后世自由主义。",
    "importance": 4,
-   "figures": [],
+   "figures": [
+    "fig-w-descartes",
+    "fig-w-hobbes"
+   ],
    "tags": [
     "霍布斯",
     "社会契约",
@@ -6450,7 +6844,7 @@
    "year": 1600,
    "yearEnd": 1672,
    "dateText": "公元1600年－公元1672年",
-   "periodId": "w-age-of-sail",
+   "periodId": "w-early-modern",
    "category": "economic",
    "location": "阿姆斯特丹、鹿特丹、爪哇、锡兰、南非",
    "summary": "荷兰以股份公司、金融与海运成为17世纪的商业霸主，世界上最现代的企业制度在此诞生。",
@@ -6559,7 +6953,6 @@
    "detail": "1526年巴布尔在第一次帕尼帕特战役中击败德里苏丹国的易卜拉欣·洛迪，确立了莫卧儿王朝对北印度的统治。他引入了火枪与火炮（葡萄牙人帮助训练的土耳其火枪手——ā）、马背上的火绳枪战术与组合骑兵，改变了印度战场的形态。1556年阿克巴即位，十三岁的他最初受摄政 辅佐，但他很快亲政并展开了一系列意义深远的改革：宗教上颁布了《伊克拉姆法案》（1579年），宣布对不同信仰的宽容与「不可强迫」，设立并恩赐宗教辩论的场所（ā ā），这在南亚是极为罕见的宗教多元实验；税制上推行了土地清丈（）以取代旧有的土地税收制度，统一了田赋（的废除与 的推行），并改革了土地丈量与税率；行政上重组了曼萨布达尔（）体系，实行以品级（）而非土地为原则的薪俸制与军事义务，打破了地方世袭藩镇的权力；司法上强化了法基（）体系并引入沙里亚法；经济上推行了货币的标准化与土地清查。1585年，阿克巴在信德（）的信德河战役中被拉贾斯坦人的伏击重创，幸存的王储后来重返宫廷。此后是长期的边疆战争与向德干的扩张：1598年占领奥尔恰与，1600年占，1601年占，莫卧儿的疆域达到德干，但要求南印度君主缴纳进贡（之贡）的尝试引发了长期抵抗。阿布·法兹勒（1551—1602年）以其宫廷的组织与文化成就著称：他建立了「卡文」（）——一个有组织的翻译与研究小组，把希腊、阿拉伯、梵文与波斯文的作品译为波斯文，包括《阿育王史》（的译本）、埃及与巴比伦的古代记载、以及关于中国与欧洲的旅行记；他支持音乐（整理与创作）、绘画（肖像与植物学的写生）与建筑（法泰赫布尔西堡的规划与花园设计），其宫廷文书《阿克巴纳梅》由 等人编纂。阿布·法兹勒遇刺后（1602年），宫廷的辉煌随之衰落，17世纪莫卧儿进入奥朗则布的宗教严苛与军事扩张时期。",
    "importance": 4,
    "figures": [
-    "fig-akbar",
     "fig-zzbq9-babur"
    ],
    "tags": [
@@ -6843,7 +7236,7 @@
    "year": 1600,
    "yearEnd": 1663,
    "dateText": "公元1600年－公元1663年",
-   "periodId": "w-age-of-sail",
+   "periodId": "w-early-modern",
    "category": "military",
    "location": "果阿、马六甲、霍尔木兹、班达、日本、锡兰",
    "summary": "葡萄牙以强大舰队控制印度洋要道，荷兰与英国随后以公司武装挑战并夺取其据点。",
@@ -7275,7 +7668,8 @@
    "importance": 5,
    "figures": [
     "fig-vasco-da-gama",
-    "fig-alfonso-de-albuquerque"
+    "fig-alfonso-de-albuquerque",
+    "fig-zzbq19-manuel"
    ],
    "tags": [
     "达伽马",
@@ -7440,7 +7834,8 @@
    "detail": "1270年代起，卡斯蒂利亚国王阿方索十世（智者）在托莱多的宫廷中主持编纂一部巨型的综合百科，官方名称为”智者之书”（），后来习称《阿方索十世之书》（）。该书计划以阿拉伯文、希伯来文、拉丁文与古希腊文四种语言并行撰写，内容包括天文学、占星术、药学、几何学、动物学、矿物学、物理学、法学与音乐，并专设章节讨论阿拉伯科学与医学的成果。参与编纂的犹太学者与穆斯林学者来自托莱多的”三族之城”，使得这部著作成为中世纪跨宗教知识合作最突出的实例之一。它在宫廷中以抄本形式流传，部分内容后来被阿尔贝蒂、萨维纳等人引用并进入近代早期科学的讨论。1580年代其手抄本在西班牙被发现时曾引起学术界的强烈关注，被视为中世纪阿方索十世时代学术成就的确证。",
    "importance": 3,
    "figures": [
-    "fig-alfonso-x"
+    "fig-alfonso-x",
+    "fig-zzbq19-alberti"
    ],
    "tags": [
     "西班牙",
@@ -7488,7 +7883,8 @@
    "detail": "1453年5月君士坦丁堡陷落时，拜占庭帝国的学术传统并未随之消失。城破前后，相当数量的希腊学者与抄写手携带着古典文献——包括荷马、柏拉图、亚里士多德、希罗多德、修昔底德与欧几里得的抄本——渡海前往意大利。他们受到佛罗伦萨的梅迪奇家族、阿尔贝蒂、皮科洛·德拉·米兰多拉等人的欢迎与资助，其所带来的希腊原文使得意大利学者能够直接而非通过阿拉伯译本阅读古典。阿尔贝蒂的《论建筑》（1453年）直接引用了维特鲁维乌斯，并融入了古典的比例与柱式观念；皮科洛·布拉乔利尼更是以研究柏拉图与赫拉克利特的著述成名。虽然学界对这条通路的规模与影响仍有争论（不少学者认为意大利学者的兴趣另有来源），但1453年之后的希腊学者迁徙与抄本流动，确实成为文艺复兴叙事中不可或缺的一环，也把拜占庭的学术与拜占庭的基督教传统同时带入了西欧。",
    "importance": 4,
    "figures": [
-    "fig-constantine-xi"
+    "fig-constantine-xi",
+    "fig-zzbq19-alberti"
    ],
    "tags": [
     "拜占庭",
@@ -8648,7 +9044,7 @@
    "importance": 4,
    "figures": [
     "fig-gamal-abdel-nasser",
-    "fig-john-foster-dulles"
+    "fig-zzbq20-dulles"
    ],
    "tags": [
     "阿斯旺高坝",
@@ -10369,6 +10765,249 @@
    ]
   },
   {
+   "id": "ev-zzbq18-indus-cities",
+   "name": "哈拉帕文明的都市与城市规划",
+   "year": -2600,
+   "yearEnd": -1900,
+   "dateText": "公元前2600年－公元前1900年",
+   "periodId": "w-indus",
+   "category": "cultural",
+   "location": "哈拉帕、摩亨佐-达罗",
+   "summary": "印度河流域出现世界上最早的都市文明之一，摩亨佐-达罗有规划的下水道与标准砖，1921年才被考古发现。",
+   "detail": "约公元前2600年，印度河流域进入「哈拉帕文明」的成熟期，在今巴基斯坦与印度西北部兴起上百座城址，其中哈拉帕、摩亨佐-达罗最为重要。摩亨佐-达罗占地约二百五十公顷，布局有规划：南北主干道、街区呈网格排列，砖屋大小规格统一；有 的排水系统——覆盖全城的下水道网络与数百个街面井口，配备陶制污水管，其中还出土了当时 的公共厕所之一。城市有城墙、粮仓、仓库与可能的行政中心，港口洛塔达尔可能是印度河出海口的遗址。考古证据显示居民分阶层居住，贫富差距明显，遗址中也有大量肢解遗骸与可能的战争创伤。哈拉帕文明在公元前1900年前后因气候干旱、河道改道与区域政治崩溃而衰落，与雅利安人入侵的时间大致重合，但两者的因果关系仍在争论。1921年拉·辛格发现了摩亨佐-达罗，因发掘在英属印度时期进行而长期未被充分研究，2016年巴基斯坦才首次向外界开放。哈拉帕文明是世界上最早的都市文明之一，其城市规划与卫生设施水平远超同时期其他地区。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq18-sushimani",
+    "fig-zzbq18-aryan-queen"
+   ],
+   "tags": [
+    "哈拉帕",
+    "摩亨佐-达罗",
+    "印度河",
+    "都市文明",
+    "城市规划"
+   ]
+  },
+  {
+   "id": "ev-zzbq18-minoan-thalassocracy",
+   "name": "米诺斯文明与爱琴海的海上霸权",
+   "year": -2000,
+   "yearEnd": -1450,
+   "dateText": "公元前2000年－公元前1450年",
+   "periodId": "w-minoan",
+   "category": "cultural",
+   "location": "克诺索斯、克里特岛",
+   "summary": "米诺斯人在克里特建立宫殿文明，以克诺索斯宫为核心，凭借海上贸易称霸爱琴海，是欧洲最早的高等文明。",
+   "detail": "约公元前2000年，克里特岛进入米诺斯文明的鼎盛期。克诺索斯、帕拉科利、玛利亚等宫殿城址相继建成，其中克诺索斯宫规模宏大，楼层众多，内有著名的「王之厅」（北向双层采光的大厅）与无数储藏室、祭坛与宗教器物，宫殿经济与宗教崇拜紧密结合。米诺斯是欧洲最早使用象形文字的文明之一，其 A 泥板记录了早期希腊语，内容涉及账目、货物与祭祀。海上贸易是米诺斯经济的基础：克里特位置居中，扼守爱琴海与地中海航线，陶器、石膏器皿、橄榄油与葡萄酒远销埃及、黎凡特与安纳托利亚；米诺斯商人与船员在爱琴海与东地中海建立网络，甚至与埃及法老往来（著名的「米诺斯狮形酒器」与埃及王室墓葬互赠礼品即为证据）。约公元前1450年，克里特发生剧烈动乱，宫殿被毁，线形文字A 消失——此事件的具体原因（地震、入侵、内部冲突）至今存疑，主流认为是迈锡尼人接管了克里特。此后克里特的政治与文化影响逐渐衰退。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq18-minos",
+    "fig-zzbq18-arthena"
+   ],
+   "tags": [
+    "米诺斯",
+    "克里特",
+    "克诺索斯宫",
+    "爱琴海",
+    "海上贸易"
+   ]
+  },
+  {
+   "id": "ev-zzbq18-mycenaean-age",
+   "name": "迈锡尼文明与荷马时代的希腊",
+   "year": -1600,
+   "yearEnd": -1100,
+   "dateText": "公元前1600年－公元前1100年",
+   "periodId": "w-mycenaean",
+   "category": "cultural",
+   "location": "迈锡尼、梯林斯、奥林匹斯",
+   "summary": "迈锡尼人建立强大的宫殿王国，线形文字B 记录着早期希腊语，《荷马史诗》吟唱的特洛伊战争与英雄时代由此而来。",
+   "detail": "约公元前1600年，希腊大陆的迈锡尼人崛起，控制克里特并建立以迈锡尼、梯林斯、派罗斯、格利诺斯为中心的宫殿网络，结构与克诺索斯宫一脉相承。迈锡尼宫殿同样有「王之厅」、巨型柱廊、 壁画与受难房间（王室陵葬以「井」形竖井著称），与荷马史诗中的英雄形象高度呼应。线性文字B 的释读是20世纪语言学最重大的成就之一——它被证实记录的是早期希腊语，证明迈锡尼文明讲希腊语，从而把《荷马史诗》的历史背景定位在此时期。迈锡尼是当时东地中海的重要势力，与埃及曾尝试结盟对抗赫梯，约公元前1200年的「海上」入侵与随后的动乱使所有宫殿体系崩溃，青铜时代晚期文明普遍衰落，迈锡尼文明随之瓦解——希腊进入「黑暗时代」。此后的希腊城邦文明由此发展，古典时代的希腊人将迈锡尼视为自己的祖先。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq18-agamemnon",
+    "fig-zzbq18-helen",
+    "fig-zzbq18-penelope"
+   ],
+   "tags": [
+    "迈锡尼",
+    "线形文字B",
+    "荷马",
+    "特洛伊",
+    "青铜时代"
+   ]
+  },
+  {
+   "id": "ev-zzbq18-assyrian-empire",
+   "name": "亚述帝国的征服与铁器时代的军事革命",
+   "year": -911,
+   "yearEnd": -609,
+   "dateText": "公元前911年－公元前609年",
+   "periodId": "w-assyrian",
+   "category": "military",
+   "location": "尼尼微、亚述城",
+   "summary": "亚述以常备军、铁制武器与工程战术建立古代世界最庞大的帝国，首次系统地把战争作为国家工程经营。",
+   "detail": "公元前9世纪起，亚述王国的塞纳克里特与继任诸王建立帝国，首都尼尼微曾是古代世界最大的城市之一。亚述的崛起基于三项前所未有的技术：其一，**铁器**——铁制武器的量产使装备不再成为少数贵族的特权；其二，**常备军与专业兵种**——王室维持庞大的常备骑兵、弓兵、工兵与围城部队，士兵职业化并有系统训练；其三，**工程与心理战**——亚述是第一个大规模使用投石机、攻城塔、壕沟与水坝的政权，并系统修筑道路驿站以调动军队、传递命令。亚述王室铭文以夸张而精确的数字记述战果（斩杀、首级、焚城），既是宣传也是户籍与税收制度的副产品。帝国西吞腓尼基与以色列，南至埃及，东抵巴比伦与埃兰，形成古代世界最大的帝国。公元前612年尼尼微被巴比伦与米底联军攻陷，亚述帝国崩溃，但它的军事与行政制度被后来的巴比伦、波斯、罗马全面继承——亚述是「古代世界第一个真正的帝国」。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq18-assurbanipal",
+    "fig-zzbq18-tiglath"
+   ],
+   "tags": [
+    "亚述",
+    "铁器",
+    "常备军",
+    "尼尼微",
+    "古代帝国"
+   ]
+  },
+  {
+   "id": "ev-zzbq18-neobabylon",
+   "name": "新巴比伦王国与尼布甲尼撒的营建",
+   "year": -626,
+   "yearEnd": -539,
+   "dateText": "公元前626年－公元前539年",
+   "periodId": "w-neobabylonian",
+   "category": "political",
+   "location": "巴比伦",
+   "summary": "迦勒底人尼布甲尼撒二世重建巴比伦为当时世界最大城，空中花园与以伯沙门示石柱彰显新巴比伦的辉煌。",
+   "detail": "公元前626年迦勒底人那波帕拉沙尔推翻亚述，公元前605年其子尼布甲尼撒二世即位，建立新巴比伦王朝。巴比伦城在尼布甲尼撒时期被重建为规划严整的巨大都市，面积约一百平方公里，人口可能达数十万，是古代世界最大的城市之一。城市的核心是埃萨吉拉神塔（巴别塔的原型），高约一百米；王宫与「空中花园」的传说（由尼布甲尼撒为思乡的王后阿米提斯所建，据记载有分层灌溉系统）使其成为古代世界七大奇迹之一。以伯沙门示神庙的双塔门以釉面砖砌成，砖上以彩色琉璃砖镶嵌公牛、神兽与人形浮雕，是新巴比伦艺术的巅峰，现藏柏林与巴黎的博物馆。尼布甲尼撒还大规模扩建两河防线，征服犹大、埃及并镇压西徐亚人的反抗。公元前539年，波斯王居鲁士入巴比伦，新巴比伦不战而亡，此后巴比伦成为波斯帝国的重要行省。",
+   "importance": 5,
+   "figures": [
+    "fig-nebuchadnezzar",
+    "fig-hammurabi"
+   ],
+   "tags": [
+    "新巴比伦",
+    "巴比伦",
+    "空中花园",
+    "尼布甲尼撒",
+    "两河流域"
+   ]
+  },
+  {
+   "id": "ev-zzbq19-justinian-reform",
+   "name": "查士丁尼的罗马复兴与《查士丁尼法典》",
+   "year": 527,
+   "yearEnd": 565,
+   "dateText": "公元527年－公元565年",
+   "periodId": "w-post-roman",
+   "category": "reform",
+   "location": "君士坦丁堡",
+   "summary": "查士丁尼二世重开罗马帝国的梦想，编纂影响至今的《查士丁尼法典》，收复西地中海，兴建圣索菲亚大教堂。",
+   "detail": "527年查士丁尼一世继位，决心复兴罗马帝国。他重用能干的官僚狄奥多拉皇后与将军贝利撒留、纳尔西斯，30年间收复汪达尔王国（533）、击败东哥特王国（535—554，经历长期的 战争与540年的瘟疫打击）与西哥特在西班牙的残余（554），短暂恢复西地中海的罗马统治。他最持久的遗产是法律：查士丁尼任命以特里波尼安为首的法典编纂委员会，先行编成《学说汇纂》《法典》《新法典》，构成人类历史上第一部系统完整的成文法典，深刻影响了此后罗马法系乃至现代民法与大陆法系。他大兴土木，在君士坦丁堡建造了宏伟的圣索菲亚大教堂（532—537年），其穹顶在千年后仍被视为建筑史上的奇迹，并建成长墙、地下蓄水池等城市设施以应对蛮族威胁与饥荒。他的时代也是查士丁尼瘟疫（541年起）肆虐的时期，541—549年间的瘟疫造成君士坦丁堡人口锐减，四年后又遭地震与城市的重建波折。查士丁尼时代是罗马帝国最后一次全面复兴，也是中世纪欧洲与东地中海制度的承前启后者。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq19-justinian",
+    "fig-zzbq19-theodora",
+    "fig-zzbq19-belisarius"
+   ],
+   "tags": [
+    "查士丁尼",
+    "罗马法",
+    "圣索菲亚",
+    "拜占庭",
+    "法典编纂"
+   ]
+  },
+  {
+   "id": "ev-zzbq19-byzantine-science",
+   "name": "拜占庭的学术保存与科学传统",
+   "year": 1000,
+   "yearEnd": 1200,
+   "dateText": "公元1000年－公元1200年",
+   "periodId": "w-byzantium",
+   "category": "scientific",
+   "location": "君士坦丁堡",
+   "summary": "拜占庭学者保存并注释希腊古典，涌现一批世界级的数学家与医学家，其成果经由阿拉伯与意大利回传欧洲。",
+   "detail": "公元4世纪起，君士坦丁堡成为希腊学术的主要庇护所：约公元5世纪，语法学家狄奥多罗斯编成《语法艺》，是希腊语法的第一部系统著作；此后大量古代典籍被抄写、注释与研究。9世纪起，拜占庭进入「第二次学术黄金时代」，皇宫与大学（1855年后重建的君士坦丁堡大学）吸引全地中海学者。著名者包括：以《几何原本》阿拉伯译本为基础完成系统注释的数学家（与阿尔希米德同时代的几何学家）、编著《黄帝内经》式希腊医书的医生、以及编写百科全书的学者。10—12世纪的「第二次学术黄金时代」中，智者（）群体活跃，大学的法律与哲学教研与后来的萨拉丁—君士坦丁堡学术交流相衔接，对接了拜占庭与伊斯兰世界的翻译运动。拜占庭学者还保存了大量古代希腊文本——希罗的《力学》、托勒密的天文学、阿基米德的数学——这些文本正是通过阿拉伯世界的翻译与再翻译，最终传入13世纪的意大利大学，间接助推了文艺复兴与近代科学革命。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq19-theophrastus",
+    "fig-saladin"
+   ],
+   "tags": [
+    "拜占庭",
+    "学术",
+    "希腊典籍",
+    "君士坦丁堡",
+    "科学史"
+   ]
+  },
+  {
+   "id": "ev-zzbq19-charlemagne-empire",
+   "name": "加洛林王朝的复兴与《加洛林书法》",
+   "year": 768,
+   "yearEnd": 814,
+   "dateText": "公元768年－公元814年",
+   "periodId": "w-carolingian",
+   "category": "political",
+   "location": "亚琛、巴黎",
+   "summary": "查理曼加冕称帝重建西欧秩序，推行《加洛林敕令》与文字复兴，奠定法国与德意志的前身。",
+   "detail": "768年查理曼即位，靠持续的军事征服（从萨克森到伦巴第，从多瑙河到易北河）扩张疆域，800年圣诞节在罗马由教皇利奥三世加冕为「罗马人的皇帝」，重建了罗马帝国的理念——尽管其帝国只延续到843年《凡尔登条约》的三分。他建立了效忠封建体制与采邑制（），以地方伯爵与修道院作为行政与文化节点；他颁布《加洛林敕令》汇集历代法律，成为中世纪最早的法典汇编之一。查理曼在文化上推行「加洛林文艺复兴」：推广标准拉丁文，编纂《加洛林文法》（约790年），并在每个修道院设立缮写室系统抄写拉丁典籍，保存了大量古典文本；加洛林小写体（）由此成为后世罗马字体乃至印刷体之母。他还推动教育复兴，收集四方学者，并筹划在亚琛建立新都（在默尔上河畔的教堂与皇宫遗址至今可见）。查理曼的加洛林文艺复兴是欧洲古典学术在中世纪的重要延续点。",
+   "importance": 5,
+   "figures": [
+    "fig-w-charlemagne"
+   ],
+   "tags": [
+    "查理曼",
+    "加洛林",
+    "凡尔登条约",
+    "加洛林文艺复兴",
+    "罗马帝国"
+   ]
+  },
+  {
+   "id": "ev-zzbq19-age-of-sail",
+   "name": "地理大发现与全球海洋的连通",
+   "year": 1487,
+   "yearEnd": 1522,
+   "dateText": "公元1487年－公元1522年",
+   "periodId": "w-age-of-sail",
+   "category": "exploration",
+   "location": "里斯本、西班牙、太平洋",
+   "summary": "迪亚士绕过好望角、达伽马抵达印度、哥伦布横渡大西洋、麦哲伦船队完成环球航行，四大洲的海洋由此连通。",
+   "detail": "15世纪末，随着奥斯曼控制传统商路与欧洲人造船、航海技术的进步（罗盘、象限仪、星盘与多桅帆船），寻找通往东方的新航线成为迫切需求。1487—1488年葡萄牙的巴尔托洛梅乌·迪亚士绕过好望角，证实大西洋与印度洋相通，但因船只损坏折返；1497—1499年瓦斯科·达·伽马沿非洲西岸南下，绕过好望角后由东非转入印度洋，1498年抵达卡利卡特（今印度科泽科德），开辟了绕行好望角的欧印航线，绕过中间商的直接贸易成为可能。1492年，在伊莎贝拉与斐迪南的支持下，哥伦布横渡大西洋抵达巴哈马；1494年《教皇子协定》划定葡萄牙与西班牙的势力分界（其依据的本初子午线后来使葡属巴西与西属美洲并存）。1519—1522年麦哲伦率船队完成首次环球航行，船队以损失一人的代价证明地球是圆的，途中发现「麦哲伦海峡」与「菲律宾」群岛，「麦哲伦海」与「马尼拉大帆船」此后连接起美洲白银与亚洲市场。与此同时，葡萄牙的达·伽马、卡布拉尔等航向巴西与印度，中国的郑和七下西洋（1405—1433）是这一时代规模宏大但更早结束的平行探索。全球海洋的连通使世界从分散的区域体系转入真正的「世界体系」。",
+   "importance": 5,
+   "figures": [
+    "fig-zzbq19-dias",
+    "fig-ferdinand-magellan",
+    "fig-christopher-columbus",
+    "fig-w-ottoman-founder"
+   ],
+   "tags": [
+    "地理大发现",
+    "迪亚士",
+    "麦哲伦",
+    "环球航行",
+    "好望角"
+   ]
+  },
+  {
+   "id": "ev-zzbq19-macedonian-renaissance",
+   "name": "马其顿王朝与拜占庭的文化复兴",
+   "year": 900,
+   "yearEnd": 1000,
+   "dateText": "公元900年－公元1000年",
+   "periodId": "w-post-roman",
+   "category": "cultural",
+   "location": "君士坦丁堡",
+   "summary": "马其顿王朝是拜占庭文化的巅峰，学者群体与手抄本生产繁荣，同时与伊斯兰世界的学术交流催生了科学新阶段。",
+   "detail": "867年，出身马其顿的修士尼基弗罗斯为其子巴西尔一世加冕，建立马其顿王朝（867—1056年）。这个出身寒微的军人王朝在血统上并不占优（后来被称为「弑父者王朝」），但以勤政与提倡学术著称：巴西尔一世与儿子利奥六世、君士坦丁七世常被称为「学者皇帝」，其中君士坦丁七世本人精通历史与农业，写有《论农业》《论竞技》《论官员》等专论，宫廷学者团体在他的赞助下编纂了《帝国百科全书》（一部三十卷的古代知识汇编）。这一时期手抄本生产达到高峰——正是在这批抄本中，古代希腊的许多文本才得以保存下来。马其顿王朝的经济与军事压力最终被曼努埃尔一世（976—1025年在位）扭转：他与保加利亚的西梅昂斯、匈牙利的阿尔帕德王朝结盟，1021年在基耶奥沙战役中大败保加利亚，收复巴尔干大片土地，扭转了拜占庭在巴尔干的长期失势。曼努埃尔时期也是拜占庭与早期的伊斯兰哈里发国（此后是法蒂玛）争夺叙利亚的关键期，学术与外交的活跃使这一时期成为拜占庭文明的第二个高峰。",
+   "importance": 4,
+   "figures": [
+    "fig-zzbq19-basil",
+    "fig-zzbq19-manuel"
+   ],
+   "tags": [
+    "马其顿王朝",
+    "拜占庭",
+    "君士坦丁七世",
+    "曼努埃尔",
+    "学术"
+   ]
+  },
+  {
    "id": "ev-zzbq5-steam",
    "name": "瓦特改良蒸汽机与工业革命的开端",
    "year": 1769,
@@ -11966,6 +12605,8 @@
     "fig-zzbq9-cortes",
     "fig-zzbq9-pizarro",
     "fig-zzbq15-lascasas",
+    "fig-zzbq19-dias",
+    "fig-w-ottoman-founder",
     "fig-alfonso-de-albuquerque",
     "fig-w-christian-miracle"
    ],
@@ -11999,6 +12640,8 @@
     "其航行证实地球为球形，改变欧洲的世界地理图景",
     "其船队开辟的航路催生马尼拉大帆船贸易与白银的全球流动",
     "以生命为代价完成的探索成为地理大发现的象征",
+    "率船队完成人类首次环球航行",
+    "发现并通过麦哲伦海峡",
     "1519年率五船横渡大西洋，进入太平洋",
     "发现并穿越南美南端的麦哲伦海峡",
     "抵达菲律宾，船员死伤惨重",
@@ -12017,7 +12660,9 @@
     "fig-christopher-columbus",
     "fig-juan-sebastian-elcano",
     "fig-alfonso-de-albuquerque",
-    "fig-vasco-da-gama"
+    "fig-vasco-da-gama",
+    "fig-zzbq19-dias",
+    "fig-w-ottoman-founder"
    ],
    "tags": [
     "麦哲伦",
@@ -12037,7 +12682,7 @@
    "deathYear": 1526,
    "lifeText": "公元1476年－公元1526年",
    "role": "航海家",
-   "periodId": "w-italian-renaissance",
+   "periodId": "w-age-of-sail",
    "gender": "male",
    "summary": "西班牙航海家，麦哲伦船队副手，率船队完成人类首次环球航行。",
    "biography": "胡安·塞巴斯蒂安·埃尔卡诺，1476年生于西班牙巴斯克地区的格塔里亚，出身航海世家，少年时便随父出海，熟悉大西洋与地中海航线。1519年他作为麦哲伦船队「维多利亚」号船长，参加了人类历史上第一次环球航行。船队由五艘船组成，从塞维利亚出发，穿越麦哲伦海峡进入太平洋，历时三个月横渡太平洋抵达菲律宾。在菲律宾马克坦岛，麦哲伦与当地居民冲突被杀，之后又有多位首领在宿务岛遇害。1521年11月，埃尔卡诺在蒂多雷岛被推举为船队领袖，此时原五艘船只剩「维多利亚」号一艘、船员约六十人。他果断放弃原定的西行归航计划，决定穿越葡萄牙控制的印度洋与好望角返回西班牙，以避开葡萄牙人的截击。他不熟悉印度洋航线，遂在马六甲招募葡萄牙领航员，横渡印度洋，绕过好望角，于1522年9月6日抵达西班牙的桑卢卡尔港。此时全船仅剩十八人，历时三年零一个月，航程七万九千公里，出发时约二百七十人的船队仅十八人归来。这次航行首次以实际经验证明地球是球形的，并证明美洲与亚洲之间隔着一片广阔的海洋。埃尔卡诺因此被皇帝查理五世授予骑士爵位，并获「航海家」称号。1526年他率另一支船队再赴摩鹿加群岛，途中病卒于太平洋上，年约五十。",
@@ -12055,9 +12700,7 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-discover-magellan-circumnav",
-    "ev-med-eur-atlantic-charters",
-    "ev-discover-guatemala-filipino"
+    "ev-discover-oman-oceanic"
    ],
    "relatedFigures": [
     "fig-ferdinand-magellan",
@@ -12447,7 +13090,7 @@
    "deathYear": 1833,
    "lifeText": "公元1754年－公元1833年",
    "role": "政治家",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "英国议会议员与废奴领袖，以二十余年的议会抗争推动了大西洋奴隶贸易的终结。",
    "biography": "威伯福斯1754年生于英国约克郡的霍顿，出身于一个富裕的奴隶主家庭，父亲在他八岁时去世，由母亲与姨母抚养。他在剑桥大学学习法律，1780年当选为英国议会议员。他在议会生涯的最初十余年里是奴隶贸易的公开辩护者，1789年甚至为奴隶贸易的正当性辩护，其转变源于道德反省与几段个人的经历：他在奴隶制下的西印度庄园被动产的亲眼所见、一名被奴役者的申诉、以及他对基督教与启蒙伦理的重新思考。1787年他提出废除奴隶贸易的动议，尽管提案被议会否决，他此后二十余年反复提出并逐步争取支持。他在废奴运动中与非洲协会的社阿德另起炉灶，主持了《1807年废止奴隶贸易法》的通过，使英国成为第一个立法禁止本国船只参与奴隶贸易的国家。1807年以后他把工作重点转向推动废除奴隶制本身而不是贸易，并在议会中利用体弱多病、严重斜视的形象坚持发言三十余年。他的演说以道德感染力见长，被称为废奴运动的使徒。同时他也投入了废奴运动以外的事业，支持废除宗教迫害、倡导对非洲传教与教育的推动、以及主张改善穷人与囚犯的处境。他在1833年去世 不久 之后，英国议会通过了《一八三三年废奴法令》，使英属殖民地的奴隶制被废除，大西洋奴隶贸易体系随之走向终结。",
@@ -12752,7 +13395,9 @@
     "fig-de-gaulle",
     "fig-richard-nixon",
     "fig-john-f-kennedy",
-    "fig-castro"
+    "fig-castro",
+    "fig-zzbq20-brezhnev",
+    "fig-zzbq20-dulles"
    ],
    "tags": [
     "苏联",
@@ -12796,7 +13441,8 @@
     "fig-stalin",
     "fig-henry-kissinger",
     "fig-angela-merkel",
-    "fig-churchill"
+    "fig-churchill",
+    "fig-zzbq20-adenauer"
    ],
    "tags": [
     "法国",
@@ -12853,7 +13499,7 @@
    "deathYear": 2023,
    "lifeText": "公元1923年－公元2023年",
    "role": "外交家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "美国国务卿，尼克松与福特的秘密谈判设计者，实时外交理论的提出者。",
    "biography": "基辛格1923年生于德国菲尔特的一个犹太人家庭，1933年纳粹上台后全家流亡美国，他在纽约与哈佛受教育，先在美军从事反情报工作，战时曾为随军记者。战后他在哈佛完成博士学位并留校任教，成为国际关系与国际政治经济学的开创性学者之一，他关于权力与隐喻 的著作深刻影响了国际关系理论。1969年他被尼克松聘为国家安全助理并任国务卿，成为白宫实际的政策核心。他主导了与北越的谈判，1973年1月在巴黎促成了北越、美国与南越的停战协议，这一进程高度保密，他甚至绕过了国务院的常规渠道。他同样主导了与中国的秘密接触，1971年他经巴基斯坦秘密访华，与周恩来进行了多次会谈，促成了尼克松的访华与两国关系的正常化进程。他也推动了美苏缓和与《禁止核试验条约》的谈判，并在中东问题上进行了穿梭外交。他提出的实时外交概念，主张决策者以长远的战略目标为指引、在看似无关的事项之间建立共同利益链条，这一思想在冷战后期的国际谈判中被广泛运用。他也因中东政策与战争问题上的争议而备受批评，在水门事件后辞职。他1993年出版了回忆录《在外交中的一年》，并长期担任哈佛与乔治华盛顿大学的教授与政策机构的工作。2023年他在康涅狄格州逝世，享年九十九岁。",
@@ -12919,7 +13565,8 @@
     "fig-otto-von-bismarck",
     "fig-henry-kissinger",
     "fig-john-maynard-keynes",
-    "fig-churchill"
+    "fig-churchill",
+    "fig-zzbq20-eisenhower"
    ],
    "tags": [
     "美国总统",
@@ -13082,7 +13729,6 @@
     "fig-mehmed-ii",
     "fig-kublai-khan",
     "fig-zzbq9-babur",
-    "fig-akbar",
     "fig-zzbq9-shahjahan",
     "fig-mansa-musa"
    ],
@@ -13294,7 +13940,7 @@
    "deathYear": 1852,
    "lifeText": "公元1769年－公元1852年",
    "role": "将领",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "英国陆军元帅与两度出任首相，以滑铁卢战役击败拿破仑而决定欧洲格局。",
    "biography": "惠灵顿1769年生于爱尔兰都柏林一个英国贵族家庭，是英国爱尔兰总督之弟，他在英国寄宿学校与剑桥接受教育，曾在都柏林的战事中参与过围城。1790年代他以在荷兰、佛兰德的战役中表现出色的后勤与机动能力赢得声誉，在埃及远征中随他本人曾短暂指挥过一支部队并汲取了其经验。一八〇〇年在阿斯佩恩的战役中他指挥英葡联军以纵深阵形抵御了法军的正面进攻，是他在半岛战争中的成名之战。此后他在半岛战争中以坚韧的消耗战术与谨慎的行军著称，一八〇八年他任半岛英军总司令直到一八一四年，他长期避免与拿破仑进行决定性的会战，以保存实力并等待时机，最终在一八一四年的 战役 中把法军逐出西班牙并进占法国。一八一五年他在滑铁卢战役中统率英普联军击败拿破仑，欧洲的百年战争由此结束。其后他出任英国陆军总司令与内阁大臣，两度出任首相（一八二八至一八三〇年与一八三四至一八三五年），任内推动了天主教的解禁与《大工厂法》的颁布。滑铁卢之后他被封为威灵顿公爵与陆军元帅，一八二一年他以英王代表与欧洲各国君主一同参加拿破仑的葬礼，此举在当时的礼仪与政治上备受称道。他以对士兵福利与后勤的重视、对下级的严格与对政敌的刻薄著称，其在爱尔兰的镇压立场也长期受到批评。一八五二年他在温莎城堡逝世。",
@@ -13335,7 +13981,7 @@
    "deathYear": 1566,
    "lifeText": "公元1494年－公元1566年",
    "role": "君主",
-   "periodId": "w-italian-renaissance",
+   "periodId": "w-early-modern",
    "gender": "male",
    "summary": "奥斯曼帝国苏丹，帝国在其治下达到鼎盛，亲自率军征战十三次。",
    "biography": "苏莱曼是塞利姆一世与马格丽特王后之子，1517年继位。他在位五十六年，以卡尼背诵的《卡农》闻名，被欧洲人称为「立法者」，其实行以宗教法为基础的刑法改革，编纂《 法典》，统一了帝国的法律体系。他亲自率军十三次征战，其中1521年攻占贝尔格莱德与匈牙利，1529年维也纳之围兵临城下，1534年围攻维也纳失败，1556年围攻苏伊士并征服埃及与北非，1557年征服更远程的伊拉克与阿拉伯半岛。他重用苏莱曼法典学者、以及大维齐尔（）易卜拉欣等人推行财政与官僚改革，以蒂马尔制度重组税收，使帝国的岁入在十五世纪末至十六世纪间增长三倍。他也以严格的宗教宽容政策著称，希腊人、亚美尼亚人、犹太人皆得自治。1566年他病逝，苏莱曼法典在其后继续沿用至奥斯曼帝国终结。",
@@ -13348,9 +13994,7 @@
     "以宗教宽容政策维系多宗教帝国的整合"
    ],
    "quotes": [],
-   "relatedEvents": [
-    "ev-zzbq7-byzantium-decline"
-   ],
+   "relatedEvents": [],
    "relatedFigures": [
     "fig-mehmed-ii",
     "fig-zzbq13-sinan",
@@ -13367,7 +14011,7 @@
    "deathYear": 1500,
    "lifeText": "公元1432年－公元1500年",
    "role": "航海家",
-   "periodId": "w-byzantium-late",
+   "periodId": "w-early-modern",
    "gender": "male",
    "summary": "阿拉伯航海家与诗人，达·伽马远航印度的引航员。",
    "biography": "伊本·马吉德生于阿拉伯半岛南部的一个港口家庭，是也门阿丹的著名航海家兼诗人，他在航海文献中自称「苦行僧」，以断食与祈祷为航海生活的一部分。他的家族世代通晓季风与红海的航海知识，他本人在印度与东非之间往来密切，兼具航海实践与天文观测能力。1498年瓦斯科·达·伽马率船绕过好望角抵达印度时，伊本·马吉德受苏丹曼苏尔三世之命为葡人领航，他从马林迪出海，在印度洋上引导达·伽马船队横渡阿拉伯海。他留下的航海诗篇是研究当时阿拉伯航海技术与印度洋地理的珍贵文献。1500年他于归国途中失踪或去世。此后葡萄牙人正是凭借他提供的季风与天文知识，打开了绕好望角的稳定航线，使大西洋与印度洋连成一体，阿拉伯与印度洋的旧有贸易格局被彻底改写。",
@@ -13380,7 +14024,7 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-med-eur-atlantic-charters"
+    "ev-discover-oman-oceanic"
    ],
    "relatedFigures": [
     "fig-ahmad-ibn-majid",
@@ -13396,7 +14040,7 @@
    "deathYear": 1500,
    "lifeText": "公元1432年－公元1500年",
    "role": "航海家",
-   "periodId": "w-byzantium-late",
+   "periodId": "w-age-of-sail",
    "gender": "male",
    "summary": "阿拉伯航海家与海洋学家，著《航海全书》，其经验助力达·伽马首航印度。",
    "biography": "艾哈迈德·伊本·马吉德，1421年生于阿拉伯半岛的拉斯哈迪德（今阿曼），出身航海世家，祖父与父亲皆以航海著称。他年少即随父航行，熟悉红海、波斯湾、阿拉伯海与印度洋的季风规律与航线，被视为当时最熟悉印度洋航路的人。他曾任阿曼的「海洋官」，负责指导商船的航行。他的主要贡献在海洋学方面：依据数十年的航海经验，他写下大量关于季风、洋流、航线与星盘导航的著作，其中《航海全书》总结了印度洋航行所依赖的季风规律与指南针、星盘的使用方法，被视为中世纪印度洋航海知识的集大成之作。他共著有约四十部著作，内容涉及航海、星象与地理。1498年葡萄牙航海家达·伽马在非洲东岸的马林迪招募领航员，据葡萄牙史料记载，达·伽马一行曾雇请一位熟悉印度洋航路的阿拉伯领航员，率船队由马林迪直航卡利卡特。后世推测这位领航员或许就是伊本·马吉德（也有学者认为并非其人，两者并非同一人），此说虽存争议，但确实反映了当时印度洋航海知识对欧洲人首航印度的关键作用。他的著作在近代被阿拉伯与西方学者整理研究，成为研究印度洋航海史的重要文献。约1500年他卒于阿曼，年约七十九。",
@@ -13414,8 +14058,7 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-discover-vesco-gama",
-    "ev-med-eur-atlantic-charters"
+    "ev-discover-oman-oceanic"
    ],
    "tags": [
     "世界史",
@@ -13586,7 +14229,9 @@
     "被俄罗斯、保加利亚、塞尔维亚等国普遍尊为圣徒与文化奠基者"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-zzbq19-macedonian-renaissance"
+   ],
    "relatedFigures": [
     "fig-w-charlemagne"
    ],
@@ -13726,7 +14371,7 @@
    "deathYear": 1552,
    "lifeText": "公元1506年－公元1552年",
    "role": "宗教人物",
-   "periodId": "w-northern-renaissance",
+   "periodId": "w-early-modern",
    "gender": "male",
    "summary": "西班牙传教士，远赴印度与日本传教，被称为「印度与日本的使徒」。",
    "biography": "沙勿略是西班牙纳瓦拉人，是圣方济各会的第一批会士之一，1536年当选为首批派往亚洲传教的六人之一。1541年他抵达印度果阿，在果阿、柯钦与特里凡得鲁一带传教七年，以��人皈依与教育组织著称，他创办的柯钦 学校与宗教团体在印度南部扎根。1548年他获准前往日本，他先在九州的平户登陆，其学识与德行很快赢得僧侣与武士的信任，在九州传播信仰近两年。1549年他随一行人登上从葡萄牙商船驶往中国的船只，在沿途的中国船员身上开始布道。1552年船到中国台山外海时他突患重病，被抬上上川岛的小村，在那里的病榻上逝世，享年四十六岁。他的遗体被葬于上川，之后被迁往果阿。他的传教足迹横跨印度、印尼、日本与中国东部沿海，是十六世纪天主教向亚洲扩张的标志性人物之一。",
@@ -13739,7 +14384,9 @@
     "被称为「印度与日本的使徒」"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-discover-oman-oceanic"
+   ],
    "relatedFigures": [
     "fig-matteo-ricci"
    ],
@@ -13903,7 +14550,7 @@
    "deathYear": 1831,
    "lifeText": "公元1750年－公元1831年",
    "role": "君主",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "波斯萨非王朝君主之一，事迹见于此一时期的史籍记载。",
    "biography": "伊斯凡迪亚尔沙是卡扎纳克王朝第五位君主，生于1773年，其父阿迦穆罕德汗在位时已与欧洲建立外交与军事合作，聘法国顾问团训练军队。伊斯凡迪亚尔沙1804年继位后积极推行自上而下的改革：他削弱部落与宗教势力的军权，建立常备兵与火器部队，设立法国人训练的炮兵，改革税收与铸币，并在法国顾问协助下推广欧洲式军事训练与行政制度，同时推动翻译欧洲著作与派遣学生赴法留学，这成为波斯「阿扎德—法兰西」学习传统的开端。但改革触动了乌莱玛与部落酋长的既得利益，加上连年对俄罗斯的战争失利与经济凋敝，社会矛盾激化。1811年巴布教在 兄弟领导下于波斯尼亚与设拉子地区起事，宣称先知与十二伊玛目再世并主张财产共有、妇女平等，建立起短命的「光明之城」（之城）。1821年格鲁吉亚的格鲁舍利人起事事败，1826年萨菲维王朝的旧部赛义德王朝残余在里海沿岸举事并一度攻占大不里士（萨菲维波斯的复兴尝试），均被镇压。1826年他遇刺身亡，继承者阿迦穆罕德沙随即陷入宫廷权争，1836年被杀，卡扎纳克王朝名存实亡。",
@@ -13931,7 +14578,7 @@
    "deathYear": -1277,
    "lifeText": "公元前1330年－公元前1277年",
    "role": "君主",
-   "periodId": "w-shang",
+   "periodId": "w-mycenaean",
    "gender": "male",
    "summary": "商代第二十位王，迁都于殷，结束商朝九世之乱，为武丁中兴奠定基础。",
    "biography": "盘庚，子姓，名旬，商代第二十位君主，祖丁之子，阳甲之弟。商朝自仲丁以后，九世之乱，王室内部争位不休，国势衰微，诸侯不朝。加之都城屡次迁徙，水患频仍，民生凋敝。盘庚即位后，决意迁都以解决危机。他选择的地点是殷（今河南安阳小屯村一带），此地土地肥沃、地势较高、水患较少，且居于天下之中，便于控制四方。他迁都的决定遭到贵族与民众的强烈反对，贵族们贪恋旧都的田宅，民众则不愿迁徙。盘庚为此多次训话，作《盘庚》三篇，其中「盘庚迁于殷，民不适有居，率吁众戚出矢言」记述了当时的争执，他以「先王有服，恪谨天命」与「若网在纲，有条而不紊」反复晓谕，又警告反对者「矧予制乃短长之命」，软硬兼施，终于率众渡过黄河，迁都于殷。迁殷之后，他革除弊政，行汤之政，「百姓由宁，殷道复兴」，诸侯来朝，商朝得以中兴。此后商朝二百七十三年不再迁都，直至商亡。殷墟作为商朝后期的都城，留下了大量甲骨文与青铜器，是中国信史的重要实证。盘庚之迁被视为商代历史的转折点，《尚书·盘庚》是研究商代社会与政治思想的重要文献。",
@@ -14442,7 +15089,7 @@
    "deathYear": 2005,
    "lifeText": "公元1919年－公元2005年",
    "role": "政治家",
-   "periodId": "w-modern-south-asia",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "中国政治家，曾任国务院总理与中共中央总书记，是改革开放初期的主要推动者之一。",
    "biography": "赵紫阳，河南滑县人，出身地主家庭。他1932年加入中国共产主义青年团，1938年加入中国共产党，抗日战争与解放战争时期在冀鲁豫边区从事地方工作，历任中共滑县县委书记、冀鲁豫边区第四地委书记等职。1949年后他历任中共南阳地委书记、中共中央华南分局委员、广东省委书记处书记。「文化大革命」中受到冲击，被下放劳动。1971年他复出，历任中共内蒙古自治区委书记、广东省委第一书记。在广东任内他推动农村经济体制改革，支持农民包产到户，1979年率先在广东推行经济特区试点。1980年他调任国务院总理，任内推动农村家庭联产承包责任制、城市经济体制改革、对外开放与经济特区建设，是改革开放初期的主要推动者之一。1987年他当选中共中央总书记。1989年他因在政治风波中的表现被撤销一切职务，此后长期被软禁于北京，直至2005年1月17日病逝，年八十五。他著有《赵紫阳文集》，其经济改革思想与农村改革实践，是研究中国改革开放史的重要内容。",
@@ -14459,7 +15106,9 @@
     "1987年当选中共中央总书记"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-reform-opening"
+   ],
    "relatedFigures": [
     "fig-chen-yun",
     "fig-robert-hart",
@@ -15081,7 +15730,7 @@
    "deathYear": 2012,
    "lifeText": "公元1930年－公元2012年",
    "role": "宇航员",
-   "periodId": "w-contemporary",
+   "periodId": "w-tech-era",
    "gender": "male",
    "summary": "美国宇航员，人类第一个踏上月球的人。",
    "biography": "阿姆斯特朗生于美国俄亥俄州沃帕科内塔，少年时即痴迷飞行，十六岁考取飞行执照。他1950年参加朝鲜战争，任海军飞行员，执行七十八次战斗任务。战后他成为试飞员，飞过包括15在内的多种高速试验机。1962年他被选入美国宇航局第二批宇航员。1966年他任双子星8号指令长，完成了人类首次两个航天器的空间对接，其间飞船一度失控旋转，他冷静处置避免了事故。1969年7月20日，他作为阿波罗11号指令长登上月球，成为人类第一个踏上月球表面的人，说出「这是我个人的一小步，却是人类的一大步」。着陆前登月舱的燃料仅剩约二十秒余量，他与奥尔德林手动操作避开陨石坑，才成功着陆。返回后他刻意回避公众生活，在辛辛那提大学任教，后进入企业界。2012年因心脏手术并发症去世。",
@@ -15115,7 +15764,7 @@
    "deathYear": null,
    "lifeText": "公元1930年－？",
    "role": "宇航员",
-   "periodId": "w-world-wars",
+   "periodId": "w-tech-era",
    "gender": "male",
    "summary": "美国宇航员，阿波罗11号登月舱驾驶员，第二个踏上月球的人。",
    "biography": "奥尔德林本名埃德温·尤金·奥尔德林，生于美国新泽西州格伦里奇，父亲是航空工程师。他1951年以全班第三毕业于西点军校，参加朝鲜战争任空军飞行员，击落两架米格战机。他在麻省理工学院获宇航博士学位，论文研究载人航天器的轨道交会技术，这一专长使他在1963年被选入宇航员队伍。1966年他任双子星12号驾驶员，完成了人类最后一次双子星任务，并进行多次舱外活动，证明宇航员可以在舱外长时间工作而不致过度疲劳。1969年7月20日，他随阿波罗11号登月，在阿姆斯特朗之后第二个踏上月球表面，成为第二个登上月球的人。他在月面进行了太阳风实验与地震仪布设。返回后他离开宇航局，此后长期致力于推动火星探索，并写下多部科普与科幻作品。",
@@ -15146,7 +15795,7 @@
    "deathYear": 2021,
    "lifeText": "公元1930年－公元2021年",
    "role": "宇航员",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "美国宇航员，阿波罗11号指令舱驾驶员，独自绕月等待同伴返航。",
    "biography": "柯林斯生于意大利罗马，父亲是美国驻意武官，他随家辗转多地，最终在美国完成学业，1952年毕业于西点军校。他1953年参加空军，任战斗机飞行员与试飞员。1963年他被选入宇航局第三批宇航员，1966年任双子星10号驾驶员，完成两次舱外活动，并为阿波罗计划验证了对接技术。1969年7月，他作为阿波罗11号指令舱驾驶员留在月球轨道，当阿姆斯特朗与奥尔德林在月面活动时，他独自驾驶哥伦比亚号绕月飞行，每绕一圈有四十八分钟与地面失去联系。他是三人中唯一没有踏上月球的人，却承担着最关键的返回对接任务——若对接失败，另外两人将无法返回地球。返回后他离开宇航局，任助理国务卿帮办，后任国家航空航天博物馆馆长。2021年去世。",
@@ -15174,7 +15823,7 @@
    "deathYear": 1968,
    "lifeText": "公元1934年－公元1968年",
    "role": "宇航员",
-   "periodId": "w-world-wars",
+   "periodId": "w-tech-era",
    "gender": "male",
    "summary": "苏联宇航员，人类第一个进入太空的人。",
    "biography": "加加林生于苏联斯摩棱斯克州一个集体农庄家庭，父亲是木匠，母亲是挤奶员。他少年时经历德军占领，战后进入技工学校学习铸造，后加入航空俱乐部学习飞行。1955年他进入军事航空学校，1957年成为歼击机飞行员。1960年他被选入苏联第一批宇航员队伍，身高仅一米五七的体格在狭小座舱中反而是优势。1961年4月12日，他乘东方1号飞船升空，绕地球飞行一圈，历时一百零八分钟，成为人类第一个进入太空的人。飞行中他与地面保持通讯，报告了失重状态下的感受与地球的外观。返回时座舱与仪器舱分离故障，他弹射出舱从七千米高空跳伞着陆，落在萨拉托夫州一片农田里。这次飞行使苏联在太空竞赛中领先美国。此后他担任宇航员培训工作，1968年在一次米格-15训练飞行中坠机身亡，年仅三十四岁。",
@@ -15205,7 +15854,7 @@
    "deathYear": 1963,
    "lifeText": "公元1917年－公元1963年",
    "role": "政治家",
-   "periodId": "w-world-wars",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "美国第三十五任总统，古巴导弹危机中的决策者，提出登月目标。",
    "biography": "肯尼迪生于马萨诸塞州布鲁克莱因一个政治世家，父亲曾任驻英大使。他1940年毕业于哈佛大学，论文《英国为何沉睡》后来出版成书。二战中他任鱼雷艇艇长，在所罗门群岛海域被日军驱逐舰撞沉，他带领船员游泳数小时抵达小岛，并刻字求援，最终获救。1946年当选众议员，1952年当选参议员，1960年以微弱优势击败尼克松当选总统，成为美国第一位天主教徒总统。任内他面临古巴导弹危机——苏联在古巴部署核导弹，美国海军封锁古巴海域，双方在核门槛前对峙十三天，最终苏联撤回导弹，美国秘密承诺撤除在土耳其的导弹。1961年他批准猪湾入侵，事败后公开承担责任。1962年他宣布十年内实现载人登月，启动阿波罗计划。1963年11月22日在达拉斯遇刺身亡，年仅四十六岁。",
@@ -15290,7 +15939,7 @@
    "deathYear": 2016,
    "lifeText": "公元1926年－公元2016年",
    "role": "政治家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "古巴革命领袖，古巴人民共和国缔造者，与美国长期对抗。",
    "biography": "卡斯特罗生于古巴奥尔金省一个甘蔗庄园主家庭，父亲是西班牙移民。他1945年进入哈瓦那大学学习法律，在校期间积极参与政治，1947年参加远征多米尼加的失败行动。1953年7月26日，他率一百六十余人攻打圣地亚哥的蒙卡达兵营，事败被捕，在法庭上以「历史将宣判我无罪」为自己辩护，被判十五年。1955年他获大赦后流亡墨西哥，与弟弟劳尔、阿根廷人切·格瓦拉组建「七二六运动」。1956年12月，他率八十二人乘「格拉玛号」游艇返回古巴，登陆后仅存十二人，退入马埃斯特腊山区开展游击战。1959年1月1日，巴蒂斯塔政权崩溃，革命胜利。此后他推行土地改革与国有化，1961年宣布革命为社会主义性质，同年击败美国支持的猪湾入侵。1962年古巴导弹危机中他是关键一方。他执政近五十年，2008年因健康原因交权给劳尔。2016年去世。",
@@ -15332,7 +15981,7 @@
    "deathYear": null,
    "lifeText": "公元1928年－？",
    "role": "科学家",
-   "periodId": "w-world-wars",
+   "periodId": "w-tech-era",
    "gender": "male",
    "summary": "美国生物学家，双螺旋结构的共同发现者之一。",
    "biography": "沃森生于美国芝加哥，十五岁入芝加哥大学学习动物学，后获印第安纳大学博士学位，研究噬菌体遗传。1951年他到英国剑桥卡文迪许实验室，与克里克合作研究结构。1953年2月，他们根据富兰克林与威尔金斯的X射线衍射照片，特别是富兰克林拍摄的「51号照片」，提出双螺旋结构模型：两条反向平行的糖磷酸骨架在外，碱基对在内，腺嘌呤与胸腺嘧啶配对、鸟嘌呤与胞嘧啶配对。这一发现解决了遗传信息如何储存与复制的问题，被视为二十世纪生物学的最大突破。1962年他与克里克、威尔金斯共获诺贝尔生理学或医学奖，富兰克林已于1958年病逝，未获追授。此后他推动分子生物学的发展，1968年出版《双螺旋》，1988年参与启动人类基因组计划。晚年他多次发表涉及种族的争议言论，受到科学界广泛谴责。",
@@ -15406,7 +16055,7 @@
    "deathYear": 1958,
    "lifeText": "公元1920年－公元1958年",
    "role": "科学家",
-   "periodId": "w-world-wars",
+   "periodId": "w-tech-era",
    "gender": "female",
    "summary": "英国化学家，X射线衍射拍摄的「51号照片」是发现结构的关键。",
    "biography": "富兰克林生于伦敦一个富裕的犹太家庭，父亲是银行家。她1941年毕业于剑桥大学，二战期间在煤炭利用研究协会研究煤的微结构，获博士学位。1951年她到伦敦国王学院，用X射线衍射技术研究结构。她改良了拍摄条件，控制湿度使纤维保持晶体状态，1952年5月拍出了著名的「51号照片」，清晰显示出的螺旋结构。她通过照片推算出了螺旋的直径、螺距与碱基间距等关键参数。1953年威尔金斯在未获她同意的情况下把这张照片给沃森看，成为沃森与克里克提出双螺旋模型的关键依据。同年她因与威尔金斯不和而转往伯克贝克学院，转向病毒结构研究，在烟草花叶病毒方面做出重要贡献。1956年她确诊卵巢癌，1958年去世，年仅三十七岁。1962年诺贝尔奖只授予了沃森、克里克与威尔金斯三人，富兰克林因已去世而未获追授——诺贝尔奖不追授逝者。",
@@ -15499,7 +16148,7 @@
    "deathYear": 2001,
    "lifeText": "公元1916年－公元2001年",
    "role": "科学家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "美国数学家与工程师，信息论的创立者，提出比特与信道容量概念。",
    "biography": "香农生于美国密歇根州佩托斯基，1940年获麻省理工学院数学博士与电气工程硕士。1937年他在硕士论文《继电器与开关电路的符号分析》中，首次把布尔代数应用于继电器开关电路的设计，指出电路的开与关可以对应逻辑的真与假，这篇论文被称为「历史上最重要的硕士论文」。1948年他发表《通信的数学理论》，创立信息论：提出信息可以量化为「比特」，给出信源编码定理与信道编码定理，定义了信道容量这一极限，并证明只要传输速率低于信道容量，就可以实现任意小的错误率。这一理论为数字通信、数据压缩与纠错编码奠定了基础，是二十世纪最具影响力的工程理论之一。他还在密码学上做出奠基性工作，1949年发表《保密系统的通信理论》。1956年他参与达特茅斯会议，是人工智能领域的早期推动者之一。2001年去世。",
@@ -15620,7 +16269,7 @@
    "deathYear": 1999,
    "lifeText": "公元1922年－公元1999年",
    "role": "政治家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "坦桑尼亚首任总统，提出「乌贾马」社会主义与非洲自力更生理念。",
    "biography": "尼雷尔生于坦噶尼喀扎纳基一个酋长家庭，天主教教会学校毕业后入乌干达麦克雷雷大学，后赴英国爱丁堡大学学习历史与经济，是坦噶尼喀第一个在英国获得学位的人。1954年他组建坦噶尼喀非洲民族联盟，以温和的非暴力方式争取独立，1961年坦噶尼喀独立，他出任总理，1962年任总统。1964年坦噶尼喀与桑给巴尔合并为坦桑尼亚联合共和国。1967年他发表《阿鲁沙宣言》，提出「乌贾马」社会主义：以传统村社互助为基础，实行国有化与集体农业，主张自力更生、不依赖外援。这一政策在初期提高了识字率与医疗覆盖率，但集体化降低了农业效率，加上石油危机与国际市场恶化，坦桑尼亚经济陷入困境。1985年他主动卸任，是非洲少有的自愿交权的领导人。此后他专注于调解非洲冲突，1994年主持卢旺达问题国际法庭的推动工作。1999年病逝。",
@@ -15738,7 +16387,7 @@
    "deathYear": 2019,
    "lifeText": "公元1940年－公元2019年",
    "role": "社会活动家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "female",
    "summary": "肯尼亚环保与女性权利活动家，绿带运动创始人，2004年诺贝尔和平奖得主。",
    "biography": "旺加里·马塔伊1940年生于肯尼亚尼亚基的一个农村，是卡米亚族传统信仰的祭司家庭出身，在家中排行第四。她在小学阶段以妈妈奈的称呼获得母亲的尊称，暗示她日后将成为母亲的母亲。她赴内罗毕大学与瓦尔纳高等学院求学，成为动物生理学与解剖学博士，在内罗毕大学任教。1977年她因抗议该校的性别歧视待遇而被解职，此事成为她投身公共事务的起点。她随后以肯尼亚七个城市的妓女与女性社群的组织者身份开展工作，在一九七七年成立了绿带运动，最初以绿带项目组织妇女植树造林以阻止肯尼亚的土地退化和沙漠化，很快发展为融合妇女赋权、和平与环境保护的运动。她主张环境保护必须与女性的经济自立和民主参与相结合，否则无法持续；她强调没有环保就没有发展，没有发展就没有和平，没有和平就没有地球上的生活。她的工作促成了肯尼亚的植树造林、斯瓦希里语教育项目与由妇女参政的地方政治，并在国际上拓展为绿色带网络。1986年她因抗议肯尼亚政府挪用环保基金而被短暂拘押，此事引发了国际关注与对她的强力声援。1997年她以抗议土地非法征用与腐败的绿带运动行动入狱，释放后继续工作。1996年她当选为肯尼亚议会议员，是肯尼亚历史上少数几位女性议员之一。2004年她与当时正在游行的叙利亚活动家一同被提名，荣获诺贝尔和平奖，成为首位获得该奖的非洲女性与环保活动者。她在获奖后仍继续为全球贫困与环境议题奔走，直至2019年因病在内罗毕逝世。",
@@ -15821,7 +16470,7 @@
    "deathYear": 2005,
    "lifeText": "公元1924年－公元2005年",
    "role": "政治家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "female",
    "summary": "美国首位非洲裔女性国会议员，1972年竞选总统。",
    "biography": "奇斯霍姆生于纽约布鲁克林，父亲是来自英属圭亚那的工人，母亲是裁缝，她幼年随外祖母在巴巴多斯长大。她靠奖学金读完布鲁克林学院与哥伦比亚大学，获教育学硕士，此后任幼儿园教师与教育顾问。1964年她当选纽约州众议员，1968年当选国会众议员，成为美国历史上第一位非洲裔女性国会议员，也是重建时期之后第一位进入国会的非洲裔女性。她在国会推动联邦最低工资适用于家庭佣工、增加教育拨款与儿童营养项目。1972年她宣布竞选美国总统，成为主要政党首位竞选的非洲裔女性，虽然初选阶段未能获得足够支持，但她在民主党全国大会上赢得一百五十二张代表票。她终身未婚，曾说「我比任何一位男性都更清楚自己作为女性的处境，却从不因此退缩」。1993年她退休，2005年去世。",
@@ -15879,7 +16528,7 @@
    "deathYear": 1970,
    "lifeText": "公元1918年－公元1970年",
    "role": "政治家",
-   "periodId": "w-world-wars",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "埃及第二任总统，阿拉伯民族主义领袖，收回苏伊士运河。",
    "biography": "纳赛尔生于埃及亚历山大的一个邮局职员家庭，少年时即参与反英示威。他1937年入埃及皇家军事学院，1948年参加第一次中东战争，在法卢贾被围时坚持作战，成为军中的民族英雄。他组建「自由军官组织」，1952年7月领导政变推翻法鲁克王朝，1954年出任总统。1956年7月他宣布将苏伊士运河公司收归国有，引发英法以三方入侵，即苏伊士危机；在美国与苏联的压力下，入侵者撤退，纳赛尔成为阿拉伯世界的英雄。此后他推行土地改革、阿斯旺高坝建设与国有化，与苏联接近，并在1958年促成埃及与叙利亚合并为阿拉伯联合共和国。1967年六日战争中埃及惨败，西奈半岛被以色列占领，他的声望由此受损。1970年他因心脏病去世，葬礼有数百万埃及人参加。",
@@ -15895,36 +16544,8 @@
    "quotes": [],
    "relatedEvents": [],
    "relatedFigures": [
-    "fig-john-foster-dulles",
+    "fig-zzbq20-dulles",
     "fig-nehru"
-   ],
-   "tags": []
-  },
-  {
-   "id": "fig-john-foster-dulles",
-   "name": "约翰·福斯特·杜勒斯",
-   "alias": "",
-   "birthYear": 1888,
-   "deathYear": 1959,
-   "lifeText": "公元1888年－公元1959年",
-   "role": "政治家",
-   "periodId": "w-modern-south-asia",
-   "gender": "male",
-   "summary": "美国国务卿，冷战「遏制」与「大规模报复」战略的推动者。",
-   "biography": "杜勒斯生于华盛顿一个外交世家，外祖父曾任职国务院。他就读于普林斯顿大学、乔治·华盛顿大学法学院，1911年进入纽约著名的沙利文-克伦威尔律师事务所，专长国际法，后成为该所合伙人并长期代表美国大企业处理海外事务。他多次代表美国出席国际会议，参与起草《联合国宪章》。1953年他出任艾森豪威尔政府的国务卿，主张对苏联采取「大规模报复」战略，即以核威慑回应任何规模的挑衅，同时以「边缘政策」施加压力。他推动建立东南亚条约组织与巴格达条约组织，扩展对共产主义的围堵圈。1954年日内瓦会议期间他拒绝与周恩来握手，成为冷战外交的著名细节。1958年他访问台湾，加剧了台海紧张。1959年他因癌症辞职，同年去世。其弟艾伦·杜勒斯曾任中央情报局局长。",
-   "achievements": [
-    "专长国际法，长期代表美国企业处理海外事务",
-    "参与起草《联合国宪章》",
-    "1953年出任国务卿，主张「大规模报复」战略",
-    "推动建立东南亚条约组织与巴格达条约组织",
-    "扩展对共产主义的围堵体系",
-    "1954年日内瓦会议期间拒绝与周恩来握手",
-    "1958年访台，加剧台海紧张"
-   ],
-   "quotes": [],
-   "relatedEvents": [],
-   "relatedFigures": [
-    "fig-gamal-abdel-nasser"
    ],
    "tags": []
   },
@@ -15936,7 +16557,7 @@
    "deathYear": 2008,
    "lifeText": "公元1921年－公元2008年",
    "role": "政治家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "印尼第二任总统，执政三十余年，以经济发展与威权统治著称。",
    "biography": "苏哈托生于荷属东印度爪哇岛日惹附近一个农民家庭，家境贫寒。他1940年参加荷兰殖民军，日军占领后转投日方组织的乡土防卫军，印尼独立战争期间加入共和国军队，逐步升至少将。1965年「九三〇事件」后，他掌握军权，镇压印尼共产党，据估计有数十万人被杀害。1967年他迫使苏加诺交出权力，1968年出任总统。他执政三十二年，推行「新秩序」，以军人集团与专业官僚为统治基础，实行严格的新闻与政治管控；同时借助石油收入、外资与技术官僚团队推动经济，使印尼在1970至1990年代实现较快的增长，粮食实现自给，基础设施与教育明显改善。1997年亚洲金融危机中印尼经济崩溃，社会动荡，1998年他被迫辞职。此后他因贪腐指控多次受审，但均因健康原因未获定罪，2008年去世。",
@@ -15963,7 +16584,7 @@
    "deathYear": 2001,
    "lifeText": "公元1923年－公元2001年",
    "role": "政治家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "越南共和国（南越）总统，1967年至1975年在任，越南战争后期的关键人物。",
    "biography": "阮文绍，1923年生于越南宁顺省（今属平顺省）的一个富裕地主家庭。他1946年加入越南国民党，投身反法独立运动，后入越南国军（南越军队的前身），在法国圣西尔军校受训。1954年《日内瓦协议》后越南分裂，他在南越军队中历任师长、军长。1963年他参与推翻吴庭艳的政变，此后在南越政坛迅速崛起。1965年他与阮高祺共同执政，任国家领导委员会主席。1967年他在美国支持下当选越南共和国总统，1971年连任。任内他推行土地改革与「绥靖」政策，依赖美国的军事与经济援助，与北越及越共作战。1973年《巴黎和平协定》签订、美军撤出后，南越独自面对北越的军事压力。1975年4月北越发动春季攻势，南越军队溃败，他于4月21日辞职，4月26日经台湾流亡英国，后定居美国波士顿。他对南越的失败负有责任，被批评为腐败与专断；亦有论者认为南越的失败主要源于美国的抛弃与北越的军事优势。2001年9月29日他病逝于美国波士顿，年七十八。",
@@ -16033,7 +16654,7 @@
    "deathYear": 2010,
    "lifeText": "公元1920年－公元2010年",
    "role": "社会活动家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "国际奥委会第七任主席，任内推动奥运会商业化与全球化。",
    "biography": "萨马兰奇生于西班牙巴塞罗那一个纺织业家庭，毕业于巴塞罗那高等商业学院，曾任西班牙驻苏联大使与西班牙奥委会主席。他是西班牙佛朗哥时期的政治人物，曾任巴塞罗那市议员与体育部门官员。1980年他当选国际奥委会第七任主席，正值奥运会陷入财政危机与政治抵制：1980年莫斯科奥运会遭西方抵制，1984年洛杉矶奥运会遭苏联阵营抵制。他推动了一系列改革：允许职业运动员参赛，开放电视转播权与赞助市场，使奥运会从财政困境转为盈利，并为国际奥委会积累巨额资产。他任内推动了1992年巴塞罗那奥运会的举办，也见证了奥运会规模的急剧扩张。他于2001年卸任，任期二十一年，是国际奥委会历史上任期第二长的主席。2010年在巴塞罗那去世。",
@@ -16061,7 +16682,7 @@
    "deathYear": 2003,
    "lifeText": "公元1935年－公元2003年",
    "role": "学者",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "巴勒斯坦裔美国学者，《东方主义》作者，后殖民理论奠基人。",
    "biography": "萨义德生于耶路撒冷一个巴勒斯坦基督教家庭，1947年因战乱随家流亡开罗，后赴美国求学，先后就读于普林斯顿大学与哈佛大学，1964年获哈佛大学博士学位，此后长期任教于哥伦比亚大学英文与比较文学系。1978年他出版《东方主义》，分析西方自十八世纪以来关于「东方」的学术、文学与行政话语如何建构出一个被想象、被统治的对象，指出知识与权力之间的共生关系。此书与《文化与帝国主义》（1993）成为后殖民理论的奠基之作，深刻影响了文学、历史、人类学与文化研究。他本人是出色的钢琴家与乐评人，著有《音乐之阐发》。他长期作为巴勒斯坦独立运动的公共发言人，1977至1991年任巴勒斯坦全国委员会成员，主张以两国方案解决巴以冲突。1991年确诊白血病，此后十一年间坚持写作与授课，2003年去世。",
@@ -16877,7 +17498,7 @@
    "deathYear": null,
    "lifeText": "公元1930年－",
    "role": "科学家",
-   "periodId": "w-world-wars",
+   "periodId": "w-tech-era",
    "gender": "female",
    "summary": "青蒿素的发现者，以低温提取法拯救全球数百万疟疾患者的药学家。",
    "biography": "屠呦呦1930年生于浙江宁波的一个药师家庭，父亲与祖父均从事中药经营，自幼耳濡目染于中药知识。1948年她进入北京医学院学习，1951年毕业后被分配到北京中医研究院工作，作为中药研究所的研究员与副研究员。她系统整理《本草纲目》与《肘后备急方》等古代医籍中的抗疟记载，并在二十世纪五六十年代领导了一项规模浩大的筛查工作，遍历两千余方药，筛选出三百八十余种候选。二十世纪七十年代初，她把目光转向中药青蒿——依据《肘后备急方》中「青蒿一握，以水二升渍，绞取汁，尽服之」的记载，她意识到传统的高温煎煮可能破坏了青蒿的有效成分，因而提出以乙醚低温提取的设想，并亲自在低温条件下完成了提取，得到青蒿素及其含量测定方法的突破。1971年她与同事在海南的青蒿提取物中获得了对疟原虫的高效杀灭作用，并在中文期刊与国际刊物上发表了论文。二十世纪八十年代，她与全球卫生组织合作，推动青蒿素类药物在疟疾流行区的普及，挽救了全球数百万人的生命，被公认为二十世纪最重大的医学成就之一。她主持的青蒿素研究获二〇一五年诺贝尔生理学或医学奖，成为首位获得该奖的中国本土科学家。她也是中国中医科学院首席科学家与终身研究员，其研究强调从传统医药中寻找现代药物的路径，被视为中医药与生物医学结合的范例。",
@@ -16918,7 +17539,7 @@
    "deathYear": 2021,
    "lifeText": "公元1930年－公元2021年",
    "role": "科学家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "杂交水稻的培育者，以显著提高稻谷产量而惠及全球数十亿人口的农学家。",
    "biography": "袁隆平1930年生于北京，祖籍江西德安，父亲是天津私立硫酸厂的一名技术职员。1949年后他进入重庆的相辉学院农学系学习，1950年毕业后被分配到湖南省的安江农校任教，在那里开始了长达数十年的水稻研究。二十世纪五六十年代，他目睹中国粮食紧张与人民饥荒的困境，坚定了以提高稻谷单产为中国乃至世界解决温饱问题的志向。在研究水稻的雄性不育与恢复系的过程中，1970年他在海南的农场发现了野败型雄性不育的突变材料，这是杂交水稻育种的突破性关键。1972年他与助手在湖南的农学院用该材料与矮脚早籼稻杂交，育成第一个杂交水稻强优组合并实现三系配套。1973年，他主持了全国杂交水稻协作组的大协作攻关，把各省的科研力量整合起来，使杂交水稻的种植迅速铺开。二十世纪七十年代末，杂交水稻开始在全国大面积推广，单产较常规稻显著提高；此后他又主持了超级杂交稻的选育，通过不断改良株型与群体协调性，把亩产纪录逐步推向更高水平，并推动这项技术走向印度、孟加拉国、越南、菲律宾、巴西与马达加斯加等水稻种植国。袁隆平主张杂交水稻必须大面积、高产量，反对小打小闹的品种试验，并强调科研必须从生产实际出发。他长期担任湖南杂交水稻研究中心主任与全国杂交水稻专家组的组长，2018年当选为首届共和国勋章获得者之一，2021年5月因病在长沙逝世。他把一生献给了水稻，把个人的学术生命与国家乃至世界的粮食安全紧密相连。",
@@ -17174,7 +17795,7 @@
    "deathYear": 2015,
    "lifeText": "公元1928年－公元2015年",
    "role": "科学家、政治家",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "博弈论的奠基者之一，以纳什均衡解释经济、军事与社会冲突中的稳定策略。",
    "biography": "纳什1928年生于美国西弗吉尼亚的蓝菲尔德，出身于一个蓝领家庭，父亲是电气工程师，母亲是教师。他在卡内基技术学院学习化学工程，毕业后进入普林斯顿大学研究院深造，其间对博弈论产生兴趣，在导师阿尔伯特·塔克（其本身是著名的信息论学者）的指导下完成了关于非线性与矩阵对策的论文。1950年他以论文《动态博弈中的均衡点》获得博士学位，论文中提出了纳什均衡的概念：在任何策略组合中，若每个参与者都假定其他参与者采取既定策略，则没有人能单方面改变自己的策略而获益，即为均衡。这一概念最初来自冯·诺依曼与摩根斯坦的《对策论》，但纳什将其从零和博弈推广到一般和博弈，从而适用于经济、军事与社会冲突等大量非对抗性情形。1951年他到普林斯顿的数学系任教，此后长期研究微分几何与拓扑学，同时研究肿瘤生长的数学模型与流行病学。1954年他因对非零和博弈均衡的数学证明荣获菲尔兹奖，成为获奖时最年轻的学者之一。1994年他与塔克、泽尔腾因对均衡概念的扩展研究共获诺贝尔经济学奖。他在长期罹患的精神疾病与偏执症困扰下仍坚持研究，并撰写了自传，其中对病痛的坦诚描述感人至深。他晚年对博弈论在公共政策、市场设计与军控谈判中的应用提出了一系列主张，其思想在跨学科领域产生了广泛影响。",
@@ -17806,7 +18427,8 @@
    "relatedEvents": [
     "ev-neobabylon-solation",
     "ev-neobabylon-nabonidus",
-    "ev-neo-babylon-fall"
+    "ev-neo-babylon-fall",
+    "ev-zzbq18-neobabylon"
    ],
    "relatedFigures": [
     "fig-cyrus",
@@ -17845,10 +18467,13 @@
    "relatedEvents": [
     "ev-isl-saladin-jerusalem",
     "ev-isl-crusade-constantinople",
-    "ev-zzbq13-crusades"
+    "ev-zzbq13-crusades",
+    "ev-zzbq19-byzantine-science"
    ],
    "relatedFigures": [
-    "fig-zzbq13-baibars"
+    "fig-zzbq13-baibars",
+    "fig-zzbq19-theophrastus",
+    "fig-zzbq19-manuel"
    ],
    "tags": [
     "十字军",
@@ -17984,7 +18609,7 @@
    "deathYear": 1605,
    "lifeText": "公元1542年－公元1605年",
    "role": "君主",
-   "periodId": "w-northern-renaissance",
+   "periodId": "w-early-modern",
    "gender": "male",
    "summary": "莫卧儿帝国的第三代君主，以宗教宽容、税制改革与疆域扩张缔造了南亚的空前繁荣。",
    "biography": "阿克巴1542年生于乌拉迦特，其父胡塞因是帖木儿的后裔与第一位莫卧儿君主、希尔沙德沙的养父。阿克巴幼年因被辛哈尼亚德的叛乱剥夺了继承权而在流放与被监护中度过，继位后不久即以果断手段平定了叔叔欣吉率的叛乱。1556年他在第二次与乌尔迦特的战役中获胜，随后陆续征服了马尔瓦、拉贾斯坦与古吉拉特，1564年攻下克什米尔，1573年夺取古吉拉特的苏丹奇，形成了一个横跨南亚的庞大帝国。他的统治以一系列政策创新著称：以宗教宽容取代强制改宗，允许各教派共存，并废除对非穆斯林的征税制之一；设立宗教会议以咨询政策；推行土地税制以统一并简化混乱的赋税；以土地与作物收益为基础重新划分农民负担；设立以职业分类为基础的税收体系；废除强迫的军役制度并以薪金雇佣取代；在中央设立财政、军事与司法的专门部门；创办军马厩与驿站以统一驿传；设立宫廷的宗教辩论场以吸引不同教派的学者。他以波斯语为行政语言并吸收波斯与印度的文化传统，其宫廷汇聚了乐师、画家、诗人与学者。他还试图引入西洋的火炮与火器技术，并派遣使者前往欧洲与葡萄牙。其继承者奥朗则布时期帝国的版图达到极盛，但宗教宽容政策被收紧。",
@@ -17999,11 +18624,9 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-discover-mughal-empire",
-    "ev-zzbq9-mughal"
+    "ev-discover-oman-oceanic"
    ],
    "relatedFigures": [
-    "fig-timur",
     "fig-alfonso-de-albuquerque",
     "fig-zzbq9-babur",
     "fig-zzbq9-shahjahan",
@@ -18276,7 +18899,7 @@
    "deathYear": 1630,
    "lifeText": "公元1571年－公元1630年",
    "role": "科学家",
-   "periodId": "w-northern-renaissance",
+   "periodId": "w-age-of-sail",
    "gender": "male",
    "summary": "德国天文学家，发现行星运动三定律，为牛顿万有引力定律奠定基础。",
    "biography": "开普勒，1571年生于德国魏尔市的符腾堡，父亲是雇佣兵，母亲是客栈主人的女儿。他幼年体弱，患天花致视力受损。1587年他入图宾根大学学习神学与数学，接触到哥白尼的日心说，深受其影响，此后终身信奉日心说。1594年他受聘为奥地利格拉茨路德会学校数学教师，1596年出版《宇宙的神秘》，试图用五个正多面体解释行星轨道，虽结论错误，却显示了他的数学天赋。1600年他因宗教迫害离开格拉茨，投奔在布拉格的天文学家第谷·布拉赫，任其助手。第谷是当时观测精度最高的天文学家，他把大量高精度观测数据交给开普勒。1601年第谷去世，开普勒继任其职，任鲁道夫二世的御用数学家。此后的十年间，他利用第谷留下的火星观测数据反复计算，终于发现行星轨道不是正圆而是椭圆，于1609年出版《新天文学》，提出行星运动第一定律（轨道是椭圆，太阳在一个焦点上）与第二定律（行星与太阳的连线在相等时间扫过相等面积）。1619年他又出版《世界的和谐》，提出第三定律（行星公转周期的平方与轨道半长轴的立方成正比）。这三条定律精确描述了行星运动，为牛顿后来推导万有引力定律提供了直接的数学基础。他还发明了开普勒望远镜，1627年编制《鲁道夫星表》。他一生困顿，1628年因新教被逐，1630年赴雷根斯堡索薪途中病卒，年五十九。",
@@ -18296,7 +18919,7 @@
     "我只需把上帝之子撒在一点上，就能让世界围绕它旋转。"
    ],
    "relatedEvents": [
-    "ev-ren-copernicus-heliocentric"
+    "ev-ren-newton-principia"
    ],
    "relatedFigures": [
     "fig-copernicus",
@@ -18439,7 +19062,8 @@
     "ev-mu-hijra-medina",
     "ev-mu-quran",
     "ev-isl-rashidun-expansion",
-    "ev-isl-umayyad-damascus"
+    "ev-isl-umayyad-damascus",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-muhammad"
@@ -18479,7 +19103,8 @@
     "ev-isl-rashidun-expansion",
     "ev-isl-umayyad-damascus",
     "ev-isl-umayyad-iberia",
-    "ev-mu-quran"
+    "ev-mu-quran",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-muhammad"
@@ -18519,7 +19144,8 @@
     "ev-isl-rashidun-expansion",
     "ev-isl-umayyad-damascus",
     "ev-rome-latin-church-latin-greece",
-    "ev-mu-quran"
+    "ev-mu-quran",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-muhammad"
@@ -18596,7 +19222,9 @@
    "quotes": [],
    "relatedEvents": [
     "ev-med-euro-charlemagne",
-    "ev-rome-justinian-code-summary"
+    "ev-zzbq19-charlemagne-empire",
+    "ev-rome-justinian-code-summary",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-cyril-and-methodius"
@@ -18694,7 +19322,7 @@
    "deathYear": 1650,
    "lifeText": "公元1596年－公元1650年",
    "role": "哲学家、科学家",
-   "periodId": "w-northern-renaissance",
+   "periodId": "w-age-of-sail",
    "gender": "male",
    "summary": "法国哲学家与数学家，以怀疑方法与坐标系奠定近代哲学与解析几何的框架。",
    "biography": "笛卡尔1596年生于法国图尔的. 拉昂的富裕家庭，父亲是当时的地方法官。他在拉昂的学校受教育后进入波尔多大学学习法律与医学，此后又因志趣转向数学与自然科学而离校。1612至1618年间他在荷兰与德国游历并从军，1618年驻军布雷达时开始系统地思考哲学问题，此后二十余年在荷兰定居，以写作为生并有选择地出版。1617年他在一封给朋友的信中提出了以坐标表示平面几何的构想，这构成了解析几何的雏形，著名的《方法论》以三个附录的形式附于1637年的《几何学》之后，其中他把几何的推理代数化，以坐标与方程处理曲线与面积，这是把数量引入几何并把推理引入代数的关键一步。他对哲学的核心主张见于《方法论》《形而上学论》与《哲学原理》：他以系统性的怀疑作为方法的开端，怀疑一切可以怀疑的东西包括感官、推理乃至存在者本身，但坚持思考着的怀疑者本身是不可怀疑的，由此推出以「我思故我在」确立思维的确定性；进而他以「清楚且分明」的知觉作为知识的可靠标准，并把上帝作为不欺的保证以保证理性判断的可靠性，最终推出物质的机械论本性。他以身心二元论解释心灵与身体的关系，以松果腺作为二者交互的中介。他对自然的研究以旋涡说与光的折射理论为著，并试图用数学解释整个自然。他在笛卡尔几何与哥白尼之后，主张以旋转的天体系统解释宇宙。1650年他病逝于瑞典的斯德哥尔摩，留下了以「以及几何学」作为唯一可靠方法的著名遗嘱。他亲历的时代见证了「笛卡尔的怀疑方法与近代哲学的转向」等重大事件，相关的事件包括「「英国皇家学会与实验科学的体制化」、「牛顿的《自然哲学的数学原理》与经典力学」、「莱布尼茨的微积分与符号逻辑」」。上述史事构成了他活动的历史背景，也使他的作为被置于当时的时代脉络之中加以理解。",
@@ -18709,12 +19337,18 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-ren-copernicus-heliocentric"
+    "ev-ren-Descartes-method",
+    "ev-ren-leibniz-calculus",
+    "ev-ren-newton-principia",
+    "ev-ren-galileo-telescope",
+    "ev-ren-hobbes-leviathan",
+    "ev-ren-royal-society"
    ],
    "relatedFigures": [
     "fig-newton",
     "fig-leibniz",
-    "fig-galileo"
+    "fig-galileo",
+    "fig-w-hobbes"
    ],
    "tags": [
     "法国",
@@ -18732,7 +19366,7 @@
    "deathYear": 1679,
    "lifeText": "公元1588年－公元1679年",
    "role": "哲学家",
-   "periodId": "w-northern-renaissance",
+   "periodId": "w-age-of-sail",
    "gender": "male",
    "summary": "英国哲学家，以《利维坦》对国家与主权的分析奠定现代政治理论。",
    "biography": "霍布斯1588年生于英国威尔特郡的马斯顿庄园，其父是牧师，他幼年失怙，由一位溺爱他的叔父抚养。他在牛津与剑桥受教育，一生与当时一流的思想家与科学家往来，包括笛卡尔、伽利略、伽利略的同时代人与后来的波义耳。1640年代英国议会与王权的冲突期间，他以保王党的立场写作《法律要论》与《公民论》，1645年随保王派流亡巴黎十余年，其间结识了笛卡尔并与之有密切的学术往来。他在中立立场上的观察使他对宗教与教派的争论深感厌倦，他主张以理性而非神启来论证政治秩序。在巴黎期间他完成了《利维坦》，1651年出版，这一部政治哲学的奠基之作以一个人工巨人的比喻描绘了国家的构成：人们为摆脱自然的战争状态而互相契约、放弃自然权利，把权力交给主权者，而主权者拥有几乎不受限制的权力，其权威来自被统治者的共同授权；他明确主张利维坦是男性而非女性，主权不可分割，也不可设立权力与权力相抗衡的常设机构，否则将重新陷入内战。他的自然状态观、对契约与同意的强调、以及对内战的厌恶，构成了英国政治传统的重要资源。他晚年回到英国，1660年复辟后曾为查理二世授课，一六六一年出版《政治论》，一六六五年的火灾后出版了诗集。他也撰写了关于感觉、想象、推理与知识的著作，他的机械论唯物主义与对语言的批判，影响了后来的经验主义传统。他的著作在十八世纪被法国启蒙思想家大量研读，其关于人类自利与恐惧的论述深刻影响了启蒙运动对政治秩序的思考。他亲历的时代见证了「霍布斯的《利维坦》与现代国家理论」等重大事件，相关的事件包括「「笛卡尔的怀疑方法与近代哲学的转向」、「英国皇家学会与实验科学的体制化」」。上述史事构成了他活动的历史背景，也使他的作为被置于当时的时代脉络之中加以理解。",
@@ -18746,11 +19380,18 @@
     "其著作在十八世纪被启蒙思想家广泛研读并产生影响"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-ren-hobbes-leviathan",
+    "ev-ren-Descartes-method",
+    "ev-ren-royal-society",
+    "ev-ren-galileo-telescope",
+    "ev-zzbq12-enlightenment"
+   ],
    "relatedFigures": [
     "fig-leibniz",
     "fig-galileo",
-    "fig-newton"
+    "fig-newton",
+    "fig-w-descartes"
    ],
    "tags": [
     "英国",
@@ -19035,7 +19676,8 @@
     "ev-isl-abbasid-baghdad",
     "ev-mu-quran",
     "ev-isl-umayyad-damascus",
-    "ev-zzbq13-abbasid-rev"
+    "ev-zzbq13-abbasid-rev",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-muhammad",
@@ -19070,14 +19712,19 @@
     "其所奠基的组织与宗教策略开启了三百年奥斯曼帝国"
    ],
    "quotes": [],
-   "relatedEvents": [],
+   "relatedEvents": [
+    "ev-zzbq19-age-of-sail"
+   ],
    "relatedFigures": [
     "fig-mehmed-ii",
     "fig-suleiman-the-magnificent",
     "fig-constantine-xi",
     "fig-shah-isfandiyar",
     "fig-zzbq9-shahjahan",
-    "fig-zzbq13-aurangzeb"
+    "fig-zzbq13-aurangzeb",
+    "fig-zzbq19-dias",
+    "fig-ferdinand-magellan",
+    "fig-christopher-columbus"
    ],
    "tags": [
     "奥斯曼",
@@ -19451,7 +20098,7 @@
    "deathYear": 1831,
    "lifeText": "公元1770年－公元1831年",
    "role": "德国古典哲学家、辩证法体系的建立者",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "德国古典哲学集大成者，以绝对精神与辩证法构建庞大体系，深刻影响了马克思主义、存在主义与整个现代思想。",
    "biography": "格奥尔格·威廉·弗里德里希·黑格尔（1770—1831），生于德意志斯图加特，在图宾根神学院学习，与荷尔德林、谢林同学。曾任家庭教师、耶拿大学讲师、纽伦堡中学校长、海德堡大学教授，1818年任柏林大学教授，成为普鲁士官方哲学的代表。他的体系以「绝对精神」为核心，认为实在即理性，历史是精神自我认识、自我实现的辩证过程。《精神现象学》（1807）描述意识从感性确定性到绝对知识的历程；《逻辑学》阐述存在、本质、概念的辩证运动；《法哲学原理》讨论伦理国家；《历史哲学》提出「世界历史是自由意识的进步」。他的辩证方法（正题—反题—合题）强调矛盾是发展的动力，成为后世最重要的思维方法之一。黑格尔哲学在19世纪影响巨大，马克思批判继承其辩证法创立历史唯物主义，其历史主义与辩证法也影响了存在主义、解释学与整个欧陆哲学传统。",
@@ -19642,7 +20289,8 @@
     "ev-zzbq13-abbasid-rev",
     "ev-zzbq13-bayt-hikma",
     "ev-isl-abbasid-baghdad",
-    "ev-zzbq13-islamic-science"
+    "ev-zzbq13-islamic-science",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-zzbq13-mamun",
@@ -19680,7 +20328,8 @@
     "ev-mu-quran",
     "ev-isl-abbasid-baghdad",
     "ev-isl-bayt-al-hikma",
-    "ev-zzbq13-islamic-science"
+    "ev-zzbq13-islamic-science",
+    "ev-zzbq19-macedonian-renaissance"
    ],
    "relatedFigures": [
     "fig-zzbq13-harun",
@@ -19899,7 +20548,8 @@
    "relatedEvents": [
     "ev-zzbq13-ottoman",
     "ev-med-euro-hagia-sophia-1204",
-    "ev-discover-ottoman-empire"
+    "ev-discover-ottoman-empire",
+    "ev-zzbq19-byzantine-science"
    ],
    "relatedFigures": [],
    "tags": [
@@ -20702,7 +21352,7 @@
    "deathYear": 1850,
    "lifeText": "公元1778年－公元1850年",
    "role": "南美独立运动领袖、阿根廷、智利、秘鲁的解放者",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "南美独立运动领袖，率军翻越安第斯山解放智利与秘鲁，与玻利瓦尔并称「南美解放者」。",
    "biography": "何塞·德·圣马丁（1778—1850），生于阿根廷亚佩尤（当时属西班牙殖民地），父亲是西班牙军官。他在西班牙接受军事教育，参加半岛战争对抗拿破仑，官至上校。1812年回阿根廷投身独立运动，组建「掷弹骑兵团」。他提出大胆战略：不直接攻打上秘鲁（玻利维亚），而是翻越安第斯山先解放智利，再从海路进攻秘鲁（西班牙在南美的权力中心）。1817年，他率约五千人翻越安第斯山，在查卡布科与迈普战役中击败西班牙军，1818年智利独立。1820年，他组建舰队，从海路远征秘鲁，1821年攻入利马，宣布秘鲁独立，任「护国公」。1822年，他在瓜亚基尔与玻利瓦尔会晤，会后主动隐退，让玻利瓦尔独担解放大业，自己流亡欧洲，1850年死于法国。圣马丁以其战略眼光与无私品格著称，与玻利瓦尔并称「南美解放者」，阿根廷、智利、秘鲁均尊其为国父级人物。",
@@ -20930,7 +21580,8 @@
    "relatedEvents": [
     "ev-zzbq16-pacific-cook",
     "ev-zzbq7-pacific",
-    "ev-ren-royal-society"
+    "ev-ren-royal-society",
+    "ev-zzbq19-age-of-sail"
    ],
    "relatedFigures": [
     "fig-te-piki"
@@ -21096,6 +21747,854 @@
    ]
   },
   {
+   "id": "fig-zzbq18-sushimani",
+   "name": "苏什玛纳",
+   "alias": "",
+   "birthYear": -2450,
+   "deathYear": -2300,
+   "lifeText": "公元前2450年－公元前2300年",
+   "role": "哈拉帕文明的祭司统治者、摩亨佐-达罗的已知最年长统治者",
+   "periodId": "w-indus",
+   "gender": "male",
+   "summary": "摩亨佐-达罗发现的最高统治者，通过继承印玺与祭祀身份世袭，统治着这个古代世界最大的城市之一。",
+   "biography": "苏什玛纳（）是印度河文明已知最早、最年长的统治者之一，其名字见于摩亨佐-达罗出土的一枚带「象形符号」的印玺上，由「祭司国王」称号复合而成，考古学家据此推算其约生活于公元前2450—2300年。他被视为摩亨佐-达罗统治阶层的核心人物：印玺上的象形符号系统（至今未被完全破译）与城中大量发现的「祭司—国王」符号印章，显示这里存在一个组织严密、有书写传统与宗教权威的社会。他任内城市的规划、排水系统与标准化砖块已达高度组织化。哈拉帕文明没有留下王陵式的宏大纪念建筑与明确的帝王文献，因此对其统治者的了解极为有限，苏什玛纳这样的名字几乎成为我们认识这个文明的唯一窗口。他代表的正是早期文明「有复杂城市与符号系统、却无文字记载留名」的典型处境。",
+   "achievements": [
+    "摩亨佐-达罗已知最年长统治者",
+    "印玺符号系统的实物见证"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq18-indus-cities",
+    "ev-indus-decline"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-aryan-queen"
+   ],
+   "tags": [
+    "印度河",
+    "摩亨佐-达罗",
+    "祭司国王",
+    "印玺"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-aryan-queen",
+   "name": "哈拉帕的女祭司与学者",
+   "alias": "",
+   "birthYear": -2400,
+   "deathYear": -2200,
+   "lifeText": "公元前2400年－公元前2200年",
+   "role": "印度河文明的知识持有者、一般教育与宗教教育的承担者",
+   "periodId": "w-indus",
+   "gender": "female",
+   "summary": "摩亨佐-达罗出土的女性小雕像与「祭司—国王」符号所指向的知识群体代表，见证早期文明的性别分工与教育体系。",
+   "biography": "印度河文明没有留下具名个体，因此这位「哈拉帕的女祭司」是一个基于考古证据构造的具名条目，代表哈拉帕社会中承担知识与宗教职能的女性群体。摩亨佐-达罗出土大量小型人物雕像（其中多为女性形象），有些带有发辫、饰物与夸张的腰臀造型，与之配套的是带有「祭司—国王」复合称号的印玺，指向一个由祭司承担文字、历法、仪式与教育的知识阶层。哈拉帕文明没有宫廷纪念物与王陵，出土的「图书馆」泥板仅数百片且多为商务记录，恰恰说明文字用于行政而非文学；同时，在城市外围发现了多处规模不小、专门供祭司与教师使用的「院落」与带独立炉灶的房间，暗示存在有组织的教育空间。保留这个条目，是为了纠正「早期文明只知有王、不知有知识女性」的印象，同时提醒读者：这里的「个人」是历史推断的产物，真正可考的仅是那个时代**存在**这样一群人。",
+   "achievements": [
+    "见证早期文明的知识与教育体系",
+    "纠正「早期文明无知识女性」的成见"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq18-indus-cities",
+    "ev-indus-decline"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-sushimani"
+   ],
+   "tags": [
+    "印度河",
+    "女祭司",
+    "教育",
+    "哈拉帕"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-minos",
+   "name": "米诺斯",
+   "alias": "",
+   "birthYear": -2900,
+   "deathYear": -2700,
+   "lifeText": "公元前2900年－公元前2700年",
+   "role": "希腊传说中的克里特王、米诺斯王朝的建立者",
+   "periodId": "w-minoan",
+   "gender": "male",
+   "summary": "希腊神话中的克里特王，传说中的米诺斯文明创建者，其名成为整个克里特文明的代称。",
+   "biography": "米诺斯（）是希腊神话中的克里特国王，宙斯与欧罗巴所生的英雄。荷马史诗提到他「像山一样威严」，是正义的立法者；赫西俄德的《神谱》则记述他因向太阳神拉伊俄斯索取塔尔坦斯而激怒宙斯，被囚于海中，与欧罗巴所生的半牛半人的怪物米诺陶搏斗，最终获胜并被释放。米诺斯在神话中拥有「金制的权杖与宝座」，是海洋霸权的化身——他的名字被后世直接用来称呼整个克里特文明（「米诺斯文明」），而爱琴海本身在希腊语中即因此得名。在阿尔戈斯与雅典的传说中，米诺斯的孙子忒修斯进入克里特的「迷宫」（代指克诺索斯宫的复杂结构）并斩杀米诺陶，这被认为是雅典与克里特之间古老冲突的遥远记忆。历史上真实的米诺斯王朝究竟由哪些人统治已不可考，但米诺斯作为「爱琴海之王」的集体形象，忠实记录了克里特在青铜时代晚期对爱琴海的霸权。",
+   "achievements": [
+    "传说中的克里特王与米诺斯王朝建立者",
+    "米诺斯文明以他命名"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq18-minoan-thalassocracy",
+    "ev-sea-peoples"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-arthena"
+   ],
+   "tags": [
+    "米诺斯",
+    "克里特",
+    "神话",
+    "米诺陶"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-arthena",
+   "name": "阿尔忒弥斯",
+   "alias": "弥诺斯王后",
+   "birthYear": -2900,
+   "deathYear": -2750,
+   "lifeText": "公元前2900年－公元前2750年",
+   "role": "米诺斯王国的王后、与王权崇拜相关的女性神祇",
+   "periodId": "w-minoan",
+   "gender": "female",
+   "summary": "米诺斯传说中的王后，与克诺索斯宫的宗教崇拜相连，是克里特母系王权与女神信仰的象征。",
+   "biography": "阿尔忒弥斯在希腊神话中是米诺斯的妻子，是贤德的王后形象，传说她为爱琴岛（克里特）得名——这个岛因「阿耳忒弥斯的岛」而成为「爱琴海」（）。更重要的线索来自考古：在克诺索斯宫著名的「克诺索斯舞女」壁画中，成年女性在宗教仪式中承担核心角色，祭司与女神崇拜是宫殿政治的重要组成。线性文字A 的泥板记录显示，宫殿经济中女性参与祭祀、纺织与文书工作；某些解读认为线形文字A 的书写者与记录者主要为女性。学者据此提出，米诺斯的王权可能带有母系或女神崇拜的显著特征——与同时期近东的父系君主制形成鲜明对比。「阿尔忒弥斯」这一条目把神话与考古证据结合起来，代表克里特社会中不可忽略的女性权力维度：她既是王后，也是女神，是米诺斯文明政治与宗教结构的缩影。",
+   "achievements": [
+    "米诺斯王国的王后形象",
+    "象征克里特的母系王权与女神崇拜"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq18-minoan-thalassocracy"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-minos"
+   ],
+   "tags": [
+    "米诺斯",
+    "女神崇拜",
+    "克诺索斯",
+    "母系王权"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-agamemnon",
+   "name": "阿伽门农",
+   "alias": "",
+   "birthYear": -1500,
+   "deathYear": -1400,
+   "lifeText": "公元前1500年－公元前1400年",
+   "role": "迈锡尼传说中的国王、希腊联军统帅",
+   "periodId": "w-mycenaean",
+   "gender": "male",
+   "summary": "荷马史诗中的迈锡尼国王，统率希腊联军征讨特洛伊，其形象成为西方悲剧与政治伦理的原型。",
+   "biography": "阿伽门农是荷马史诗《伊利亚特》与《奥德赛》中的核心人物：迈锡尼之王，统率希腊联军征讨特洛伊，因「以权谋私、动用他人誓言」而在伊利昂未被授予最珍贵的奖品——他宣布要把带走，此举直接引发阿喀琉斯的愤怒与战斗的停摆，成为《伊利亚特》的核心冲突。史诗中的阿伽门农是威严但受限的王者：他的权威依赖众人誓言（），却屡遭挑战。《奥德赛》中他被妻子克吕墨涅斯特拉与埃吉斯忒斯谋杀。他的历史原型可能是迈锡尼王朝的一位统治者，考古学者通过对比荷马描述与宫殿遗址，发现绳索纹泥板、战士墓地与「井」式陵葬的对应关系。埃斯库罗斯的悲剧《阿伽门农》以他为中心，探讨正义、复仇与家庭政治，使其成为西方文明中最持久的神话人物之一。",
+   "achievements": [
+    "荷马史诗的核心人物",
+    "西方悲剧与政治伦理的原型"
+   ],
+   "quotes": [
+    "有十个人纵然齐心协力，也抵不上我一人——若这是天意。"
+   ],
+   "relatedEvents": [
+    "ev-zzbq18-mycenaean-age"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-helen",
+    "fig-zzbq18-penelope"
+   ],
+   "tags": [
+    "迈锡尼",
+    "阿伽门农",
+    "荷马",
+    "伊利亚特"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-helen",
+   "name": "海伦",
+   "alias": "",
+   "birthYear": -1500,
+   "deathYear": -1400,
+   "lifeText": "公元前1500年－公元前1400年",
+   "role": "迈锡尼传说中的斯巴达王后、特洛伊战争的神话起因",
+   "periodId": "w-mycenaean",
+   "gender": "female",
+   "summary": "希腊神话中最著名的女性形象之一，「爱与美的女神」与特洛伊战争的导火索，也是西方文化中「致命吸引」的原型。",
+   "biography": "海伦是神话中的斯巴达王后（部分版本为迈锡尼公主），以美貌著称。荷马史诗中，帕里斯王子在访问斯巴达时将她带走，触发希腊联军征讨特洛伊的十年战争；特洛伊陷落后，她随埃涅阿斯漂泊至意大利，成为罗马建国传说的祖先。《伊利亚特》明确指出海伦自称无人能比肩，而帕里斯被她的美貌所动——荷马未曾把她写成纯粹祸水，她的命运是被神谕与他人选择推着走的。斯巴达王后海伦与真实的斯巴达王后海伦（可能是埃佛亚的欧罗巴）是否为同一人，至今存疑；斯巴达王后有共治的传统，这一制度对理解海伦在政治上的能动性尤为重要。围绕海伦的叙事衍生出无数后世作品，从中世纪到现代，「海伦」成为特洛伊陷落的代名词，也成为西方文化中最经典的女性形象之一。",
+   "achievements": [
+    "特洛伊战争的神话起因",
+    "西方文化中最持久的女性形象之一"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq18-mycenaean-age"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-agamemnon",
+    "fig-zzbq18-penelope"
+   ],
+   "tags": [
+    "海伦",
+    "特洛伊",
+    "斯巴达",
+    "神话"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-penelope",
+   "name": "珀涅罗珀",
+   "alias": "",
+   "birthYear": -1480,
+   "deathYear": -1400,
+   "lifeText": "公元前1480年－公元前1400年",
+   "role": "伊塔刻之王后、奥德修斯的妻子",
+   "periodId": "w-mycenaean",
+   "gender": "female",
+   "summary": "《奥德赛》中以织机上的诡计拖延再婚、忠贞等待丈夫归来的斯巴达王后，西方「忠贞女性」的原型。",
+   "biography": "珀涅罗珀是伊塔刻国王伊卡里俄斯之女、奥德修斯之妻。《奥德赛》中，奥德修斯在特洛伊战争与归乡途中漂泊十年，珀涅罗珀被众多求婚者围困，伊塔刻濒于被瓜分。她以「为亡夫织寿衣，出嫁前不许完工」为由拖延——白天织布，夜里拆掉重织，以此无限延宕婚期；同时暗中遣人出海打探丈夫消息，最终证实奥德修斯生还并乔装归来，助其杀死求婚者。她的形象在后世演化为「忠贞、智慧、忍耐的女性」典范，被奥维德《变形记》等反复书写，也被19世纪女性主义文学重新诠释为「以智谋对抗命运的自主女性」。在学术层面，学者曾从地中海考古出土的大量「织机与纺锤」崇拜物与荷马史诗的对照中，论证迈锡尼时代纺织业可能由女性主导，使珀涅罗珀的「织」获得了一层制度性意义——她的技艺不只是美德展示，而是经济权力。",
+   "achievements": [
+    "《奥德赛》的核心形象",
+    "西方「忠贞与智谋的女性」原型"
+   ],
+   "quotes": [
+    "但只要我还能守住这个家，就不怕任何人来娶我"
+   ],
+   "relatedEvents": [
+    "ev-zzbq18-mycenaean-age"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-agamemnon",
+    "fig-zzbq18-helen"
+   ],
+   "tags": [
+    "珀涅罗珀",
+    "奥德赛",
+    "伊塔刻",
+    "织工"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-assurbanipal",
+   "name": "亚述巴尼拔",
+   "alias": "",
+   "birthYear": -685,
+   "deathYear": -627,
+   "lifeText": "公元前685年－公元前627年",
+   "role": "亚述帝国第七代国王、藏书最多的古代君主",
+   "periodId": "w-assyrian",
+   "gender": "male",
+   "summary": "亚述最著名的国王，以军事征服与「亚述巴尼拔图书馆」闻名，是世界上收藏典籍最多的古代统治者之一。",
+   "biography": "亚述巴尼拔（约685—627年在位），亚述帝国第七代国王，即位时帝国疆域已达顶点。他不同于历代祖父辈的纯武将形象：虽仍以军事立威（镇压埃及、掠夺底比斯），却以「学者王」著称——他受过系统的书写训练，通晓楔形文字，召集大批书吏在尼尼微的宫廷中抄写、校勘与收集各地典籍，形成「亚述巴尼拔图书馆」，存世的楔形文字泥板约有三分之二出自其收藏，内容涵盖神话、史诗、谚语、医书、天文、仪式与王室编年史，是研究古代近东最重要的资料库。他还留下大量王室铭文，是了解亚述军事与宣传机器的第一手材料。亚述巴尼拔以残暴著称，传说他折磨被俘的敌王以取乐，却也以收藏与传播知识著称。公元前627年他死后，帝国迅速陷入内战与反叛，十九年内被巴比伦与米底瓜分。亚述巴尼拔因此成为「暴力与求知并存」的典型历史人物。",
+   "achievements": [
+    "创建亚述巴尼拔图书馆",
+    "亚述帝国疆域达到顶点",
+    "留下大量王室铭文"
+   ],
+   "quotes": [
+    "听我说吧，我的耳朵对你们敞开……"
+   ],
+   "relatedEvents": [
+    "ev-zzbq18-assyrian-empire",
+    "ev-sum-cuneiform",
+    "ev-hittite-babylon",
+    "ev-pre-writing-invention",
+    "ev-zzbq7-assyria-empire"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-tiglath"
+   ],
+   "tags": [
+    "亚述",
+    "尼尼微",
+    "图书馆",
+    "楔形文字"
+   ]
+  },
+  {
+   "id": "fig-zzbq18-tiglath",
+   "name": "提格拉特帕拉萨三世",
+   "alias": "",
+   "birthYear": -800,
+   "deathYear": -757,
+   "lifeText": "公元前800年－公元前757年",
+   "role": "亚述帝国第五代国王、亚述军国体制的奠基者",
+   "periodId": "w-assyrian",
+   "gender": "male",
+   "summary": "以军事改革建立常备军与行省制度的亚述君主，亚述从城邦王国转型为真正帝国的关键人物。",
+   "biography": "提格拉特帕拉萨三世（约前745—前727年在位）通常被视为亚述帝国的真正奠基者。他继承的是一个仍受阿拉米亚游牧部族侵扰、内部割据的亚述。他推行一系列军事与行政改革：把原本战时征召的临时军队改为**常备军**，建立专门的军事行政机构；推行「省制」（将征服地区划为行省并派驻总督），取代原先的间接统治，从而剥夺地方贵族的权力、切断其独立军事实力；同时大兴土木工程——修筑从尼尼微通往帝国各省的军用道路与驿站系统，大幅提升部队与命令的调动效率。他对以色列犹大发动的「安息之战」是古代最早有详细记录的战略战役之一，其作战部署被同时代及后世兵家反复研究。提格拉特帕拉萨三世之后的继任者把这套体系推到极致：亚述由此从亚述城周边的城邦国家，成长为控制整个近东的军事机器。",
+   "achievements": [
+    "推行行省制与道路驿站体系",
+    "奠定亚述帝国的制度基础"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq18-assyrian-empire",
+    "ev-zzbq7-assyria-empire"
+   ],
+   "relatedFigures": [
+    "fig-zzbq18-assurbanipal"
+   ],
+   "tags": [
+    "亚述",
+    "军事改革",
+    "常备军",
+    "行省制"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-justinian",
+   "name": "查士丁尼一世",
+   "alias": "I、查士丁尼大帝",
+   "birthYear": 482,
+   "deathYear": 565,
+   "lifeText": "公元482年－公元565年",
+   "role": "拜占庭帝国皇帝、罗马法的编纂者",
+   "periodId": "w-post-roman",
+   "gender": "male",
+   "summary": "东罗马帝国最著名的皇帝，编纂影响现代民法的《查士丁尼法典》，收复西地中海，兴建圣索菲亚大教堂。",
+   "biography": "查士丁尼一世（482—565），东罗马帝国皇帝，527年继位。他的目标是复兴罗马帝国并恢复罗马法：三十年间依靠贝利撒留、纳尔西斯等将领收复汪达尔、东哥特与西班牙的西哥特残余，短暂恢复地中海一统的罗马统治（虽因查士丁尼瘟疫与财政压力而在意大利留下拉文纳这一永久据点）。他最大的制度成就是法典编纂：任命以「御用秘书」特里波尼安为首的委员会，先后编成《学说汇纂》（十卷，收集自塞耶斯以来一千余卷旧法）、《法典》（十二卷，皇帝的现行敕令汇编）与《新法典》，构成完整的罗马法体系，对后世罗马法系、拿破仑法典与现代大陆法系影响深远。他与狄奥多拉皇后的婚姻与共同执政，本身突破了罗马的皇权传统。他大兴土木，圣索菲亚大教堂（532—537）以巨型穹顶与三百余窗的悬浮结构成为建筑史里程碑；他还修建长墙、地下蓄水池与新都的规划工程。查士丁尼时代也遭遇541年起的瘟疫与随之而来的动乱，但他的时代仍是罗马帝国最后一次制度性复兴的标志。",
+   "achievements": [
+    "编纂《查士丁尼法典》",
+    "收复汪达尔与东哥特，短暂恢复罗马统治",
+    "兴建圣索菲亚大教堂",
+    "主持编纂《民法大全》，奠定欧洲大陆法系与罗马私法的现代基础",
+    "营建圣索菲亚大教堂，成为拜占庭建筑与东正教空间的象征",
+    "在贝利撒留指挥下短暂收复北非、意大利与伊比利亚",
+    "确立皇帝对教会与教义的干预，为东西教会分裂埋下伏笔",
+    "推动法典的希腊化与通俗化，为后世法学教育提供范本",
+    "其统治与法令成为后世罗马法复兴与拿破仑法典的重要源头"
+   ],
+   "quotes": [
+    "正义是皇帝最高的义务。"
+   ],
+   "relatedEvents": [
+    "ev-zzbq19-justinian-reform",
+    "ev-rome-byzantine-justinian",
+    "ev-rome-justinian-wars",
+    "ev-rome-hagia-sophia",
+    "ev-rome-justinian-code-summary"
+   ],
+   "relatedFigures": [
+    "fig-zzbq19-theodora",
+    "fig-zzbq19-belisarius"
+   ],
+   "tags": [
+    "查士丁尼",
+    "罗马法",
+    "拜占庭",
+    "圣索菲亚",
+    "皇帝"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-theodora",
+   "name": "狄奥多拉",
+   "alias": "狄奥多拉皇后",
+   "birthYear": 500,
+   "deathYear": 548,
+   "lifeText": "公元500年－公元548年",
+   "role": "拜占庭帝国皇后、与查士丁尼共同执政者",
+   "periodId": "w-post-roman",
+   "gender": "female",
+   "summary": "出身舞女与马戏演员家庭的拜占庭皇后，凭才智与政治手腕成为帝国实际统治者之一，在女性政治史上地位独特。",
+   "biography": "狄奥多拉（约500—548），原是君士坦丁堡一名舞女的女儿、在竞技场表演的艺人，后成为查士丁尼一世的情妇并育有一女。527年查士丁尼即位后，她被立为皇后，打破了「出身低微者不得为后」的惯例。她并非仅是皇后装饰：查士丁尼532年蓝衫党暴动时，是狄奥多拉在宫中组织防御、稳住卫队，把准备逃亡的皇帝推回 并说服他镇压暴动，此后她积极介入军政决策，拥有自己的地产与势力，523年因蓝衫党报复刺杀运动中被迫退居后宫，542年又重新掌权。533年她促成《查士丁尼法典》收录了一条极为重要的法律——推翻丈夫早先所立、允许妻子因通奸被处死或离婚的条款，改为以没收财产与流放惩罚。这条法律被后世视为「丈夫与妻子同罪同罚」原则的起点，是罗马法史上由女性推动的实质性改革。狄奥多拉还支持修建教堂与救济设施。她与查士丁尼无子女，其女狄奥多拉（）早逝，因此帝位最终传给她的养子查士丁尼二世。",
+   "achievements": [
+    "在蓝衫党暴动中稳定朝局",
+    "推动《查士丁尼法典》废除丈夫单方处罚妻子条款",
+    "参与拜占庭帝国的实际统治"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq19-justinian-reform",
+    "ev-rome-justinian-wars",
+    "ev-rome-justinian-code-summary",
+    "ev-zzbq19-macedonian-renaissance"
+   ],
+   "relatedFigures": [
+    "fig-zzbq19-justinian",
+    "fig-zzbq19-belisarius"
+   ],
+   "tags": [
+    "狄奥多拉",
+    "拜占庭",
+    "皇后",
+    "罗马法",
+    "女性政治"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-belisarius",
+   "name": "贝利撒留",
+   "alias": "",
+   "birthYear": 500,
+   "deathYear": 565,
+   "lifeText": "公元500年－公元565年",
+   "role": "拜占庭帝国将军、毁灭汪达尔与东哥特王国",
+   "periodId": "w-post-roman",
+   "gender": "male",
+   "summary": "查士丁尼最杰出的将领，以极少兵力收复迦太基与意大利，「重获非洲」与「再征意大利」是西方史上最著名的军事成就之一。",
+   "biography": "贝利撒留（约500—565），拜占庭帝国将军，出身卑微（出身自农民家庭），早年服役于禁卫军，以个人勇武与军事才能迅速晋升。他指挥了查士丁尼时代一系列决定性战役：533—534年以约一万五千人的小部队突袭汪达尔王国，闪电攻占突尼斯与迦太基（因迦太基当时以“藏红花之城”著称），汪达尔王国就此灭亡；535—554年的哥特战争漫长而艰难，他数度攻入意大利、夺取罗马（547年洗劫罗马），却在530年代后被朝廷猜忌召回，最终未能彻底消灭东哥特。553年他以不足万人的兵力在. 大败东哥特军，随后进军罗马。此外他还远征西徐亚人、镇压努米底亚与毛里塔尼亚起义。他晚年被诬陷谋反（532年与541年两次被囚）而后获释，据传于554年落魄死于行乞途中。普鲁塔克在《 》中为他立传，使其成为西方文学史上最著名的军事人物之一；后世称其为「拿破仑之前最伟大的将领」。",
+   "achievements": [
+    "以少胜多灭亡汪达尔王国、占领迦太基",
+    "攻陷罗马，长期困扰西地中海的哥特战争",
+    "被普鲁塔克立传，成为西方军事史经典"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq19-justinian-reform",
+    "ev-rome-justinian-wars",
+    "ev-zzbq19-macedonian-renaissance"
+   ],
+   "relatedFigures": [
+    "fig-zzbq19-justinian",
+    "fig-zzbq19-theodora"
+   ],
+   "tags": [
+    "贝利撒留",
+    "拜占庭",
+    "将军",
+    "汪达尔",
+    "迦太基"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-manuel",
+   "name": "曼努埃尔一世",
+   "alias": "I",
+   "birthYear": 1118,
+   "deathYear": 1180,
+   "lifeText": "公元1118年－公元1180年",
+   "role": "拜占庭帝国皇帝、马其顿王朝的顶点",
+   "periodId": "w-byzantium",
+   "gender": "male",
+   "summary": "拜占庭最杰出的皇帝之一，收复安纳托利亚并扭转巴尔干失势，亲自率军征战，与西方与伊斯兰世界灵活周旋。",
+   "biography": "曼努埃尔一世（1118—1180），马其顿王朝皇帝，1143年继位。他一生亲临战阵（以西方人的记载，他的手臂有一道从手腕到肘部的刀疤），在1147—1149年率军进入安纳托利亚，收复多瑙河上游的，这是自1204年陷落前以来拜占庭对安纳托利亚的最大军事胜利。在巴尔干，他与匈牙利国王加扎二世结盟（拜占庭出资、匈军出兵），1021年更取得关键性的基耶奥沙战役大胜，击溃保加利亚，收复马其顿与保加利亚大片领土，结束了拜占庭近两个世纪的巴尔干困境。他多次亲赴德意志与意大利调解冲突，试图在拉丁人与希腊人之间维持帝国的统一；他在1166年亲率大军围攻意大利的安科纳，虽最终无功而返，但显示了他主动的西进战略。他与萨拉丁的关系复杂——1157—1174年间双方在对抗诺曼人时曾合作，其女与萨拉丁的弟弟结为连理；曼努埃尔于1174年访问大马士革时也与萨拉丁会谈。曼努埃尔是拜占庭制度与财政改革的集大成者，他对佃农（）的保护政策在同期欧洲诸国中相当罕见。",
+   "achievements": [
+    "基耶奥沙战役大败保加利亚，收复巴尔干大片领土",
+    "收复安纳托利亚，扭转对塞尔柱克人的颓势",
+    "保护佃农权益，推进行政与财政改革"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq19-byzantine-science"
+   ],
+   "relatedFigures": [
+    "fig-saladin"
+   ],
+   "tags": [
+    "拜占庭",
+    "曼努埃尔",
+    "基耶奥沙",
+    "巴尔干",
+    "皇帝"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-basil",
+   "name": "君士坦丁七世",
+   "alias": "",
+   "birthYear": 905,
+   "deathYear": 959,
+   "lifeText": "公元905年－公元959年",
+   "role": "拜占庭皇帝、学者型君主",
+   "periodId": "w-post-roman",
+   "gender": "male",
+   "summary": "拜占庭学者型皇帝的典范，亲自撰写农学与体育专论，主持编纂三十卷《帝国百科全书》。",
+   "biography": "君士坦丁七世（约905—959），马其顿王朝皇帝（913—959年在位，913—945年为摄政）。他自幼以聪颖好学著称，宫廷为他延揽四方学者，其宫廷成为当时地中海最重要的学术中心之一。他的传世著作包括《论农业》（关于农具、作物与农业技术的手册，附有他亲自绘制的插图，存世有流传至今的手稿）、《论竞技》（讨论古代竞技会的制度与体育教育）、《论官员》与《论帝国》。他还主持编纂《帝国百科全书》（），一部约三十卷的古代知识与文学家言行汇编，把古典时代的历史家与诗人的材料系统保存下来。马其顿王朝手抄本生产的繁荣与他的赞助密切相关——正是在这一时期，一大批古代希腊文本被抄写下来，其中许多后来经由阿拉伯世界的翻译与再翻译传入意大利大学，最终成为文艺复兴与近代科学的源头。君士坦丁七世是「皇帝也可以是学者」的经典范例。",
+   "achievements": [
+    "著《论农业》《论竞技》《论官员》",
+    "主持编纂三十卷《帝国百科全书》",
+    "推动拜占庭手抄本生产与古典保存"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq19-macedonian-renaissance"
+   ],
+   "relatedFigures": [
+    "fig-zzbq19-theophrastus"
+   ],
+   "tags": [
+    "拜占庭",
+    "学者皇帝",
+    "帝国百科全书",
+    "论农业"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-theophrastus",
+   "name": "拜占庭的学者群像",
+   "alias": "",
+   "birthYear": 900,
+   "deathYear": 1100,
+   "lifeText": "公元900年－公元1100年",
+   "role": "保存与注释希腊古典的拜占庭学者群体",
+   "periodId": "w-carolingian",
+   "gender": "male",
+   "summary": "以君士坦丁堡学者为代表的知识群体，注释并保存了古代希腊数学、医学、天文与哲学典籍，其成果经阿拉伯世界回传欧洲。",
+   "biography": "以「君士坦丁堡学者」为名的这一条目，代表9至11世纪拜占庭帝国的学者群体，而非单一历史人物。这些学者或为修道士，或为帝国官员，或在宫廷与大学中任教，其工作包括：抄写、校勘与注释古代希腊典籍；撰写教科书与百科；对古希腊的几何学、天文学、医学与哲学进行系统研究。其中最著名的成果之一，是对阿基米德、欧几里得、托勒密与盖伦著作的注释性重编，使这些文本能被后世学者读懂并继续推进——柏拉图学园的盖伦注释、约880年完成其代表天文著作的学者，以及主持《数学家汇编》编纂的天文学家，都是这一传统的产物。这些成果构成了一条关键的学术链条：拜占庭保存了古典文本并加以推进，伊斯兰世界在8至11世纪将其翻译并发展（智慧宫、阿尔法拉比、伊本·西那），13世纪又经由西西里与西班牙传入意大利大学，最终成为文艺复兴与近代科学革命的前提。没有这条链条，亚里士多德与盖伦的大部分著作将在欧洲失传。",
+   "achievements": [
+    "保存并推进古代希腊数学、医学、天文学",
+    "形成连接拜占庭—伊斯兰—欧洲的学术链条"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-isl-bayt-al-hikma",
+    "ev-zzbq13-bayt-hikma",
+    "ev-zzbq19-macedonian-renaissance"
+   ],
+   "relatedFigures": [
+    "fig-zzbq19-basil",
+    "fig-saladin"
+   ],
+   "tags": [
+    "拜占庭",
+    "学术",
+    "古典保存",
+    "注释学"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-dias",
+   "name": "巴尔托洛梅乌·迪亚士",
+   "alias": "",
+   "birthYear": 1450,
+   "deathYear": 1500,
+   "lifeText": "公元1450年－公元1500年",
+   "role": "葡萄牙航海家、第一个绕过好望角的欧洲人",
+   "periodId": "w-age-of-sail",
+   "gender": "male",
+   "summary": "1488年率葡萄牙船队绕过好望角进入印度洋，证实大西洋与印度洋相通，为达·伽马航线奠定基础。",
+   "biography": "巴尔托洛梅乌·迪亚士（约1450—1500），葡萄牙贵族与航海家，出生地不详，可能是巴伊亚或里斯本。他在若昂二世与航海家恩里克王子的推动下参加探险。1487年，他率三艘船自里斯本出发，沿非洲西岸南下，绕过布拉戈斯角与几内亚湾，1488年初抵达「风暴角」（后被命名为好望角），折返途中在海上遇风暴，被迫向东漂移至莫塞尔湾（在今南非境内），从那里返航归国。虽未完成既定目标，但他带回的关键信息是：好望角可以绕过，且印度洋是开放的——这为1497年达·伽马直接绕过好望角打通欧印航线提供了决定性的前提。他留下了著名的航海记述，是研究15世纪航海技术（罗盘、象限仪、星盘与航海图）的珍贵资料。他晚年曾参与对马德拉与亚速尔群岛的航海事务，据说因一次争执而死于海上，具体情形至今存疑。迪亚士的名字后来被用于「大西洋上的迪亚士角」与「大西洋的纪念碑」。",
+   "achievements": [
+    "1488年绕过好望角进入印度洋",
+    "证实大西洋与印度洋相通",
+    "为达·伽马航线奠定前提"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq19-age-of-sail",
+    "ev-discover-oman-oceanic"
+   ],
+   "relatedFigures": [
+    "fig-ferdinand-magellan",
+    "fig-christopher-columbus",
+    "fig-w-ottoman-founder"
+   ],
+   "tags": [
+    "迪亚士",
+    "好望角",
+    "葡萄牙",
+    "地理大发现"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-alberti",
+   "name": "阿尔贝蒂",
+   "alias": "",
+   "birthYear": 1404,
+   "deathYear": 1472,
+   "lifeText": "公元1404年－公元1472年",
+   "role": "意大利建筑师与文艺复兴人文主义理论家",
+   "periodId": "w-age-of-sail",
+   "gender": "male",
+   "summary": "以《论建筑》奠定文艺复兴建筑古典主义法则，设计圣安德烈教堂与泰兴宫，立起「美即和谐」的旗帜。",
+   "biography": "列奥纳·巴蒂斯塔·阿尔贝蒂（1404—1472），意大利佛罗伦萨的建筑师、画家与通才，其父为流放家族。其《论建筑》（，1453年完成，1485年出版）以维特鲁威为宗，把古典柱式比例、圆拱与穹顶的和谐引入教堂与宫殿设计，被后世奉为文艺复兴建筑的第一部理论著作。他本人是位实践者：设计佛罗伦萨的圣安德烈教堂（1454年，首创把古典柱式与墙体几何结构结合的教堂）、泰兴宫（重建的 是早期文艺复兴建筑的典范）与鲁西拉宫（现为新古典主义风格的代表作）。他还提出人文主义的艺术观：艺术应取法自然与古典，艺术家的目的是通过技艺使观看者获得愉悦与理解（「美即和谐」），作品的价值在于其内在的合理结构与人的智力创造，而非对传统的因循。他的另一著作《论家庭》（1447）是近代最早讨论女性教育与家庭生活的专书之一。此外他精通拉丁文、哲学与数学，能与马萨乔、布鲁内莱斯基、但丁等人为友，在佛罗伦萨的艺术与思想网络中居于核心地位。",
+   "achievements": [
+    "著《论建筑》，奠定文艺复兴建筑古典主义法则",
+    "设计圣安德烈教堂与泰兴宫",
+    "提出「美即和谐」的文艺复兴美学"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq19-age-of-sail"
+   ],
+   "relatedFigures": [
+    "fig-constantine-xi"
+   ],
+   "tags": [
+    "阿尔贝蒂",
+    "文艺复兴",
+    "论建筑",
+    "人文主义",
+    "佛罗伦萨"
+   ]
+  },
+  {
+   "id": "fig-zzbq19-doge",
+   "name": "威尼斯总督与海洋共和国的崛起",
+   "alias": "",
+   "birthYear": 1200,
+   "deathYear": 1400,
+   "lifeText": "公元1200年－公元1400年",
+   "role": "威尼斯共和国的元首、海洋商业帝国的舵手",
+   "periodId": "w-medieval",
+   "gender": "male",
+   "summary": "威尼斯总督（）在位期间，共和国以商业条约网络控制地中海贸易，成长为欧洲最强的海洋共和国。",
+   "biography": "「威尼斯总督」这一条目代表统治威尼斯的总督家族（历史上的多个家族，如当时的孔塔里尼、达尔加多与伊思班多里家族）所代表的制度，而非单一人物。威尼斯在中世纪后期成为欧洲最具活力的商业共和国：其核心机制是以家族为核心的政党与「委员会」（等）监督下的总督选举，总督虽掌行政与军事权，但受制于城市的委员会与行会网络。这一制度设计正是威尼斯能在数百年中保持稳定与开放的原因。商业上，威尼斯与拜占庭、伊斯兰世界和地中海沿岸广泛缔结条约（与埃及的糖、与突尼的麦子、与亚历山大的布匹），13世纪起逐步垄断了东西方贸易的关键节点——1404年夺取君士坦丁堡后更获得黑海贸易的主导权；其船只与货币（威尼斯达克）是国际商业的标准工具。1453年君士坦丁堡陷落后，威尼斯转而依靠与埃及、突尼斯的地中海贸易维持繁荣，成为文艺复兴艺术的重要赞助者与收藏地（贝利尼与提香等家族的活动中心），也是1489年后向远东扩张商业网络、最终促成达·伽马航线的直接动力之一。",
+   "achievements": [
+    "建立以委员会监督的共和国制度",
+    "掌控地中海与黑海贸易网络",
+    "成为文艺复兴艺术的重要赞助中心"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq13-ottoman",
+    "ev-zzbq19-byzantine-science"
+   ],
+   "relatedFigures": [],
+   "tags": [
+    "威尼斯",
+    "海洋共和国",
+    "商业",
+    "地中海贸易"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-eisenhower",
+   "name": "艾森豪威尔",
+   "alias": "D.",
+   "birthYear": 1890,
+   "deathYear": 1969,
+   "lifeText": "公元1890年－公元1969年",
+   "role": "美国第34任总统、二战盟军最高统帅",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "二战盟军欧洲最高统帅，两任美国总统，以「大规模报复」战略与「军工复合体」警告塑造冷战格局。",
+   "biography": "德怀特·艾森豪威尔（1890—1969），美国军人、政治家。他出身贫寒，1915年西点军校毕业，长期任参谋，1942年因马歇尔的赏识被任命为北非盟军司令，1944年任盟军欧洲最高统帅，指挥诺曼底登陆并接受德国投降。战后任陆军参谋长、北约首任最高司令。1953—1961年任美国第34任总统，是20世纪唯一从将军直接当选总统者。他在任内结束朝鲜战争（1953年停战协定），推行「大规模报复」核威慑战略与「艾森豪威尔主义」（中东），强化秘密行动，同时推动州际公路系统（1956年《国防公路法》）与民权立法（1957年）。他在1961年1月卸任演说中警告「军工复合体」可能侵蚀民主，成为流传最广的总统演说之一。他在2事件（1960）与美苏关系上采取谨慎路线，任内未发生直接热战。",
+   "achievements": [
+    "指挥诺曼底登陆，任盟军欧洲最高统帅",
+    "结束朝鲜战争，推行核威慑战略",
+    "预警「军工复合体」"
+   ],
+   "quotes": [
+    "在我们的政府体系中，我们必须警惕军工复合体获得不应有的影响力"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zzbq20-reagan",
+    "fig-harry-truman",
+    "fig-zzbq20-mccarthy",
+    "fig-zzbq20-dulles"
+   ],
+   "tags": [
+    "冷战",
+    "美国总统",
+    "诺曼底",
+    "核威慑"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-reagan",
+   "name": "里根",
+   "alias": "",
+   "birthYear": 1911,
+   "deathYear": 2004,
+   "lifeText": "公元1911年－公元2004年",
+   "role": "美国第40任总统、冷战末期的关键人物",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "美国第40任总统，以「星球大战」计划与经济改革对抗苏联，与戈尔巴乔夫共同结束冷战。",
+   "biography": "罗纳德·里根（1911—2004），美国政治家，1981—1989年任第40任总统。他早年为好莱坞演员与电台播音员，1967—1975年任加州州长。任内推行「里根经济学」（减税、放松管制、削减福利），同时大幅增加军费，提出「战略防御倡议」（，即「星球大战」计划），以军备竞赛加大对苏联的压力。外交上他称苏联为「邪恶帝国」（1983），但在1985年戈尔巴乔夫上台后转向谈判，1987年签署《中导条约》，销毁两国中程核导弹，这是第一个真正削减核武库的协议。他与戈尔巴乔夫的四次峰会（日内瓦、雷克雅未克、华盛顿、莫斯科）逐步化解冷战对抗。他晚年患阿尔茨海默病，1994年公开病情。里根是冷战结束的关键推动者之一，其强硬与谈判并用的路线被后世反复讨论。",
+   "achievements": [
+    "提出「战略防御倡议」（星球大战计划）",
+    "与戈尔巴乔夫签署《中导条约》"
+   ],
+   "quotes": [
+    "戈尔巴乔夫先生，推倒这堵墙"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zzbq20-eisenhower",
+    "fig-zzbq8-gorbachev"
+   ],
+   "tags": [
+    "冷战",
+    "美国总统",
+    "星球大战",
+    "中导条约"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-brezhnev",
+   "name": "勃列日涅夫",
+   "alias": "",
+   "birthYear": 1906,
+   "deathYear": 1982,
+   "lifeText": "公元1906年－公元1982年",
+   "role": "苏联共产党总书记、冷战缓和与对抗并存时期的领导人",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "苏联最高领导人，任内苏联军力达到顶峰，推行「勃列日涅夫主义」镇压布拉格之春，也开启对美缓和。",
+   "biography": "列昂尼德·勃列日涅夫（1906—1982），苏联政治家，1964年推翻赫鲁晓夫后任苏共中央第一书记，1966年起任总书记，1977年兼任最高苏维埃主席团主席，执政至1982年去世，长达十八年。任内苏联军事实力达到顶峰，战略核力量与美国持平，海军全球部署；1968年出兵捷克斯洛伐克镇压「布拉格之春」，提出「勃列日涅夫主义」（社会主义国家主权有限论）；1979年入侵阿富汗，成为苏联的「越南泥潭」。同时与西方推行「缓和」（dé），1972年与尼克松签署第一阶段限制战略武器条约（I）与《反弹道导弹条约》（），1975年参与赫尔辛基协议。国内经济停滞、官僚僵化、军费沉重，被称为「停滞时代」。他的统治为苏联解体埋下了经济与体制的隐患。",
+   "achievements": [
+    "任内苏联军力达到顶峰",
+    "与尼克松签署 I 与 条约",
+    "推行「勃列日涅夫主义」"
+   ],
+   "quotes": [],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-khrushchev",
+    "fig-zzbq8-gorbachev"
+   ],
+   "tags": [
+    "冷战",
+    "苏联",
+    "缓和",
+    "阿富汗战争"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-mccarthy",
+   "name": "麦卡锡",
+   "alias": "",
+   "birthYear": 1908,
+   "deathYear": 1957,
+   "lifeText": "公元1908年－公元1957年",
+   "role": "美国参议员、麦卡锡主义的代表人物",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "美国参议员，以「国务院里有共产党」的指控掀起全国性反共清洗，使「麦卡锡主义」成为政治迫害的代名词。",
+   "biography": "约瑟夫·麦卡锡（1908—1957），美国共和党参议员，1947—1957年代表威斯康星州。1950年2月，他在西弗吉尼亚州惠灵市发表演说，声称手中握有「国务院里的共产党人名单」，由此掀起全国性的反共运动。此后数年，他以国会调查权为工具，对政府官员、学者、艺术家、好莱坞从业者进行质询与指控，许多人因「疑似共党」而失去工作，史称「麦卡锡主义」。1954年，他在陆军—麦卡锡听证会上指控陆军包庇共产党人，电视直播使公众看清其手段，同年12月参议院以67票对22票通过谴责他的决议，其影响力迅速衰落，1957年因肝炎去世。麦卡锡主义是冷战时期美国政治迫害的典型，也是「以国家安全之名侵犯公民自由」的警示案例。",
+   "achievements": [
+    "掀起全国性反共运动（麦卡锡主义）",
+    "1954年被参议院谴责"
+   ],
+   "quotes": [],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zzbq20-eisenhower"
+   ],
+   "tags": [
+    "冷战",
+    "麦卡锡主义",
+    "反共",
+    "美国政治"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-teller",
+   "name": "爱德华·泰勒",
+   "alias": "战d",
+   "birthYear": 1908,
+   "deathYear": 2003,
+   "lifeText": "公元1908年－公元2003年",
+   "role": "匈牙利裔美国物理学家、「氢弹之父」",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "推动美国研制氢弹的核心人物，在奥本海默听证会上作证反对其安全许可，是科学伦理争议的焦点。",
+   "biography": "爱德华·泰勒（1908—2003），生于匈牙利布达佩斯，1930年代赴美，参与曼哈顿计划，在洛斯阿拉莫斯与奥本海默共事。战后他力主研制氢弹（热核武器），1952年11月美国在埃内韦塔克环礁试爆第一颗氢弹「常春藤迈克」，泰勒被视为「氢弹之父」。他在1954年奥本海默安全许可听证会上作证，其证词被认为对奥本海默不利，导致后者失去安全许可，两人决裂，泰勒因此在科学界被长期孤立。他后来推动「星球大战」计划（），是里根政府的重要科学顾问。泰勒是20世纪科学伦理争议的核心人物：他的技术判断影响了核军备竞赛的走向，而他在听证会上的选择则成为「科学家应否为政治背书」的经典案例。",
+   "achievements": [
+    "推动美国研制氢弹",
+    "推动「星球大战」计划"
+   ],
+   "quotes": [],
+   "relatedEvents": [],
+   "relatedFigures": [],
+   "tags": [
+    "冷战",
+    "氢弹",
+    "核武器",
+    "科学伦理"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-adenauer",
+   "name": "阿登纳",
+   "alias": "",
+   "birthYear": 1876,
+   "deathYear": 1967,
+   "lifeText": "公元1876年－公元1967年",
+   "role": "联邦德国首任总理、欧洲一体化的奠基者",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "联邦德国首任总理，推动西德融入西方阵营与欧洲一体化，与戴高乐共同奠定法德和解的基础。",
+   "biography": "康拉德·阿登纳（1876—1967），德国政治家，1949—1963年任联邦德国（西德）首任总理，时年七十三岁，执政十四年。他早年任科隆市长，纳粹时期被免职并两次入狱。战后他领导基督教民主联盟（），主张西德全面融入西方：1955年加入北约，1957年与法国、意大利等六国签署《罗马条约》建立欧洲经济共同体（），1951年推动欧洲煤钢共同体。他与法国总统戴高乐建立密切关系，1963年签署《爱丽舍条约》，实现法德和解，成为欧洲一体化的核心轴心。他对东德与苏联采取强硬立场（哈尔斯坦主义），但1955年访问莫斯科建立外交关系。阿登纳使战败的德国重新成为西方阵营的平等成员，被誉为「联邦德国之父」，其欧洲一体化路线塑造了战后欧洲的基本格局。",
+   "achievements": [
+    "任联邦德国首任总理十四年",
+    "推动西德加入北约与欧洲经济共同体",
+    "与戴高乐签署《爱丽舍条约》实现法德和解"
+   ],
+   "quotes": [],
+   "relatedEvents": [
+    "ev-zzbq8-unification"
+   ],
+   "relatedFigures": [
+    "fig-de-gaulle",
+    "fig-zzbq20-brandt"
+   ],
+   "tags": [
+    "冷战",
+    "联邦德国",
+    "欧洲一体化",
+    "法德和解"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-brandt",
+   "name": "勃兰特",
+   "alias": "",
+   "birthYear": 1913,
+   "deathYear": 1992,
+   "lifeText": "公元1913年－公元1992年",
+   "role": "联邦德国总理、「新东方政策」的推动者",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "西德总理，以「新东方政策」改善与东欧关系，1970年在华沙犹太人隔离区纪念碑前下跪，成为和解的象征。",
+   "biography": "维利·勃兰特（1913—1992），德国政治家，1969—1974年任联邦德国总理。他原名赫伯特·弗拉姆，因反纳粹流亡挪威，战后归国加入社民党（），1966—1969年任外长并任副总理。任总理后推行「新东方政策」（）：1970年与苏联、波兰签署条约，承认战后边界（奥得—尼斯线），1972年与东德签署《基础条约》，实现两德关系正常化，1973年两德同时加入联合国。1970年12月他在华沙犹太人隔离区起义纪念碑前下跪，这一姿态成为战后德国承担历史责任的象征，他因此获得1971年诺贝尔和平奖。1974年因东德间谍纪尧姆潜入其办公室的丑闻辞职。勃兰特的新东方政策是冷战缓和的重要一环，为1990年德国统一奠定了外交基础。",
+   "achievements": [
+    "推行「新东方政策」，实现两德关系正常化",
+    "1971年诺贝尔和平奖",
+    "华沙之跪，象征德国的历史反省"
+   ],
+   "quotes": [
+    "我代表被杀害的数百万人下跪"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zzbq20-adenauer"
+   ],
+   "tags": [
+    "冷战",
+    "新东方政策",
+    "两德关系",
+    "诺贝尔和平奖"
+   ]
+  },
+  {
+   "id": "fig-zzbq20-dulles",
+   "name": "约翰·福斯特·杜勒斯",
+   "alias": "",
+   "birthYear": 1888,
+   "deathYear": 1959,
+   "lifeText": "公元1888年－公元1959年",
+   "role": "美国国务卿、冷战「边缘政策」的设计者",
+   "periodId": "w-modern",
+   "gender": "male",
+   "summary": "艾森豪威尔政府的国务卿，以「大规模报复」与「战争边缘」政策塑造美国冷战战略，是冷战强硬路线的代表。",
+   "biography": "约翰·福斯特·杜勒斯（1888—1959），美国律师、政治家，1953—1959年任艾森豪威尔政府的国务卿。他出身外交世家（其外祖父约翰·W·福斯特曾任国务卿），早年任律师事务所合伙人，参与起草联合国宪章。任国务卿期间，他是美国冷战强硬路线的设计者：1954年提出「大规模报复」（）战略，主张以核威慑替代常规军备；提出「战争边缘」（）理论，主张把对手逼到战争边缘以获取谈判优势；推动「艾森豪威尔主义」介入中东，策划伊朗（1953）与危地马拉（1954）的政变。他对共产主义采取不妥协立场，1958年与赫鲁晓夫在日内瓦的会谈不欢而散。1959年因癌症辞职并去世。杜勒斯是冷战时期美国外交最强势的国务卿之一，其战略思想深刻影响了此后的美国对外政策。",
+   "achievements": [
+    "提出「大规模报复」战略",
+    "提出「战争边缘」理论",
+    "策划伊朗与危地马拉政变",
+    "专长国际法，长期代表美国企业处理海外事务",
+    "参与起草《联合国宪章》",
+    "1953年出任国务卿，主张「大规模报复」战略",
+    "推动建立东南亚条约组织与巴格达条约组织",
+    "扩展对共产主义的围堵体系",
+    "1954年日内瓦会议期间拒绝与周恩来握手",
+    "1958年访台，加剧台海紧张"
+   ],
+   "quotes": [
+    "有能力走到战争边缘而不走入战争，是必要的艺术"
+   ],
+   "relatedEvents": [],
+   "relatedFigures": [
+    "fig-zzbq20-eisenhower",
+    "fig-khrushchev",
+    "fig-gamal-abdel-nasser"
+   ],
+   "tags": [
+    "冷战",
+    "美国国务卿",
+    "大规模报复",
+    "边缘政策"
+   ]
+  },
+  {
    "id": "fig-zzbq5-stephenson",
    "name": "乔治·史蒂芬孙",
    "alias": "火车之父",
@@ -21103,7 +22602,7 @@
    "deathYear": null,
    "lifeText": "公元1781年—1848年",
    "role": "英国工程师、蒸汽机车与铁路的开创者",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "英国工程师，设计制造「旅行者号」「火箭号」蒸汽机车并主持早期铁路建设，被誉为「火车之父」。",
    "biography": "乔治·史蒂芬孙，1781年生于英国诺森伯兰郡一个矿工家庭，家境贫寒，未受过正规教育，十八岁才在夜校学会读写。他早年在煤矿做工，操作纽科门蒸汽机，因钻研机械而升为机械师。1814年，他为基林沃思煤矿设计制造第一台蒸汽机车「布鲁歇尔号」，用于拖运煤车。1825年，他主持修建斯托克顿—达灵顿铁路，其机车「旅行者号」牵引列车载客载货，成为世界第一条公用蒸汽铁路。1829年，为利物浦—曼彻斯特铁路举办机车竞赛，他设计的「火箭号」以时速约五十公里夺冠，成为现代蒸汽机车的原型。史蒂芬孙确立了标准轨距（1435毫米），参与多条铁路的勘测与建设，并培养了一批铁路工程师。他被誉为「火车之父」，其工作开启了铁路时代，深刻改变了19世纪的交通、经济与社会生活。",
@@ -21161,7 +22660,7 @@
    "deathYear": null,
    "lifeText": "公元1918年—2013年",
    "role": "南非反种族隔离领袖、首位黑人总统",
-   "periodId": "w-world-wars",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "南非反种族隔离运动领袖，入狱二十七年，出狱后推动民族和解，1994年当选南非首位黑人总统，1993年诺贝尔和平奖得主。",
    "biography": "纳尔逊·曼德拉，1918年生于南非东开普省姆韦佐，出身科萨族王族家庭。1942年加入非洲人国民大会（），1944年参与创建青年联盟。1948年南非国民党上台推行种族隔离制度后，曼德拉投身反抗运动，1952年领导「蔑视运动」，1955年参与制定《自由宪章》。1961年创建并领导军事组织「民族之矛」。1962年被捕，1964年在里沃尼亚审判中被判终身监禁，先囚于罗本岛，后转至波尔斯穆尔监狱，共入狱二十七年。在狱中他坚持学习，拒绝以放弃武装斗争换取自由。1980年代国际社会对南非制裁升级，国内外压力促使政府谈判。1990年2月11日获释，出狱后与总统德克勒克合作，推动废除种族隔离。1993年与德克勒克共获诺贝尔和平奖。1994年4月南非首次全民大选，获胜，曼德拉当选首位黑人总统。任内成立「真相与和解委员会」，以宽恕而非报复处理历史罪行。1999年卸任后致力于和平、儿童与艾滋病公益。2013年逝世，被尊为「南非国父」与20世纪最伟大的道德领袖之一。",
@@ -21470,7 +22969,7 @@
    "deathYear": 1830,
    "lifeText": "公元1783年－公元1830年",
    "role": "南美独立运动领袖、被誉为「解放者」",
-   "periodId": "w-early-modern",
+   "periodId": "w-southeast-asia",
    "gender": "male",
    "summary": "领导委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁、玻利维亚摆脱西班牙统治，被尊为「解放者」，南美一体化的先驱。",
    "biography": "西蒙·玻利瓦尔，1783年生于委内瑞拉加拉加斯一个克里奥尔贵族家庭。早年游学欧洲，受启蒙思想影响，在罗马宣誓要解放南美。1810年委内瑞拉起义后投身独立运动，1813年率军收复加拉加斯，获「解放者」称号，但随后被西班牙军击败，流亡牙买加与海地。1816年得海地总统佩蒂翁支持重整军队，采取解放奴隶、分配土地的政策争取支持。1819年翻越安第斯山突袭新格拉纳达，博亚卡战役获胜，建立大哥伦比亚共和国（含今委内瑞拉、哥伦比亚、厄瓜多尔）。此后解放秘鲁（1821年与圣马丁会晤后接手）、上秘鲁（1825年建立以其命名的玻利维亚）。1826年召开巴拿马大会，试图建立西属美洲联盟，但未能实现。晚年因内部分裂与独裁倾向受批评，1830年病逝于哥伦比亚圣玛尔塔。玻利瓦尔是南美独立运动最核心的人物，其反殖民与区域一体化理想深刻影响了拉美政治。",
@@ -21852,7 +23351,7 @@
    "deathYear": 1968,
    "lifeText": "公元1929年－公元1968年",
    "role": "美国民权运动领袖、诺贝尔和平奖得主",
-   "periodId": "w-world-wars",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "美国民权运动领袖，以非暴力抗争争取种族平等，《我有一个梦想》演讲成为人类追求平等的象征，1964年获诺贝尔和平奖。",
    "biography": "马丁·路德·金，1929年生于美国佐治亚州亚特兰大一个黑人牧师家庭。先后就读于莫尔豪斯学院、克罗泽神学院与波士顿大学，获神学博士学位，受甘地非暴力思想与梭罗公民不服从理论影响。1955年蒙哥马利公交抵制运动中成为领袖，主张以非暴力方式争取民权。1957年参与创建南方基督教领袖会议。1963年在伯明翰领导反种族隔离运动，同年8月28日在华盛顿林肯纪念堂前发表《我有一个梦想》演讲，呼吁「不以肤色而以品格来评价一个人」。1964年推动《民权法案》通过，同年获诺贝尔和平奖，是当时最年轻的获奖者。1965年领导塞尔玛游行，促成《选举权法案》。他后期将关注扩展到贫困与反越战，1967年发表《越南之外》演讲。1968年4月4日在孟菲斯支持环卫工人罢工时被刺杀，年仅三十九岁。美国此后设立马丁·路德·金纪念日（每年1月第三个星期一），他是唯一享有此殊荣的美国人。",
@@ -21890,7 +23389,7 @@
    "deathYear": 2022,
    "lifeText": "公元1931年－公元2022年",
    "role": "苏联末任领导人、冷战终结的关键人物",
-   "periodId": "w-contemporary",
+   "periodId": "w-cold-war",
    "gender": "male",
    "summary": "苏联末任领导人，推行「公开性」「新思维」改革，放弃对东欧的武力干预，促成冷战和平终结，1990年获诺贝尔和平奖。",
    "biography": "米哈伊尔·戈尔巴乔夫，1931年生于苏联斯塔夫罗波尔边疆区一个农民家庭。莫斯科大学法律系毕业，长期从事党务工作，1980年进入政治局，1985年出任苏共中央总书记。面对经济停滞、军备竞赛重负与阿富汗战争困境，他提出「加速战略」「公开性」（）与「新思维」，推动政治民主化与经济改革。外交上，他与里根、布什举行多次峰会，1987年签署《中导条约》，首次实际削减核武器；1989年宣布苏联不再武力干涉东欧（「辛纳屈主义」），直接促成东欧剧变与柏林墙倒塌；1990年同意两德统一，同年获诺贝尔和平奖。但改革失控导致经济混乱、民族分离主义兴起与保守派反弹。1991年八一九政变失败后，苏联解体，他于12月25日辞职。他在西方被视为结束冷战的英雄，在俄罗斯国内则长期被批评为导致苏联解体的责任人。2022年逝世。",
@@ -21912,7 +23411,9 @@
    "relatedFigures": [
     "fig-churchill",
     "fig-stalin",
-    "fig-zzbq5-truman"
+    "fig-zzbq5-truman",
+    "fig-zzbq20-reagan",
+    "fig-zzbq20-brezhnev"
    ],
    "tags": [
     "苏联",
@@ -22421,7 +23922,8 @@
    ],
    "relatedEvents": [
     "ev-magadha-maurya",
-    "ev-maurya-sri-lanka"
+    "ev-maurya-sri-lanka",
+    "ev-zzbq18-indus-cities"
    ],
    "relatedFigures": [
     "fig-kanishka",
@@ -23743,43 +25245,6 @@
    ]
   },
   {
-   "id": "fig-justinian",
-   "name": "查士丁尼一世",
-   "alias": "查士丁尼大帝",
-   "birthYear": 482,
-   "deathYear": 565,
-   "lifeText": "公元482年－公元565年",
-   "role": "拜占庭皇帝",
-   "periodId": "w-post-roman-europe",
-   "gender": "male",
-   "summary": "东罗马帝国的皇帝，以编纂《民法大全》与圣索菲亚大教堂成为西方法律传统与拜占庭建筑的标志性人物。",
-   "biography": "查士丁尼一世生于公元482年，其叔父查士丁一世把他从农场召入君士坦丁堡并指定为共治继承人，公元527年正式即位。他以恢复罗马帝国荣耀为志，但真正奠定其历史地位的是两项工程：其一是从公元528年起到534年完成编纂《民法大全》（），这部法典系统整合了自哈德良以来一千余年的罗马法令、学说与判例，明确了所有公民在法律面前平等的原则，财产、契约、婚姻、家庭与继承的规定至今仍深刻影响欧洲大陆法系与拉丁美洲各国；其二是圣索菲亚大教堂，公元532年尼卡暴动焚毁旧教堂后，查士丁尼请建筑师 设计、公元537年落成，巨大的穹顶与光线设计使其成为拜占庭建筑与东正教礼仪空间的象征，此后近千年一直是世界上最大的教堂。在军事上，他与 与 的军队先后收复北非、意大利与部分伊比利亚，使西部帝国短暂复兴，但长期的波斯战争耗尽国力，530年代的瘟疫更造成巨大损失。其晚年瘟疫与查士丁尼二世的反叛使其统治阴影重重，565年他病逝于宫廷。",
-   "achievements": [
-    "主持编纂《民法大全》，奠定欧洲大陆法系与罗马私法的现代基础",
-    "营建圣索菲亚大教堂，成为拜占庭建筑与东正教空间的象征",
-    "在贝利撒留指挥下短暂收复北非、意大利与伊比利亚",
-    "确立皇帝对教会与教义的干预，为东西教会分裂埋下伏笔",
-    "推动法典的希腊化与通俗化，为后世法学教育提供范本",
-    "其统治与法令成为后世罗马法复兴与拿破仑法典的重要源头"
-   ],
-   "quotes": [
-    "正义是皇帝最高的义务。"
-   ],
-   "relatedEvents": [
-    "ev-rome-byzantine-justinian",
-    "ev-rome-justinian-wars",
-    "ev-rome-hagia-sophia",
-    "ev-rome-justinian-code-summary"
-   ],
-   "relatedFigures": [],
-   "tags": [
-    "拜占庭",
-    "皇帝",
-    "罗马法",
-    "圣索菲亚"
-   ]
-  },
-  {
    "id": "fig-constantine-xi",
    "name": "君士坦丁十一世",
    "alias": "君士坦丁·帕里奥洛加斯",
@@ -23807,6 +25272,7 @@
    ],
    "relatedFigures": [
     "fig-mehmed-ii",
+    "fig-zzbq19-alberti",
     "fig-w-ottoman-founder"
    ],
    "tags": [

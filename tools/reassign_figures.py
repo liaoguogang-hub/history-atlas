@@ -38,6 +38,26 @@ def year_in(a, b, y):
     return a <= y <= b
 
 
+# ---- 显式覆盖名单：生于某时期、但历史地位属于另一时期的人物 ----
+# 键=人物 id，值=目标 periodId。
+# 仅用于「按生卒年归位会明显失真」的个案，正常情况下应让算法自行推断。
+PERIOD_OVERRIDE = {
+    # 生于两次世界大战期间(1914-1945)，但成就完全在战后 —— 归「科技时代」
+    "fig-buzz-aldrin": "w-tech-era",        # 1969 年登月
+    "fig-yuri-gagarin": "w-tech-era",       # 1961 年首次载人航天
+    "fig-james-watson": "w-tech-era",       # 1953 年 DNA 双螺旋
+    "fig-rosalind-franklin": "w-tech-era",  # 1952 年 X 射线衍射照片
+    "fig-tu-youyou": "w-tech-era",          # 1970 年代发现青蒿素
+    "fig-neil-armstrong": "w-tech-era",     # 1969 年登月
+    # 冷战政治家 —— 归「冷战时期」
+    "fig-mandela": "w-cold-war",            # 1994 年当选南非总统
+    "fig-john-f-kennedy": "w-cold-war",     # 冷战总统
+    "fig-nasser": "w-cold-war",             # 1952 年政变、1956 年苏伊士运河
+    "fig-gamal-abdel-nasser": "w-cold-war", # 同上（实际 id）
+    "fig-zzbq5-mandela": "w-cold-war",      # 同上（实际 id）
+}
+
+
 def main():
     path = sys.argv[1]
     data = json.load(io.open(path, encoding="utf-8"))
@@ -122,6 +142,20 @@ def main():
         if best["id"] != cur:
             f["periodId"] = best["id"]
             moved += 1
+
+    # ---- 显式覆盖：按生卒年归位无法表达「成名期」的个案 ----
+    # 有些人物出生于某个窄时期（如两次世界大战 1914-1945），但其历史地位来自
+    # 战后成就（登月、DNA 双螺旋、青蒿素、南非民主化）。仅按生卒年归位会把他们
+    # 塞进「两次世界大战」，使该时期的代表人物列表严重失真。
+    # 这里以名单方式显式指定归属，优先级高于生卒年推断。
+    forced = 0
+    for f in data.get("figures") or []:
+        target = PERIOD_OVERRIDE.get(f.get("id"))
+        if target and f.get("periodId") != target:
+            f["periodId"] = target
+            forced += 1
+    if forced:
+        print(f"{path}: forced {forced} figures by explicit override")
 
     io.open(path, "w", encoding="utf-8").write(
         json.dumps(data, ensure_ascii=False, indent=1))
