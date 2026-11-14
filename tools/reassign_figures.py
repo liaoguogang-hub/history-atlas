@@ -83,6 +83,37 @@ PERIOD_OVERRIDE = {
     "fig-salvador-allende": "w-latin-america",# 智利总统 1908-1973
     # 东南亚：生于 1600 年前的 VOC 总督，历史地位属于东南亚贸易时代
     "fig-zzbq23-coen": "w-southeast-asia",    # 巴达维亚建立者 1587-1629
+    # 源数据中 periodId 被错标到无关地区的人物（v2.4.0 修复）
+    "fig-jiang-ziya": "w-ancient-china",      # 姜子牙：周朝开国功臣，曾被错标为"古代非洲"
+    "fig-modu-chanyu": "w-ancient-china",     # 冒顿单于：匈奴，曾被错标为"朝鲜"
+    "fig-pericles": "w-classical-greece",     # 伯里克利：雅典，曾被错标为"近东波斯"
+    "fig-euripides-2": "w-classical-greece",  # 索福克勒斯（id 命名有误），曾被错标为"近东波斯"
+    "fig-herodotus": "w-classical-greece",    # 希罗多德：希腊，曾被错标为"近东波斯"
+    "fig-victoria": "w-imperialism",          # 维多利亚女王：在位至 1901，归帝国主义时代
+    # ---- 中国近现代：按主要政治生涯归位，而非出生年 ----
+    # 这些人物生于晚清(1820-1912)区间内，但历史地位属于民国或共和国。
+    # 只按生卒年归位会把他们全部塞进"清后期"，使 cn-qing-late 堆积 33 人，
+    # 而"民国""中华人民共和国"时期几乎为空。
+    "fig-mao-zedong": "cn-prc-early",
+    "fig-zhou-enlai": "cn-prc-early",
+    "fig-zzbq2-zhude": "cn-prc-early",
+    "fig-liu-shaoqi": "cn-prc-early",
+    "fig-peng-dehuai": "cn-prc-early",
+    "fig-liu-bocheng": "cn-prc-early",
+    "fig-zzbq3-chenyun": "cn-prc-early",
+    "fig-zzbq3-he-long": "cn-prc-early",
+    "fig-zzbq3-ye-ting": "cn-prc-early",
+    "fig-deng-xiaoping": "cn-prc-reform",
+    "fig-song-jiaoren": "cn-modern-republic",
+    "fig-huang-xing": "cn-modern-republic",
+    "fig-cai-e": "cn-modern-republic",
+    "fig-duan-qirui": "cn-modern-republic",
+    "fig-hu-shi": "cn-modern-republic",
+    "fig-cai-yuanpei": "cn-modern-republic",
+    "fig-zhang-taiyan": "cn-modern-republic",
+    "fig-zhou-shuren": "cn-modern-republic",
+    "fig-zhang-xueliang": "cn-modern-anti-japan",
+    "fig-li-zongren": "cn-modern-anti-japan",
 }
 
 

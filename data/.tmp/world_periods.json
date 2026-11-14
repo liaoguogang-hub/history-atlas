@@ -377,7 +377,9 @@
   "population": "约1500万（前1600年）至约2000万（前221年）",
   "culture": "甲骨文与金文；青铜礼器；礼乐制度与宗法分封；百家争鸣；铁器牛耕与土地私有",
   "keyFigures": [
-   "fig-shanfu"
+   "fig-jiang-ziya",
+   "fig-shanfu",
+   "fig-modu-chanyu"
   ],
   "relatedEvents": [],
   "tags": [
@@ -480,7 +482,9 @@
   "population": "约100万至800万（各城邦合计）",
   "culture": "城邦民主与公民大会；悲剧喜剧与修辞；几何学与自然哲学；陶瓶与雕塑；奥林匹亚与泛希腊节庆",
   "keyFigures": [
-   "fig-leonidas"
+   "fig-euripides-2",
+   "fig-pericles",
+   "fig-herodotus"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1360,10 +1364,10 @@
    "fig-abraham-lincoln",
    "fig-otto-von-bismarck",
    "fig-marx",
-   "fig-victoria",
    "fig-lord-ripon",
    "fig-leo-tolstoy",
-   "fig-leopold-ii"
+   "fig-leopold-ii",
+   "fig-yamagata"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1389,14 +1393,14 @@
   "population": "约13亿至18亿",
   "culture": "帝国主义与殖民行政；民族主义与反殖民运动；国际法与白人的负担话语；热带医学与铁路",
   "keyFigures": [
+   "fig-victoria",
    "fig-lenin",
    "fig-stalin",
    "fig-zzbq8-einstein",
    "fig-roosevelt",
    "fig-john-maynard-keynes",
    "fig-simone-weil",
-   "fig-alan-turing",
-   "fig-harry-white"
+   "fig-alan-turing"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1601,7 +1605,13 @@
   "population": "约1500万至6000万",
   "culture": "铁器冶铸与诺克陶；库施神庙与象形文字；跨撒哈拉黄金盐贸易；红海与印度洋贸易；班图语族扩散",
   "keyFigures": [
-   "fig-jiang-ziya"
+   "fig-zzbq14-askia",
+   "fig-mansa-musa",
+   "fig-zzbq14-sonni-ali",
+   "fig-zzbq9-sundiata",
+   "fig-zzbq14-lalibela",
+   "fig-zzbq14-ezana",
+   "fig-zzbq14-amda-seyon"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1812,11 +1822,11 @@
    "fig-zzbq9-sejong",
    "fig-zzbq9-yisunshin",
    "fig-zzbq16-heo-gyun",
-   "fig-modu-chanyu",
    "fig-zzbq9-ieyasu",
    "fig-zzbq16-fukuzawa",
    "fig-zzbq9-hideyoshi",
-   "fig-zzbq9-shotoku"
+   "fig-zzbq9-shotoku",
+   "fig-zzbq16-kamatari"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1844,8 +1854,7 @@
   "keyFigures": [
    "fig-zzbq9-sejong",
    "fig-zzbq9-yisunshin",
-   "fig-zzbq16-heo-gyun",
-   "fig-modu-chanyu"
+   "fig-zzbq16-heo-gyun"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1959,10 +1968,7 @@
   "population": "约2000万至4000万",
   "culture": "行省制与驿传；多语言行政；琐罗亚斯德教；波斯波利斯建筑与浮雕；铸币与道路标准化",
   "keyFigures": [
-   "fig-euripides-2",
-   "fig-pericles",
    "fig-darius",
-   "fig-herodotus",
    "fig-xerxes"
   ],
   "relatedEvents": [],
