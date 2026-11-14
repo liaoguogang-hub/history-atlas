@@ -136,8 +136,7 @@
    "fig-shanfu"
   ],
   "relatedEvents": [
-   "ev-song-founding",
-   "ev-w-song-wanyan"
+   "ev-song-founding"
   ],
   "tags": [
    "宋朝",
@@ -220,9 +219,7 @@
    "fig-shanfu"
   ],
   "relatedEvents": [
-   "ev-song-founding",
-   "ev-w-song-wanyan",
-   "ev-song-wang"
+   "ev-song-founding"
   ],
   "tags": [
    "宋朝",
@@ -398,9 +395,6 @@
    "fig-shanfu"
   ],
   "relatedEvents": [
-   "ev-w-song-wanyan",
-   "ev-med-cn-printing",
-   "ev-med-cn-compass",
    "ev-song-founding"
   ],
   "tags": [
@@ -565,7 +559,6 @@
   ],
   "relatedEvents": [
    "ev-med-jp-taihō-reform",
-   "ev-med-jp-kamakura",
    "ev-discover-tokugawa-japan"
   ],
   "tags": [
@@ -1111,8 +1104,7 @@
   ],
   "relatedEvents": [
    "ev-discover-tokugawa-japan",
-   "ev-cc-japanese-meiji-west",
-   "ev-med-jp-kamakura"
+   "ev-cc-japanese-meiji-west"
   ],
   "tags": [
    "日本",
@@ -1323,10 +1315,8 @@
    "fig-king-wu"
   ],
   "relatedEvents": [
-   "ev-w-han-wudi",
    "ev-w-han-zhangqian",
-   "ev-cc-han-scythian-routes",
-   "ev-w-han-founding"
+   "ev-cc-han-scythian-routes"
   ],
   "tags": [
    "匈奴",
@@ -1451,10 +1441,7 @@
    "fig-alfonso-x"
   ],
   "relatedEvents": [
-   "ev-qing-opium",
-   "ev-w-qing-kangxi",
-   "ev-cc-opium-silver-flow",
-   "ev-qing-reform-1911"
+   "ev-cc-opium-silver-flow"
   ],
   "tags": [
    "清朝",
@@ -2772,7 +2759,6 @@
   ],
   "relatedEvents": [
    "ev-mongol-yuan-china",
-   "ev-w-yuan-founding",
    "ev-cc-marcopolo-travel",
    "ev-mongol-pax-mongolica-detail"
   ],

@@ -21,26 +21,41 @@ sys.stdout.reconfigure(encoding="utf-8")
 CROSS_CIV_ID = "w-cross-civilization"
 CROSS_CIV_NAME = "跨文明交流"
 
-# 跨文明线的时代分段：(子时期 id, 名称, 起始年, 结束年, 概述)
+# 跨文明线的时代分段：(子时期 id, 名称, 起始年, 结束年, 概述, 代表人物)
+# 代表人物取该时期事件中高频出现者 —— 这些事件本就引用了他们，
+# 只是此前没有回填到 period.keyFigures，导致跨文明时期在「人物志」维度全空白
+# （100 个事件、占世界史 23%，却零人物）。
 CROSS_CIV_ERAS = [
     ("w-cc-prehistoric", "史前全球联系", -100100, -3001,
      "智人走出非洲与全球扩散、作物与家畜的独立驯化、语言与技术的跨大陆传播。"
-     "这一阶段的「联系」以迁徙与扩散为主，尚无稳定的跨洲贸易网络。"),
+     "这一阶段的「联系」以迁徙与扩散为主，尚无稳定的跨洲贸易网络。",
+     ["fig-te-piki"]),
     ("w-cc-classical", "古典跨文明网络", -3000, 500,
      "三大古典文明同时兴起，草原丝路与季风航线把欧亚非连成松散网络。"
-     "文字、宗教、冶铁与马匹沿这些通道流动，犍陀罗艺术是希腊与佛教交汇的产物。"),
+     "文字、宗教、冶铁与马匹沿这些通道流动，犍陀罗艺术是希腊与佛教交汇的产物。",
+     ["fig-zhang-dai", "fig-ashoka", "fig-al-khwarizmi", "fig-augustus",
+      "fig-darius", "fig-genghis-khan"]),
     ("w-cc-medieval", "中古跨文明网络", 501, 1500,
      "伊斯兰世界成为东西贸易的中间人，印度洋季风贸易成熟。"
-     "造纸术、火药、指南针与黑死病先后沿商路跨洲传播，蒙古治世短暂打通了欧亚。"),
+     "造纸术、火药、指南针与黑死病先后沿商路跨洲传播，蒙古治世短暂打通了欧亚。",
+     ["fig-marco-polo", "fig-w-ottoman-founder", "fig-genghis-khan",
+      "fig-kublai-khan", "fig-hulagu", "fig-al-khwarizmi",
+      "fig-alfonso-de-albuquerque", "fig-boccaccio"]),
     ("w-cc-oceanic", "大航海与全球贸易", 1501, 1800,
      "绕过好望角与横渡大西洋的航线把四大洲连成一体。"
-     "哥伦布大交换重组了各洲的作物、人口与生态，白银把美洲、欧洲与亚洲串成一条链。"),
+     "哥伦布大交换重组了各洲的作物、人口与生态，白银把美洲、欧洲与亚洲串成一条链。",
+     ["fig-matteo-ricci", "fig-johann-adam-schell-von-bell", "fig-diderot",
+      "fig-francis-xavier", "fig-immanuel-kant", "fig-john-wesley"]),
     ("w-cc-industrial", "工业时代的全球联系", 1801, 1945,
      "蒸汽船、铁路与海底电报把全球通讯压缩到小时级。"
-     "殖民体系把亚非拉纳入单一市场，同时也催生了反殖民的民族运动。"),
+     "殖民体系把亚非拉纳入单一市场，同时也催生了反殖民的民族运动。",
+     ["fig-victoria", "fig-harry-white", "fig-ho-chi-minh",
+      "fig-ito-hirobumi", "fig-jamsetji-tata", "fig-jawaharlal-nehru"]),
     ("w-cc-contemporary", "当代全球化", 1946, 2026,
      "布雷顿森林体系、集装箱运输与互联网重塑了全球分工。"
-     "气候协定、 pandemic 与人工智能把人类共同问题推到前台。"),
+     "气候协定、 pandemic 与人工智能把人类共同问题推到前台。",
+     ["fig-john-f-kennedy", "fig-castro", "fig-harry-truman",
+      "fig-neil-armstrong", "fig-alan-turing", "fig-angela-merkel"]),
 ]
 
 # 中国史事件 → 世界史中国主线时期。只在年份守卫通过时生效。
@@ -107,14 +122,17 @@ def ensure_cross_civ(periods, events):
             "capital": "—",
             "population": "—",
             "culture": "迁徙、丝路、季风贸易、宗教传播、技术西传、白银与作物交换",
-            "keyFigures": [],
+            # 顶层容器不直接挂事件，代表人物取各子时期的高频者去重汇总。
+            "keyFigures": list(dict.fromkeys(
+                fid for _era in CROSS_CIV_ERAS for fid in _era[5]
+            ))[:8],
             "relatedEvents": [],
             "tags": ["区域专题", "跨文明", "全球联系"],
         }
         periods.append(parent)
 
     # ---- 子时期 ----
-    for pid, name, lo, hi, summary in CROSS_CIV_ERAS:
+    for pid, name, lo, hi, summary, era_figures in CROSS_CIV_ERAS:
         if pid in by_id:
             continue
         child = {
@@ -132,7 +150,7 @@ def ensure_cross_civ(periods, events):
             "capital": "—",
             "population": "—",
             "culture": "跨洲贸易、宗教与技术传播",
-            "keyFigures": [],
+            "keyFigures": list(era_figures),
             "relatedEvents": [],
             "tags": ["跨文明"],
         }
@@ -145,7 +163,7 @@ def ensure_cross_civ(periods, events):
     for e in cc:
         y = e.get("year")
         target = None
-        for pid, _name, lo, hi, _s in CROSS_CIV_ERAS:
+        for pid, _name, lo, hi, _s, _f in CROSS_CIV_ERAS:
             if isinstance(y, int) and lo <= y <= hi:
                 target = pid
                 break

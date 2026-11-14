@@ -23,6 +23,11 @@ GROUP = {
         "w-mesoamerica", "w-andes", "w-east-asia", "w-korea", "w-japan",
         "w-southeast-asia", "w-oceania", "w-near-east-persian",
         "w-han-tang", "w-tang-song", "w-ming-qing",
+        # 南亚/东南亚/非洲/拉美的编年时期（v1.7.0 与 v2.0.0 新增）。
+        # 必须登记在此，否则这些时期不在候选池，人物会被归到欧美主导的时期去。
+        "w-medieval-south-asia", "w-mughal",
+        "w-medieval-southeast-asia", "w-modern-southeast-asia",
+        "w-modern-south-asia", "w-modern-africa", "w-latin-america",
     ],
 }
 
