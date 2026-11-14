@@ -114,6 +114,34 @@ PERIOD_OVERRIDE = {
     "fig-zhou-shuren": "cn-modern-republic",
     "fig-zhang-xueliang": "cn-modern-anti-japan",
     "fig-li-zongren": "cn-modern-anti-japan",
+    # ---- 三国：生于东汉末(155-185)，但历史地位属于三国 ----
+    # 只按生卒年归位会把全部三国人物塞进"东汉"(cn-han-east)，
+    # 使该时期堆积 54 人，而"三国"时期 0 人物。
+    "fig-han-east-cao-cao": "cn-three-wei",
+    "fig-han-east-cao-pi": "cn-three-wei",
+    "fig-han-east-cao-rui": "cn-three-wei",
+    "fig-sima-yi": "cn-three-wei",
+    "fig-sima-zhao": "cn-three-wei",
+    "fig-deng-ai": "cn-three-wei",
+    "fig-zhong-hui": "cn-three-wei",
+    "fig-guo-jia": "cn-three-wei",
+    "fig-xun-yu": "cn-three-wei",
+    "fig-liu-bei": "cn-three-shu",
+    "fig-zhuge-liang": "cn-three-shu",
+    "fig-guan-yu": "cn-three-shu",
+    "fig-zhang-fei": "cn-three-shu",
+    "fig-zhao-yun": "cn-three-shu",
+    "fig-jiang-wei": "cn-three-shu",
+    "fig-sunquan": "cn-three-wu",
+    "fig-zhou-yu": "cn-three-wu",
+    "fig-lu-su": "cn-three-wu",
+    "fig-lu-xun": "cn-three-wu",
+    "fig-lv-meng": "cn-three-wu",
+    "fig-taishi-ci": "cn-three-wu",
+    # ---- 宋辽金：开国皇帝与朝代归属 ----
+    "fig-zhao-kuangyin": "cn-song-north",   # 宋太祖，原误挂辽朝
+    "fig-zhao-guangyi": "cn-song-north",    # 宋太宗，原误挂辽朝
+    "fig-suo-shi": "cn-qing-early",         # 索额图（康熙朝），原误挂明朝
 }
 
 

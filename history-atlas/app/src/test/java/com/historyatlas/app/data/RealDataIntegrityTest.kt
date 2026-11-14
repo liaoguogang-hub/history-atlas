@@ -420,5 +420,41 @@ class RealDataIntegrityTest {
             "共和国建设时期代表人物不合理: " + prcNames,
         )
 
+
+        // v2.5.0：三国人物归位 + 宋辽归属修复
+
+        // 三国核心人物必须归入三国子时期，不得全挤在东汉
+        listOf("曹操", "刘备", "孙权", "诸葛亮", "关羽", "周瑜").forEach { name ->
+            val pid = periodOf(name)
+            assertTrue(
+                pid != null && pid.startsWith("cn-three"),
+                "三国人物 $name 归属错误: " + pid,
+            )
+        }
+
+        // 宋太祖、宋太宗不得挂在辽朝下
+        listOf("赵匡胤", "赵炅").forEach { name ->
+            val pid = periodOf(name)
+            assertTrue(
+                pid == "cn-song-north",
+                "宋朝开国人物 $name 归属错误: " + pid,
+            )
+        }
+
+        // 东汉时期人物数应因三国人物迁出而下降（原 54 人）
+        val hanEastCount = dataset.figures.count { it.periodId == "cn-han-east" }
+        assertTrue(
+            hanEastCount < 45,
+            "东汉时期人物仍然过多（三国人物未迁出）: " + hanEastCount,
+        )
+
+        // 三国时期必须有代表人物
+        val threeKingdoms = dataset.periods.find { it.id == "cn-three-kingdoms" }
+        assertTrue(threeKingdoms != null, "缺少 cn-three-kingdoms")
+        assertTrue(
+            threeKingdoms!!.keyFigures.isNotEmpty(),
+            "三国时期缺代表人物",
+        )
+
 }
 }
