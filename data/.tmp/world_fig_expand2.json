@@ -137,7 +137,7 @@
   ],
   "relatedEvents": [
    "ev-song-founding",
-   "ev-song-wanyan"
+   "ev-w-song-wanyan"
   ],
   "tags": [
    "宋朝",
@@ -221,7 +221,7 @@
   ],
   "relatedEvents": [
    "ev-song-founding",
-   "ev-song-wanyan",
+   "ev-w-song-wanyan",
    "ev-song-wang"
   ],
   "tags": [
@@ -398,7 +398,7 @@
    "fig-shanfu"
   ],
   "relatedEvents": [
-   "ev-song-wanyan",
+   "ev-w-song-wanyan",
    "ev-med-cn-printing",
    "ev-med-cn-compass",
    "ev-song-founding"
@@ -1323,10 +1323,10 @@
    "fig-king-wu"
   ],
   "relatedEvents": [
-   "ev-han-wudi",
-   "ev-han-zhangqian",
+   "ev-w-han-wudi",
+   "ev-w-han-zhangqian",
    "ev-cc-han-scythian-routes",
-   "ev-han-founding"
+   "ev-w-han-founding"
   ],
   "tags": [
    "匈奴",
@@ -1369,9 +1369,6 @@
    "fig-tan-sitong"
   ],
   "relatedEvents": [
-   "ev-may-fourth-detail",
-   "ev-mao-longmarch",
-   "ev-yanan",
    "ev-prc-1949"
   ],
   "tags": [
@@ -1455,7 +1452,7 @@
   ],
   "relatedEvents": [
    "ev-qing-opium",
-   "ev-qing-kangxi",
+   "ev-w-qing-kangxi",
    "ev-cc-opium-silver-flow",
    "ev-qing-reform-1911"
   ],
@@ -2775,7 +2772,7 @@
   ],
   "relatedEvents": [
    "ev-mongol-yuan-china",
-   "ev-yuan-founding",
+   "ev-w-yuan-founding",
    "ev-cc-marcopolo-travel",
    "ev-mongol-pax-mongolica-detail"
   ],
@@ -2856,7 +2853,7 @@
    "fig-shanfu"
   ],
   "relatedEvents": [
-   "ev-tang-xuanzang",
+   "ev-w-tang-xuanzang",
    "ev-cc-tang-west-tibetan",
    "ev-cc-silk-road-envoys",
    "ev-cc-china-rome-envoy-gan"
@@ -3192,9 +3189,7 @@
   ],
   "relatedEvents": [
    "ev-cc-russian-revolution-east",
-   "ev-cc-non-aligned",
-   "ev-1919-may-fourth",
-   "ev-may-fourth-detail"
+   "ev-cc-non-aligned"
   ],
   "tags": [
    "俄国",
