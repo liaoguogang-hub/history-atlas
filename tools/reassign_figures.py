@@ -148,6 +148,22 @@ PERIOD_OVERRIDE = {
     "fig-xi-jinping": "cn-prc-new-era",     # 2012 至今
     "fig-wang-yi": "cn-prc-new-era",        # 2013 至今任外长
     "fig-li-keqiang": "cn-prc-new-era",     # 2013-2023 任总理
+    # ---- 解放战争时期人物（1945-1949）----
+    # 该时期仅 4 年，人物生卒远宽于区间，按生卒年归位会散落到
+    # cn-qing-late / cn-prc-early 等时期。统一归入 cn-prc-early，
+    # 再通过 cn-modern-liberation 的 keyFigures 关联到解放战争。
+    "fig-zzbq27-chiang": "cn-prc-early",
+    "fig-zzbq27-li-zongren": "cn-prc-early",
+    "fig-zzbq27-bai": "cn-prc-early",
+    "fig-zzbq27-suyu": "cn-prc-early",
+    "fig-zzbq27-luo": "cn-prc-early",
+    "fig-zzbq27-duyuming": "cn-prc-early",
+    "fig-zzbq27-fuzuoyi": "cn-prc-early",
+    "fig-zzbq27-zhangzhizhong": "cn-prc-early",
+    "fig-zzbq27-chen-yi": "cn-prc-early",
+    "fig-zzbq27-truman": "cn-prc-early",
+    # 林彪：原被归到 cn-qing-late（晚清），实际属共和国早期
+    "fig-lin-biao": "cn-prc-early",
 }
 
 

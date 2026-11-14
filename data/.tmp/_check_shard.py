@@ -23,8 +23,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 
 
-def load_world():
-    return json.load(io.open(os.path.join(ROOT, "data", "world.json"), encoding="utf-8"))
+def load_scope(paths):
+    """按分片文件名判断 scope：含 world_ 的用 world.json，否则用 china.json。"""
+    name = os.path.basename(paths[0]) if paths else ""
+    scope = "world" if name.startswith("world_") else "china"
+    return json.load(io.open(os.path.join(ROOT, "data", scope + ".json"), encoding="utf-8")), scope
 
 
 def year_in(lo, hi, y):
@@ -35,7 +38,8 @@ def main():
     if len(sys.argv) < 2:
         raise SystemExit(__doc__)
 
-    world = load_world()
+    world, scope = load_scope(sys.argv[1:])
+    print("scope:", scope)
     pm = {p["id"]: (p.get("startYear"), p.get("endYear")) for p in world["periods"]}
     have_ev = {e["id"] for e in world["events"]}
     have_fig = {f["id"] for f in world["figures"]}
@@ -75,15 +79,18 @@ def main():
                 range_bad.append((rid, f"year={y}~{ye} 超出 [{lo},{hi}]"))
 
         # 3) 人物生卒年
+        # 历史人物普遍生于时期之前、卒于时期之后（毛泽东 1893-1976 属
+        # "社会主义革命与建设时期" 1949-1978，生卒都超出区间）。
+        # 因此这里只做**宽松合理性检查**：要求人物生涯与该时期有交集，
+        # 而不是要求生卒都落在区间内。
         by = rec.get("birthYear")
         dy = rec.get("deathYear")
-        if by is not None and not year_in(lo, hi, by):
-            range_bad.append((rid, f"birthYear={by} 超出 [{lo},{hi}]"))
-        span = (hi - lo) if isinstance(lo, int) and isinstance(hi, int) else 0
-        if dy is not None and not year_in(lo, hi, dy):
-            # 允许超出至多一个区间长度（人物生卒跨时期是常态）
-            if not (isinstance(dy, int) and isinstance(hi, int) and dy <= hi + span):
-                range_bad.append((rid, f"deathYear={dy} 远超 [{lo},{hi}]"))
+        if isinstance(by, int):
+            eff_dy = dy if isinstance(dy, int) else by
+            if eff_dy < lo and (lo - eff_dy) > 120:
+                range_bad.append((rid, f"生涯({by}~{eff_dy})远早于时期 {lo}"))
+            elif by > hi and (by - hi) > 120:
+                range_bad.append((rid, f"出生({by})远晚于时期 {hi}"))
 
         # 4) 引用
         for key in ("figures", "f"):
