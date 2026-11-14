@@ -1769,7 +1769,7 @@
    "fig-liu-xiu"
   ],
   "relatedEvents": [
-   "ev-han-wenjing",
+   "ev-han-chimei",
    "ev-han-tui-en",
    "ev-han-bagua",
    "ev-han-chimei"
@@ -1816,7 +1816,7 @@
    "fig-han-wudi"
   ],
   "relatedEvents": [
-   "ev-han-wenjing",
+   "ev-han-chimei",
    "ev-han-chimei",
    "ev-han-tui-en"
   ],
@@ -1862,7 +1862,7 @@
    "fig-dong-zhongshu"
   ],
   "relatedEvents": [
-   "ev-han-wenjing",
+   "ev-han-chimei",
    "ev-han-wudi",
    "ev-han-chimei"
   ],
@@ -2391,7 +2391,7 @@
   "relatedEvents": [
    "ev-weijin-wei-founding",
    "ev-three-zhuge-liang",
-   "ev-weijin-sima-power"
+   "ev-three-gaopingling"
   ],
   "tags": [
    "三国",
@@ -2435,7 +2435,7 @@
   ],
   "relatedEvents": [
    "ev-three-gaopingling",
-   "ev-weijin-sima-power"
+   "ev-three-gaopingling"
   ],
   "tags": [
    "三国",
@@ -2479,7 +2479,7 @@
   ],
   "relatedEvents": [
    "ev-three-gaopingling",
-   "ev-weijin-sima-power",
+   "ev-three-gaopingling",
    "ev-three-wei-ding"
   ],
   "tags": [
@@ -2526,7 +2526,7 @@
   ],
   "relatedEvents": [
    "ev-three-gaopingling",
-   "ev-weijin-sima-power",
+   "ev-three-gaopingling",
    "ev-weijin-jin-unify",
    "ev-three-wei-ding"
   ],
@@ -2923,7 +2923,7 @@
   ],
   "relatedEvents": [
    "ev-weijin-guan-dong",
-   "ev-weijin-sima-power"
+   "ev-three-gaopingling"
   ],
   "tags": [
    "三国",
@@ -3015,7 +3015,7 @@
   "relatedEvents": [
    "ev-weijin-dongjin",
    "ev-weijin-nanqian",
-   "ev-weijin-yongjia",
+   "ev-jin-yongjia",
    "ev-jin-dongjin",
    "ev-jin-yongle-2"
   ],
@@ -3108,7 +3108,7 @@
   "relatedEvents": [
    "ev-jin-feishui",
    "ev-jin-lanting",
-   "ev-weijin-yongjia",
+   "ev-jin-yongjia",
    "ev-weijin-taiping"
   ],
   "tags": [
@@ -3245,7 +3245,7 @@
    "fig-wang-dun"
   ],
   "relatedEvents": [
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-weijin-taikang",
    "ev-weijin-dongjin"
   ],
@@ -3525,7 +3525,7 @@
   ],
   "relatedEvents": [
    "ev-weijin-liu-yuan",
-   "ev-weijin-yongjia",
+   "ev-jin-yongjia",
    "ev-weijin-luoyang-fall"
   ],
   "tags": [
@@ -3572,7 +3572,7 @@
   "relatedEvents": [
    "ev-weijin-taiping",
    "ev-jin-feishui",
-   "ev-jin-taiping"
+   "ev-weijin-taikang"
   ],
   "tags": [
    "东晋",
@@ -3941,7 +3941,7 @@
   "relatedEvents": [
    "ev-weijin-wu-fall",
    "ev-three-jinrongwu",
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-weijin-jin-unify"
   ],
   "tags": [
@@ -4076,7 +4076,7 @@
    "fig-jin-west-liu-yao"
   ],
   "relatedEvents": [
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-weijin-eight-princes",
    "ev-weijin-liu-yuan"
   ],
@@ -4120,7 +4120,7 @@
   ],
   "relatedEvents": [
    "ev-weijin-eight-princes",
-   "ev-jin-taiping"
+   "ev-weijin-taikang"
   ],
   "tags": [
    "西晋",
@@ -4573,7 +4573,7 @@
   ],
   "relatedEvents": [
    "ev-jin-yongjia",
-   "ev-weijin-yongjia",
+   "ev-jin-yongjia",
    "ev-weijin-eight-princes",
    "ev-weijin-luoyang-fall"
   ],
@@ -4620,7 +4620,7 @@
    "fig-wang-dao"
   ],
   "relatedEvents": [
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-jin-yongjia",
    "ev-weijin-eight-princes",
    "ev-weijin-luoyang-fall"
@@ -4666,7 +4666,7 @@
    "fig-liu-yao-2"
   ],
   "relatedEvents": [
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-jin-yongjia",
    "ev-weijin-luoyang-fall",
    "ev-weijin-eight-princes"
@@ -4712,7 +4712,7 @@
   ],
   "relatedEvents": [
    "ev-jin-yongjia",
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-weijin-luoyang-fall"
   ],
   "tags": [
@@ -4756,7 +4756,7 @@
   ],
   "relatedEvents": [
    "ev-three-wei-ding",
-   "ev-jin-taiping",
+   "ev-weijin-taikang",
    "ev-weijin-jin-unify",
    "ev-jin-yongjia"
   ],
@@ -4803,7 +4803,7 @@
   "relatedEvents": [
    "ev-three-wei-ding",
    "ev-three-gaopingling",
-   "ev-weijin-sima-power"
+   "ev-three-gaopingling"
   ],
   "tags": [
    "曹魏",
@@ -4843,7 +4843,7 @@
   ],
   "relatedEvents": [
    "ev-weijin-eight-princes",
-   "ev-jin-taiping"
+   "ev-weijin-taikang"
   ],
   "tags": [
    "西晋",
@@ -4928,7 +4928,7 @@
   "relatedEvents": [
    "ev-han-danggu",
    "ev-han-party-frison",
-   "ev-han-yellow-turban"
+   "ev-han-huangjin"
   ],
   "tags": [
    "东汉",
@@ -5058,7 +5058,7 @@
    "fig-gu-rong"
   ],
   "relatedEvents": [
-   "ev-weijin-yongjia",
+   "ev-jin-yongjia",
    "ev-weijin-nanqian"
   ],
   "tags": [
@@ -5099,7 +5099,7 @@
   ],
   "relatedEvents": [
    "ev-weijin-taiping",
-   "ev-jin-taiping"
+   "ev-weijin-taikang"
   ],
   "tags": [
    "东晋",
@@ -5141,7 +5141,7 @@
    "fig-gu-rong"
   ],
   "relatedEvents": [
-   "ev-weijin-yongjia",
+   "ev-jin-yongjia",
    "ev-nanbei-nanbei-south"
   ],
   "tags": [
@@ -5306,7 +5306,7 @@
    "fig-han-east-han-xiandi"
   ],
   "relatedEvents": [
-   "ev-han-yellow-turban",
+   "ev-han-huangjin",
    "ev-han-party-frison"
   ],
   "tags": [
@@ -5525,7 +5525,7 @@
   "relatedEvents": [
    "ev-han-founding",
    "ev-han-bagua",
-   "ev-han-wenjing"
+   "ev-han-chimei"
   ],
   "tags": [
    "西汉",
@@ -5568,7 +5568,7 @@
   ],
   "relatedEvents": [
    "ev-weijin-liuyu",
-   "ev-jin-taiping"
+   "ev-weijin-taikang"
   ],
   "tags": [
    "东晋",

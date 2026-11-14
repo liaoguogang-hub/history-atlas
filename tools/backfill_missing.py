@@ -573,6 +573,15 @@ MISSING_FIG = {
 }
 
 
+# 墓碑清单：这些 id 已被显式合并到另一条事件，绝不能再被回填「复活」。
+# 原因：periods 的 relatedEvents 里可能仍残留对它们的引用，若不加拦截，
+# 本脚本会依据引用重新造出一条空壳事件，使已清除的重复条目复活。
+TOMBSTONE = {
+    "ev-jin-taikang": "太康之治",         # 已合并进 ev-weijin-taikang（内容更全）
+    "ev-song-founding": "北宋建立",       # 已合并进 ev-zzbq2-chenqiao（内容更全）
+}
+
+
 def main():
     path = sys.argv[1]
     data = json.load(io.open(path, encoding="utf-8"))
@@ -583,6 +592,8 @@ def main():
     new_events = []
     for eid, (name, year, summary, cat, imp) in EV.items():
         if eid in event_ids:
+            continue
+        if eid in TOMBSTONE:
             continue
         pid = None
         best = None

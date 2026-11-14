@@ -49,7 +49,7 @@ class RealDataIntegrityTest {
         val dataset = loadWorld()
 
         assertTrue(dataset.periods.size >= 92, "世界史时期数异常: ${dataset.periods.size}")
-        assertTrue(dataset.events.size >= 439, "世界史事件数低于预期: ${dataset.events.size}")
+        assertTrue(dataset.events.size >= 438, "世界史事件数低于预期: ${dataset.events.size}")
         assertTrue(dataset.figures.size >= 272, "世界史人物数低于预期: ${dataset.figures.size}")
 
         val eventNames = dataset.events.map { it.name }
@@ -98,6 +98,15 @@ class RealDataIntegrityTest {
                "室利佛逝", "婆罗浮屠", "马六甲").forEach { name ->
             assertTrue(eventNames.any { it.contains(name) }, "世界史缺少事件: $name")
         }
+        // 事件名不得是英文空壳（backfill 兜底生成的 jin taikang 之类）
+        val shellLike = dataset.events.filter { e ->
+            Regex("[a-zA-Z]{3,}").containsMatchIn(e.name)
+        }
+        assertTrue(
+            shellLike.isEmpty(),
+            "存在英文空壳事件名: " + shellLike.joinToString { it.id + "=" + it.name },
+        )
+
         // 畸形 id 必须已修正
         val figureIds = dataset.figures.map { it.id }
         assertTrue(figureIds.none { it == "fig-sherlock-plo" }, "畸形 id fig-sherlock-plo 未修复")
@@ -112,7 +121,7 @@ class RealDataIntegrityTest {
 
         // 基础规模
         assertTrue(dataset.periods.size >= 60, "时期数异常: ${dataset.periods.size}")
-        assertTrue(dataset.events.size >= 426, "事件数低于预期: ${dataset.events.size}")
+        assertTrue(dataset.events.size >= 415, "事件数低于预期: ${dataset.events.size}")
         assertTrue(dataset.figures.size >= 482, "人物数低于预期: ${dataset.figures.size}")
 
         // 第一批（春秋战国）补充必须存在

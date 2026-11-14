@@ -221,7 +221,7 @@
     "ev-han-zhangqian",
     "ev-han-siluroad",
     "ev-han-wangmang",
-    "ev-han-yellow-turban",
+    "ev-han-huangjin",
     "ev-han-fall"
    ],
    "tags": [
@@ -259,7 +259,7 @@
    "relatedEvents": [
     "ev-weijin-red-cliffs",
     "ev-weijin-eight-princes",
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-jin-feishui",
     "ev-weijin-northern-wei",
     "ev-weijin-xiaowen-hanization",
@@ -303,7 +303,7 @@
     "ev-suita-kemu",
     "ev-suita-grand-canal",
     "ev-tang-zhenguan",
-    "ev-tang-kaiyuan",
+    "ev-tang-kaixuan",
     "ev-tang-anlushan",
     "ev-tang-fall"
    ],
@@ -345,7 +345,7 @@
     "ev-wudai-houtang",
     "ev-wudai-houjin",
     "ev-wudai-zhou",
-    "ev-wudai-song-founding"
+    "ev-zzbq2-chenqiao"
    ],
    "tags": [
     "编年主干",
@@ -380,7 +380,7 @@
     "fig-suo-shi"
    ],
    "relatedEvents": [
-    "ev-wudai-song-founding",
+    "ev-zzbq2-chenqiao",
     "ev-song-qinliang",
     "ev-song-liao-chanyuan",
     "ev-song-jingkang",
@@ -917,7 +917,7 @@
    ],
    "relatedEvents": [
     "ev-han-founding",
-    "ev-han-wenjing",
+    "ev-han-chimei",
     "ev-han-wudi",
     "ev-han-tui-en",
     "ev-han-salt-iron",
@@ -997,7 +997,7 @@
     "ev-han-zhangheng",
     "ev-han-buddhism",
     "ev-han-party-frison",
-    "ev-han-yellow-turban",
+    "ev-han-huangjin",
     "ev-han-fall"
    ],
    "tags": [
@@ -1034,7 +1034,7 @@
    "relatedEvents": [
     "ev-weijin-three-kingdoms",
     "ev-weijin-red-cliffs",
-    "ev-weijin-yiling",
+    "ev-three-yiling",
     "ev-weijin-chu-han",
     "ev-weijin-shu-fall",
     "ev-weijin-wu-fall"
@@ -1112,7 +1112,7 @@
     "ev-weijin-wei-founding",
     "ev-weijin-guan-dong",
     "ev-weijin-guan-dong-2",
-    "ev-weijin-sima-power",
+    "ev-three-gaopingling",
     "ev-weijin-jin-unify"
    ],
    "tags": [
@@ -1147,7 +1147,7 @@
    ],
    "relatedEvents": [
     "ev-weijin-three-kingdoms",
-    "ev-weijin-yiling",
+    "ev-three-yiling",
     "ev-weijin-eight-princes",
     "ev-weijin-wu-fall"
    ],
@@ -1186,7 +1186,7 @@
     "ev-weijin-jin-unify",
     "ev-weijin-taikang",
     "ev-weijin-eight-princes",
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-weijin-dongjin",
     "ev-weijin-nanqian",
     "ev-weijin-taiping"
@@ -1225,7 +1225,7 @@
     "ev-weijin-taikang",
     "ev-weijin-eight-princes",
     "ev-weijin-liu-yuan",
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-weijin-luoyang-fall"
    ],
    "tags": [
@@ -1487,7 +1487,7 @@
     "ev-tang-founding",
     "ev-tang-xuanwumen",
     "ev-tang-zhenguan",
-    "ev-tang-kaiyuan",
+    "ev-tang-kaixuan",
     "ev-tang-xuanzang",
     "ev-tang-anlushan",
     "ev-tang-huangchao",
@@ -1528,7 +1528,7 @@
     "ev-tang-xuanwumen",
     "ev-tang-zhenguan",
     "ev-tang-wuzetian",
-    "ev-tang-kaiyuan",
+    "ev-tang-kaixuan",
     "ev-tang-xuanzang",
     "ev-tang-jianzhen",
     "ev-tang-chang-an"
@@ -1646,7 +1646,6 @@
     "ev-wudai-liang",
     "ev-wudai-houtang",
     "ev-wudai-houjin",
-    "ev-wudai-yanyun",
     "ev-wudai-han",
     "ev-wudai-zhou",
     "ev-wudai-houzhou"
@@ -1724,7 +1723,7 @@
     "fig-suo-shi"
    ],
    "relatedEvents": [
-    "ev-wudai-song-founding",
+    "ev-zzbq2-chenqiao",
     "ev-song-cup-wine",
     "ev-song-qinliang",
     "ev-song-wanganshi",
@@ -2077,7 +2076,7 @@
     "ev-qing-tifa",
     "ev-qing-sanfan",
     "ev-qing-taiwan",
-    "ev-qing-yaksa",
+    "ev-zzbq4-nibuchu",
     "ev-qing-nivchu",
     "ev-qing-junji"
    ],
@@ -4630,32 +4629,6 @@
    ]
   },
   {
-   "id": "ev-han-wenjing",
-   "name": "文景之治与黄老之治",
-   "year": -180,
-   "yearEnd": -157,
-   "dateText": "公元前180年－公元前157年",
-   "periodId": "cn-han-west",
-   "category": "political",
-   "location": "长安、洛阳",
-   "summary": "汉文帝、汉景帝父子奉行黄老无为之治，轻徭薄赋，与民休息，积累出文景之治的富庶。",
-   "detail": "吕后于公元前180年崩，周勃与陈平等迎汉文帝刘恒即位。文帝在位期间奉行黄老之治，与民休息：他本为代王，在代地时与民休息，数年而国富。即位后重视农事，屡下劝农诏；减轻徭役，改为三十税一，一夫一妇田百亩；减轻徭役，罢造母可供佛；十五年才一次访美；除肉刑，改为笞刑；弛山泽之禁，允许入山泽采捕；设 太仓以积谷赈饥。文帝还曾欲露台以直谏而省露台之费，可见其爱惜民力。景帝继续推行休养生息，削藩以抑诸侯，吴楚七国之乱平定后诸侯王不得治民，行政权归中央；更名刑，狱事死者不弃市，使百姓畏法而不怨。",
-   "importance": 5,
-   "figures": [
-    "fig-liu-ying",
-    "fig-dou-ing",
-    "fig-liu-qi",
-    "fig-chen-ping"
-   ],
-   "tags": [
-    "汉",
-    "文景之治",
-    "黄老之治",
-    "轻徭薄赋",
-    "休养生息"
-   ]
-  },
-  {
    "id": "ev-han-wudi",
    "name": "汉武帝即位与崇儒政策",
    "year": -141,
@@ -5155,31 +5128,6 @@
    ]
   },
   {
-   "id": "ev-han-yellow-turban",
-   "name": "黄巾起义与汉朝名存实亡",
-   "year": 184,
-   "yearEnd": null,
-   "dateText": "公元184年",
-   "periodId": "cn-han-east",
-   "category": "social",
-   "location": "冀州、洛阳",
-   "summary": "张角以太平道号召信众同时举旗，黄巾起义席卷全国，东汉王朝由此走向瓦解。",
-   "detail": "中平元年（公元184年），太平道张角以当世三分、太平 之说号召信众，其徒遍及八州之地，众数十万，连结数十万众，皆著黄巾。甲子日京师及八州同时举旗，天下响应。灵帝遣皇甫嵩等分讨，初期屡败，朝廷大赦党人以广耳目，拜卢植为北中郎将，张角据广宗固守，用火攻破于皇甫嵩，夜纵火，角病死被剖棺戮尸。起义虽在年内基本平定，却造成大量死亡与流亡，州郡残破、国库空竭。为镇压起义，朝廷大量募兵并授予地方州牧兵权，州牧由此权力膨胀，中央集权彻底瓦解。豪强趁乱兼并土地，形成大大小小的武装割据，东汉王朝由此名存实亡。",
-   "importance": 5,
-   "figures": [
-    "fig-zhang-jiao",
-    "fig-liu-ying",
-    "fig-huangfu-song"
-   ],
-   "tags": [
-    "东汉",
-    "黄巾起义",
-    "太平道",
-    "州牧",
-    "东汉瓦解"
-   ]
-  },
-  {
    "id": "ev-han-fall",
    "name": "曹操挟天子与汉朝灭亡",
    "year": 220,
@@ -5515,32 +5463,6 @@
    ]
   },
   {
-   "id": "ev-weijin-yiling",
-   "name": "夷陵之战与猇亭大捷",
-   "year": 222,
-   "yearEnd": null,
-   "dateText": "公元222年",
-   "periodId": "cn-three-wu",
-   "category": "conflict",
-   "location": "夷陵、猇亭",
-   "summary": "陆逊以火攻击破刘备水陆大军于夷陵猇亭，蜀汉东进受挫，三国格局趋于稳定。",
-   "detail": "章武元年，为报关羽之仇并争夺荆州，刘备率数万众沿长江东下，连破吴将李异、秦宥等人，推进至猇亭，与陆逊相对。陆逊坚守不战，数十日相持后见蜀军疲敝，乃令诸将悉备御，自将一军逊督诸军，备自巫峡建平连围至夷陵界，立数十屯，以金锦爵赏诱动诸夷越人及东吴降附者。相拒七八月，时当盛夏，吴军避暑，蜀军则暑热难当，移营于林木茂密之处。陆逊见其移营，即命各乘船鼓噪而进，以所持束薪草为火把，顺风而燃，遇蜀军营寨焚之。蜀军大乱，舟船器械水步军资一时略尽，尸骸漂流，塞江而下。备升马鞍山，陈兵自绕。陆逊督促诸军四面蹙之，备因夜遁，驿人自担，烧铙铠断后，仅得入白帝城，次年病死于永安宫。",
-   "importance": 4,
-   "figures": [
-    "fig-liu-bei",
-    "fig-lu-xun",
-    "fig-zhang-fei",
-    "fig-lv-meng"
-   ],
-   "tags": [
-    "三国",
-    "夷陵之战",
-    "猇亭",
-    "陆逊",
-    "火攻"
-   ]
-  },
-  {
    "id": "ev-weijin-chibiao",
    "name": "诸葛亮上《出师表》与第一次北伐",
    "year": 227,
@@ -5795,31 +5717,6 @@
    ]
   },
   {
-   "id": "ev-weijin-sima-power",
-   "name": "司马懿专政与高平陵之变",
-   "year": 249,
-   "yearEnd": null,
-   "dateText": "公元249年",
-   "periodId": "cn-three-wei",
-   "category": "political",
-   "location": "洛阳",
-   "summary": "司马懿诛曹爽而掌魏政，此后父子相继专权，为司马氏代魏埋下伏笔。",
-   "detail": "魏帝曹芳已成年而不能亲政，司马懿与曹爽共辅政。太傅司马懿与中书令曹爽争夺权力，迁曹爽出朝任骠骑将军而置于洛阳。嘉平元年，曹爽兄弟随帝谒高平陵，司马懿在洛阳与洛阳人曹羲谋，率兵闭洛阳城门，奏免曹爽兄弟。上奏后即行讨伐，桓范劝曹爽解印还许昌召外兵，曹爽信其诺，解印而去，既至许昌则悔，桓范曰：公将以何等名上传天子乎。爽乃告急于信都、淮南，骆谷之兵不发。司马懿使人上奏太后，请免曹爽。爽兄弟与诸党人皆归罪请死，尽诛之。曹爽既诛，司马懿以兵权归朝廷而自专政，之后诛诸葛诞、毋丘俭，架空魏帝。嘉平二年司马懿死，司马师继立。",
-   "importance": 5,
-   "figures": [
-    "fig-sima-yi",
-    "fig-cao-shuang",
-    "fig-sima-shi"
-   ],
-   "tags": [
-    "三国",
-    "司马懿",
-    "高平陵之变",
-    "曹爽",
-    "权臣"
-   ]
-  },
-  {
    "id": "ev-weijin-jin-unify",
    "name": "司马炎代魏建立西晋",
    "year": 265,
@@ -5917,35 +5814,6 @@
     "汉赵",
     "五胡",
     "匈奴"
-   ]
-  },
-  {
-   "id": "ev-weijin-yongjia",
-   "name": "永嘉之乱与洛阳陷落",
-   "year": 311,
-   "yearEnd": null,
-   "dateText": "公元311年",
-   "periodId": "cn-jin-west",
-   "category": "conflict",
-   "location": "洛阳、长安、枋头",
-   "summary": "刘曜石勒攻破洛阳，掳晋怀帝北去，西晋灭亡，中原士族大规模南迁。",
-   "detail": "永嘉五年，匈奴汉国将领刘曜、王弥、呼延晏等率军攻破洛阳，晋怀帝被俘，焚烧洛阳宫庙，逼辱晋帝于平阳。刘曜平陈郡，斩王弥于项；石勒与刘曜共攻平阳，曜还师长安。建兴四年，晋愍帝出降于刘曜，西晋灭亡，史称永嘉之乱。石勒在王衍等士族引导下攻陷建康外围的琅琊、彭城；随后转战中原，在河南诸郡掳掠，充实其势力。永嘉之乱造成中原士族空前浩劫，史称衣冠南渡，琅琊王氏、太原王氏、范阳卢氏等纷纷渡江，王导王敦等王谢家族侨居建康，江左立国的基础由此奠定。",
-   "importance": 5,
-   "figures": [
-    "fig-liu-yao-2",
-    "fig-shi-le",
-    "fig-liu-mao",
-    "fig-wang-yan",
-    "fig-wang-dun",
-    "fig-wang-dao",
-    "fig-jin-west-wang-yan"
-   ],
-   "tags": [
-    "晋",
-    "永嘉之乱",
-    "洛阳陷落",
-    "西晋灭亡",
-    "衣冠南渡"
    ]
   },
   {
@@ -6779,27 +6647,6 @@
    ]
   },
   {
-   "id": "ev-tang-kaiyuan",
-   "name": "开元盛世与唐玄宗前期",
-   "year": 713,
-   "yearEnd": 741,
-   "dateText": "公元713年－公元741年",
-   "periodId": "cn-tang-early",
-   "category": "political",
-   "location": "长安、洛阳",
-   "summary": "唐玄宗前期励精图治，选用姚崇宋璟，整顿吏治、抑制兼并，使天下殷富。",
-   "detail": "先天元年，唐玄宗即位，先诛太平公主及其党，隆基而后稳居大位。他先后任用姚崇、宋璟、韩休等为相。特别是开元初年，应吏部尚书宋璟之请，罢去武后以来积累的十余万逃户与逃兵，允许逃亡者归籍；整顿吏治，循名责实，罢酷吏，诛恶吏。经济上劝课农桑，兴修水利，义仓与常平仓遍布天下，粮储丰盈；户口由天宝元年的一百九十六万户增至八百万余户；长安、洛阳、扬州、成都等城市人口激增。此时期海内富安，道路万里不拾遗，行者不赍粮，物价低廉，长安城内外居住人口百万以上，中外商旅云集。史称开元盛世，与贞观之治并称，为唐代的顶点。",
-   "importance": 5,
-   "tags": [
-    "唐",
-    "开元盛世",
-    "唐玄宗",
-    "姚崇宋璟",
-    "户口"
-   ],
-   "figures": []
-  },
-  {
    "id": "ev-tang-xuanzang",
    "name": "玄奘西行取经与《大唐西域记》",
    "year": 629,
@@ -7439,11 +7286,13 @@
    "category": "political",
    "location": "",
    "summary": "汉文帝与汉景帝轻徭薄赋、与民休息，形成西汉前期的治世局面。",
-   "detail": "汉文帝与汉景帝父子相继在位四十余年，延续了高祖以来的休养生息之策，形成中国历史上第一个著名的治世，史称文景之治。政策上最重要的变化是大幅减轻民间负担：田租减为三十税一，并多次免收；徭役改为「一月三十日」，且允许更代；废除肉刑，改用笞杖、徒刑等刑罚；抑制兼并，取缔豪强田宅，限制地方长官以权谋私；轻徭薄赋之外，还注意与民休息，提倡节俭，官吏以身作则。当时的宫廷开支被压到最低，汉文帝曾欲建露台，召匠人计其费用，「百金」而止，可见其节俭程度。对外方面，文帝、景帝一改高祖以来的武力进攻北匈奴的政策，采取和亲与防御相结合的方针，减轻了边防驻军的巨大耗费。文景之治为武帝时期的大国扩张奠定了物质基础：国家户口从高祖初年的不足千万增至文景之末的三千余万，垦田面积大幅扩展，粮仓「 modification 富」至「陈陈相因」，府库充盈，社会秩序稳定。但治世背后也埋下隐患：土地兼并并未真正遏制，豪强势力在积蓄力量；匈奴和亲的政策在武帝时被彻底放弃，引发了长达数十年、代价极大的战争；皇权对地方的控制仍显薄弱，各诸侯王国的势力逐步坐大。景帝时爆发吴楚七国之乱，虽然平定叛乱并削藩，卻也削去了景帝的一部分锐气。文景之治因此常被视为西汉由盛转衰的枢纽：它既是文治的顶点，也为随后的转折埋下了伏笔。",
+   "detail": "汉文帝与汉景帝父子相继在位四十余年，延续了高祖以来的休养生息之策，形成中国历史上第一个著名的治世，史称文景之治。政策上最重要的变化是大幅减轻民间负担：田租减为三十税一，并多次免收；徭役改为「一月三十日」，且允许更代；废除肉刑，改用笞杖、徒刑等刑罚；抑制兼并，取缔豪强田宅，限制地方长官以权谋私；轻徭薄赋之外，还注意与民休息，提倡节俭，官吏以身作则。当时的宫廷开支被压到最低，汉文帝曾欲建露台，召匠人计其费用，「百金」而止，可见其节俭程度。对外方面，文帝、景帝一改高祖以来的武力进攻北匈奴的政策，采取和亲与防御相结合的方针，减轻了边防驻军的巨大耗费。文景之治为武帝时期的大国扩张奠定了物质基础：国家户口从高祖初年的不足千万增至文景之末的三千余万，垦田面积大幅扩展，粮仓「陈陈相因」，府库充盈，社会秩序稳定。但治世背后也埋下隐患：土地兼并并未真正遏制，豪强势力在积蓄力量；匈奴和亲的政策在武帝时被彻底放弃，引发了长达数十年、代价极大的战争；皇权对地方的控制仍显薄弱，各诸侯王国的势力逐步坐大。景帝时爆发吴楚七国之乱，虽然平定叛乱并削藩，却也削去了景帝的一部分锐气。文景之治因此常被视为西汉由盛转衰的枢纽：它既是文治的顶点，也为随后的转折埋下了伏笔。",
    "importance": 5,
    "figures": [
     "fig-liu-ying",
-    "fig-liu-qi"
+    "fig-dou-ing",
+    "fig-liu-qi",
+    "fig-chen-ping"
    ],
    "tags": [
     "汉",
@@ -7464,6 +7313,7 @@
    "importance": 5,
    "figures": [
     "fig-zhang-jiao",
+    "fig-liu-ying",
     "fig-huangfu-song"
    ],
    "tags": [
@@ -7526,26 +7376,6 @@
    "tags": [
     "隋",
     "运河"
-   ]
-  },
-  {
-   "id": "ev-wudai-yanyun",
-   "name": "燕云十六州割让与后晋建立",
-   "year": 936,
-   "yearEnd": null,
-   "dateText": "公元936年",
-   "periodId": "cn-wudai-north",
-   "category": "political",
-   "location": "",
-   "summary": "石敬瑭借契丹兵灭后唐、建后晋，割燕云十六州并称「儿皇帝」。",
-   "detail": "清泰三年（936年），后唐河东节度使石敬瑭被末帝猜忌，遂向契丹求援，许诺割让卢龙一道及雁门关以北诸州，并称契丹主耶律德光为「父皇帝」，自称「儿皇帝」。契丹出兵助其灭后唐，石敬瑭建立后晋，随即割燕云十六州（今北京、天津、河北北部与山西北部一带）予契丹，并每年输帛三十万匹。燕云十六州是中原的北方屏障，失之则华北平原无险可守，此后四百年间中原王朝屡受北方威胁，宋朝收复燕云的努力亦始终未成。",
-   "importance": 5,
-   "figures": [
-    "fig-stone-jingmao"
-   ],
-   "tags": [
-    "五代",
-    "燕云十六州"
    ]
   },
   {
@@ -7766,26 +7596,6 @@
     "十国",
     "李煜",
     "词"
-   ]
-  },
-  {
-   "id": "ev-wudai-song-founding",
-   "name": "北宋建立",
-   "year": 960,
-   "yearEnd": null,
-   "dateText": "公元960年",
-   "periodId": "cn-song-north",
-   "category": "dynasty",
-   "location": "",
-   "summary": "陈桥兵变，赵匡胤黄袍加身建立宋朝，定都汴京，结束五代分裂。",
-   "detail": "显德七年（960年）正月初一，后周朝廷接到契丹与北汉联兵南下的边报，殿前都点检赵匡胤奉命率军北上。初三夜，大军在陈桥驿（今河南封丘）发生兵变，将士以黄袍加于赵匡胤之身，拥立其为帝。赵匡胤随即回师汴京，逼周恭帝禅位，建立宋朝，史称北宋，改元建隆。此后他采纳赵普「先南后北」之策，先后平定荆南、后蜀、南汉、南唐等割据政权；又以「杯酒释兵权」解除禁军将领兵权，把军权集中于皇帝，彻底终结了五代武人跋扈的局面。",
-   "importance": 5,
-   "figures": [
-    "fig-zhao-kuangyin"
-   ],
-   "tags": [
-    "宋",
-    "陈桥兵变"
    ]
   },
   {
@@ -8248,26 +8058,6 @@
    "tags": [
     "东晋",
     "南渡"
-   ]
-  },
-  {
-   "id": "ev-jin-taiping",
-   "name": "太康之治",
-   "year": 280,
-   "yearEnd": null,
-   "dateText": "公元280年",
-   "periodId": "cn-jin-west",
-   "category": "political",
-   "location": "",
-   "summary": "西晋灭吴统一全国后出现短暂繁荣，史称太康之治。",
-   "detail": "太康元年（280年），晋武帝司马炎派王濬、杜预等六路大军灭吴，结束了三国分裂局面，全国重归统一。此后数年，西晋推行占田制与户调式，鼓励农桑，人口与耕地有所恢复，社会一度安定，史称「太康之治」。但这一治世十分短暂：司马炎大封宗室为王，又选立智力低下的司马衷为太子，为日后的八王之乱埋下祸根。太康年间也是门阀士族竞相奢靡的时期，石崇、王恺斗富的故事即出于此。",
-   "importance": 3,
-   "figures": [
-    "fig-du-yu"
-   ],
-   "tags": [
-    "西晋",
-    "太康"
    ]
   },
   {
@@ -8747,26 +8537,6 @@
    "tags": [
     "清",
     "剃发"
-   ]
-  },
-  {
-   "id": "ev-qing-yaksa",
-   "name": "雅克萨之战",
-   "year": 1685,
-   "yearEnd": null,
-   "dateText": "公元1685年",
-   "periodId": "cn-qing-early",
-   "category": "military",
-   "location": "",
-   "summary": "清军两次围攻雅克萨，击败沙俄入侵者，随后签订《尼布楚条约》。",
-   "detail": "沙俄自十七世纪中叶起进入黑龙江流域，在雅克萨筑城劫掠。康熙二十四年（1685年），清军派彭春率军围攻雅克萨，迫使俄军投降退往尼布楚。次年俄军重返雅克萨筑城坚守，康熙帝命萨布素率军再次围攻，历时半年，俄军伤亡惨重。1689年，中俄双方在尼布楚谈判，签订《尼布楚条约》，划定东段边界，确定外兴安岭以南、格尔必齐河与额尔古纳河以东地区归属中国，这是中国与西方国家签订的第一个具有近代意义的边界条约。",
-   "importance": 4,
-   "figures": [
-    "fig-zzbq2-kangxi"
-   ],
-   "tags": [
-    "清",
-    "雅克萨"
    ]
   },
   {
@@ -10680,7 +10450,7 @@
    "summary": "陆逊以逸待劳、火烧连营，刘备大败退回白帝城，三国格局趋于固定。",
    "category": "military",
    "importance": 5,
-   "detail": "章武二年（222年），刘备为报关羽之仇、夺回荆州，率蜀汉大军东征，孙权以陆逊为大都督迎战，双方在猇亭（今湖北宜昌）一带展开决战。陆逊初至前线时避战不出，任凭蜀军推进，坚守不战数月，直到刘备连营七百里、士卒疲敝、才分若干处扎营，才判断时机已到。他先以一营诱敌，诱蜀军出营反击，随即火烧连营七千余里，蜀军大败，僵尸塞野、堵塞道路。刘备升马鞍山结营避暑，陆逊又追击破之，刘备仅以身免，退到白帝城。第二年，蜀汉在吴军追击下再次大败，损失惨重，诸葛亮辅佐的蜀汉国力自此大衰。这场战役之所以以蜀汉完败告终，关键不在双方兵力对比——蜀汉方面在长江上游集结的兵力并不弱——而在指挥与战略层面：其一，刘备急于求成，在东征前并未充分评估东吴可能倾国来援的风险，也未采纳当时关于速战速决、避免久拖的告诫；其二，长期征战之后蜀军疲惫，连续行军后未及休整即被迫与吴军主力决战，丧失了锐气；其三，战术上缺乏统一而有效的指挥，刘备与诸将意见分歧，前军、中军、后军各自为战，被陆逊抓住时机各个击破；其四，吴军充分利用了长江水路的地理优势与水陆协同的作战方式，而蜀汉军队在江南水网地带缺乏适应经验。陆逊在战后并未追击刘备入蜀，理由是「备有智勇，仁心未泯 terminates」；孙权亦欲修好，遣使求和。这场战争彻底改变了三国格局：吴国巩固了长江防线，蜀汉退回益州并转为守势，此后其北伐虽屡出兵而难以突破秦岭—淮河一线，三国由此进入长期均势对峙。",
+   "detail": "章武二年（222年），刘备为报关羽之仇、夺回荆州，率蜀汉大军东征，孙权以陆逊为大都督迎战，双方在猇亭（今湖北宜昌）一带展开决战。陆逊初至前线时避战不出，任凭蜀军推进，坚守不战数月，直到刘备连营七百里、士卒疲敝、才分若干处扎营，才判断时机已到。他先以一营诱敌，诱蜀军出营反击，随即火烧连营七千余里，蜀军大败，僵尸塞野、堵塞道路。刘备升马鞍山结营避暑，陆逊又追击破之，刘备仅以身免，退到白帝城。第二年，蜀汉在吴军追击下再次大败，损失惨重，诸葛亮辅佐的蜀汉国力自此大衰。这场战役之所以以蜀汉完败告终，关键不在双方兵力对比——蜀汉方面在长江上游集结的兵力并不弱——而在指挥与战略层面：其一，刘备急于求成，在东征前并未充分评估东吴可能倾国来援的风险，也未采纳当时关于速战速决、避免久拖的告诫；其二，长期征战之后蜀军疲惫，连续行军后未及休整即被迫与吴军主力决战，丧失了锐气；其三，战术上缺乏统一而有效的指挥，刘备与诸将意见分歧，前军、中军、后军各自为战，被陆逊抓住时机各个击破；其四，吴军充分利用了长江水路的地理优势与水陆协同的作战方式，而蜀汉军队在江南水网地带缺乏适应经验。陆逊在战后并未追击刘备入蜀，理由是「备有智勇，仁心未泯」；孙权亦欲修好，遣使求和。这场战争彻底改变了三国格局：吴国巩固了长江防线，蜀汉退回益州并转为守势，此后其北伐虽屡出兵而难以突破秦岭—淮河一线，三国由此进入长期均势对峙。",
    "figures": []
   },
   {
@@ -10692,7 +10462,7 @@
    "summary": "北魏迁都洛阳，禁胡服断北语改汉姓，推行均田三长，奠定隋唐制度基础。",
    "category": "reform",
    "importance": 5,
-   "detail": "太和十八年（494年），北魏孝文帝拓跋宏迁都洛阳，揭开了北魏汉化改革的序幕。先是迁都前的铺垫：太和十六年（492年）他借南朝频繁的军事失利之机，率军南伐至悬瓠，因大雨受阻而北撤，途中便议定迁都之策，随后以「北人不安于都」为由 directing 迁民百万至洛阳，迁都前后持续了数月。迁都之后，一系列汉化措施相继推行：禁止鲜卑人穿胡服而改穿汉服，禁止在朝廷使用鲜卑语而改用汉语，定鲜卑姓为汉姓，拓跋氏改姓元氏，并准许鲜卑贵族与汉族贵族通婚；他还参照南朝制度改造官制、礼制与丧葬之礼，编定族谱，以门第取代血缘作为选官依据。南迁的鲜卑人经过数代与汉族杂居，服饰语言与姓氏的改变，使鲜卑贵族丧失原有的文化认同与部族根基，统治集团被彻底汉化，皇权因而空前加强。这些改革构成了北魏在孝文帝与随后几任君主时期国力强盛的基础，也为隋唐制度提供了直接来源：均田制、三长制与租调制构成北魏至隋唐的赋役制度主干，孝文帝改革中确立的门阀选官思路在隋唐科举制中得到新的发展。改革同时引起了鲜卑保守势力的抵触，太和二十一年（497年）太子元恂因反对汉化而谋反，孝文帝迅速平定，但不久即病逝于南征途中，年仅三十三岁。此后继任者汉化步伐放缓，而六镇起兵与东西魏分裂，最终使北魏在534年分裂为东魏与西魏。",
+   "detail": "太和十八年（494年），北魏孝文帝拓跋宏迁都洛阳，揭开了北魏汉化改革的序幕。先是迁都前的铺垫：太和十六年（492年）他借南朝频繁的军事失利之机，率军南伐至悬瓠，因大雨受阻而北撤，途中便议定迁都之策，随后以「北人不安于都」为由迁民百万至洛阳，迁都前后持续了数月。迁都之后，一系列汉化措施相继推行：禁止鲜卑人穿胡服而改穿汉服，禁止在朝廷使用鲜卑语而改用汉语，定鲜卑姓为汉姓，拓跋氏改姓元氏，并准许鲜卑贵族与汉族贵族通婚；他还参照南朝制度改造官制、礼制与丧葬之礼，编定族谱，以门第取代血缘作为选官依据。南迁的鲜卑人经过数代与汉族杂居，服饰语言与姓氏的改变，使鲜卑贵族丧失原有的文化认同与部族根基，统治集团被彻底汉化，皇权因而空前加强。这些改革构成了北魏在孝文帝与随后几任君主时期国力强盛的基础，也为隋唐制度提供了直接来源：均田制、三长制与租调制构成北魏至隋唐的赋役制度主干，孝文帝改革中确立的门阀选官思路在隋唐科举制中得到新的发展。改革同时引起了鲜卑保守势力的抵触，太和二十一年（497年）太子元恂因反对汉化而谋反，孝文帝迅速平定，但不久即病逝于南征途中，年仅三十三岁。此后继任者汉化步伐放缓，而六镇起兵与东西魏分裂，最终使北魏在534年分裂为东魏与西魏。",
    "figures": []
   },
   {
@@ -10704,7 +10474,7 @@
    "summary": "西晋灭亡后北方诸族先后建立政权，民族交融空前深入，为隋唐统一准备条件。",
    "category": "political",
    "importance": 5,
-   "detail": "304年刘渊在离石起兵建立汉国，标志西晋灭亡与十六国时期开始。永嘉之乱后，北方原有的汉晋秩序彻底瓦解，匈奴、鲜卑、羯、氐、羌等内迁部族纷纷建立政权；同时汉人豪强与流民集团也组织起武装，与各族政权形成复杂互动。这一时期持续了近140年，主要政权包括前赵、后赵、前燕、前秦、后秦、西魏、北魏等，另有前凉、成汉、前燕之外的十六国之外的割据力量并存。十六国的历史意义并不在于政权更迭的频繁本身，而在于它所推动的三重结构性变化。其一是民族交融：各族政权为统治以汉地 populations 为对象的广大区域，被迫采用中原制度、招抚汉士、推行汉化，民族间的对立逐步让位于融合，隋唐的关陇集团正是在这一土壤上形成。其二是南方经济的开发：北方战乱促使人口与技术的南迁，江南在东晋南朝时期完成从开发到兴盛的转变，为隋唐统一后的经济重心奠定基础。其三是统一趋势的积累：前秦苻坚一度统一北方，短暂的统一经验与制度积累为隋唐统一提供了直接借鉴。此外，各国之间的战争与迁徙也推动了佛教在中国的广泛传播，龟兹、凉州、长安等地成为佛学交流与译经的重要中心。十六国的混乱表象之下，是一条通向隋唐大一统的清晰脉络。",
+   "detail": "304年刘渊在离石起兵建立汉国，标志西晋灭亡与十六国时期开始。永嘉之乱后，北方原有的汉晋秩序彻底瓦解，匈奴、鲜卑、羯、氐、羌等内迁部族纷纷建立政权；同时汉人豪强与流民集团也组织起武装，与各族政权形成复杂互动。这一时期持续了近140年，主要政权包括前赵、后赵、前燕、前秦、后秦、西魏、北魏等，另有前凉、成汉、前燕之外的十六国之外的割据力量并存。十六国的历史意义并不在于政权更迭的频繁本身，而在于它所推动的三重结构性变化。其一是民族交融：各族政权为统治以汉地为对象的广大区域，被迫采用中原制度、招抚汉士、推行汉化，民族间的对立逐步让位于融合，隋唐的关陇集团正是在这一土壤上形成。其二是南方经济的开发：北方战乱促使人口与技术的南迁，江南在东晋南朝时期完成从开发到兴盛的转变，为隋唐统一后的经济重心奠定基础。其三是统一趋势的积累：前秦苻坚一度统一北方，短暂的统一经验与制度积累为隋唐统一提供了直接借鉴。此外，各国之间的战争与迁徙也推动了佛教在中国的广泛传播，龟兹、凉州、长安等地成为佛学交流与译经的重要中心。十六国的混乱表象之下，是一条通向隋唐大一统的清晰脉络。",
    "figures": [
     "fig-liang-jin-liuyuan"
    ]
@@ -11002,7 +10772,7 @@
    "summary": "朱元璋称帝于应天，国号明，同年徐达攻克大都，元朝退回草原。",
    "category": "political",
    "importance": 5,
-   "detail": "元末红巾军起义席卷全国，蒙古贵族的统治日益离心，朱元璋于1368年在应天称帝，国号大明，明朝建立，中原自唐末五代以来近百年的分裂局面告终。朱元璋出身贫寒，1344年 Joining 红巾军郭子兴部，此后逐步壮大，1356年攻占集庆并改名应天府，以此为基地经营江南。1363年鄱阳湖之战，朱元璋以火攻大破陈友谅六十余万大军，1367年灭张士诚，1368年正月称帝于应天，同年徐达、常遇春率北伐军攻克大都，元顺帝北走，元朝退回草原。朱元璋建立明朝后，针对元末政治混乱、历代弊政与民变迭起的情形，采取了一系列 drastic 的整顿：在政治上废除中书省与丞相之职，权分六部，另设殿阁大学士作为顾问，使相权分散于皇权；设立锦衣卫与厂卫以侦缉臣民，压制豪强与异见；制定《大明律》并编纂《大诰》，以严刑峻法整肃吏治，但酷刑亦激化了社会矛盾。在经济上重建均田与里甲制度，编造黄册与鱼鳞图册以清丈土地、核实赋役，推广番薯与棉花等作物以缓解饥荒，兴修水利；在军事上设卫所制与京卫营卫戍京师，边设九边重镇，修筑长城并设辽东都司与奴儿干都司管辖东北与西域。在文化上则严格控制思想，以八股取士与《四书》《五经》为科举内容，抑制私学与异端。明初的休养生息与集权措施使国家迅速恢复元气，史称洪武之治，其对西北的经营与北京的建置则为永乐盛世与康乾盛世奠定了基础。",
+   "detail": "元末红巾军起义席卷全国，蒙古贵族的统治日益离心，朱元璋于1368年在应天称帝，国号大明，明朝建立，中原自唐末五代以来近百年的分裂局面告终。朱元璋出身贫寒，1344年投奔红巾军郭子兴部，此后逐步壮大，1356年攻占集庆并改名应天府，以此为基地经营江南。1363年鄱阳湖之战，朱元璋以火攻大破陈友谅六十余万大军，1367年灭张士诚，1368年正月称帝于应天，同年徐达、常遇春率北伐军攻克大都，元顺帝北走，元朝退回草原。朱元璋建立明朝后，针对元末政治混乱、历代弊政与民变迭起的情形，采取了一系列激烈的整顿：在政治上废除中书省与丞相之职，权分六部，另设殿阁大学士作为顾问，使相权分散于皇权；设立锦衣卫与厂卫以侦缉臣民，压制豪强与异见；制定《大明律》并编纂《大诰》，以严刑峻法整肃吏治，但酷刑亦激化了社会矛盾。在经济上重建均田与里甲制度，编造黄册与鱼鳞图册以清丈土地、核实赋役，推广番薯与棉花等作物以缓解饥荒，兴修水利；在军事上设卫所制与京卫营卫戍京师，边设九边重镇，修筑长城并设辽东都司与奴儿干都司管辖东北与西域。在文化上则严格控制思想，以八股取士与《四书》《五经》为科举内容，抑制私学与异端。明初的休养生息与集权措施使国家迅速恢复元气，史称洪武之治，其对西北的经营与北京的建置则为永乐盛世与康乾盛世奠定了基础。",
    "figures": []
   },
   {
@@ -11645,18 +11415,6 @@
    "category": "political",
    "importance": 3,
    "detail": "文化自信与两个结合发生于公元2012年，是新时代政治进程中的一个关键节点。事件的发生并非一蹴而就。直接诱因往往只是导火索，真正的推力来自各方在此前若干年的力量消长与利益重组：主张者积蓄了政治资本，观望者反复权衡利害既得者则在局势明朗前始终保持低调。直到条件成熟，行动才骤然展开，并在很短时间内改变了原有的权力安排。其深远影响并不止于一时一地的胜负。它在制度层面留下了新的安排，在社会层面改变了不同群体之间的力量对比，同时也改变了此后较长时期内处理内外事务的基本思路。",
-   "figures": []
-  },
-  {
-   "id": "ev-song-song-founding",
-   "periodId": "cn-liao",
-   "name": "song song founding",
-   "year": 979,
-   "dateText": "公元979年",
-   "summary": "辽时期的重要事件，与这一阶段的政治格局和社会变动直接相关。",
-   "category": "political",
-   "importance": 3,
-   "detail": "song song founding发生于公元979年，是辽政治进程中的一个关键节点。事件的发生并非一蹴而就。直接诱因往往只是导火索，真正的推力来自各方在此前若干年的力量消长与利益重组：主张者积蓄了政治资本，观望者反复权衡利害既得者则在局势明朗前始终保持低调。直到条件成熟，行动才骤然展开，并在很短时间内改变了原有的权力安排。其深远影响并不止于一时一地的胜负。它在制度层面留下了新的安排，在社会层面改变了不同群体之间的力量对比，同时也改变了此后较长时期内处理内外事务的基本思路。",
    "figures": []
   }
  ],
@@ -15567,7 +15325,6 @@
     "ev-zzbq3-xiongnu",
     "ev-han-sima-qian",
     "ev-zzbq3-suwu",
-    "ev-han-wenjing",
     "ev-han-chimei"
    ],
    "relatedFigures": [
@@ -15659,12 +15416,11 @@
     "农者，天下之本也。"
    ],
    "relatedEvents": [
-    "ev-han-wenjing",
+    "ev-han-chimei",
     "ev-han-tui-en",
     "ev-han-bagua",
-    "ev-han-chimei",
     "ev-han-donghan",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-liu-bang",
@@ -15715,7 +15471,6 @@
     "削藩以强中央，固国本也。"
    ],
    "relatedEvents": [
-    "ev-han-wenjing",
     "ev-han-chimei",
     "ev-han-tui-en"
    ],
@@ -16147,7 +15902,6 @@
     "ev-han-guangwu",
     "ev-han-lingqu-2",
     "ev-han-wangmang-fall",
-    "ev-han-wenjing",
     "ev-han-chimei"
    ],
    "relatedFigures": [
@@ -16734,7 +16488,7 @@
    "relatedEvents": [
     "ev-han-zhang-zhongjing",
     "ev-han-hua-tuo",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-hua-tuo",
@@ -16783,7 +16537,7 @@
    "relatedEvents": [
     "ev-han-hua-tuo",
     "ev-han-zhang-zhongjing",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-zhang-zhongjing",
@@ -16973,7 +16727,7 @@
    "relatedEvents": [
     "ev-tang-poetry",
     "ev-tang-anlushan",
-    "ev-tang-kaiyuan"
+    "ev-tang-kaixuan"
    ],
    "relatedFigures": [
     "fig-li-bai",
@@ -17072,8 +16826,7 @@
     "免官归第，以避贤路。"
    ],
    "relatedEvents": [
-    "ev-three-gaopingling",
-    "ev-weijin-sima-power"
+    "ev-three-gaopingling"
    ],
    "relatedFigures": [
     "fig-sima-yi",
@@ -17873,10 +17626,8 @@
     "苏峻之乱，社稷之危。"
    ],
    "relatedEvents": [
-    "ev-jin-taiping",
     "ev-weijin-taikang",
     "ev-weijin-dongjin",
-    "ev-weijin-yongjia",
     "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
@@ -17925,10 +17676,9 @@
    "relatedEvents": [
     "ev-jin-feishui",
     "ev-jin-lanting",
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-weijin-taiping",
-    "ev-tang-lanting",
-    "ev-jin-yongjia"
+    "ev-tang-lanting"
    ],
    "relatedFigures": [
     "fig-sima-rui",
@@ -18939,7 +18689,7 @@
    "relatedEvents": [
     "ev-tang-poetry",
     "ev-tang-anlushan",
-    "ev-tang-kaiyuan",
+    "ev-tang-kaixuan",
     "ev-zzbq4-qiantangshi"
    ],
    "relatedFigures": [
@@ -19144,8 +18894,7 @@
     "ev-tang-luoyang-fall",
     "ev-tang-chang-an-fall",
     "ev-tang-ganbu",
-    "ev-tang-yan-zhenqing",
-    "ev-tang-kaiyuan"
+    "ev-tang-yan-zhenqing"
    ],
    "relatedFigures": [
     "fig-an-lushan",
@@ -19194,11 +18943,10 @@
     "吾貌虽瘦，天下必肥。"
    ],
    "relatedEvents": [
-    "ev-tang-kaiyuan",
+    "ev-tang-kaixuan",
     "ev-tang-anlushan",
     "ev-tang-luoyang-fall",
-    "ev-tang-chang-an-fall",
-    "ev-tang-kaixuan"
+    "ev-tang-chang-an-fall"
    ],
    "relatedFigures": [
     "fig-yang-guifei",
@@ -19248,8 +18996,7 @@
    "relatedEvents": [
     "ev-tang-anlushan",
     "ev-tang-luoyang-fall",
-    "ev-tang-chang-an-fall",
-    "ev-tang-kaiyuan"
+    "ev-tang-chang-an-fall"
    ],
    "relatedFigures": [
     "fig-xuanzong",
@@ -20305,7 +20052,6 @@
    "quotes": [],
    "relatedEvents": [
     "ev-nanbei-nanbei-south",
-    "ev-weijin-yongjia",
     "ev-weijin-luoyang-fall",
     "ev-weijin-north-south",
     "ev-weijin-sui-unify",
@@ -20315,15 +20061,15 @@
     "fig-sima-yan-jin",
     "fig-wang-dun",
     "fig-nanbei-south-hou-jing",
-    "fig-shi-le",
-    "fig-wang-yan",
-    "fig-wang-dao",
-    "fig-jin-west-wang-yan",
     "fig-tuoba-gui",
     "fig-xiaowen",
     "fig-liang-wudi",
     "fig-sui-wendi",
-    "fig-yang-guang"
+    "fig-yang-guang",
+    "fig-yang-su",
+    "fig-sima-rui",
+    "fig-wang-dao",
+    "fig-tao-yuanming"
    ],
    "tags": [
     "刘宋",
@@ -20438,7 +20184,6 @@
    "relatedEvents": [
     "ev-weijin-eight-princes",
     "ev-weijin-dongjin",
-    "ev-weijin-yongjia",
     "ev-jin-dongjin"
    ],
    "relatedFigures": [
@@ -20447,13 +20192,12 @@
     "fig-liu-yao-2",
     "fig-sima-rui",
     "fig-gu-rong",
-    "fig-shi-le",
-    "fig-wang-yan",
-    "fig-jin-west-wang-yan",
     "fig-taishao",
     "fig-wei-qing",
     "fig-sima-yue",
-    "fig-tao-kan"
+    "fig-tao-kan",
+    "fig-jin-west-wang-yan",
+    "fig-wang-yan"
    ],
    "tags": [
     "东晋",
@@ -22171,7 +21915,6 @@
     "诸吕之乱中以符节入北军，兵权遂归周勃。"
    ],
    "relatedEvents": [
-    "ev-han-wenjing",
     "ev-han-chimei"
    ],
    "relatedFigures": [
@@ -22276,7 +22019,7 @@
    ],
    "relatedEvents": [
     "ev-han-wudi",
-    "ev-han-wenjing",
+    "ev-han-chimei",
     "ev-han-dongzhongshu"
    ],
    "relatedFigures": [
@@ -22328,7 +22071,7 @@
    "relatedEvents": [
     "ev-han-wudi",
     "ev-han-bagua",
-    "ev-han-wenjing",
+    "ev-han-chimei",
     "ev-han-zhangqian",
     "ev-zzbq3-zhaojun"
    ],
@@ -22546,7 +22289,7 @@
    ],
    "relatedEvents": [
     "ev-han-fall",
-    "ev-han-yellow-turban",
+    "ev-han-huangjin",
     "ev-han-chimei"
    ],
    "relatedFigures": [
@@ -22648,7 +22391,7 @@
    "relatedEvents": [
     "ev-han-danggu",
     "ev-han-party-frison",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-han-east-li-ying",
@@ -22935,7 +22678,7 @@
    "relatedEvents": [
     "ev-weijin-dongjin",
     "ev-weijin-nanqian",
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-jin-dongjin"
    ],
    "relatedFigures": [
@@ -22990,8 +22733,7 @@
    "relatedEvents": [
     "ev-weijin-eight-princes",
     "ev-jin-yongjia",
-    "ev-weijin-yongjia",
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-weijin-liu-yuan"
    ],
    "relatedFigures": [
@@ -23045,7 +22787,6 @@
    ],
    "relatedEvents": [
     "ev-weijin-taikang",
-    "ev-jin-taiping",
     "ev-jin-feishui",
     "ev-weijin-nanqian",
     "ev-weijin-wu-fall",
@@ -23730,7 +23471,6 @@
    ],
    "relatedEvents": [
     "ev-weijin-taikang",
-    "ev-jin-taiping",
     "ev-jin-feishui",
     "ev-weijin-liuyu"
    ],
@@ -24407,7 +24147,6 @@
     "ev-qing-kangxi",
     "ev-qing-sanfan",
     "ev-qing-taiwan",
-    "ev-qing-yaksa",
     "ev-zzbq4-nibuchu",
     "ev-qing-qianlong"
    ],
@@ -26322,7 +26061,6 @@
    ],
    "relatedEvents": [
     "ev-zzbq2-chenqiao",
-    "ev-wudai-song-founding",
     "ev-song-cup-wine"
    ],
    "relatedFigures": [
@@ -27303,10 +27041,9 @@
    "relatedEvents": [
     "ev-weijin-dongjin",
     "ev-weijin-nanqian",
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-jin-dongjin",
     "ev-jin-yongle-2",
-    "ev-jin-yongjia",
     "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
@@ -27362,7 +27099,6 @@
     "ev-weijin-nanqian",
     "ev-weijin-dongjin",
     "ev-weijin-chibiao",
-    "ev-weijin-yongjia",
     "ev-weijin-luoyang-fall",
     "ev-jin-dongjin"
    ],
@@ -27520,7 +27256,7 @@
    ],
    "relatedEvents": [
     "ev-weijin-liu-yuan",
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
@@ -27568,7 +27304,7 @@
    "relatedEvents": [
     "ev-weijin-taiping",
     "ev-jin-feishui",
-    "ev-jin-taiping"
+    "ev-weijin-taikang"
    ],
    "relatedFigures": [
     "fig-xie-an",
@@ -27711,7 +27447,7 @@
    "relatedEvents": [
     "ev-weijin-wu-fall",
     "ev-three-jinrongwu",
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-weijin-jin-unify"
    ],
    "relatedFigures": [
@@ -27863,7 +27599,7 @@
     "孙秀那句「」"
    ],
    "relatedEvents": [
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-weijin-eight-princes",
     "ev-weijin-liu-yuan"
    ],
@@ -27914,7 +27650,7 @@
    ],
    "relatedEvents": [
     "ev-weijin-eight-princes",
-    "ev-jin-taiping"
+    "ev-weijin-taikang"
    ],
    "relatedFigures": [
     "fig-sima-lun",
@@ -28373,7 +28109,6 @@
    ],
    "relatedEvents": [
     "ev-jin-yongjia",
-    "ev-weijin-yongjia",
     "ev-weijin-eight-princes",
     "ev-weijin-luoyang-fall"
    ],
@@ -28424,11 +28159,10 @@
     "但恨失先帝之谋耳。"
    ],
    "relatedEvents": [
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-jin-yongjia",
     "ev-weijin-eight-princes",
-    "ev-weijin-luoyang-fall",
-    "ev-weijin-yongjia"
+    "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
     "fig-sima-lun",
@@ -28475,11 +28209,10 @@
     "虽食德不违，而志不能乂。"
    ],
    "relatedEvents": [
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-jin-yongjia",
     "ev-weijin-luoyang-fall",
-    "ev-weijin-eight-princes",
-    "ev-weijin-yongjia"
+    "ev-weijin-eight-princes"
    ],
    "relatedFigures": [
     "fig-sima-lun",
@@ -28523,7 +28256,7 @@
    ],
    "relatedEvents": [
     "ev-jin-yongjia",
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-weijin-luoyang-fall"
    ],
    "relatedFigures": [
@@ -28573,7 +28306,7 @@
    ],
    "relatedEvents": [
     "ev-three-wei-ding",
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-weijin-jin-unify",
     "ev-jin-yongjia",
     "ev-weijin-luoyang-fall"
@@ -28623,8 +28356,7 @@
    ],
    "relatedEvents": [
     "ev-three-wei-ding",
-    "ev-three-gaopingling",
-    "ev-weijin-sima-power"
+    "ev-three-gaopingling"
    ],
    "relatedFigures": [
     "fig-sima-zhao",
@@ -28759,7 +28491,7 @@
    "relatedEvents": [
     "ev-han-danggu",
     "ev-han-party-frison",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-fan-pang",
@@ -28805,7 +28537,6 @@
     "ev-weijin-dongjin",
     "ev-jin-yongjia",
     "ev-weijin-nanqian",
-    "ev-weijin-yongjia",
     "ev-jin-dongjin"
    ],
    "relatedFigures": [
@@ -28906,7 +28637,7 @@
     "江表之事，此书最详。"
    ],
    "relatedEvents": [
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-weijin-nanqian",
     "ev-weijin-eight-princes"
    ],
@@ -28948,7 +28679,7 @@
    ],
    "relatedEvents": [
     "ev-weijin-taiping",
-    "ev-jin-taiping"
+    "ev-weijin-taikang"
    ],
    "relatedFigures": [
     "fig-huan-wen",
@@ -28989,7 +28720,7 @@
     "王谢同时，自是一时之盛。"
    ],
    "relatedEvents": [
-    "ev-weijin-yongjia",
+    "ev-jin-yongjia",
     "ev-nanbei-nanbei-south"
    ],
    "relatedFigures": [
@@ -29120,9 +28851,8 @@
     "守城拒盗，以全郡境。"
    ],
    "relatedEvents": [
-    "ev-han-yellow-turban",
-    "ev-han-party-frison",
-    "ev-han-huangjin"
+    "ev-han-huangjin",
+    "ev-han-party-frison"
    ],
    "relatedFigures": [
     "fig-han-east-li-ying",
@@ -29385,7 +29115,7 @@
    ],
    "relatedEvents": [
     "ev-weijin-liuyu",
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-jin-lanting"
    ],
    "relatedFigures": [
@@ -30069,10 +29799,9 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-song-song-founding",
+    "ev-zzbq2-chenqiao",
     "ev-song-wanyan",
-    "ev-song-liao-chanyuan",
-    "ev-zzbq2-chenqiao"
+    "ev-song-liao-chanyuan"
    ],
    "relatedFigures": [
     "fig-zhao-kuangyin",
@@ -31309,7 +31038,7 @@
    ],
    "relatedEvents": [
     "ev-han-chu-jiang",
-    "ev-han-wenjing",
+    "ev-han-chimei",
     "ev-han-bagua"
    ],
    "relatedFigures": [
@@ -31469,8 +31198,7 @@
     "苍天已死，黄天当立，岁在甲子，天下大吉。"
    ],
    "relatedEvents": [
-    "ev-han-huangjin",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-he-jin",
@@ -31508,8 +31236,7 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-han-huangjin",
-    "ev-han-yellow-turban"
+    "ev-han-huangjin"
    ],
    "relatedFigures": [
     "fig-han-east-han-xiandi",
@@ -31680,7 +31407,7 @@
    ],
    "quotes": [],
    "relatedEvents": [
-    "ev-jin-taiping",
+    "ev-weijin-taikang",
     "ev-jin-yongjia",
     "ev-weijin-eight-princes"
    ],
@@ -31729,21 +31456,18 @@
    "relatedEvents": [
     "ev-jin-yongjia",
     "ev-sixteen-kingdoms",
-    "ev-weijin-yongjia",
     "ev-weijin-sixteen-kingdoms"
    ],
    "relatedFigures": [
     "fig-liang-jin-liuyuan",
-    "fig-liu-yao-2",
-    "fig-wang-yan",
     "fig-fu-jian",
     "fig-wang-meng",
-    "fig-wang-dun",
-    "fig-wang-dao",
-    "fig-jin-west-wang-yan",
     "fig-sima-yue",
+    "fig-wang-dao",
     "fig-zu-ti",
-    "fig-jin-west-sima-de"
+    "fig-jin-west-wang-yan",
+    "fig-jin-west-sima-de",
+    "fig-wang-yan"
    ],
    "tags": [
     "十六国",
@@ -32546,7 +32270,6 @@
     "ev-qing-kangxi",
     "ev-zzbq4-tanding",
     "ev-zzbq4-nibuchu",
-    "ev-qing-yaksa",
     "ev-qing-qianlong"
    ],
    "relatedFigures": [
