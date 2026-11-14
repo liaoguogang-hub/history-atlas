@@ -679,7 +679,6 @@
    "keyFigures": [
     "fig-julius-caesar",
     "fig-lucretius",
-    "fig-w-augustus-alt",
     "fig-augustus"
    ],
    "relatedEvents": [],
@@ -1208,8 +1207,8 @@
     "fig-diderot",
     "fig-zzbq12-locke",
     "fig-suleiman-the-magnificent",
-    "fig-ibn-majid",
-    "fig-rousseau"
+    "fig-rousseau",
+    "fig-zzbq12-smith"
    ],
    "relatedEvents": [],
    "tags": [
@@ -1274,8 +1273,7 @@
     "fig-newton",
     "fig-kepler",
     "fig-w-descartes",
-    "fig-w-leibniz",
-    "fig-leibniz"
+    "fig-w-leibniz"
    ],
    "relatedEvents": [],
    "tags": [
@@ -1487,14 +1485,14 @@
    "population": "约23亿至53亿",
    "culture": "核威慑与军备竞赛；太空竞赛；去殖民化与不结盟；福利国家与冷战经济；意识形态竞争",
    "keyFigures": [
+    "fig-harry-truman",
+    "fig-khrushchev",
+    "fig-richard-nixon",
     "fig-churchill",
     "fig-claude-shannon",
     "fig-zhao-ziyang",
     "fig-juan-antonio-samaranch",
-    "fig-suharto",
-    "fig-julius-nyerere",
-    "fig-henry-kissinger",
-    "fig-nguyen-van-thieu"
+    "fig-suharto"
    ],
    "relatedEvents": [],
    "tags": [
@@ -1692,7 +1690,16 @@
    "capital": "特奥蒂瓦坎、奇琴伊察、蒂卡尔、库斯科、坦特斯科",
    "population": "约500万至6000万",
    "culture": "象形文字与玛雅书写；二十进制与零概念；金字塔与梯田农业；结绳记事；长纪历与天文观测",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq15-pacal",
+    "fig-zzbq15-kukulkan",
+    "fig-zzbq15-itzamna",
+    "fig-zzbq15-montezuma1",
+    "fig-moctezuma",
+    "fig-zzbq9-cortes",
+    "fig-zzbq15-lascasas",
+    "fig-zzbq15-cuauhtemoc"
+   ],
    "relatedEvents": [],
    "tags": [
     "玛雅",
@@ -1748,7 +1755,6 @@
    "culture": "网格城市与市场；塔庙与石头雕刻；湖上堤道与浮园；贡赋与贸易联盟；球赛与献祭",
    "keyFigures": [
     "fig-zzbq15-montezuma1",
-    "fig-zzbq9-montezuma",
     "fig-moctezuma",
     "fig-zzbq9-cortes",
     "fig-zzbq15-lascasas",
@@ -1806,7 +1812,16 @@
    "capital": "平壤、龟尾、首尔（汉城）、奈良、平城、平安京、镰仓、江户、大越（河内）、顺化",
    "population": "约1000万至1.5亿",
    "culture": "三国与高丽；大化改新；佛教与儒学；武家与幕府；锁国与南蛮贸易；儒官僚国家",
-   "keyFigures": [],
+   "keyFigures": [
+    "fig-zzbq9-sejong",
+    "fig-zzbq9-yisunshin",
+    "fig-zzbq16-heo-gyun",
+    "fig-modu-chanyu",
+    "fig-zzbq9-ieyasu",
+    "fig-zzbq16-fukuzawa",
+    "fig-zzbq9-hideyoshi",
+    "fig-zzbq9-shotoku"
+   ],
    "relatedEvents": [],
    "tags": [
     "朝鲜",
@@ -2305,10 +2320,10 @@
     "fig-ibn-khaldun",
     "fig-edward-iii",
     "fig-ibn-battuta",
-    "fig-w-john-wycliffe",
     "fig-john-wycliffe",
     "fig-constantine-xi",
-    "fig-henry-v"
+    "fig-henry-v",
+    "fig-joan-of-arc"
    ],
    "relatedEvents": [],
    "tags": [
@@ -2423,8 +2438,8 @@
     "fig-zzbq8-picasso",
     "fig-dong-biwu",
     "fig-nehru",
-    "fig-jawaharlal-nehru",
-    "fig-ho-chi-minh"
+    "fig-ho-chi-minh",
+    "fig-zzbq13-ambedkar"
    ],
    "relatedEvents": [],
    "tags": [
@@ -2678,7 +2693,7 @@
     "fig-ho-chi-minh",
     "fig-ito-hirobumi",
     "fig-jamsetji-tata",
-    "fig-jawaharlal-nehru"
+    "fig-nehru"
    ],
    "relatedEvents": [],
    "tags": [
@@ -4498,8 +4513,7 @@
    "importance": 5,
    "figures": [
     "fig-julius-caesar",
-    "fig-augustus",
-    "fig-w-augustus-alt"
+    "fig-augustus"
    ],
    "tags": [
     "罗马",
@@ -4522,8 +4536,7 @@
    "importance": 5,
    "figures": [
     "fig-augustus",
-    "fig-cleopatra-vii",
-    "fig-w-augustus-alt"
+    "fig-cleopatra-vii"
    ],
    "tags": [
     "罗马",
@@ -4545,8 +4558,7 @@
    "detail": "公元前27年1月，屋大维向元老院郑重交还过去担任的独裁官权力并辞去其他职务，元老院与人民遂授予他奥古斯都的尊号，确立元首制。在形式上，共和国的机构（执政官、元老院、护民官）与选举继续存在；实质上，军事指挥权、行省任命权、外交主导权与宗教权威都集中于皇帝之手，元首权力通过其任命的执政官与行省总督行使。屋大维在任期内整顿财政与军队（建立常备军并设禁卫军），推行社会救济与收养制度以缓解无嗣与退役军人安置问题，兴建大量公共工程，把共和国的城市改造为帝国的首都。到公元14年他去世时，帝国疆域自不列颠到多瑙河、自西班牙到北非与埃及，确立了对地中海的统治，开启了「二十八年和平」。这三十年间地中海世界的贸易、粮食供应（埃及与北非的谷物）与城市生活显著发展，罗马的拉丁语、法律与工程成为后世欧洲与地中海世界的共同遗产。",
    "importance": 5,
    "figures": [
-    "fig-augustus",
-    "fig-w-augustus-alt"
+    "fig-augustus"
    ],
    "tags": [
     "罗马",
@@ -4993,8 +5005,7 @@
    "importance": 3,
    "figures": [
     "fig-julius-caesar",
-    "fig-augustus",
-    "fig-w-augustus-alt"
+    "fig-augustus"
    ],
    "tags": [
     "努米底亚",
@@ -5274,9 +5285,7 @@
    "summary": "加图的《论农业》与《残篇》开启了罗马关于土地与公民美德的严肃辩论。",
    "detail": "加图（约公元前234—前149年）出身于罗马的贵族家庭，历任财务官、执政官与监察官，以对元老院传统的强硬态度与反希腊化立场著称。他在农业方面撰写了《论农业》，这是现存最早的拉丁语实用文献之一，系统讨论了橄榄、葡萄、养蜂、畜牧与农庄管理，并以罗马农业社会的实际经验反对贵族对大型庄园与城市消费的依赖；在政治方面，他的《残篇》（残存的《演说辞》）强调公民的廉洁与勤勉，是罗马民族性（）论述的开端之一。加图之死与《农业论》的流传共同确立了「农业是罗马的根基」这一政治文化命题；他的重农与反奢侈立场随后被恺撒与屋大维在立法与赠礼政策中部分继承，同时也与后来西塞罗在《论农业》《论共和国》《论职务》中更为平衡的论述构成对照，塑造了罗马政治思想中关于土地、公民与国家的持久辩论。",
    "importance": 3,
-   "figures": [
-    "fig-w-augustus-alt"
-   ],
+   "figures": [],
    "tags": [
     "罗马",
     "加图",
@@ -6623,7 +6632,7 @@
    "detail": "1519年3月，埃尔南·科尔特斯率约600名西班牙人与数十条船在今天的墨西哥湾上岸，先与当地住民（塔巴斯科人）结盟并征服了玛雅人的塔巴斯科城镇，随后利用阿兹特克统治集团内部的矛盾与对征服者的神话期待（蒙特祖玛二世曾把科尔特斯误认为预言中的归返神），攻陷了特诺奇蒂特兰。1521年8月13日，经过多次围城与断绝补给，蒙特祖玛二世被俘（据称其死与西班牙人的放毒或感染有关），城中断粮与瘟疫流行，战斗与瘟疫共同摧毁了阿兹特克的抵抗；西班牙人随后重建了这座都城的教堂与宫殿，并把城市改名为墨西哥城。阿兹特克帝国在两年内崩溃，但其继承者——特拉斯科潘、特克斯库潘诺与特奥蒂瓦坎——以及其政治联盟网络（惠乔普特利、萨波特克、塔什科等）继续抵抗了半个世纪以上，直至1521—1525年间的「西班牙征服时期」结束。征服的结果是双重的：原住民人口在流行病（天花、麻疹）与战争的共同作用下骤减（学者估计墨西哥中部人口下降九成以上），而中原的等级、贡赋与土地制度被西班牙的 （监护征赋制）取代。西班牙人在阿兹特克与玛雅的神庙地基上建起了教堂（特诺奇蒂特兰的大教堂就建在坦提克萨克神庙的遗址上），形成了今日墨西哥城的历史层次。",
    "importance": 5,
    "figures": [
-    "fig-zzbq9-montezuma",
+    "fig-moctezuma",
     "fig-zzbq9-cortes"
    ],
    "tags": [
@@ -8164,8 +8173,7 @@
    "detail": "公元前202年刘邦建国与公元前27年屋大维建立元首制几乎同时，两大帝国随即在欧亚大陆的东西两端展开扩张：汉朝北击匈奴、西通西域、经营河套与河西走廊；罗马则越过地中海，从布匿战争到征服高卢与希腊，成为地中海的主人。两者都建立起了庞大的官僚体系、驿传道路与税收制度：汉朝的郡国制与罗马的行省制在功能上高度相似；汉的《九章律》与罗马的《十二铜表法》《公民法》都是成文法传统的起点。两者的崩溃也都紧随内部的政治失序：东汉末年的宦官外戚与州牧割据对应罗马的”五贤帝”危机与三世纪危机，随后两地在内部混乱中分别面临北方草原与日耳曼的压力。这一平行比较是理解世界古代史最有解释力的框架之一。",
    "importance": 4,
    "figures": [
-    "fig-augustus",
-    "fig-w-augustus-alt"
+    "fig-augustus"
    ],
    "tags": [
     "汉朝",
@@ -8278,7 +8286,6 @@
    "figures": [
     "fig-matteo-ricci",
     "fig-johann-adam-schell-von-bell",
-    "fig-leibniz",
     "fig-w-leibniz"
    ],
    "tags": [
@@ -8560,7 +8567,7 @@
    "importance": 5,
    "figures": [
     "fig-mahatma-gandhi",
-    "fig-jawaharlal-nehru"
+    "fig-nehru"
    ],
    "tags": [
     "甘地",
@@ -9692,7 +9699,6 @@
    "detail": "11至17世纪，印度洋的贸易量达到古代世界的峰值：东非的黄金与象牙、阿拉伯与印度的棉布与胡椒、东南亚的檀香与丁香、中国的丝绸与瓷器，通过季风的节奏在每年往返的航线上流动。主导者是分散的商人群体——古吉拉特的印度商人、科泽科德与锡兰的印度商人、波斯湾的巴士拉商人、东非的斯瓦希里商人、以及中国的泉州与广州商人；而提供船只、船员与保险的阿拉伯与印度洋的穆斯林社群构成了实际的物流网络。关键的港口节点包括摩加迪沙与泽拉（东非）、摩加迪沙与基尔瓦、马六甲、爪哇的巽他、卡利卡特与古吉拉特、苏伊士与开罗、以及中国的泉州。这个网络的制度特征是”无中心的流动性”——它没有统一的治理机构，依靠商人社区的信用、伊斯兰法与地方惯例维持秩序。欧洲人（葡萄牙人于1498年、荷兰人于1602年、英国人于1601年）的到来把这个网络逐步纳入了大西洋体系。",
    "importance": 4,
    "figures": [
-    "fig-ibn-majid",
     "fig-ahmad-ibn-majid"
    ],
    "tags": [
@@ -10561,7 +10567,7 @@
    "importance": 5,
    "figures": [
     "fig-zzbq15-montezuma1",
-    "fig-zzbq9-montezuma"
+    "fig-moctezuma"
    ],
    "tags": [
     "阿兹特克",
@@ -11280,7 +11286,11 @@
    "summary": "苏联在古巴部署核导弹被美国发现，两个超级大国对峙十三天，人类一度濒临核战争，最终妥协收场并建立热线。",
    "detail": "1959年卡斯特罗领导的古巴革命胜利后，古巴与美国关系恶化，转向苏联寻求保护。1962年，苏联为平衡美国在土耳其部署的导弹，秘密向古巴运送中程核导弹。10月14日，美国2侦察机拍摄到古巴导弹基地照片。10月22日肯尼迪发表电视讲话，宣布对古巴实施海上「隔离」，要求苏联撤走导弹，并进入三级战备。此后十三天，美苏剑拔弩张：美军舰艇拦截苏联船只，双方核力量进入高度戒备，世界处于核战争边缘。10月28日，赫鲁晓夫让步，同意撤走导弹以换取美国不入侵古巴的承诺；美国则秘密承诺撤走土耳其的导弹。危机过后，美苏于1963年建立「莫斯科—华盛顿热线」，并签订《部分禁止核试验条约》。古巴导弹危机是冷战期间最接近核战争的时刻，它使双方认识到核对抗的危险，推动此后军备控制谈判与危机管理机制的建立。",
    "importance": 5,
-   "figures": [],
+   "figures": [
+    "fig-john-f-kennedy",
+    "fig-khrushchev",
+    "fig-castro"
+   ],
    "tags": [
     "冷战",
     "古巴导弹危机",
@@ -11301,7 +11311,11 @@
    "summary": "东德为阻止人口外流修筑柏林墙，成为冷战铁幕与德国分裂的象征；1989年11月9日墙体被推倒，成为冷战终结的标志。",
    "detail": "二战后德国被分区占领，柏林虽处苏占区却由四国共管。1949年东西德分别成立，柏林成为冷战前沿。大量东德居民经西柏林逃往西方，至1961年累计约二百五十万人，多为技术工人与专业人员，东德经济濒临崩溃。1961年8月13日凌晨，东德在苏军支持下封锁东西柏林边界，连夜拉起铁丝网，随后修筑混凝土墙，全长一百五十余公里，配瞭望塔、探照灯、地雷带与射击命令，史称「柏林墙」。墙成为冷战铁幕的最直观象征，肯尼迪1963年在此发表「我是柏林人」演说，里根1987年在此呼吁「推倒这堵墙」。1989年，东欧剧变风起云涌，匈牙利开放边境导致大量东德人外逃，东德各地爆发大规模示威。11月9日晚，东德政府宣布开放边界，民众涌向检查站，边防军放行，人们用锤子、凿子拆毁墙体，柏林墙倒塌。1990年10月3日两德统一。柏林墙的倒塌是冷战结束的关键转折点，被视为20世纪最重要的历史时刻之一。",
    "importance": 5,
-   "figures": [],
+   "figures": [
+    "fig-john-f-kennedy",
+    "fig-khrushchev",
+    "fig-zzbq8-gorbachev"
+   ],
    "tags": [
     "冷战",
     "柏林墙",
@@ -11687,7 +11701,9 @@
    "summary": "朝鲜战争是冷战时期第一场大规模局部热战，美苏阵营通过代理人交锋，最终以停战协定收场，朝鲜半岛至今分裂。",
    "detail": "1945年日本投降后，朝鲜半岛以北纬38度线为界由美苏分别占领，1948年南北分别成立大韩民国与朝鲜民主主义人民共和国。1950年6月25日，朝鲜军队越过三八线南进，朝鲜战争爆发。美国操纵联合国安理会通过决议，组成以美军为主的「联合国军」介入，9月仁川登陆扭转战局，推进至中朝边境。中国人民志愿军于10月入朝参战，连续发动五次战役将战线稳定在三八线附近。此后双方在上甘岭等地展开激烈阵地战，1953年7月27日签订《朝鲜停战协定》，以三八线附近为界划分军事分界线。战争造成军民伤亡约三百万，朝鲜半岛南北分裂延续至今。朝鲜战争是冷战「代理人战争」的典型：美苏避免直接交战，却通过朝鲜、中国等方展开大规模军事对抗，它确立了冷战在亚洲的对抗格局，也促使美国强化东亚同盟体系与核威慑战略。",
    "importance": 5,
-   "figures": [],
+   "figures": [
+    "fig-harry-truman"
+   ],
    "tags": [
     "冷战",
     "朝鲜战争",
@@ -11708,7 +11724,10 @@
    "summary": "美国深陷越南战争二十年，最终撤军、越南统一，战争引发美国国内大规模反战运动与社会撕裂，改变了冷战的舆论格局。",
    "detail": "二战后法国企图恢复对印度支那的殖民统治，遭越南独立同盟（越盟）抵抗，1954年奠边府战役法军惨败，日内瓦协议将越南暂时分为南北。美国为遏制共产主义扩散，逐步介入南越，1965年大规模派遣地面部队，至1969年驻越美军达五十四万。美军以空中优势、化学武器（橙剂）、搜索与摧毁战术应对越共游击战，但陷入消耗困境。1968年「春节攻势」虽在军事上挫败越共，却在美国国内引发强烈反战浪潮；同年美莱村屠杀曝光进一步动摇战争正当性。1973年《巴黎和平协定》签署，美军撤出；1975年北越军队攻入西贡，越南统一。战争造成越南约三百万人死亡、美军五万八千余人阵亡。越战使美国社会严重撕裂，反战运动、青年文化、媒体与政府的信任危机交织，也促使美国调整冷战战略（尼克松主义、对苏缓和、对华接触），是冷战史上影响最深远的局部战争之一。",
    "importance": 5,
-   "figures": [],
+   "figures": [
+    "fig-john-f-kennedy",
+    "fig-richard-nixon"
+   ],
    "tags": [
     "冷战",
     "越南战争",
@@ -12342,7 +12361,7 @@
    "detail": "阿兹特克人（墨西卡人）约14世纪迁入墨西哥谷地，1325年在特斯科科湖岛屿上建特诺奇蒂特兰。1428年，阿兹特克与特斯科科、特拉科潘结成「三方同盟」，击败阿斯卡波察尔科，成为中美洲霸主，此后近百年间通过军事征服与纳贡体系控制数百个城邦。蒙特祖玛一世、阿维索特尔等君主扩建都城与大神庙（太阳金字塔），以人祭维系宇宙秩序，都城人口约二十万，是当时世界最大城市之一。1519年，西班牙人科尔特斯率约五百人登陆墨西哥湾，联合被阿兹特克压迫的特拉斯卡拉人等部族，向内地推进。1520年「悲伤之夜」阿兹特克人击退西班牙军，但天花等旧大陆疫病已造成大规模死亡。1521年，科尔特斯以战船围攻特诺奇蒂特兰，八月城陷，末代君主夸乌特莫克被俘，阿兹特克帝国灭亡。西班牙在此建立新西班牙总督区，阿兹特克文明的主体被摧毁，仅存语言与部分文化元素。",
    "importance": 5,
    "figures": [
-    "fig-zzbq9-montezuma",
+    "fig-moctezuma",
     "fig-zzbq9-cortes",
     "fig-zzbq15-montezuma1",
     "fig-zzbq15-cuauhtemoc"
@@ -12743,7 +12762,7 @@
     "fig-christopher-columbus",
     "fig-ferdinand-magellan",
     "fig-alfonso-de-albuquerque",
-    "fig-ibn-majid",
+    "fig-ahmad-ibn-majid",
     "fig-w-christian-miracle"
    ],
    "tags": [
@@ -12823,8 +12842,7 @@
    "relatedFigures": [
     "fig-gutenberg",
     "fig-john-wycliffe",
-    "fig-zzbq12-calvin",
-    "fig-w-john-wycliffe"
+    "fig-zzbq12-calvin"
    ],
    "tags": []
   },
@@ -12892,53 +12910,6 @@
     "fig-leonardo-da-vinci"
    ],
    "tags": []
-  },
-  {
-   "id": "fig-leibniz",
-   "name": "戈特弗里德·莱布尼茨",
-   "alias": "",
-   "birthYear": 1646,
-   "deathYear": 1716,
-   "lifeText": "公元1646年－公元1716年",
-   "role": "哲学家",
-   "periodId": "w-scientific-revolution",
-   "gender": "male",
-   "summary": "德国哲学家、数学家，与牛顿并列为微积分创立者，提出单子论与充分理由律。",
-   "biography": "莱布尼茨，1646年生于德国莱比锡，父亲是莱比锡大学哲学教授，母亲出身书香门第。他自幼博览群书，精通拉丁文，十六岁即能与巴黎的数学家讨论问题。1667年他到巴黎学习数学，接触到帕斯卡、费马与笛卡尔几何，为其后创立微积分奠定基础。1673年他赴伦敦短暂会见牛顿，两人就此后微积分的优先权展开长达数十年之争。1676年他独立发展出微积分的「求微法则」与「积分法则」，记号法更为系统，1684年发表论文。1679年他出任汉诺威枢密院顾问，兼任图书馆馆长与宫廷史官，在大量档案中发掘出中世纪德意志的连续性，这段经历成为他「普遍历史」思想的来源。1700年他创办柏林科学院并任首任院长，倡议建立科学院以「以计算增进知识」，晚年任圣彼得堡科学院的发起人之一。他在哲学上提出单子论，认为宇宙由无数无窗无门的单子构成，单子具有欲望与知觉，能表达整个宇宙，\"每个单子都是一面活的永恒的镜子\"，由此解释身心问题与预定和谐；他也提出充分理由律，认为世界上的事件都有充分理由，上帝是终极原因。他在逻辑学上尝试建立普遍语言与「计算语言」的项目，在政治上提出国际秩序与「德意志联邦」构想。他的思想横跨数学、哲学、语言学、法学与政治学，在莱布尼茨-沃尔夫学派中影响深远。1716年他病逝于汉诺威，葬于圣诺伯特教堂。",
-   "achievements": [
-    "1673年在巴黎学习数学，接触帕斯卡与费马的工作",
-    "独立创立微积分的求微法则与积分法则，记号法更具系统性",
-    "1684年发表微积分论文，与牛顿就优先权展开长期论争",
-    "1679年后任汉诺威枢密院顾问、图书馆馆长与宫廷史官",
-    "从档案中发掘德意志历史连续性，提出「普遍历史」观念",
-    "1700年创办柏林科学院并任首任院长，倡议以计算增进知识",
-    "提出单子论，主张宇宙由无数具知觉与欲望的单子构成",
-    "提出充分理由律与预定和谐学说",
-    "尝试建立通用计算语言与普遍逻辑体系",
-    "提出国际秩序与德意志邦联的政治构想"
-   ],
-   "quotes": [
-    "天地间无奇不有，唯在方寸之间。"
-   ],
-   "relatedEvents": [
-    "ev-ren-leibniz-calculus",
-    "ev-ren-Descartes-method"
-   ],
-   "relatedFigures": [
-    "fig-newton",
-    "fig-matteo-ricci",
-    "fig-johann-adam-schell-von-bell",
-    "fig-w-leibniz",
-    "fig-w-descartes",
-    "fig-w-hobbes"
-   ],
-   "tags": [
-    "世界史",
-    "思想家",
-    "莱布尼茨",
-    "微积分",
-    "单子论"
-   ]
   },
   {
    "id": "fig-otto-von-bismarck",
@@ -13149,7 +13120,7 @@
    "relatedFigures": [
     "fig-victoria",
     "fig-william-wilberforce",
-    "fig-jawaharlal-nehru",
+    "fig-nehru",
     "fig-abraham-lincoln",
     "fig-lord-ripon",
     "fig-watt"
@@ -13190,7 +13161,6 @@
    ],
    "relatedEvents": [],
    "relatedFigures": [
-    "fig-jawaharlal-nehru",
     "fig-nehru",
     "fig-leo-tolstoy",
     "fig-ho-chi-minh",
@@ -13209,38 +13179,6 @@
     "反殖民",
     "政治领袖"
    ]
-  },
-  {
-   "id": "fig-jawaharlal-nehru",
-   "name": "贾瓦哈拉尔·尼赫鲁",
-   "alias": "",
-   "birthYear": 1889,
-   "deathYear": 1964,
-   "lifeText": "公元1889年－公元1964年",
-   "role": "政治家",
-   "periodId": "w-modern-south-asia",
-   "gender": "male",
-   "summary": "印度首任总理，塑造现代印度的世俗民主国家形态。",
-   "biography": "尼赫鲁生于安拉姆布尔一个克什米尔婆罗门家庭的旁支，父亲是自由主义者，后任《国民先驱报》编辑并参与印度独立运动。尼赫鲁早年留学剑桥与伦敦，1923年加入国大党，1926年访问欧洲并结识鲍尔温等政治家，此后长期在欧洲流亡。他的自传《发现的印度》与《迈向自由》塑造了一代印度人的政治想象。1930年代他主持国大党的左翼转向并参与反殖民运动，1931年与英国总督艾伦顿签订《甘地—艾伦顿协定》，释放被囚政治犯并允许沿海制盐，标志国大党转向谈判。1942年他被英国逮捕关押在艾哈迈达巴德至1945年，二战结束与英国大选后他出任临时执委会主席。1947年印度独立，他任首任总理，主持制宪会议，在没有统一语言与众多民族与宗教的条件下确立了世俗的联邦共和制与议会民主。他推行混合经济与土地改革，是冷战格局中不结盟政策的早期实践者，1955年在万隆会议上起了先导作用。1962年中印战争与1964年果阿解放使他的威信受挫，同年他在加尔各答逝世。",
-   "achievements": [
-    "1931年与艾伦顿签订《甘地—艾伦顿协定》",
-    "1942至1945年狱中写下《自传》，塑造一代人的政治想象",
-    "1947年主持制宪会议，确立印度的世俗联邦共和制",
-    "推行混合经济与土地改革",
-    "1955年万隆会议的重要推动者，不结盟政策的先声"
-   ],
-   "quotes": [
-    "长期的历史总是由少数人领导，多数人跟随。"
-   ],
-   "relatedEvents": [
-    "ev-zzbq13-indian-indep"
-   ],
-   "relatedFigures": [
-    "fig-mahatma-gandhi",
-    "fig-jamsetji-tata",
-    "fig-nehru"
-   ],
-   "tags": []
   },
   {
    "id": "fig-ho-chi-minh",
@@ -13396,6 +13334,7 @@
     "fig-richard-nixon",
     "fig-john-f-kennedy",
     "fig-castro",
+    "fig-zzbq8-gorbachev",
     "fig-zzbq20-brezhnev",
     "fig-zzbq20-dulles"
    ],
@@ -14004,35 +13943,6 @@
    "tags": []
   },
   {
-   "id": "fig-ibn-majid",
-   "name": "伊本·马吉德",
-   "alias": "",
-   "birthYear": 1432,
-   "deathYear": 1500,
-   "lifeText": "公元1432年－公元1500年",
-   "role": "航海家",
-   "periodId": "w-early-modern",
-   "gender": "male",
-   "summary": "阿拉伯航海家与诗人，达·伽马远航印度的引航员。",
-   "biography": "伊本·马吉德生于阿拉伯半岛南部的一个港口家庭，是也门阿丹的著名航海家兼诗人，他在航海文献中自称「苦行僧」，以断食与祈祷为航海生活的一部分。他的家族世代通晓季风与红海的航海知识，他本人在印度与东非之间往来密切，兼具航海实践与天文观测能力。1498年瓦斯科·达·伽马率船绕过好望角抵达印度时，伊本·马吉德受苏丹曼苏尔三世之命为葡人领航，他从马林迪出海，在印度洋上引导达·伽马船队横渡阿拉伯海。他留下的航海诗篇是研究当时阿拉伯航海技术与印度洋地理的珍贵文献。1500年他于归国途中失踪或去世。此后葡萄牙人正是凭借他提供的季风与天文知识，打开了绕好望角的稳定航线，使大西洋与印度洋连成一体，阿拉伯与印度洋的旧有贸易格局被彻底改写。",
-   "achievements": [
-    "以达·伽马船队引航员身份，1498年引导其横渡印度洋抵达印度",
-    "世代通晓季风规律与阿拉伯海天文观测",
-    "以航海诗篇记录当时航海技术与地理知识",
-    "其领航提供的季风知识成为葡萄牙远航航线的技术前提",
-    "最终促成大西洋与印度洋航路的贯通"
-   ],
-   "quotes": [],
-   "relatedEvents": [
-    "ev-discover-oman-oceanic"
-   ],
-   "relatedFigures": [
-    "fig-ahmad-ibn-majid",
-    "fig-vasco-da-gama"
-   ],
-   "tags": []
-  },
-  {
    "id": "fig-ahmad-ibn-majid",
    "name": "艾哈迈德·伊本·马吉德",
    "alias": "伊本·马吉德",
@@ -14068,7 +13978,7 @@
     "季风航行"
    ],
    "relatedFigures": [
-    "fig-ibn-majid"
+    "fig-vasco-da-gama"
    ]
   },
   {
@@ -14329,7 +14239,6 @@
    "relatedFigures": [
     "fig-johann-adam-schell-von-bell",
     "fig-francis-xavier",
-    "fig-leibniz",
     "fig-w-leibniz"
    ],
    "tags": []
@@ -14358,7 +14267,6 @@
    "relatedEvents": [],
    "relatedFigures": [
     "fig-matteo-ricci",
-    "fig-leibniz",
     "fig-w-leibniz"
    ],
    "tags": []
@@ -15357,7 +15265,7 @@
   },
   {
    "id": "fig-moctezuma",
-   "name": "蒙特祖马二世",
+   "name": "蒙特祖玛二世",
    "alias": "蒙特祖马",
    "birthYear": 1465,
    "deathYear": 1520,
@@ -15373,12 +15281,7 @@
     "以浮园农业与堤道系统维持庞大城市的粮食供应",
     "在与西班牙人最初的接触中试图以外交与款待化解冲突",
     "其被俘与阿兹特克的迅速崩溃成为前哥伦布文明命运的关键节点",
-    "其经历揭示了两种文明在技术差距下的接触方式与后果",
-    "阿兹特克帝国统治者，疆域扩至太平洋与加勒比海",
-    "与西班牙人科尔特斯交换礼物并提供黄金与珍宝",
-    "据传被视为羽蛇神化身",
-    "1520年与西班牙人冲突中身亡",
-    "1521年帝国陷落，阿兹特克文明终结"
+    "其经历揭示了两种文明在技术差距下的接触方式与后果"
    ],
    "quotes": [],
    "relatedEvents": [
@@ -15389,16 +15292,17 @@
    ],
    "relatedFigures": [
     "fig-pachacuti",
-    "fig-christopher-columbus"
+    "fig-christopher-columbus",
+    "fig-zzbq15-montezuma1",
+    "fig-zzbq9-cortes",
+    "fig-zzbq15-cuauhtemoc"
    ],
    "tags": [
     "阿兹特克",
     "蒙特祖马",
     "中美洲",
     "特诺奇蒂特兰",
-    "殖民",
-    "墨西哥",
-    "西班牙征服"
+    "殖民"
    ]
   },
   {
@@ -15876,7 +15780,9 @@
     "我们虽不能选择降临的年代，但可以选择我们回应的方式。"
    ],
    "relatedEvents": [
-    "ev-zzbq5-cuban"
+    "ev-zzbq5-cuban",
+    "ev-zzbq5-berlinwall",
+    "ev-zzbq6-vietnam"
    ],
    "relatedFigures": [
     "fig-neil-armstrong",
@@ -15885,6 +15791,7 @@
     "fig-castro",
     "fig-buzz-aldrin",
     "fig-michael-collins",
+    "fig-zzbq8-gorbachev",
     "fig-richard-nixon",
     "fig-henry-kissinger",
     "fig-churchill"
@@ -16319,7 +16226,6 @@
    "relatedEvents": [],
    "relatedFigures": [
     "fig-mahatma-gandhi",
-    "fig-jawaharlal-nehru",
     "fig-tito",
     "fig-nkrumah",
     "fig-gamal-abdel-nasser",
@@ -16328,6 +16234,7 @@
     "fig-zzbq13-ambedkar",
     "fig-zzbq5-mandela",
     "fig-zzbq8-mlk",
+    "fig-jamsetji-tata",
     "fig-lord-ripon"
    ],
    "tags": [
@@ -18972,12 +18879,11 @@
    ],
    "relatedFigures": [
     "fig-galileo",
-    "fig-leibniz",
+    "fig-w-leibniz",
     "fig-watt",
     "fig-kepler",
     "fig-w-descartes",
-    "fig-w-hobbes",
-    "fig-w-leibniz"
+    "fig-w-hobbes"
    ],
    "tags": [
     "世界史",
@@ -19277,44 +19183,6 @@
    ]
   },
   {
-   "id": "fig-w-john-wycliffe",
-   "name": "约翰·薄利丘",
-   "alias": "薄利丘",
-   "birthYear": 1330,
-   "deathYear": 1384,
-   "lifeText": "约公元1330年－公元1384年",
-   "role": "神学家",
-   "periodId": "w-byzantium-late",
-   "gender": "male",
-   "summary": "英国的神学家与宗教改革先驱，以《圣经》译成英文与教会批判开启宗教改革的序幕。",
-   "biography": "薄利丘约生于1330年的英国约克郡，早年先后在牛津与巴黎求学并取得博士学位，在巴黎期间他接触了经院哲学的辩论风气并熟悉了当时教会的腐败，回国后在牛津与拉普霍斯任教，逐渐形成以《圣经》为最高权威、以基督的贫困与教会的纯朴为原则的神学体系。他的论著《论统治者的特权》与《论教会与国家的权力》系统地批判了教廷的世俗权力与教会财产的制度，主张教会的权柄限于灵魂的照管，世俗的财产与司法属于世俗政权；他坚决反对赎罪券与教会的聚财以及教士的世俗职位，形成了以国家权力限制教会权力的先声。他最实际的贡献是把《圣经》译成英文，他的翻译不依拉丁通行本而直接据希伯来文与希腊文校订，译文以明白晓畅著称，十四世纪末已被广泛抄写与传阅，这使普通英语使用者第一次能够直接阅读经文，这一工作常被视为宗教改革的真正开端。他晚年在反对赎罪券的布道中受到教会的打击，被迫由牛津迁往威克利与拉普霍斯，他晚年得到英王爱德华三世与冈特的约翰的支持，在《圣体问题论纲》中为基督在圣体中的实在性辩护，与后来的神学争论直接相关。他一三八四年在拉普霍斯逝世，被葬于该地的圣玛丽教堂。薄利丘的思想经由他的门生杰罗姆·泰勒与约翰·普尔沃 的关照而被保存，普尔沃在牛津的辩论直接启发了威克里夫与十六世纪的宗教改革者。他亲历的时代见证了「封建制度的形成与封君封臣关系」等重大事件，相关的事件包括「「中世纪大学的兴起与经院哲学」、「拉丁语与希腊语的双语世界与东西教会分化」、「维京人的航海与北大西洋联系」」。上述史事构成了他活动的历史背景，也使他的作为被置于当时的时代脉络之中加以理解。",
-   "achievements": [
-    "把《圣经》译成英文并据原文校订，使普通英语者能直接读经",
-    "以《论统治者的特权》系统批判教廷的世俗权力与财产",
-    "提出教会的权柄限于灵魂的照管，划分了教会与国家的界域",
-    "以先知与早期教会为尺度批判当代教会的腐败与赎罪券",
-    "以《圣体问题论纲》捍卫基督在圣体中的实在性",
-    "其门生把其思想带入牛津的辩论，开启了神学改革的序幕",
-    "被后世视为十六世纪宗教改革的重要先驱"
-   ],
-   "quotes": [],
-   "relatedEvents": [
-    "ev-ren-luther-reformation",
-    "ev-ren-printing-incunabula",
-    "ev-zzbq12-reformation"
-   ],
-   "relatedFigures": [
-    "fig-martin-luther"
-   ],
-   "tags": [
-    "英国",
-    "神学家",
-    "宗教改革先驱",
-    "圣经翻译",
-    "中世纪"
-   ]
-  },
-  {
    "id": "fig-w-descartes",
    "name": "笛卡尔",
    "alias": "勒内·笛卡尔",
@@ -19346,7 +19214,7 @@
    ],
    "relatedFigures": [
     "fig-newton",
-    "fig-leibniz",
+    "fig-w-leibniz",
     "fig-galileo",
     "fig-w-hobbes"
    ],
@@ -19388,7 +19256,7 @@
     "ev-zzbq12-enlightenment"
    ],
    "relatedFigures": [
-    "fig-leibniz",
+    "fig-w-leibniz",
     "fig-galileo",
     "fig-newton",
     "fig-w-descartes"
@@ -19433,9 +19301,10 @@
    "relatedFigures": [
     "fig-newton",
     "fig-galileo",
-    "fig-leibniz",
     "fig-matteo-ricci",
-    "fig-johann-adam-schell-von-bell"
+    "fig-johann-adam-schell-von-bell",
+    "fig-w-descartes",
+    "fig-w-hobbes"
    ],
    "tags": [
     "德国",
@@ -19809,51 +19678,6 @@
     "律宗",
     "唐招提寺",
     "中日交流"
-   ]
-  },
-  {
-   "id": "fig-w-augustus-alt",
-   "name": "屋大维",
-   "alias": "盖乌斯·屋大维",
-   "birthYear": -63,
-   "deathYear": 14,
-   "lifeText": "公元前63年－公元14年",
-   "role": "罗马首位皇帝",
-   "periodId": "w-roman-republic",
-   "gender": "male",
-   "summary": "奥古斯都的本名，罗马帝国的缔造者，以元首制结束百年内战并建立和平。",
-   "biography": "屋大维是奥古斯都的本名，他与奥古斯都是同一个人，前者是出生时所得的名，后者是他于公元前二十七年获得的尊号，二者在史学中常被混称而实际上应加区分。屋大维公元前63年生于罗马的一个骑士阶层家庭，其父是萨莫尼乌斯家族的成员，他与恺撒有远亲关系，因家族的关系被推举为恺撒的继承人，这一人质式的继承在他十六岁时便把他卷入内战。他在西班牙与高卢的战役中锻炼了军事经验，恺撒遇刺后，他以讨伐「弑君者」的正当性集结了军队，陆续击败了安东尼与克利奥帕特拉在东方的势力。公元前三十一年的亚克兴海战决定了东地中海的归属，埃及随后成为罗马的行省。公元前二十七年他向元老院交还权力并接受奥古斯都的尊号，确立了元首制：共和的机构形式得以保存，实际的权力则集中于皇帝之手。他整顿了财政，整编了军队并创立了常备的禁卫军与元老行省，推行了土地与税收的改革，并以二十八年和平稳定了地中海的秩序。他的长期统治使罗马从内战的废墟中重建，城市的建设、堤防与道路的工程以及收入的分配都得到改善，同时也开启了元首制下皇权与元老院之间微妙的权力平衡。他长期巡视行省并以元首的身份处理军事、财政与司法事务，他留下的《功业录》自述其作为，是研究这一时期政治观念的重要文献。他公元十四年逝世于南意大利的诺拉，由他早先指定的养子提比略继位，继承制度由此确立。他亲历的时代见证了「屋大维建立元首制与罗马和平」等重大事件，相关的事件包括「「罗马帝国的全盛与地中海和平」、「罗马圆形竞技场与公共工程」、「罗马公民权与拉丁语的国际化」」。上述史事构成了他活动的历史背景，也使他的作为被置于当时的时代脉络之中加以理解。",
-   "achievements": [
-    "公元前31年在亚克兴海战击败安东尼与克利奥帕特拉",
-    "公元前27年建立元首制，以共和形式确立不可动摇的皇权",
-    "二十八年和平稳定了地中海的秩序，促成贸易的恢复",
-    "整顿财政与军队，整编禁卫军并设立元老行省",
-    "推行土地与税收的改革，改善了城市的公共工程与收入分配",
-    "长期巡行行省，以亲自处理军政与司法事务来巩固统治",
-    "其《功业录》成为了解罗马帝国政治观念的基本文献"
-   ],
-   "quotes": [],
-   "relatedEvents": [
-    "ev-rome-principate",
-    "ev-rome-caesar-assassination",
-    "ev-rome-actium",
-    "ev-rome-pax-rome",
-    "ev-rome-numidia-juba",
-    "ev-rome-tiberius-grabbo",
-    "ev-rome-colosseum",
-    "ev-rome-juventus"
-   ],
-   "relatedFigures": [
-    "fig-augustus",
-    "fig-julius-caesar",
-    "fig-cleopatra-vii"
-   ],
-   "tags": [
-    "罗马",
-    "皇帝",
-    "屋大维",
-    "元首制",
-    "奥古斯都"
    ]
   },
   {
@@ -21230,7 +21054,7 @@
     "ev-discover-toltec-texcoco"
    ],
    "relatedFigures": [
-    "fig-zzbq9-montezuma",
+    "fig-moctezuma",
     "fig-zzbq9-cortes",
     "fig-zzbq15-cuauhtemoc"
    ],
@@ -21430,7 +21254,7 @@
     "ev-discover-toltec-texcoco"
    ],
    "relatedFigures": [
-    "fig-zzbq9-montezuma",
+    "fig-moctezuma",
     "fig-zzbq9-cortes",
     "fig-zzbq15-montezuma1"
    ],
@@ -23405,10 +23229,12 @@
    "relatedEvents": [
     "ev-zzbq8-gorbachev",
     "ev-zzbq6-soviet-collapse",
-    "ev-zzbq5-coldwar",
-    "ev-zzbq5-berlinwall"
+    "ev-zzbq5-berlinwall",
+    "ev-zzbq5-coldwar"
    ],
    "relatedFigures": [
+    "fig-john-f-kennedy",
+    "fig-khrushchev",
     "fig-churchill",
     "fig-stalin",
     "fig-zzbq5-truman",
@@ -23421,42 +23247,6 @@
     "公开性",
     "诺贝尔和平奖",
     "苏联解体"
-   ]
-  },
-  {
-   "id": "fig-zzbq9-montezuma",
-   "name": "蒙特祖玛二世",
-   "alias": "蒙特苏马",
-   "birthYear": 1466,
-   "deathYear": 1520,
-   "lifeText": "公元1466年－公元1520年",
-   "role": "阿兹特克帝国第九位君主、西班牙征服时期的末代强势君主",
-   "periodId": "w-mesoamerica",
-   "gender": "male",
-   "summary": "阿兹特克帝国君主，其统治期正值西班牙人到来，被科尔特斯俘获后死于动乱，标志阿兹特克霸权的崩溃。",
-   "biography": "蒙特祖玛二世（，约1466—1520），阿兹特克帝国第九位「特拉托阿尼」（君主），1502年即位。他在位期间帝国达到最大版图，通过军事征服与纳贡体系控制中美洲数百城邦，扩建特诺奇蒂特兰的大神庙，强化贵族与祭司阶层，以人祭维系宇宙秩序。1519年，西班牙人科尔特斯率军抵达墨西哥湾沿岸，蒙特祖玛最初派人赠送礼物试图劝阻其前进，因阿兹特克传说中羽蛇神魁札尔科亚特尔将自东方归来的预言而犹豫不决。科尔特斯联合特拉斯卡拉等反阿兹特克部族，进入特诺奇蒂特兰，将蒙特祖玛软禁于宫中。1520年，阿兹特克人在祭祀节庆时遭西班牙人屠杀，引发全城起义，蒙特祖玛出面安抚时被民众投石击伤（一说被西班牙人杀害），数日后死去。他的死与随后的「悲伤之夜」标志阿兹特克帝国走向覆亡。蒙特祖玛是美洲原住民帝国最后一位强势君主的代表，其悲剧性的犹豫成为征服史研究中的经典议题。",
-   "achievements": [
-    "阿兹特克帝国扩张至最大版图",
-    "扩建特诺奇蒂特兰大神庙",
-    "面对西班牙征服时的外交与抵抗"
-   ],
-   "quotes": [],
-   "relatedEvents": [
-    "ev-zzbq9-aztec",
-    "ev-zzbq15-aztec-rise",
-    "ev-discover-conquistador-aztec",
-    "ev-discover-toltec-texcoco"
-   ],
-   "relatedFigures": [
-    "fig-zzbq9-cortes",
-    "fig-zzbq15-montezuma1",
-    "fig-zzbq15-cuauhtemoc"
-   ],
-   "tags": [
-    "阿兹特克",
-    "美洲",
-    "君主",
-    "西班牙征服"
    ]
   },
   {
@@ -23485,7 +23275,7 @@
     "ev-zzbq15-aztec-rise"
    ],
    "relatedFigures": [
-    "fig-zzbq9-montezuma",
+    "fig-moctezuma",
     "fig-christopher-columbus",
     "fig-zzbq9-pizarro",
     "fig-zzbq15-lascasas",
@@ -24061,7 +23851,6 @@
    "relatedFigures": [
     "fig-cleopatra-vii",
     "fig-augustus",
-    "fig-w-augustus-alt",
     "fig-w-hamilcar"
    ],
    "tags": [
@@ -24108,8 +23897,7 @@
    ],
    "relatedFigures": [
     "fig-julius-caesar",
-    "fig-cleopatra-vii",
-    "fig-w-augustus-alt"
+    "fig-cleopatra-vii"
    ],
    "tags": [
     "罗马",
@@ -24343,8 +24131,7 @@
    "relatedEvents": [],
    "relatedFigures": [
     "fig-julius-caesar",
-    "fig-augustus",
-    "fig-w-augustus-alt"
+    "fig-augustus"
    ],
    "tags": [
     "女王",

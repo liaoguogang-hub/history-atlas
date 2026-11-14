@@ -676,7 +676,6 @@
   "keyFigures": [
    "fig-julius-caesar",
    "fig-lucretius",
-   "fig-w-augustus-alt",
    "fig-augustus"
   ],
   "relatedEvents": [],
@@ -1205,8 +1204,8 @@
    "fig-diderot",
    "fig-zzbq12-locke",
    "fig-suleiman-the-magnificent",
-   "fig-ibn-majid",
-   "fig-rousseau"
+   "fig-rousseau",
+   "fig-zzbq12-smith"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1271,8 +1270,7 @@
    "fig-newton",
    "fig-kepler",
    "fig-w-descartes",
-   "fig-w-leibniz",
-   "fig-leibniz"
+   "fig-w-leibniz"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1484,14 +1482,14 @@
   "population": "约23亿至53亿",
   "culture": "核威慑与军备竞赛；太空竞赛；去殖民化与不结盟；福利国家与冷战经济；意识形态竞争",
   "keyFigures": [
+   "fig-harry-truman",
+   "fig-khrushchev",
+   "fig-richard-nixon",
    "fig-churchill",
    "fig-claude-shannon",
    "fig-zhao-ziyang",
    "fig-juan-antonio-samaranch",
-   "fig-suharto",
-   "fig-julius-nyerere",
-   "fig-henry-kissinger",
-   "fig-nguyen-van-thieu"
+   "fig-suharto"
   ],
   "relatedEvents": [],
   "tags": [
@@ -1689,7 +1687,16 @@
   "capital": "特奥蒂瓦坎、奇琴伊察、蒂卡尔、库斯科、坦特斯科",
   "population": "约500万至6000万",
   "culture": "象形文字与玛雅书写；二十进制与零概念；金字塔与梯田农业；结绳记事；长纪历与天文观测",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq15-pacal",
+   "fig-zzbq15-kukulkan",
+   "fig-zzbq15-itzamna",
+   "fig-zzbq15-montezuma1",
+   "fig-moctezuma",
+   "fig-zzbq9-cortes",
+   "fig-zzbq15-lascasas",
+   "fig-zzbq15-cuauhtemoc"
+  ],
   "relatedEvents": [],
   "tags": [
    "玛雅",
@@ -1745,7 +1752,6 @@
   "culture": "网格城市与市场；塔庙与石头雕刻；湖上堤道与浮园；贡赋与贸易联盟；球赛与献祭",
   "keyFigures": [
    "fig-zzbq15-montezuma1",
-   "fig-zzbq9-montezuma",
    "fig-moctezuma",
    "fig-zzbq9-cortes",
    "fig-zzbq15-lascasas",
@@ -1803,7 +1809,16 @@
   "capital": "平壤、龟尾、首尔（汉城）、奈良、平城、平安京、镰仓、江户、大越（河内）、顺化",
   "population": "约1000万至1.5亿",
   "culture": "三国与高丽；大化改新；佛教与儒学；武家与幕府；锁国与南蛮贸易；儒官僚国家",
-  "keyFigures": [],
+  "keyFigures": [
+   "fig-zzbq9-sejong",
+   "fig-zzbq9-yisunshin",
+   "fig-zzbq16-heo-gyun",
+   "fig-modu-chanyu",
+   "fig-zzbq9-ieyasu",
+   "fig-zzbq16-fukuzawa",
+   "fig-zzbq9-hideyoshi",
+   "fig-zzbq9-shotoku"
+  ],
   "relatedEvents": [],
   "tags": [
    "朝鲜",
@@ -2302,10 +2317,10 @@
    "fig-ibn-khaldun",
    "fig-edward-iii",
    "fig-ibn-battuta",
-   "fig-w-john-wycliffe",
    "fig-john-wycliffe",
    "fig-constantine-xi",
-   "fig-henry-v"
+   "fig-henry-v",
+   "fig-joan-of-arc"
   ],
   "relatedEvents": [],
   "tags": [

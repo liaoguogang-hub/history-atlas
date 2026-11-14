@@ -172,7 +172,7 @@
   ],
   "relatedFigures": [
    "fig-mahatma-gandhi",
-   "fig-jawaharlal-nehru",
+   "fig-nehru",
    "fig-tito",
    "fig-nkrumah",
    "fig-gamal-abdel-nasser",
@@ -1563,7 +1563,6 @@
    "非暴力是面对一切恶的最强大的武器。"
   ],
   "relatedFigures": [
-   "fig-jawaharlal-nehru",
    "fig-nehru",
    "fig-leo-tolstoy",
    "fig-ho-chi-minh",
@@ -2607,7 +2606,7 @@
  },
  {
   "id": "fig-moctezuma",
-  "name": "蒙特祖马二世",
+  "name": "蒙特祖玛二世",
   "alias": "蒙特祖马",
   "role": "君主",
   "birthYear": 1465,
@@ -2963,7 +2962,7 @@
    "fig-ferdinand-magellan",
    "fig-alfonso-de-albuquerque",
    "fig-marco-polo",
-   "fig-ibn-majid"
+   "fig-ahmad-ibn-majid"
   ],
   "relatedEvents": [
    "ev-discover-vesco-gama",
@@ -3129,7 +3128,7 @@
   "relatedFigures": [
    "fig-victoria",
    "fig-william-wilberforce",
-   "fig-jawaharlal-nehru",
+   "fig-nehru",
    "fig-abraham-lincoln"
   ],
   "relatedEvents": [

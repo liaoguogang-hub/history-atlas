@@ -50,7 +50,7 @@ CROSS_CIV_ERAS = [
      "蒸汽船、铁路与海底电报把全球通讯压缩到小时级。"
      "殖民体系把亚非拉纳入单一市场，同时也催生了反殖民的民族运动。",
      ["fig-victoria", "fig-harry-white", "fig-ho-chi-minh",
-      "fig-ito-hirobumi", "fig-jamsetji-tata", "fig-jawaharlal-nehru"]),
+      "fig-ito-hirobumi", "fig-jamsetji-tata", "fig-nehru"]),
     ("w-cc-contemporary", "当代全球化", 1946, 2026,
      "布雷顿森林体系、集装箱运输与互联网重塑了全球分工。"
      "气候协定、 pandemic 与人工智能把人类共同问题推到前台。",
